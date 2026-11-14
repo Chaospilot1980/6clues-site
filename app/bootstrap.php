@@ -92,6 +92,16 @@ function migrate(PDO $pdo): void {
         recipients INT NOT NULL DEFAULT 0,
         sent_at DATETIME NOT NULL
     )$engine");
+    $pdo->exec("CREATE TABLE IF NOT EXISTS reviews (
+        user_id INT NOT NULL,
+        slug VARCHAR(100) NOT NULL,
+        stars TINYINT NOT NULL,
+        body VARCHAR(400) NOT NULL DEFAULT '',
+        show_name TINYINT NOT NULL DEFAULT 0,
+        approved TINYINT NOT NULL DEFAULT 0,
+        created_at DATETIME NOT NULL,
+        PRIMARY KEY (user_id, slug)
+    )$engine");
     $pdo->exec("CREATE TABLE IF NOT EXISTS solves (
         user_id INT NOT NULL,
         slug VARCHAR(100) NOT NULL,
@@ -230,4 +240,24 @@ function send_newsletter_mail(array $user, string $subject, string $body): bool 
     $headers = "From: $site <$from>\r\nReply-To: $from\r\nContent-Type: text/plain; charset=UTF-8\r\n"
              . "List-Unsubscribe: <$unsub>\r\nList-Unsubscribe-Post: List-Unsubscribe=One-Click\r\n";
     return mail($user['email'], $subject, $text, $headers, '-f' . $from);
+}
+
+/** Approved reviews with first name, newest first. */
+function reviews(?string $slug = null, int $limit = 6, int $minStars = 1): array {
+    $sql = "SELECT r.*, u.name FROM reviews r JOIN users u ON u.id = r.user_id WHERE r.approved = 1 AND r.stars >= ? AND r.body <> ''" . ($slug ? ' AND r.slug = ?' : '') . ' ORDER BY r.created_at DESC LIMIT ' . (int)$limit;
+    $st = db()->prepare($sql);
+    $st->execute($slug ? [$minStars, $slug] : [$minStars]);
+    return $st->fetchAll();
+}
+function first_name(string $n): string { $p = preg_split('/\s+/', trim($n)); return $p[0] ?? ''; }
+function render_reviews(array $rs): string {
+    if (!$rs) return '';
+    $h = '<div class="reviews">';
+    foreach ($rs as $r) {
+        $m = mystery($r['slug']);
+        $h .= '<figure class="review"><div class="stars" aria-label="' . (int)$r['stars'] . ' out of 5 stars">' . str_repeat('★', (int)$r['stars']) . str_repeat('☆', 5 - (int)$r['stars']) . '</div>'
+            . '<blockquote>' . e($r['body']) . '</blockquote><figcaption>– ' . ($r['show_name'] ? e(first_name($r['name'])) : 'A detective')
+            . ($m ? ', on <a href="/mysteries/' . e($m['slug']) . '">' . e($m['title']) . '</a>' : '') . '</figcaption></figure>';
+    }
+    return $h . '</div>';
 }

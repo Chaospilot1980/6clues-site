@@ -27,6 +27,9 @@ $routes = [
     '#^/admin/subscribers\.csv$#'             => 'admin_csv',
     '#^/admin/newsletter$#'                   => 'admin_newsletter',
     '#^/unsubscribe$#'                        => 'unsubscribe',
+    '#^/cron/deploy$#'                        => 'cron_deploy',
+    '#^/review/([a-z0-9\-]+)$#'              => 'review',
+    '#^/admin/reviews$#'                      => 'admin_reviews',
     '#^/privacy$#'                            => 'privacy',
     '#^/sitemap\.xml$#'                       => 'sitemap',
     '#^/robots\.txt$#'                        => 'robots',
@@ -81,7 +84,7 @@ function home(): void {
   <h2>How it works</h2>
   <ol class="step-list">
     <li><b>Choose a case.</b> Level 1 is perfect for a first game; level 3 will fool most grown-up detectives.</li>
-    <li><b>Print and hide six posters</b> – or play every clue on screen. Each poster has a witness, a statement and a piece of evidence.</li>
+    <li><b>Print and hide six posters – or play on screen.</b> On paper, hide the clues around the house, garden or office. On screen, flip through the same six posters on your phone, tablet or TV. Each one has a witness, a statement and a piece of evidence.</li>
     <li><b>Compare the clues.</b> Times, alibis and small details only make sense when you put them together.</li>
     <li><b>Scan the code and name the culprit.</b> Sign in with Google or your email to submit your answer, see the solution and keep track of the cases you've cracked.</li>
   </ol>
@@ -96,6 +99,10 @@ function home(): void {
     </div>
   <?php endforeach; ?>
 </section>
+
+<?php $rv = reviews(null, 3, 4); if ($rv): ?>
+<section class="wrap"><h2>What detectives say</h2><?= render_reviews($rv) ?></section>
+<?php endif; ?>
 
 <section class="wrap newsletter-box">
   <h2>New cases every month</h2>
@@ -138,7 +145,7 @@ function show(string $slug): void {
     <a class="choice" href="/mysteries/<?= e($slug) ?>/print" data-ga-click="print_posters" data-ga-mystery="<?= e($slug) ?>">
       <b>Print the six posters</b><span>A4 or A3, with a QR code on every poster. Hide them in six places.</span></a>
     <a class="choice" href="/mysteries/<?= e($slug) ?>/play" data-ga-click="play_online" data-ga-mystery="<?= e($slug) ?>">
-      <b>Play on screen</b><span>All six clues in your browser – great for a quick game.</span></a>
+      <b>Play on screen</b><span>Flip through the six clue posters on your phone, tablet or TV – no printer needed.</span></a>
     <a class="choice" href="/answer/<?= e($slug) ?>">
       <b>Name the <?= e($m['who']) ?></b><span>Ready? Submit your answer and see the solution.</span></a>
   </div>
@@ -152,6 +159,7 @@ function show(string $slug): void {
     <li>Works for 2–30 players. Let teams compete, or play as one big detective squad.</li>
     <li>Allow 30–60 minutes for level 1 and up to 90 minutes for level 3.</li>
   </ul>
+  <?php $rv = reviews($slug, 6); if ($rv): ?><h2>Player reviews</h2><?= render_reviews($rv) ?><?php endif; ?>
 </section>
 <?php
     page_end();
@@ -159,22 +167,38 @@ function show(string $slug): void {
 
 function play(string $slug): void {
     $m = need_mystery($slug);
-    page_start(['title' => $m['title'] . ' – play online', 'description' => 'Read all six clues of ' . $m['title'] . ' in your browser and work out who did it.', 'path' => '/mysteries/' . $slug . '/play']);
+    $answer = url('/answer/' . $slug . '?src=screen');
+    page_start(['title' => $m['title'] . ' – play online', 'description' => 'Play ' . $m['title'] . ' on screen: flip through all six clue posters and work out who did it.', 'path' => '/mysteries/' . $slug . '/play']);
     ?>
-<section class="wrap case">
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Mysteries</a> › <a href="/mysteries/<?= e($slug) ?>"><?= e($m['title']) ?></a> › Play</nav>
-  <h1><?= e($m['title']) ?></h1>
-  <div class="briefing"><?= $m['intro'] ?></div>
-  <?php foreach ($m['clues'] as $i => $c): ?>
-    <article class="clue" id="clue-<?= $i + 1 ?>">
-      <header><span class="clue-no">Clue <?= $i + 1 ?> of 6</span><h2><?= e($c['name']) ?> <small><?= e($c['role']) ?></small></h2></header>
-      <blockquote>”<?= e($c['quote']) ?>”</blockquote>
-      <p class="ev-label">Evidence #<?= $i + 1 ?> · <?= e($c['label']) ?></p>
-      <div class="evidence"><?= $c['evidence'] ?></div>
-    </article>
-  <?php endforeach; ?>
-  <p class="center"><a class="btn btn-big" href="/answer/<?= e($slug) ?>">I know who did it</a></p>
+<section class="wrap case play">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Mysteries</a> › <a href="/mysteries/<?= e($slug) ?>"><?= e($m['title']) ?></a> › Play on screen</nav>
+  <div class="play-head">
+    <h1><?= e($m['title']) ?></h1>
+    <a class="btn" href="/answer/<?= e($slug) ?>">I know who did it</a>
+  </div>
+  <div class="clue-tabs" role="tablist" aria-label="Clues">
+    <?php foreach ($m['clues'] as $i => $c): ?>
+      <button role="tab" class="clue-tab" data-clue="<?= $i ?>" aria-selected="<?= $i === 0 ? 'true' : 'false' ?>"><b><?= $i + 1 ?></b><span><?= e($c['name']) ?></span></button>
+    <?php endforeach; ?>
+  </div>
+  <div class="board">
+    <?php foreach ($m['clues'] as $i => $c): ?>
+      <div class="poster-fit" data-poster="<?= $i ?>" <?= $i ? 'hidden' : '' ?>><div class="poster-inner"><?= str_replace('{{ANSWER_URL}}', e($answer), $c['poster']) ?></div></div>
+    <?php endforeach; ?>
+  </div>
+  <div class="play-nav">
+    <button class="btn btn-ghost" data-step="-1">‹ Previous clue</button>
+    <button class="btn btn-ghost" data-step="1">Next clue ›</button>
+  </div>
+  <details class="text-version">
+    <summary>Read the clues as plain text</summary>
+    <?php foreach ($m['clues'] as $i => $c): ?>
+      <article class="clue"><header><span class="clue-no">Clue <?= $i + 1 ?> of 6</span><h2><?= e($c['name']) ?> <small><?= e($c['role']) ?></small></h2></header>
+      <blockquote>”<?= e($c['quote']) ?>”</blockquote><p class="ev-label">Evidence #<?= $i + 1 ?> · <?= e($c['label']) ?></p><div class="evidence"><?= $c['evidence'] ?></div></article>
+    <?php endforeach; ?>
+  </details>
 </section>
+<script src="/assets/js/qrcode.js"></script>
 <?php
     page_end();
 }
@@ -196,7 +220,7 @@ function print_page(string $slug): void {
 <div class="sheet"><?= str_replace('{{ANSWER_URL}}', e($answer), $c['poster']) ?></div>
 <?php endforeach; ?>
 <script src="/assets/js/qrcode.js"></script>
-<script src="/assets/js/app.js?v=1"></script>
+<script src="/assets/js/app.js?v=2"></script>
 </body></html>
 <?php
 }
@@ -358,6 +382,7 @@ function answer(string $slug): void {
       <h3>How the evidence gives it away</h3><ol><?php foreach ($s['proof'] as $x) echo "<li>$x</li>"; ?></ol>
       <h3>Why the others are innocent</h3><ul><?php foreach ($s['cleared'] as $x) echo "<li>$x</li>"; ?></ul>
     </div>
+    <?php review_form($uid, $slug); ?>
     <?php next_cases($u, $slug); ?>
   <?php else: ?>
     <form method="post" class="answer-form">
@@ -434,7 +459,7 @@ function admin(): void {
     <div><b><?= $subs ?></b><span>newsletter subscribers</span></div>
     <div><b><?= (int)$week->fetchColumn() ?></b><span>new players last 7 days</span></div>
   </div>
-  <p><a class="btn" href="/admin/newsletter">Write newsletter</a> <a class="btn btn-ghost" href="/admin/subscribers.csv">Download subscribers (CSV)</a></p>
+  <p><a class="btn" href="/admin/reviews">Reviews</a> <a class="btn" href="/admin/newsletter">Write newsletter</a> <a class="btn btn-ghost" href="/admin/subscribers.csv">Download subscribers (CSV)</a></p>
   <h2>Mysteries</h2>
   <div class="table-wrap"><table>
     <thead><tr><th>Mystery</th><th>Level</th><th class="num">Players</th><th class="num">Solved</th><th class="num">Revealed</th><th class="num">Avg. tries</th></tr></thead>
@@ -565,5 +590,117 @@ function unsubscribe(): void {
     echo '<section class="wrap narrow"><h1>' . ($ok ? 'You are unsubscribed' : 'Link not valid') . '</h1><p class="lead">'
        . ($ok ? 'You won\'t get any more emails about new mysteries. You can sign up again any time when you submit an answer.' : 'This unsubscribe link is not valid. Email us and we will remove you by hand.')
        . '</p><p><a class="btn" href="/">Back to the mysteries</a></p></section>';
+    page_end();
+}
+
+/**
+ * Pulls the latest version of the site from GitHub when VERSION has changed.
+ * Called hourly by Simply.com's cron service. Safe to call publicly: it can only
+ * install what is already on the public main branch, and runs at most every 2 minutes.
+ */
+function cron_deploy(): void {
+    header('Content-Type: text/plain; charset=utf-8');
+    @set_time_limit(120);
+    $repo = (string)cfg('deploy_repo', 'Chaospilot1980/6clues-site');
+    $data = dirname(__DIR__) . '/data';
+    if (!is_dir($data)) @mkdir($data, 0700, true);
+    $lock = $data . '/deploy.lock';
+    if (is_file($lock) && time() - filemtime($lock) < 120) { echo "busy\n"; return; }
+    touch($lock);
+    $get = function (string $u) {
+        $ch = curl_init($u);
+        curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_FOLLOWLOCATION => true, CURLOPT_TIMEOUT => 60, CURLOPT_USERAGENT => 'sixclues-deploy']);
+        $b = curl_exec($ch); $c = curl_getinfo($ch, CURLINFO_HTTP_CODE); curl_close($ch);
+        return $c === 200 ? $b : null;
+    };
+    $remote = trim((string)$get("https://raw.githubusercontent.com/$repo/main/VERSION?" . time()));
+    $local = trim((string)@file_get_contents(__DIR__ . '/VERSION'));
+    if ($remote === '' ) { echo "could not read remote VERSION\n"; return; }
+    if ($remote === $local && empty($_GET['force'])) { echo "up to date ($local)\n"; return; }
+    $zip = $get("https://codeload.github.com/$repo/zip/refs/heads/main");
+    if (!$zip) { echo "download failed\n"; return; }
+    $tmp = $data . '/deploy-' . bin2hex(random_bytes(4));
+    @mkdir($tmp, 0700, true);
+    file_put_contents("$tmp/site.zip", $zip);
+    $za = new ZipArchive();
+    if ($za->open("$tmp/site.zip") !== true) { echo "bad zip\n"; return; }
+    $za->extractTo("$tmp/x"); $za->close();
+    $src = glob("$tmp/x/*", GLOB_ONLYDIR)[0] ?? null;
+    if (!$src || !is_file("$src/index.php")) { echo "unexpected zip layout\n"; return; }
+    $n = 0;
+    $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($src, FilesystemIterator::SKIP_DOTS), RecursiveIteratorIterator::SELF_FIRST);
+    foreach ($it as $f) {
+        $rel = substr($f->getPathname(), strlen($src) + 1);
+        $dest = __DIR__ . '/' . $rel;
+        if ($f->isDir()) { if (!is_dir($dest)) @mkdir($dest, 0755, true); continue; }
+        if ($rel === 'index.php') continue; // replaced last
+        if (@copy($f->getPathname(), $dest)) $n++;
+    }
+    copy("$src/index.php", __DIR__ . '/index.php.new') && rename(__DIR__ . '/index.php.new', __DIR__ . '/index.php') && $n++;
+    $rm = function ($d) use (&$rm) { foreach (glob("$d/{,.}[!.,!..]*", GLOB_BRACE) ?: [] as $p) is_dir($p) ? $rm($p) : @unlink($p); @rmdir($d); };
+    $rm($tmp);
+    echo "deployed $remote ($n files)\n";
+}
+
+function review_form(int $uid, string $slug): void {
+    $st = db()->prepare('SELECT * FROM reviews WHERE user_id = ? AND slug = ?');
+    $st->execute([$uid, $slug]);
+    $r = $st->fetch();
+    if ($r) { echo '<p class="flash">Thanks for rating this case ' . str_repeat('★', (int)$r['stars']) . '</p>'; return; }
+    ?>
+<form method="post" action="/review/<?= e($slug) ?>" class="review-form">
+  <?= csrf_field() ?>
+  <h2>How did you like this case?</h2>
+  <div class="star-pick" role="radiogroup" aria-label="Stars">
+    <?php for ($s = 5; $s >= 1; $s--): ?><input type="radio" id="s<?= $s ?>" name="stars" value="<?= $s ?>" required><label for="s<?= $s ?>" title="<?= $s ?> stars">★</label><?php endfor; ?>
+  </div>
+  <label>A few words for other players (optional, no spoilers!)<textarea name="body" maxlength="300" rows="3"></textarea></label>
+  <label class="check"><input type="checkbox" name="show_name" value="1" checked> Show my first name with the review</label>
+  <button class="btn">Send rating</button>
+</form>
+<?php
+}
+
+function review(string $slug): void {
+    $m = need_mystery($slug);
+    $u = current_user();
+    if (!$u || ($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') redirect('/answer/' . $slug);
+    csrf_check();
+    $stars = max(1, min(5, (int)($_POST['stars'] ?? 0)));
+    $body = trim(mb_substr((string)($_POST['body'] ?? ''), 0, 300));
+    $auto = ($body === '' || !preg_match('#https?://|www\.|\.com|@#i', $body)) ? 1 : 0;
+    $st = db()->prepare('SELECT 1 FROM reviews WHERE user_id = ? AND slug = ?');
+    $st->execute([$u['id'], $slug]);
+    if (!$st->fetchColumn()) {
+        db()->prepare('INSERT INTO reviews (user_id, slug, stars, body, show_name, approved, created_at) VALUES (?,?,?,?,?,?,?)')
+            ->execute([$u['id'], $slug, $stars, $body, !empty($_POST['show_name']) ? 1 : 0, $body === '' ? 1 : 0, now()]);
+    }
+    $_SESSION['ga_event'] = 'review_submitted';
+    flash('Thanks for your rating!' . ($body !== '' ? ' Your words will appear once we have checked them for spoilers.' : ''));
+    redirect('/answer/' . $slug);
+}
+
+function admin_reviews(): void {
+    if (!is_admin()) { not_found(); return; }
+    if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
+        csrf_check();
+        [$uid, $slug] = explode('|', (string)($_POST['key'] ?? '|'), 2);
+        if (($_POST['do'] ?? '') === 'approve') db()->prepare('UPDATE reviews SET approved = 1 WHERE user_id = ? AND slug = ?')->execute([(int)$uid, $slug]);
+        if (($_POST['do'] ?? '') === 'reject') db()->prepare("UPDATE reviews SET approved = 0, body = '' WHERE user_id = ? AND slug = ?")->execute([(int)$uid, $slug]);
+        redirect('/admin/reviews');
+    }
+    $rows = db()->query("SELECT r.*, u.name, u.email FROM reviews r JOIN users u ON u.id = r.user_id WHERE r.body <> '' ORDER BY r.approved ASC, r.created_at DESC LIMIT 200")->fetchAll();
+    $avg = db()->query('SELECT slug, AVG(stars) a, COUNT(*) n FROM reviews GROUP BY slug ORDER BY a DESC')->fetchAll();
+    page_start(['title' => 'Reviews', 'noindex' => true, 'path' => '/admin/reviews']);
+    echo '<section class="wrap case"><nav class="crumbs"><a href="/admin">Admin</a> › Reviews</nav><h1>Reviews</h1><div class="table-wrap"><table><thead><tr><th>Mystery</th><th class="num">Stars</th><th>Text</th><th>By</th><th></th></tr></thead><tbody>';
+    foreach ($rows as $r) {
+        echo '<tr><td>' . e($r['slug']) . '</td><td class="num">' . (int)$r['stars'] . '</td><td>' . e($r['body']) . '</td><td>' . e($r['name']) . '</td><td>';
+        if (!(int)$r['approved']) echo '<form method="post" style="display:inline">' . csrf_field() . '<input type="hidden" name="key" value="' . e($r['user_id'] . '|' . $r['slug']) . '"><button class="btn btn-small" name="do" value="approve">Approve</button> <button class="btn btn-small btn-ghost" name="do" value="reject">Reject</button></form>';
+        else echo 'Live';
+        echo '</td></tr>';
+    }
+    echo '</tbody></table></div><h2>Average rating</h2><ul>';
+    foreach ($avg as $a) echo '<li>' . e($a['slug']) . ': ' . number_format((float)$a['a'], 1) . ' ★ (' . (int)$a['n'] . ')</li>';
+    echo '</ul></section>';
     page_end();
 }

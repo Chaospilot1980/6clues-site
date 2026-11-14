@@ -9,6 +9,35 @@
     });
   }
 
+  // ---- On-screen game: fit posters and switch clues ----
+  var fits = document.querySelectorAll('.poster-fit');
+  function fitPosters() {
+    fits.forEach(function (f) {
+      if (f.hidden) return;
+      var s = Math.min(1, f.parentNode.clientWidth / 794);
+      var inner = f.querySelector('.poster-inner');
+      inner.style.transform = 'scale(' + s + ')';
+      f.style.width = (794 * s) + 'px';
+      f.style.height = (1123 * s) + 'px';
+    });
+  }
+  if (fits.length) {
+    var tabs = document.querySelectorAll('.clue-tab');
+    var cur = 0;
+    var show = function (n) {
+      cur = (n + fits.length) % fits.length;
+      fits.forEach(function (f, i) { f.hidden = i !== cur; });
+      tabs.forEach(function (t, i) { t.setAttribute('aria-selected', i === cur ? 'true' : 'false'); if (i === cur) t.classList.add('seen'); });
+      fitPosters();
+    };
+    tabs.forEach(function (t) { t.addEventListener('click', function () { show(+t.getAttribute('data-clue')); }); });
+    document.querySelectorAll('[data-step]').forEach(function (b) {
+      b.addEventListener('click', function () { show(cur + (+b.getAttribute('data-step'))); document.querySelector('.clue-tabs').scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+    });
+    window.addEventListener('resize', fitPosters);
+    show(0);
+  }
+
   // ---- Google Analytics 4 with consent ----
   var GA = window.GA4_ID;
   var KEY = 'sc_consent';

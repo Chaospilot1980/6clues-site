@@ -23,6 +23,9 @@ return [
     'company_name'  => '[YOUR COMPANY NAME]',
     'contact_email' => 'hello@example.com',
 
+    // GitHub repository that /cron/deploy installs from
+    'deploy_repo'   => 'Chaospilot1980/6clues-site',
+
     // Long random string used to sign unsubscribe links
     'secret'        => 'CHANGE-ME-TO-A-LONG-RANDOM-STRING',
 
