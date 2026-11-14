@@ -669,7 +669,10 @@ function me(): void {
   <p><b><?= (int)($pts[0]['pts'] ?? 0) ?> points</b><?= $s ? ' · 🔥 ' . $s . ' day' . ($s > 1 ? 's' : '') . ' in a row' : '' ?> · <a href="/rankings?tab=friends">See how you rank among your friends →</a></p>
   <?php next_cases($u); ?>
   <h2>All cases</h2>
-  <div class="grid"><?php foreach (mysteries() as $m) echo mystery_card($m, $prog); ?></div>
+  <?php // open cases first, solved/closed cases at the bottom
+  $all = mysteries();
+  $sorted = array_merge(array_filter($all, fn($m) => !isset($prog[$m['slug']]['solved_at'])), array_filter($all, fn($m) => isset($prog[$m['slug']]['solved_at']))); ?>
+  <div class="grid"><?php foreach ($sorted as $m) echo mystery_card($m, $prog); ?></div>
   <h2>Account</h2>
   <p>Signed in as <?= e($u['email']) ?>. New-mystery emails: <b><?= (int)$u['newsletter'] ? 'on' : 'off' ?></b>.</p>
   <form method="post" action="/logout"><?= csrf_field() ?><button class="btn btn-ghost">Sign out</button></form>
