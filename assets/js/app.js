@@ -95,20 +95,20 @@
     });
   });
 
-  // Mystery filters and sorting (home page)
-  var form = document.querySelector('[data-filters]'), grid = document.querySelector('[data-grid]');
-  if (form && grid) {
-    var cards = Array.prototype.slice.call(grid.children), order = cards.slice();
+  // Mystery filters, search and sorting (home page). Works across several grids (e.g. open and closed cases).
+  var form = document.querySelector('[data-filters]'), grids = Array.prototype.slice.call(document.querySelectorAll('[data-grid]'));
+  if (form && grids.length) {
+    var sets = grids.map(function (g) { return { grid: g, order: Array.prototype.slice.call(g.children) }; });
     var params = new URLSearchParams(location.search);
-    ['level', 'crime', 'sort'].forEach(function (k) {
+    ['level', 'crime', 'sort', 'q'].forEach(function (k) {
       var v = params.get(k); if (!v) return;
-      var el = form.querySelector('[name="' + k + '"][value="' + v + '"]') || (k === 'sort' && form.elements.sort);
-      if (el && el.type === 'radio') el.checked = true; else if (el) el.value = v;
+      var el = form.querySelector('[name="' + k + '"][value="' + v + '"]') || form.elements[k];
+      if (el && el.type === 'radio') el.checked = true; else if (el && el.tagName) el.value = v;
     });
     var num = function (c, k) { return parseFloat(c.getAttribute('data-' + k)) || 0; };
+    var timer;
     var apply = function (track) {
-      var f = new FormData(form), lvl = f.get('level') || '', crime = f.get('crime') || '', sort = f.get('sort') || '', hide = !!f.get('hide_done');
-      var list = order.slice();
+      var f = new FormData(form), lvl = f.get('level') || '', crime = f.get('crime') || '', sort = f.get('sort') || '', q = (f.get('q') || '').toString().trim().toLowerCase();
       var cmp = {
         'new': function (a, b) { return (b.getAttribute('data-added') || '').localeCompare(a.getAttribute('data-added') || ''); },
         popular: function (a, b) { return num(b, 'players') - num(a, 'players'); },
@@ -116,20 +116,26 @@
         hard: function (a, b) { var x = num(a, 'rate'), y = num(b, 'rate'); if (x < 0) x = 101; if (y < 0) y = 101; return x - y; },
         stars: function (a, b) { return num(b, 'stars') - num(a, 'stars'); }
       }[sort];
-      if (cmp) list.sort(cmp);
-      var shown = 0;
-      list.forEach(function (c) {
-        var ok = (!lvl || c.getAttribute('data-level') === lvl) && (!crime || c.getAttribute('data-crime') === crime) && !(hide && c.getAttribute('data-state') === 'done');
-        c.hidden = !ok; if (ok) shown++;
-        grid.appendChild(c);
+      var shown = 0, first = 0;
+      sets.forEach(function (s, si) {
+        var list = s.order.slice(); if (cmp) list.sort(cmp);
+        var n = 0;
+        list.forEach(function (c) {
+          var ok = (!lvl || c.getAttribute('data-level') === lvl) && (!crime || c.getAttribute('data-crime') === crime) && (!q || c.textContent.toLowerCase().indexOf(q) >= 0);
+          c.hidden = !ok; if (ok) n++;
+          s.grid.appendChild(c);
+        });
+        if (si === 0) first = n;
+        shown += n;
       });
-      var cnt = document.querySelector('[data-count]'); if (cnt) cnt.textContent = shown;
+      var cnt = document.querySelector('[data-count]'); if (cnt) cnt.textContent = first;
       var em = document.querySelector('[data-empty]'); if (em) em.hidden = shown > 0;
-      var q = new URLSearchParams(); if (lvl) q.set('level', lvl); if (crime) q.set('crime', crime); if (sort) q.set('sort', sort);
-      try { history.replaceState(null, '', location.pathname + (q.toString() ? '?' + q : '') + location.hash); } catch (e) {}
-      if (track && window.gtag) gtag('event', 'filter_mysteries', { level: lvl || 'all', crime: crime || 'all', sort: sort || 'default' });
+      var qs = new URLSearchParams(); if (lvl) qs.set('level', lvl); if (crime) qs.set('crime', crime); if (sort) qs.set('sort', sort); if (q) qs.set('q', q);
+      try { history.replaceState(null, '', location.pathname + (qs.toString() ? '?' + qs : '') + location.hash); } catch (e) {}
+      if (track && window.gtag) gtag('event', 'filter_mysteries', { level: lvl || 'all', crime: crime || 'all', sort: sort || 'default', search: q ? 'yes' : 'no' });
     };
     form.addEventListener('change', function () { apply(true); });
+    form.addEventListener('input', function (ev) { if (ev.target.name === 'q') { clearTimeout(timer); timer = setTimeout(function () { apply(false); }, 150); } });
     apply(false);
   }
 
@@ -137,7 +143,10 @@
   document.querySelectorAll('[data-share]').forEach(function (box) {
     var url = box.getAttribute('data-url'), text = box.getAttribute('data-text'), slug = box.getAttribute('data-mystery');
     var native = box.querySelector('[data-share-native]');
-    var sent = function (ch) { track('challenge_shared', { method: ch, mystery: slug }); };
+    var sent = function (ch) {
+      track('challenge_shared', { method: ch, mystery: slug });
+      try { var f = new FormData(); f.append('t', 'challenge_shared'); f.append('r', slug + ':' + ch); navigator.sendBeacon('/event', f); } catch (e) {}
+    };
     if (native) {
       if (navigator.share) {
         native.addEventListener('click', function () {

@@ -103,6 +103,7 @@ function migrate(PDO $pdo): void {
         PRIMARY KEY (user_id, slug)
     )$engine");
     game_migrate($pdo, $id, $engine);
+    gn_migrate($pdo, $id, $engine);
     $pdo->exec("CREATE TABLE IF NOT EXISTS leaderboard (
         user_id INT NOT NULL PRIMARY KEY,
         alias VARCHAR(40) NOT NULL,

@@ -55,6 +55,10 @@ function game_migrate(PDO $pdo, string $id, string $engine): void {
         parent VARCHAR(12) NULL,
         created_at DATETIME NOT NULL
     )$engine");
+    $pdo->exec("CREATE TABLE IF NOT EXISTS events (
+        id $id, type VARCHAR(40) NOT NULL, ref VARCHAR(100) NULL, who VARCHAR(40) NULL, created_at DATETIME NOT NULL
+    )$engine");
+    $pdo->exec('CREATE INDEX IF NOT EXISTS events_type ON events (type, created_at)');
     $pdo->exec("CREATE TABLE IF NOT EXISTS friends (
         a INT NOT NULL, b INT NOT NULL, created_at DATETIME NOT NULL, PRIMARY KEY (a, b)
     )$engine");
@@ -249,3 +253,69 @@ function week_start_utc(): string {
     return $d->setTimezone(new DateTimeZone('UTC'))->format('Y-m-d H:i:s');
 }
 function clues_txt(array $p): string { return (int)$p['correct'] ? (int)$p['clues'] . ((int)$p['clues'] === 1 ? ' clue' : ' clues') : 'wrong'; }
+
+/** Light first-party event log for the growth dashboard (no personal data beyond an opaque player key). */
+function log_event(string $type, ?string $ref = null): void {
+    $u = current_user();
+    $who = $u ? 'u' . $u['id'] : (($g = guest_id()) ? 'g' . substr($g, 0, 12) : null);
+    try { db()->prepare('INSERT INTO events (type, ref, who, created_at) VALUES (?,?,?,?)')->execute([$type, $ref, $who, now()]); } catch (Throwable $e) {}
+}
+
+/** Numbers for the admin growth dashboard. */
+function growth_stats(): array {
+    $pdo = db();
+    $d7 = gmdate('Y-m-d H:i:s', time() - 7 * 86400);
+    $one = fn(string $sql, array $a = []) => (function () use ($pdo, $sql, $a) { $s = $pdo->prepare($sql); $s->execute($a); return $s->fetchColumn(); })();
+    $pk = "COALESCE('u' || user_id, 'g' || guest_id)";
+    $started = (int)$one('SELECT COUNT(*) FROM plays WHERE mode = \'screen\' AND started_at >= ?', [$d7]);
+    $done = (int)$one('SELECT COUNT(*) FROM plays WHERE mode = \'screen\' AND started_at >= ? AND answered_at IS NOT NULL', [$d7]);
+    $players7 = (int)$one("SELECT COUNT(DISTINCT $pk) FROM plays WHERE started_at >= ?", [$d7]);
+    $chal = (int)$one('SELECT COUNT(*) FROM challenges WHERE created_at >= ?', [$d7]);
+    $shared = (int)$one("SELECT COUNT(*) FROM events WHERE type = 'challenge_shared' AND created_at >= ?", [$d7]);
+    $opens = (int)$one("SELECT COUNT(*) FROM events WHERE type = 'challenge_opened' AND created_at >= ?", [$d7]);
+    $viaChal = (int)$one('SELECT COUNT(*) FROM plays WHERE challenge IS NOT NULL AND started_at >= ?', [$d7]);
+    // New players whose very first play came from a challenge link
+    $firsts = $pdo->query("SELECT $pk k, MIN(id) first_id FROM plays GROUP BY $pk")->fetchAll();
+    $ids = array_column($firsts, 'first_id');
+    $newTotal = 0; $newViral = 0; $cohort = 0; $returned = 0;
+    if ($ids) {
+        $rows = $pdo->query('SELECT id, user_id, guest_id, started_at, challenge FROM plays WHERE id IN (' . implode(',', array_map('intval', $ids)) . ')')->fetchAll();
+        $c0 = time() - 14 * 86400; $c1 = time() - 7 * 86400;
+        foreach ($rows as $r) {
+            $t = strtotime($r['started_at'] . ' UTC');
+            if ($t >= time() - 7 * 86400) { $newTotal++; if ($r['challenge']) $newViral++; }
+            if ($t >= $c0 && $t < $c1) {
+                $cohort++;
+                $q = $pdo->prepare('SELECT 1 FROM plays WHERE ' . ($r['user_id'] ? 'user_id = ?' : 'guest_id = ?') . ' AND started_at >= ? LIMIT 1');
+                $q->execute([$r['user_id'] ?: $r['guest_id'], gmdate('Y-m-d H:i:s', $t + 7 * 86400)]);
+                if ($q->fetchColumn()) $returned++;
+            }
+        }
+    }
+    $pct = fn($a, $b) => $b ? (int)round($a / $b * 100) : null;
+    // Last 14 days
+    $days = [];
+    for ($i = 13; $i >= 0; $i--) {
+        $from = gmdate('Y-m-d 00:00:00', time() - $i * 86400); $to = gmdate('Y-m-d 23:59:59', time() - $i * 86400);
+        $days[] = [
+            'day' => gmdate('D j M', time() - $i * 86400),
+            'players' => (int)$one("SELECT COUNT(DISTINCT $pk) FROM plays WHERE started_at BETWEEN ? AND ?", [$from, $to]),
+            'plays' => (int)$one('SELECT COUNT(*) FROM plays WHERE started_at BETWEEN ? AND ?', [$from, $to]),
+            'done' => (int)$one('SELECT COUNT(*) FROM plays WHERE answered_at BETWEEN ? AND ?', [$from, $to]),
+            'signups' => (int)$one('SELECT COUNT(*) FROM users WHERE created_at BETWEEN ? AND ?', [$from, $to]),
+            'challenges' => (int)$one('SELECT COUNT(*) FROM challenges WHERE created_at BETWEEN ? AND ?', [$from, $to]),
+        ];
+    }
+    return [
+        'players_today' => $days[13]['players'],
+        'players_7' => $players7,
+        'completion' => $pct($done, $started), 'started' => $started, 'done' => $done,
+        'd7' => $pct($returned, $cohort), 'cohort' => $cohort,
+        'challenge_rate' => $pct($chal, $done), 'challenges' => $chal, 'shared' => $shared,
+        'invite_conv' => $pct($viaChal, $opens), 'opens' => $opens, 'via' => $viaChal,
+        'viral' => $players7 ? round($newViral / $players7, 2) : null, 'new' => $newTotal, 'new_viral' => $newViral,
+        'signups_7' => (int)$one('SELECT COUNT(*) FROM users WHERE created_at >= ?', [$d7]),
+        'gate_locks' => (int)$one('SELECT COUNT(*) FROM plays WHERE revealed = 0 AND answered_at IS NOT NULL AND user_id IS NULL'),
+        'days' => $days,
+    ];
+}

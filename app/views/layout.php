@@ -29,7 +29,7 @@ function page_start(array $meta): void {
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/special-elite-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/site.css?v=5">
+<link rel="stylesheet" href="/assets/css/site.css?v=6">
 <?php foreach ((array)($meta['jsonld'] ?? []) as $ld): ?>
 <script type="application/ld+json"><?= json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?></script>
 <?php endforeach; ?>
@@ -49,6 +49,7 @@ window.GA4_ID = <?= json_encode($ga) ?>;
     <a class="logo" href="/"><span class="logo-mark" aria-hidden="true">6</span> <?= e($site) ?></a>
     <nav aria-label="Main">
       <a href="/#mysteries">Mysteries</a>
+      <a href="/game-night">Game Night</a>
       <a href="/rankings">Rankings</a>
       <a href="/#how">How it works</a>
       <?php if ($user): ?>
@@ -85,7 +86,7 @@ function page_end(): void {
 </div>
 <?php endif; ?>
 <?php if ($ev): ?><span hidden data-ga-event="<?= e($ev) ?>"></span><?php endif; ?>
-<script src="/assets/js/app.js?v=5" defer></script>
+<script src="/assets/js/app.js?v=6" defer></script>
 </body>
 </html>
 <?php

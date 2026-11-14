@@ -2,6 +2,7 @@
 declare(strict_types=1);
 require __DIR__ . '/app/bootstrap.php';
 require __DIR__ . '/app/game.php';
+require __DIR__ . '/app/gamenight.php';
 require __DIR__ . '/app/views/layout.php';
 
 $path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
@@ -16,6 +17,10 @@ $routes = [
     '#^/mysteries/([a-z0-9\-]+)$#'            => 'show',
     '#^/mysteries/([a-z0-9\-]+)/play$#'       => 'play',
     '#^/daily$#'                              => 'daily_redirect',
+    '#^/game-night$#'                         => 'gn_index',
+    '#^/game-night/([a-z0-9\-]+)$#'           => 'gn_landing',
+    '#^/game-night/([a-z0-9\-]+)/print$#'     => 'gn_print',
+    '#^/game-night/([a-z0-9\-]+)/play$#'      => 'gn_play',
     '#^/c/([A-Za-z0-9]{6})$#'                 => 'challenge_page',
     '#^/rematch/([A-Za-z0-9]{6})$#'           => 'rematch',
     '#^/mysteries/([a-z0-9\-]+)/print$#'      => 'print_page',
@@ -36,6 +41,8 @@ $routes = [
     '#^/cron/deploy$#'                        => 'cron_deploy',
     '#^/review/([a-z0-9\-]+)$#'              => 'review',
     '#^/admin/reviews$#'                      => 'admin_reviews',
+    '#^/admin/growth$#'                       => 'admin_growth',
+    '#^/event$#'                              => 'event_endpoint',
     '#^/privacy$#'                            => 'privacy',
     '#^/sitemap\.xml$#'                       => 'sitemap',
     '#^/robots\.txt$#'                        => 'robots',
@@ -109,12 +116,26 @@ function home(): void {
 </section>
 
 <section id="mysteries" class="wrap">
-  <h2>All mysteries <span class="count" data-count><?= count(mysteries()) ?></span></h2>
+  <?php
+    $done = array_values(array_filter(mysteries(), fn($m) => isset($prog[$m['slug']]['solved_at'])));
+    $open = array_values(array_filter(mysteries(), fn($m) => !isset($prog[$m['slug']]['solved_at'])));
+    $next = $u ? suggestions($u, 3) : [];
+    $nextSlugs = array_column($next, 'slug');
+  ?>
+  <?php if ($next): ?>
+    <h2>Up next for you</h2>
+    <div class="grid"><?php foreach ($next as $m) echo mystery_card($m, $prog); ?></div>
+  <?php endif; ?>
+  <h2><?= $u ? 'More cases to crack' : 'All mysteries' ?> <span class="count" data-count><?= count($open) - count($nextSlugs) ?></span></h2>
   <?php filter_bar((bool)$u); ?>
   <div class="grid" data-grid>
-    <?php foreach (mysteries() as $m) echo mystery_card($m, $prog); ?>
+    <?php foreach ($open as $m) if (!in_array($m['slug'], $nextSlugs, true)) echo mystery_card($m, $prog); ?>
   </div>
-  <p class="empty" data-empty hidden>No cases match – try another filter.</p>
+  <?php if ($done): ?>
+    <h2>Cases you've closed <span class="count"><?= count($done) ?></span></h2>
+    <div class="grid grid-done" data-grid><?php foreach ($done as $m) echo mystery_card($m, $prog); ?></div>
+  <?php endif; ?>
+  <p class="empty" data-empty hidden>No cases match – try another search or filter.</p>
   <p class="small"><a href="/rankings">See the rankings: hardest cases and top detectives →</a></p>
 </section>
 
@@ -192,7 +213,7 @@ function play(string $slug): void {
         csrf_check();
         $do = (string)($_POST['do'] ?? '');
         $p = my_play($slug);
-        if ($do === 'start' && !$p) { start_play($slug, $code); $_SESSION['ga_event'] = 'game_started'; }
+        if ($do === 'start' && !$p) { start_play($slug, $code); $_SESSION['ga_event'] = 'game_started'; log_event('game_started', $slug); }
         elseif ($do === 'clue' && $p) { reveal_clue($p); $_SESSION['ga_event'] = 'clue_revealed'; }
         elseif ($do === 'accuse' && $p && !$p['answered_at']) {
             $guess = (string)($_POST['guess'] ?? '');
@@ -359,6 +380,7 @@ function challenge_page(string $code): void {
     $p = my_play($m['slug']);
     $score = $cp && $cp['answered_at'] ? ((int)$cp['correct'] ? 'cracked it with ' . (int)$cp['clues'] . ' of 6 clues' : 'couldn\'t crack it') : 'is on the case';
     $_SESSION['ga_event'] = 'challenge_opened';
+    if (!$mine) log_event('challenge_opened', $c['code']);
     page_start(['title' => $name . ' challenges you: ' . $m['title'], 'path' => '/c/' . $c['code'], 'noindex' => true,
         'description' => $name . ' ' . $score . '. Six clues, one culprit – can you beat that? Free to play.']);
     ?>
@@ -676,7 +698,7 @@ function admin(): void {
     <div><b><?= $subs ?></b><span>newsletter subscribers</span></div>
     <div><b><?= (int)$week->fetchColumn() ?></b><span>new players last 7 days</span></div>
   </div>
-  <p><a class="btn" href="/admin/reviews">Reviews</a> <a class="btn" href="/admin/newsletter">Write newsletter</a> <a class="btn btn-ghost" href="/admin/subscribers.csv">Download subscribers (CSV)</a></p>
+  <p><a class="btn" href="/admin/growth">Growth dashboard</a> <a class="btn" href="/admin/reviews">Reviews</a> <a class="btn" href="/admin/newsletter">Write newsletter</a> <a class="btn btn-ghost" href="/admin/subscribers.csv">Download subscribers (CSV)</a></p>
   <h2>Mysteries</h2>
   <div class="table-wrap"><table>
     <thead><tr><th>Mystery</th><th>Level</th><th class="num">Players</th><th class="num">Solved</th><th class="num">Revealed</th><th class="num">Avg. tries</th></tr></thead>
@@ -731,7 +753,7 @@ function privacy(): void {
 function sitemap(): void {
     header('Content-Type: application/xml; charset=utf-8');
     echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n" . '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
-    $urls = ['/', '/rankings', '/privacy'];
+    $urls = ['/', '/game-night', '/game-night/the-last-invitation', '/rankings', '/privacy'];
     foreach (mysteries() as $m) { $urls[] = '/mysteries/' . $m['slug']; $urls[] = '/mysteries/' . $m['slug'] . '/play'; }
     foreach ($urls as $u) echo '  <url><loc>' . e(url($u)) . '</loc></url>' . "\n";
     echo '</urlset>';
@@ -931,6 +953,7 @@ function filter_bar(bool $signedIn): void {
     ksort($crimes);
     ?>
 <form class="filters" data-filters onsubmit="return false" aria-label="Filter mysteries">
+  <label class="search"><span>Search</span><input type="search" name="q" placeholder="Title, place, crime…" autocomplete="off"></label>
   <fieldset><legend>Difficulty</legend>
     <label><input type="radio" name="level" value="" checked> All</label>
     <?php foreach ([1, 2, 3] as $l): ?><label><input type="radio" name="level" value="<?= $l ?>"> <?= $l ?> · <?= e(level_name($l)) ?></label><?php endforeach; ?>
@@ -950,7 +973,7 @@ function filter_bar(bool $signedIn): void {
         <option value="stars">Best rated</option>
       </select>
     </label>
-    <?php if ($signedIn): ?><label class="check"><input type="checkbox" name="hide_done" value="1"> Hide cases I've finished</label><?php endif; ?>
+
   </div>
 </form>
 <?php
@@ -1042,4 +1065,343 @@ function leaderboard_optin(): void {
         flash('Welcome to the board, detective ' . $alias . '!');
     }
     redirect('/rankings');
+}
+
+function event_endpoint(): void {
+    $t = (string)($_POST['t'] ?? '');
+    if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST' && in_array($t, ['challenge_shared', 'print_opened'], true)) log_event($t, substr((string)($_POST['r'] ?? ''), 0, 100));
+    http_response_code(204);
+}
+
+function admin_growth(): void {
+    if (!is_admin()) { not_found(); return; }
+    $g = growth_stats();
+    $tile = function (string $label, $value, string $sub, ?string $goal = null) {
+        echo '<div class="kpi"><span class="kpi-label">' . e($label) . '</span><b>' . ($value === null ? '–' : e((string)$value)) . '</b><span class="kpi-sub">' . e($sub) . '</span>'
+            . ($goal ? '<span class="kpi-goal">Goal ' . e($goal) . '</span>' : '') . '</div>';
+    };
+    page_start(['title' => 'Growth', 'noindex' => true, 'path' => '/admin/growth']);
+    $max = max(1, max(array_column($g['days'], 'players')));
+    ?>
+<section class="wrap case">
+  <nav class="crumbs"><a href="/admin">Admin</a> › Growth</nav>
+  <h1>Growth dashboard</h1>
+  <p class="small muted">Last 7 days unless stated. Players include guests (one per browser).</p>
+  <div class="kpis">
+    <?php $tile('Daily players', $g['players_today'], 'today · ' . $g['players_7'] . ' in 7 days'); ?>
+    <?php $tile('Completion rate', $g['completion'] === null ? null : $g['completion'] . '%', $g['done'] . ' of ' . $g['started'] . ' started games', '70%'); ?>
+    <?php $tile('D7 retention', $g['d7'] === null ? null : $g['d7'] . '%', 'back after 7 days · cohort ' . $g['cohort'], '20%'); ?>
+    <?php $tile('Challenge rate', $g['challenge_rate'] === null ? null : $g['challenge_rate'] . '%', $g['challenges'] . ' challenge links · ' . $g['shared'] . ' shares', '15%'); ?>
+    <?php $tile('Invite conversion', $g['invite_conv'] === null ? null : $g['invite_conv'] . '%', $g['via'] . ' games from ' . $g['opens'] . ' link visits', '50%'); ?>
+    <?php $tile('Viral coefficient', $g['viral'], $g['new_viral'] . ' of ' . $g['new'] . ' new players came via a friend'); ?>
+    <?php $tile('Sign-ups', $g['signups_7'], 'new accounts in 7 days'); ?>
+    <?php $tile('Locked answers', $g['gate_locks'], 'guests stopped at the sign-in wall (all time)'); ?>
+  </div>
+  <h2>Daily players – last 14 days</h2>
+  <div class="bars" role="img" aria-label="Daily players for the last 14 days">
+    <?php foreach ($g['days'] as $d): ?><div class="bar"><span style="height:<?= round($d['players'] / $max * 100) ?>%"><i><?= $d['players'] ?></i></span><small><?= e(substr($d['day'], 0, 6)) ?></small></div><?php endforeach; ?>
+  </div>
+  <div class="table-wrap"><table><thead><tr><th>Day</th><th class="num">Players</th><th class="num">Games started</th><th class="num">Finished</th><th class="num">Challenges</th><th class="num">Sign-ups</th></tr></thead><tbody>
+  <?php foreach (array_reverse($g['days']) as $d): ?><tr><td><?= e($d['day']) ?></td><td class="num"><?= $d['players'] ?></td><td class="num"><?= $d['plays'] ?></td><td class="num"><?= $d['done'] ?></td><td class="num"><?= $d['challenges'] ?></td><td class="num"><?= $d['signups'] ?></td></tr><?php endforeach; ?>
+  </tbody></table></div>
+  <p class="small muted">Goals are first test targets, not forecasts. If completion is low, improve the cases before buying traffic.</p>
+</section>
+<?php
+    page_end();
+}
+
+// ===================== GAME NIGHT =====================
+
+function gn_index(): void {
+    page_start(['title' => 'Game Night – free printable murder mystery for 2–6 players', 'path' => '/game-night',
+        'description' => 'A full evening case for your table: print the case file, open the sealed envelopes and crack the mystery together. Free – 90 to 120 minutes for 2–6 detectives.']);
+    ?>
+<section class="gn-hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker">Game Night · free</p>
+      <h1>One evening. One table. One case to crack together.</h1>
+      <p class="lead">Game Night cases are bigger than our daily mysteries: a full case file with police reports, interviews, logs and lab results, plus sealed envelopes you open as the evidence builds up. Print it, pour the drinks, and solve it as a team.</p>
+      <ul class="gn-facts"><li>⏱ 90–120 minutes</li><li>👥 2–6 detectives</li><li>🖨 Print at home</li><li>✉️ Sealed envelopes</li></ul>
+    </div>
+    <?php $c = gn_case('the-last-invitation'); echo '<a class="gn-cover" href="/game-night/the-last-invitation">' . gn_cover_svg($c) . '</a>'; ?>
+  </div>
+</section>
+<section class="wrap">
+  <h2>Cases</h2>
+  <div class="grid">
+  <?php foreach (gn_slugs() as $s): $c = gn_case($s); ?>
+    <article class="card gn-card"><div class="card-top"><span class="badge">Case No. <?= e($c['no']) ?></span><span class="badge badge-crime">Game Night</span></div>
+      <h3><a href="/game-night/<?= e($s) ?>"><?= e($c['title']) ?></a></h3>
+      <p><?= e($c['teaser']) ?></p>
+      <p class="card-stats"><?= $c['minutes'][0] ?>–<?= $c['minutes'][1] ?> min · <?= $c['players'][0] ?>–<?= $c['players'][1] ?> players</p></article>
+  <?php endforeach; ?>
+    <article class="card gn-card gn-soon"><div class="card-top"><span class="badge">Case No. 002</span></div><h3>Coming soon</h3><p>The next Game Night case is in the making. Sign up for emails and we'll tell you when it's ready.</p></article>
+  </div>
+</section>
+<?php
+    page_end();
+}
+
+function gn_landing(string $slug): void {
+    $c = gn_case($slug);
+    if (!$c) { not_found(); return; }
+    $u = current_user();
+    $s = $u ? gn_session((int)$u['id'], $slug) : null;
+    $hall = gn_hall($slug);
+    page_start(['title' => $c['title'] . ' – Game Night murder mystery', 'path' => '/game-night/' . $slug,
+        'description' => $c['tagline'] . ' A free printable murder mystery for ' . $c['players'][0] . '–' . $c['players'][1] . ' players, ' . $c['minutes'][0] . '–' . $c['minutes'][1] . ' minutes.']);
+    ?>
+<section class="gn-hero">
+  <div class="wrap hero-grid">
+    <div>
+      <nav class="crumbs crumbs-light"><a href="/game-night">Game Night</a> › Case No. <?= e($c['no']) ?></nav>
+      <h1><?= e($c['title']) ?></h1>
+      <p class="gn-tagline"><?= e($c['tagline']) ?></p>
+      <ul class="gn-facts"><li>⏱ <?= $c['minutes'][0] ?>–<?= $c['minutes'][1] ?> min</li><li>👥 <?= $c['players'][0] ?>–<?= $c['players'][1] ?> detectives</li><li>📄 19 documents</li><li>✉️ 2 envelopes</li></ul>
+      <p class="cta-row">
+        <?php if (!$u): ?><a class="btn btn-big" href="/login?next=/game-night/<?= e($slug) ?>">Sign in to play – it's free</a>
+        <?php else: ?><a class="btn btn-big" href="/game-night/<?= e($slug) ?>/print" data-ga-click="gn_print">1. Print the case file</a> <a class="btn btn-ghost-light btn-big" href="/game-night/<?= e($slug) ?>/play"><?= $s ? '2. Continue your game' : '2. Start the investigation' ?></a><?php endif; ?>
+      </p>
+    </div>
+    <div class="gn-cover"><?= gn_cover_svg($c) ?></div>
+  </div>
+</section>
+<section class="wrap narrow case">
+  <h2>The case</h2>
+  <?php foreach ($c['intro'] as $p) echo '<p>' . $p . '</p>'; ?>
+  <h2>How Game Night works</h2>
+  <ol class="step-list">
+    <li><b>Print the case file</b> (about 25 A4 pages) and sort it into the START folder, envelope B and envelope C. The first page tells you how.</li>
+    <li><b>Investigate at the table.</b> Share out the documents, compare times and statements, and argue it out. The paper is the game – your phone just stays on the table.</li>
+    <li><b>Open the envelopes</b> when you've cracked each checkpoint. The site gives you hints if you get stuck (each costs a point).</li>
+    <li><b>Make your accusation together</b>: the culprit, the motive, the locked door, the power cut and four pieces of evidence. You score up to 20 points – then reveal the full solution.</li>
+  </ol>
+  <h2>Hall of fame</h2>
+  <?php if ($hall): ?>
+  <div class="table-wrap"><table><thead><tr><th class="num">#</th><th>Table</th><th class="num">Score</th><th class="num">Time</th></tr></thead><tbody>
+  <?php foreach ($hall as $n => $h): ?><tr><td class="num"><?= $n + 1 ?></td><td><?= e(gn_table_name($h)) ?></td><td class="num"><b><?= (int)$h['score'] ?></b>/20</td><td class="num"><?= ($m = gn_minutes($h)) !== null ? $m . ' min' : '–' ?></td></tr><?php endforeach; ?>
+  </tbody></table></div>
+  <?php else: ?><p>No table has cracked this case yet. Will yours be the first?</p><?php endif; ?>
+  <p class="small muted">All names, companies and events in this game are fictional.</p>
+</section>
+<?php
+    page_end();
+}
+
+function gn_print(string $slug): void {
+    $c = gn_case($slug);
+    if (!$c) { not_found(); return; }
+    if (!current_user()) redirect('/login?next=/game-night/' . $slug . '/print');
+    $play = url('/game-night/' . $slug . '/play');
+    $sheet = function (string $packet, string $id, string $title, string $inner, string $meta = '', string $kind = 'report') use ($c) {
+        echo '<div class="sheet gn-sheet gn-' . e($kind) . '"><div class="gn-doc"><header class="gn-doc-head"><span class="gn-id">' . e($id) . '</span><span class="gn-packet">' . e($packet) . '</span><span class="gn-caseno">CASE NV-2026-1017</span></header>'
+            . '<h2>' . e($title) . '</h2>' . ($meta ? '<p class="gn-meta">' . e($meta) . '</p>' : '') . '<div class="gn-body">' . $inner . '</div>'
+            . '<footer class="gn-doc-foot">SIX CLUES · ' . e(strtoupper($c['title'])) . ' · FICTIONAL CASE PROP</footer></div></div>';
+    };
+    ?><!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title><?= e($c['title']) ?> – Game Night case file</title><meta name="robots" content="noindex">
+<link rel="stylesheet" href="/assets/css/print.css?v=2"><link rel="stylesheet" href="/assets/css/gamenight.css?v=1">
+</head><body>
+<div class="toolbar"><p><b><?= e($c['title']) ?></b> – case file, about 25 A4 pages. Print on A4, margins <i>None</i>, scale 100%. The solution is <b>not</b> in this file.</p><button onclick="window.print()">Print case file</button></div>
+
+<div class="sheet gn-sheet gn-coverpage"><div class="gn-doc">
+  <p class="gn-kicker">SIX CLUES · GAME NIGHT · CASE No. <?= e($c['no']) ?></p>
+  <h1><?= e($c['title']) ?></h1>
+  <p class="gn-tag"><?= e($c['tagline']) ?></p>
+  <div class="gn-cover-wrap"><?= gn_cover_svg($c) ?></div>
+  <p class="gn-facts-print"><?= $c['players'][0] ?>–<?= $c['players'][1] ?> detectives · <?= $c['minutes'][0] ?>–<?= $c['minutes'][1] ?> minutes · print and play</p>
+  <?php foreach ($c['intro'] as $p) echo '<p>' . $p . '</p>'; ?>
+  <h3>Your mission</h3><ul><?php foreach ($c['mission'] as $m) echo '<li>' . e($m) . '</li>'; ?></ul>
+</div></div>
+
+<div class="sheet gn-sheet"><div class="gn-doc">
+  <h2>Before you start</h2>
+  <ol class="gn-prep">
+    <li>Put documents <b>P01–P10</b> in a folder marked <b>START</b>.</li>
+    <li>Put <b>P11–P15</b> in a closed envelope marked <b>B</b>, and <b>P16–P19</b> in a closed envelope marked <b>C</b>. Labels for the envelopes are on the pages before each set.</li>
+    <li>Put the investigation sheet (last page) on the table.</li>
+    <li>Read this page aloud, share out the START documents and investigate. Take notes, compare statements and argue freely.</li>
+    <li>Open envelope <b>B</b> when you can explain why a locked door doesn't prove Alexander was alone – or after 25 minutes.</li>
+    <li>Open envelope <b>C</b> when you can point to one suspect's statement that clashes with a technical record – or after another 25 minutes.</li>
+    <li>Agree on one accusation together. Then enter it online for your score and the solution.</li>
+  </ol>
+  <h3>Six questions to guide you</h3><ol><?php foreach ($c['questions'] as $q) echo '<li>' . e($q) . '</li>'; ?></ol>
+  <div class="gn-online"><div class="qr" data-url="<?= e($play) ?>"></div><p><b>Online helper</b><br>Hints, envelopes and your score:<br><?= e(preg_replace('#^https?://#', '', $play)) ?></p></div>
+</div></div>
+
+<?php foreach ($c['packets'] as $pk => $p):
+  if ($pk !== 'START'): ?>
+<div class="sheet gn-sheet gn-envelope"><div class="gn-doc"><p class="gn-kicker">CUT OUT AND STICK ON THE ENVELOPE</p>
+  <div class="gn-env-label"><b>ENVELOPE <?= e($pk) ?></b><span><?= e($c['title']) ?> · documents <?= e($p['docs'][0]) ?>–<?= e(end($p['docs'])) ?></span>
+  <em><?= $pk === 'B' ? 'Do not open until you can explain why a locked door doesn\'t prove Alexander was alone – or 25 minutes have passed.' : 'Do not open until you have found a statement that clashes with a technical record – or 25 more minutes have passed.' ?></em></div>
+</div></div>
+  <?php endif;
+  foreach ($p['docs'] as $id) { $d = $c['docs'][$id]; $sheet($p['label'], $id, $d['title'], gn_doc_body($d), $d['meta'] ?? '', $d['kind']); }
+endforeach; ?>
+
+<div class="sheet gn-sheet gn-worksheet"><div class="gn-doc">
+  <header class="gn-doc-head"><span class="gn-id">P20</span><span class="gn-packet">Investigation sheet</span></header>
+  <h2>Our conclusion</h2>
+  <?php foreach (['Who is responsible for Alexander\'s death?', 'What was the motive?', 'What happened between 22:25 and 22:43?', 'Why was the door locked?', 'Why did the power go out?'] as $q): ?>
+    <p class="gn-q"><?= e($q) ?></p><div class="gn-line"></div><div class="gn-line"></div>
+  <?php endforeach; ?>
+  <p class="gn-q">Which documents prove your case?</p><p class="gn-boxes">P___ &nbsp; P___ &nbsp; P___ &nbsp; P___ &nbsp; P___</p>
+  <p class="gn-stop">STOP. Enter your accusation online for your score and the solution:<br><?= e(preg_replace('#^https?://#', '', $play)) ?></p>
+</div></div>
+<script src="/assets/js/qrcode.js"></script><script src="/assets/js/app.js?v=6"></script>
+</body></html>
+<?php
+}
+
+function gn_play(string $slug): void {
+    $c = gn_case($slug);
+    if (!$c) { not_found(); return; }
+    $u = current_user();
+    if (!$u) redirect('/login?next=/game-night/' . $slug . '/play');
+    $uid = (int)$u['id'];
+    $s = gn_session($uid, $slug);
+    $pdo = db();
+    if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
+        csrf_check();
+        $do = (string)($_POST['do'] ?? '');
+        if ($do === 'start' || ($do === 'restart' && $s)) {
+            if ($s) $pdo->prepare('UPDATE gn_sessions SET active = 0 WHERE id = ?')->execute([$s['id']]);
+            $name = mb_substr(trim((string)preg_replace('/[^\p{L}\p{N} \'&._\-]/u', '', (string)($_POST['group_name'] ?? ''))), 0, 40);
+            $pdo->prepare('INSERT INTO gn_sessions (user_id, slug, group_name, phase, hints, started_at) VALUES (?,?,?,?,?,?)')->execute([$uid, $slug, $name, 'A', '{}', now()]);
+            $_SESSION['ga_event'] = 'gn_session_started';
+        } elseif ($s && $do === 'hint' && isset($c['checkpoints'][$s['phase']])) {
+            $cp = $s['phase']; $h = $s['hints'];
+            $h[$cp] = min(count($c['checkpoints'][$cp]['hints']), (int)($h[$cp] ?? 0) + 1);
+            $pdo->prepare('UPDATE gn_sessions SET hints = ? WHERE id = ?')->execute([json_encode($h), $s['id']]);
+            $_SESSION['ga_event'] = 'gn_hint_revealed';
+        } elseif ($s && $do === 'advance' && in_array($s['phase'], ['A', 'B'], true)) {
+            $pdo->prepare('UPDATE gn_sessions SET phase = ? WHERE id = ?')->execute([$s['phase'] === 'A' ? 'B' : 'final', $s['id']]);
+            $_SESSION['ga_event'] = 'gn_checkpoint_advanced';
+        } elseif ($s && $do === 'accuse' && $s['phase'] === 'final') {
+            $ids = array_column($c['suspects'], 'id');
+            $ev = array_values(array_unique(array_filter((array)($_POST['evidence'] ?? []), fn($x) => isset($c['docs'][$x]))));
+            $sub = ['culprit' => (string)($_POST['culprit'] ?? ''), 'motive' => (string)($_POST['motive'] ?? ''), 'door' => (string)($_POST['door'] ?? ''), 'power' => (string)($_POST['power'] ?? ''), 'evidence' => $ev];
+            if (!in_array($sub['culprit'], $ids, true) || !isset($c['choices']['motive'][$sub['motive']], $c['choices']['door'][$sub['door']], $c['choices']['power'][$sub['power']]) || count($ev) < 4) {
+                flash('Fill in every part of the accusation and tick at least four documents.');
+                redirect('/game-night/' . $slug . '/play#accuse');
+            }
+            $r = gn_score($c, $sub, gn_hints_used($s));
+            if ($s['score'] === null) {   // the first accusation is the one that counts
+                $pdo->prepare('UPDATE gn_sessions SET phase = ?, submission = ?, score = ?, breakdown = ?, culprit_ok = ?, finished_at = ?, tries = tries + 1 WHERE id = ?')
+                    ->execute(['done', json_encode($sub), $r['score'], json_encode($r['breakdown']), $r['culprit_ok'] ? 1 : 0, now(), $s['id']]);
+            } else {
+                $pdo->prepare('UPDATE gn_sessions SET phase = ?, culprit_ok = ?, tries = tries + 1 WHERE id = ?')->execute(['done', $r['culprit_ok'] ? 1 : 0, $s['id']]);
+            }
+            $_SESSION['ga_event'] = 'gn_final_submitted';
+        } elseif ($s && $do === 'retry' && $s['phase'] === 'done') {
+            $pdo->prepare('UPDATE gn_sessions SET phase = ? WHERE id = ?')->execute(['final', $s['id']]);
+        } elseif ($s && $do === 'reveal' && !empty($_POST['confirm'])) {
+            $pdo->prepare('UPDATE gn_sessions SET revealed = 1, phase = ?, finished_at = COALESCE(finished_at, ?) WHERE id = ?')->execute(['done', now(), $s['id']]);
+            $_SESSION['ga_event'] = 'gn_solution_revealed';
+        }
+        redirect('/game-night/' . $slug . '/play');
+    }
+    page_start(['title' => $c['title'] . ' – Game Night', 'noindex' => true, 'path' => '/game-night/' . $slug . '/play']);
+    $steps = ['A' => 'Start folder', 'B' => 'Envelope B', 'final' => 'Envelope C', 'done' => 'Verdict'];
+    $order = array_keys($steps);
+    ?>
+<section class="wrap case gn-play">
+  <nav class="crumbs"><a href="/game-night">Game Night</a> › <a href="/game-night/<?= e($slug) ?>"><?= e($c['title']) ?></a> › Investigation</nav>
+  <?php if (!$s): ?>
+    <div class="gn-panel">
+      <h1>Ready, detectives?</h1>
+      <p class="lead">Have you printed the case file and sorted it into the START folder and envelopes B and C? Then gather round.</p>
+      <form method="post" class="inline-form"><?= csrf_field() ?><input type="hidden" name="do" value="start">
+        <label>Name your table (optional – shown in the hall of fame)<input name="group_name" maxlength="40" placeholder="e.g. The Saturday Sleuths"></label>
+        <button class="btn btn-big">Start the investigation</button></form>
+      <p class="small"><a href="/game-night/<?= e($slug) ?>/print">Haven't printed it yet? Get the case file.</a></p>
+    </div>
+  <?php else:
+    $idx = array_search($s['phase'], $order, true); ?>
+    <ol class="gn-rail" aria-label="Progress">
+      <?php foreach ($steps as $k => $label): $i = array_search($k, $order, true); ?>
+        <li class="<?= $i < $idx ? 'done' : ($i === $idx ? 'now' : '') ?>"><span><?= $i + 1 ?></span><?= e($label) ?></li>
+      <?php endforeach; ?>
+    </ol>
+    <p class="gn-table">🕵️ <?= e(gn_table_name($s + ['name' => $u['name']])) ?> · hints used: <?= gn_hints_used($s) ?></p>
+
+    <?php if (in_array($s['phase'], ['A', 'B'], true)): $cp = $c['checkpoints'][$s['phase']]; $used = (int)($s['hints'][$s['phase']] ?? 0); ?>
+      <div class="gn-panel">
+        <p class="kicker">Checkpoint <?= e($s['phase']) ?> · <?= e($cp['title']) ?></p>
+        <h1 class="gn-prompt"><?= e($cp['prompt']) ?></h1>
+        <p>Talk it through at the table. When you can answer, open the next envelope.</p>
+        <?php for ($i = 0; $i < $used; $i++): ?><div class="gn-hint"><b>Hint <?= $i + 1 ?>:</b> <?= e($cp['hints'][$i]) ?></div><?php endfor; ?>
+        <div class="gn-actions">
+          <?php if ($used < count($cp['hints'])): ?><form method="post"><?= csrf_field() ?><input type="hidden" name="do" value="hint"><button class="btn btn-ghost">Show hint <?= $used + 1 ?> <small>(−1 point)</small></button></form><?php endif; ?>
+          <form method="post"><?= csrf_field() ?><input type="hidden" name="do" value="advance"><button class="btn">✉️ <?= e($cp['button']) ?></button></form>
+        </div>
+        <p class="small muted"><?= e($cp['fallback']) ?></p>
+      </div>
+      <?php if ($s['phase'] === 'B'): ?><div class="gn-open">✉️ <b>Open envelope B now</b> – documents P11–P15 join the investigation.</div><?php endif; ?>
+
+    <?php elseif ($s['phase'] === 'final'): $cp = $c['checkpoints']['final']; $used = (int)($s['hints']['final'] ?? 0); ?>
+      <div class="gn-open">✉️ <b>Open envelope C</b> – documents P16–P19. You now have everything.</div>
+      <div class="gn-panel">
+        <p class="kicker">Final · <?= e($cp['title']) ?></p>
+        <h1 class="gn-prompt"><?= e($cp['prompt']) ?></h1>
+        <?php for ($i = 0; $i < $used; $i++): ?><div class="gn-hint"><b>Hint <?= $i + 1 ?>:</b> <?= e($cp['hints'][$i]) ?></div><?php endfor; ?>
+        <?php if ($used < count($cp['hints'])): ?><form method="post" class="gn-actions"><?= csrf_field() ?><input type="hidden" name="do" value="hint"><button class="btn btn-ghost">Show hint <?= $used + 1 ?> <small>(−1 point)</small></button></form><?php endif; ?>
+        <?php if ($s['score'] !== null): ?><p class="flash">Your score is locked from your first accusation (<?= (int)$s['score'] ?>/20). This attempt is just for the satisfaction of getting it right.</p><?php endif; ?>
+      </div>
+      <form id="accuse" method="post" class="gn-accuse"><?= csrf_field() ?><input type="hidden" name="do" value="accuse">
+        <fieldset><legend><span>1</span> Who killed Alexander? <small>6 points</small></legend><div class="suspect-pick">
+          <?php foreach ($c['suspects'] as $p): ?><label><input type="radio" name="culprit" value="<?= e($p['id']) ?>" required> <b><?= e($p['name']) ?></b> <span><?= e($p['role']) ?></span></label><?php endforeach; ?></div></fieldset>
+        <?php foreach (['motive' => ['2', 'What was the motive?', 4], 'door' => ['3', 'How was the door locked?', 4], 'power' => ['4', 'Why did the power go out?', 3]] as $k => [$n, $q, $pts]): ?>
+          <fieldset><legend><span><?= $n ?></span> <?= e($q) ?> <small><?= $pts ?> points</small></legend><div class="gn-choices">
+            <?php foreach ($c['choices'][$k] as $v => $t): ?><label><input type="radio" name="<?= $k ?>" value="<?= e($v) ?>" required> <?= e($t) ?></label><?php endforeach; ?></div></fieldset>
+        <?php endforeach; ?>
+        <fieldset><legend><span>5</span> Which documents prove it? <small>Tick at least four · 3 points</small></legend><div class="gn-docs">
+          <?php foreach ($c['docs'] as $id => $d): ?><label><input type="checkbox" name="evidence[]" value="<?= e($id) ?>"> <b><?= e($id) ?></b> <span><?= e($d['title']) ?></span></label><?php endforeach; ?></div></fieldset>
+        <button class="btn btn-big">Make the accusation</button>
+      </form>
+
+    <?php else: /* done */ ?>
+      <?php if (!$s['revealed']): ?>
+        <div class="gn-panel gn-verdict <?= $s['culprit_ok'] ? 'ok' : 'no' ?>">
+          <?php if ($s['score'] !== null): ?><div class="gn-score"><b><?= (int)$s['score'] ?></b><span>/ 20</span></div><?php endif; ?>
+          <?php if ($s['culprit_ok']): ?>
+            <h1>Case closed, detectives! 🎉</h1><p class="lead">You named the right culprit. Here's how your table scored:</p>
+          <?php else: ?>
+            <h1>The accusation doesn't hold up.</h1><p class="lead">That's not the person who killed Alexander. Your score is locked in – but you can keep investigating, or reveal the solution.</p>
+          <?php endif; ?>
+          <?php if ($s['breakdown']): ?><table class="gn-break"><?php foreach ($s['breakdown'] as $row): ?><tr><td><?= e($row[0]) ?></td><td class="num"><?= $row[2] ? (int)$row[1] . ' / ' . (int)$row[2] : (int)$row[1] ?></td></tr><?php endforeach; ?></table><?php endif; ?>
+          <div class="gn-actions">
+            <?php if (!$s['culprit_ok']): ?><form method="post"><?= csrf_field() ?><input type="hidden" name="do" value="retry"><button class="btn">Keep investigating</button></form><?php endif; ?>
+          </div>
+          <form method="post" class="gn-reveal"><?= csrf_field() ?><input type="hidden" name="do" value="reveal">
+            <label class="check"><input type="checkbox" name="confirm" value="1" required> Our table has finished investigating. Show the full solution.</label>
+            <button class="btn btn-ghost">Reveal the solution</button></form>
+        </div>
+      <?php else: $sol = gn_solution($slug); ?>
+        <div class="gn-panel gn-solution">
+          <?php if ($s['score'] !== null): ?><div class="gn-score"><b><?= (int)$s['score'] ?></b><span>/ 20</span></div><?php endif; ?>
+          <p class="kicker">The solution</p><h1>What really happened at Villa Nordlys</h1>
+          <?php foreach ($sol['summary'] as $p) echo '<p>' . $p . '</p>'; ?>
+          <h2>The chain of evidence</h2>
+          <table class="gn-timeline"><?php foreach ($sol['timeline'] as [$t, $what, $src]): ?><tr><td class="mono"><?= e($t) ?></td><td><?= e($what) ?></td><td class="mono"><?= e($src) ?></td></tr><?php endforeach; ?></table>
+          <h2>Six conclusions</h2><ol><?php foreach ($sol['conclusions'] as [$t, $src]) echo '<li>' . e($t) . ' <span class="muted">(' . e($src) . ')</span></li>'; ?></ol>
+          <h2>Why not the others?</h2><ul><?php foreach ($sol['others'] as $o) echo '<li>' . $o . '</li>'; ?></ul>
+          <p class="note"><?= e($sol['fairness']) ?></p>
+          <?php if ($s['breakdown']): ?><h2>Your table's score</h2><table class="gn-break"><?php foreach ($s['breakdown'] as $row): ?><tr><td><?= e($row[0]) ?></td><td class="num"><?= $row[2] ? (int)$row[1] . ' / ' . (int)$row[2] : (int)$row[1] ?></td></tr><?php endforeach; ?></table><?php endif; ?>
+        </div>
+      <?php endif; ?>
+      <div class="share-box" data-share data-url="<?= e(url('/game-night/' . $slug)) ?>" data-text="<?= e($s['score'] !== null ? 'Our table scored ' . (int)$s['score'] . '/20 on the Game Night murder mystery "' . $c['title'] . '" 🕵️ Can your friends beat that?' : 'We just played the Game Night murder mystery "' . $c['title'] . '" 🕵️') ?>" data-mystery="gn-<?= e($slug) ?>">
+        <h2>Challenge another table</h2><p>Send the case to friends and see who tops the hall of fame.</p>
+        <button class="btn btn-big" data-share-native>Share the case</button>
+        <div class="share-links"><a class="btn btn-ghost btn-small" target="_blank" rel="noopener" data-share-ch="whatsapp" href="https://wa.me/?text=<?= rawurlencode('Game Night murder mystery: ' . $c['title'] . ' ' . url('/game-night/' . $slug)) ?>">WhatsApp</a><button class="btn btn-ghost btn-small" data-copy>Copy link</button></div>
+        <p class="small muted" data-copied hidden>Link copied!</p>
+      </div>
+      <form method="post" class="gn-restart" onsubmit="return confirm('Start a new game with another table? Your result stays in the hall of fame.');"><?= csrf_field() ?><input type="hidden" name="do" value="restart"><button class="linkbtn">Start a new game for another table</button></form>
+    <?php endif; ?>
+  <?php endif; ?>
+</section>
+<?php
+    page_end();
 }
