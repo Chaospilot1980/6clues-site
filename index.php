@@ -644,6 +644,7 @@ function cron_deploy(): void {
     copy("$src/index.php", __DIR__ . '/index.php.new') && rename(__DIR__ . '/index.php.new', __DIR__ . '/index.php') && $n++;
     $rm = function ($d) use (&$rm) { foreach (glob("$d/{,.}[!.,!..]*", GLOB_BRACE) ?: [] as $p) is_dir($p) ? $rm($p) : @unlink($p); @rmdir($d); };
     $rm($tmp);
+    if (function_exists('opcache_reset')) @opcache_reset();
     echo "deployed $remote ($n files)\n";
 }
 
