@@ -63,19 +63,26 @@ def validate(ms):
     return errors
 
 
-LAUNCH = "2026-11-14"   # Daily case #1
+LAUNCH = "2026-11-15"   # Daily case #1
+LIBRARY_SIZE = 30       # the first 30 cases form the free library; every case after that is released as a daily case
 
 
 def schedule(ms):
-    """Gives every mystery a daily date (one per day) and a public-from date. Stored in tools/schedule.json so
-    dates never move once given. New mysteries get the next free days: level 3 at weekends, levels 1 and 2 on weekdays."""
+    """Library cases (the first LIBRARY_SIZE) are public at once and have no daily date. Every later case gets
+    one daily date and stays hidden until then. Stored in tools/schedule.json so dates never move once given.
+    Daily cases: level 3 at weekends, levels 1 and 2 alternate on weekdays."""
     import datetime
     path = os.path.join(HERE, "schedule.json")
     sched = json.load(open(path)) if os.path.exists(path) else {}
-    bootstrap = not sched
-    used = {v["daily"] for v in sched.values()}
+    used = {v["daily"] for v in sched.values() if v.get("daily")}
+    library = sum(1 for v in sched.values() if not v.get("daily"))
     pool = [m for m in ms if m["slug"] not in sched]
-    day = datetime.date.fromisoformat(LAUNCH)
+    today = datetime.date.today().isoformat()
+    while pool and library < LIBRARY_SIZE:
+        m = pool.pop(0)
+        sched[m["slug"]] = {"daily": None, "public": m.get("added") or today}
+        library += 1
+    day = max(datetime.date.fromisoformat(LAUNCH), datetime.date.today() + datetime.timedelta(days=1))
     last_l12 = 2
     while pool:
         d = day.isoformat()
@@ -88,10 +95,9 @@ def schedule(ms):
         pool.remove(pick)
         if pick["level"] in (1, 2):
             last_l12 = pick["level"]
-        public = (pick.get("added") or LAUNCH) if bootstrap else d
-        sched[pick["slug"]] = {"daily": d, "public": min(public, d) if bootstrap else d}
+        sched[pick["slug"]] = {"daily": d, "public": d}
     with open(path, "w") as f:
-        json.dump(dict(sorted(sched.items(), key=lambda kv: kv[1]["daily"])), f, indent=1)
+        json.dump(dict(sorted(sched.items(), key=lambda kv: (kv[1]["daily"] or "", kv[1]["public"]))), f, indent=1)
     return sched
 
 
@@ -143,5 +149,8 @@ if __name__ == "__main__":
     sched = json.load(open(os.path.join(HERE, "schedule.json")))
     import datetime as _d
     today = _d.date.today().isoformat()
-    ahead = sum(1 for v in sched.values() if v["daily"] > today)
-    print(f"Daily cases scheduled until {max(v['daily'] for v in sched.values())} ({ahead} days ahead of today)")
+    lib = sum(1 for v in sched.values() if not v.get("daily"))
+    dailies = [v["daily"] for v in sched.values() if v.get("daily")]
+    ahead = sum(1 for d in dailies if d > today)
+    print(f"Library: {lib} cases (target {LIBRARY_SIZE})")
+    print(f"Daily cases scheduled until {max(dailies) if dailies else '-'} ({ahead} days ahead of today)")

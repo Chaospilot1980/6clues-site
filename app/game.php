@@ -8,7 +8,7 @@ declare(strict_types=1);
 
 const POINTS = [1 => 100, 2 => 85, 3 => 70, 4 => 55, 5 => 40, 6 => 25];
 const FREE_RESULTS = 2;
-const LAUNCH_DATE = '2026-11-14';
+const LAUNCH_DATE = '2026-11-15';
 
 function today(): string { return (new DateTime('now', new DateTimeZone('Europe/Copenhagen')))->format('Y-m-d'); }
 function cph_date(string $utc): string {
@@ -19,6 +19,12 @@ function daily_mystery(?string $date = null): ?array {
     $date ??= today();
     foreach (mysteries() as $m) if (($m['daily'] ?? '') === $date) return $m;
     return null;
+}
+/** Today's daily case, or – if there is none – a library case featured for the day. */
+function featured_mystery(): ?array {
+    if ($d = daily_mystery()) return $d;
+    $lib = array_values(array_filter(mysteries(), fn($m) => empty($m['daily']) && $m['level'] <= 2));
+    return $lib ? $lib[crc32(today()) % count($lib)] : null;
 }
 
 function game_migrate(PDO $pdo, string $id, string $engine): void {

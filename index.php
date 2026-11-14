@@ -70,7 +70,7 @@ function home(): void {
          'itemListElement' => array_map(fn($m, $i) => ['@type' => 'ListItem', 'position' => $i + 1, 'url' => url('/mysteries/' . $m['slug']), 'name' => $m['title']], mysteries(), array_keys(mysteries()))],
     ]]);
     ?>
-<?php $d = daily_mystery(); $dp = $d ? my_play($d['slug']) : null; ?>
+<?php $d = featured_mystery(); $dp = $d ? my_play($d['slug']) : null; $isD = $d && !empty($d['daily']); ?>
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
@@ -78,7 +78,7 @@ function home(): void {
       <h1>6 clues. 1 culprit.<br>Can you crack the case?</h1>
       <p class="lead">A new detective case every day. Open the clues one by one, and accuse the culprit as soon as you're sure – the fewer clues you need, the higher you score. Then challenge your friends to beat you.</p>
       <?php if ($d): ?>
-        <p class="cta-row"><a class="btn btn-big" href="/mysteries/<?= e($d['slug']) ?>/play" data-ga-click="daily_cta" data-ga-mystery="<?= e($d['slug']) ?>"><?= $dp && $dp['answered_at'] ? 'See today\'s result' : ($dp ? 'Continue today\'s case' : 'Play today\'s mystery') ?></a></p>
+        <p class="cta-row"><a class="btn btn-big" href="/mysteries/<?= e($d['slug']) ?>/play" data-ga-click="daily_cta" data-ga-mystery="<?= e($d['slug']) ?>"><?= $dp && $dp['answered_at'] ? 'See your result' : ($dp ? 'Continue the case' : ($isD ? 'Play today\'s mystery' : 'Play today\'s featured case')) ?></a></p>
         <p class="small">Free · no sign-up needed to play · <a href="#mysteries">or pick any case</a></p>
       <?php else: ?>
         <p class="cta-row"><a class="btn" href="#mysteries">Pick a mystery</a></p>
@@ -87,7 +87,8 @@ function home(): void {
     </div>
     <?php if ($d): ?>
     <a class="hero-card daily-card" href="/mysteries/<?= e($d['slug']) ?>/play">
-      <div class="stamp">DAILY<br><b>#<?= daily_no($d['daily']) ?></b><br><?= e(strtoupper(date('j M', strtotime($d['daily'])))) ?></div>
+      <?php if ($isD): ?><div class="stamp">DAILY<br><b>#<?= daily_no($d['daily']) ?></b><br><?= e(strtoupper(date('j M', strtotime($d['daily'])))) ?></div>
+      <?php else: ?><div class="stamp">TODAY'S<br><b>CASE</b><br><?= e(strtoupper(date('j M'))) ?></div><?php endif; ?>
       <p class="small"><?= badge_row($d) ?></p>
       <h2><?= e($d['title']) ?></h2>
       <p class="type"><?= e($d['teaser']) ?></p>
@@ -412,7 +413,7 @@ function rematch(string $code): void {
 }
 
 function daily_redirect(): void {
-    $m = daily_mystery();
+    $m = featured_mystery();
     redirect($m ? '/mysteries/' . $m['slug'] . '/play' : '/#mysteries');
 }
 
