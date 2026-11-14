@@ -55,6 +55,8 @@ function game_migrate(PDO $pdo, string $id, string $engine): void {
         parent VARCHAR(12) NULL,
         created_at DATETIME NOT NULL
     )$engine");
+    try { $pdo->query('SELECT alias FROM challenges LIMIT 1'); }
+    catch (Throwable $e) { $pdo->exec('ALTER TABLE challenges ADD COLUMN alias VARCHAR(40) NULL'); }   // guest's detective name
     $pdo->exec("CREATE TABLE IF NOT EXISTS events (
         id $id, type VARCHAR(40) NOT NULL, ref VARCHAR(100) NULL, who VARCHAR(40) NULL, created_at DATETIME NOT NULL
     )$engine");
@@ -186,6 +188,14 @@ function player_name(?int $uid): string {
     return $n !== '' ? $n : 'A detective';
 }
 
+/** Name shown for whoever made a challenge: their first name, the detective name a guest typed, or 'A detective'. */
+function challenger_name(array $c): string {
+    if ($c['user_id']) return player_name((int)$c['user_id']);
+    $a = trim((string)($c['alias'] ?? ''));
+    return $a !== '' ? $a : 'A detective';
+}
+function clean_alias(string $s): string { return mb_substr(trim((string)preg_replace('/[^\p{L}\p{N} \'._\-]/u', '', $s)), 0, 24); }
+
 // ---------- challenges and friends ----------
 function create_challenge(string $slug, ?string $parent = null): string {
     $u = current_user();
@@ -198,8 +208,8 @@ function create_challenge(string $slug, ?string $parent = null): string {
         $code = ''; for ($i = 0; $i < 6; $i++) $code .= $alphabet[random_int(0, strlen($alphabet) - 1)];
         $ex = db()->prepare('SELECT 1 FROM challenges WHERE code = ?'); $ex->execute([$code]);
     } while ($ex->fetchColumn());
-    db()->prepare('INSERT INTO challenges (code, slug, user_id, guest_id, parent, created_at) VALUES (?,?,?,?,?,?)')
-        ->execute([$code, $slug, $u['id'] ?? null, $g, $parent, now()]);
+    db()->prepare('INSERT INTO challenges (code, slug, user_id, guest_id, parent, created_at, alias) VALUES (?,?,?,?,?,?,?)')
+        ->execute([$code, $slug, $u['id'] ?? null, $g, $parent, now(), $u ? null : (($_SESSION['alias'] ?? '') ?: null)]);
     return $code;
 }
 function challenge(string $code): ?array {
@@ -251,6 +261,11 @@ function week_start_utc(): string {
     $d = new DateTime('monday this week', new DateTimeZone('Europe/Copenhagen'));
     if ((new DateTime('now', new DateTimeZone('Europe/Copenhagen')))->format('N') === '1') $d = new DateTime('today', new DateTimeZone('Europe/Copenhagen'));
     return $d->setTimezone(new DateTimeZone('UTC'))->format('Y-m-d H:i:s');
+}
+/** Wordle-style result line: one 🔍 per clue used, ⬛ for the rest, ❌ if the accusation was wrong. */
+function emoji_row(array $p): string {
+    $n = max(1, min(6, (int)$p['clues']));
+    return (int)$p['correct'] ? str_repeat('🔍', $n) . str_repeat('⬛', 6 - $n) . ' ' . $n . '/6' : str_repeat('🔍', $n) . str_repeat('⬛', 6 - $n) . ' ❌';
 }
 function clues_txt(array $p): string { return (int)$p['correct'] ? (int)$p['clues'] . ((int)$p['clues'] === 1 ? ' clue' : ' clues') : 'wrong'; }
 

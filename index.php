@@ -23,6 +23,7 @@ $routes = [
     '#^/game-night/([a-z0-9\-]+)/play$#'      => 'gn_play',
     '#^/c/([A-Za-z0-9]{6})$#'                 => 'challenge_page',
     '#^/rematch/([A-Za-z0-9]{6})$#'           => 'rematch',
+    '#^/c/([A-Za-z0-9]{6})/name$#'            => 'challenge_name',
     '#^/mysteries/([a-z0-9\-]+)/print$#'      => 'print_page',
     '#^/answer/([a-z0-9\-]+)$#'               => 'answer',
     '#^/login$#'                              => 'login',
@@ -263,7 +264,7 @@ function play(string $slug): void {
   </div>
 
   <?php if ($c && $cp && $cp['answered_at'] && (!$u || (int)$c['user_id'] !== (int)$u['id'])): ?>
-    <div class="challenge-banner">🕵️ <b><?= e(player_name($c['user_id'] ? (int)$c['user_id'] : null)) ?></b>
+    <div class="challenge-banner">🕵️ <b><?= e(challenger_name($c)) ?></b>
       <?= (int)$cp['correct'] ? 'cracked this case with <b>' . (int)$cp['clues'] . ' of 6 clues</b>. Can you do it with fewer?' : 'couldn\'t crack this one. Can you?' ?></div>
   <?php endif; ?>
 
@@ -355,18 +356,27 @@ function game_result(array $m, array $p): void {
     // Duel with the challenger, if this game came from a challenge link
     if ($p['challenge'] && ($c = challenge((string)$p['challenge'])) && ($cp = challenger_play($c)) && $cp['answered_at'] && (int)$cp['id'] !== (int)$p['id']) {
         $w = duel($p, $cp);
-        $them = player_name($c['user_id'] ? (int)$c['user_id'] : null);
+        $them = challenger_name($c);
         echo '<div class="vs"><div><b>You</b><span>' . clues_txt($p) . '</span></div><div class="vs-mid">VS</div><div><b>' . e($them) . '</b><span>' . clues_txt($cp) . '</span></div></div>';
         echo '<p class="vs-verdict">' . ($w > 0 ? '🏆 You beat ' . e($them) . '!' : ($w < 0 ? e($them) . ' wins this one.' : 'It\'s a draw!')) . '</p>';
         echo '<p><a class="btn btn-ghost" href="/rematch/' . e($c['code']) . '">Rematch on a new case</a></p>';
     }
     $code = create_challenge($slug);
     $link = url('/c/' . $code);
-    $text = (int)$p['correct'] ? 'I cracked "' . $m['title'] . '" with ' . (int)$p['clues'] . ' of 6 clues 🕵️ Can you beat me?' : 'I couldn\'t crack "' . $m['title'] . '" 🕵️ Can you?';
+    $isDaily = ($m['daily'] ?? '') !== '' && ($m['daily'] ?? '') === cph_date((string)$p['answered_at']);
+    $text = ($isDaily ? 'Six Clues daily #' . daily_no($m['daily']) . ' 🕵️ ' : 'Six Clues 🕵️ ') . $m['title'] . "\n" . emoji_row($p)
+        . ((int)$p['correct'] ? ' · ' . (int)$p['points'] . ' pts' : '') . "\n" . ((int)$p['correct'] ? 'Can you crack it with fewer clues?' : 'I got it wrong – can you crack it?');
+    $c0 = challenge($code);
     ?>
   <div class="share-box" data-share data-url="<?= e($link) ?>" data-text="<?= e($text) ?>" data-mystery="<?= e($slug) ?>">
     <h2>Challenge a friend to beat your score</h2>
     <p>Who's the best detective among your friends? Send them this case – they'll see your score, but not the answer.</p>
+    <p class="emoji-row" aria-label="Your result"><?= e(emoji_row($p)) ?></p>
+    <?php if (!$u): ?>
+      <form method="post" action="/c/<?= e($code) ?>/name" class="alias-form"><?= csrf_field() ?>
+        <label>Your detective name <small>(so friends know who challenged them)</small>
+        <span><input name="alias" maxlength="24" value="<?= e((string)($c0['alias'] ?? '')) ?>" placeholder="e.g. Dennis" autocomplete="nickname"><button class="btn btn-small btn-ghost">Save</button></span></label></form>
+    <?php endif; ?>
     <button class="btn btn-big" data-share-native>Challenge a friend</button>
     <div class="share-links">
       <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" data-share-ch="whatsapp" href="https://wa.me/?text=<?= rawurlencode($text . ' ' . $link) ?>">WhatsApp</a>
@@ -392,7 +402,7 @@ function challenge_page(string $code): void {
     $u = current_user();
     $mine = ($u && (int)$c['user_id'] === (int)$u['id']) || (!$u && $c['guest_id'] && $c['guest_id'] === guest_id());
     $cp = challenger_play($c);
-    $name = player_name($c['user_id'] ? (int)$c['user_id'] : null);
+    $name = challenger_name($c);
     $p = my_play($m['slug']);
     $score = $cp && $cp['answered_at'] ? ((int)$cp['correct'] ? 'cracked it with ' . (int)$cp['clues'] . ' of 6 clues' : 'couldn\'t crack it') : 'is on the case';
     $_SESSION['ga_event'] = 'challenge_opened';
@@ -429,6 +439,19 @@ function challenge_page(string $code): void {
     page_end();
 }
 
+function challenge_name(string $code): void {
+    $c = challenge($code);
+    if (!$c || ($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') { not_found(); return; }
+    csrf_check();
+    if (!$c['user_id'] && $c['guest_id'] && $c['guest_id'] === guest_id()) {
+        $a = clean_alias((string)($_POST['alias'] ?? ''));
+        $_SESSION['alias'] = $a;
+        db()->prepare('UPDATE challenges SET alias = ? WHERE guest_id = ? AND user_id IS NULL')->execute([$a !== '' ? $a : null, $c['guest_id']]);
+        flash($a !== '' ? 'Saved – your friends will see “' . $a . '”.' : 'Name removed.');
+    }
+    redirect('/mysteries/' . $c['slug'] . '/play#result');
+}
+
 function rematch(string $code): void {
     $c = challenge($code);
     if (!$c) { not_found(); return; }
@@ -446,7 +469,7 @@ function rematch(string $code): void {
         if (!$pool) { flash('You two have played every case! New ones arrive daily.'); redirect('/'); }
         $pick = $pool[random_int(0, count($pool) - 1)];
     }
-    flash('Rematch! Crack this case, then send your new challenge link to ' . player_name($c['user_id'] ? (int)$c['user_id'] : null) . '.');
+    flash('Rematch! Crack this case, then send your new challenge link to ' . challenger_name($c) . '.');
     redirect('/mysteries/' . $pick['slug'] . '/play');
 }
 

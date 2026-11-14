@@ -321,3 +321,19 @@ tr.me td{background:#FFF3C4}
 .gn-face{width:64px;height:64px;object-fit:cover;flex:0 0 auto;border:2px solid var(--ink);background:#DDD5C7}
 .gn-people li{flex-direction:row;gap:12px;align-items:center}.gn-people li div{display:flex;flex-direction:column}
 .suspect-pick .gn-face{width:44px;height:44px}
+/* Share: emoji result line and guest detective name */
+.emoji-row{font-size:26px;letter-spacing:2px;margin:6px 0 14px}
+.alias-form{margin:0 auto 16px;max-width:420px;text-align:left}
+.alias-form label{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:15px}
+.alias-form small{font-weight:400;color:var(--muted)}
+.alias-form span{display:flex;gap:8px}.alias-form input{flex:1;min-width:0;font:inherit;padding:8px 10px;border:1.5px solid var(--ink);background:var(--paper)}
+/* Compact header on phones: one row, menu scrolls sideways */
+@media (max-width:640px){
+  .header-row{flex-wrap:nowrap;min-height:56px;gap:12px}
+  .logo{font-size:20px;flex:0 0 auto}.logo-mark{width:28px;height:28px;font-size:18px}
+  header nav{flex-wrap:nowrap;overflow-x:auto;gap:14px;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent)}
+  header nav::-webkit-scrollbar{display:none}
+  header nav a{font-size:14px;white-space:nowrap;padding:8px 0}
+  header nav a.btn{padding:6px 10px}
+  header nav a[href="/#how"]{display:none}
+}
