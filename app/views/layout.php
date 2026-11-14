@@ -29,7 +29,7 @@ function page_start(array $meta): void {
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/special-elite-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=5">
 <?php foreach ((array)($meta['jsonld'] ?? []) as $ld): ?>
 <script type="application/ld+json"><?= json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?></script>
 <?php endforeach; ?>
@@ -71,7 +71,7 @@ function page_end(): void {
 </main>
 <footer class="site-footer">
   <div class="wrap footer-row">
-    <p><strong><?= e(cfg('site_name')) ?></strong> – <?= e(cfg('tagline')) ?>. New cases every month.</p>
+    <p><strong><?= e(cfg('site_name')) ?></strong> – <?= e(cfg('tagline')) ?>. A new case every day.</p>
     <p><a href="/privacy">Privacy &amp; cookies</a> · <a href="#" data-cookie-settings>Cookie settings</a> · <a href="mailto:<?= e(cfg('contact_email')) ?>">Contact</a></p>
   </div>
 </footer>
@@ -85,7 +85,7 @@ function page_end(): void {
 </div>
 <?php endif; ?>
 <?php if ($ev): ?><span hidden data-ga-event="<?= e($ev) ?>"></span><?php endif; ?>
-<script src="/assets/js/app.js?v=3" defer></script>
+<script src="/assets/js/app.js?v=5" defer></script>
 </body>
 </html>
 <?php

@@ -63,11 +63,44 @@ def validate(ms):
     return errors
 
 
+LAUNCH = "2026-11-14"   # Daily case #1
+
+
+def schedule(ms):
+    """Gives every mystery a daily date (one per day) and a public-from date. Stored in tools/schedule.json so
+    dates never move once given. New mysteries get the next free days: level 3 at weekends, levels 1 and 2 on weekdays."""
+    import datetime
+    path = os.path.join(HERE, "schedule.json")
+    sched = json.load(open(path)) if os.path.exists(path) else {}
+    bootstrap = not sched
+    used = {v["daily"] for v in sched.values()}
+    pool = [m for m in ms if m["slug"] not in sched]
+    day = datetime.date.fromisoformat(LAUNCH)
+    last_l12 = 2
+    while pool:
+        d = day.isoformat()
+        day += datetime.timedelta(days=1)
+        if d in used:
+            continue
+        weekend = datetime.date.fromisoformat(d).weekday() >= 5
+        want = [3, 2, 1] if weekend else ([1, 2, 3] if last_l12 == 2 else [2, 1, 3])
+        pick = next((m for lv in want for m in pool if m["level"] == lv), None)
+        pool.remove(pick)
+        if pick["level"] in (1, 2):
+            last_l12 = pick["level"]
+        public = (pick.get("added") or LAUNCH) if bootstrap else d
+        sched[pick["slug"]] = {"daily": d, "public": min(public, d) if bootstrap else d}
+    with open(path, "w") as f:
+        json.dump(dict(sorted(sched.items(), key=lambda kv: kv[1]["daily"])), f, indent=1)
+    return sched
+
+
 def strip(html):
     return re.sub(r"<[^>]+>", "", html).replace("&amp;", "&")
 
 
 def export(ms, target):
+    sched = schedule(ms)
     out = []
     for m in ms:
         posters = []
@@ -80,6 +113,7 @@ def export(ms, target):
             "slug": m["slug"], "level": m["level"], "crime": m["crime"].title(), "who": m["who"],
             "title": m["title_plain"], "teaser": m["teaser"], "intro": m["intro"], "intro_text": strip(m["intro"]),
             "added": m.get("added", ""),
+            "daily": sched[m["slug"]]["daily"], "public": sched[m["slug"]]["public"],
             "suspects": [{"name": c["name"], "role": c["role"]} for c in m["clues"]],
             "clues": [{"name": c["name"], "role": c["role"], "quote": c["quote"], "label": c["label"],
                        "evidence": c["evidence"], "poster": posters[i]} for i, c in enumerate(m["clues"])],
@@ -106,3 +140,8 @@ if __name__ == "__main__":
     for m in ms:
         by[m["level"]] = by.get(m["level"], 0) + 1
     print(f"Exported {len(ms)} mysteries: " + ", ".join(f"level {k}: {v}" for k, v in sorted(by.items())))
+    sched = json.load(open(os.path.join(HERE, "schedule.json")))
+    import datetime as _d
+    today = _d.date.today().isoformat()
+    ahead = sum(1 for v in sched.values() if v["daily"] > today)
+    print(f"Daily cases scheduled until {max(v['daily'] for v in sched.values())} ({ahead} days ahead of today)")

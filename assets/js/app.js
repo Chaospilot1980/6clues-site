@@ -25,8 +25,9 @@
     var tabs = document.querySelectorAll('.clue-tab');
     var cur = 0;
     var show = function (n) {
-      cur = (n + fits.length) % fits.length;
+      cur = ((n % fits.length) + fits.length) % fits.length;
       fits.forEach(function (f, i) { f.hidden = i !== cur; });
+      document.querySelectorAll('[data-text]').forEach(function (t, i) { t.hidden = i !== cur; });
       tabs.forEach(function (t, i) { t.setAttribute('aria-selected', i === cur ? 'true' : 'false'); if (i === cur) t.classList.add('seen'); });
       fitPosters();
     };
@@ -35,7 +36,8 @@
       b.addEventListener('click', function () { show(cur + (+b.getAttribute('data-step'))); document.querySelector('.clue-tabs').scrollIntoView({ behavior: 'smooth', block: 'start' }); });
     });
     window.addEventListener('resize', fitPosters);
-    show(0);
+    var board = document.querySelector('.board');
+    show(+(board && board.getAttribute('data-start') || 0));
   }
 
   // ---- Google Analytics 4 with consent ----
@@ -130,4 +132,25 @@
     form.addEventListener('change', function () { apply(true); });
     apply(false);
   }
+
+  // ---- Challenge a friend ----
+  document.querySelectorAll('[data-share]').forEach(function (box) {
+    var url = box.getAttribute('data-url'), text = box.getAttribute('data-text'), slug = box.getAttribute('data-mystery');
+    var native = box.querySelector('[data-share-native]');
+    var sent = function (ch) { track('challenge_shared', { method: ch, mystery: slug }); };
+    if (native) {
+      if (navigator.share) {
+        native.addEventListener('click', function () {
+          navigator.share({ title: 'Six Clues', text: text, url: url }).then(function () { sent('native'); }).catch(function () {});
+        });
+      } else native.hidden = true;
+    }
+    box.querySelectorAll('[data-share-ch]').forEach(function (a) { a.addEventListener('click', function () { sent(a.getAttribute('data-share-ch')); }); });
+    var copy = box.querySelector('[data-copy]');
+    if (copy) copy.addEventListener('click', function () {
+      var done = function () { var o = box.querySelector('[data-copied]'); if (o) o.hidden = false; sent('copy'); };
+      if (navigator.clipboard) navigator.clipboard.writeText(text + ' ' + url).then(done, function () { prompt('Copy this link:', url); });
+      else { prompt('Copy this link:', url); done(); }
+    });
+  });
 })();

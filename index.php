@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 require __DIR__ . '/app/bootstrap.php';
+require __DIR__ . '/app/game.php';
 require __DIR__ . '/app/views/layout.php';
 
 $path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
@@ -14,6 +15,9 @@ $routes = [
     '#^/$#'                                   => 'home',
     '#^/mysteries/([a-z0-9\-]+)$#'            => 'show',
     '#^/mysteries/([a-z0-9\-]+)/play$#'       => 'play',
+    '#^/daily$#'                              => 'daily_redirect',
+    '#^/c/([A-Za-z0-9]{6})$#'                 => 'challenge_page',
+    '#^/rematch/([A-Za-z0-9]{6})$#'           => 'rematch',
     '#^/mysteries/([a-z0-9\-]+)/print$#'      => 'print_page',
     '#^/answer/([a-z0-9\-]+)$#'               => 'answer',
     '#^/login$#'                              => 'login',
@@ -66,29 +70,40 @@ function home(): void {
          'itemListElement' => array_map(fn($m, $i) => ['@type' => 'ListItem', 'position' => $i + 1, 'url' => url('/mysteries/' . $m['slug']), 'name' => $m['title']], mysteries(), array_keys(mysteries()))],
     ]]);
     ?>
+<?php $d = daily_mystery(); $dp = $d ? my_play($d['slug']) : null; ?>
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="kicker">Case files · free to play</p>
-      <h1>Free printable murder mysteries for parties, families and offices</h1>
-      <p class="lead">Print six clue posters, hide them around the house, garden or office, and let your guests hunt for evidence. When they think they know who did it, they scan the code and name the culprit.</p>
-      <p class="cta-row"><a class="btn" href="#mysteries">Pick a mystery</a> <a class="btn btn-ghost" href="#how">How it works</a></p>
+      <p class="kicker">Your daily mystery · free to play</p>
+      <h1>6 clues. 1 culprit.<br>Can you crack the case?</h1>
+      <p class="lead">A new detective case every day. Open the clues one by one, and accuse the culprit as soon as you're sure – the fewer clues you need, the higher you score. Then challenge your friends to beat you.</p>
+      <?php if ($d): ?>
+        <p class="cta-row"><a class="btn btn-big" href="/mysteries/<?= e($d['slug']) ?>/play" data-ga-click="daily_cta" data-ga-mystery="<?= e($d['slug']) ?>"><?= $dp && $dp['answered_at'] ? 'See today\'s result' : ($dp ? 'Continue today\'s case' : 'Play today\'s mystery') ?></a></p>
+        <p class="small">Free · no sign-up needed to play · <a href="#mysteries">or pick any case</a></p>
+      <?php else: ?>
+        <p class="cta-row"><a class="btn" href="#mysteries">Pick a mystery</a></p>
+      <?php endif; ?>
+      <?php if ($u && ($s = streak((int)$u['id'])) > 0): ?><p class="streak">🔥 <?= $s ?> day<?= $s > 1 ? 's' : '' ?> in a row – keep it going!</p><?php endif; ?>
     </div>
-    <div class="hero-card" aria-hidden="true">
-      <div class="stamp">CLUE<br><b>3</b><br>OF 6</div>
-      <p class="type">”I saw her take two glasses from the kitchen – red nail polish, a gold bracelet…”</p>
-      <p class="small">WITNESS STATEMENT · MARCO RUIZ</p>
-    </div>
+    <?php if ($d): ?>
+    <a class="hero-card daily-card" href="/mysteries/<?= e($d['slug']) ?>/play">
+      <div class="stamp">DAILY<br><b>#<?= daily_no($d['daily']) ?></b><br><?= e(strtoupper(date('j M', strtotime($d['daily'])))) ?></div>
+      <p class="small"><?= badge_row($d) ?></p>
+      <h2><?= e($d['title']) ?></h2>
+      <p class="type"><?= e($d['teaser']) ?></p>
+    </a>
+    <?php endif; ?>
   </div>
 </section>
 
 <section id="how" class="wrap steps">
   <h2>How it works</h2>
   <ol class="step-list">
-    <li><b>Choose a case.</b> Level 1 is perfect for a first game; level 3 will fool most grown-up detectives.</li>
+    <li><b>Play today's case on screen</b> – or choose any case from the library. Level 1 is perfect for a first game; level 3 will fool most grown-up detectives.</li>
     <li><b>Print and hide six posters – or play on screen.</b> On paper, hide the clues around the house, garden or office. On screen, flip through the same six posters on your phone, tablet or TV. Each one has a witness, a statement and a piece of evidence.</li>
     <li><b>Compare the clues.</b> Times, alibis and small details only make sense when you put them together.</li>
-    <li><b>Scan the code and name the culprit.</b> Sign in with Google or your email to submit your answer, see the solution and keep track of the cases you've cracked.</li>
+    <li><b>Accuse the culprit.</b> On screen, fewer clues mean more points. On paper, scan the code on any poster. Sign in to see the solution, keep your streak and climb the rankings.</li>
+    <li><b>Challenge your friends.</b> Send them the case with one tap and find out who's the best detective.</li>
   </ol>
 </section>
 
@@ -107,8 +122,8 @@ function home(): void {
 <?php endif; ?>
 
 <section class="wrap newsletter-box">
-  <h2>New cases every month</h2>
-  <p>Sign in once with Google or your email to save your progress. Tick the box when you submit an answer, and we'll email you when a new mystery is released.</p>
+  <h2>A new case every day</h2>
+  <p>Sign in once with Google or your email to save your progress. Tick the box when you submit an answer, and we'll email you about new mysteries now and then.</p>
   <?php if (!$u): ?><p><a class="btn" href="/login?next=/me">Sign in</a></p><?php endif; ?>
 </section>
 <?php
@@ -169,40 +184,236 @@ function show(string $slug): void {
 
 function play(string $slug): void {
     $m = need_mystery($slug);
+    $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
+    if (!empty($_GET['c']) && ($c = challenge((string)$_GET['c'])) && $c['slug'] === $slug) $_SESSION['challenge'][$slug] = $c['code'];
+    $code = $_SESSION['challenge'][$slug] ?? null;
+    if ($method === 'POST') {
+        csrf_check();
+        $do = (string)($_POST['do'] ?? '');
+        $p = my_play($slug);
+        if ($do === 'start' && !$p) { start_play($slug, $code); $_SESSION['ga_event'] = 'game_started'; }
+        elseif ($do === 'clue' && $p) { reveal_clue($p); $_SESSION['ga_event'] = 'clue_revealed'; }
+        elseif ($do === 'accuse' && $p && !$p['answered_at']) {
+            $guess = (string)($_POST['guess'] ?? '');
+            if (!in_array($guess, array_column($m['suspects'], 'name'), true)) { flash('Pick one of the six suspects.'); redirect('/mysteries/' . $slug . '/play#board'); }
+            $p = accuse($p, $m, $guess);
+            $_SESSION['ga_event'] = 'game_completed';
+        }
+        redirect('/mysteries/' . $slug . '/play' . ($do === 'accuse' ? '#result' : '#board'));
+    }
+    $p = my_play($slug);
+    $u = current_user();
+    $answered = $p && $p['answered_at'];
+    $shown = $answered ? 6 : (int)($p['clues'] ?? 0);
+    $isDaily = ($m['daily'] ?? '') === today();
     $answer = url('/answer/' . $slug . '?src=screen');
-    page_start(['title' => $m['title'] . ' – play online', 'description' => 'Play ' . $m['title'] . ' on screen: flip through all six clue posters and work out who did it.', 'path' => '/mysteries/' . $slug . '/play']);
+    $c = $code ? challenge($code) : null;
+    $cp = $c ? challenger_play($c) : null;
+    page_start(['title' => ($isDaily ? 'Daily case #' . daily_no($m['daily']) . ': ' : '') . $m['title'] . ' – play online',
+        'description' => 'Play ' . $m['title'] . ' on screen. Six clues, one culprit – crack the case with as few clues as you can.',
+        'path' => '/mysteries/' . $slug . '/play']);
     ?>
 <section class="wrap case play">
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Mysteries</a> › <a href="/mysteries/<?= e($slug) ?>"><?= e($m['title']) ?></a> › Play on screen</nav>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Mysteries</a> › <a href="/mysteries/<?= e($slug) ?>"><?= e($m['title']) ?></a> › Play</nav>
   <div class="play-head">
-    <h1><?= e($m['title']) ?></h1>
-    <a class="btn" href="/answer/<?= e($slug) ?>">I know who did it</a>
+    <div>
+      <?php if ($isDaily): ?><p class="kicker">Daily case #<?= daily_no($m['daily']) ?> · <?= e(date('j F', strtotime($m['daily']))) ?></p><?php endif; ?>
+      <h1><?= e($m['title']) ?></h1>
+      <p class="small"><?= badge_row($m) ?></p>
+    </div>
+    <?php if ($p && !$answered): ?><div class="points-now"><span>Worth now</span><b><?= POINTS[$shown] ?></b><span>points</span></div><?php endif; ?>
   </div>
-  <div class="clue-tabs" role="tablist" aria-label="Clues">
-    <?php foreach ($m['clues'] as $i => $c): ?>
-      <button role="tab" class="clue-tab" data-clue="<?= $i ?>" aria-selected="<?= $i === 0 ? 'true' : 'false' ?>"><b><?= $i + 1 ?></b><span><?= e($c['name']) ?></span></button>
-    <?php endforeach; ?>
-  </div>
-  <div class="board">
-    <?php foreach ($m['clues'] as $i => $c): ?>
-      <div class="poster-fit" data-poster="<?= $i ?>" <?= $i ? 'hidden' : '' ?>><div class="poster-inner"><?= str_replace('{{ANSWER_URL}}', e($answer), $c['poster']) ?></div></div>
-    <?php endforeach; ?>
-  </div>
-  <div class="play-nav">
-    <button class="btn btn-ghost" data-step="-1">‹ Previous clue</button>
-    <button class="btn btn-ghost" data-step="1">Next clue ›</button>
-  </div>
-  <details class="text-version">
-    <summary>Read the clues as plain text</summary>
-    <?php foreach ($m['clues'] as $i => $c): ?>
-      <article class="clue"><header><span class="clue-no">Clue <?= $i + 1 ?> of 6</span><h2><?= e($c['name']) ?> <small><?= e($c['role']) ?></small></h2></header>
-      <blockquote>”<?= e($c['quote']) ?>”</blockquote><p class="ev-label">Evidence #<?= $i + 1 ?> · <?= e($c['label']) ?></p><div class="evidence"><?= $c['evidence'] ?></div></article>
-    <?php endforeach; ?>
-  </details>
+
+  <?php if ($c && $cp && $cp['answered_at'] && (!$u || (int)$c['user_id'] !== (int)$u['id'])): ?>
+    <div class="challenge-banner">🕵️ <b><?= e(player_name($c['user_id'] ? (int)$c['user_id'] : null)) ?></b>
+      <?= (int)$cp['correct'] ? 'cracked this case with <b>' . (int)$cp['clues'] . ' of 6 clues</b>. Can you do it with fewer?' : 'couldn\'t crack this one. Can you?' ?></div>
+  <?php endif; ?>
+
+  <?php if (!$p): ?>
+    <div class="intro-card">
+      <p class="lead"><?= $m['intro'] ?></p>
+      <h2>How to play</h2>
+      <ul class="rules">
+        <li>Open the clues one at a time. Each clue is a suspect's statement and a piece of evidence.</li>
+        <li>Accuse someone whenever you're sure. <b>The fewer clues you use, the more points you score:</b> 100 for 1 clue, then 85, 70, 55, 40 and 25 for all six.</li>
+        <li>Only your first accusation counts. A wrong one scores 0.</li>
+      </ul>
+      <form method="post"><?= csrf_field() ?><input type="hidden" name="do" value="start"><button class="btn btn-big">Start investigating</button></form>
+      <p class="small muted">Free – no sign-up needed to play. Prefer paper? <a href="/mysteries/<?= e($slug) ?>/print">Print the six posters</a>.</p>
+    </div>
+  <?php else: ?>
+    <?php if ($answered) game_result($m, $p); ?>
+    <div id="board" class="clue-tabs" role="tablist" aria-label="Clues">
+      <?php for ($i = 0; $i < 6; $i++): $cl = $m['clues'][$i]; ?>
+        <?php if ($i < $shown): ?>
+          <button role="tab" class="clue-tab" data-clue="<?= $i ?>" aria-selected="false"><b><?= $i + 1 ?></b><span><?= e($cl['name']) ?></span></button>
+        <?php else: ?>
+          <span class="clue-tab locked" aria-label="Clue <?= $i + 1 ?> – locked"><b><?= $i + 1 ?></b><span>🔒 Locked</span></span>
+        <?php endif; ?>
+      <?php endfor; ?>
+    </div>
+    <div class="board" data-start="<?= $answered ? 0 : $shown - 1 ?>">
+      <?php for ($i = 0; $i < $shown; $i++): ?>
+        <div class="poster-fit" data-poster="<?= $i ?>" <?= $i !== ($answered ? 0 : $shown - 1) ? 'hidden' : '' ?>><div class="poster-inner"><?= str_replace('{{ANSWER_URL}}', e($answer), $m['clues'][$i]['poster']) ?></div></div>
+      <?php endfor; ?>
+    </div>
+    <div class="clue-texts">
+      <?php for ($i = 0; $i < $shown; $i++): $cl = $m['clues'][$i]; ?>
+        <article class="clue" data-text="<?= $i ?>" <?= $i !== ($answered ? 0 : $shown - 1) ? 'hidden' : '' ?>><header><span class="clue-no">Clue <?= $i + 1 ?> of 6</span><h2><?= e($cl['name']) ?> <small><?= e($cl['role']) ?></small></h2></header>
+        <blockquote>”<?= e($cl['quote']) ?>”</blockquote><p class="ev-label">Evidence #<?= $i + 1 ?> · <?= e($cl['label']) ?></p><div class="evidence"><?= $cl['evidence'] ?></div></article>
+      <?php endfor; ?>
+    </div>
+    <?php if (!$answered): ?>
+      <div class="game-actions">
+        <?php if ($shown < 6): ?>
+          <form method="post"><?= csrf_field() ?><input type="hidden" name="do" value="clue"><button class="btn btn-ghost">Open clue <?= $shown + 1 ?> <small>(case then worth <?= POINTS[$shown + 1] ?>)</small></button></form>
+        <?php endif; ?>
+        <a class="btn" href="#accuse">I know who did it</a>
+      </div>
+      <form id="accuse" method="post" class="answer-form accuse-box">
+        <?= csrf_field() ?><input type="hidden" name="do" value="accuse">
+        <fieldset>
+          <legend>Who is the <?= e($m['who']) ?>? <small>Right now a correct answer scores <?= POINTS[$shown] ?> points.</small></legend>
+          <div class="suspect-pick">
+          <?php foreach ($m['suspects'] as $s): ?>
+            <label><input type="radio" name="guess" value="<?= e($s['name']) ?>" required> <b><?= e($s['name']) ?></b> <span><?= e($s['role']) ?></span></label>
+          <?php endforeach; ?>
+          </div>
+        </fieldset>
+        <button class="btn btn-big">Accuse!</button>
+        <p class="small muted">Your first accusation is final.</p>
+      </form>
+    <?php endif; ?>
+  <?php endif; ?>
 </section>
 <script src="/assets/js/qrcode.js"></script>
 <?php
     page_end();
+}
+
+function game_result(array $m, array $p): void {
+    $u = current_user();
+    $slug = $m['slug'];
+    echo '<div id="result" class="result-card">';
+    if (!(int)$p['revealed']) {
+        echo '<div class="locked-result"><p class="big">🔒 Your accusation is locked in.</p><p class="lead">Sign in to find out if you cracked the case – and to save your points and streak.</p>';
+        google_button('/mysteries/' . $slug . '/play');
+        echo '<p class="small muted">Free. We only use your name and email. <a href="/privacy">Privacy</a>.</p></div></div>';
+        return;
+    }
+    $pct = percentile($p);
+    if ((int)$p['correct']) {
+        echo '<p class="verdict-big">🎉 Congratulations, detective!</p>';
+        echo '<p class="lead">You cracked <b>' . e($m['title']) . '</b> with <b>' . (int)$p['clues'] . ' of 6 clue' . ((int)$p['clues'] > 1 ? 's' : '') . '</b> – <b>' . (int)$p['points'] . ' points</b>.'
+            . ($pct !== null ? ' That\'s better than <b>' . $pct . '%</b> of players.' : '') . '</p>';
+    } else {
+        echo '<p class="verdict-big">Not quite, detective.</p>';
+        echo '<p class="lead">' . e((string)$p['guess']) . ' is innocent. No points this time – but you can still find the real ' . e($m['who']) . '.</p>';
+    }
+    if ($u && ($m['daily'] ?? '') === cph_date((string)$p['answered_at'])) {
+        $s = streak((int)$u['id']);
+        if ($s > 0) echo '<p class="streak">🔥 ' . $s . ' day' . ($s > 1 ? 's' : '') . ' in a row</p>';
+    }
+    // Duel with the challenger, if this game came from a challenge link
+    if ($p['challenge'] && ($c = challenge((string)$p['challenge'])) && ($cp = challenger_play($c)) && $cp['answered_at'] && (int)$cp['id'] !== (int)$p['id']) {
+        $w = duel($p, $cp);
+        $them = player_name($c['user_id'] ? (int)$c['user_id'] : null);
+        echo '<div class="vs"><div><b>You</b><span>' . clues_txt($p) . '</span></div><div class="vs-mid">VS</div><div><b>' . e($them) . '</b><span>' . clues_txt($cp) . '</span></div></div>';
+        echo '<p class="vs-verdict">' . ($w > 0 ? '🏆 You beat ' . e($them) . '!' : ($w < 0 ? e($them) . ' wins this one.' : 'It\'s a draw!')) . '</p>';
+        echo '<p><a class="btn btn-ghost" href="/rematch/' . e($c['code']) . '">Rematch on a new case</a></p>';
+    }
+    $code = create_challenge($slug);
+    $link = url('/c/' . $code);
+    $text = (int)$p['correct'] ? 'I cracked "' . $m['title'] . '" with ' . (int)$p['clues'] . ' of 6 clues 🕵️ Can you beat me?' : 'I couldn\'t crack "' . $m['title'] . '" 🕵️ Can you?';
+    ?>
+  <div class="share-box" data-share data-url="<?= e($link) ?>" data-text="<?= e($text) ?>" data-mystery="<?= e($slug) ?>">
+    <h2>Challenge a friend to beat your score</h2>
+    <p>Who's the best detective among your friends? Send them this case – they'll see your score, but not the answer.</p>
+    <button class="btn btn-big" data-share-native>Challenge a friend</button>
+    <div class="share-links">
+      <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" data-share-ch="whatsapp" href="https://wa.me/?text=<?= rawurlencode($text . ' ' . $link) ?>">WhatsApp</a>
+      <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" data-share-ch="facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?= rawurlencode($link) ?>">Facebook</a>
+      <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" data-share-ch="email" href="mailto:?subject=<?= rawurlencode('Can you beat me?') ?>&amp;body=<?= rawurlencode($text . "\n\n" . $link) ?>">Email</a>
+      <button class="btn btn-ghost btn-small" data-copy>Copy link</button>
+    </div>
+    <p class="small muted copy-out" data-copied hidden>Link copied!</p>
+  </div>
+  <p class="result-links">
+    <?php if ($u): ?><a class="btn" href="/answer/<?= e($slug) ?>"><?= (int)$p['correct'] ? 'Read the full solution' : 'Keep investigating' ?></a>
+    <?php else: ?><a class="btn" href="/login?next=/answer/<?= e($slug) ?>">Sign in to save your points</a><?php endif; ?>
+    <a class="btn btn-ghost" href="/rankings">Rankings</a>
+  </p>
+</div>
+<?php
+}
+
+function challenge_page(string $code): void {
+    $c = challenge($code);
+    if (!$c || !($m = mystery($c['slug']))) { not_found(); return; }
+    $_SESSION['challenge'][$m['slug']] = $c['code'];
+    $u = current_user();
+    $mine = ($u && (int)$c['user_id'] === (int)$u['id']) || (!$u && $c['guest_id'] && $c['guest_id'] === guest_id());
+    $cp = challenger_play($c);
+    $name = player_name($c['user_id'] ? (int)$c['user_id'] : null);
+    $p = my_play($m['slug']);
+    $score = $cp && $cp['answered_at'] ? ((int)$cp['correct'] ? 'cracked it with ' . (int)$cp['clues'] . ' of 6 clues' : 'couldn\'t crack it') : 'is on the case';
+    $_SESSION['ga_event'] = 'challenge_opened';
+    page_start(['title' => $name . ' challenges you: ' . $m['title'], 'path' => '/c/' . $c['code'], 'noindex' => true,
+        'description' => $name . ' ' . $score . '. Six clues, one culprit – can you beat that? Free to play.']);
+    ?>
+<section class="wrap narrow case challenge-page">
+  <p class="kicker">You've been challenged!</p>
+  <h1><?= e($m['title']) ?></h1>
+  <p><?= badge_row($m) ?></p>
+  <?php if ($mine): ?>
+    <p class="lead">This is your challenge link. Send it to friends – everyone who plays shows up here.</p>
+  <?php else: ?>
+    <div class="vs"><div><b><?= e($name) ?></b><span><?= $cp && $cp['answered_at'] ? clues_txt($cp) : '–' ?></span></div><div class="vs-mid">VS</div><div><b>You</b><span><?= $p && $p['answered_at'] ? ((int)$p['revealed'] ? clues_txt($p) : '🔒') : 'not played' ?></span></div></div>
+    <p class="lead"><b><?= e($name) ?></b> <?= $score ?>. Can you do it with fewer clues?</p>
+    <p class="intro-text"><?= $m['intro'] ?></p>
+    <p><a class="btn btn-big" href="/mysteries/<?= e($m['slug']) ?>/play?c=<?= e($c['code']) ?>"><?= $p ? 'Back to the case' : 'Accept the challenge' ?></a></p>
+    <p class="small muted">Free to play – no sign-up needed to start.</p>
+  <?php endif; ?>
+  <?php
+    $st = db()->prepare('SELECT * FROM plays WHERE challenge = ? AND answered_at IS NOT NULL AND revealed = 1 ORDER BY points DESC, ms ASC LIMIT 20');
+    $st->execute([$c['code']]);
+    $rows = $st->fetchAll();
+    if ($rows): ?>
+    <h2>Who has played this challenge</h2>
+    <div class="table-wrap"><table><thead><tr><th>Detective</th><th class="num">Clues</th><th class="num">Points</th></tr></thead><tbody>
+    <?php if ($cp && $cp['answered_at']): ?><tr><td><?= e($name) ?> (challenger)</td><td class="num"><?= (int)$cp['correct'] ? (int)$cp['clues'] : '–' ?></td><td class="num"><?= (int)$cp['points'] ?></td></tr><?php endif; ?>
+    <?php foreach ($rows as $r): ?><tr><td><?= e(player_name($r['user_id'] ? (int)$r['user_id'] : null)) ?></td><td class="num"><?= (int)$r['correct'] ? (int)$r['clues'] : '–' ?></td><td class="num"><?= (int)$r['points'] ?></td></tr><?php endforeach; ?>
+    </tbody></table></div>
+  <?php endif; ?>
+</section>
+<?php
+    page_end();
+}
+
+function rematch(string $code): void {
+    $c = challenge($code);
+    if (!$c) { not_found(); return; }
+    $played = [];
+    foreach ([['user_id', $c['user_id']], ['user_id', current_user()['id'] ?? null], ['guest_id', guest_id()]] as [$col, $v]) {
+        if (!$v) continue;
+        $st = db()->prepare("SELECT slug FROM plays WHERE $col = ?"); $st->execute([$v]);
+        foreach ($st->fetchAll() as $r) $played[$r['slug']] = true;
+    }
+    $daily = daily_mystery();
+    $pick = ($daily && !isset($played[$daily['slug']])) ? $daily : null;
+    if (!$pick) {
+        $pool = array_values(array_filter(mysteries(), fn($m) => !isset($played[$m['slug']]) && $m['level'] <= 2));
+        if (!$pool) $pool = array_values(array_filter(mysteries(), fn($m) => !isset($played[$m['slug']])));
+        if (!$pool) { flash('You two have played every case! New ones arrive daily.'); redirect('/'); }
+        $pick = $pool[random_int(0, count($pool) - 1)];
+    }
+    flash('Rematch! Crack this case, then send your new challenge link to ' . player_name($c['user_id'] ? (int)$c['user_id'] : null) . '.');
+    redirect('/mysteries/' . $pick['slug'] . '/play');
+}
+
+function daily_redirect(): void {
+    $m = daily_mystery();
+    redirect($m ? '/mysteries/' . $m['slug'] . '/play' : '/#mysteries');
 }
 
 function print_page(string $slug): void {
@@ -357,6 +568,7 @@ function answer(string $slug): void {
             $names = array_column($m['suspects'], 'name');
             if (!in_array($guess, $names, true)) { flash('Pick one of the suspects.'); redirect('/answer/' . $slug); }
             $ok = $guess === $m['solution']['killer'];
+            record_print_play($uid, $slug, $guess, $ok);
             $pdo->prepare('INSERT INTO attempts (user_id, slug, guess, correct, created_at) VALUES (?,?,?,?,?)')->execute([$uid, $slug, $guess, $ok ? 1 : 0, now()]);
             if ($ok && !$done) $pdo->prepare('INSERT INTO solves (user_id, slug, solved_at, attempts, gave_up) VALUES (?,?,?,?,0)')->execute([$uid, $slug, now(), $tries + 1]);
             $_SESSION['ga_event'] = $ok ? 'mystery_solved' : 'wrong_answer';
@@ -430,7 +642,8 @@ function me(): void {
   <h1>Detective <?= e($u['name'] ?: $u['email']) ?></h1>
   <p class="lead"><?= $solved ?> of <?= count(mysteries()) ?> cases solved.</p>
   <div class="progress" role="img" aria-label="<?= $solved ?> of <?= count(mysteries()) ?> solved"><span style="width: <?= round($solved / max(1, count(mysteries())) * 100) ?>%"></span></div>
-  <p><a href="/rankings">See where you rank among other detectives →</a></p>
+  <?php $pts = board(null, [(int)$u['id']], false); $s = streak((int)$u['id']); ?>
+  <p><b><?= (int)($pts[0]['pts'] ?? 0) ?> points</b><?= $s ? ' · 🔥 ' . $s . ' day' . ($s > 1 ? 's' : '') . ' in a row' : '' ?> · <a href="/rankings?tab=friends">See how you rank among your friends →</a></p>
   <?php next_cases($u); ?>
   <h2>All cases</h2>
   <div class="grid"><?php foreach (mysteries() as $m) echo mystery_card($m, $prog); ?></div>
@@ -504,7 +717,7 @@ function privacy(): void {
   <h2>Emails about new mysteries</h2>
   <p>We only email you about new mysteries if you tick the box to say yes. You can say no at any time by clicking the unsubscribe link in an email or by writing to us.</p>
   <h2>Cookies</h2>
-  <p>We use one necessary session cookie to keep you signed in. With your permission we also use Google Analytics cookies to count visits and see which mysteries are popular. You can change your choice under “Cookie settings” at the bottom of every page.</p>
+  <p>We use one necessary session cookie to keep you signed in, and one cookie that remembers the cases you play before you sign in, so your answers and points are not lost. With your permission we also use Google Analytics cookies to count visits and see which mysteries are popular. You can change your choice under “Cookie settings” at the bottom of every page.</p>
   <h2>Who processes your data</h2>
   <p>Our website and database are hosted by Simply.com in the EU. Google sign-in is provided by Google. Analytics (only with consent) is provided by Google.</p>
   <h2>Your rights</h2>
@@ -755,19 +968,51 @@ function rankings(): void {
         usort($ms, fn($x, $y) => $dir * (($st[$x['slug']][$k] ?? 0) <=> ($st[$y['slug']][$k] ?? 0)));
         return array_slice($ms, 0, 5);
     };
-    $top = leaderboard(25);
     $u = current_user();
     $in = false;
     if ($u) { $q = db()->prepare('SELECT alias FROM leaderboard WHERE user_id = ?'); $q->execute([$u['id']]); $in = $q->fetchColumn(); }
-    page_start(['title' => 'Rankings – hardest mysteries and top detectives', 'path' => '/rankings',
-        'description' => 'Which free murder mysteries are the hardest to crack, which are most played, and who are the best detectives on Six Clues?']);
+    $tab = (string)($_GET['tab'] ?? 'week');
+    if (!in_array($tab, ['week', 'friends', 'all'], true)) $tab = 'week';
+    if ($tab === 'friends') $rows = $u ? board(null, array_merge([(int)$u['id']], friend_ids((int)$u['id'])), false) : [];
+    else $rows = board($tab === 'week' ? week_start_utc() : null);
+    page_start(['title' => 'Rankings – top detectives and hardest cases', 'path' => '/rankings',
+        'description' => 'Who are the best detectives on Six Clues this week? See the weekly leaderboard, challenge your friends and find the hardest murder mysteries to crack.']);
     ?>
 <section class="wrap case">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Mysteries</a> › Rankings</nav>
   <h1>Rankings</h1>
+  <p>Every case you play on screen scores points: 100 if you crack it with 1 clue, then 85, 70, 55, 40 – and 25 with all six. A wrong first accusation scores 0.</p>
+  <nav class="tabs" aria-label="Leaderboards">
+    <a href="/rankings?tab=week" <?= $tab === 'week' ? 'aria-current="page"' : '' ?>>This week</a>
+    <a href="/rankings?tab=friends" <?= $tab === 'friends' ? 'aria-current="page"' : '' ?>>Friends</a>
+    <a href="/rankings?tab=all" <?= $tab === 'all' ? 'aria-current="page"' : '' ?>>All time</a>
+  </nav>
+  <?php if ($tab === 'friends' && !$u): ?>
+    <p>Sign in to see how you rank against your friends. Everyone you challenge – or who challenges you – becomes a friend here.</p>
+    <p><a class="btn" href="/login?next=/rankings?tab=friends">Sign in</a></p>
+  <?php elseif ($tab === 'friends' && count($rows) < 2): ?>
+    <p>No friends here yet. Solve a case and press <b>Challenge a friend</b> – everyone who plays your challenge shows up on this list.</p>
+    <?php $d = daily_mystery(); if ($d): ?><p><a class="btn" href="/mysteries/<?= e($d['slug']) ?>/play">Play today's case</a></p><?php endif; ?>
+  <?php elseif (!$rows): ?>
+    <p><?= $tab === 'week' ? 'The week has just started – no detectives on the board yet. Be the first!' : 'No detectives on the board yet – be the first.' ?></p>
+  <?php else: ?>
+  <div class="table-wrap"><table><thead><tr><th class="num">#</th><th>Detective</th><th class="num">Cases cracked</th><th class="num">Avg. clues</th><th class="num">Points</th></tr></thead><tbody>
+  <?php foreach ($rows as $n => $r): $me = $u && (int)$r['user_id'] === (int)$u['id']; ?>
+    <tr<?= $me ? ' class="me"' : '' ?>><td class="num"><?= $n + 1 ?></td><td><?= e($tab === 'friends' ? ($me ? 'You' : (first_name((string)$r['name']) ?: 'A detective')) : (string)$r['alias']) ?></td><td class="num"><?= (int)$r['solved'] ?></td><td class="num"><?= $r['avg_clues'] !== null ? number_format((float)$r['avg_clues'], 1) : '–' ?></td><td class="num"><b><?= (int)$r['pts'] ?></b></td></tr>
+  <?php endforeach; ?>
+  </tbody></table></div>
+  <?php endif; ?>
+  <?php if ($tab !== 'friends'): ?>
+    <?php if ($u): ?>
+      <form method="post" action="/me/leaderboard" class="inline-form"><?= csrf_field() ?>
+        <?php if ($in): ?><p>You're on the public boards as <b><?= e($in) ?></b>.</p><button class="btn btn-ghost" name="do" value="leave">Leave the boards</button>
+        <?php else: ?><p class="small">The weekly and all-time boards only show detectives who choose to join.</p><label>Your detective name <input name="alias" maxlength="30" required value="<?= e(first_name($u['name'] ?: '')) ?>"></label> <button class="btn" name="do" value="join">Join the boards</button><?php endif; ?>
+      </form>
+    <?php else: ?><p><a class="btn" href="/login?next=/rankings">Sign in to join the boards</a></p><?php endif; ?>
+  <?php endif; ?>
   <h2>The cases</h2>
   <?php if (count($ms) < 3): ?>
-    <p>Not enough detectives have played yet to rank the cases. Each case needs at least <?= STATS_MIN_PLAYERS ?> players. Solve a few and come back!</p>
+    <p>Not enough detectives have played yet to rank the cases. Each case needs at least <?= STATS_MIN_PLAYERS ?> players.</p>
   <?php else: ?>
   <div class="rank-grid">
     <?php rank_list('Hardest to crack', $by('rate', 1), fn($m) => $st[$m['slug']]['rate'] . '% solved'); ?>
@@ -775,19 +1020,6 @@ function rankings(): void {
     <?php rank_list('Most played', $by('players', -1), fn($m) => $st[$m['slug']]['players'] . ' players'); ?>
   </div>
   <?php endif; ?>
-  <h2>Top detectives</h2>
-  <p>Points: solving a level 1 case scores 3 points on your first guess, 2 on your second and 1 after that. Level 2 cases are worth double, and level 3 cases triple. Only players who choose to join are shown.</p>
-  <?php if ($top): ?>
-  <div class="table-wrap"><table><thead><tr><th class="num">#</th><th>Detective</th><th class="num">Cases solved</th><th class="num">First-guess solves</th><th class="num">Points</th></tr></thead><tbody>
-  <?php foreach ($top as $n => $r): ?><tr><td class="num"><?= $n + 1 ?></td><td><?= e($r['alias']) ?></td><td class="num"><?= $r['solved'] ?></td><td class="num"><?= $r['first'] ?></td><td class="num"><b><?= $r['points'] ?></b></td></tr><?php endforeach; ?>
-  </tbody></table></div>
-  <?php else: ?><p>No detectives on the board yet – be the first.</p><?php endif; ?>
-  <?php if ($u): ?>
-    <form method="post" action="/me/leaderboard" class="inline-form"><?= csrf_field() ?>
-      <?php if ($in): ?><p>You're on the board as <b><?= e($in) ?></b>.</p><button class="btn btn-ghost" name="do" value="leave">Leave the board</button>
-      <?php else: ?><label>Your detective name <input name="alias" maxlength="30" required value="<?= e(first_name($u['name'] ?: '')) ?>"></label> <button class="btn" name="do" value="join">Join the board</button><?php endif; ?>
-    </form>
-  <?php else: ?><p><a class="btn" href="/login?next=/rankings">Sign in to join the board</a></p><?php endif; ?>
 </section>
 <?php
     page_end();

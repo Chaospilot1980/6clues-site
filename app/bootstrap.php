@@ -102,6 +102,7 @@ function migrate(PDO $pdo): void {
         created_at DATETIME NOT NULL,
         PRIMARY KEY (user_id, slug)
     )$engine");
+    game_migrate($pdo, $id, $engine);
     $pdo->exec("CREATE TABLE IF NOT EXISTS leaderboard (
         user_id INT NOT NULL PRIMARY KEY,
         alias VARCHAR(40) NOT NULL,
@@ -121,7 +122,11 @@ function now(): string { return gmdate('Y-m-d H:i:s'); }
 // ---------- mysteries ----------
 function mysteries(): array {
     static $all = null;
-    if ($all === null) $all = require __DIR__ . '/mysteries.php';
+    if ($all === null) {
+        $t = today();
+        // A case goes public on its own day (as the daily case). Admins can preview upcoming cases.
+        $all = array_values(array_filter(require __DIR__ . '/mysteries.php', fn($m) => ($m['public'] ?? '') <= $t || is_admin_session()));
+    }
     return $all;
 }
 function mystery(string $slug): ?array {
@@ -141,6 +146,14 @@ function current_user(): ?array {
         $u = $st->fetch() ?: null;
     }
     return $u;
+}
+function is_admin_session(): bool {
+    static $a = null;
+    if ($a !== null) return $a;
+    $a = false;
+    if (empty($_SESSION['uid'])) return false;
+    $st = db()->prepare('SELECT email FROM users WHERE id = ?'); $st->execute([$_SESSION['uid']]);
+    return $a = in_array(strtolower((string)$st->fetchColumn()), array_map('strtolower', (array)cfg('admin_emails', [])), true);
 }
 function is_admin(): bool {
     $u = current_user();
@@ -171,6 +184,7 @@ function login_user(array $p): void {
     }
     session_regenerate_id(true);
     $_SESSION['uid'] = (int)$id;
+    merge_guest_plays((int)$id);
 }
 
 /** Verifies a Google Identity Services ID token with Google's tokeninfo endpoint. */
@@ -292,19 +306,3 @@ function mystery_stats(): array {
 }
 const STATS_MIN_PLAYERS = 5;   // below this a mystery's numbers are not shown publicly
 
-/** Opt-in detective leaderboard. Points: level × 3 for a first-guess solve, × 2 on the second guess, × 1 after that. */
-function leaderboard(int $limit = 50): array {
-    $lv = []; foreach (mysteries() as $m) $lv[$m['slug']] = (int)$m['level'];
-    $rows = db()->query('SELECT l.user_id, l.alias, s.slug, s.attempts FROM leaderboard l JOIN solves s ON s.user_id = l.user_id AND s.gave_up = 0')->fetchAll();
-    $out = [];
-    foreach ($rows as $r) {
-        $k = (int)$r['user_id'];
-        $out[$k] ??= ['alias' => $r['alias'], 'solved' => 0, 'points' => 0, 'first' => 0];
-        $a = (int)$r['attempts'];
-        $out[$k]['solved']++;
-        $out[$k]['points'] += ($lv[$r['slug']] ?? 1) * ($a <= 1 ? 3 : ($a == 2 ? 2 : 1));
-        if ($a <= 1) $out[$k]['first']++;
-    }
-    usort($out, fn($a, $b) => [$b['points'], $b['solved']] <=> [$a['points'], $a['solved']]);
-    return array_slice($out, 0, $limit);
-}

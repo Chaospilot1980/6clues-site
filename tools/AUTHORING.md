@@ -11,7 +11,11 @@ Every mystery lives in `tools/mysteries/roundN.py` as a Python dict, and each ro
    `title_plain`, `teaser` (≤160 chars), `intro`, `clues` (exactly 6), `solution`, and `added` (YYYY-MM-DD).
 3. Run `python3 tools/export.py`. It validates the mysteries and refuses to export if anything is wrong.
 4. Run `python3 tools/check_layout.py <slugs>`. Every poster must fit; shorten any text that overflows.
-5. Commit and push to `main`. Simply's hourly cron (`/cron/deploy`) installs the new version on 6clues.com.
+5. Commit and push to `main`, including `tools/schedule.json`. Simply's hourly cron (`/cron/deploy`) installs the new version on 6clues.com.
+
+## Daily cases
+Every mystery is the site's daily case on one date (`tools/schedule.json`, written by `export.py`). New cases get the next free days: level 3 at weekends, level 1/2 on weekdays. A new case stays hidden until its date. Never edit `schedule.json` by hand, or dates already announced could move.
+On screen the clues are opened in order, and fewer clues = more points (100/85/70/55/40/25). So clue 1 must not give the answer away, and the decisive evidence should be spread over clues 2–6.
 
 ## Rules for a fair, fun mystery
 - **Six suspects, one per poster.** Each poster has the suspect's statement plus one piece of evidence.
