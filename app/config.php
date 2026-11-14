@@ -10,8 +10,8 @@ return [
     'db_user'       => '',
     'db_pass'       => '',
 
-    'google_client_id' => '',
-    'ga4_id'        => '',
+    'google_client_id' => '736923593611-189rfahj1dg1um5akauojlt24e81bblb.apps.googleusercontent.com',
+    'ga4_id'        => 'G-7SQE61N1HB',
 
     'admin_emails'  => ['dennis.norgaard.hansen@gmail.com'],
     'company_name'  => 'Scandinavian Technical Solutions, S.L.',

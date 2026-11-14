@@ -19,6 +19,8 @@ $routes = [
     '#^/login$#'                              => 'login',
     '#^/auth/google$#'                        => 'auth_google',
     '#^/auth/dev$#'                           => 'auth_dev',
+    '#^/auth/email$#'                         => 'auth_email',
+    '#^/auth/verify$#'                        => 'auth_verify',
     '#^/logout$#'                             => 'logout',
     '#^/me$#'                                 => 'me',
     '#^/admin$#'                              => 'admin',
@@ -79,7 +81,7 @@ function home(): void {
     <li><b>Choose a case.</b> Level 1 is perfect for a first game; level 3 will fool most grown-up detectives.</li>
     <li><b>Print and hide six posters</b> – or play every clue on screen. Each poster has a witness, a statement and a piece of evidence.</li>
     <li><b>Compare the clues.</b> Times, alibis and small details only make sense when you put them together.</li>
-    <li><b>Scan the code and name the culprit.</b> Sign in with Google to submit your answer, see the solution and keep track of the cases you've cracked.</li>
+    <li><b>Scan the code and name the culprit.</b> Sign in with Google or your email to submit your answer, see the solution and keep track of the cases you've cracked.</li>
   </ol>
 </section>
 
@@ -95,8 +97,8 @@ function home(): void {
 
 <section class="wrap newsletter-box">
   <h2>New cases every month</h2>
-  <p>Sign in once with Google to save your progress. Tick the box when you submit an answer, and we'll email you when a new mystery is released.</p>
-  <?php if (!$u): ?><p><a class="btn" href="/login?next=/me">Sign in with Google</a></p><?php endif; ?>
+  <p>Sign in once with Google or your email to save your progress. Tick the box when you submit an answer, and we'll email you when a new mystery is released.</p>
+  <?php if (!$u): ?><p><a class="btn" href="/login?next=/me">Sign in</a></p><?php endif; ?>
 </section>
 <?php
     page_end();
@@ -202,7 +204,7 @@ function login(): void {
     if (!preg_match('#^/[a-z0-9/\-]*$#i', $next)) $next = '/me';
     if (current_user()) redirect($next);
     page_start(['title' => 'Sign in', 'noindex' => true, 'path' => '/login']);
-    echo '<section class="wrap narrow"><h1>Sign in</h1><p>Sign in with your Google account to submit answers and keep track of the cases you have solved.</p>';
+    echo '<section class="wrap narrow"><h1>Sign in</h1><p>Sign in to submit answers and keep track of the cases you have solved – with Google or just your email.</p>';
     google_button($next);
     echo '</section>';
     page_end();
@@ -211,14 +213,60 @@ function login(): void {
 function google_button(string $next): void {
     $cid = (string)cfg('google_client_id');
     ?>
+<div class="login-box">
+<?php if ($cid): ?>
 <form id="g-form" method="post" action="/auth/google"><?= csrf_field() ?><input type="hidden" name="credential" id="g-credential"><input type="hidden" name="next" value="<?= e($next) ?>"></form>
 <div id="g_id_onload" data-client_id="<?= e($cid) ?>" data-callback="onGoogleSignIn" data-auto_prompt="false"></div>
 <div class="g_id_signin" data-type="standard" data-size="large" data-theme="filled_black" data-text="continue_with" data-shape="rectangular"></div>
 <script>function onGoogleSignIn(r){document.getElementById('g-credential').value=r.credential;document.getElementById('g-form').submit();}</script>
 <script src="https://accounts.google.com/gsi/client" async></script>
+<p class="or"><span>or use your email</span></p>
+<?php endif; ?>
+<form method="post" action="/auth/email" class="email-login">
+  <?= csrf_field() ?><input type="hidden" name="next" value="<?= e($next) ?>">
+  <label>Your name <input name="name" autocomplete="name" required maxlength="80"></label>
+  <label>Email <input type="email" name="email" autocomplete="email" required maxlength="190"></label>
+  <label class="check"><input type="checkbox" name="newsletter" value="1"> Email me when a new mystery is released (about once a month).</label>
+  <button class="btn">Send me a sign-in link</button>
+  <p class="small muted">No password needed – we email you a link that signs you in.</p>
+</form>
+</div>
 <?php if (cfg('dev_login')): ?>
 <form method="post" action="/auth/dev" class="dev"><?= csrf_field() ?><input type="hidden" name="next" value="<?= e($next) ?>"><input name="email" value="tester@example.com" aria-label="Test email"><button class="btn btn-small">Dev login</button></form>
 <?php endif;
+}
+
+function safe_next(string $n): string { return preg_match('#^/[a-z0-9/\-]*$#i', $n) ? $n : '/me'; }
+
+function auth_email(): void {
+    if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') redirect('/login');
+    csrf_check();
+    $next = safe_next((string)($_POST['next'] ?? '/me'));
+    $email = trim((string)($_POST['email'] ?? ''));
+    $name = trim(mb_substr((string)($_POST['name'] ?? ''), 0, 80));
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL) || $name === '') { flash('Please enter your name and a valid email address.'); redirect('/login?next=' . urlencode($next)); }
+    $last = $_SESSION['last_link'] ?? 0;
+    if (time() - $last < 30) { flash('We just sent you a link – please check your inbox (and spam folder).'); redirect('/login?next=' . urlencode($next)); }
+    $_SESSION['last_link'] = time();
+    $ok = send_login_link($email, $name, !empty($_POST['newsletter']), $next);
+    page_start(['title' => 'Check your email', 'noindex' => true, 'path' => '/auth/email']);
+    echo '<section class="wrap narrow"><h1>Check your email</h1>';
+    echo $ok ? '<p class="lead">We sent a sign-in link to <b>' . e($email) . '</b>. Click it within an hour to continue. Can\'t find it? Check your spam folder.</p>'
+             : '<p class="lead">Sorry, we could not send the email right now. Please try again in a moment, or continue with Google.</p>';
+    echo '</section>';
+    page_end();
+}
+
+function auth_verify(): void {
+    $t = (string)($_GET['t'] ?? '');
+    $st = db()->prepare('SELECT * FROM login_tokens WHERE token_hash = ? AND expires_at >= ?');
+    $st->execute([hash('sha256', $t), now()]);
+    $row = $st->fetch();
+    if (!$row) { flash('That sign-in link has expired or was already used. Please request a new one.'); redirect('/login'); }
+    db()->prepare('DELETE FROM login_tokens WHERE token_hash = ?')->execute([$row['token_hash']]);
+    login_user(['sub' => 'email:' . strtolower($row['email']), 'email' => $row['email'], 'name' => $row['name']]);
+    if ((int)$row['newsletter']) db()->prepare('UPDATE users SET newsletter = 1, newsletter_at = COALESCE(newsletter_at, ?) WHERE id = ?')->execute([now(), $_SESSION['uid']]);
+    redirect(safe_next((string)$row['next_path']));
 }
 
 function auth_google(): void {
@@ -252,7 +300,7 @@ function answer(string $slug): void {
     if (!$u) {
         page_start($meta);
         echo '<section class="wrap narrow case"><p>' . badge_row($m) . '</p><h1>' . e($m['title']) . '</h1>';
-        echo '<p class="lead">Think you know who did it? Sign in with Google to submit your answer, see the full solution and save your progress.</p>';
+        echo '<p class="lead">Think you know who did it? Sign in to submit your answer, see the full solution and save your progress.</p>';
         google_button('/answer/' . $slug);
         echo '<p class="small muted">We only use your name and email address. See our <a href="/privacy">privacy policy</a>.</p></section>';
         page_end();
@@ -420,13 +468,13 @@ function privacy(): void {
   <h1>Privacy &amp; cookies</h1>
   <p><?= e(cfg('site_name')) ?> is run by <?= $c ?>. Contact: <a href="mailto:<?= $mail ?>"><?= $mail ?></a>.</p>
   <h2>What we collect</h2>
-  <p>When you sign in with Google we receive your name, email address and profile picture. We store which mysteries you have answered, your guesses and when you solved them, so we can show your progress.</p>
+  <p>When you sign in with Google we receive your name, email address and profile picture. When you sign in with email we store the name and email address you enter. We store which mysteries you have answered, your guesses and when you solved them, so we can show your progress.</p>
   <h2>Emails about new mysteries</h2>
   <p>We only email you about new mysteries if you tick the box to say yes. You can say no at any time by clicking the unsubscribe link in an email or by writing to us.</p>
   <h2>Cookies</h2>
   <p>We use one necessary session cookie to keep you signed in. With your permission we also use Google Analytics cookies to count visits and see which mysteries are popular. You can change your choice under “Cookie settings” at the bottom of every page.</p>
   <h2>Who processes your data</h2>
-  <p>Our website and database are hosted by Simply.com in the EU. Sign-in is provided by Google. Analytics (only with consent) is provided by Google.</p>
+  <p>Our website and database are hosted by Simply.com in the EU. Google sign-in is provided by Google. Analytics (only with consent) is provided by Google.</p>
   <h2>Your rights</h2>
   <p>You can ask to see, correct or delete your data at any time by emailing <a href="mailto:<?= $mail ?>"><?= $mail ?></a>. You can also complain to your national data protection authority.</p>
 </section>

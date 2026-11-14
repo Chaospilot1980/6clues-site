@@ -76,6 +76,15 @@ function migrate(PDO $pdo): void {
         correct TINYINT NOT NULL,
         created_at DATETIME NOT NULL
     )$engine");
+    $pdo->exec("CREATE TABLE IF NOT EXISTS login_tokens (
+        token_hash CHAR(64) NOT NULL PRIMARY KEY,
+        email VARCHAR(255) NOT NULL,
+        name VARCHAR(255) NOT NULL DEFAULT '',
+        newsletter TINYINT NOT NULL DEFAULT 0,
+        next_path VARCHAR(255) NOT NULL DEFAULT '/me',
+        expires_at DATETIME NOT NULL,
+        created_at DATETIME NOT NULL
+    )$engine");
     $pdo->exec("CREATE TABLE IF NOT EXISTS solves (
         user_id INT NOT NULL,
         slug VARCHAR(100) NOT NULL,
@@ -120,9 +129,17 @@ function login_user(array $p): void {
     $st = $pdo->prepare('SELECT id FROM users WHERE google_sub = ?');
     $st->execute([$p['sub']]);
     $id = $st->fetchColumn();
+    if (!$id) {
+        $st = $pdo->prepare('SELECT id FROM users WHERE LOWER(email) = LOWER(?)');
+        $st->execute([$p['email']]);
+        $id = $st->fetchColumn();
+        if ($id && str_starts_with($p['sub'], 'email:') === false) {
+            $pdo->prepare('UPDATE users SET google_sub = ? WHERE id = ?')->execute([$p['sub'], $id]);
+        }
+    }
     if ($id) {
-        $pdo->prepare('UPDATE users SET email = ?, name = ?, picture = ?, last_login_at = ? WHERE id = ?')
-            ->execute([$p['email'], $p['name'] ?? '', $p['picture'] ?? '', now(), $id]);
+        $pdo->prepare("UPDATE users SET email = ?, name = CASE WHEN ? <> '' THEN ? ELSE name END, picture = CASE WHEN ? <> '' THEN ? ELSE picture END, last_login_at = ? WHERE id = ?")
+            ->execute([$p['email'], $p['name'] ?? '', $p['name'] ?? '', $p['picture'] ?? '', $p['picture'] ?? '', now(), $id]);
         $_SESSION['ga_event'] = 'login';
     } else {
         $pdo->prepare('INSERT INTO users (google_sub, email, name, picture, source, created_at, last_login_at) VALUES (?,?,?,?,?,?,?)')
@@ -171,4 +188,17 @@ function suggestions(?array $user, int $n = 3, string $except = ''): array {
     $list = array_filter(mysteries(), fn($m) => $m['slug'] !== $except && !isset($prog[$m['slug']]['solved_at']));
     usort($list, fn($a, $b) => abs($a['level'] - $target) <=> abs($b['level'] - $target) ?: $a['level'] <=> $b['level']);
     return array_slice($list, 0, $n);
+}
+
+function send_login_link(string $email, string $name, bool $newsletter, string $next): bool {
+    $token = bin2hex(random_bytes(24));
+    db()->prepare('DELETE FROM login_tokens WHERE expires_at < ?')->execute([now()]);
+    db()->prepare('INSERT INTO login_tokens (token_hash, email, name, newsletter, next_path, expires_at, created_at) VALUES (?,?,?,?,?,?,?)')
+        ->execute([hash('sha256', $token), $email, $name, $newsletter ? 1 : 0, $next, gmdate('Y-m-d H:i:s', time() + 3600), now()]);
+    $link = url('/auth/verify?t=' . $token);
+    $site = (string)cfg('site_name');
+    $from = (string)cfg('contact_email');
+    $body = "Hi " . ($name ?: 'detective') . ",\r\n\r\nClick the link below to sign in to $site. It works for one hour.\r\n\r\n$link\r\n\r\nIf you didn't ask for this, just ignore this email.\r\n\r\n– $site";
+    $headers = "From: $site <$from>\r\nReply-To: $from\r\nContent-Type: text/plain; charset=UTF-8\r\n";
+    return mail($email, "Your sign-in link for $site", $body, $headers, '-f' . $from);
 }
