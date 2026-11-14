@@ -162,5 +162,45 @@
  "the-syndicate-ticket": {
   "daily": "2026-11-25",
   "public": "2026-11-25"
+ },
+ "the-giant-marrow-mystery": {
+  "daily": "2026-11-26",
+  "public": "2026-11-26"
+ },
+ "the-hijacked-scoreboard": {
+  "daily": "2026-11-27",
+  "public": "2026-11-27"
+ },
+ "the-boathouse-blaze": {
+  "daily": "2026-11-28",
+  "public": "2026-11-28"
+ },
+ "the-ghost-train-takings": {
+  "daily": "2026-11-29",
+  "public": "2026-11-29"
+ },
+ "the-midnight-bagpiper": {
+  "daily": "2026-11-30",
+  "public": "2026-11-30"
+ },
+ "the-pompom-dognapping": {
+  "daily": "2026-12-01",
+  "public": "2026-12-01"
+ },
+ "the-vanishing-penguin": {
+  "daily": "2026-12-02",
+  "public": "2026-12-02"
+ },
+ "death-at-the-puppet-theatre": {
+  "daily": "2026-12-03",
+  "public": "2026-12-03"
+ },
+ "death-at-the-recording-studio": {
+  "daily": "2026-12-04",
+  "public": "2026-12-04"
+ },
+ "death-on-the-lavender-farm": {
+  "daily": "2026-12-05",
+  "public": "2026-12-05"
  }
 }
