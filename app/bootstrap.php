@@ -85,6 +85,13 @@ function migrate(PDO $pdo): void {
         expires_at DATETIME NOT NULL,
         created_at DATETIME NOT NULL
     )$engine");
+    $pdo->exec("CREATE TABLE IF NOT EXISTS newsletters (
+        id $id,
+        subject VARCHAR(255) NOT NULL,
+        body TEXT NOT NULL,
+        recipients INT NOT NULL DEFAULT 0,
+        sent_at DATETIME NOT NULL
+    )$engine");
     $pdo->exec("CREATE TABLE IF NOT EXISTS solves (
         user_id INT NOT NULL,
         slug VARCHAR(100) NOT NULL,
@@ -201,4 +208,26 @@ function send_login_link(string $email, string $name, bool $newsletter, string $
     $body = "Hi " . ($name ?: 'detective') . ",\r\n\r\nClick the link below to sign in to $site. It works for one hour.\r\n\r\n$link\r\n\r\nIf you didn't ask for this, just ignore this email.\r\n\r\n– $site";
     $headers = "From: $site <$from>\r\nReply-To: $from\r\nContent-Type: text/plain; charset=UTF-8\r\n";
     return mail($email, "Your sign-in link for $site", $body, $headers, '-f' . $from);
+}
+
+function app_secret(): string {
+    $s = (string)cfg('secret', '');
+    if ($s !== '' && !str_starts_with($s, 'CHANGE-ME')) return $s;
+    // Kept outside the web folder and outside git
+    $f = dirname(__DIR__, 2) . '/data/secret.txt';
+    if (!is_file($f)) { @mkdir(dirname($f), 0700, true); @file_put_contents($f, bin2hex(random_bytes(32))); }
+    return trim((string)@file_get_contents($f)) ?: 'fallback';
+}
+function unsub_token(int $uid): string { return substr(hash_hmac('sha256', 'unsub:' . $uid, app_secret()), 0, 32); }
+function unsub_url(int $uid): string { return url('/unsubscribe?u=' . $uid . '&t=' . unsub_token($uid)); }
+
+function send_newsletter_mail(array $user, string $subject, string $body): bool {
+    $site = (string)cfg('site_name');
+    $from = (string)cfg('contact_email');
+    $text = str_replace('{name}', $user['name'] ?: 'detective', $body);
+    $unsub = unsub_url((int)$user['id']);
+    $text .= "\r\n\r\n--\r\nYou get this email because you asked to hear about new mysteries on $site.\r\nUnsubscribe with one click: $unsub\r\n";
+    $headers = "From: $site <$from>\r\nReply-To: $from\r\nContent-Type: text/plain; charset=UTF-8\r\n"
+             . "List-Unsubscribe: <$unsub>\r\nList-Unsubscribe-Post: List-Unsubscribe=One-Click\r\n";
+    return mail($user['email'], $subject, $text, $headers, '-f' . $from);
 }

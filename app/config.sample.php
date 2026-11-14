@@ -23,6 +23,9 @@ return [
     'company_name'  => '[YOUR COMPANY NAME]',
     'contact_email' => 'hello@example.com',
 
+    // Long random string used to sign unsubscribe links
+    'secret'        => 'CHANGE-ME-TO-A-LONG-RANDOM-STRING',
+
     // Local testing only: allows a fake login at /auth/dev. Must be false in production.
     'dev_login'     => false,
 ];

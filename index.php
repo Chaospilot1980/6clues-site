@@ -25,6 +25,8 @@ $routes = [
     '#^/me$#'                                 => 'me',
     '#^/admin$#'                              => 'admin',
     '#^/admin/subscribers\.csv$#'             => 'admin_csv',
+    '#^/admin/newsletter$#'                   => 'admin_newsletter',
+    '#^/unsubscribe$#'                        => 'unsubscribe',
     '#^/privacy$#'                            => 'privacy',
     '#^/sitemap\.xml$#'                       => 'sitemap',
     '#^/robots\.txt$#'                        => 'robots',
@@ -432,7 +434,7 @@ function admin(): void {
     <div><b><?= $subs ?></b><span>newsletter subscribers</span></div>
     <div><b><?= (int)$week->fetchColumn() ?></b><span>new players last 7 days</span></div>
   </div>
-  <p><a class="btn" href="/admin/subscribers.csv">Download subscribers (CSV)</a></p>
+  <p><a class="btn" href="/admin/newsletter">Write newsletter</a> <a class="btn btn-ghost" href="/admin/subscribers.csv">Download subscribers (CSV)</a></p>
   <h2>Mysteries</h2>
   <div class="table-wrap"><table>
     <thead><tr><th>Mystery</th><th>Level</th><th class="num">Players</th><th class="num">Solved</th><th class="num">Revealed</th><th class="num">Avg. tries</th></tr></thead>
@@ -494,4 +496,74 @@ function sitemap(): void {
 function robots(): void {
     header('Content-Type: text/plain; charset=utf-8');
     echo "User-agent: *\nDisallow: /answer/\nDisallow: /me\nDisallow: /admin\nDisallow: /login\nDisallow: /auth/\nDisallow: /*/print$\n\nSitemap: " . url('/sitemap.xml') . "\n";
+}
+
+function default_newsletter(): array {
+    $all = mysteries();
+    $new = array_slice($all, -6);
+    $lines = [];
+    foreach ($new as $m) $lines[] = '- ' . $m['title'] . ' (level ' . $m['level'] . ', ' . strtolower($m['crime']) . '): ' . $m['teaser'] . "\n  " . url('/mysteries/' . $m['slug']);
+    return ['New cases to crack on ' . cfg('site_name'),
+        "Hi {name},\n\nWe've just opened " . count($new) . " new case files – all free, all printable:\n\n" . implode("\n\n", $lines) . "\n\nPrint the six clues, hide them around the house and see who cracks the case first.\n\nHappy sleuthing,\nThe " . cfg('site_name') . " team"];
+}
+
+function admin_newsletter(): void {
+    if (!is_admin()) { not_found(); return; }
+    $pdo = db();
+    $msg = null;
+    [$subject, $body] = default_newsletter();
+    if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
+        csrf_check();
+        $subject = trim((string)($_POST['subject'] ?? ''));
+        $body = str_replace("\r\n", "\n", (string)($_POST['body'] ?? ''));
+        $body = str_replace("\n", "\r\n", $body);
+        if ($subject === '' || trim($body) === '') { $msg = 'Subject and text are required.'; }
+        elseif (($_POST['action'] ?? '') === 'test') {
+            $ok = send_newsletter_mail(current_user(), '[TEST] ' . $subject, $body);
+            $msg = $ok ? 'Test sent to ' . current_user()['email'] . '.' : 'Could not send the test email.';
+        } elseif (($_POST['action'] ?? '') === 'send' && ($_POST['confirm'] ?? '') === 'yes') {
+            @set_time_limit(0);
+            $n = 0;
+            foreach ($pdo->query('SELECT * FROM users WHERE newsletter = 1')->fetchAll() as $u) {
+                if (send_newsletter_mail($u, $subject, $body)) $n++;
+                usleep(150000);
+            }
+            $pdo->prepare('INSERT INTO newsletters (subject, body, recipients, sent_at) VALUES (?,?,?,?)')->execute([$subject, $body, $n, now()]);
+            $msg = "Newsletter sent to $n subscribers.";
+        } else { $msg = 'Tick the confirmation box to send to everyone.'; }
+        $body = str_replace("\r\n", "\n", $body);
+    }
+    $subs = (int)$pdo->query('SELECT COUNT(*) FROM users WHERE newsletter = 1')->fetchColumn();
+    $past = $pdo->query('SELECT subject, recipients, sent_at FROM newsletters ORDER BY id DESC LIMIT 10')->fetchAll();
+    page_start(['title' => 'Newsletter', 'noindex' => true, 'path' => '/admin/newsletter']);
+    ?>
+<section class="wrap narrow case">
+  <nav class="crumbs"><a href="/admin">Admin</a> › Newsletter</nav>
+  <h1>Newsletter</h1>
+  <?php if ($msg): ?><p class="flash"><?= e($msg) ?></p><?php endif; ?>
+  <p><?= $subs ?> subscribers. Use <code>{name}</code> for the reader's name. An unsubscribe link is added automatically.</p>
+  <form method="post" class="email-login">
+    <?= csrf_field() ?>
+    <label>Subject <input name="subject" value="<?= e($subject) ?>" required></label>
+    <label>Text <textarea name="body" rows="18" style="font:15px/1.5 var(--sans);padding:10px;border:1.5px solid var(--ink)"><?= e($body) ?></textarea></label>
+    <p><button class="btn btn-ghost" name="action" value="test">Send test to me</button></p>
+    <label class="check"><input type="checkbox" name="confirm" value="yes"> Yes, send this to all <?= $subs ?> subscribers now</label>
+    <p><button class="btn" name="action" value="send">Send newsletter</button></p>
+  </form>
+  <?php if ($past): ?><h2>Sent</h2><ul><?php foreach ($past as $p) echo '<li>' . e($p['sent_at']) . ' UTC – ' . e($p['subject']) . ' (' . (int)$p['recipients'] . ')</li>'; ?></ul><?php endif; ?>
+</section>
+<?php
+    page_end();
+}
+
+function unsubscribe(): void {
+    $uid = (int)($_GET['u'] ?? 0);
+    $ok = $uid > 0 && hash_equals(unsub_token($uid), (string)($_GET['t'] ?? ''));
+    if ($ok) db()->prepare('UPDATE users SET newsletter = 0 WHERE id = ?')->execute([$uid]);
+    if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') { http_response_code($ok ? 200 : 400); exit; }
+    page_start(['title' => 'Unsubscribed', 'noindex' => true, 'path' => '/unsubscribe']);
+    echo '<section class="wrap narrow"><h1>' . ($ok ? 'You are unsubscribed' : 'Link not valid') . '</h1><p class="lead">'
+       . ($ok ? 'You won\'t get any more emails about new mysteries. You can sign up again any time when you submit an answer.' : 'This unsubscribe link is not valid. Email us and we will remove you by hand.')
+       . '</p><p><a class="btn" href="/">Back to the mysteries</a></p></section>';
+    page_end();
 }
