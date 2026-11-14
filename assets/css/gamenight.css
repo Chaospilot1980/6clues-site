@@ -62,3 +62,14 @@
 .gn-line{border-bottom:1.5px solid #8A8378;height:30px}
 .gn-boxes{font-family:"Courier Prime",monospace;font-size:22px;letter-spacing:.05em}
 .gn-stop{margin-top:auto;background:#A4161A;color:#fff;padding:14px 18px;font-weight:700;text-align:center}
+.gn-body .log th{background:#1E1B18;color:#F3EEE4;text-align:left;padding:6px 8px;font-family:Inter,sans-serif;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+.gn-body .log td:first-child{white-space:nowrap}
+.gn-body .sign{font-family:"Special Elite",monospace;text-align:right;color:#A4161A}
+.gn-body .aid{border:2px dashed #1E1B18;padding:14px 18px;background:#FBF8F1}
+.gn-body .aid li{margin:0 0 14px}
+.photo-real img{display:block;width:100%;height:auto}
+.gn-cover-wrap img{width:360px;display:block;margin:0 auto 6px;border:3px solid #F3EEE4}
+.gn-castgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:14px 0 18px}
+.gn-castgrid>div{display:flex;flex-direction:column;gap:4px;border:1.5px solid #1E1B18;background:#fff;padding:10px}
+.gn-castgrid .gn-face{width:100%;height:auto;aspect-ratio:1;object-fit:cover;display:block}
+.gn-castgrid b{font-family:"Special Elite",monospace;font-weight:400;font-size:18px}.gn-castgrid span{font-size:13px;color:#5C554D;line-height:1.35}

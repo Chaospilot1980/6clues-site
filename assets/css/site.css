@@ -279,3 +279,45 @@ tr.me td{background:#FFF3C4}
 .filters .search{display:flex;align-items:center;gap:10px;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.06em}
 .filters .search input{flex:1;font:inherit;font-size:16px;text-transform:none;letter-spacing:0;padding:9px 12px;border:1.5px solid var(--ink);background:var(--paper);font-weight:400}
 .grid-done .card{opacity:.75}
+/* Game Night: levels, case cards, home promo */
+.gn-levels{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0 0 24px}
+.gn-levels a{display:flex;flex-direction:column;gap:4px;padding:14px 16px;border:2px solid var(--ink);background:var(--card);color:var(--ink);text-decoration:none;min-height:96px}
+.gn-levels a b{font-family:var(--type);font-weight:400;font-size:19px}
+.gn-levels a span{font-size:14px;color:var(--muted);line-height:1.4}
+.gn-levels a small{margin-top:auto;font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.gn-levels a.lv1{border-top:6px solid #2F6B3A}.gn-levels a.lv2{border-top:6px solid #C08A1E}.gn-levels a.lv3{border-top:6px solid var(--red)}
+.gn-levels a.on{background:var(--ink);color:var(--paper)}.gn-levels a.on span{color:#C9C0B1}
+.gn-levels a:hover{transform:translateY(-2px)}
+.gn-card{padding:0 0 18px}.gn-card>*:not(.gn-card-cover){margin-left:20px;margin-right:20px}
+.gn-card-cover{display:block;background:#2A2622;padding:18px 24px 10px;border-bottom:1.5px solid var(--ink);margin-bottom:12px}
+.gn-card-cover svg{width:100%;max-width:300px;display:block;margin:0 auto;filter:drop-shadow(0 6px 10px rgba(0,0,0,.4));transition:transform .2s}
+.gn-card:hover .gn-card-cover svg{transform:rotate(-2deg) scale(1.03)}
+.gn-card h3{margin:6px 20px 0;font-family:var(--type);font-weight:400;font-size:24px}
+.gn-card.gn-soon{padding:20px}.gn-card.gn-soon>*{margin-left:0;margin-right:0}
+.gn-lvl{color:#fff;border-color:transparent}
+.gn-level-1 .gn-lvl{background:#2F6B3A}.gn-level-2 .gn-lvl{background:#C08A1E}.gn-level-3 .gn-lvl{background:var(--red)}
+.badge-done{background:var(--ink);color:var(--paper)}
+.gn-stack{position:relative;height:330px}
+.gn-stack>div{position:absolute;width:78%;filter:drop-shadow(0 10px 18px rgba(0,0,0,.45))}
+.gn-stack svg{width:100%;display:block}
+.gn-stack-0{left:0;top:0;transform:rotate(-6deg);z-index:1}.gn-stack-1{right:0;top:30px;transform:rotate(5deg);z-index:2}.gn-stack-2{left:12%;top:90px;transform:rotate(-1deg);z-index:3}
+.gn-people{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.gn-people li{border:1.5px solid var(--line);background:var(--card);padding:10px 12px;display:flex;flex-direction:column}
+.gn-people li span{color:var(--muted);font-size:15px}
+.gn-answers{padding-left:20px}.gn-answers li{margin:0 0 8px}.gn-answers b{display:block}
+.gn-gate .btn{margin-top:14px}.gn-skip{margin:0}
+.gn-home{background:#1E1B18;color:#F3EEE4;padding:48px 0;margin:32px 0}
+.gn-home h2{color:#F3EEE4;font-size:clamp(28px,4vw,40px)}.gn-home .lead{color:#E9E2D4}.gn-home .kicker{color:#E6A0A2}
+.gn-home-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:40px;align-items:center}
+.gn-home-cases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.gn-home-cases a{display:flex;flex-direction:column;gap:6px;color:#F3EEE4;text-decoration:none}
+.gn-home-cases svg{width:100%;display:block;transition:transform .2s;filter:drop-shadow(0 6px 10px rgba(0,0,0,.5))}
+.gn-home-cases a:hover svg{transform:rotate(-2deg) scale(1.03)}
+.gn-home-cases span{font-size:13px;color:#C9C0B1}.gn-home-cases b{display:block;font-family:var(--type);font-weight:400;font-size:17px;color:#F3EEE4}
+@media (max-width:900px){.gn-levels{grid-template-columns:repeat(2,minmax(0,1fr))}.gn-home-grid{grid-template-columns:1fr}.gn-stack{height:260px;max-width:420px;margin:0 auto;width:100%}}
+@media (max-width:560px){.gn-levels a{min-height:0}.gn-people{grid-template-columns:1fr}.gn-stack{height:200px}}
+.gn-art-img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid #1E1B18}
+.gn-cover .gn-art-img{max-width:440px;margin:0 auto;box-shadow:0 10px 18px rgba(0,0,0,.45)}
+.gn-face{width:64px;height:64px;object-fit:cover;flex:0 0 auto;border:2px solid var(--ink);background:#DDD5C7}
+.gn-people li{flex-direction:row;gap:12px;align-items:center}.gn-people li div{display:flex;flex-direction:column}
+.suspect-pick .gn-face{width:44px;height:44px}

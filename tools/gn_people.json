@@ -1,0 +1,82 @@
+{
+ "_note": "Look descriptions for Game Night portraits (assets/img/gn/<case>/people/<id>.jpg). Used by tools/gn_images.php. Leave a person out to keep the silhouette (e.g. minors).",
+ "the-last-invitation": {
+  "nora-vale": "woman, 46, sharp bob of dark hair, dark navy tailored jacket with small gold hexagonal cufflinks, composed and guarded",
+  "mara-voss": "woman, 49, elegant, auburn hair pinned up, burgundy dress, cool sceptical look",
+  "elias-lund": "man, 58, grey hair and neat beard, reading glasses, grey suit, careful lawyer",
+  "viktor-holm": "man, 39, short sandy hair, olive-green work shirt, tired and practical",
+  "emil-voss": "man, 42, unshaven, black jumper, restless and resentful",
+  "liv-brandt": "woman, 31, light brown hair in a low ponytail, white blouse, attentive assistant"
+ },
+ "zero-point": {
+  "nora-berg": "woman, 50, silver-streaked hair, black turtleneck, museum curator, stressed",
+  "leo-strand": "man, 38, dark technician jacket, short beard, calm but evasive eyes",
+  "felix-holm": "man, 45, security guard uniform, broad build, earnest",
+  "selma-juhl": "woman, 34, conservator in a work apron, curly hair tied back, small dust of resin on her sleeve",
+  "arman-shah": "man, 30, IT consultant, dark hair, hoodie under a blazer, laptop bag strap",
+  "vera-lind": "woman, 41, event coordinator, headset around her neck, practical blazer"
+ },
+ "the-glass-wall": {
+  "sara-munk": "woman, 44, conservator, white cotton gloves, hair in a neat bun, precise and calm",
+  "bo-vester": "man, 55, head of security, grey crew cut, dark uniform jacket",
+  "lena-holm": "woman, 48, curator, statement glasses, black blazer, under pressure",
+  "emil-rahbek": "man, 36, transport manager, high-visibility vest over a fleece, clipboard",
+  "nadia-beck": "woman, 60, wealthy private collector, silver hair, pearl earrings, cool smile",
+  "jonas-friis": "man, 29, photographer, camera strap over shoulder, beanie"
+ },
+ "false-signal": {
+  "ida-kragh": "woman, 37, broadcast producer, headset, determined, holding a tablet",
+  "mikkel-roed": "man, 47, finance head, smart shirt without tie, polished and slightly nervous",
+  "theo-brandt": "man, 33, livestream technician, black T-shirt, cable coiled over shoulder",
+  "sofie-lund": "woman, 39, head of communications, bright scarf, phone in hand",
+  "malik-osman": "man, 44, stage manager, black clothes, walkie-talkie",
+  "eva-falk": "woman, 52, former volunteer, rain jacket, guarded and bitter"
+ },
+ "still-water": {
+  "karin-dam": "woman, 54, operations manager, hard hat under her arm, short grey hair",
+  "oliver-sahl": "man, 40, electrician, work overalls, tool belt",
+  "freja-nissen": "woman, 31, environmental analyst, waterproof jacket, sample bottles",
+  "henrik-lund": "man, 46, project manager, rimless glasses, quilted gilet over a shirt, ambitious",
+  "asta-winther": "woman, 58, night guard, reflective jacket, torch",
+  "rune-kjaer": "man, 50, external service technician, company fleece, weathered face"
+ },
+ "the-other-name": {
+  "liv": "woman, about 35, pale, short dark hair, borrowed oversized cardigan, searching eyes, a faint bruise-coloured mark near the hairline",
+  "signe-birk": "woman, 63, guesthouse owner, warm, knitted jumper, reading glasses on a cord",
+  "jonas-birk": "man, 32, Signe's son, flannel shirt, suspicious frown",
+  "martin-holm": "man, 42, well-groomed, expensive wool coat, controlled smile that does not reach the eyes",
+  "ada-krog": "woman, 50, crisis-centre volunteer, kind and firm, lanyard",
+  "mikkel-gade": "man, 48, private investigator, flat cap, trench coat, notebook"
+ },
+ "the-blue-folder": {
+  "nadia-lund": "woman, 41, chief engineer, rolled-up sleeves, frustrated, wind-turbine blueprint behind",
+  "henrik-dahl": "man, 56, managing director, navy suit, worried",
+  "rikke-falck": "woman, 45, head of compliance, sleek blonde hair, dark coat, holding a yellow folder",
+  "oskar-moller": "man, 35, IT administrator, glasses, company polo shirt",
+  "lea-storm": "woman, 43, sales director, confident, red lipstick, smart blazer",
+  "emil-friis": "man, 23, intern, cardigan, eager and a bit anxious"
+ },
+ "the-house-without-a-name": {
+  "maja-elgaard": "woman, 44, mother, wool coat, protective and tense",
+  "thomas-elgaard": "man, 47, father, outdoor jacket, worried and watchful",
+  "niels-vang": "man, 53, former security contact, short grey beard, dark parka, too calm",
+  "camilla-roed": "woman, 36, local journalist, notebook, scarf, curious",
+  "jorgen-sahl": "man, 62, ex-businessman, heavy coat, hard stare"
+ },
+ "the-last-broadcast": {
+  "vera-skov": "woman, 39, radio host, headphones around her neck, dark jacket, intense",
+  "anton-vej": "man, 55, head of programmes, rolled sleeves, anxious",
+  "selma-kruse": "woman, 30, sound engineer, undercut hairstyle, big studio headphones",
+  "kasper-berg": "man, 58, foundation director, tailored grey suit, smooth smile",
+  "nora-dahl": "woman, 40, journalist and Vera's friend, trench coat, loyal",
+  "lukas-engel": "man, 24, station temp, hoodie, nervous"
+ },
+ "under-the-floorboards": {
+  "klara-vester": "woman, 52, eldest daughter, organised, reading glasses, cardigan",
+  "mads-vester": "man, 48, middle son, outdoorsy, wax jacket, stubborn",
+  "ida-vester": "woman, 44, youngest daughter living in Spain, light linen jacket, sun-tanned",
+  "eva-lund": "woman, 59, gentle, grey braid, floral scarf",
+  "peter-asmussen": "man, 50, estate agent, slick hair, smart blazer, practised smile",
+  "jens-asmussen": "man, 54, investor, Peter's brother, expensive watch, impatient"
+ }
+}

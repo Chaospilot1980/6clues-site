@@ -51,21 +51,23 @@ function gn_session(int $uid, string $slug): ?array {
 }
 function gn_hints_used(array $s): int { return array_sum(array_map('intval', $s['hints'])); }
 
-/** Scores an accusation out of 20: culprit 6, motive 4, door 4, power cut 3, evidence 3 – minus hints, never below 0. */
+/** The scored questions of a case besides the culprit: [key => [label, question, points]]. */
+function gn_items(array $case): array {
+    return $case['accuse']['items'] ?? ['motive' => ['Motive', 'What was the motive?', 4], 'door' => ['The locked door', 'How was the door locked?', 4], 'power' => ['The power cut', 'Why did the power go out?', 3]];
+}
+/** Scores an accusation out of 20: culprit 6, the case's questions (4 + 4 + 3), evidence 3 – minus hints, never below 0. */
 function gn_score(array $case, array $sub, int $hints): array {
     $key = gn_solution($case['slug']);
     $hit = count(array_intersect($sub['evidence'], $key['evidence']));
-    $b = [
-        'culprit' => ['Culprit', $sub['culprit'] === $key['culprit'] ? 6 : 0, 6],
-        'motive' => ['Motive', $sub['motive'] === $key['motive'] ? 4 : 0, 4],
-        'door' => ['The locked door', $sub['door'] === $key['door'] ? 4 : 0, 4],
-        'power' => ['The power cut', $sub['power'] === $key['power'] ? 3 : 0, 3],
-        'evidence' => ['Evidence (' . $hit . ' key documents)', $hit >= 4 ? 3 : ($hit === 3 ? 2 : ($hit === 2 ? 1 : 0)), 3],
-    ];
+    $b = ['culprit' => ['Culprit', $sub['culprit'] === $key['culprit'] ? 6 : 0, 6]];
+    foreach (gn_items($case) as $k => [$label, , $pts]) $b[$k] = [$label, ($sub[$k] ?? '') === $key[$k] ? $pts : 0, $pts];
+    $b['evidence'] = ['Evidence (' . $hit . ' key documents)', $hit >= 4 ? 3 : ($hit === 3 ? 2 : ($hit === 2 ? 1 : 0)), 3];
     $total = array_sum(array_column($b, 1));
     if ($hints) $b['hints'] = ['Hints used (' . $hints . ')', -$hints * GN_HINT_COST, 0];
     return ['breakdown' => $b, 'score' => max(0, $total - $hints * GN_HINT_COST), 'culprit_ok' => $sub['culprit'] === $key['culprit']];
 }
+function gn_level_name(int $l): string { return [1 => 'Easy', 2 => 'Medium', 3 => 'Hard'][$l] ?? 'Medium'; }
+function gn_doc_range(array $docs): string { return count($docs) > 1 ? $docs[0] . '–' . end($docs) : (string)$docs[0]; }
 
 function gn_hall(string $slug, int $limit = 10): array {
     $st = db()->prepare("SELECT g.*, u.name FROM gn_sessions g JOIN users u ON u.id = g.user_id WHERE g.slug = ? AND g.score IS NOT NULL
@@ -86,15 +88,15 @@ function gn_minutes(array $s): ?int {
 // ---------- graphics (drawn in SVG, no images needed) ----------
 function gn_cover_svg(array $case): string {
     return '<svg class="gn-cover-art" viewBox="0 0 400 300" role="img" aria-label="A sealed case envelope">
-      <rect x="20" y="40" width="360" height="230" rx="4" fill="#C9B48A" stroke="#1E1B18" stroke-width="3"/>
-      <path d="M20 44 L200 175 L380 44" fill="#B89F70" stroke="#1E1B18" stroke-width="3"/>
+      <rect x="20" y="40" width="360" height="230" rx="4" fill="' . e($case['envelope'] ?? '#C9B48A') . '" stroke="#1E1B18" stroke-width="3"/>
+      <path d="M20 44 L200 175 L380 44" fill="' . e($case['flap'] ?? '#B89F70') . '" stroke="#1E1B18" stroke-width="3"/>
       <rect x="40" y="200" width="150" height="46" fill="#F3EEE4" stroke="#1E1B18" stroke-width="2"/>
       <text x="50" y="220" font-family="Special Elite, monospace" font-size="13" fill="#1E1B18">CASE FILE · No. ' . e($case['no']) . '</text>
-      <text x="50" y="238" font-family="Special Elite, monospace" font-size="11" fill="#5C554D">' . e(strtoupper($case['title'])) . '</text>
+      <text x="50" y="238" font-family="Special Elite, monospace" font-size="11" fill="#5C554D"' . (mb_strlen($case['title']) > 18 ? ' textLength="130" lengthAdjust="spacingAndGlyphs"' : '') . '>' . e(strtoupper($case['title'])) . '</text>
       <g transform="translate(200 175)"><circle r="34" fill="#A4161A"/><circle r="26" fill="none" stroke="#7A0F12" stroke-width="3"/>
       <text y="12" text-anchor="middle" font-family="Special Elite, monospace" font-size="34" fill="#F3EEE4">6</text></g>
       <g transform="translate(318 92) rotate(12)"><rect x="-58" y="-20" width="116" height="40" fill="none" stroke="#A4161A" stroke-width="3"/>
-      <text text-anchor="middle" y="7" font-family="Special Elite, monospace" font-size="18" fill="#A4161A">REOPENED</text></g>
+      <text text-anchor="middle" y="7" font-family="Special Elite, monospace" font-size="18" fill="#A4161A"' . (mb_strlen($case['stamp'] ?? 'REOPENED') > 9 ? ' textLength="104" lengthAdjust="spacingAndGlyphs"' : '') . '>' . e($case['stamp'] ?? 'REOPENED') . '</text></g>
     </svg>';
 }
 function gn_floorplan_svg(): string {
@@ -115,11 +117,47 @@ function gn_floorplan_svg(): string {
       <text x="470" y="34" stroke="none" font-size="16">N ↑</text>
       </g></svg>';
 }
-/** Placeholder frame for a photo that will be drawn later (Higgsfield). */
+/** Illustrations. An image is ['file' => 'slug/name.jpg', 'caption' => ..., 'prompt' => AI image prompt]. If the file exists in
+ * assets/img/gn/ it is shown; otherwise a tidy placeholder frame (the prompt list lives in tools/gamenight_images.md). */
+function gn_img_url(string $file): ?string {
+    $p = dirname(__DIR__) . '/assets/img/gn/' . $file;
+    return is_file($p) ? '/assets/img/gn/' . $file . '?v=' . filemtime($p) : null;
+}
 function gn_photo_placeholder(string $caption): string {
     return '<figure class="photo-ph"><div class="photo-ph-img"><svg viewBox="0 0 120 80" aria-hidden="true"><g fill="none" stroke="#8A8378" stroke-width="2"><rect x="8" y="12" width="104" height="60" rx="3"/><circle cx="60" cy="42" r="16"/><rect x="44" y="4" width="22" height="10"/></g></svg>
       <span>Photo · illustration coming soon</span></div><figcaption>' . e($caption) . '</figcaption></figure>';
 }
+function gn_img(array $im): string {
+    $u = gn_img_url($im['file']);
+    if (!$u) return gn_photo_placeholder($im['caption']);
+    return '<figure class="photo-ph photo-real"><img src="' . e($u) . '" alt="' . e($im['caption']) . '" loading="lazy"><figcaption>' . e($im['caption']) . '</figcaption></figure>';
+}
+/** Cover art for cards and heroes: the case's own illustration if it exists, else the drawn envelope. */
+function gn_art(array $case): string {
+    $u = isset($case['cover']) ? gn_img_url($case['cover']['file']) : null;
+    return $u ? '<img class="gn-art-img" src="' . e($u) . '" alt="" loading="lazy">' : gn_cover_svg($case);
+}
 function gn_doc_body(array $d): string {
-    return str_replace(['{{FLOORPLAN}}', '{{PHOTO}}'], [gn_floorplan_svg(), gn_photo_placeholder('Dinner at Villa Nordlys, 20:17')], $d['body']);
+    $b = str_replace('{{FLOORPLAN}}', gn_floorplan_svg(), $d['body']);
+    if (!empty($d['img'])) {
+        $f = gn_img($d['img']);
+        $b = str_contains($b, '{{IMG}}') ? str_replace('{{IMG}}', $f, $b) : $f . $b;
+    }
+    return $b;
+}
+
+/** Small helper for case files: a log/table block. $rows are arrays of cells (HTML allowed). */
+function gn_t(array $rows, array $head = [], string $title = ''): string {
+    $h = $title !== '' ? '<p class="log-head">' . $title . '</p>' : '';
+    $h .= '<table class="log">';
+    if ($head) $h .= '<tr>' . implode('', array_map(fn($x) => '<th>' . $x . '</th>', $head)) . '</tr>';
+    foreach ($rows as $r) $h .= '<tr>' . implode('', array_map(fn($x) => '<td>' . $x . '</td>', $r)) . '</tr>';
+    return $h . '</table>';
+}
+
+/** A suspect's portrait (assets/img/gn/<case>/people/<id>.jpg) or a silhouette while it is missing. */
+function gn_portrait(string $slug, array $p): string {
+    $u = gn_img_url($slug . '/people/' . $p['id'] . '.jpg');
+    if ($u) return '<img class="gn-face" src="' . e($u) . '" alt="' . e($p['name']) . '" loading="lazy">';
+    return '<svg class="gn-face" viewBox="0 0 120 120" aria-hidden="true"><rect width="120" height="120" fill="#DDD5C7"/><circle cx="60" cy="48" r="24" fill="#B9B0A2"/><path d="M14 120 C14 88 34 78 60 78 C86 78 106 88 106 120 Z" fill="#B9B0A2"/></svg>';
 }

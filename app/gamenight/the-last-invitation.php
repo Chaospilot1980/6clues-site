@@ -8,7 +8,19 @@ return [
  'teaser' => 'Property investor Alexander Voss gathers six guests at his seaside villa and promises to expose them all in the morning. By 22:52 he is dead behind a locked door.',
  'minutes' => [90, 120],
  'players' => [2, 6],
- 'revision' => '1.0',
+ 'revision' => '1.1',
+ 'level' => 3,
+ 'genre' => 'Murder',
+ 'caseref' => 'NV-2026-1017',
+ 'stamp' => 'REOPENED',
+ 'cover' => ['file' => 'the-last-invitation/cover.jpg', 'prompt' => 'Moody cinematic illustration of a modern Scandinavian villa on a dark coast at night, one lit study window, storm clouds, a single wine glass on a terrace railing in the foreground, deep navy and amber palette, film-noir mood, no people, no text, 4:3'],
+ 'solution_title' => 'What really happened at Villa Nordlys',
+ 'accuse' => [
+  'culprit_q' => 'Who killed Alexander?',
+  'wrong' => 'That\'s not the person who killed Alexander.',
+  'items' => ['motive' => ['Motive', 'What was the motive?', 4], 'door' => ['The locked door', 'How was the door locked?', 4], 'power' => ['The power cut', 'Why did the power go out?', 3]],
+ ],
+ 'worksheet' => ['Who is responsible for Alexander\'s death?', 'What was the motive?', 'What happened between 22:25 and 22:43?', 'Why was the door locked?', 'Why did the power go out?'],
  'intro' => [
   'On Saturday 17 October 2026, property investor <b>Alexander Voss</b> invites six people to dinner at Villa Nordlys, his remote house on the Danish coast. Over dinner he announces that tomorrow morning he will publish documents that could ruin several of their lives.',
   'At 22:43 the power goes out. Seven minutes later the backup supply starts. At 22:52 Alexander is found dead in his study. The door was locked. A window stood ajar. The police first call it an accident.',
@@ -37,8 +49,8 @@ return [
  ],
  'packets' => [
   'START' => ['label' => 'Start folder', 'docs' => ['P01', 'P02', 'P03', 'P04', 'P05', 'P06', 'P07', 'P08', 'P09', 'P10']],
-  'B' => ['label' => 'Envelope B', 'docs' => ['P11', 'P12', 'P13', 'P14', 'P15']],
-  'C' => ['label' => 'Envelope C', 'docs' => ['P16', 'P17', 'P18', 'P19']],
+  'B' => ['label' => 'Envelope B', 'when' => 'you can explain why a locked door doesn\'t prove Alexander was alone', 'docs' => ['P11', 'P12', 'P13', 'P14', 'P15']],
+  'C' => ['label' => 'Envelope C', 'when' => 'you have found a statement that clashes with a technical record', 'docs' => ['P16', 'P17', 'P18', 'P19']],
  ],
  'docs' => [
   'P01' => ['kind' => 'report', 'title' => 'Police incident report', 'body' => '
@@ -117,8 +129,8 @@ return [
     <p class="msg out"><span>22:26 · Nora → her daughter</span>Will call later. Busy.</p>
     <p class="msg out"><span>22:44 · Nora → her daughter</span>Sorry, the evening ran late. Will call tomorrow.</p></div>
     <p class="note">The phone record shows the times of the messages. It shows no call between Nora and her daughter between 22:25 and 22:43.</p>'],
-  'P15' => ['kind' => 'photo', 'title' => 'Photo from the dinner / clothing', 'meta' => 'Caption of photo taken at 20:17 by Liv', 'body' => '
-    {{PHOTO}}
+  'P15' => ['kind' => 'photo', 'img' => ['file' => 'the-last-invitation/p15-dinner.jpg', 'caption' => 'Dinner at Villa Nordlys, 20:17', 'prompt' => 'Candid flash photo of an elegant dinner party in a Scandinavian seaside villa at night, six guests around a long table with candles and wine glasses; in focus a woman of about 46 in a dark navy woven jacket with small gold hexagonal cufflinks; warm tones, slightly grainy, documentary style, no text'], 'title' => 'Photo from the dinner / clothing', 'meta' => 'Caption of photo taken at 20:17 by Liv', 'body' => '
+    {{IMG}}
     <p>Nora wears a dark blue jacket of clearly woven fabric and gold-coloured cufflinks shaped like a hexagon with three narrow grooves. Both cufflinks are visible in the photo.</p>
     <p>Elias wears a grey suit, Emil a black jumper, Viktor an olive-green shirt, Liv a white blouse and Mara a burgundy dress.</p>
     <p class="note">A later photo of Nora at 23:18 shows that the cufflink on her right sleeve is missing. Nora says it ‘must have fallen off earlier in the evening’.</p>'],
