@@ -1,0 +1,174 @@
+<?php
+declare(strict_types=1);
+
+$cfgFile = __DIR__ . '/config.php';
+if (!is_file($cfgFile)) {
+    http_response_code(500);
+    exit('Missing app/config.php – copy app/config.sample.php and fill it in.');
+}
+$CFG = require $cfgFile;
+
+function cfg(string $k, $default = null) { global $CFG; return $CFG[$k] ?? $default; }
+function e($s): string { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
+function url(string $path = '/'): string { return rtrim((string)cfg('base_url'), '/') . $path; }
+function redirect(string $path): never { header('Location: ' . $path, true, 303); exit; }
+
+// ---------- session ----------
+$secure = (($_SERVER['HTTPS'] ?? '') === 'on') || (($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '') === 'https');
+session_name('sixclues');
+session_set_cookie_params(['lifetime' => 60 * 60 * 24 * 60, 'path' => '/', 'secure' => $secure, 'httponly' => true, 'samesite' => 'Lax']);
+session_start();
+
+function csrf_token(): string {
+    if (empty($_SESSION['csrf'])) $_SESSION['csrf'] = bin2hex(random_bytes(16));
+    return $_SESSION['csrf'];
+}
+function csrf_field(): string { return '<input type="hidden" name="csrf" value="' . e(csrf_token()) . '">'; }
+function csrf_check(): void {
+    if (!hash_equals($_SESSION['csrf'] ?? '', (string)($_POST['csrf'] ?? ''))) {
+        http_response_code(400);
+        exit('Your session expired. Please go back and try again.');
+    }
+}
+function flash(?string $msg = null): ?string {
+    if ($msg !== null) { $_SESSION['flash'] = $msg; return null; }
+    $m = $_SESSION['flash'] ?? null; unset($_SESSION['flash']); return $m;
+}
+
+// ---------- database ----------
+function db(): PDO {
+    static $pdo = null;
+    if ($pdo) return $pdo;
+    $dsn = (string)cfg('db_dsn');
+    if (str_starts_with($dsn, 'sqlite:')) {
+        $dir = dirname(substr($dsn, 7));
+        if (!is_dir($dir)) @mkdir($dir, 0700, true);
+    }
+    $pdo = new PDO($dsn, (string)cfg('db_user', ''), (string)cfg('db_pass', ''), [
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    ]);
+    migrate($pdo);
+    return $pdo;
+}
+
+function migrate(PDO $pdo): void {
+    $mysql = $pdo->getAttribute(PDO::ATTR_DRIVER_NAME) === 'mysql';
+    $id = $mysql ? 'INT UNSIGNED AUTO_INCREMENT PRIMARY KEY' : 'INTEGER PRIMARY KEY AUTOINCREMENT';
+    $engine = $mysql ? ' ENGINE=InnoDB DEFAULT CHARSET=utf8mb4' : '';
+    $pdo->exec("CREATE TABLE IF NOT EXISTS users (
+        id $id,
+        google_sub VARCHAR(64) NOT NULL UNIQUE,
+        email VARCHAR(255) NOT NULL,
+        name VARCHAR(255) NOT NULL DEFAULT '',
+        picture VARCHAR(500) NOT NULL DEFAULT '',
+        newsletter TINYINT NOT NULL DEFAULT 0,
+        newsletter_at DATETIME NULL,
+        source VARCHAR(100) NOT NULL DEFAULT '',
+        created_at DATETIME NOT NULL,
+        last_login_at DATETIME NOT NULL
+    )$engine");
+    $pdo->exec("CREATE TABLE IF NOT EXISTS attempts (
+        id $id,
+        user_id INT NOT NULL,
+        slug VARCHAR(100) NOT NULL,
+        guess VARCHAR(100) NOT NULL,
+        correct TINYINT NOT NULL,
+        created_at DATETIME NOT NULL
+    )$engine");
+    $pdo->exec("CREATE TABLE IF NOT EXISTS solves (
+        user_id INT NOT NULL,
+        slug VARCHAR(100) NOT NULL,
+        solved_at DATETIME NOT NULL,
+        attempts INT NOT NULL DEFAULT 1,
+        gave_up TINYINT NOT NULL DEFAULT 0,
+        PRIMARY KEY (user_id, slug)
+    )$engine");
+}
+function now(): string { return gmdate('Y-m-d H:i:s'); }
+
+// ---------- mysteries ----------
+function mysteries(): array {
+    static $all = null;
+    if ($all === null) $all = require __DIR__ . '/mysteries.php';
+    return $all;
+}
+function mystery(string $slug): ?array {
+    foreach (mysteries() as $m) if ($m['slug'] === $slug) return $m;
+    return null;
+}
+function level_name(int $l): string { return [1 => 'Rookie', 2 => 'Detective', 3 => 'Mastermind'][$l] ?? "Level $l"; }
+
+// ---------- users ----------
+function current_user(): ?array {
+    static $u = false;
+    if ($u !== false) return $u;
+    $u = null;
+    if (!empty($_SESSION['uid'])) {
+        $st = db()->prepare('SELECT * FROM users WHERE id = ?');
+        $st->execute([$_SESSION['uid']]);
+        $u = $st->fetch() ?: null;
+    }
+    return $u;
+}
+function is_admin(): bool {
+    $u = current_user();
+    return $u && in_array(strtolower($u['email']), array_map('strtolower', (array)cfg('admin_emails', [])), true);
+}
+function login_user(array $p): void {
+    $pdo = db();
+    $st = $pdo->prepare('SELECT id FROM users WHERE google_sub = ?');
+    $st->execute([$p['sub']]);
+    $id = $st->fetchColumn();
+    if ($id) {
+        $pdo->prepare('UPDATE users SET email = ?, name = ?, picture = ?, last_login_at = ? WHERE id = ?')
+            ->execute([$p['email'], $p['name'] ?? '', $p['picture'] ?? '', now(), $id]);
+        $_SESSION['ga_event'] = 'login';
+    } else {
+        $pdo->prepare('INSERT INTO users (google_sub, email, name, picture, source, created_at, last_login_at) VALUES (?,?,?,?,?,?,?)')
+            ->execute([$p['sub'], $p['email'], $p['name'] ?? '', $p['picture'] ?? '', substr((string)($_SESSION['source'] ?? ''), 0, 100), now(), now()]);
+        $id = $pdo->lastInsertId();
+        $_SESSION['ga_event'] = 'sign_up';
+    }
+    session_regenerate_id(true);
+    $_SESSION['uid'] = (int)$id;
+}
+
+/** Verifies a Google Identity Services ID token with Google's tokeninfo endpoint. */
+function verify_google_token(string $jwt): ?array {
+    $ch = curl_init('https://oauth2.googleapis.com/tokeninfo?id_token=' . urlencode($jwt));
+    curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 10]);
+    $body = curl_exec($ch);
+    $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    if ($code !== 200 || !$body) return null;
+    $p = json_decode($body, true);
+    if (!is_array($p)) return null;
+    if (($p['aud'] ?? '') !== cfg('google_client_id')) return null;
+    if (!in_array($p['iss'] ?? '', ['accounts.google.com', 'https://accounts.google.com'], true)) return null;
+    if ((int)($p['exp'] ?? 0) < time()) return null;
+    if (($p['email_verified'] ?? '') !== 'true' && ($p['email_verified'] ?? null) !== true) return null;
+    return $p;
+}
+
+function user_progress(int $uid): array {
+    $st = db()->prepare('SELECT slug, solved_at, attempts, gave_up FROM solves WHERE user_id = ?');
+    $st->execute([$uid]);
+    $out = [];
+    foreach ($st->fetchAll() as $r) $out[$r['slug']] = $r;
+    $st = db()->prepare('SELECT slug, COUNT(*) n FROM attempts WHERE user_id = ? GROUP BY slug');
+    $st->execute([$uid]);
+    foreach ($st->fetchAll() as $r) if (!isset($out[$r['slug']])) $out[$r['slug']] = ['open' => true, 'attempts' => (int)$r['n']];
+    return $out;
+}
+
+/** Up to $n unsolved mysteries, closest to the player's current level first. */
+function suggestions(?array $user, int $n = 3, string $except = ''): array {
+    $prog = $user ? user_progress((int)$user['id']) : [];
+    $best = 1;
+    foreach (mysteries() as $m) if (isset($prog[$m['slug']]['solved_at']) && empty($prog[$m['slug']]['gave_up'])) $best = max($best, $m['level']);
+    $target = min(3, $best + (count(array_filter($prog, fn($p) => isset($p['solved_at']))) >= 2 ? 1 : 0));
+    $list = array_filter(mysteries(), fn($m) => $m['slug'] !== $except && !isset($prog[$m['slug']]['solved_at']));
+    usort($list, fn($a, $b) => abs($a['level'] - $target) <=> abs($b['level'] - $target) ?: $a['level'] <=> $b['level']);
+    return array_slice($list, 0, $n);
+}

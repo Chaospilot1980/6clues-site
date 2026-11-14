@@ -1,0 +1,449 @@
+<?php
+declare(strict_types=1);
+require __DIR__ . '/app/bootstrap.php';
+require __DIR__ . '/app/views/layout.php';
+
+$path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
+$path = '/' . trim(rawurldecode($path), '/');
+$method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
+
+// Remember where a visitor came from (QR code, campaign) for the sign-up record
+if (!empty($_GET['src'])) $_SESSION['source'] = substr(preg_replace('/[^a-z0-9_\-]/i', '', (string)$_GET['src']), 0, 50);
+
+$routes = [
+    '#^/$#'                                   => 'home',
+    '#^/mysteries/([a-z0-9\-]+)$#'            => 'show',
+    '#^/mysteries/([a-z0-9\-]+)/play$#'       => 'play',
+    '#^/mysteries/([a-z0-9\-]+)/print$#'      => 'print_page',
+    '#^/answer/([a-z0-9\-]+)$#'               => 'answer',
+    '#^/login$#'                              => 'login',
+    '#^/auth/google$#'                        => 'auth_google',
+    '#^/auth/dev$#'                           => 'auth_dev',
+    '#^/logout$#'                             => 'logout',
+    '#^/me$#'                                 => 'me',
+    '#^/admin$#'                              => 'admin',
+    '#^/admin/subscribers\.csv$#'             => 'admin_csv',
+    '#^/privacy$#'                            => 'privacy',
+    '#^/sitemap\.xml$#'                       => 'sitemap',
+    '#^/robots\.txt$#'                        => 'robots',
+];
+foreach ($routes as $re => $fn) {
+    if (preg_match($re, $path, $mm)) { $fn(...array_slice($mm, 1)); exit; }
+}
+not_found();
+
+// =====================================================================
+
+function not_found(): void {
+    http_response_code(404);
+    page_start(['title' => 'Case not found', 'noindex' => true, 'path' => '/404']);
+    echo '<section class="wrap narrow"><h1>Case not found</h1><p>This page has vanished without a trace.</p><p><a class="btn" href="/">Back to all mysteries</a></p></section>';
+    page_end();
+}
+
+function need_mystery(string $slug): array {
+    $m = mystery($slug);
+    if (!$m) { not_found(); exit; }
+    return $m;
+}
+
+function home(): void {
+    $u = current_user();
+    $prog = $u ? user_progress((int)$u['id']) : [];
+    $site = cfg('site_name');
+    page_start(['path' => '/', 'jsonld' => [
+        ['@context' => 'https://schema.org', '@type' => 'WebSite', 'name' => $site, 'url' => url('/')],
+        ['@context' => 'https://schema.org', '@type' => 'ItemList', 'name' => 'Murder mystery games',
+         'itemListElement' => array_map(fn($m, $i) => ['@type' => 'ListItem', 'position' => $i + 1, 'url' => url('/mysteries/' . $m['slug']), 'name' => $m['title']], mysteries(), array_keys(mysteries()))],
+    ]]);
+    ?>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker">Case files · free to play</p>
+      <h1>Free printable murder mysteries for parties, families and offices</h1>
+      <p class="lead">Print six clue posters, hide them around the house, garden or office, and let your guests hunt for evidence. When they think they know who did it, they scan the code and name the culprit.</p>
+      <p class="cta-row"><a class="btn" href="#mysteries">Pick a mystery</a> <a class="btn btn-ghost" href="#how">How it works</a></p>
+    </div>
+    <div class="hero-card" aria-hidden="true">
+      <div class="stamp">CLUE<br><b>3</b><br>OF 6</div>
+      <p class="type">”I saw her take two glasses from the kitchen – red nail polish, a gold bracelet…”</p>
+      <p class="small">WITNESS STATEMENT · MARCO RUIZ</p>
+    </div>
+  </div>
+</section>
+
+<section id="how" class="wrap steps">
+  <h2>How it works</h2>
+  <ol class="step-list">
+    <li><b>Choose a case.</b> Level 1 is perfect for a first game; level 3 will fool most grown-up detectives.</li>
+    <li><b>Print and hide six posters</b> – or play every clue on screen. Each poster has a witness, a statement and a piece of evidence.</li>
+    <li><b>Compare the clues.</b> Times, alibis and small details only make sense when you put them together.</li>
+    <li><b>Scan the code and name the culprit.</b> Sign in with Google to submit your answer, see the solution and keep track of the cases you've cracked.</li>
+  </ol>
+</section>
+
+<section id="mysteries" class="wrap">
+  <h2>All mysteries</h2>
+  <?php foreach ([1, 2, 3] as $lvl): ?>
+    <h3 class="level-head">Level <?= $lvl ?> – <?= e(level_name($lvl)) ?></h3>
+    <div class="grid">
+      <?php foreach (mysteries() as $m) if ($m['level'] === $lvl) echo mystery_card($m, $prog); ?>
+    </div>
+  <?php endforeach; ?>
+</section>
+
+<section class="wrap newsletter-box">
+  <h2>New cases every month</h2>
+  <p>Sign in once with Google to save your progress. Tick the box when you submit an answer, and we'll email you when a new mystery is released.</p>
+  <?php if (!$u): ?><p><a class="btn" href="/login?next=/me">Sign in with Google</a></p><?php endif; ?>
+</section>
+<?php
+    page_end();
+}
+
+function show(string $slug): void {
+    $m = need_mystery($slug);
+    $u = current_user();
+    $prog = $u ? user_progress((int)$u['id']) : [];
+    $p = $prog[$slug] ?? null;
+    page_start([
+        'title' => $m['title'] . ' – free printable mystery game',
+        'description' => $m['teaser'] . ' A free level ' . $m['level'] . ' ' . strtolower($m['crime']) . ' mystery with six printable clue posters.',
+        'path' => '/mysteries/' . $slug, 'og_type' => 'article',
+        'jsonld' => [
+            ['@context' => 'https://schema.org', '@type' => 'Game', 'name' => $m['title'], 'description' => $m['teaser'],
+             'url' => url('/mysteries/' . $slug), 'genre' => 'Murder mystery', 'numberOfPlayers' => ['@type' => 'QuantitativeValue', 'minValue' => 1],
+             'isAccessibleForFree' => true, 'inLanguage' => 'en', 'publisher' => ['@type' => 'Organization', 'name' => cfg('site_name')]],
+            ['@context' => 'https://schema.org', '@type' => 'BreadcrumbList', 'itemListElement' => [
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Mysteries', 'item' => url('/')],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => $m['title'], 'item' => url('/mysteries/' . $slug)]]],
+        ],
+    ]);
+    ?>
+<section class="wrap case">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Mysteries</a> › <?= e($m['title']) ?></nav>
+  <p><?= badge_row($m) ?></p>
+  <h1><?= e($m['title']) ?></h1>
+  <p class="lead"><?= e($m['teaser']) ?></p>
+  <div class="briefing"><?= $m['intro'] ?></div>
+  <?php if ($p && isset($p['solved_at'])): ?>
+    <p class="flash">You've closed this case. <a href="/answer/<?= e($slug) ?>">See the solution</a></p>
+  <?php endif; ?>
+  <div class="choices">
+    <a class="choice" href="/mysteries/<?= e($slug) ?>/print" data-ga-click="print_posters" data-ga-mystery="<?= e($slug) ?>">
+      <b>Print the six posters</b><span>A4 or A3, with a QR code on every poster. Hide them in six places.</span></a>
+    <a class="choice" href="/mysteries/<?= e($slug) ?>/play" data-ga-click="play_online" data-ga-mystery="<?= e($slug) ?>">
+      <b>Play on screen</b><span>All six clues in your browser – great for a quick game.</span></a>
+    <a class="choice" href="/answer/<?= e($slug) ?>">
+      <b>Name the <?= e($m['who']) ?></b><span>Ready? Submit your answer and see the solution.</span></a>
+  </div>
+  <h2>The suspects</h2>
+  <ul class="suspects">
+    <?php foreach ($m['suspects'] as $s): ?><li><b><?= e($s['name']) ?></b><span><?= e($s['role']) ?></span></li><?php endforeach; ?>
+  </ul>
+  <h2>Hosting tips</h2>
+  <ul class="tips">
+    <li>Number the hiding places, or write a little hint to the next spot in the box at the bottom of each poster.</li>
+    <li>Works for 2–30 players. Let teams compete, or play as one big detective squad.</li>
+    <li>Allow 30–60 minutes for level 1 and up to 90 minutes for level 3.</li>
+  </ul>
+</section>
+<?php
+    page_end();
+}
+
+function play(string $slug): void {
+    $m = need_mystery($slug);
+    page_start(['title' => $m['title'] . ' – play online', 'description' => 'Read all six clues of ' . $m['title'] . ' in your browser and work out who did it.', 'path' => '/mysteries/' . $slug . '/play']);
+    ?>
+<section class="wrap case">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Mysteries</a> › <a href="/mysteries/<?= e($slug) ?>"><?= e($m['title']) ?></a> › Play</nav>
+  <h1><?= e($m['title']) ?></h1>
+  <div class="briefing"><?= $m['intro'] ?></div>
+  <?php foreach ($m['clues'] as $i => $c): ?>
+    <article class="clue" id="clue-<?= $i + 1 ?>">
+      <header><span class="clue-no">Clue <?= $i + 1 ?> of 6</span><h2><?= e($c['name']) ?> <small><?= e($c['role']) ?></small></h2></header>
+      <blockquote>”<?= e($c['quote']) ?>”</blockquote>
+      <p class="ev-label">Evidence #<?= $i + 1 ?> · <?= e($c['label']) ?></p>
+      <div class="evidence"><?= $c['evidence'] ?></div>
+    </article>
+  <?php endforeach; ?>
+  <p class="center"><a class="btn btn-big" href="/answer/<?= e($slug) ?>">I know who did it</a></p>
+</section>
+<?php
+    page_end();
+}
+
+function print_page(string $slug): void {
+    $m = need_mystery($slug);
+    $answer = url('/answer/' . $slug . '?src=qr');
+    ?><!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title><?= e($m['title']) ?> – printable posters</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="/assets/css/print.css?v=1">
+</head><body>
+<div class="toolbar">
+  <p><b><?= e($m['title']) ?></b> – six A4 posters. Use your browser's print dialog: A4, margins <i>None</i>, scale 100% (or “Fit to page” for A3).</p>
+  <button onclick="window.print()">Print posters</button>
+</div>
+<?php foreach ($m['clues'] as $c): ?>
+<div class="sheet"><?= str_replace('{{ANSWER_URL}}', e($answer), $c['poster']) ?></div>
+<?php endforeach; ?>
+<script src="/assets/js/qrcode.js"></script>
+<script src="/assets/js/app.js?v=1"></script>
+</body></html>
+<?php
+}
+
+function login(): void {
+    $next = (string)($_GET['next'] ?? '/me');
+    if (!preg_match('#^/[a-z0-9/\-]*$#i', $next)) $next = '/me';
+    if (current_user()) redirect($next);
+    page_start(['title' => 'Sign in', 'noindex' => true, 'path' => '/login']);
+    echo '<section class="wrap narrow"><h1>Sign in</h1><p>Sign in with your Google account to submit answers and keep track of the cases you have solved.</p>';
+    google_button($next);
+    echo '</section>';
+    page_end();
+}
+
+function google_button(string $next): void {
+    $cid = (string)cfg('google_client_id');
+    ?>
+<form id="g-form" method="post" action="/auth/google"><?= csrf_field() ?><input type="hidden" name="credential" id="g-credential"><input type="hidden" name="next" value="<?= e($next) ?>"></form>
+<div id="g_id_onload" data-client_id="<?= e($cid) ?>" data-callback="onGoogleSignIn" data-auto_prompt="false"></div>
+<div class="g_id_signin" data-type="standard" data-size="large" data-theme="filled_black" data-text="continue_with" data-shape="rectangular"></div>
+<script>function onGoogleSignIn(r){document.getElementById('g-credential').value=r.credential;document.getElementById('g-form').submit();}</script>
+<script src="https://accounts.google.com/gsi/client" async></script>
+<?php if (cfg('dev_login')): ?>
+<form method="post" action="/auth/dev" class="dev"><?= csrf_field() ?><input type="hidden" name="next" value="<?= e($next) ?>"><input name="email" value="tester@example.com" aria-label="Test email"><button class="btn btn-small">Dev login</button></form>
+<?php endif;
+}
+
+function auth_google(): void {
+    if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') redirect('/login');
+    csrf_check();
+    $next = (string)($_POST['next'] ?? '/me');
+    if (!preg_match('#^/[a-z0-9/\-]*$#i', $next)) $next = '/me';
+    $p = verify_google_token((string)($_POST['credential'] ?? ''));
+    if (!$p) { flash('Google sign-in failed. Please try again.'); redirect('/login?next=' . urlencode($next)); }
+    login_user($p);
+    redirect($next);
+}
+
+function auth_dev(): void {
+    if (!cfg('dev_login') || ($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') { not_found(); return; }
+    csrf_check();
+    $email = (string)($_POST['email'] ?? 'tester@example.com');
+    login_user(['sub' => 'dev-' . md5($email), 'email' => $email, 'name' => 'Test Detective']);
+    redirect((string)($_POST['next'] ?? '/me'));
+}
+
+function logout(): void {
+    if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') { csrf_check(); $_SESSION = []; session_regenerate_id(true); }
+    redirect('/');
+}
+
+function answer(string $slug): void {
+    $m = need_mystery($slug);
+    $u = current_user();
+    $meta = ['title' => 'Name the ' . $m['who'] . ' – ' . $m['title'], 'noindex' => true, 'path' => '/answer/' . $slug];
+    if (!$u) {
+        page_start($meta);
+        echo '<section class="wrap narrow case"><p>' . badge_row($m) . '</p><h1>' . e($m['title']) . '</h1>';
+        echo '<p class="lead">Think you know who did it? Sign in with Google to submit your answer, see the full solution and save your progress.</p>';
+        google_button('/answer/' . $slug);
+        echo '<p class="small muted">We only use your name and email address. See our <a href="/privacy">privacy policy</a>.</p></section>';
+        page_end();
+        return;
+    }
+    $uid = (int)$u['id'];
+    $pdo = db();
+    $result = null;
+    if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
+        csrf_check();
+        if (!empty($_POST['newsletter']) && !(int)$u['newsletter']) {
+            $pdo->prepare('UPDATE users SET newsletter = 1, newsletter_at = ? WHERE id = ?')->execute([now(), $uid]);
+            $u['newsletter'] = 1;
+        }
+        $st = $pdo->prepare('SELECT COUNT(*) FROM attempts WHERE user_id = ? AND slug = ?');
+        $st->execute([$uid, $slug]);
+        $tries = (int)$st->fetchColumn();
+        $st = $pdo->prepare('SELECT 1 FROM solves WHERE user_id = ? AND slug = ?');
+        $st->execute([$uid, $slug]);
+        $done = (bool)$st->fetchColumn();
+        if (($_POST['action'] ?? '') === 'reveal') {
+            if (!$done) $pdo->prepare('INSERT INTO solves (user_id, slug, solved_at, attempts, gave_up) VALUES (?,?,?,?,1)')->execute([$uid, $slug, now(), $tries]);
+            $_SESSION['ga_event'] = 'solution_revealed';
+        } else {
+            $guess = (string)($_POST['guess'] ?? '');
+            $names = array_column($m['suspects'], 'name');
+            if (!in_array($guess, $names, true)) { flash('Pick one of the suspects.'); redirect('/answer/' . $slug); }
+            $ok = $guess === $m['solution']['killer'];
+            $pdo->prepare('INSERT INTO attempts (user_id, slug, guess, correct, created_at) VALUES (?,?,?,?,?)')->execute([$uid, $slug, $guess, $ok ? 1 : 0, now()]);
+            if ($ok && !$done) $pdo->prepare('INSERT INTO solves (user_id, slug, solved_at, attempts, gave_up) VALUES (?,?,?,?,0)')->execute([$uid, $slug, now(), $tries + 1]);
+            $_SESSION['ga_event'] = $ok ? 'mystery_solved' : 'wrong_answer';
+            $_SESSION['last_result'] = ['slug' => $slug, 'ok' => $ok, 'guess' => $guess];
+        }
+        redirect('/answer/' . $slug);
+    }
+    $res = $_SESSION['last_result'] ?? null;
+    if ($res && $res['slug'] === $slug) unset($_SESSION['last_result']); else $res = null;
+    $prog = user_progress($uid);
+    $closed = isset($prog[$slug]['solved_at']);
+    page_start($meta);
+    ?>
+<section class="wrap narrow case">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Mysteries</a> › <a href="/mysteries/<?= e($slug) ?>"><?= e($m['title']) ?></a> › Answer</nav>
+  <h1><?= e($m['title']) ?></h1>
+  <?php if ($res && !$res['ok']): ?>
+    <div class="verdict wrong" role="alert"><b>Not quite.</b> <?= e($res['guess']) ?> has an alibi – look at the clues again. Times and small details matter.</div>
+  <?php endif; ?>
+  <?php if ($closed): $s = $m['solution']; $gaveUp = !empty($prog[$slug]['gave_up']); ?>
+    <div class="verdict <?= $gaveUp ? '' : 'right' ?>"><?= $gaveUp ? '<b>Case closed.</b> Here is how it happened.' : '<b>Case solved!</b> Brilliant detective work.' ?></div>
+    <div class="solution">
+      <h2>The <?= e($m['who']) ?> is <?= e($s['killer']) ?></h2>
+      <h3>Motive</h3><p><?= $s['motive'] ?></p>
+      <h3>How the evidence gives it away</h3><ol><?php foreach ($s['proof'] as $x) echo "<li>$x</li>"; ?></ol>
+      <h3>Why the others are innocent</h3><ul><?php foreach ($s['cleared'] as $x) echo "<li>$x</li>"; ?></ul>
+    </div>
+    <?php next_cases($u, $slug); ?>
+  <?php else: ?>
+    <form method="post" class="answer-form">
+      <?= csrf_field() ?>
+      <fieldset>
+        <legend>Who is the <?= e($m['who']) ?>?</legend>
+        <div class="suspect-pick">
+        <?php foreach ($m['suspects'] as $i => $s): ?>
+          <label><input type="radio" name="guess" value="<?= e($s['name']) ?>" required> <b><?= e($s['name']) ?></b> <span><?= e($s['role']) ?></span></label>
+        <?php endforeach; ?>
+        </div>
+      </fieldset>
+      <?php if (!(int)$u['newsletter']): ?>
+        <label class="check"><input type="checkbox" name="newsletter" value="1"> Email me when a new mystery is released (about once a month – unsubscribe any time).</label>
+      <?php endif; ?>
+      <button class="btn btn-big">Accuse!</button>
+    </form>
+    <form method="post" class="reveal" onsubmit="return confirm('Show the solution? This closes the case without solving it.');">
+      <?= csrf_field() ?><input type="hidden" name="action" value="reveal"><button class="linkbtn">I give up – show me the solution</button>
+    </form>
+  <?php endif; ?>
+</section>
+<?php
+    page_end();
+}
+
+function next_cases(?array $u, string $except = ''): void {
+    $s = suggestions($u, 3, $except);
+    if (!$s) { echo '<p class="flash">You have solved every case so far – new mysteries are on the way.</p>'; return; }
+    echo '<h2>Your next case</h2><div class="grid">';
+    foreach ($s as $m) echo mystery_card($m);
+    echo '</div>';
+}
+
+function me(): void {
+    $u = current_user();
+    if (!$u) redirect('/login?next=/me');
+    $prog = user_progress((int)$u['id']);
+    $solved = count(array_filter($prog, fn($p) => isset($p['solved_at']) && empty($p['gave_up'])));
+    page_start(['title' => 'My cases', 'noindex' => true, 'path' => '/me']);
+    ?>
+<section class="wrap case">
+  <h1>Detective <?= e($u['name'] ?: $u['email']) ?></h1>
+  <p class="lead"><?= $solved ?> of <?= count(mysteries()) ?> cases solved.</p>
+  <div class="progress" role="img" aria-label="<?= $solved ?> of <?= count(mysteries()) ?> solved"><span style="width: <?= round($solved / max(1, count(mysteries())) * 100) ?>%"></span></div>
+  <?php next_cases($u); ?>
+  <h2>All cases</h2>
+  <div class="grid"><?php foreach (mysteries() as $m) echo mystery_card($m, $prog); ?></div>
+  <h2>Account</h2>
+  <p>Signed in as <?= e($u['email']) ?>. New-mystery emails: <b><?= (int)$u['newsletter'] ? 'on' : 'off' ?></b>.</p>
+  <form method="post" action="/logout"><?= csrf_field() ?><button class="btn btn-ghost">Sign out</button></form>
+</section>
+<?php
+    page_end();
+}
+
+function admin(): void {
+    if (!is_admin()) { not_found(); return; }
+    $pdo = db();
+    $users = (int)$pdo->query('SELECT COUNT(*) FROM users')->fetchColumn();
+    $subs = (int)$pdo->query('SELECT COUNT(*) FROM users WHERE newsletter = 1')->fetchColumn();
+    $week = $pdo->prepare('SELECT COUNT(*) FROM users WHERE created_at >= ?');
+    $week->execute([gmdate('Y-m-d H:i:s', time() - 7 * 86400)]);
+    $rows = $pdo->query('SELECT slug, COUNT(*) total, SUM(CASE WHEN gave_up = 0 THEN 1 ELSE 0 END) solved, AVG(attempts) avg_attempts FROM solves GROUP BY slug')->fetchAll();
+    $by = []; foreach ($rows as $r) $by[$r['slug']] = $r;
+    $att = []; foreach ($pdo->query('SELECT slug, COUNT(DISTINCT user_id) players FROM attempts GROUP BY slug')->fetchAll() as $r) $att[$r['slug']] = $r['players'];
+    $src = $pdo->query("SELECT source, COUNT(*) n FROM users GROUP BY source ORDER BY n DESC")->fetchAll();
+    page_start(['title' => 'Admin', 'noindex' => true, 'path' => '/admin']);
+    ?>
+<section class="wrap case">
+  <h1>Admin</h1>
+  <div class="stats">
+    <div><b><?= $users ?></b><span>signed-up players</span></div>
+    <div><b><?= $subs ?></b><span>newsletter subscribers</span></div>
+    <div><b><?= (int)$week->fetchColumn() ?></b><span>new players last 7 days</span></div>
+  </div>
+  <p><a class="btn" href="/admin/subscribers.csv">Download subscribers (CSV)</a></p>
+  <h2>Mysteries</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Mystery</th><th>Level</th><th class="num">Players</th><th class="num">Solved</th><th class="num">Revealed</th><th class="num">Avg. tries</th></tr></thead>
+    <tbody>
+    <?php foreach (mysteries() as $m): $r = $by[$m['slug']] ?? null; ?>
+      <tr><td><?= e($m['title']) ?></td><td><?= $m['level'] ?></td><td class="num"><?= (int)($att[$m['slug']] ?? 0) ?></td>
+      <td class="num"><?= (int)($r['solved'] ?? 0) ?></td><td class="num"><?= (int)($r ? $r['total'] - $r['solved'] : 0) ?></td>
+      <td class="num"><?= $r ? number_format((float)$r['avg_attempts'], 1) : '–' ?></td></tr>
+    <?php endforeach; ?>
+    </tbody></table></div>
+  <h2>Where players came from</h2>
+  <ul><?php foreach ($src as $s) echo '<li>' . e($s['source'] ?: 'direct / search') . ': ' . (int)$s['n'] . '</li>'; ?></ul>
+</section>
+<?php
+    page_end();
+}
+
+function admin_csv(): void {
+    if (!is_admin()) { not_found(); return; }
+    header('Content-Type: text/csv; charset=utf-8');
+    header('Content-Disposition: attachment; filename="subscribers-' . gmdate('Y-m-d') . '.csv"');
+    $out = fopen('php://output', 'w');
+    fputcsv($out, ['email', 'name', 'subscribed_at_utc', 'signed_up_utc', 'source']);
+    foreach (db()->query('SELECT email, name, newsletter_at, created_at, source FROM users WHERE newsletter = 1 ORDER BY newsletter_at') as $r) fputcsv($out, array_values($r));
+    fclose($out);
+}
+
+function privacy(): void {
+    page_start(['title' => 'Privacy & cookies', 'path' => '/privacy']);
+    $c = e(cfg('company_name')); $mail = e(cfg('contact_email'));
+    ?>
+<section class="wrap narrow prose">
+  <h1>Privacy &amp; cookies</h1>
+  <p><?= e(cfg('site_name')) ?> is run by <?= $c ?>. Contact: <a href="mailto:<?= $mail ?>"><?= $mail ?></a>.</p>
+  <h2>What we collect</h2>
+  <p>When you sign in with Google we receive your name, email address and profile picture. We store which mysteries you have answered, your guesses and when you solved them, so we can show your progress.</p>
+  <h2>Emails about new mysteries</h2>
+  <p>We only email you about new mysteries if you tick the box to say yes. You can say no at any time by clicking the unsubscribe link in an email or by writing to us.</p>
+  <h2>Cookies</h2>
+  <p>We use one necessary session cookie to keep you signed in. With your permission we also use Google Analytics cookies to count visits and see which mysteries are popular. You can change your choice under “Cookie settings” at the bottom of every page.</p>
+  <h2>Who processes your data</h2>
+  <p>Our website and database are hosted by Simply.com in the EU. Sign-in is provided by Google. Analytics (only with consent) is provided by Google.</p>
+  <h2>Your rights</h2>
+  <p>You can ask to see, correct or delete your data at any time by emailing <a href="mailto:<?= $mail ?>"><?= $mail ?></a>. You can also complain to your national data protection authority.</p>
+</section>
+<?php
+    page_end();
+}
+
+function sitemap(): void {
+    header('Content-Type: application/xml; charset=utf-8');
+    echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n" . '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+    $urls = ['/', '/privacy'];
+    foreach (mysteries() as $m) { $urls[] = '/mysteries/' . $m['slug']; $urls[] = '/mysteries/' . $m['slug'] . '/play'; }
+    foreach ($urls as $u) echo '  <url><loc>' . e(url($u)) . '</loc></url>' . "\n";
+    echo '</urlset>';
+}
+
+function robots(): void {
+    header('Content-Type: text/plain; charset=utf-8');
+    echo "User-agent: *\nDisallow: /answer/\nDisallow: /me\nDisallow: /admin\nDisallow: /login\nDisallow: /auth/\nDisallow: /*/print$\n\nSitemap: " . url('/sitemap.xml') . "\n";
+}
