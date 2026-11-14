@@ -29,7 +29,7 @@ function page_start(array $meta): void {
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/special-elite-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
 <?php foreach ((array)($meta['jsonld'] ?? []) as $ld): ?>
 <script type="application/ld+json"><?= json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?></script>
 <?php endforeach; ?>
@@ -49,6 +49,7 @@ window.GA4_ID = <?= json_encode($ga) ?>;
     <a class="logo" href="/"><span class="logo-mark" aria-hidden="true">6</span> <?= e($site) ?></a>
     <nav aria-label="Main">
       <a href="/#mysteries">Mysteries</a>
+      <a href="/rankings">Rankings</a>
       <a href="/#how">How it works</a>
       <?php if ($user): ?>
         <a href="/me">My cases</a>
@@ -84,7 +85,7 @@ function page_end(): void {
 </div>
 <?php endif; ?>
 <?php if ($ev): ?><span hidden data-ga-event="<?= e($ev) ?>"></span><?php endif; ?>
-<script src="/assets/js/app.js?v=2" defer></script>
+<script src="/assets/js/app.js?v=3" defer></script>
 </body>
 </html>
 <?php
@@ -96,10 +97,18 @@ function badge_row(array $m): string {
 
 function mystery_card(array $m, array $prog = []): string {
     $p = $prog[$m['slug']] ?? null;
-    $status = '';
-    if ($p && isset($p['solved_at'])) $status = !empty($p['gave_up']) ? '<span class="status">Solution revealed</span>' : '<span class="status solved">Solved</span>';
-    elseif ($p) $status = '<span class="status open">In progress</span>';
-    return '<article class="card"><div class="card-top">' . badge_row($m) . $status . '</div>'
+    $st = mystery_stats()[$m['slug']] ?? null;
+    $show = $st && $st['players'] >= STATS_MIN_PLAYERS;
+    $status = ''; $state = 'new';
+    if ($p && isset($p['solved_at'])) { $status = !empty($p['gave_up']) ? '<span class="status">Solution revealed</span>' : '<span class="status solved">Solved</span>'; $state = 'done'; }
+    elseif ($p) { $status = '<span class="status open">In progress</span>'; $state = 'open'; }
+    $meta = '';
+    if ($show) $meta = '<p class="card-stats">' . (int)$st['rate'] . '% solved · ' . (int)$st['players'] . ' players'
+        . ($st['ratings'] >= 3 ? ' · ★ ' . number_format((float)$st['stars'], 1) : '') . '</p>';
+    $data = ' data-level="' . (int)$m['level'] . '" data-crime="' . e(strtolower($m['crime'])) . '" data-state="' . $state . '"'
+        . ' data-added="' . e($m['added'] ?? '') . '" data-players="' . ($st['players'] ?? 0) . '"'
+        . ' data-rate="' . ($show ? (int)$st['rate'] : -1) . '" data-stars="' . ($st && $st['ratings'] >= 3 ? $st['stars'] : 0) . '"';
+    return '<article class="card"' . $data . '><div class="card-top">' . badge_row($m) . $status . '</div>'
         . '<h3><a href="/mysteries/' . e($m['slug']) . '">' . e($m['title']) . '</a></h3>'
-        . '<p>' . e($m['teaser']) . '</p></article>';
+        . '<p>' . e($m['teaser']) . '</p>' . $meta . '</article>';
 }

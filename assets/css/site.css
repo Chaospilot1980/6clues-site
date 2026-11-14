@@ -166,3 +166,27 @@ th{background:var(--ink);color:var(--paper);font-size:14px}
 .star-pick input:checked~label,.star-pick label:hover,.star-pick label:hover~label{color:var(--red)}
 .star-pick input:focus-visible+label{outline:2px solid var(--ink)}
 @media (max-width:900px){.reviews{grid-template-columns:1fr}}
+.filters{display:flex;flex-direction:column;gap:12px;margin:0 0 24px;padding:16px 18px;background:var(--card);border:1.5px solid var(--ink)}
+.filters fieldset{border:0;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.filters legend{float:left;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.06em;margin-right:8px;min-width:90px}
+.filters fieldset label{position:relative;cursor:pointer}
+.filters fieldset input{position:absolute;opacity:0;pointer-events:none}
+.filters fieldset label{display:inline-block;padding:6px 12px;border:1.5px solid var(--ink);font-size:15px;background:var(--paper);user-select:none}
+.filters fieldset label small{color:var(--muted)}
+.filters fieldset label:has(input:checked){background:var(--ink);color:var(--paper)}
+.filters fieldset label:has(input:checked) small{color:#C9C0B1}
+.filters fieldset label:has(input:focus-visible){outline:2px solid var(--red);outline-offset:2px}
+.filter-row{display:flex;flex-wrap:wrap;gap:18px;align-items:center}
+.filters .sort{font-weight:700;font-size:15px;display:flex;gap:8px;align-items:center}
+.filters select{font:inherit;padding:6px 10px;border:1.5px solid var(--ink);background:var(--paper)}
+.count{font-family:var(--type);font-size:.6em;color:var(--red);vertical-align:middle}
+.card[hidden]{display:none}
+.card-stats{font-size:14px!important;color:var(--muted)!important;margin-top:auto!important;padding-top:6px}
+.empty{font-style:italic}
+.rank-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.rank-box{background:var(--card);border:1.5px solid var(--ink);padding:16px 20px}
+.rank-box h3{margin:0 0 8px}.rank-box li{margin:6px 0}.rank-box li span{color:var(--muted);font-size:14px}
+.inline-form{display:flex;flex-wrap:wrap;gap:10px;align-items:end;margin:16px 0}
+.inline-form label{display:flex;flex-direction:column;font-weight:600;gap:4px}
+.inline-form input{font:inherit;padding:8px;border:1.5px solid var(--ink)}
+@media (max-width:900px){.rank-grid{grid-template-columns:1fr}}

@@ -23,6 +23,8 @@ $routes = [
     '#^/auth/verify$#'                        => 'auth_verify',
     '#^/logout$#'                             => 'logout',
     '#^/me$#'                                 => 'me',
+    '#^/rankings$#'                           => 'rankings',
+    '#^/me/leaderboard$#'                     => 'leaderboard_optin',
     '#^/admin$#'                              => 'admin',
     '#^/admin/subscribers\.csv$#'             => 'admin_csv',
     '#^/admin/newsletter$#'                   => 'admin_newsletter',
@@ -91,13 +93,13 @@ function home(): void {
 </section>
 
 <section id="mysteries" class="wrap">
-  <h2>All mysteries</h2>
-  <?php foreach ([1, 2, 3] as $lvl): ?>
-    <h3 class="level-head">Level <?= $lvl ?> – <?= e(level_name($lvl)) ?></h3>
-    <div class="grid">
-      <?php foreach (mysteries() as $m) if ($m['level'] === $lvl) echo mystery_card($m, $prog); ?>
-    </div>
-  <?php endforeach; ?>
+  <h2>All mysteries <span class="count" data-count><?= count(mysteries()) ?></span></h2>
+  <?php filter_bar((bool)$u); ?>
+  <div class="grid" data-grid>
+    <?php foreach (mysteries() as $m) echo mystery_card($m, $prog); ?>
+  </div>
+  <p class="empty" data-empty hidden>No cases match – try another filter.</p>
+  <p class="small"><a href="/rankings">See the rankings: hardest cases and top detectives →</a></p>
 </section>
 
 <?php $rv = reviews(null, 3, 4); if ($rv): ?>
@@ -428,6 +430,7 @@ function me(): void {
   <h1>Detective <?= e($u['name'] ?: $u['email']) ?></h1>
   <p class="lead"><?= $solved ?> of <?= count(mysteries()) ?> cases solved.</p>
   <div class="progress" role="img" aria-label="<?= $solved ?> of <?= count(mysteries()) ?> solved"><span style="width: <?= round($solved / max(1, count(mysteries())) * 100) ?>%"></span></div>
+  <p><a href="/rankings">See where you rank among other detectives →</a></p>
   <?php next_cases($u); ?>
   <h2>All cases</h2>
   <div class="grid"><?php foreach (mysteries() as $m) echo mystery_card($m, $prog); ?></div>
@@ -495,7 +498,9 @@ function privacy(): void {
   <h1>Privacy &amp; cookies</h1>
   <p><?= e(cfg('site_name')) ?> is run by <?= $c ?>. Contact: <a href="mailto:<?= $mail ?>"><?= $mail ?></a>.</p>
   <h2>What we collect</h2>
-  <p>When you sign in with Google we receive your name, email address and profile picture. When you sign in with email we store the name and email address you enter. We store which mysteries you have answered, your guesses and when you solved them, so we can show your progress.</p>
+  <p>When you sign in with Google we receive your name, email address and profile picture. When you sign in with email we store the name and email address you enter. We store which mysteries you have answered, your guesses and when you solved them, so we can show your progress. Statistics such as how many players solved a case are only shown as totals.</p>
+  <h2>Ratings and the leaderboard</h2>
+  <p>If you rate a case, we show your stars and comment with your first name, or as “A detective” if you choose that. The leaderboard only shows players who join it, under the detective name they choose. You can leave the board at any time on the Rankings page.</p>
   <h2>Emails about new mysteries</h2>
   <p>We only email you about new mysteries if you tick the box to say yes. You can say no at any time by clicking the unsubscribe link in an email or by writing to us.</p>
   <h2>Cookies</h2>
@@ -512,7 +517,7 @@ function privacy(): void {
 function sitemap(): void {
     header('Content-Type: application/xml; charset=utf-8');
     echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n" . '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
-    $urls = ['/', '/privacy'];
+    $urls = ['/', '/rankings', '/privacy'];
     foreach (mysteries() as $m) { $urls[] = '/mysteries/' . $m['slug']; $urls[] = '/mysteries/' . $m['slug'] . '/play'; }
     foreach ($urls as $u) echo '  <url><loc>' . e(url($u)) . '</loc></url>' . "\n";
     echo '</urlset>';
@@ -703,4 +708,104 @@ function admin_reviews(): void {
     foreach ($avg as $a) echo '<li>' . e($a['slug']) . ': ' . number_format((float)$a['a'], 1) . ' ★ (' . (int)$a['n'] . ')</li>';
     echo '</ul></section>';
     page_end();
+}
+
+function filter_bar(bool $signedIn): void {
+    $crimes = [];
+    foreach (mysteries() as $m) { $c = strtolower($m['crime']); $crimes[$c] = ($crimes[$c] ?? 0) + 1; }
+    ksort($crimes);
+    ?>
+<form class="filters" data-filters onsubmit="return false" aria-label="Filter mysteries">
+  <fieldset><legend>Difficulty</legend>
+    <label><input type="radio" name="level" value="" checked> All</label>
+    <?php foreach ([1, 2, 3] as $l): ?><label><input type="radio" name="level" value="<?= $l ?>"> <?= $l ?> · <?= e(level_name($l)) ?></label><?php endforeach; ?>
+  </fieldset>
+  <fieldset><legend>Crime</legend>
+    <label><input type="radio" name="crime" value="" checked> All</label>
+    <?php foreach ($crimes as $c => $n): ?><label><input type="radio" name="crime" value="<?= e($c) ?>"> <?= e(ucwords($c)) ?> <small><?= $n ?></small></label><?php endforeach; ?>
+  </fieldset>
+  <div class="filter-row">
+    <label class="sort">Sort by
+      <select name="sort">
+        <option value="">Recommended</option>
+        <option value="new">Newest</option>
+        <option value="popular">Most played</option>
+        <option value="easy">Highest solve rate</option>
+        <option value="hard">Lowest solve rate</option>
+        <option value="stars">Best rated</option>
+      </select>
+    </label>
+    <?php if ($signedIn): ?><label class="check"><input type="checkbox" name="hide_done" value="1"> Hide cases I've finished</label><?php endif; ?>
+  </div>
+</form>
+<?php
+}
+
+function rank_list(string $title, array $rows, callable $val): void { ?>
+  <div class="rank-box"><h3><?= e($title) ?></h3><ol>
+  <?php foreach ($rows as $m): ?><li><a href="/mysteries/<?= e($m['slug']) ?>"><?= e($m['title']) ?></a> <span><?= e($val($m)) ?></span></li><?php endforeach; ?>
+  </ol></div>
+<?php }
+
+function rankings(): void {
+    $st = mystery_stats();
+    $ms = array_values(array_filter(mysteries(), fn($m) => ($st[$m['slug']]['players'] ?? 0) >= STATS_MIN_PLAYERS));
+    $by = function (string $k, int $dir) use ($ms, $st): array {
+        usort($ms, fn($x, $y) => $dir * (($st[$x['slug']][$k] ?? 0) <=> ($st[$y['slug']][$k] ?? 0)));
+        return array_slice($ms, 0, 5);
+    };
+    $top = leaderboard(25);
+    $u = current_user();
+    $in = false;
+    if ($u) { $q = db()->prepare('SELECT alias FROM leaderboard WHERE user_id = ?'); $q->execute([$u['id']]); $in = $q->fetchColumn(); }
+    page_start(['title' => 'Rankings – hardest mysteries and top detectives', 'path' => '/rankings',
+        'description' => 'Which free murder mysteries are the hardest to crack, which are most played, and who are the best detectives on Six Clues?']);
+    ?>
+<section class="wrap case">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Mysteries</a> › Rankings</nav>
+  <h1>Rankings</h1>
+  <h2>The cases</h2>
+  <?php if (count($ms) < 3): ?>
+    <p>Not enough detectives have played yet to rank the cases. Each case needs at least <?= STATS_MIN_PLAYERS ?> players. Solve a few and come back!</p>
+  <?php else: ?>
+  <div class="rank-grid">
+    <?php rank_list('Hardest to crack', $by('rate', 1), fn($m) => $st[$m['slug']]['rate'] . '% solved'); ?>
+    <?php rank_list('Easiest', $by('rate', -1), fn($m) => $st[$m['slug']]['rate'] . '% solved'); ?>
+    <?php rank_list('Most played', $by('players', -1), fn($m) => $st[$m['slug']]['players'] . ' players'); ?>
+  </div>
+  <?php endif; ?>
+  <h2>Top detectives</h2>
+  <p>Points: solving a level 1 case scores 3 points on your first guess, 2 on your second and 1 after that. Level 2 cases are worth double, and level 3 cases triple. Only players who choose to join are shown.</p>
+  <?php if ($top): ?>
+  <div class="table-wrap"><table><thead><tr><th class="num">#</th><th>Detective</th><th class="num">Cases solved</th><th class="num">First-guess solves</th><th class="num">Points</th></tr></thead><tbody>
+  <?php foreach ($top as $n => $r): ?><tr><td class="num"><?= $n + 1 ?></td><td><?= e($r['alias']) ?></td><td class="num"><?= $r['solved'] ?></td><td class="num"><?= $r['first'] ?></td><td class="num"><b><?= $r['points'] ?></b></td></tr><?php endforeach; ?>
+  </tbody></table></div>
+  <?php else: ?><p>No detectives on the board yet – be the first.</p><?php endif; ?>
+  <?php if ($u): ?>
+    <form method="post" action="/me/leaderboard" class="inline-form"><?= csrf_field() ?>
+      <?php if ($in): ?><p>You're on the board as <b><?= e($in) ?></b>.</p><button class="btn btn-ghost" name="do" value="leave">Leave the board</button>
+      <?php else: ?><label>Your detective name <input name="alias" maxlength="30" required value="<?= e(first_name($u['name'] ?: '')) ?>"></label> <button class="btn" name="do" value="join">Join the board</button><?php endif; ?>
+    </form>
+  <?php else: ?><p><a class="btn" href="/login?next=/rankings">Sign in to join the board</a></p><?php endif; ?>
+</section>
+<?php
+    page_end();
+}
+
+function leaderboard_optin(): void {
+    $u = current_user();
+    if (!$u || ($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') redirect('/rankings');
+    csrf_check();
+    if (($_POST['do'] ?? '') === 'leave') {
+        db()->prepare('DELETE FROM leaderboard WHERE user_id = ?')->execute([$u['id']]);
+        flash('You have left the board.');
+    } else {
+        $alias = mb_substr(trim((string)preg_replace('/[^\p{L}\p{N} ._\-]/u', '', (string)($_POST['alias'] ?? ''))), 0, 30);
+        if ($alias === '') { flash('Please choose a detective name.'); redirect('/rankings'); }
+        db()->prepare('DELETE FROM leaderboard WHERE user_id = ?')->execute([$u['id']]);
+        db()->prepare('INSERT INTO leaderboard (user_id, alias, created_at) VALUES (?,?,?)')->execute([$u['id'], $alias, now()]);
+        $_SESSION['ga_event'] = 'leaderboard_join';
+        flash('Welcome to the board, detective ' . $alias . '!');
+    }
+    redirect('/rankings');
 }

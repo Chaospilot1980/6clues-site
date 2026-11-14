@@ -102,6 +102,11 @@ function migrate(PDO $pdo): void {
         created_at DATETIME NOT NULL,
         PRIMARY KEY (user_id, slug)
     )$engine");
+    $pdo->exec("CREATE TABLE IF NOT EXISTS leaderboard (
+        user_id INT NOT NULL PRIMARY KEY,
+        alias VARCHAR(40) NOT NULL,
+        created_at DATETIME NOT NULL
+    )$engine");
     $pdo->exec("CREATE TABLE IF NOT EXISTS solves (
         user_id INT NOT NULL,
         slug VARCHAR(100) NOT NULL,
@@ -260,4 +265,46 @@ function render_reviews(array $rs): string {
             . ($m ? ', on <a href="/mysteries/' . e($m['slug']) . '">' . e($m['title']) . '</a>' : '') . '</figcaption></figure>';
     }
     return $h . '</div>';
+}
+
+/** Per-mystery play statistics: players, solved, solve rate (%), average guesses, average stars. */
+function mystery_stats(): array {
+    static $s = null;
+    if ($s !== null) return $s;
+    $s = [];
+    try {
+        $pdo = db();
+        $players = $pdo->query('SELECT slug, COUNT(DISTINCT user_id) n FROM (SELECT slug, user_id FROM attempts UNION SELECT slug, user_id FROM solves) t GROUP BY slug')->fetchAll();
+        foreach ($players as $r) $s[$r['slug']] = ['players' => (int)$r['n'], 'solved' => 0, 'rate' => null, 'avg_attempts' => null, 'stars' => null, 'ratings' => 0];
+        foreach ($pdo->query('SELECT slug, SUM(CASE WHEN gave_up = 0 THEN 1 ELSE 0 END) solved, AVG(CASE WHEN gave_up = 0 THEN attempts END) a FROM solves GROUP BY slug')->fetchAll() as $r) {
+            if (!isset($s[$r['slug']])) continue;
+            $s[$r['slug']]['solved'] = (int)$r['solved'];
+            $s[$r['slug']]['avg_attempts'] = $r['a'] !== null ? round((float)$r['a'], 1) : null;
+        }
+        foreach ($pdo->query('SELECT slug, AVG(stars) a, COUNT(*) n FROM reviews GROUP BY slug')->fetchAll() as $r) {
+            if (!isset($s[$r['slug']])) continue;
+            $s[$r['slug']]['stars'] = round((float)$r['a'], 1);
+            $s[$r['slug']]['ratings'] = (int)$r['n'];
+        }
+        foreach ($s as $k => $v) $s[$k]['rate'] = $v['players'] ? (int)round($v['solved'] / $v['players'] * 100) : null;
+    } catch (Throwable $e) { $s = []; }
+    return $s;
+}
+const STATS_MIN_PLAYERS = 5;   // below this a mystery's numbers are not shown publicly
+
+/** Opt-in detective leaderboard. Points: level × 3 for a first-guess solve, × 2 on the second guess, × 1 after that. */
+function leaderboard(int $limit = 50): array {
+    $lv = []; foreach (mysteries() as $m) $lv[$m['slug']] = (int)$m['level'];
+    $rows = db()->query('SELECT l.user_id, l.alias, s.slug, s.attempts FROM leaderboard l JOIN solves s ON s.user_id = l.user_id AND s.gave_up = 0')->fetchAll();
+    $out = [];
+    foreach ($rows as $r) {
+        $k = (int)$r['user_id'];
+        $out[$k] ??= ['alias' => $r['alias'], 'solved' => 0, 'points' => 0, 'first' => 0];
+        $a = (int)$r['attempts'];
+        $out[$k]['solved']++;
+        $out[$k]['points'] += ($lv[$r['slug']] ?? 1) * ($a <= 1 ? 3 : ($a == 2 ? 2 : 1));
+        if ($a <= 1) $out[$k]['first']++;
+    }
+    usort($out, fn($a, $b) => [$b['points'], $b['solved']] <=> [$a['points'], $a['solved']]);
+    return array_slice($out, 0, $limit);
 }
