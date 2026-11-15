@@ -67,6 +67,26 @@ def spread_culprit(m):
     return out
 
 
+HL_CELL = re.compile(r'(<td style="[^"]*?)font-weight: 700; ([^"]*?)color: #A4161A"')
+
+
+def tune_difficulty(m):
+    """Level 1 keeps its helpful highlighting. Level 2 and 3: no red/bold highlighted table rows.
+    Level 3: no bold emphasis anywhere in statements or evidence – players must find what matters themselves."""
+    if m["level"] < 2:
+        return m
+    clues = []
+    for c in m["clues"]:
+        c = dict(c)
+        ev = HL_CELL.sub(lambda mm: mm.group(1) + "font-weight: 400; " + mm.group(2) + "color: #1E1B18\"", c["evidence"])
+        if m["level"] >= 3:
+            ev = re.sub(r"</?b>", "", ev)
+            c["quote"] = re.sub(r"</?b>", "", c["quote"])
+        c["evidence"] = ev
+        clues.append(c)
+    return dict(m, clues=clues)
+
+
 def validate(ms):
     errors, slugs = [], set()
     for m in ms:
@@ -175,7 +195,7 @@ def export(ms, target):
 
 
 if __name__ == "__main__":
-    ms = [spread_culprit(m) for m in load_all()]
+    ms = [tune_difficulty(spread_culprit(m)) for m in load_all()]
     errs = validate(ms)
     if errs:
         print("NOT EXPORTED – fix these first:")

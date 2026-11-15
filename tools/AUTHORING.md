@@ -22,11 +22,15 @@ On screen the clues are opened in order, and fewer clues = more points (100/85/7
 - **Exactly one culprit.** That person is the only one the evidence can't clear. Every other suspect is cleared by
   something concrete: an alibi backed by evidence, a physical detail, or not having the access needed.
 - **The culprit lies.** Their own statement must contradict at least one piece of evidence.
-- **Level 1:** 2–3 direct links (e.g. a key log, a lie that the evidence exposes, a motive). It can be solved in 30 minutes.
-- **Level 2:** one trick that has to be worked out, such as a wrong clock, a time zone, the tide, snow that
-  stopped, or a changed programme. A false lead should point at an innocent suspect.
-- **Level 3:** layered. Use a framed or planted clue, innocent people lying for other reasons, or a hidden
-  beneficiary. Solving it needs 4 or more clues combined.
+- **Level 1 – Rookie (5–10 min):** 2–3 direct links. The culprit's lie is exposed by one piece of evidence. Highlighting a key row is allowed.
+- **Level 2 – Detective (10–20 min):** at least one trick that must be worked out (wrong clock, time zone, tide, a changed programme, a weight, a route that takes longer than claimed). At least one false lead that points at an innocent suspect. No highlighted rows (`highlight=` is ignored for level 2+). The proof needs at least 3 clues.
+- **Level 3 – Mastermind (20–40 min):** real head-scratching. Rules:
+  - The proof needs **at least 4 clues combined**; no single poster points at the culprit.
+  - The culprit's lie is **never contradicted directly** – the contradiction only appears when two or more documents are combined (time arithmetic, a route, an object that couldn't be where it was, two logs in different time formats).
+  - **At least two strong red herrings**: an innocent suspect with motive and a suspicious detail, and an innocent who lies about something else (embarrassing but harmless).
+  - **No nudges**: no notes, sticky notes, captions or “NB” lines that state or hint at the conclusion (“The phone was not hers”, “He shared a toast with someone he knew”). Notes may only state neutral facts.
+  - **No emphasis**: don't use `<b>` or `highlight=` – export strips them anyway. Put the decisive fact in an ordinary row among 4–6 ordinary rows, so it must be found.
+  - Plausible noise: tables and logs contain several rows that don't matter.
 - Times are written 24h (`21:43`). Every time must be consistent across all six posters, so check them all.
 - The solution's `proof` and `cleared` lists name the clue numbers that prove each point.
 - Family-friendly: no gore, no sexual content, no real people or brands. Keep "flasher" or prowler cases tame.
