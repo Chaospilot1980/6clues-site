@@ -50,6 +50,7 @@ window.GA4_ID = <?= json_encode($ga) ?>;
     <nav aria-label="Main">
       <a href="/#mysteries">Mysteries</a>
       <a href="/game-night">Game Night</a>
+      <a href="/escape">Escape rooms</a>
       <a href="/rankings">Rankings</a>
       <a href="/#how">How it works</a>
       <?php if ($user): ?>

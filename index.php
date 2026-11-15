@@ -3,6 +3,7 @@ declare(strict_types=1);
 require __DIR__ . '/app/bootstrap.php';
 require __DIR__ . '/app/game.php';
 require __DIR__ . '/app/gamenight.php';
+require __DIR__ . '/app/escape.php';
 require __DIR__ . '/app/views/layout.php';
 
 $path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
@@ -18,6 +19,9 @@ $routes = [
     '#^/mysteries/([a-z0-9\-]+)/play$#'       => 'play',
     '#^/daily$#'                              => 'daily_redirect',
     '#^/game-night$#'                         => 'gn_index',
+    '#^/escape$#'                             => 'escape_index',
+    '#^/escape/([a-z0-9\-]+)$#'               => 'escape_landing',
+    '#^/escape/([a-z0-9\-]+)/play$#'          => 'escape_play',
     '#^/game-night/([a-z0-9\-]+)$#'           => 'gn_landing',
     '#^/game-night/([a-z0-9\-]+)/print$#'     => 'gn_print',
     '#^/game-night/([a-z0-9\-]+)/play$#'      => 'gn_play',
@@ -1524,4 +1528,124 @@ function gn_play(string $slug): void {
 </section>
 <?php
     page_end();
+}
+
+// ===================== ESCAPE ROOMS =====================
+
+function escape_index(): void {
+    page_start(['title' => 'Escape rooms – free online escape games', 'path' => '/escape',
+        'description' => 'Free point-and-click escape rooms in your browser: explore, collect clues, crack the locks and get out before the clock runs out.']);
+    ?>
+<section class="gn-hero">
+  <div class="wrap">
+    <p class="kicker">Escape rooms · free · new</p>
+    <h1>Sixty minutes. Three rooms. Can you get out?</h1>
+    <p class="lead">Point-and-click escape rooms you play in the browser, alone or together around one screen. Search the rooms, combine what you find, crack the locks – and beat the clock.</p>
+  </div>
+</section>
+<section class="wrap">
+  <div class="grid">
+  <?php foreach (ESCAPE_ROOMS as $slug => $r): ?>
+    <article class="card"><div class="card-top"><span class="badge"><?= e($r['status']) ?></span><span class="badge badge-crime">Escape room</span></div>
+      <h3><a href="/escape/<?= e($slug) ?>"><?= e($r['title']) ?></a></h3><p><?= e($r['teaser']) ?></p>
+      <p class="card-stats"><?= $r['minutes'] ?> min · <?= e($r['players']) ?> players · <?= $r['rooms'] ?> rooms · <?= $r['puzzles'] ?> puzzles</p></article>
+  <?php endforeach; ?>
+  </div>
+</section>
+<?php
+    page_end();
+}
+
+function escape_landing(string $slug): void {
+    $r = escape_room($slug);
+    if (!$r) { not_found(); return; }
+    $u = current_user();
+    $run = $u ? escape_run((int)$u['id'], $slug) : null;
+    $board = escape_board($slug);
+    page_start(['title' => $r['title'] . ' – free online escape room', 'path' => '/escape/' . $slug, 'description' => $r['teaser']]);
+    ?>
+<section class="gn-hero">
+  <div class="wrap">
+    <nav class="crumbs crumbs-light"><a href="/escape">Escape rooms</a> › <?= e($r['title']) ?></nav>
+    <h1><?= e($r['title']) ?></h1>
+    <p class="gn-tagline"><?= e($r['tagline']) ?></p>
+    <ul class="gn-facts"><li>⏱ <?= $r['minutes'] ?> minutes</li><li>👥 <?= e($r['players']) ?> players</li><li>🚪 <?= $r['rooms'] ?> rooms</li><li>🔒 <?= $r['puzzles'] ?> puzzles</li></ul>
+    <p class="cta-row">
+      <?php if (!$u): ?><a class="btn btn-big" href="/login?next=/escape/<?= e($slug) ?>/play">Sign in to play – it's free</a>
+      <?php else: ?><a class="btn btn-big" href="/escape/<?= e($slug) ?>/play"><?= $run && !$run['finished_at'] ? 'Continue your escape' : 'Start the escape' ?></a><?php endif; ?>
+    </p>
+    <p class="small" style="color:#E6D6A8">Prototype: the pictures are placeholders while the real illustrations are being made.</p>
+  </div>
+</section>
+<section class="wrap narrow case">
+  <h2>The story</h2>
+  <p><?= e($r['teaser']) ?> The landlord lets you into the attic workshop, smirks, and locks the door behind you: “One hour. Then the bailiff seals it all.”</p>
+  <h2>How to play</h2>
+  <ul>
+    <li>Click things in the room to look closer. Pick up what you find – it goes into your inventory at the bottom.</li>
+    <li>To use an item, tap it in the inventory and then tap where to use it. Tap one item and then another to combine them.</li>
+    <li>Everything you read is saved in your notebook. Stuck? A hint costs 3 minutes, the answer 5.</li>
+    <li>Need a break? Press pause – the screen goes dark and the clock stops.</li>
+  </ul>
+  <h2>Fastest escapes</h2>
+  <?php if ($board): ?>
+  <div class="table-wrap"><table><thead><tr><th class="num">#</th><th>Detective</th><th class="num">Time</th></tr></thead><tbody>
+  <?php foreach ($board as $n => $b): ?><tr><td class="num"><?= $n + 1 ?></td><td><?= e($b['alias'] ?: (first_name((string)$b['name']) ?: 'A detective')) ?></td><td class="num"><?= escape_clock((int)$b['t']) ?></td></tr><?php endforeach; ?>
+  </tbody></table></div>
+  <?php else: ?><p>Nobody has escaped yet. Will you be the first?</p><?php endif; ?>
+</section>
+<?php
+    page_end();
+}
+
+function escape_play(string $slug): void {
+    $r = escape_room($slug);
+    if (!$r) { not_found(); return; }
+    $u = current_user();
+    if (!$u) redirect('/login?next=/escape/' . $slug . '/play');
+    $uid = (int)$u['id'];
+    $pdo = db();
+    if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
+        header('Content-Type: application/json');
+        $in = json_decode((string)file_get_contents('php://input'), true) ?: [];
+        if (!hash_equals((string)($_SESSION['csrf'] ?? ''), (string)($in['csrf'] ?? ''))) { http_response_code(403); echo '{"ok":false}'; return; }
+        $run = escape_run($uid, $slug);
+        $do = (string)($in['do'] ?? '');
+        if ($do === 'restart') {
+            if ($run) $pdo->prepare('UPDATE escape_runs SET active = 0 WHERE id = ?')->execute([$run['id']]);
+            $run = null;
+        }
+        if (!$run && in_array($do, ['save', 'restart', 'finish'], true)) {
+            $pdo->prepare('INSERT INTO escape_runs (user_id, slug, state, started_at, updated_at) VALUES (?,?,?,?,?)')->execute([$uid, $slug, '{}', now(), now()]);
+            $run = escape_run($uid, $slug);
+        }
+        $state = json_encode($in['state'] ?? new stdClass());
+        if (strlen($state) > 60000) { http_response_code(413); echo '{"ok":false}'; return; }
+        if ($do === 'save' || $do === 'finish') $pdo->prepare('UPDATE escape_runs SET state = ?, updated_at = ? WHERE id = ?')->execute([$state, now(), $run['id']]);
+        if ($do === 'finish' && !$run['finished_at']) {
+            $t = (int)($in['time_ms'] ?? 0);
+            $real = (time() - strtotime($run['started_at'] . ' UTC')) * 1000;
+            // A finish counts only if the clock time is plausible: at least 3 minutes and not less than wall time allows.
+            $ok = $t >= 180000 && $t <= $real + 600000 && empty($in['overtime']);
+            $pdo->prepare('UPDATE escape_runs SET finished_at = ?, time_ms = ?, hints = ? WHERE id = ?')->execute([now(), $ok ? $t : null, (int)($in['hints'] ?? 0), $run['id']]);
+            log_event('escape_finished', $slug);
+        }
+        echo json_encode(['ok' => true]);
+        return;
+    }
+    $run = escape_run($uid, $slug);
+    $state = $run ? (json_decode($run['state'], true) ?: new stdClass()) : new stdClass();
+    if ($run && $run['finished_at']) $state = new stdClass();   // finished: a new run starts fresh
+    if ($run && $run['finished_at']) { $pdo->prepare('UPDATE escape_runs SET active = 0 WHERE id = ?')->execute([$run['id']]); }
+    ?><!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title><?= e($r['title']) ?> – Six Clues escape room</title><meta name="robots" content="noindex">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/escape.css?v=1">
+</head><body>
+<div id="escape" data-slug="<?= e($slug) ?>" data-csrf="<?= e(csrf_token()) ?>" data-name="<?= e(first_name((string)$u['name'])) ?>"></div>
+<script>window.ESCAPE_STATE = <?= json_encode($state, JSON_HEX_TAG | JSON_HEX_AMP) ?>;</script>
+<script src="/assets/js/escape-<?= e($slug) ?>.js?v=1"></script>
+</body></html>
+<?php
 }
