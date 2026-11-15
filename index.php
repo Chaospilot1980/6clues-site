@@ -1646,7 +1646,7 @@ function escape_play(string $slug): void {
 </head><body>
 <div id="escape" data-slug="<?= e($slug) ?>" data-csrf="<?= e(csrf_token()) ?>" data-name="<?= e(first_name((string)$u['name'])) ?>"></div>
 <script>window.ESCAPE_STATE = <?= json_encode($state, JSON_HEX_TAG | JSON_HEX_AMP) ?>;</script>
-<script src="/assets/js/escape-<?= e($slug) ?>.js?v=1"></script>
+<script src="/assets/js/escape-<?= e($slug) ?>.js?v=2"></script>
 </body></html>
 <?php
 }

@@ -33,10 +33,11 @@ const note = (id, text) => { if (!S.notes.find(n => n.id === id)) { S.notes.push
 const clock = (cx, cy, r, h, m, rim, face = '#efe3c4') => {
   const ha = ((h % 12) + m / 60) * 30 - 90, ma = m * 6 - 90, rad = a => a * Math.PI / 180;
   let ticks = '';
-  for (let i = 0; i < 12; i++) { const a = rad(i * 30); ticks += `<line x1="${cx + Math.cos(a) * r * .78}" y1="${cy + Math.sin(a) * r * .78}" x2="${cx + Math.cos(a) * r * .9}" y2="${cy + Math.sin(a) * r * .9}" stroke="#3a2a1a" stroke-width="${i % 3 ? 2 : 4}"/>`; }
+  for (let i = 0; i < 12; i++) { const a = rad(i * 30); ticks += `<line x1="${cx + Math.cos(a) * r * .8}" y1="${cy + Math.sin(a) * r * .8}" x2="${cx + Math.cos(a) * r * .9}" y2="${cy + Math.sin(a) * r * .9}" stroke="#3a2a1a" stroke-width="${i % 3 ? 2 : 4}"/>`; }
+  for (let n = 1; n <= 12; n++) { const a = rad(n * 30 - 90); ticks += `<text x="${cx + Math.cos(a) * r * .64}" y="${cy + Math.sin(a) * r * .64 + r * .07}" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="${r * .2}" fill="#2a1c10">${n}</text>`; }
   return `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${rim}"/><circle cx="${cx}" cy="${cy}" r="${r * .86}" fill="${face}"/>${ticks}
-   <line x1="${cx}" y1="${cy}" x2="${cx + Math.cos(rad(ha)) * r * .45}" y2="${cy + Math.sin(rad(ha)) * r * .45}" stroke="#1d140c" stroke-width="${r * .09}" stroke-linecap="round"/>
-   <line x1="${cx}" y1="${cy}" x2="${cx + Math.cos(rad(ma)) * r * .72}" y2="${cy + Math.sin(rad(ma)) * r * .72}" stroke="#1d140c" stroke-width="${r * .05}" stroke-linecap="round"/>
+   <line x1="${cx}" y1="${cy}" x2="${cx + Math.cos(rad(ma)) * r * .76}" y2="${cy + Math.sin(rad(ma)) * r * .76}" stroke="#7a6a58" stroke-width="${r * .03}" stroke-linecap="round"/>
+   <line x1="${cx}" y1="${cy}" x2="${cx + Math.cos(rad(ha)) * r * .4}" y2="${cy + Math.sin(rad(ha)) * r * .4}" stroke="#1d140c" stroke-width="${r * .12}" stroke-linecap="round"/>
    <circle cx="${cx}" cy="${cy}" r="${r * .06}" fill="#1d140c"/>`;
 };
 const label = (x, y, t) => `<text x="${x}" y="${y}" class="lbl" text-anchor="middle">${t}</text>`;
@@ -55,7 +56,7 @@ const ROOMS = {
       <ellipse cx="800" cy="0" rx="500" ry="380" fill="url(#lamp)"/>`,
     spots: [
       { id: 'clockwall', x: 60, y: 60, w: 470, h: 330, art: () => `<rect x="70" y="70" width="450" height="310" fill="#3b2a1d" rx="8"/>
-          ${clock(150, 160, 62, 7, 15, '#a3322b')}${clock(300, 160, 62, 1, 50, '#2e5a9a')}${clock(450, 160, 62, 9, 5, '#3f7a3a')}${clock(225, 300, 62, 3, 40, '#c8a02a')}${clock(375, 300, 62, 12, 0, '#6b5a48')}${label(295, 400, 'Clock wall')}`, act: () => openClockWall() },
+          ${clock(150, 160, 62, 7, 5, '#a3322b')}${clock(300, 160, 62, 1, 10, '#2e5a9a')}${clock(450, 160, 62, 9, 15, '#3f7a3a')}${clock(225, 300, 62, 3, 20, '#c8a02a')}${clock(375, 300, 62, 12, 0, '#6b5a48')}${label(295, 400, 'Clock wall')}`, act: () => openClockWall() },
       { id: 'cuckoo', x: 860, y: 60, w: 210, h: 330, art: () => `<path d="M880 150 L965 80 L1050 150 Z" fill="#5a3a22"/><rect x="895" y="150" width="140" height="170" fill="#6b4528"/>${clock(965, 225, 48, 11, 55, '#8a6a3a')}
           <rect x="945" y="160" width="40" height="22" fill="#1d140c"/>${F.cuckooOpen ? '<rect x="900" y="300" width="130" height="16" fill="#140d08"/>' : ''}<line x1="940" y1="320" x2="940" y2="380" stroke="#8a7a5a" stroke-width="3"/><line x1="990" y1="320" x2="990" y2="370" stroke="#8a7a5a" stroke-width="3"/><path d="M932 380 l8 -10 l8 10 z M982 370 l8 -10 l8 10z" fill="#8a6a3a"/>${label(965, 70, 'Cuckoo clock')}`,
         act: () => F.cuckooOpen ? say('The back panel hangs open. Nothing more inside.') : say('Four tiny screws hold the back panel. Something rattles inside when you tilt it.'),
@@ -178,9 +179,9 @@ function wheels(n, onTry, startVals) {
 }
 function openClockWall() {
   note('rainbow', 'Note pinned under the clocks: “The hours count, the minutes don’t. Read them as the rainbow does.”');
-  note('clocks', 'Clock wall: red 7:15 · blue 1:50 · green 9:05 · yellow 3:40 · plain 12:00');
-  modal(`<h2>The clock wall</h2><svg viewBox="0 0 900 420" class="close">${clock(130, 140, 95, 7, 15, '#a3322b')}${clock(450, 140, 95, 1, 50, '#2e5a9a')}${clock(770, 140, 95, 9, 5, '#3f7a3a')}${clock(290, 320, 85, 3, 40, '#c8a02a')}${clock(610, 320, 85, 12, 0, '#6b5a48')}</svg>
-    <p class="paper">The hours count, the minutes don’t.<br>Read them as the rainbow does.<br><i>– E.B.</i></p><p class="small">Five clocks, all stopped. Red, blue, green, yellow – and one plain clock showing twelve.</p>`);
+  note('clocks', 'Clock wall (left to right, top to bottom): red rim 7:05 · blue rim 1:10 · green rim 9:15 · yellow rim 3:20 · plain clock 12:00');
+  modal(`<h2>The clock wall</h2><svg viewBox="0 0 900 420" class="close">${clock(130, 140, 95, 7, 5, '#a3322b')}${clock(450, 140, 95, 1, 10, '#2e5a9a')}${clock(770, 140, 95, 9, 15, '#3f7a3a')}${clock(290, 320, 85, 3, 20, '#c8a02a')}${clock(610, 320, 85, 12, 0, '#6b5a48')}</svg>
+    <p class="paper">The hours count, the minutes don’t.<br>Read them as the rainbow does.<br><i>– E.B.</i></p><p class="small">Five stopped clocks hang in a row: red, blue, green and yellow rims – and one plain clock with no colour at all.</p>`);
 }
 function openBench() {
   const plate = F.plateRead ? '<p class="paper">E. BRANDT &amp; SØN · EST. 1847</p>' : '<p>A small brass maker’s plate, engraved in letters far too tiny to read with the naked eye.</p>';
