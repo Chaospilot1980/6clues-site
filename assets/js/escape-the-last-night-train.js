@@ -80,12 +80,14 @@ const ROOMS = {
   },
   engine: {
     name: 'The locomotive cab',
+    overlay: () => { const L = F.levers || [1, 1, 1, 1, 1], K = [1220, 1276, 1332, 1396, 1466];
+      return `<defs><linearGradient id="brass" x1="0" x2="1"><stop offset="0" stop-color="#7a4f17"/><stop offset=".45" stop-color="#f0c66a"/><stop offset="1" stop-color="#8a5a1c"/></linearGradient><radialGradient id="knob" cx=".35" cy=".3"><stop offset="0" stop-color="#ff8a7a"/><stop offset=".35" stop-color="#b3221d"/><stop offset="1" stop-color="#4a0907"/></radialGradient></defs>` + K.map((k, i) => L[i] ? '' : `<image href="${IMG}lever-cover-${i}.png" x="${k - 26}" y="328" width="74" height="124"/><path d="M${k + 8} 470 L${k + 30} 600" stroke="#000" stroke-opacity=".45" stroke-width="16" stroke-linecap="round" transform="translate(6 6)"/><path d="M${k + 8} 470 L${k + 30} 600" stroke="url(#brass)" stroke-width="12" stroke-linecap="round"/><circle cx="${k + 37}" cy="618" r="18" fill="#000" opacity=".4"/><circle cx="${k + 32}" cy="612" r="18" fill="url(#knob)"/>`).join(''); },
     bg: () => `<rect width="1600" height="900" fill="#141414"/><rect x="560" y="300" width="480" height="300" rx="20" fill="#2a1a10"/><ellipse cx="800" cy="470" rx="170" ry="110" fill="#ff7a1a" opacity=".35"/><ellipse cx="800" cy="470" rx="90" ry="60" fill="#ffb347" opacity=".45"/><rect y="660" width="1600" height="240" fill="#0d0d0d"/>${[200, 330, 1270, 1400].map(x => `<circle cx="${x}" cy="200" r="50" fill="#d9cfb2" stroke="#5a5040" stroke-width="10"/><line x1="${x}" y1="200" x2="${x + 30}" y2="175" stroke="#222" stroke-width="5"/>`).join('')}`,
     spots: [
       { id: 'back', x: 20, y: 760, w: 260, h: 110, photo: [60, 395, 265, 370], art: () => `<text x="40" y="830" class="lbl big">← Luggage van</text>`, act: () => go('van') },
       { id: 'slate', x: 120, y: 330, w: 300, h: 230, photo: [175, 95, 175, 265], art: () => `<rect x="130" y="340" width="280" height="190" fill="#2a2d2f" stroke="#6b4a2a" stroke-width="10"/>${[0, 1, 2, 3].map(i => `<line x1="150" y1="${380 + i * 34}" x2="${380 - i * 30}" y2="${380 + i * 34}" stroke="#ddd" stroke-width="3" opacity=".7"/>`).join('')}${label(270, 580, 'Driver’s slate')}`,
         act: () => { note('slate', 'Driver’s chalk slate: “Current to the van: levers UP for every stop we make after midnight. All others DOWN. – K.”'); say('Chalk on the slate: “Current to the van: levers UP for every stop we make after midnight. All others DOWN. – K.”'); } },
-      { id: 'levers', x: 1120, y: 330, w: 400, h: 300, photo: [1190, 330, 340, 240], art: () => `<rect x="1130" y="420" width="380" height="140" fill="#3a3a38"/>${[0, 1, 2, 3, 4].map(i => `<rect x="${1150 + i * 72}" y="${(F.levers || [])[i] ? 340 : 440}" width="16" height="90" fill="#c9a24a"/><circle cx="${1158 + i * 72}" cy="${(F.levers || [])[i] ? 340 : 530}" r="14" fill="#a33"/>`).join('')}${label(1320, 600, F.power ? 'Lever bank (current on)' : 'Lever bank')}`, act: () => openLevers() },
+      { id: 'levers', x: 1120, y: 330, w: 400, h: 300, photo: [1190, 330, 340, 240], art: () => `<rect x="1130" y="420" width="380" height="140" fill="#3a3a38"/>${[0, 1, 2, 3, 4].map(i => `<rect x="${1150 + i * 72}" y="${(F.levers || [1, 1, 1, 1, 1])[i] ? 340 : 440}" width="16" height="90" fill="#c9a24a"/><circle cx="${1158 + i * 72}" cy="${(F.levers || [1, 1, 1, 1, 1])[i] ? 340 : 530}" r="14" fill="#a33"/>`).join('')}${label(1320, 600, F.power ? 'Lever bank (current on)' : 'Lever bank')}`, act: () => openLevers() },
       { id: 'firebox', x: 560, y: 300, w: 480, h: 300, photo: [575, 365, 450, 250], art: () => label(800, 640, 'Firebox'),
         act: () => { note('ash', 'Half-burnt scrap by the firebox: “…Lang… no such man… comp. 1…” – the rest is ash.'); say('A half-burnt scrap of paper lies by the firebox door: “…Lang… no such man… comp. 1…” The rest is ash.'); } },
     ],
@@ -127,7 +129,8 @@ function render() {
   const R = ROOMS[S.room];
   $('room').textContent = R.name;
   const art = imgOk[S.room] ? `<image href="${sceneFile(S.room)}" width="1600" height="900"/>` : R.bg();
-  $('stage').innerHTML = `<defs><radialGradient id="lamp"><stop offset="0" stop-color="#ffcf7a" stop-opacity=".22"/><stop offset="1" stop-color="#ffcf7a" stop-opacity="0"/></radialGradient></defs>${art}` +
+  const over = imgOk[S.room] && ROOMS[S.room].overlay ? ROOMS[S.room].overlay() : '';
+  $('stage').innerHTML = `<defs><radialGradient id="lamp"><stop offset="0" stop-color="#ffcf7a" stop-opacity=".22"/><stop offset="1" stop-color="#ffcf7a" stop-opacity="0"/></radialGradient></defs>${art}${over}` +
     R.spots.map(s => `<g class="hs${imgOk[S.room] ? ' photo' : ''}" data-id="${s.id}" tabindex="0" role="button" aria-label="${s.id}">${imgOk[S.room] ? '': s.art()}${(() => { const [x, y, w, h] = imgOk[S.room] && s.photo ? s.photo : [s.x, s.y, s.w, s.h]; return `<rect class="hit" x="${x}" y="${y}" width="${w}" height="${h}" rx="10"/>`; })()}</g>`).join('');
   $('stage').querySelectorAll('.hs').forEach(g => {
     const fire = () => clickSpot(R.spots.find(s => s.id === g.dataset.id));
@@ -190,7 +193,7 @@ function openLocker() {
 const LEVERS = ['Niš', 'Caribrod', 'Sofia', 'Plovdiv', 'Svilengrad'];
 function openLevers() {
   if (F.power) { modal('<h2>Lever bank</h2><p>The levers are set and the current hums toward the van.</p>'); return; }
-  const v = (F.levers || [0, 0, 0, 0, 0]).slice();
+  const v = (F.levers || [1, 1, 1, 1, 1]).slice();
   modal(`<h2>Lever bank</h2><p>Five brass levers, each with a station plate. A cable runs back toward the van.</p><div class="pegs">${LEVERS.map((n, i) => `<button class="peg" data-l="${i}"><b id="lv${i}"></b>${n}</button>`).join('')}</div><button class="btn" id="throw">Throw the main switch</button><p id="lres" class="res"></p>`, m => {
     const draw = () => v.forEach((x, i) => { m.querySelector('#lv' + i).textContent = x ? '▲ UP' : '▼ DOWN'; });
     m.querySelectorAll('[data-l]').forEach(b => b.addEventListener('click', () => { const i = +b.dataset.l; v[i] = v[i] ? 0 : 1; F.levers = v.slice(); dirty = true; draw(); }));
