@@ -10,6 +10,12 @@ const ESCAPE_ROOMS = [
         'teaser' => 'Copenhagen, New Year’s Eve 1931. A master clockmaker has died, and his will hides his workshop behind ten riddles. You have until the great clock strikes twelve.',
         'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 10, 'status' => 'Prototype',
     ],
+    'the-last-night-train' => [
+        'title' => 'The Last Night Train',
+        'tagline' => 'A courier vanishes on the Orient Express. One hour to the frontier.',
+        'teaser' => 'Simplon-Orient-Express, 1934. The courier you were sent to meet has vanished from compartment 7, leaving a briefcase with three dials. At 06:00 the customs men board. Harder: three trails at once, and decoys along the way.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 9, 'status' => 'Prototype · harder',
+    ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;
 

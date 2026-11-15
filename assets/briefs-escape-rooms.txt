@@ -1,0 +1,22 @@
+# Six Clues – escape room scenes (6 images)
+
+Each image: 1600 × 900 px (16:9), JPG under 600 KB. Painted, cinematic noir illustration, same style as the Six Clues portraits. No people, no readable text, no logos. Objects MUST sit where described (left/centre/right, top/bottom) – players click on those areas. Leave the bottom 25 % of the image as floor, quieter in detail.
+ZIP folders: the-last-night-train/ and the-clockmakers-last-hour/
+
+## the-last-night-train/compartment.jpg
+Art-deco sleeping-car compartment on the Orient Express, 1934, at night, warm lamp light, polished walnut panels. Top-left corner: a small brass door plaque. Left edge: a dark overcoat on a hook. Top centre: a window with snow streaming past, dark hills. Top right: a brass luggage rack with a round red hatbox. Centre-left, lower: a made-up berth in deep red velvet, a paperback lying on it. Centre-right, lower: a leather briefcase with three small brass dials. Far right: the open sliding door to the corridor.
+
+## the-last-night-train/dining.jpg
+Orient Express dining car at night, white tablecloths, art-deco lamps, three windows along the top with snow. Left wall: a framed railway timetable (unreadable). Next to it, left-centre: a framed route poster with a dotted route and town crests. Centre: one laid table with a silver sugar bowl and a red flower. Right-centre: a steward's wooden lectern with a list. Far right top: a conductor's navy jacket on a hook. Far right edge: a narrow door to the next car with a brass combination lock.
+
+## the-last-night-train/van.jpg
+Mail and luggage van of a 1930s train, dim, a single hanging lamp, wooden ribs. Left half: a stack of five suitcases and trunks with paper luggage tags. Centre-right: a small desk with a brass telegraph key and paper tape curling from the receiver. Far right: a heavy grey postal safe. Bottom left: open floor towards the dining car door.
+
+## the-clockmakers-last-hour/workshop.jpg
+Copenhagen clockmaker's attic workshop, New Year's Eve 1931, snow on the window, warm lamp light. Top-left: a wall with five round clocks (red, blue, green, yellow rims and one plain). Top centre: small attic window with moon and snow. Centre-right top: a carved cuckoo clock. Right of it: a dark coat on a hook. Centre-bottom: a long workbench with a drawer (four-number lock), a small brass maker's plate and a letter. Far right: a closed wooden door.
+
+## the-clockmakers-last-hour/study.jpg
+The clockmaker's study: left, a tall bookshelf; left-centre, a globe on a stand; centre, a gramophone with a brass horn on a cabinet; right-centre top, a wall safe; right-centre bottom, a heavy padlocked chest; far right, a narrow door. Green walls, red rug, lamp light.
+
+## the-clockmakers-last-hour/tower.jpg
+Inside a clock tower at night: the back of a huge translucent clock face fills the centre top; left, a long pendulum rod with an empty hook; centre-bottom, an iron gear train with three empty pegs; right, a small brass door with a heart engraved on it. Moonlight through the clock face, dust in the air.

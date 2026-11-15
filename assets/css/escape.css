@@ -22,7 +22,7 @@ button{font:inherit;cursor:pointer}
 .hs{cursor:pointer;outline:none}
 .hs .hit{fill:transparent;stroke:transparent;stroke-width:4}
 .hs:hover .hit,.hs:focus .hit{stroke:#f4d27a;stroke-dasharray:14 10;fill:rgba(244,210,122,.06)}
-.hs.photo .hit{stroke:rgba(244,210,122,.0)}
+.hs.photo .hit{stroke:rgba(244,210,122,.28);stroke-dasharray:10 12}
 .lbl{fill:#e8d9b0;font:600 26px Georgia,serif;paint-order:stroke;stroke:#000;stroke-width:5px;pointer-events:none}
 .lbl.big{font-size:34px}
 .dock{background:#15100b;border-top:1px solid #3a2a1a;padding:8px 14px}
@@ -70,3 +70,5 @@ button{font:inherit;cursor:pointer}
 .kicker{text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;color:#c9a24a}
 .intro p{text-align:left}
 @media (max-width:640px){.bar{flex-wrap:wrap;gap:6px}.btns{width:100%;justify-content:space-between}#room{font-size:.85rem}.item{width:70px}.sheet{padding:18px 14px}}
+.crests{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px}.crest{background:#e9dcb8;color:#2a1c10;border-radius:6px;padding:8px;text-align:center;display:flex;flex-direction:column}.crest span{font-size:2rem}.crest small{color:#6a5640}
+.wheel small{color:#c9a24a;font-weight:bold}.wheel i{font-style:normal;font-size:.75rem;color:#bfae88}
