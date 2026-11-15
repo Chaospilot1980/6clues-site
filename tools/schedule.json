@@ -202,5 +202,45 @@
  "death-on-the-lavender-farm": {
   "daily": "2026-12-05",
   "public": "2026-12-05"
+ },
+ "the-spa-hotel-blackmail": {
+  "daily": "2026-12-06",
+  "public": "2026-12-06"
+ },
+ "the-kite-festival-sabotage": {
+  "daily": "2026-12-07",
+  "public": "2026-12-07"
+ },
+ "the-escape-room-robbery": {
+  "daily": "2026-12-08",
+  "public": "2026-12-08"
+ },
+ "the-cheese-wheel-caper": {
+  "daily": "2026-12-09",
+  "public": "2026-12-09"
+ },
+ "murder-on-the-midnight-ferry": {
+  "daily": "2026-12-10",
+  "public": "2026-12-10"
+ },
+ "the-roundabout-gnomes": {
+  "daily": "2026-12-11",
+  "public": "2026-12-11"
+ },
+ "the-pigeon-race-ransom": {
+  "daily": "2026-12-12",
+  "public": "2026-12-12"
+ },
+ "death-at-the-chess-congress": {
+  "daily": "2026-12-13",
+  "public": "2026-12-13"
+ },
+ "the-choir-contest-sabotage": {
+  "daily": "2026-12-14",
+  "public": "2026-12-14"
+ },
+ "death-at-the-bowling-alley": {
+  "daily": "2026-12-15",
+  "public": "2026-12-15"
  }
 }
