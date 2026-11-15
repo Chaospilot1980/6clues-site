@@ -1,0 +1,220 @@
+<?php
+// Game Night case 013: The White Silence. Server-side only. Adapted from the 6CLUES premium beta set (2026).
+return [
+  "slug" => 'the-white-silence',
+  "no" => '013',
+  "title" => 'The White Silence',
+  "tagline" => 'Fourteen sled dogs die in a storm. The storm didn’t kill them.',
+  "teaser" => 'A research team abandons its remote Arctic camp after fourteen sled dogs die overnight. The storm explains the silence – but not the missing cargo or the lies.',
+  "genre" => 'Sabotage',
+  "level" => 2,
+  "minutes" => [60, 100],
+  "players" => [2, 6],
+  "revision" => '1.0',
+  "caseref" => 'GL-0312',
+  "stamp" => 'ABANDONED',
+  "envelope" => '#D6DEE2',
+  "flap" => '#B5C2C8',
+  "cover" => [
+   "file" => 'the-white-silence/cover.jpg',
+   "prompt" => 'Abandoned Arctic research camp in Northeast Greenland after a storm, half-buried tents, empty dog sled lines, pale blue light, vast white silence, one red supply crate, no people, no text, 4:3',
+  ],
+  "intro" => ['On 14 March a recovery helicopter lands at a remote research camp in Northeast Greenland. The camp is intact – food, sleeping bags, tents – but <b>fourteen sled dogs</b> are dead, two fuel drums are missing, and there is no one there.', 'The team says it was evacuated after a sudden poisoning and a storm. But the cargo papers have been changed, the flight times don’t match, and someone is lying about a sack of dog food.', 'Who engineered the emergency, what were they trying to get out of the camp – and where did the team go?'],
+  "mission" => ['Find out what killed the dogs.', 'Work out who staged the emergency, and why.', 'Explain what really left the camp on the plane.', 'Back up your accusation with at least three document numbers.'],
+  "questions" => ['What did all fourteen dogs eat?', 'Who replaced the sack – and who signed for it?', 'Could a plane really land at 09:00?', 'What was in the two “survival sample” crates?', 'Who wrote to the broker?', 'Where is the team now?'],
+  "suspects" => [[
+    "id" => 'erik-lund',
+    "name" => 'Erik Lund',
+    "role" => 'Expedition leader',
+   ], [
+    "id" => 'naja-petersen',
+    "name" => 'Naja Petersen',
+    "role" => 'Veterinarian',
+   ], [
+    "id" => 'tobias-vinter',
+    "name" => 'Tobias Vinter',
+    "role" => 'Logistics chief',
+   ], [
+    "id" => 'alma-sorensen',
+    "name" => 'Alma Sørensen',
+    "role" => 'Climate scientist',
+   ], [
+    "id" => 'mikael-ravn',
+    "name" => 'Mikael Ravn',
+    "role" => 'Dog handler',
+   ]],
+  "packets" => [
+   "START" => [
+    "label" => 'Envelope A',
+    "docs" => ['E01', 'E02', 'E03', 'E04', 'E05'],
+   ],
+   "B" => [
+    "label" => 'Envelope B',
+    "when" => 'you can say what the dogs had in common – and who handled it',
+    "docs" => ['E06', 'E07', 'E08', 'E09', 'E10'],
+   ],
+   "C" => [
+    "label" => 'Envelope C',
+    "when" => 'you have found two records that cannot describe the same flight',
+    "docs" => ['E11', 'E12', 'E13', 'E14', 'E15'],
+   ],
+  ],
+  "docs" => [
+   "E01" => [
+    "kind" => 'report',
+    "title" => 'Incident brief',
+    "meta" => 'Recovery team · 14 March',
+    "body" => '<p>At 11:20 the recovery helicopter found an intact camp, 14 dead sled dogs and no people. Food and sleeping bags were still there.</p><p>Two fuel drums were missing from the outside store.</p><p class="note">The weather cleared enough to land only that morning.</p>',
+    "img" => [
+     "file" => 'the-white-silence/sled-tracks.jpg',
+     "caption" => 'Tracks leading away from the camp',
+     "prompt" => 'Illustration: Tracks leading away from the camp, film-noir evidence photo, no text',
+    ],
+   ],
+   "E02" => [
+    "kind" => 'medical',
+    "title" => 'Veterinary field note',
+    "meta" => 'Naja Petersen · 12 March, 08:10',
+    "body" => '<p>All fourteen dogs fell ill the same night. None had injuries or frostbite bad enough to explain the deaths.</p><p>The only shared food between 18:00 and 20:00 came from sack <b>LOT F-17</b>.</p><p class="note">Sealed samples were put in bag NP-02.</p>',
+   ],
+   "E03" => [
+    "kind" => 'log',
+    "title" => 'Feed inventory',
+    "meta" => 'Stores · signed 11 March',
+    "body" => '<p>LOT F-17: six sacks delivered, seals F171–F176.</p><table class="log"><tr><td>17:40</td><td>Dog handler signs out sack F171</td></tr><tr><td>18:05</td><td>Logistics chief signs in replacement sack <b>F171-R</b> – “accidental tear”</td></tr></table><p class="note">The dog handler did not countersign the replacement.</p>',
+   ],
+   "E04" => [
+    "kind" => 'interview',
+    "title" => 'Interview: Mikael Ravn',
+    "meta" => 'Recorded 13 March',
+    "body" => '<p>“I opened the sack at six. Tobias said it was split and replaced it. I fed the dogs from the new sack.”</p><p>“He told me the old sack was burned. I never saw a burn pit. At midnight I went to Naja.”</p>',
+   ],
+   "E05" => [
+    "kind" => 'log',
+    "title" => 'Weather and flight window',
+    "meta" => 'Station meteorology',
+    "body" => '<table class="log"><tr><td>12 Mar 04:00</td><td>Wind 29 m/s</td></tr><tr><td>12 Mar 08:00</td><td>Wind 31 m/s</td></tr><tr><td>12 Mar 15:30</td><td>Wind eases to 16 m/s</td></tr><tr><td>12 Mar 17:20</td><td>Visibility improves</td></tr><tr><td>12 Mar 17:48</td><td>Satellite: charter aircraft approaching</td></tr></table><p class="note">No ordinary aircraft could have landed in the morning conditions.</p>',
+   ],
+   "E06" => [
+    "kind" => 'log',
+    "title" => 'Radio transcript',
+    "meta" => 'Relay record · channel 4',
+    "body" => '<table class="log"><tr><td>08:43</td><td>Erik: “Request urgent extraction, animal fatalities and unknown contamination.”</td></tr><tr><td>09:07</td><td>Tobias: “Pilot confirms nine o’clock pickup.”</td></tr><tr><td>17:52</td><td>Unidentified pilot: “Five passengers clear. Two sealed crates on board.”</td></tr></table>',
+   ],
+   "E07" => [
+    "kind" => 'messages',
+    "title" => 'Satellite text receipts',
+    "meta" => 'Automatic message log · 12 March',
+    "body" => '<div class="chat"><p class="msg out"><span>07:55 · Tobias → Polar Air</span>Need change of declared cargo: two geological canisters. Use invoice 77B.</p><p class="msg in"><span>08:02 · Polar Air → Tobias</span>We have no 09:00 aircraft. First pickup window after 17:00.</p></div>',
+   ],
+   "E08" => [
+    "kind" => 'report',
+    "title" => 'Research field inventory',
+    "meta" => 'Alma Sørensen · 11 March',
+    "body" => '<p>Two sealed geological cores, <b>GC-3</b> and <b>GC-4</b>, were catalogued for university custody and marked <b>not for private export</b>.</p><dl class="rows"><dt>Weight at packing</dt><dd>18.4 kg each</dd><dt>Certified by</dt><dd>Alma Sørensen and Erik Lund</dd></dl>',
+   ],
+   "E09" => [
+    "kind" => 'audit',
+    "title" => 'Cargo departure record',
+    "meta" => 'Polar Air · 12 March, 17:54',
+    "body" => '<dl class="rows"><dt>Passengers</dt><dd>E. Lund, N. Petersen, T. Vinter, A. Sørensen, M. Ravn</dd><dt>Freight</dt><dd>Two sealed crates, declared “survival samples”, total <b>39.1 kg</b></dd><dt>Consignor</dt><dd>T. Vinter</dd><dt>Invoice</dt><dd>77B</dd><dt>Destination</dt><dd>Charter base, Constable Point</dd></dl>',
+   ],
+   "E10" => [
+    "kind" => 'messages',
+    "title" => 'Private sales correspondence',
+    "meta" => 'Printed email · 10 March',
+    "body" => '<div class="chat"><p class="msg in"><span>NORTH STAR MATERIALS → Tobias</span>We will pay on receipt of both sealed cores, provided the original university manifest does not travel with the shipment.</p><p class="msg out"><span>tvinter@expedition.example → broker</span>I will handle the manifest and timing.</p></div>',
+   ],
+   "E11" => [
+    "kind" => 'lab',
+    "title" => 'Evidence bag comparison',
+    "meta" => 'Recovery analysis · 16 March',
+    "body" => '<p>The NP-02 sample and crumbs of the replacement feed contain the same unusual additive. The unopened original LOT F-17 sacks do not.</p><p class="note">The analysis cannot say where the additive came from. The replacement sack F171-R is the common link.</p>',
+   ],
+   "E12" => [
+    "kind" => 'interview',
+    "title" => 'Interview: Tobias Vinter',
+    "meta" => 'Recorded 13 March',
+    "body" => '<p>“There was never a replacement sack. The cargo was tents and medical kits.”</p><p>“My 09:00 pilot confirmation came from a normal call I can’t retrieve. The broker emails are fake.”</p>',
+   ],
+   "E13" => [
+    "kind" => 'report',
+    "title" => 'University custody notice',
+    "meta" => 'Issued 10 March',
+    "body" => '<p>The cores must stay sealed, listed and be returned directly to the university.</p><p class="note">Neither a logistics officer nor a charter company may reclassify them without approval signed by both scientific leads. No such approval exists.</p>',
+   ],
+   "E14" => [
+    "kind" => 'interview',
+    "title" => 'Interview: Erik Lund',
+    "meta" => 'Recorded 14 March',
+    "body" => '<p>“Tobias told me the dogs had been poisoned by contaminated feed and that more samples were dangerous. I chose the evacuation.”</p><p>“I signed a passenger sheet, not a freight declaration. I was wrong not to ask what was in the crates.”</p>',
+   ],
+   "E15" => [
+    "kind" => 'report',
+    "title" => 'Freight warehouse receipt',
+    "meta" => 'Constable Point · 13 March',
+    "body" => '<p>Two crates under invoice 77B were held before onward shipping. Their weights and identifiers matched <b>GC-3 and GC-4</b>. Shipping was stopped when the university issued a hold notice.</p><p class="note">All five researchers had arrived safely the evening before.</p>',
+   ],
+  ],
+  "checkpoints" => [
+   "A" => [
+    "title" => 'What killed the dogs?',
+    "prompt" => 'The storm didn’t kill fourteen healthy dogs in one night. What did?',
+    "gate" => [
+     "q" => 'What was the one thing all the dogs shared that evening?',
+     "choices" => ['The cold', 'Feed from a replacement sack signed in by the logistics chief', 'Water from the melt tank'],
+     "answer" => 1,
+     "ok" => 'Yes – the replacement sack F171-R, signed in by Tobias without a countersignature. Open envelope B.',
+    ],
+    "hints" => ['Compare who handled the feed before and after the replacement.', 'Mikael says the old sack was “burned” – did anyone see it?'],
+   ],
+   "B" => [
+    "title" => 'What left the camp?',
+    "prompt" => 'Tobias promised a 09:00 pickup. Two documents can’t both be true. Which?',
+    "gate" => [
+     "q" => 'When could a plane actually reach the camp?',
+     "choices" => ['At 09:00, as Tobias told the radio', 'Only after 17:00', 'Not until 14 March'],
+     "answer" => 1,
+     "ok" => 'Right – Polar Air said so at 08:02, and Tobias knew. Open envelope C.',
+    ],
+    "hints" => ['Find two records that cannot describe the same flight.', 'Two cores at 18.4 kg each – and two crates of “survival samples” at 39.1 kg.'],
+   ],
+   "final" => [
+    "title" => 'The accusation',
+    "prompt" => 'Who staged the emergency, what was smuggled out, and where did the team go?',
+    "hints" => ['Follow invoice 77B from the message to the aircraft to the warehouse.', 'E03 + E11 explain the dogs; E07 + E09 + E10 + E15 explain the cargo.'],
+   ],
+  ],
+  "accuse" => [
+   "culprit_q" => 'Who staged the emergency?',
+   "wrong" => 'That’s not the person behind the emergency.',
+   "items" => [
+    "cause" => ['The dogs', 'What killed the dogs?', 4],
+    "cargo" => ['The cargo', 'What really left the camp?', 4],
+    "team" => ['The team', 'Where did the five researchers go?', 3],
+   ],
+  ],
+  "choices" => [
+   "cause" => [
+    "a" => 'The storm and the cold.',
+    "b" => 'Contaminated feed from the replacement sack F171-R.',
+    "c" => 'A disease spread by a sick dog.',
+    "d" => 'Fuel from the missing drums.',
+   ],
+   "cargo" => [
+    "a" => 'Tents and medical kits.',
+    "b" => 'The university’s geological cores GC-3 and GC-4, relabelled as “survival samples” under invoice 77B.',
+    "c" => 'Dog food samples for testing.',
+    "d" => 'The two missing fuel drums.',
+   ],
+   "team" => [
+    "a" => 'They walked to the coast.',
+    "b" => 'They died in the storm.',
+    "c" => 'They flew out safely on the charter at about 17:54.',
+    "d" => 'They left on the 09:00 helicopter.',
+   ],
+  ],
+  "worksheet" => ['What happened?', 'Who was responsible – and what was the motive?', 'Which documents prove it? Name at least three.', 'Which misleading explanation did you rule out, and why?', 'What should happen now?'],
+  "allow_letters" => ['Sørensen'],
+ "solution_title" => 'What happened in the white silence',
+ ];

@@ -1,0 +1,14 @@
+<?php
+// SPOILERS. Answer key and solution for The Second Name. Only loaded server-side.
+return [
+  "culprit" => 'kabir-roy',
+  "identity" => 'b',
+  "station" => 'b',
+  "notice" => 'b',
+  "evidence" => ['E02', 'E05', 'E06', 'E08', 'E09', 'E10', 'E11', 'E13', 'E14', 'E15'],
+  "summary" => ['<b>Mira Sen</b> is the safe-house name of <b>Anamika Roy</b>. Ten days earlier she had reported her husband <b>Kabir Roy</b> to a legal aid clinic: threats, being kept at home, her papers taken. With help from Dr Dutta she planned to leave, and the Sens agreed to give “Mira” a quiet room.', 'On 17 March Kabir messaged her at 05:04: “I know about the train.” Following her plan, she cancelled the ticket at 05:32. A man in a pale blue shirt followed her from the taxi stand; she ran for the east stairs, fell and hit her head – which is why she was confused when she was found. The man later got into a car registered to Kabir’s office.', 'The next day, a notice appeared claiming the Sens had kidnapped her. Its phone number belonged to an investigator Kabir had hired. Police have since confirmed her identity – and that she chose to stay where she is.'],
+  "conclusions" => [['Hospital and legal aid records establish Anamika Roy independently.', 'E02, E05, E14'], ['The alias and the safety plan existed before the incident.', 'E08'], ['Cancelled ticket and taxi account show an escape that went wrong.', 'E06, E09'], ['Messages, CCTV and the false notice lead to Kabir Roy.', 'E10, E11, E13'], ['Official records confirm her identity – and her choice.', 'E15']],
+  "timeline" => [['8 March', 'Anamika reports Kabir to legal aid', 'E05'], ['15 March', 'Safety-plan envelope for “Mira Sen”', 'E08'], ['16 March', 'Train booked; Kabir: “You cannot leave”', 'E06, E10'], ['17 Mar 05:04', 'Kabir: “I know about the train.”', 'E10'], ['05:21', 'Taxi drops her at the station; a man follows', 'E09'], ['05:26', 'Man in pale blue enters the stairwell 17 s after her', 'E11'], ['05:32', 'Ticket cancelled with her own code', 'E06'], ['06:15', 'Found confused near platform 8', 'E01'], ['18 March', 'False “kidnapped” notice appears', 'E13'], ['20 March', 'Police confirm her identity', 'E14, E15']],
+  "others" => ['<b>Harish and Lakshmi Sen</b> gave her a safe room at a doctor’s request and never claimed to be family (E07, E12).', '<b>Dr Dutta</b> treated her and helped plan the escape (E03, E08).', '<b>Inspector Mallick</b> doubted the kidnapping story and protected her location (E14).', '<b>Anamika</b> herself did nothing wrong by using another name to hide (E05, E15).'],
+  "fairness" => 'The camera cannot identify the man’s face. The case rests on Kabir’s own messages, the car registered to his office, and the false notice carrying his investigator’s number – before any official report existed.',
+ ];

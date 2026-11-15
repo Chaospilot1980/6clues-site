@@ -155,10 +155,34 @@ Evidence photo in document S-03 – caption: “Photo from 1979, found in the ti
 
 > Faded 1970s colour snapshot with rounded corners and a white border: a young woman in a summer dress and an older woman in an apron standing in front of a whitewashed thatched farmhouse, a girl with long plaits seen from behind running towards them, apple trees, warm washed-out Kodachrome tones, slight blur, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
-### `under-the-floorboards/photo-1979.jpg`
-Evidence photo in document S-03 – caption: “Photo from 1979, found in the tin box” · 1600 × 1200 px (4:3)
+### `under-the-floorboards/people/jens-asmussen.jpg`
+Portrait of Jens Asmussen – Peter’s brother; majority owner behind the buyer · 1024 × 1024 px (1:1)
 
-> Faded 1970s colour snapshot with rounded corners and a white border: a young woman in a summer dress and an older woman in an apron standing in front of a whitewashed thatched farmhouse, a girl with long plaits seen from behind running towards them, apple trees, warm washed-out Kodachrome tones, slight blur, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+> Portrait of a man, 54, investor, Peter's brother, expensive watch, impatient. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## 011 · The Silicon Mole (`the-silicon-mole/`)
+
+### `the-silicon-mole/badge-tray.jpg`
+Evidence photo in document E11 – caption: “Badge tray camera, 23:43” · 1600 × 1200 px (4:3)
+
+> Grainy CCTV still from above of an office visitor desk with a tray of plastic ID badges, a hooded figure in a maintenance jacket reaching for the badges, face not visible, blue-grey security-camera look, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+## 014 · The Second Name (`the-second-name/`)
+
+### `the-second-name/photograph.jpg`
+Evidence photo in document E04 – caption: “Photograph from the handbag” · 1600 × 1200 px (4:3)
+
+> Old creased family-event photograph lying on a wooden table: a young woman in a sari standing stiffly next to a man whose face is hidden by a deep crease in the print, warm faded colours, no text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-second-name/stairwell.jpg`
+Evidence photo in document E11 – caption: “East stairwell, 05:26” · 1600 × 1200 px (4:3)
+
+> Grainy CCTV still of a red-painted station stairwell in Kolkata at dawn, a woman hurrying down the stairs and a man in a pale blue shirt following a few steps behind, faces not visible, security-camera look, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-second-name/stairwell.jpg`
+Evidence photo in document E11 – caption: “East stairwell, 05:26” · 1600 × 1200 px (4:3)
+
+> Grainy CCTV still of a red-painted station stairwell in Kolkata at dawn, a woman hurrying down the stairs and a man in a pale blue shirt following a few steps behind, faces not visible, security-camera look, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ---
-Status: 58 of 84 images delivered.
+Status: 67 of 97 images delivered.

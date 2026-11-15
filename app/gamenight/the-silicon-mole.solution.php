@@ -1,0 +1,14 @@
+<?php
+// SPOILERS. Answer key and solution for The Silicon Mole. Only loaded server-side.
+return [
+  "culprit" => 'aaron-vale',
+  "method" => 'b',
+  "frame" => 'b',
+  "herring" => 'b',
+  "evidence" => ['E04', 'E05', 'E06', 'E10', 'E11', 'E12', 'E13', 'E15'],
+  "summary" => ['<b>Aaron Vale</b> was the mole. He was on site from 22:58 with temporary laptop AV-17 and exported the X9 design at 23:47 through his own maintenance account EXT-AV – the account that was never allowed to export anything. The transfer token 9F2 is on his laptop and on the gateway receipt.', 'His Hong Kong video call made him look busy, but his camera was off and his microphone muted from 23:41, and nobody spoke to him during the transfer. At 23:43 a hooded visitor moved the badges on the tray where Jian had left his – which is how Jian’s badge came to be logged near the archive.', '<b>Lin Mei</b> did something wrong but not the theft: she rewrote the report to blame the badge and hid the trace to protect her department. Xu Fei’s large payment was a legitimate contract milestone. The day after the leak, Aaron invoiced USD 310,000 for “competitive intelligence research”.'],
+  "conclusions" => [['The signed audit trace names account EXT-AV and token 9F2 – not Jian’s account.', 'E04, E06'], ['Aaron was on site and the EXT-AV session ran from his temporary laptop.', 'E12, E13'], ['His video call does not place him in an active conversation during the transfer.', 'E05'], ['Jian’s badge sat on a shared tray and was moved at 23:43.', 'E02, E03, E11'], ['Lin changed the report out of fear, and the big payment was legitimate.', 'E07, E08, E09'], ['Aaron tried to cash in with an invoice for “competitive intelligence”.', 'E10']],
+  "timeline" => [['22:27', 'Jian leaves badge E-204 on the shared tray', 'E11'], ['22:58', 'Aaron Vale checks in as a visitor', 'E12'], ['23:30', 'Aaron joins the Hong Kong call', 'E05'], ['23:31', 'EXT-AV session starts from his laptop', 'E12'], ['23:41', 'Camera off, microphone muted', 'E05'], ['23:43', 'Hooded visitor moves the badges', 'E11'], ['23:46–23:47', 'EXT-AV requests X9 and transfers it with token 9F2', 'E06, E15'], ['23:47', 'Badge E-204 logged near the archive', 'E02'], ['00:06', 'Aaron checks out', 'E12'], ['02:24', 'Lin saves the rewritten report', 'E07']],
+  "others" => ['<b>Jian</b>’s badge was logged, but a badge is not a face, and nothing came from his account or his laptop (E03, E06, E13).', '<b>Lin</b> hid a log and blamed the badge – misconduct, but no money and no transfer (E07, E08).', '<b>Xu</b>’s payment matches an order and a delivery signed long before (E09).', '<b>Chen</b> kept the signed receipt that helped expose the truth (E14).'],
+  "fairness" => 'No single record convicts Aaron: the gateway receipt names no person. The case rests on the token 9F2 appearing on the export, the gateway and his own laptop, together with his presence on site and the silent video call.',
+ ];

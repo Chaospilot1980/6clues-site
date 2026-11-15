@@ -32,7 +32,7 @@ foreach ($slugs as $slug) {
     }
     if (empty($c['cover']['file']) || empty($c['cover']['prompt'])) $err[] = 'cover incomplete';
     $ids = array_column($c['suspects'], 'id');
-    if (count($ids) !== 6 || count(array_unique($ids)) !== 6) $err[] = 'need 6 unique suspects';
+    if (count($ids) < 5 || count($ids) > 6 || count(array_unique($ids)) !== count($ids)) $err[] = 'need 5 or 6 unique suspects';
     if (!in_array($k['culprit'], $ids, true)) $err[] = 'culprit not a suspect';
     foreach (['A', 'B', 'final'] as $cp) {
         $x = $c['checkpoints'][$cp] ?? null;
@@ -62,7 +62,7 @@ foreach ($slugs as $slug) {
     $r = gn_score($c, $sub, 0);
     if ($r['score'] !== 20 || !$r['culprit_ok']) $err[] = 'perfect accusation scores ' . $r['score'];
     $text = json_encode($c, JSON_UNESCAPED_UNICODE);
-    if (preg_match('/[æøåÆØÅ]/u', $text)) $err[] = 'Danish letters left in the case (check names/places)';
+    if (preg_match('/[æøåÆØÅ]/u', str_replace(($c['allow_letters'] ?? []), '', $text))) $err[] = 'Danish letters left in the case (check names/places)';
     echo $err ? "FAIL $slug\n  - " . implode("\n  - ", $err) . "\n" : "OK   $slug (level {$c['level']}, " . count($c['docs']) . " docs)\n";
     if ($err) $bad++;
 }
