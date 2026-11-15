@@ -8,4 +8,11 @@
 - fire-at-hollow-mill – done – no bold/highlight/nudge note; fire date in report so the card statement must be matched; noise purchases.
 - the-ransom-of-captain-biscuit – done – teaser no longer points at the spelling; paper round and sign-in sheet padded; Ricky/Hugh both get the Gazette.
 
-Batch 1 of 3 done.
+- the-lantern-girl-swap – done – badge-at-shipping-desk now only in Matteo's statement, vault log padded, no highlights; Clara given money worries.
+- death-at-the-winter-circus – done – no bold; costume store padded; proof now also uses the two desserts at 21:45.
+- the-soapbox-sabotage – done – winning cart's builder is just "LK Joinery" (link via driver Juniper Kaye); no "no scans" note; noise rows; Gareth's bet as motive.
+- death-at-the-dig – done – no bold; Win's quote no longer teases the track camera; Felicity's share of the reward as motive.
+- the-syndicate-ticket – done – no "M.O." initials, Lalita no longer names Maxine, Dorian says "my fiancée"; terminal padded; Bernadette given money troubles.
+- the-boathouse-blaze – done – teaser no longer gives the timer away; minutes no longer say where Clive went; Harriet's short break as noise.
+
+Batch 1 and 2 of 3 done.
