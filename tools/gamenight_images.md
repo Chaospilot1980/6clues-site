@@ -22,36 +22,6 @@ Evidence photo in document P15 – caption: “Dinner at Villa Nordlys, 20:17”
 
 > Candid flash photo of an elegant dinner party in a Scandinavian seaside villa at night, six guests around a long table with candles and wine glasses; in focus a woman of about 46 in a dark navy woven jacket with small gold hexagonal cufflinks; warm tones, slightly grainy, documentary style, no text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
-### `the-last-invitation/people/nora-vale.jpg`
-Portrait of Nora Vale – Business partner, 46 · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 46, sharp bob of dark hair, dark navy tailored jacket with small gold hexagonal cufflinks, composed and guarded. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-last-invitation/people/mara-voss.jpg`
-Portrait of Mara Voss – Ex-wife, 49 · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 49, elegant, auburn hair pinned up, burgundy dress, cool sceptical look. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-last-invitation/people/elias-lund.jpg`
-Portrait of Elias Lund – Family lawyer, 58 · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 58, grey hair and neat beard, reading glasses, grey suit, careful lawyer. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-last-invitation/people/viktor-holm.jpg`
-Portrait of Viktor Holm – House manager, 39 · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 39, short sandy hair, olive-green work shirt, tired and practical. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-last-invitation/people/emil-voss.jpg`
-Portrait of Emil Voss – Younger brother, 42 · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 42, unshaven, black jumper, restless and resentful. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-last-invitation/people/liv-brandt.jpg`
-Portrait of Liv Brandt – Personal assistant, 31 · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 31, light brown hair in a low ponytail, white blouse, attentive assistant. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## 002 · Zero Point (`zero-point/`)
 
 ### `zero-point/cover.jpg`
@@ -68,36 +38,6 @@ Evidence photo in document B-02 – caption: “Camera K-2 still, local time 20:
 Evidence photo in document C-02 – caption: “Transport case H-32 (stock photo)” · 1600 × 1200 px (4:3)
 
 > Product-style photo of an open black hard-shell transport case with grey foam insert, a fist-sized irregular cavity cut into the foam, a strip of orange tape wrapped around the handle, on a workshop bench, neutral lighting, no text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `zero-point/people/nora-berg.jpg`
-Portrait of Nora Berg – Curator · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 50, silver-streaked hair, black turtleneck, museum curator, stressed. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `zero-point/people/leo-strand.jpg`
-Portrait of Leo Strand – External technician · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 38, dark technician jacket, short beard, calm but evasive eyes. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `zero-point/people/felix-holm.jpg`
-Portrait of Felix Holm – Security guard · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 45, security guard uniform, broad build, earnest. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `zero-point/people/selma-juhl.jpg`
-Portrait of Selma Juhl – Conservator · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 34, conservator in a work apron, curly hair tied back, small dust of resin on her sleeve. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `zero-point/people/arman-shah.jpg`
-Portrait of Arman Shah – IT security consultant · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 30, IT consultant, dark hair, hoodie under a blazer, laptop bag strap. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `zero-point/people/vera-lind.jpg`
-Portrait of Vera Lind – Event coordinator · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 41, event coordinator, headset around her neck, practical blazer. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## 003 · The Glass Wall (`the-glass-wall/`)
 
@@ -116,36 +56,6 @@ Evidence photo in document B05 – caption: “Photo attached to the condition r
 
 > Close-up photograph of the underside of a clear glass sculpture with a fine cobalt-blue glass thread running through it, on a white conservation table under a ring light, clinical museum-lab style, no text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
-### `the-glass-wall/people/sara-munk.jpg`
-Portrait of Sara Munk – Conservator, responsible for condition reports · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 44, conservator, white cotton gloves, hair in a neat bun, precise and calm. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-glass-wall/people/bo-vester.jpg`
-Portrait of Bo Vester – Head of security, checked the access cards · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 55, head of security, grey crew cut, dark uniform jacket. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-glass-wall/people/lena-holm.jpg`
-Portrait of Lena Holm – Curator of a financially pressed exhibition · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 48, curator, statement glasses, black blazer, under pressure. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-glass-wall/people/emil-rahbek.jpg`
-Portrait of Emil Rahbek – Transport manager with access to packing boxes · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 36, transport manager, high-visibility vest over a fleece, clipboard. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-glass-wall/people/nadia-beck.jpg`
-Portrait of Nadia Beck – Private collector, guest at the opening · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 60, wealthy private collector, silver hair, pearl earrings, cool smile. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-glass-wall/people/jonas-friis.jpg`
-Portrait of Jonas Friis – Photographer and external supplier · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 29, photographer, camera strap over shoulder, beanie. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## 004 · False Signal (`false-signal/`)
 
 ### `false-signal/cover.jpg`
@@ -163,36 +73,6 @@ Evidence photo in document B04 – caption: “PROD-TAB7 on the production desk�
 
 > Photo of a rugged black production tablet with an equipment label sticker (unreadable) lying on a cluttered broadcast production desk next to a headset, cue sheets and a mixing console, dim control-room lighting with coloured monitor glow, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
-### `false-signal/people/ida-kragh.jpg`
-Portrait of Ida Kragh – Broadcast producer · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 37, broadcast producer, headset, determined, holding a tablet. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `false-signal/people/mikkel-roed.jpg`
-Portrait of Mikkel Roed – Head of finance and donations · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 47, finance head, smart shirt without tie, polished and slightly nervous. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `false-signal/people/theo-brandt.jpg`
-Portrait of Theo Brandt – External livestream technician · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 33, livestream technician, black T-shirt, cable coiled over shoulder. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `false-signal/people/sofie-lund.jpg`
-Portrait of Sofie Lund – Head of communications · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 39, head of communications, bright scarf, phone in hand. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `false-signal/people/malik-osman.jpg`
-Portrait of Malik Osman – Stage manager · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 44, stage manager, black clothes, walkie-talkie. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `false-signal/people/eva-falk.jpg`
-Portrait of Eva Falk – Former volunteer with an old grudge against the foundation · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 52, former volunteer, rain jacket, guarded and bitter. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## 005 · Still Water (`still-water/`)
 
 ### `still-water/cover.jpg`
@@ -204,36 +84,6 @@ Case cover on the site and the printed front page · 1600 × 1200 px (4:3)
 Evidence photo in document A05 – caption: “The control room screen seen from basin 3” · 1600 × 1200 px (4:3)
 
 > Night view through a large window into an empty industrial control room, a wall of monitors with one screen glowing red, reflections of floodlights on the glass, wet concrete walkway in the foreground, moody blue-green palette, no people, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `still-water/people/karin-dam.jpg`
-Portrait of Karin Dam – Operations manager · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 54, operations manager, hard hat under her arm, short grey hair. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `still-water/people/oliver-sahl.jpg`
-Portrait of Oliver Sahl – Electrician · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 40, electrician, work overalls, tool belt. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `still-water/people/freja-nissen.jpg`
-Portrait of Freja Nissen – Environmental analyst · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 31, environmental analyst, waterproof jacket, sample bottles. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `still-water/people/henrik-lund.jpg`
-Portrait of Henrik Lund – Project manager, new pump station · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 46, project manager, rimless glasses, quilted gilet over a shirt, ambitious. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `still-water/people/asta-winther.jpg`
-Portrait of Asta Winther – Night guard · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 58, night guard, reflective jacket, torch. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `still-water/people/rune-kjaer.jpg`
-Portrait of Rune Kjaer – External service technician · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 50, external service technician, company fleece, weathered face. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## 006 · The Other Name (`the-other-name/`)
 
@@ -252,36 +102,6 @@ Evidence photo in document B-04 – caption: “The drawing from locker 218” �
 
 > A child’s wax-crayon drawing on slightly crumpled white paper: a big yellow gate in a fence, a tall stick figure and a small stick figure in a yellow raincoat holding hands, a blue sky with a round sun, naive childlike style, scanned flat, no readable letters Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
-### `the-other-name/people/liv.jpg`
-Portrait of Liv (unknown) – The woman with no memory, found on the quay 3 March · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, about 35, pale, short dark hair, borrowed oversized cardigan, searching eyes, a faint bruise-coloured mark near the hairline. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-other-name/people/signe-birk.jpg`
-Portrait of Signe Birk – Runs the small guesthouse; took Liv in · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 63, guesthouse owner, warm, knitted jumper, reading glasses on a cord. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-other-name/people/jonas-birk.jpg`
-Portrait of Jonas Birk – Signe’s grown-up son; thinks Liv is hiding something · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 32, Signe's son, flannel shirt, suspicious frown. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-other-name/people/martin-holm.jpg`
-Portrait of Martin Holm – Says he is Liv’s husband · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 42, well-groomed, expensive wool coat, controlled smile that does not reach the eyes. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-other-name/people/ada-krog.jpg`
-Portrait of Ada Krog – Volunteer at the Havblik crisis centre · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 50, crisis-centre volunteer, kind and firm, lanyard. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-other-name/people/mikkel-gade.jpg`
-Portrait of Mikkel Gade – Private investigator, hired by Martin · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 48, private investigator, flat cap, trench coat, notebook. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## 007 · The Blue Folder (`the-blue-folder/`)
 
 ### `the-blue-folder/cover.jpg`
@@ -293,36 +113,6 @@ Case cover on the site and the printed front page · 1600 × 1200 px (4:3)
 Evidence photo in document C03 – caption: “CopyPoint counter camera, 20:29” · 1600 × 1200 px (4:3)
 
 > Grainy colour CCTV still from above a print-shop counter at night, a person in a long dark coat seen from behind and the side, face hidden by a raised collar, holding a bright yellow document folder, stacks of paper and a large copier in the background, security-camera look, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-blue-folder/people/nadia-lund.jpg`
-Portrait of Nadia Lund – Chief engineer – the first suspect · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 41, chief engineer, rolled-up sleeves, frustrated, wind-turbine blueprint behind. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-blue-folder/people/henrik-dahl.jpg`
-Portrait of Henrik Dahl – Managing director · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 56, managing director, navy suit, worried. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-blue-folder/people/rikke-falck.jpg`
-Portrait of Rikke Falck – Head of compliance · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 45, head of compliance, sleek blonde hair, dark coat, holding a yellow folder. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-blue-folder/people/oskar-moller.jpg`
-Portrait of Oskar Moller – IT administrator · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 35, IT administrator, glasses, company polo shirt. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-blue-folder/people/lea-storm.jpg`
-Portrait of Lea Storm – Sales director, ex-employee of the rival · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 43, sales director, confident, red lipstick, smart blazer. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-blue-folder/people/emil-friis.jpg`
-Portrait of Emil Friis – Intern on the launch material · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 23, intern, cardigan, eager and a bit anxious. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## 008 · The House Without a Name (`the-house-without-a-name/`)
 
@@ -336,31 +126,6 @@ Evidence photo in document S01 – caption: “Front of the postcard: the family
 
 > Picture postcard printed photo of an ordinary red-brick Danish terraced townhouse on a quiet city street in summer, slightly faded colours, white postcard border, a tiny faint blue printed number on the top edge, nostalgic and slightly unsettling, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
-### `the-house-without-a-name/people/maja-elgaard.jpg`
-Portrait of Maja Elgaard – Mother, previously known by another name · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 44, mother, wool coat, protective and tense. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-house-without-a-name/people/thomas-elgaard.jpg`
-Portrait of Thomas Elgaard – Father, keeps an encrypted backup · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 47, father, outdoor jacket, worried and watchful. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-house-without-a-name/people/niels-vang.jpg`
-Portrait of Niels Vang – The family’s former security contact · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 53, former security contact, short grey beard, dark parka, too calm. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-house-without-a-name/people/camilla-roed.jpg`
-Portrait of Camilla Roed – Local journalist interested in property records · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 36, local journalist, notebook, scarf, curious. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-house-without-a-name/people/jorgen-sahl.jpg`
-Portrait of Jorgen Sahl – Former business contact the family testified against · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 62, ex-businessman, heavy coat, hard stare. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## 009 · The Last Broadcast (`the-last-broadcast/`)
 
 ### `the-last-broadcast/cover.jpg`
@@ -372,36 +137,6 @@ Case cover on the site and the printed front page · 1600 × 1200 px (4:3)
 Evidence photo in document C-05 – caption: “Receipt photo, ferry terminal kiosk, 00:21” · 1600 × 1200 px (4:3)
 
 > Grainy night-time photo inside a small ferry terminal kiosk under harsh fluorescent light, a woman in a dark jacket with a small wheeled suitcase standing at the counter, her face turned away and half hidden by her collar, coffee machine and rack of snacks, a ferry visible through the window, documentary snapshot style, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-last-broadcast/people/vera-skov.jpg`
-Portrait of Vera Skov – Investigative journalist and radio host · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 39, radio host, headphones around her neck, dark jacket, intense. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-last-broadcast/people/anton-vej.jpg`
-Portrait of Anton Vej – Head of programmes, worried about the station’s future · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 55, head of programmes, rolled sleeves, anxious. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-last-broadcast/people/selma-kruse.jpg`
-Portrait of Selma Kruse – Sound engineer with access to the playout system · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 30, sound engineer, undercut hairstyle, big studio headphones. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-last-broadcast/people/kasper-berg.jpg`
-Portrait of Kasper Berg – Director of the foundation Vera was investigating · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 58, foundation director, tailored grey suit, smooth smile. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-last-broadcast/people/nora-dahl.jpg`
-Portrait of Nora Dahl – Vera’s colleague and close friend · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 40, journalist and Vera's friend, trench coat, loyal. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-last-broadcast/people/lukas-engel.jpg`
-Portrait of Lukas Engel – Station temp who saw Vera leave · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 24, station temp, hoodie, nervous. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## 010 · Under the Floorboards (`under-the-floorboards/`)
 
@@ -420,35 +155,10 @@ Evidence photo in document S-03 – caption: “Photo from 1979, found in the ti
 
 > Faded 1970s colour snapshot with rounded corners and a white border: a young woman in a summer dress and an older woman in an apron standing in front of a whitewashed thatched farmhouse, a girl with long plaits seen from behind running towards them, apple trees, warm washed-out Kodachrome tones, slight blur, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
-### `under-the-floorboards/people/klara-vester.jpg`
-Portrait of Klara Vester – Eldest daughter; has handled the estate · 1024 × 1024 px (1:1)
+### `under-the-floorboards/photo-1979.jpg`
+Evidence photo in document S-03 – caption: “Photo from 1979, found in the tin box” · 1600 × 1200 px (4:3)
 
-> Portrait of a woman, 52, eldest daughter, organised, reading glasses, cardigan. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `under-the-floorboards/people/mads-vester.jpg`
-Portrait of Mads Vester – Middle son; wants to keep the orchard · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 48, middle son, outdoorsy, wax jacket, stubborn. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `under-the-floorboards/people/ida-vester.jpg`
-Portrait of Ida Vester – Youngest daughter; lives abroad · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 44, youngest daughter living in Spain, light linen jacket, sun-tanned. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `under-the-floorboards/people/eva-lund.jpg`
-Portrait of Eva Lund – Ruth’s old friend; grew up in the house · 1024 × 1024 px (1:1)
-
-> Portrait of a woman, 59, gentle, grey braid, floral scarf. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `under-the-floorboards/people/peter-asmussen.jpg`
-Portrait of Peter Asmussen – The family’s estate agent, acting for the heirs · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 50, estate agent, slick hair, smart blazer, practised smile. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `under-the-floorboards/people/peter-asmussen.jpg`
-Portrait of Peter Asmussen – The family’s estate agent, acting for the heirs · 1024 × 1024 px (1:1)
-
-> Portrait of a man, 50, estate agent, slick hair, smart blazer, practised smile. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+> Faded 1970s colour snapshot with rounded corners and a white border: a young woman in a summer dress and an older woman in an apron standing in front of a whitewashed thatched farmhouse, a girl with long plaits seen from behind running towards them, apple trees, warm washed-out Kodachrome tones, slight blur, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ---
-Status: 0 of 84 images delivered.
+Status: 58 of 84 images delivered.

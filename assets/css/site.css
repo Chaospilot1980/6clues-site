@@ -337,3 +337,4 @@ tr.me td{background:#FFF3C4}
   header nav a.btn{padding:6px 10px}
   header nav a[href="/#how"]{display:none}
 }
+.step-list{list-style:none;padding-left:0}
