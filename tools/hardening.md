@@ -15,4 +15,10 @@
 - the-syndicate-ticket – done – no "M.O." initials, Lalita no longer names Maxine, Dorian says "my fiancée"; terminal padded; Bernadette given money troubles.
 - the-boathouse-blaze – done – teaser no longer gives the timer away; minutes no longer say where Clive went; Harriet's short break as noise.
 
-Batch 1 and 2 of 3 done.
+- the-ghost-train-takings – done – teaser no longer says the cashier lies; no bold/highlight; patrol tag shown only as a dash.
+- death-on-the-lavender-farm – done – notebook says "the manager" instead of Esther; barn photo shows "the farm manager"; will note removed.
+- the-spa-hotel-blackmail – done – room card 109 linked to S. Lee only via lost property; printer/door logs padded; no highlights.
+- the-pigeon-race-ransom – done – "so it was after 23:00" removed; wellies in the porch unnamed among three pairs.
+- death-at-the-chess-congress – done – no bold; no "clock ran without a move" note; Leopold's quote no longer points at the diary.
+
+All 3 batches done (18 cases; the-counterfeit-christmas left as live daily case).
