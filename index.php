@@ -305,7 +305,7 @@ function play(string $slug): void {
     <div class="clue-texts">
       <?php for ($i = 0; $i < $shown; $i++): $cl = $m['clues'][$i]; ?>
         <article class="clue" data-text="<?= $i ?>" <?= $i !== ($answered ? 0 : $shown - 1) ? 'hidden' : '' ?>><header><span class="clue-no">Clue <?= $i + 1 ?> of 6</span><h2><?= e($cl['name']) ?> <small><?= e($cl['role']) ?></small></h2></header>
-        <blockquote>”<?= e($cl['quote']) ?>”</blockquote><p class="ev-label">Evidence #<?= $i + 1 ?> · <?= e($cl['label']) ?></p><div class="evidence"><?= $cl['evidence'] ?></div></article>
+        <blockquote>”<?= e($cl['quote']) ?>”</blockquote><p class="ev-label">Evidence #<?= $i + 1 ?> · <?= e($cl['label']) ?></p><div class="evidence"><?= photo_html($cl['evidence']) ?></div></article>
       <?php endfor; ?>
     </div>
     <?php if (!$answered): ?>

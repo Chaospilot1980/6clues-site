@@ -7,7 +7,7 @@ import glob, importlib.util, json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from lib import poster  # noqa: E402
+from lib import slugify, poster  # noqa: E402
 
 REQUIRED = ["slug", "level", "crime", "who", "caseno", "title_html", "title_plain", "teaser", "intro", "clues", "solution"]
 
@@ -196,6 +196,14 @@ def export(ms, target):
 
 if __name__ == "__main__":
     ms = [tune_difficulty(spread_culprit(m)) for m in load_all()]
+    for m in ms:  # photo frames: {{PHOTO:id|label}} -> {{PHOTO:<case>/id|label}} (image in assets/img/m/<case>/photo-<id>.jpg)
+        for c in m["clues"]:
+            for k in ("evidence", "poster"):
+                if isinstance(c.get(k), str):
+                    # hand-written frames (early rounds) get the same token as lib.ev_photos
+                    c[k] = re.sub(r'(<div style="height: 120px; background: #CFC6B6;[^"]*">)([^<{]+)(</div>)',
+                                  lambda q: q.group(1) + "{{PHOTO:" + slugify(q.group(2).strip()) + "|" + q.group(2).strip() + "}}" + q.group(3), c[k])
+                    c[k] = c[k].replace("{{PHOTO:", "{{PHOTO:" + m["slug"] + "/")
     errs = validate(ms)
     if errs:
         print("NOT EXPORTED – fix these first:")

@@ -127,7 +127,7 @@ def ev_photos(title, photos):
     cards = ""
     for name, time, cap in photos:
         cards += f"""<div style="flex: 1; min-width: 0; background: #FFFFFF; border: 1px solid #C9C0B1; padding: 8px 8px 10px; display: flex; flex-direction: column; gap: 6px">
-<div style="height: 120px; background: #CFC6B6; display: flex; align-items: center; justify-content: center; {MONO}; font-size: 12px; color: {INK}">{name}</div>
+<div style="height: 120px; background: #CFC6B6; display: flex; align-items: center; justify-content: center; overflow: hidden; {MONO}; font-size: 12px; color: {INK}">{{{{PHOTO:{slugify(name)}|{name}}}}}</div>
 <div style="{MONO}; font-size: 14px; font-weight: 700; color: {RED}">{time}</div>
 <div style="{SANS}; font-size: 13px; line-height: 1.4; color: {INK}">{cap}</div>
 </div>"""

@@ -310,8 +310,17 @@ const STATS_MIN_PLAYERS = 5;   // below this a mystery's numbers are not shown p
 
 
 /** A suspect portrait for the posters (assets/img/m/<case>/<person>.jpg), or the grey silhouette while it is missing. */
+/** Photo frames in evidence: the real photo when delivered, otherwise its label on grey. */
+function photo_html(string $html): string {
+    return preg_replace_callback('#\{\{PHOTO:([a-z0-9\-]+)/([a-z0-9\-]+)\|([^}]*)\}\}#', function ($mm) {
+        $f = dirname(__DIR__) . '/assets/img/m/' . $mm[1] . '/photo-' . $mm[2] . '.jpg';
+        if (is_file($f)) return '<img src="/assets/img/m/' . $mm[1] . '/photo-' . $mm[2] . '.jpg?v=' . filemtime($f) . '" alt="' . $mm[3] . '" style="width:100%;height:100%;object-fit:cover;display:block" loading="lazy">';
+        return $mm[3];
+    }, $html);
+}
+
 function poster_html(string $html, string $answerUrl): string {
-    $html = str_replace('{{ANSWER_URL}}', e($answerUrl), $html);
+    $html = photo_html(str_replace('{{ANSWER_URL}}', e($answerUrl), $html));
     return preg_replace_callback('#\{\{FACE:([a-z0-9\-]+)/([a-z0-9\-]+)\}\}#', function ($mm) {
         $f = dirname(__DIR__) . '/assets/img/m/' . $mm[1] . '/' . $mm[2] . '.jpg';
         if (is_file($f)) return '<img src="/assets/img/m/' . $mm[1] . '/' . $mm[2] . '.jpg?v=' . filemtime($f) . '" alt="" style="width:100%;height:100%;object-fit:cover;object-position:50% 20%;display:block" loading="lazy">';
