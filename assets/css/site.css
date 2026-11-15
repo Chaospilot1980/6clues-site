@@ -223,6 +223,11 @@ tr.me td{background:#FFF3C4}
 .challenge-page .intro-text{font-size:17px}
 @media (max-width:560px){.verdict-big{font-size:26px}.points-now{padding:6px 10px;min-width:76px}.points-now b{font-size:26px}}
 .clue-texts{margin:16px 0}
+.clue-texts>summary{cursor:pointer;font-weight:700;font-size:14px;padding:10px 12px;border:1.5px dashed var(--ink);list-style:none}
+.clue-texts>summary::-webkit-details-marker{display:none}
+.clue-texts>summary::before{content:"▸ "}
+.clue-texts[open]>summary::before{content:"▾ "}
+.clue-texts[open]>summary{margin-bottom:10px}
 .clue-texts .clue{background:var(--card);border:1.5px solid var(--ink);padding:16px}
 @media (min-width:820px){.clue-texts{display:none}}
 .kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:16px 0 28px}

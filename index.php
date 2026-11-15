@@ -302,12 +302,13 @@ function play(string $slug): void {
         <div class="poster-fit" data-poster="<?= $i ?>" <?= $i !== ($answered ? 0 : $shown - 1) ? 'hidden' : '' ?>><div class="poster-inner"><?= poster_html($m['clues'][$i]['poster'], $answer) ?></div></div>
       <?php endfor; ?>
     </div>
-    <div class="clue-texts">
+    <details class="clue-texts">
+      <summary>Hard to read? Show this clue as text</summary>
       <?php for ($i = 0; $i < $shown; $i++): $cl = $m['clues'][$i]; ?>
         <article class="clue" data-text="<?= $i ?>" <?= $i !== ($answered ? 0 : $shown - 1) ? 'hidden' : '' ?>><header><span class="clue-no">Clue <?= $i + 1 ?> of 6</span><h2><?= e($cl['name']) ?> <small><?= e($cl['role']) ?></small></h2></header>
         <blockquote>”<?= e($cl['quote']) ?>”</blockquote><p class="ev-label">Evidence #<?= $i + 1 ?> · <?= e($cl['label']) ?></p><div class="evidence"><?= photo_html($cl['evidence']) ?></div></article>
       <?php endfor; ?>
-    </div>
+    </details>
     <?php if (!$answered): ?>
       <div class="game-actions">
         <?php if ($shown < 6): ?>
