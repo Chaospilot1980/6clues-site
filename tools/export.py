@@ -126,7 +126,7 @@ def validate(ms):
 
 
 LAUNCH = "2026-11-15"   # Daily case #1
-LIBRARY_SIZE = 30       # the first 30 cases form the free library; every case after that is released as a daily case
+LIBRARY_SIZE = 40       # the first 40 cases form the free library (30 at launch + 10 hard level 3 cases added 15 Nov); later cases are daily cases
 
 
 def schedule(ms):
