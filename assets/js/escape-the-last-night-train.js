@@ -97,7 +97,7 @@ const ROOMS = {
       { id: 'back', x: 20, y: 760, w: 260, h: 110, art: () => `<text x="40" y="830" class="lbl big">← Dining car</text>`, act: () => go('dining') },
       { id: 'luggage', x: 80, y: 240, w: 640, h: 420, art: () => [[100, 520, 200, 130, '#6b4a2a'], [320, 540, 170, 110, '#3a4a5a'], [510, 500, 190, 150, '#5a2a2a'], [150, 390, 170, 120, '#4a5a3a'], [380, 410, 230, 120, '#7a6a4a']].map(([x, y, w, h, c]) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="10" fill="${c}" stroke="#1a120a" stroke-width="5"/><rect x="${x + w / 2 - 25}" y="${y - 12}" width="50" height="16" rx="6" fill="none" stroke="#c9a24a" stroke-width="5"/><rect x="${x + 12}" y="${y + 14}" width="40" height="26" fill="#e9dcb8"/>`).join('') + label(400, 230, 'Luggage (tagged)'), act: () => openLuggage() },
       { id: 'telegraph', x: 900, y: 300, w: 420, h: 360, art: () => `<rect x="910" y="470" width="400" height="30" fill="#5b3c25"/><rect x="930" y="500" width="20" height="150" fill="#3a2416"/><rect x="1270" y="500" width="20" height="150" fill="#3a2416"/><rect x="980" y="400" width="140" height="70" rx="8" fill="#2a2a2a"/><circle cx="1050" cy="390" r="14" fill="#c9a24a"/><path d="M1140 460 q60 -10 90 0" fill="none" stroke="#e9dcb8" stroke-width="16"/><path d="M1140 440 q70 -20 120 -5" fill="none" stroke="#e9dcb8" stroke-width="12"/>${label(1110, 690, 'Telegraph & paper tapes')}`, act: () => openTelegraph() },
-      { id: 'toEngine', x: 690, y: 90, w: 200, h: 330, art: () => door(700, 110, 180, 300, F.engineOpen, F.engineOpen ? 'Tender → locomotive' : 'Door to the tender'),
+      { id: 'toEngine', x: 630, y: 130, w: 300, h: 190, art: () => door(700, 110, 180, 300, F.engineOpen, F.engineOpen ? 'Tender → locomotive' : 'Door to the tender'),
         act: () => F.engineOpen ? go('engine') : say('An iron door to the coal tender. A square keyhole, no handle.'),
         use: { engineKey: () => { F.engineOpen = 1; take('engineKey'); say('The square key turns with a clank. Heat and noise roll in from the locomotive.'); return true; } } },
       { id: 'safe', x: 1360, y: 320, w: 200, h: 300, art: () => `<rect x="1370" y="330" width="180" height="280" fill="#3a3a38" stroke="#111" stroke-width="8"/><circle cx="1460" cy="460" r="36" fill="#555"/><text x="1460" y="560" text-anchor="middle" font-size="18" fill="#aaa" font-family="Georgia">POSTE</text>${label(1460, 650, 'Mail safe')}`,
@@ -120,12 +120,14 @@ const flashBtn = id => { const b = $(id); b.classList.remove('ping'); void b.off
 const imgOk = {};
 Object.keys(ROOMS).forEach(r => { const im = new Image(); im.onload = () => { imgOk[r] = true; if (S.room === r) render(); }; im.src = IMG + r + '.jpg'; });
 
+const NAMES = { back: '← Back', down: '← Down', toDining: 'Corridor →', toVan: 'Van →', toEngine: 'Door to the tender', toStudy: 'Study door', toTower: 'Tower door', toOil: 'Oil store', toRadio: 'Radio hut' };
+const spotName = s => { const m = (s.art ? s.art() : '').match(/class="lbl[^"]*"[^>]*>([^<]+)</); return (m ? m[1] : NAMES[s.id] || s.id).replace(/&amp;/g, '&'); };
 function render() {
   const R = ROOMS[S.room];
   $('room').textContent = R.name;
   const art = imgOk[S.room] ? `<image href="${IMG + S.room}.jpg" width="1600" height="900"/>` : R.bg();
   $('stage').innerHTML = `<defs><radialGradient id="lamp"><stop offset="0" stop-color="#ffcf7a" stop-opacity=".22"/><stop offset="1" stop-color="#ffcf7a" stop-opacity="0"/></radialGradient></defs>${art}` +
-    R.spots.map(s => `<g class="hs${imgOk[S.room] ? ' photo' : ''}" data-id="${s.id}" tabindex="0" role="button" aria-label="${s.id}">${imgOk[S.room] ? '' : s.art()}<rect class="hit" x="${s.x}" y="${s.y}" width="${s.w}" height="${s.h}" rx="10"/></g>`).join('');
+    R.spots.map(s => `<g class="hs${imgOk[S.room] ? ' photo' : ''}" data-id="${s.id}" tabindex="0" role="button" aria-label="${s.id}">${imgOk[S.room] ? `<g class="tag"><rect x="${s.x + s.w / 2 - (spotName(s).length * 7.5 + 18)}" y="${s.y + s.h - 46}" width="${spotName(s).length * 15 + 36}" height="38" rx="19"/><text x="${s.x + s.w / 2}" y="${s.y + s.h - 20}" text-anchor="middle">${spotName(s)}</text></g>` : s.art()}<rect class="hit" x="${s.x}" y="${s.y}" width="${s.w}" height="${s.h}" rx="10"/></g>`).join('');
   $('stage').querySelectorAll('.hs').forEach(g => {
     const fire = () => clickSpot(R.spots.find(s => s.id === g.dataset.id));
     g.addEventListener('click', fire); g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fire(); } });

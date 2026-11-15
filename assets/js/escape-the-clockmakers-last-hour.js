@@ -125,12 +125,14 @@ const flashBtn = id => { const b = $(id); b.classList.remove('ping'); void b.off
 const imgOk = {};
 ['workshop', 'study', 'tower'].forEach(r => { const im = new Image(); im.onload = () => { imgOk[r] = true; if (S.room === r) render(); }; im.src = IMG + r + '.jpg'; });
 
+const NAMES = { back: '← Back', down: '← Down', toDining: 'Corridor →', toVan: 'Van →', toEngine: 'Door to the tender', toStudy: 'Study door', toTower: 'Tower door', toOil: 'Oil store', toRadio: 'Radio hut' };
+const spotName = s => { const m = (s.art ? s.art() : '').match(/class="lbl[^"]*"[^>]*>([^<]+)</); return (m ? m[1] : NAMES[s.id] || s.id).replace(/&amp;/g, '&'); };
 function render() {
   const R = ROOMS[S.room];
   $('room').textContent = R.name;
   const art = imgOk[S.room] ? `<image href="${IMG + S.room}.jpg" width="1600" height="900"/>` : R.bg();
   $('stage').innerHTML = `<defs><radialGradient id="lamp"><stop offset="0" stop-color="#ffcf7a" stop-opacity=".22"/><stop offset="1" stop-color="#ffcf7a" stop-opacity="0"/></radialGradient></defs>${art}` +
-    R.spots.map(s => `<g class="hs${imgOk[S.room] ? ' photo' : ''}" data-id="${s.id}" tabindex="0" role="button" aria-label="${s.id}">${imgOk[S.room] ? '' : s.art()}<rect class="hit" x="${s.x}" y="${s.y}" width="${s.w}" height="${s.h}" rx="10"/></g>`).join('');
+    R.spots.map(s => `<g class="hs${imgOk[S.room] ? ' photo' : ''}" data-id="${s.id}" tabindex="0" role="button" aria-label="${s.id}">${imgOk[S.room] ? `<g class="tag"><rect x="${s.x + s.w / 2 - (spotName(s).length * 7.5 + 18)}" y="${s.y + s.h - 46}" width="${spotName(s).length * 15 + 36}" height="38" rx="19"/><text x="${s.x + s.w / 2}" y="${s.y + s.h - 20}" text-anchor="middle">${spotName(s)}</text></g>` : s.art()}<rect class="hit" x="${s.x}" y="${s.y}" width="${s.w}" height="${s.h}" rx="10"/></g>`).join('');
   $('stage').querySelectorAll('.hs').forEach(g => {
     const fire = () => clickSpot(R.spots.find(s => s.id === g.dataset.id));
     g.addEventListener('click', fire); g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fire(); } });

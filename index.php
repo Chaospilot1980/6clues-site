@@ -1642,11 +1642,11 @@ function escape_play(string $slug): void {
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title><?= e($r['title']) ?> – Six Clues escape room</title><meta name="robots" content="noindex">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/assets/css/escape.css?v=2">
+<link rel="stylesheet" href="/assets/css/escape.css?v=3">
 </head><body>
 <div id="escape" data-slug="<?= e($slug) ?>" data-csrf="<?= e(csrf_token()) ?>" data-name="<?= e(first_name((string)$u['name'])) ?>"></div>
 <script>window.ESCAPE_STATE = <?= json_encode($state, JSON_HEX_TAG | JSON_HEX_AMP) ?>;</script>
-<script src="/assets/js/escape-<?= e($slug) ?>.js?v=2"></script>
+<script src="/assets/js/escape-<?= e($slug) ?>.js?v=3"></script>
 </body></html>
 <?php
 }

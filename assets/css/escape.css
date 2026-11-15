@@ -72,3 +72,4 @@ button{font:inherit;cursor:pointer}
 @media (max-width:640px){.bar{flex-wrap:wrap;gap:6px}.btns{width:100%;justify-content:space-between}#room{font-size:.85rem}.item{width:70px}.sheet{padding:18px 14px}}
 .crests{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px}.crest{background:#e9dcb8;color:#2a1c10;border-radius:6px;padding:8px;text-align:center;display:flex;flex-direction:column}.crest span{font-size:2rem}.crest small{color:#6a5640}
 .wheel small{color:#c9a24a;font-weight:bold}.wheel i{font-style:normal;font-size:.75rem;color:#bfae88}
+.hs .tag rect{fill:rgba(12,9,6,.62);stroke:rgba(244,210,122,.55);stroke-width:2}.hs .tag text{fill:#f1e4bf;font:600 24px Georgia,serif;pointer-events:none}.hs .tag{pointer-events:none}
