@@ -204,6 +204,22 @@ if __name__ == "__main__":
                     c[k] = re.sub(r'(<div style="height: 120px; background: #CFC6B6;[^"]*">)([^<{]+)(</div>)',
                                   lambda q: q.group(1) + "{{PHOTO:" + slugify(q.group(2).strip()) + "|" + q.group(2).strip() + "}}" + q.group(3), c[k])
                     c[k] = c[k].replace("{{PHOTO:", "{{PHOTO:" + m["slug"] + "/")
+        seen = {}  # same photo label more than once in a case -> photo-x, photo-x-2 … (one file each)
+        for c in m["clues"]:
+            names = {}  # occurrence order within this clue -> file id (poster repeats the evidence in the same order)
+            for k in ("evidence", "poster"):
+                if not isinstance(c.get(k), str):
+                    continue
+                occ = {}
+                def _uniq(q):
+                    pid = q.group(1)
+                    n = occ.get(pid, 0); occ[pid] = n + 1
+                    key = (pid, n)
+                    if key not in names:
+                        seen[pid] = seen.get(pid, 0) + 1
+                        names[key] = pid if seen[pid] == 1 else f"{pid}-{seen[pid]}"
+                    return "{{PHOTO:" + m["slug"] + "/" + names[key] + "|"
+                c[k] = re.sub(r"\{\{PHOTO:" + re.escape(m["slug"]) + r"/([a-z0-9\-]+)\|", _uniq, c[k])
     errs = validate(ms)
     if errs:
         print("NOT EXPORTED – fix these first:")

@@ -841,10 +841,10 @@ Setting: In the market town of Wexley, clock keeper Horace Penhallow was found d
 ### `death-in-the-clock-tower/photo-cam-sq.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CAM_SQ” at 21:15, from “Market Square camera – tower door” in the detective mystery “Death in the Clock Tower”: Horace opens the tower door with the keypad and goes in. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-### `death-in-the-clock-tower/photo-cam-sq.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+### `death-in-the-clock-tower/photo-cam-sq-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CAM_SQ” at 21:33, from “Market Square camera – tower door” in the detective mystery “Death in the Clock Tower”: A man in a cap goes in. He comes out at 21:48 and drives off in a blue van. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-### `death-in-the-clock-tower/photo-cam-sq.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+### `death-in-the-clock-tower/photo-cam-sq-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CAM_SQ” at 22:06, from “Market Square camera – tower door” in the detective mystery “Death in the Clock Tower”: Someone in a long coat and hat goes in, holding a shiny cup. Out again at 22:19. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ## The Planetarium Meteorite (library – on the site now)
@@ -1383,7 +1383,7 @@ Setting: At the Hollowmere excavation, Professor Cornelius Abernathy was found d
 ### `death-at-the-dig/photo-lake.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “LAKE” at 22:18, from “Win's trail cameras – last night” in the detective mystery “Death at the Dig”: A young man in swimming shorts wades into the lake – Tobias. Win sits by his tent. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-### `death-at-the-dig/photo-lake.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+### `death-at-the-dig/photo-lake-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “LAKE” at 23:02, from “Win's trail cameras – last night” in the detective mystery “Death at the Dig”: Tobias climbs out with a towel. Win still by his tent. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ### `death-at-the-dig/photo-track.jpg`  (evidence photo, 1024 × 768 px, 4:3)
