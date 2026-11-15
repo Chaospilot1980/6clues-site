@@ -38,3 +38,6 @@ On screen the clues are opened in order, and fewer clues = more points (100/85/7
 `ev_note(title, [lines], sign, side)` · `ev_receipt([(kind, text), …])` (kinds: h, s, hr, b, "") ·
 `ev_photos(title, [(file, time, caption), …])` (exactly 3 photos).
 Keep tables to 6 rows or fewer, and quotes to 300 characters or fewer.
+
+## Images
+Each case can have a cover (`assets/img/m/<case>/cover.jpg`, 1600×1200) and six suspect portraits (`assets/img/m/<case>/<person-slug>.jpg`, 1024×1024). Until a file exists the site shows a grey silhouette. `export.py` rewrites `tools/mystery_images.md` – the list of missing images with prompts – every time it runs; commit it together with the round.

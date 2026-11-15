@@ -178,6 +178,7 @@ function show(string $slug): void {
         'title' => $m['title'] . ' – free printable mystery game',
         'description' => $m['teaser'] . ' A free level ' . $m['level'] . ' ' . strtolower($m['crime']) . ' mystery with six printable clue posters.',
         'path' => '/mysteries/' . $slug, 'og_type' => 'article',
+        'og_image' => mystery_cover_url($slug) ? '/assets/img/m/' . $slug . '/cover.jpg' : null,
         'jsonld' => [
             ['@context' => 'https://schema.org', '@type' => 'Game', 'name' => $m['title'], 'description' => $m['teaser'],
              'url' => url('/mysteries/' . $slug), 'genre' => 'Murder mystery', 'numberOfPlayers' => ['@type' => 'QuantitativeValue', 'minValue' => 1],
@@ -192,6 +193,7 @@ function show(string $slug): void {
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Mysteries</a> › <?= e($m['title']) ?></nav>
   <p><?= badge_row($m) ?></p>
   <h1><?= e($m['title']) ?></h1>
+  <?php if ($cv = mystery_cover_url($m['slug'])): ?><img class="case-cover" src="<?= e($cv) ?>" alt="<?= e($m['title']) ?>"><?php endif; ?>
   <p class="lead"><?= e($m['teaser']) ?></p>
   <div class="briefing"><?= $m['intro'] ?></div>
   <?php if ($p && isset($p['solved_at'])): ?>
@@ -293,7 +295,7 @@ function play(string $slug): void {
     </div>
     <div class="board" data-start="<?= $answered ? 0 : $shown - 1 ?>">
       <?php for ($i = 0; $i < $shown; $i++): ?>
-        <div class="poster-fit" data-poster="<?= $i ?>" <?= $i !== ($answered ? 0 : $shown - 1) ? 'hidden' : '' ?>><div class="poster-inner"><?= str_replace('{{ANSWER_URL}}', e($answer), $m['clues'][$i]['poster']) ?></div></div>
+        <div class="poster-fit" data-poster="<?= $i ?>" <?= $i !== ($answered ? 0 : $shown - 1) ? 'hidden' : '' ?>><div class="poster-inner"><?= poster_html($m['clues'][$i]['poster'], $answer) ?></div></div>
       <?php endfor; ?>
     </div>
     <div class="clue-texts">
@@ -492,7 +494,7 @@ function print_page(string $slug): void {
   <button onclick="window.print()">Print posters</button>
 </div>
 <?php foreach ($m['clues'] as $c): ?>
-<div class="sheet"><?= str_replace('{{ANSWER_URL}}', e($answer), $c['poster']) ?></div>
+<div class="sheet"><?= poster_html($c['poster'], $answer) ?></div>
 <?php endforeach; ?>
 <script src="/assets/js/qrcode.js"></script>
 <script src="/assets/js/app.js?v=2"></script>

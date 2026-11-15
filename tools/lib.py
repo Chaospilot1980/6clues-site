@@ -1,3 +1,4 @@
+import re
 import json, os, datetime
 
 INK = "#1E1B18"; RED = "#A4161A"; PAPER = "#F3EEE4"; CARD = "#FFFDF8"; MUTED = "#5C554D"
@@ -148,11 +149,16 @@ def header(m, n, qr=False):
 </div>
 </div>"""
 
-def suspect(name, role, quote):
+def slugify(x):
+    import unicodedata
+    x = unicodedata.normalize("NFKD", x).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", x.lower()).strip("-")
+
+def suspect(name, role, quote, face=None):
     return f"""<div style="display: flex; gap: 24px; align-items: stretch; height: 290px">
 <div style="width: 210px; flex-shrink: 0; transform: rotate(-2deg); background: {CARD}; border: 1.5px solid {INK}; padding: 12px 12px 10px; display: flex; flex-direction: column; gap: 8px; position: relative; box-sizing: border-box">
 <div style="position: absolute; top: -9px; left: 97px; width: 18px; height: 18px; border-radius: 50%; background: {RED}"></div>
-<div style="height: 190px; background: #DDD5C7; display: flex; align-items: flex-end; justify-content: center; overflow: hidden">{SILHOUETTE}</div>
+<div style="height: 190px; background: #DDD5C7; display: flex; align-items: flex-end; justify-content: center; overflow: hidden">{"{{FACE:" + face + "}}" if face else SILHOUETTE}</div>
 <div style="{SANS}; font-size: 17px; font-weight: 700; color: {INK}; line-height: 1.2">{name}</div>
 <div style="{SANS}; font-size: 13px; color: {MUTED}; margin-top: -6px">{role}</div>
 </div>
@@ -184,7 +190,7 @@ def poster(m, n, c, qr=False):
     body = f"""<div style="width: {W}px; height: {H}px; box-sizing: border-box; padding: 44px; background: {PAPER}; display: flex; flex-direction: column; gap: 18px; overflow: hidden">
 {header(m, n, qr)}
 <div style="background: {INK}; color: {PAPER}; padding: 14px 18px; {SANS}; font-size: 14px; line-height: 1.5">{m['intro']}</div>
-{suspect(c['name'], c['role'], c['quote'])}
+{suspect(c['name'], c['role'], c['quote'], m['slug'] + '/' + slugify(c['name']))}
 <div style="flex: 1; min-height: 0; display: flex; flex-direction: column">
 <div style="align-self: flex-start; background: {RED}; color: #FFFFFF; {SANS}; font-size: 12px; font-weight: 700; letter-spacing: 0.14em; padding: 6px 12px">EVIDENCE #{n} · {c['label']}</div>
 <div style="flex: 1; min-height: 0; background: {CARD}; border: 1.5px solid {INK}; padding: 18px 20px; box-sizing: border-box; overflow: hidden">{c['evidence']}</div>

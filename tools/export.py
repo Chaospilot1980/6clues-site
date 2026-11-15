@@ -153,4 +153,8 @@ if __name__ == "__main__":
     dailies = [v["daily"] for v in sched.values() if v.get("daily")]
     ahead = sum(1 for d in dailies if d > today)
     print(f"Library: {lib} cases (target {LIBRARY_SIZE})")
+    try:
+        import m_images; m_images.main()
+    except Exception as ex:
+        print("Portrait list not updated:", ex)
     print(f"Daily cases scheduled until {max(dailies) if dailies else '-'} ({ahead} days ahead of today)")

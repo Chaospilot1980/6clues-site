@@ -307,3 +307,19 @@ function mystery_stats(): array {
 }
 const STATS_MIN_PLAYERS = 5;   // below this a mystery's numbers are not shown publicly
 
+
+/** A suspect portrait for the posters (assets/img/m/<case>/<person>.jpg), or the grey silhouette while it is missing. */
+function poster_html(string $html, string $answerUrl): string {
+    $html = str_replace('{{ANSWER_URL}}', e($answerUrl), $html);
+    return preg_replace_callback('#\{\{FACE:([a-z0-9\-]+)/([a-z0-9\-]+)\}\}#', function ($mm) {
+        $f = dirname(__DIR__) . '/assets/img/m/' . $mm[1] . '/' . $mm[2] . '.jpg';
+        if (is_file($f)) return '<img src="/assets/img/m/' . $mm[1] . '/' . $mm[2] . '.jpg?v=' . filemtime($f) . '" alt="" style="width:100%;height:100%;object-fit:cover;object-position:50% 20%;display:block" loading="lazy">';
+        return '<svg width="120" height="130" viewBox="0 0 120 130" aria-hidden="true"><circle cx="60" cy="44" r="30" fill="#B9B0A2"></circle><path d="M8 130 C8 92 30 80 60 80 C90 80 112 92 112 130 Z" fill="#B9B0A2"></path></svg>';
+    }, $html);
+}
+
+/** A daily mystery's cover illustration (assets/img/m/<case>/cover.jpg), or null while it is missing. */
+function mystery_cover_url(string $slug): ?string {
+    $f = dirname(__DIR__) . '/assets/img/m/' . $slug . '/cover.jpg';
+    return is_file($f) ? '/assets/img/m/' . $slug . '/cover.jpg?v=' . filemtime($f) : null;
+}

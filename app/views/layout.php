@@ -24,12 +24,12 @@ function page_start(array $meta): void {
 <meta property="og:title" content="<?= e($meta['title'] ?? $site) ?>">
 <meta property="og:description" content="<?= e($desc) ?>">
 <meta property="og:url" content="<?= e($canon) ?>">
-<meta property="og:image" content="<?= e(url('/assets/img/og.png')) ?>">
+<meta property="og:image" content="<?= e(url(($meta['og_image'] ?? null) ?: '/assets/img/og.png')) ?>">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/special-elite-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/site.css?v=8">
+<link rel="stylesheet" href="/assets/css/site.css?v=9">
 <?php foreach ((array)($meta['jsonld'] ?? []) as $ld): ?>
 <script type="application/ld+json"><?= json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?></script>
 <?php endforeach; ?>
@@ -109,7 +109,8 @@ function mystery_card(array $m, array $prog = []): string {
     $data = ' data-level="' . (int)$m['level'] . '" data-crime="' . e(strtolower($m['crime'])) . '" data-state="' . $state . '"'
         . ' data-added="' . e($m['added'] ?? '') . '" data-players="' . ($st['players'] ?? 0) . '"'
         . ' data-rate="' . ($show ? (int)$st['rate'] : -1) . '" data-stars="' . ($st && $st['ratings'] >= 3 ? $st['stars'] : 0) . '"';
-    return '<article class="card"' . $data . '><div class="card-top">' . badge_row($m) . $status . '</div>'
+    $cv = mystery_cover_url($m['slug']);
+    return '<article class="card' . ($cv ? ' has-cover' : '') . '"' . $data . '>' . ($cv ? '<a class="card-cover" href="/mysteries/' . e($m['slug']) . '" tabindex="-1" aria-hidden="true"><img src="' . e($cv) . '" alt="" loading="lazy"></a>' : '') . '<div class="card-top">' . badge_row($m) . $status . '</div>'
         . '<h3><a href="/mysteries/' . e($m['slug']) . '">' . e($m['title']) . '</a></h3>'
         . '<p>' . e($m['teaser']) . '</p>' . $meta . '</article>';
 }
