@@ -168,10 +168,10 @@ function openOilDoor() {
 }
 function openDesk() {
   if (!F.letter) { F.letter = 1; give('letter'); }
-  note('forged', 'Logbook on the desk, last entry, 15 Nov 23:00: “Calm sea. Glass steady at 1021 mb. All well. Lamp lit.” – The handwriting is neat, unlike Abel’s other entries.');
+  note('forged', 'Logbook on the desk, last entry, 14 Nov 23:00: “Calm sea. Glass steady at 1021 mb. All well. Lamp lit.” – The handwriting is neat, unlike Abel’s other entries.');
   note('letter', 'Trinity House letter: “SS Marigold, official no. 4127, call sign MGQX, passes Gull Rock about 02:00 on 15 Nov. Keep the light.”');
   note('drawing', 'Child’s drawing on the desk: four flags in a row, signed “Tamsin, age 7 – Grandpa’s secret word for the hut”.');
-  modal(`<h2>The keeper’s desk</h2><h3>Logbook</h3><p class="paper">15 Nov · 23:00 · Calm sea. Glass steady at 1021 mb. All well. Lamp lit.</p><h3>Letter from Trinity House</h3><p class="paper">The SS Marigold, official no. 4127, call sign MGQX, will pass Gull Rock about 02:00 on 15 November. Keep the light.</p><h3>Child’s drawing</h3><svg viewBox="0 0 320 70" class="close" style="max-width:420px">${['G', 'U', 'L', 'L'].map((k, i) => flag(k, 10 + i * 78, 12)).join('')}</svg><p class="small">“Tamsin, age 7 – Grandpa’s secret word for the hut.”</p>`);
+  modal(`<h2>The keeper’s desk</h2><h3>Logbook</h3><p class="paper">14 Nov · 23:00 · Calm sea. Glass steady at 1021 mb. All well. Lamp lit.</p><h3>Letter from Trinity House</h3><p class="paper">The SS Marigold, official no. 4127, call sign MGQX, will pass Gull Rock about 02:00 on 15 November. Keep the light.</p><h3>Child’s drawing</h3><svg viewBox="0 0 320 70" class="close" style="max-width:420px">${['G', 'U', 'L', 'L'].map((k, i) => flag(k, 10 + i * 78, 12)).join('')}</svg><p class="small">“Tamsin, age 7 – Grandpa’s secret word for the hut.”</p>`);
 }
 function openChart() {
   note('chart', 'Signal flag chart: G yellow/blue stripes · U red/white quarters · L yellow/black quarters · T red-white-blue · I yellow with black ball · D blue-yellow-blue · E blue over red · S white with blue square.');
