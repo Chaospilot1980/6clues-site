@@ -25,6 +25,48 @@ def load_all():
     return out
 
 
+CLUE_REF = re.compile(r"\b([Cc]lues?)(\s+)(\d(?:(?:,\s*|\s+and\s+|\s*&\s*)\d)*)")
+
+
+def _remap(v, mp):
+    """Renumbers every 'clue N' / 'clues N, M and K' reference in a string (or nested list/dict)."""
+    if isinstance(v, str):
+        def fix(mm):
+            ns = sorted(mp.get(int(d), int(d)) for d in re.findall(r"\d", mm.group(3)))
+            if len(ns) == 1:
+                nums = str(ns[0])
+            else:
+                nums = ", ".join(map(str, ns[:-1])) + " and " + str(ns[-1])
+            return mm.group(1) + mm.group(2) + nums
+        return CLUE_REF.sub(fix, v)
+    if isinstance(v, list):
+        return [_remap(x, mp) for x in v]
+    if isinstance(v, dict):
+        return {k: _remap(x, mp) for k, x in v.items()}
+    return v
+
+
+def spread_culprit(m):
+    """Moves the culprit's poster to a fixed pseudo-random position 2–6 (seeded by the slug), so the culprit is
+    not always the last clue. Swaps whole posters (statement + evidence) and renumbers all 'clue N' references."""
+    import hashlib
+    names = [c["name"] for c in m["clues"]]
+    if m["solution"]["killer"] not in names:
+        return m
+    cur = names.index(m["solution"]["killer"])
+    if cur == 0:
+        return m   # culprit on clue 1 was a deliberate design choice – leave it
+    target = 1 + int(hashlib.md5(m["slug"].encode()).hexdigest(), 16) % 5   # index 1..5 = clue 2..6
+    if target == cur:
+        return m
+    mp = {cur + 1: target + 1, target + 1: cur + 1}
+    clues = list(m["clues"])
+    clues[cur], clues[target] = clues[target], clues[cur]
+    out = {k: (_remap(v, mp) if k not in ("clues", "slug", "_file") else v) for k, v in m.items()}
+    out["clues"] = [_remap(c, mp) for c in clues]
+    return out
+
+
 def validate(ms):
     errors, slugs = [], set()
     for m in ms:
@@ -120,7 +162,8 @@ def export(ms, target):
             "title": m["title_plain"], "teaser": m["teaser"], "intro": m["intro"], "intro_text": strip(m["intro"]),
             "added": m.get("added", ""),
             "daily": sched[m["slug"]]["daily"], "public": sched[m["slug"]]["public"],
-            "suspects": [{"name": c["name"], "role": c["role"]} for c in m["clues"]],
+            # alphabetical, so the position in the answer list never hints at the culprit
+            "suspects": sorted([{"name": c["name"], "role": c["role"]} for c in m["clues"]], key=lambda x: x["name"].lower()),
             "clues": [{"name": c["name"], "role": c["role"], "quote": c["quote"], "label": c["label"],
                        "evidence": c["evidence"], "poster": posters[i]} for i, c in enumerate(m["clues"])],
             "solution": m["solution"],
@@ -132,7 +175,7 @@ def export(ms, target):
 
 
 if __name__ == "__main__":
-    ms = load_all()
+    ms = [spread_culprit(m) for m in load_all()]
     errs = validate(ms)
     if errs:
         print("NOT EXPORTED – fix these first:")

@@ -41,3 +41,6 @@ Keep tables to 6 rows or fewer, and quotes to 300 characters or fewer.
 
 ## Images
 Each case can have a cover (`assets/img/m/<case>/cover.jpg`, 1600×1200) and six suspect portraits (`assets/img/m/<case>/<person-slug>.jpg`, 1024×1024). Until a file exists the site shows a grey silhouette. `export.py` rewrites `tools/mystery_images.md` – the list of missing images with prompts – every time it runs; commit it together with the round.
+
+## Culprit position
+Don't worry about which clue number the culprit gets. `export.py` (`spread_culprit`) moves the culprit's poster to a pseudo-random clue 2–6 and renumbers every “clue N” reference, and all answer lists are shown alphabetically. So always write references as “clue N” / “clues N and M”, never “the last clue”.

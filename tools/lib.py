@@ -200,7 +200,7 @@ def poster(m, n, c, qr=False):
     return HEAD.format(title=f"Clue {n} – {c['name']}") + body + TAIL.format(w=W, h=H)
 
 def answer_sheet(m):
-    names = [c['name'] for c in m['clues']]
+    names = sorted([c['name'] for c in m['clues']], key=str.lower)   # alphabetical – no positional hint
     boxes = "".join(f'<div style="display: flex; align-items: center; gap: 8px; {SANS}; font-size: 14px; color: {INK}"><div style="width: 16px; height: 16px; border: 2px solid {INK}; flex-shrink: 0"></div>{x}</div>' for x in names)
     line = f'<div style="border-bottom: 1.5px solid {INK}; height: 26px"></div>'
     card = f"""<div style="flex: 1; display: flex; flex-direction: column; gap: 12px; border: 3px solid {INK}; background: {CARD}; padding: 22px 26px; box-sizing: border-box">

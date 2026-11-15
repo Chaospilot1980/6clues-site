@@ -14,7 +14,9 @@ function gn_slugs(): array {
 }
 function gn_case(string $slug): ?array {
     if (!preg_match('/^[a-z0-9\-]+$/', $slug) || !in_array($slug, gn_slugs(), true)) return null;
-    return require __DIR__ . '/gamenight/' . $slug . '.php';
+    $c = require __DIR__ . '/gamenight/' . $slug . '.php';
+    usort($c['suspects'], fn($a, $b) => strcasecmp($a['name'], $b['name']));   // alphabetical – the order never hints at the culprit
+    return $c;
 }
 function gn_solution(string $slug): array { return require __DIR__ . '/gamenight/' . $slug . '.solution.php'; }
 
