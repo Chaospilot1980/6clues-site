@@ -197,7 +197,7 @@ function openLevers() {
     m.querySelectorAll('[data-l]').forEach(b => b.addEventListener('click', () => { const i = +b.dataset.l; v[i] = v[i] ? 0 : 1; F.levers = v.slice(); dirty = true; draw(); }));
     m.querySelector('#throw').addEventListener('click', () => {
       if (v.join('') === '00011') { F.power = 1; closeModal(); say('A spark, a hum – somewhere back in the van, a telegraph receiver starts to chatter.'); save(); }
-      else m.querySelector('#lres').textContent = 'A fuse pops. Nothing else happens.';
+      else { for (let i = 0; i < 5; i++) v[i] = 1; F.levers = v.slice(); dirty = true; draw(); m.querySelector('#lres').textContent = 'Bang – a fuse pops, and all five levers spring back up.'; }
     }); draw();
   });
 }
