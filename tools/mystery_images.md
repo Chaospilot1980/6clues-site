@@ -760,6 +760,256 @@ Setting: At the circus winter quarters, an old farm outside town, owner Augustus
 ### `death-at-the-winter-circus/tomas-grill.jpg`
 > Portrait of Tomas Grill, Night watchman, a character in the detective mystery “Death at the Winter Circus”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
+## Death in the Clock Tower (library – on the site now)
+
+Setting: In the market town of Wexley, clock keeper Horace Penhallow was found dead in the clock room of the Town Hall tower on Friday morning.
+
+### `death-in-the-clock-tower/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death in the Clock Tower” (murder): In the market town of Wexley, clock keeper Horace Penhallow was found dead in the clock room of the Town Hall tower on Friday morning. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-in-the-clock-tower/clive-ashdown.jpg`
+> Portrait of Clive Ashdown, Councillor, Clock Committee chair, a character in the detective mystery “Death in the Clock Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-clock-tower/gideon-pratt.jpg`
+> Portrait of Gideon Pratt, Assistant clock keeper, a character in the detective mystery “Death in the Clock Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-clock-tower/ned-fowler.jpg`
+> Portrait of Ned Fowler, Landlord of the Crown, a character in the detective mystery “Death in the Clock Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-clock-tower/prue-bassett.jpg`
+> Portrait of Prue Bassett, Town Hall cleaner, a character in the detective mystery “Death in the Clock Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-clock-tower/rosamund-hale.jpg`
+> Portrait of Rosamund Hale, Mayor of Wexley, a character in the detective mystery “Death in the Clock Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-clock-tower/wilf-penhallow.jpg`
+> Portrait of Wilf Penhallow, Horace's nephew, a character in the detective mystery “Death in the Clock Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Planetarium Meteorite (library – on the site now)
+
+Setting: At the Kelbridge Planetarium, the Kelbridge Stone – an iron meteorite worth £60,000 – was swapped for a painted fake in its foyer case on a summer Saturday evening.
+
+### `the-planetarium-meteorite/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Planetarium Meteorite” (theft): At the Kelbridge Planetarium, the Kelbridge Stone – an iron meteorite worth £60,000 – was swapped for a painted fake in its foyer case on a summer Saturday evening. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-planetarium-meteorite/agnes-holloway.jpg`
+> Portrait of Agnes Holloway, Curator, a character in the detective mystery “The Planetarium Meteorite”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-planetarium-meteorite/barney-cole.jpg`
+> Portrait of Barney Cole, Security guard, a character in the detective mystery “The Planetarium Meteorite”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-planetarium-meteorite/dora-finch.jpg`
+> Portrait of Dora Finch, Volunteer usher, a character in the detective mystery “The Planetarium Meteorite”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-planetarium-meteorite/ivy-quist.jpg`
+> Portrait of Ivy Quist, Show presenter, a character in the detective mystery “The Planetarium Meteorite”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-planetarium-meteorite/leo-marchetti.jpg`
+> Portrait of Leo Marchetti, Presenter and shop assistant, a character in the detective mystery “The Planetarium Meteorite”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-planetarium-meteorite/sam-okoye.jpg`
+> Portrait of Sam Okoye, Technician, a character in the detective mystery “The Planetarium Meteorite”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Tidal Island Bell (library – on the site now)
+
+Setting: Brannoc Isle is joined to the village of Saltmere by a causeway that is only safe around low tide.
+
+### `the-tidal-island-bell/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Tidal Island Bell” (burglary): Brannoc Isle is joined to the village of Saltmere by a causeway that is only safe around low tide. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-tidal-island-bell/cressida-vane.jpg`
+> Portrait of Cressida Vane, Lives on Quay Row, a character in the detective mystery “The Tidal Island Bell”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-tidal-island-bell/davey-rowe.jpg`
+> Portrait of Davey Rowe, Lifeboat mechanic, a character in the detective mystery “The Tidal Island Bell”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-tidal-island-bell/felix-hargreave.jpg`
+> Portrait of Felix Hargreave, Antiques dealer, guest, a character in the detective mystery “The Tidal Island Bell”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-tidal-island-bell/jago-treloar.jpg`
+> Portrait of Jago Treloar, Silver restorer, Saltmere, a character in the detective mystery “The Tidal Island Bell”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-tidal-island-bell/morwenna-hicks.jpg`
+> Portrait of Morwenna Hicks, Guesthouse owner, a character in the detective mystery “The Tidal Island Bell”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-tidal-island-bell/ruth-penrose.jpg`
+> Portrait of Ruth Penrose, Island warden, a character in the detective mystery “The Tidal Island Bell”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Chocolate Formula (library – on the site now)
+
+Setting: At Velvetine Chocolate Works, someone photographed the secret formula for ‘Midnight Velvet’ in the recipe vault.
+
+### `the-chocolate-formula/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Chocolate Formula” (espionage): At Velvetine Chocolate Works, someone photographed the secret formula for ‘Midnight Velvet’ in the recipe vault. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-chocolate-formula/gwen-hollis.jpg`
+> Portrait of Gwen Hollis, Receptionist, a character in the detective mystery “The Chocolate Formula”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-chocolate-formula/jonah-moss.jpg`
+> Portrait of Jonah Moss, Packer, a character in the detective mystery “The Chocolate Formula”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-chocolate-formula/lucien-faure.jpg`
+> Portrait of Lucien Faure, Head chocolatier, a character in the detective mystery “The Chocolate Formula”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-chocolate-formula/marcus-kerr.jpg`
+> Portrait of Marcus Kerr, Production supervisor, a character in the detective mystery “The Chocolate Formula”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-chocolate-formula/octavia-bloom.jpg`
+> Portrait of Octavia Bloom, Owner and CEO, a character in the detective mystery “The Chocolate Formula”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-chocolate-formula/pippa-strand.jpg`
+> Portrait of Pippa Strand, Quality manager, a character in the detective mystery “The Chocolate Formula”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death at the Ice Hotel (library – on the site now)
+
+Setting: Far in the north, at the Kaamos Ice Hotel, owner Magnus Holt was found dead in the ice-carving workshop on a snowy Saturday night.
+
+### `death-at-the-ice-hotel/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Ice Hotel” (murder): Far in the north, at the Kaamos Ice Hotel, owner Magnus Holt was found dead in the ice-carving workshop on a snowy Saturday night. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-ice-hotel/aino-virta.jpg`
+> Portrait of Aino Virta, Chef, a character in the detective mystery “Death at the Ice Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-ice-hotel/elias-nyberg.jpg`
+> Portrait of Elias Nyberg, Barman, a character in the detective mystery “Death at the Ice Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-ice-hotel/kirsi-aho.jpg`
+> Portrait of Kirsi Aho, Guest, nature photographer, a character in the detective mystery “Death at the Ice Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-ice-hotel/pekka-laine.jpg`
+> Portrait of Pekka Laine, Night porter, a character in the detective mystery “Death at the Ice Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-ice-hotel/signe-dahl.jpg`
+> Portrait of Signe Dahl, Co-owner, a character in the detective mystery “Death at the Ice Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-ice-hotel/viggo-holt.jpg`
+> Portrait of Viggo Holt, Magnus's son, a character in the detective mystery “Death at the Ice Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Balloon Fiesta Sabotage (library – on the site now)
+
+Setting: At the Hilltop Balloon Fiesta, the favourite balloon Sunflower could not take part in Sunday's dawn race: someone had slashed its fabric as it lay on the launch field.
+
+### `the-balloon-fiesta-sabotage/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Balloon Fiesta Sabotage” (sabotage): At the Hilltop Balloon Fiesta, the favourite balloon Sunflower could not take part in Sunday's dawn race: someone had slashed its fabric as it lay on the launch field. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-balloon-fiesta-sabotage/desmond-gale.jpg`
+> Portrait of Desmond Gale, Pilot of Blue Moth, a character in the detective mystery “The Balloon Fiesta Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-balloon-fiesta-sabotage/gus-barlow.jpg`
+> Portrait of Gus Barlow, Sunflower's crew chief, a character in the detective mystery “The Balloon Fiesta Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-balloon-fiesta-sabotage/hamish-reid.jpg`
+> Portrait of Hamish Reid, Launch director, a character in the detective mystery “The Balloon Fiesta Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-balloon-fiesta-sabotage/poppy-lark.jpg`
+> Portrait of Poppy Lark, Sunflower's pilot, a character in the detective mystery “The Balloon Fiesta Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-balloon-fiesta-sabotage/rosa-quill.jpg`
+> Portrait of Rosa Quill, Pilot of Red Kite, a character in the detective mystery “The Balloon Fiesta Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-balloon-fiesta-sabotage/theo-wilde.jpg`
+> Portrait of Theo Wilde, Press photographer, a character in the detective mystery “The Balloon Fiesta Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Pink Puffin Stamp (library – on the site now)
+
+Setting: At the Pembury Stamp Fair, dealer Cedric Vale offered the rare 1890 ‘Pink Puffin’ for sale.
+
+### `the-pink-puffin-stamp/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Pink Puffin Stamp” (forgery): At the Pembury Stamp Fair, dealer Cedric Vale offered the rare 1890 ‘Pink Puffin’ for sale. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-pink-puffin-stamp/cedric-vale.jpg`
+> Portrait of Cedric Vale, Stamp dealer, a character in the detective mystery “The Pink Puffin Stamp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pink-puffin-stamp/dr-ilse-brandt.jpg`
+> Portrait of Dr Ilse Brandt, Stamp expert, a character in the detective mystery “The Pink Puffin Stamp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pink-puffin-stamp/hester-crane.jpg`
+> Portrait of Hester Crane, Collector, a character in the detective mystery “The Pink Puffin Stamp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pink-puffin-stamp/kwame-asante.jpg`
+> Portrait of Kwame Asante, Fair organiser, a character in the detective mystery “The Pink Puffin Stamp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pink-puffin-stamp/mabel-ostrow.jpg`
+> Portrait of Mabel Ostrow, Retired postmistress, a character in the detective mystery “The Pink Puffin Stamp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pink-puffin-stamp/rufus-penge.jpg`
+> Portrait of Rufus Penge, Collector and speaker, a character in the detective mystery “The Pink Puffin Stamp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Sleeping Swan (library – on the site now)
+
+Setting: At the Royal Albion Theatre, prima ballerina Tatiana Belova was given sleeping drops in her interval tea on the opening night of Swan Lake.
+
+### `the-sleeping-swan/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Sleeping Swan” (poisoning): At the Royal Albion Theatre, prima ballerina Tatiana Belova was given sleeping drops in her interval tea on the opening night of Swan Lake. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-sleeping-swan/bernie-coyle.jpg`
+> Portrait of Bernie Coyle, Stage doorkeeper, a character in the detective mystery “The Sleeping Swan”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-sleeping-swan/irina-sokol.jpg`
+> Portrait of Irina Sokol, Wardrobe mistress, a character in the detective mystery “The Sleeping Swan”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-sleeping-swan/lena-sokol.jpg`
+> Portrait of Lena Sokol, Understudy, a character in the detective mystery “The Sleeping Swan”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-sleeping-swan/owen-price.jpg`
+> Portrait of Owen Price, Stage manager, a character in the detective mystery “The Sleeping Swan”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-sleeping-swan/polly-burns.jpg`
+> Portrait of Polly Burns, Dresser, a character in the detective mystery “The Sleeping Swan”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-sleeping-swan/tatiana-belova.jpg`
+> Portrait of Tatiana Belova, Prima ballerina, a character in the detective mystery “The Sleeping Swan”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Rose Show Vandal (library – on the site now)
+
+Setting: At the Thornbury Park Rose Show, someone cut the heads off all 24 blooms of Edith Paget's ‘Crimson Duchess’ roses the night before judging.
+
+### `the-rose-show-vandal/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Rose Show Vandal” (vandalism): At the Thornbury Park Rose Show, someone cut the heads off all 24 blooms of Edith Paget's ‘Crimson Duchess’ roses the night before judging. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-rose-show-vandal/agatha-bramble.jpg`
+> Portrait of Agatha Bramble, Last year's runner-up, a character in the detective mystery “The Rose Show Vandal”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-rose-show-vandal/dr-rupert-wynn.jpg`
+> Portrait of Dr Rupert Wynn, Head judge, a character in the detective mystery “The Rose Show Vandal”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-rose-show-vandal/edith-paget.jpg`
+> Portrait of Edith Paget, Grower of Crimson Duchess, a character in the detective mystery “The Rose Show Vandal”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-rose-show-vandal/hugh-paget.jpg`
+> Portrait of Hugh Paget, Edith's husband, a character in the detective mystery “The Rose Show Vandal”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-rose-show-vandal/neville-ash.jpg`
+> Portrait of Neville Ash, Rival rose grower, a character in the detective mystery “The Rose Show Vandal”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-rose-show-vandal/stan-hobbs.jpg`
+> Portrait of Stan Hobbs, Night watchman, a character in the detective mystery “The Rose Show Vandal”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death at the Model Railway Show (library – on the site now)
+
+Setting: At the Drayford Model Railway Show in the old Corn Exchange, organiser Barnaby Thorpe was found dead in the committee room upstairs on Saturday afternoon.
+
+### `death-at-the-model-railway-show/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Model Railway Show” (murder): At the Drayford Model Railway Show in the old Corn Exchange, organiser Barnaby Thorpe was found dead in the committee room upstairs on Saturday afternoon. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-model-railway-show/cyril-batten.jpg`
+> Portrait of Cyril Batten, Exhibitor, ‘Little Snoring Junction’, a character in the detective mystery “Death at the Model Railway Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-model-railway-show/ivor-grant.jpg`
+> Portrait of Ivor Grant, Exhibitor, ‘Pennine Viaduct’, a character in the detective mystery “Death at the Model Railway Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-model-railway-show/joan-pettigrew.jpg`
+> Portrait of Joan Pettigrew, Club treasurer, a character in the detective mystery “Death at the Model Railway Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-model-railway-show/major-hector-lyle.jpg`
+> Portrait of Major Hector Lyle, Best Layout judge, a character in the detective mystery “Death at the Model Railway Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-model-railway-show/roderick-pye.jpg`
+> Portrait of Roderick Pye, Trader and demonstrator, a character in the detective mystery “Death at the Model Railway Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-model-railway-show/tessa-moon.jpg`
+> Portrait of Tessa Moon, Café volunteer, a character in the detective mystery “Death at the Model Railway Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -1536,4 +1786,4 @@ Setting: On league night at Starlight Lanes, owner Stanley Pratt was found dead 
 > Portrait of Tess Archer, League scorer, a character in the detective mystery “Death at the Bowling Alley”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ---
-Status: 0 of 427 images delivered (one cover and six portraits per case).
+Status: 0 of 497 images delivered (one cover and six portraits per case).
