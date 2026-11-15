@@ -1,4 +1,4 @@
-# Six Clues – escape room scenes (6 images)
+# Six Clues – escape room scenes (7 images)
 
 Each image: 1600 × 900 px (16:9), JPG under 600 KB. Painted, cinematic noir illustration, same style as the Six Clues portraits. No people, no readable text, no logos. Objects MUST sit where described (left/centre/right, top/bottom) – players click on those areas. Leave the bottom 25 % of the image as floor, quieter in detail.
 ZIP folders: the-last-night-train/ and the-clockmakers-last-hour/
@@ -11,6 +11,9 @@ Orient Express dining car at night, white tablecloths, art-deco lamps, three win
 
 ## the-last-night-train/van.jpg
 Mail and luggage van of a 1930s train, dim, a single hanging lamp, wooden ribs. Left half: a stack of five suitcases and trunks with paper luggage tags. Centre-right: a small desk with a brass telegraph key and paper tape curling from the receiver. Far right: a heavy grey postal safe. Bottom left: open floor towards the dining car door.
+
+## the-last-night-train/engine.jpg
+Cab of a 1930s steam locomotive at night. Centre: the open firebox glowing orange. Top left and top right: round brass pressure gauges. Left: a small chalk slate hung on the wall. Right: a bank of five brass levers with red knobs over a steel panel. Bottom left: the way back to the tender.
 
 ## the-clockmakers-last-hour/workshop.jpg
 Copenhagen clockmaker's attic workshop, New Year's Eve 1931, snow on the window, warm lamp light. Top-left: a wall with five round clocks (red, blue, green, yellow rims and one plain). Top centre: small attic window with moon and snow. Centre-right top: a carved cuckoo clock. Right of it: a dark coat on a hook. Centre-bottom: a long workbench with a drawer (four-number lock), a small brass maker's plate and a letter. Far right: a closed wooden door.

@@ -16,7 +16,8 @@ const ITEMS = {
   smallKey: ['🗝️', 'Small brass key', 'Tiny – too small for a door. It was hidden in the sugar bowl.'],
   watch: ['⌚', 'Pocket watch', 'Stopped at 2:47. Engraved inside the lid: “For the van – the hour I stopped. E.”'],
   morse: ['📇', 'Morse card', 'The conductor’s card with the Morse alphabet. It is copied into your notebook.'],
-  stamp: ['🃏', 'Stamped card', 'A blank visiting card with one rubber stamp in violet ink: a key.'],
+  stamp: ['🃏', 'Stamped card', 'A visiting card stamped with a violet key. On the back, in pencil: “Three steps back.”'],
+  engineKey: ['🔧', 'Square engine key', 'A heavy square-shanked key from the staff locker, stamped “LOCO”.'],
 };
 const has = i => S.inv.includes(i);
 const give = i => { if (!has(i)) S.inv.push(i); dirty = true; renderInv(); };
@@ -71,10 +72,22 @@ const ROOMS = {
       { id: 'table', x: 720, y: 430, w: 380, h: 230, art: () => `<rect x="730" y="480" width="360" height="40" fill="#efe8d8"/><rect x="760" y="520" width="20" height="130" fill="#3a2416"/><rect x="1040" y="520" width="20" height="130" fill="#3a2416"/><ellipse cx="860" cy="470" rx="34" ry="14" fill="#d9d2c0"/><path d="M845 470 v-26 h30 v26" fill="#c9c2b0"/><circle cx="970" cy="465" r="22" fill="#a33" opacity=".6"/>${label(910, 690, 'Table (sugar bowl, menu)')}`,
         act: () => { if (F.sugar) return say('Just sugar cubes now. And a menu: Bouillon · Truite meunière · Crème brûlée.'); F.sugar = 1; give('smallKey'); say('Under the sugar cubes in the bowl: a tiny brass key.'); } },
       { id: 'lectern', x: 1130, y: 330, w: 200, h: 330, art: () => `<path d="M1150 360 h160 l-20 60 h-120 z" fill="#5b3c25"/><rect x="1215" y="420" width="30" height="230" fill="#4a3020"/><rect x="1165" y="340" width="130" height="30" fill="#e9dcb8" transform="rotate(-8 1230 355)"/>${label(1230, 690, 'Steward’s lectern')}`, act: () => openPassengers() },
-      { id: 'conductor', x: 1360, y: 120, w: 140, h: 330, art: () => `<circle cx="1430" cy="135" r="8" fill="#c9a24a"/><path d="M1430 140 L1385 190 L1375 430 L1485 430 L1475 190 Z" fill="#1f2a44"/><rect x="1400" y="250" width="60" height="8" fill="#c9a24a"/>${label(1430, 460, 'Conductor’s jacket')}`,
-        act: () => { if (F.morse) return say('The jacket is empty. A whistle on a cord, nothing else.'); F.morse = 1; give('morse'); note('morse', 'Morse card: A ·−  B −···  C −·−·  D −··  E ·  F ··−·  G −−·  H ····  I ··  J ·−−−  K −·−  L ·−··  M −−  N −·  O −−−  P ·−−·  Q −−·−  R ·−·  S ···  T −  U ··−  V ···−  W ·−−  X −··−  Y −·−−  Z −−··'); say('In the breast pocket: a worn card with the Morse alphabet. You copy it into your notebook.'); } },
+      { id: 'locker', x: 1360, y: 110, w: 150, h: 350, art: () => `<rect x="1370" y="120" width="130" height="320" fill="#4a4a48" stroke="#222" stroke-width="6"/>${[0, 1, 2].map(i => `<rect x="${1390 + i * 32}" y="250" width="26" height="34" rx="4" fill="#c9a24a"/>`).join('')}${F.locker ? '<rect x="1378" y="128" width="114" height="304" fill="#1f2a44"/>' : ''}${label(1435, 470, 'Staff locker')}`,
+        act: () => { if (!F.locker) return openLocker(); if (F.morse) return say('The conductor’s jacket hangs in the locker. Nothing else.'); F.morse = 1; give('morse'); give('engineKey'); note('morse', 'Morse card: A ·−  B −···  C −·−·  D −··  E ·  F ··−·  G −−·  H ····  I ··  J ·−−−  K −·−  L ·−··  M −−  N −·  O −−−  P ·−−·  Q −−·−  R ·−·  S ···  T −  U ··−  V ···−  W ·−−  X −··−  Y −·−−  Z −−··'); say('Inside, on the conductor’s jacket: a worn Morse card (copied into your notebook) and a square engine key stamped LOCO.'); } },
       { id: 'toVan', x: 1520, y: 300, w: 80, h: 380, art: () => `<rect x="1525" y="320" width="70" height="340" fill="${F.vanOpen ? '#140d08' : '#4a3020'}" stroke="#2a1a10" stroke-width="6"/>${F.vanOpen ? '' : '<rect x="1535" y="470" width="50" height="40" rx="6" fill="#c9a24a"/>'}<text x="1560" y="300" text-anchor="middle" class="lbl">Van →</text>`,
         act: () => F.vanOpen ? go('van') : openVanDoor() },
+    ],
+  },
+  engine: {
+    name: 'The locomotive cab',
+    bg: () => `<rect width="1600" height="900" fill="#141414"/><rect x="560" y="300" width="480" height="300" rx="20" fill="#2a1a10"/><ellipse cx="800" cy="470" rx="170" ry="110" fill="#ff7a1a" opacity=".35"/><ellipse cx="800" cy="470" rx="90" ry="60" fill="#ffb347" opacity=".45"/><rect y="660" width="1600" height="240" fill="#0d0d0d"/>${[200, 330, 1270, 1400].map(x => `<circle cx="${x}" cy="200" r="50" fill="#d9cfb2" stroke="#5a5040" stroke-width="10"/><line x1="${x}" y1="200" x2="${x + 30}" y2="175" stroke="#222" stroke-width="5"/>`).join('')}`,
+    spots: [
+      { id: 'back', x: 20, y: 760, w: 260, h: 110, art: () => `<text x="40" y="830" class="lbl big">← Luggage van</text>`, act: () => go('van') },
+      { id: 'slate', x: 120, y: 330, w: 300, h: 230, art: () => `<rect x="130" y="340" width="280" height="190" fill="#2a2d2f" stroke="#6b4a2a" stroke-width="10"/>${[0, 1, 2, 3].map(i => `<line x1="150" y1="${380 + i * 34}" x2="${380 - i * 30}" y2="${380 + i * 34}" stroke="#ddd" stroke-width="3" opacity=".7"/>`).join('')}${label(270, 580, 'Driver’s slate')}`,
+        act: () => { note('slate', 'Driver’s chalk slate: “Current to the van: levers UP for every stop we make after midnight. All others DOWN. – K.”'); say('Chalk on the slate: “Current to the van: levers UP for every stop we make after midnight. All others DOWN. – K.”'); } },
+      { id: 'levers', x: 1120, y: 330, w: 400, h: 300, art: () => `<rect x="1130" y="420" width="380" height="140" fill="#3a3a38"/>${[0, 1, 2, 3, 4].map(i => `<rect x="${1150 + i * 72}" y="${(F.levers || [])[i] ? 340 : 440}" width="16" height="90" fill="#c9a24a"/><circle cx="${1158 + i * 72}" cy="${(F.levers || [])[i] ? 340 : 530}" r="14" fill="#a33"/>`).join('')}${label(1320, 600, F.power ? 'Lever bank (current on)' : 'Lever bank')}`, act: () => openLevers() },
+      { id: 'firebox', x: 560, y: 300, w: 480, h: 300, art: () => label(800, 640, 'Firebox'),
+        act: () => { note('ash', 'Half-burnt scrap by the firebox: “…Lang… no such man… comp. 1…” – the rest is ash.'); say('A half-burnt scrap of paper lies by the firebox door: “…Lang… no such man… comp. 1…” The rest is ash.'); } },
     ],
   },
   van: {
@@ -84,6 +97,9 @@ const ROOMS = {
       { id: 'back', x: 20, y: 760, w: 260, h: 110, art: () => `<text x="40" y="830" class="lbl big">← Dining car</text>`, act: () => go('dining') },
       { id: 'luggage', x: 80, y: 240, w: 640, h: 420, art: () => [[100, 520, 200, 130, '#6b4a2a'], [320, 540, 170, 110, '#3a4a5a'], [510, 500, 190, 150, '#5a2a2a'], [150, 390, 170, 120, '#4a5a3a'], [380, 410, 230, 120, '#7a6a4a']].map(([x, y, w, h, c]) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="10" fill="${c}" stroke="#1a120a" stroke-width="5"/><rect x="${x + w / 2 - 25}" y="${y - 12}" width="50" height="16" rx="6" fill="none" stroke="#c9a24a" stroke-width="5"/><rect x="${x + 12}" y="${y + 14}" width="40" height="26" fill="#e9dcb8"/>`).join('') + label(400, 230, 'Luggage (tagged)'), act: () => openLuggage() },
       { id: 'telegraph', x: 900, y: 300, w: 420, h: 360, art: () => `<rect x="910" y="470" width="400" height="30" fill="#5b3c25"/><rect x="930" y="500" width="20" height="150" fill="#3a2416"/><rect x="1270" y="500" width="20" height="150" fill="#3a2416"/><rect x="980" y="400" width="140" height="70" rx="8" fill="#2a2a2a"/><circle cx="1050" cy="390" r="14" fill="#c9a24a"/><path d="M1140 460 q60 -10 90 0" fill="none" stroke="#e9dcb8" stroke-width="16"/><path d="M1140 440 q70 -20 120 -5" fill="none" stroke="#e9dcb8" stroke-width="12"/>${label(1110, 690, 'Telegraph & paper tapes')}`, act: () => openTelegraph() },
+      { id: 'toEngine', x: 690, y: 90, w: 200, h: 330, art: () => door(700, 110, 180, 300, F.engineOpen, F.engineOpen ? 'Tender → locomotive' : 'Door to the tender'),
+        act: () => F.engineOpen ? go('engine') : say('An iron door to the coal tender. A square keyhole, no handle.'),
+        use: { engineKey: () => { F.engineOpen = 1; take('engineKey'); say('The square key turns with a clank. Heat and noise roll in from the locomotive.'); return true; } } },
       { id: 'safe', x: 1360, y: 320, w: 200, h: 300, art: () => `<rect x="1370" y="330" width="180" height="280" fill="#3a3a38" stroke="#111" stroke-width="8"/><circle cx="1460" cy="460" r="36" fill="#555"/><text x="1460" y="560" text-anchor="middle" font-size="18" fill="#aaa" font-family="Georgia">POSTE</text>${label(1460, 650, 'Mail safe')}`,
         act: () => say('The railway mail safe. Its lock is sealed by the post office – not even the conductor can open it. Not your business tonight.') },
     ],
@@ -164,6 +180,31 @@ function openPassengers() {
   note('passengers', 'Steward’s dinner list (sleeping car 2): ' + PASSENGERS.map(p => `${p[0]} ${p[1]}`).join(' · '));
   modal(`<h2>Steward’s dinner list</h2><p class="small">Sleeping car 2 · first sitting 19:30</p><div class="paper"><table style="width:100%">${PASSENGERS.map(p => `<tr><td>Comp. ${p[0]}</td><td>${p[1]}</td><td>${p[2]}</td></tr>`).join('')}</table></div><p class="small">Compartment 6 is marked “vacant”.</p>`);
 }
+function openLocker() {
+  const w = wheels(3, code => { if (code !== '256') return false; F.locker = 1; closeModal(); say('The three wheels line up and the locker door swings open.'); save(); return true; });
+  modal(`<h2>Staff locker</h2><p>“Personnel only.” Three number wheels. Someone has scratched beside them: <i>“my stops, in order of the line”</i>.</p>${w.html}`, w.bind);
+}
+const LEVERS = ['Niš', 'Caribrod', 'Sofia', 'Plovdiv', 'Svilengrad'];
+function openLevers() {
+  if (F.power) { modal('<h2>Lever bank</h2><p>The levers are set and the current hums toward the van.</p>'); return; }
+  const v = (F.levers || [0, 0, 0, 0, 0]).slice();
+  modal(`<h2>Lever bank</h2><p>Five brass levers, each with a station plate. A cable runs back toward the van.</p><div class="pegs">${LEVERS.map((n, i) => `<button class="peg" data-l="${i}"><b id="lv${i}"></b>${n}</button>`).join('')}</div><button class="btn" id="throw">Throw the main switch</button><p id="lres" class="res"></p>`, m => {
+    const draw = () => v.forEach((x, i) => { m.querySelector('#lv' + i).textContent = x ? '▲ UP' : '▼ DOWN'; });
+    m.querySelectorAll('[data-l]').forEach(b => b.addEventListener('click', () => { const i = +b.dataset.l; v[i] = v[i] ? 0 : 1; F.levers = v.slice(); dirty = true; draw(); }));
+    m.querySelector('#throw').addEventListener('click', () => {
+      if (v.join('') === '00011') { F.power = 1; closeModal(); say('A spark, a hum – somewhere back in the van, a telegraph receiver starts to chatter.'); save(); }
+      else m.querySelector('#lres').textContent = 'A fuse pops. Nothing else happens.';
+    }); draw();
+  });
+}
+function openCipher() {
+  modal(`<h2>The sealed envelope</h2><p>Under the papers lies a sealed envelope with a six-letter word lock. On it, typed:</p><p class="paper" style="font-size:1.6rem;letter-spacing:.3em;text-align:center">J D O D W D</p><input id="cw" maxlength="6" style="font-size:1.4rem;padding:8px;width:12ch;text-transform:uppercase;letter-spacing:.2em" autocomplete="off"> <button class="btn" id="tryw">Try the word</button><p id="wres2" class="res"></p>`, m => {
+    m.querySelector('#tryw').addEventListener('click', () => {
+      if (m.querySelector('#cw').value.trim().toUpperCase() === 'GALATA') { F.won = 1; closeModal(); say('The word lock clicks open.'); save(); setTimeout(win, 1000); }
+      else m.querySelector('#wres2').textContent = 'The lock doesn’t move.';
+    });
+  });
+}
 function openVanDoor() {
   const w = wheels(4, code => { if (code !== '0247') return false; F.vanOpen = 1; closeModal(); say('The four wheels click into place and the van door slides open. Cold air, the smell of coal and leather.'); save(); return true; });
   modal(`<h2>Door to the mail &amp; luggage van</h2><p>“Staff only.” A brass lock with four number wheels.</p>${w.html}`, w.bind);
@@ -185,17 +226,19 @@ function openLuggage() {
 }
 const TAPES = [['Tape marked “TEST · Sofia 23:05”', '·−·· / ·· / −−− / −·'], ['Tape marked “Comp. 7 · Plovdiv 02:40”', '·−· / −−− / ··· / ·']];
 function openTelegraph() {
+  if (!F.power) { say('The telegraph is dead – the receiver’s lamp is dark and the paper tapes are blank. No current from the engine.'); return; }
   note('tapes', 'Telegraph tapes: ' + TAPES.map(t => `${t[0]}: ${t[1]}`).join(' · '));
   modal(`<h2>The telegraph</h2><p>Two paper tapes hang from the receiver. The letters are separated by slashes.</p>${TAPES.map(t => `<p class="small">${t[0]}</p><p class="paper" style="font-size:1.4rem;letter-spacing:.08em">${t[1]}</p>`).join('')}${has('morse') ? '<p class="small">Your Morse card is in the notebook.</p>' : '<p class="small">Without a Morse alphabet this is just dots and dashes.</p>'}`);
 }
 function openCase() {
   if (F.won) return win();
+  if (F.caseOpen) return openCipher();
   const v = S.caseDial || [0, 0, 0];
   modal(`<h2>The courier’s briefcase</h2><p>Three brass dials, marked I, II and III. Each turns through ten engraved symbols.</p><div class="wheels">${[0, 1, 2].map(i => `<div class="wheel"><small>${['I', 'II', 'III'][i]}</small><button data-c="${i}" data-d="1">▲</button><b id="c${i}" style="font-size:2rem"></b><i id="cn${i}" class="small"></i><button data-c="${i}" data-d="-1">▼</button></div>`).join('')}</div><button class="btn" id="tryc">Try the clasps</button><p id="cres" class="res"></p>`, m => {
     const draw = () => v.forEach((x, i) => { m.querySelector('#c' + i).textContent = SYMBOLS[x][1]; m.querySelector('#cn' + i).textContent = SYMBOLS[x][2]; });
     m.querySelectorAll('[data-c]').forEach(b => b.addEventListener('click', () => { const i = +b.dataset.c; v[i] = (v[i] + +b.dataset.d + SYMBOLS.length) % SYMBOLS.length; S.caseDial = v; dirty = true; draw(); }));
     m.querySelector('#tryc').addEventListener('click', () => {
-      if (SYMBOLS[v[0]][0] === 'eagle' && SYMBOLS[v[1]][0] === 'rose' && SYMBOLS[v[2]][0] === 'key') { F.won = 1; closeModal(); say('Click – click – click. The clasps spring open.'); save(); setTimeout(win, 1200); }
+      if (SYMBOLS[v[0]][0] === 'eagle' && SYMBOLS[v[1]][0] === 'rose' && SYMBOLS[v[2]][0] === 'key') { F.caseOpen = 1; note('papers', 'Briefcase: photographs and papers – and a sealed envelope with a six-letter word lock, marked “J D O D W D”.'); say('Click – click – click. The clasps spring open: photographs, papers – and a sealed envelope with a word lock.'); save(); openCipher(); }
       else { const r = m.querySelector('#cres'); r.textContent = 'The clasps stay shut.'; r.classList.remove('shake'); void r.offsetWidth; r.classList.add('shake'); }
     }); draw();
   });
@@ -206,7 +249,11 @@ function combine(a, b) { say('Those two don’t go together.'); sel = null; rend
 const STAGES = [
   ['hatbox', () => F.hatOpen, ['The hatbox on the rack has a tiny lock. Look for a tiny key – somewhere you wouldn’t look for keys.', 'Waiters hide things where guests never dig.', 'The small key is in the sugar bowl on the dining table. Use it on the hatbox.']],
   ['van', () => F.vanOpen, ['The van door wants four digits. Something you found speaks of the van.', 'The pocket watch: “For the van – the hour I stopped.”', 'The watch stopped at 2:47. Set the van door to 0 2 4 7.']],
-  ['case', () => F.won, null],
+  ['locker', () => F.locker, ['The staff locker in the dining car wants three digits. Someone scratched “my stops, in order of the line”.', 'The courier’s ticket has three stations punched. Where do they come on the line?', 'In timetable order, the punched stations are stop 2 (Niš), 5 (Plovdiv) and 6 (Svilengrad): 2 5 6.']],
+  ['engine', () => F.engineOpen, ['The locker held more than a Morse card.', 'A square key stamped LOCO – the iron door in the luggage van has a square keyhole.', 'Use the engine key on the door to the tender in the van.']],
+  ['power', () => F.power, ['The telegraph needs current from the locomotive.', 'The driver’s slate says which levers go up. Compare the lever stations with the timetable.', 'Only Plovdiv (02:31) and Svilengrad (05:20) come after midnight: those two UP, the rest DOWN.']],
+  ['case', () => F.caseOpen, null],
+  ['cipher', () => F.won, ['The envelope’s letters are scrambled. Did anything you found talk about steps?', 'The stamped card from Lang’s suitcase: “Three steps back.”', 'Move every letter three back in the alphabet: J D O D W D → G A L A T A.']],
 ];
 const TRACKS = {
   I: ['Line I of the courier’s note: where the train stood when the clock struck three.', 'The timetable tells you where the train was at 03:00. The route poster gives every station a crest.', 'At 03:00 the train stood in Plovdiv (arr. 02:31, dep. 03:09). Plovdiv’s crest is the Eagle.'],
@@ -282,7 +329,7 @@ function win() {
   post('finish', { time_ms: Math.round(t), hints: S.hintCount, overtime: S.over });
   const c = $('cover');
   c.innerHTML = `<div class="pausebox win"><p class="kicker">The briefcase is open</p><h2>You escaped, ${NAME}!</h2>
-    <p>Inside: the courier’s papers, the photographs he risked everything for – and a note: “If you are reading this, I got off at Plovdiv. Get these to Istanbul. – E. Novak.” The train rolls on toward the frontier, and the papers are safe in your coat.</p>
+    <p>Inside: the courier’s papers, the photographs he risked everything for – and a note: “If you are reading this, I got off at Plovdiv. Take these to the Galata Tower, noon, Tuesday. – E. Novak.” The train rolls on toward the frontier, and the papers are safe in your coat.</p>
     <p class="big">${S.over ? 'Overtime' : fmt(t) + ' used'}</p><p>${S.hintCount ? S.hintCount + ' hint' + (S.hintCount > 1 ? 's' : '') + ' (time added)' : 'No hints – impressive.'}</p>
     <p><a class="btn btn-big" href="/escape/${SLUG}">See the leaderboard</a></p><p class="small"><a href="/">Back to Six Clues</a></p></div>`;
   c.hidden = false;
