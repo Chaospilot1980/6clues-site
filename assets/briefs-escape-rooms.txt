@@ -1,4 +1,4 @@
-# Six Clues – escape room scenes (7 images)
+# Six Clues – escape room scenes (11 images)
 
 Each image: 1600 × 900 px (16:9), JPG under 600 KB. Painted, cinematic noir illustration, same style as the Six Clues portraits. No people, no readable text, no logos. Objects MUST sit where described (left/centre/right, top/bottom) – players click on those areas. Leave the bottom 25 % of the image as floor, quieter in detail.
 ZIP folders: the-last-night-train/ and the-clockmakers-last-hour/
@@ -23,3 +23,15 @@ The clockmaker's study: left, a tall bookshelf; left-centre, a globe on a stand;
 
 ## the-clockmakers-last-hour/tower.jpg
 Inside a clock tower at night: the back of a huge translucent clock face fills the centre top; left, a long pendulum rod with an empty hook; centre-bottom, an iron gear train with three empty pegs; right, a small brass door with a heart engraved on it. Moonlight through the clock face, dust in the air.
+
+## the-lighthouse-at-gull-rock/cottage.jpg
+Keeper's cottage at the foot of a Cornish lighthouse, storm night 1912, lamp light, whitewashed stone. Far left: a yellow oilskin coat on a hook. Left-centre top: a framed tide table. Top centre: a small rain-lashed window. Centre-bottom: a desk with a logbook, a letter and a child's crayon drawing of flags. Right of centre top: a tall wooden barometer. Right-centre bottom: a red hand lantern on the floor. Far right top: an iron door to the tower stairs. Far right bottom: a plank door to the oil store. Bottom left: the way out to a cliff path.
+
+## the-lighthouse-at-gull-rock/oil.jpg
+Stone oil store: left half three green oil drums; centre a brass paraffin tank with a tap and a red oil can; right top a printed chart of international signal flags pinned to the wall. Single lantern, dark corners. Exit bottom left.
+
+## the-lighthouse-at-gull-rock/radio.jpg
+Wooden radio hut on a cliff, storm outside. Centre-left: an early wireless set on a desk with brass dials and a small drawer. Centre-right: a printed list pinned to the wall. Right top: a rain-streaked window with lightning over the sea. Exit bottom left.
+
+## the-lighthouse-at-gull-rock/lamp.jpg
+Lighthouse lamp room at night, glass gallery all round, storm outside. Centre: a big Fresnel lens made of four square glass panels. Left: brass clockwork for the rotating shutter. Right: the paraffin burner with its glass chimney. Stairs down at bottom left.

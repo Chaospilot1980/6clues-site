@@ -1547,7 +1547,7 @@ function escape_index(): void {
 <section class="wrap">
   <div class="grid">
   <?php foreach (ESCAPE_ROOMS as $slug => $r): ?>
-    <article class="card"><div class="card-top"><span class="badge"><?= e($r['status']) ?></span><span class="badge badge-crime">Escape room</span></div>
+    <article class="card"><div class="card-top"><span class="badge">Level <?= (int)($r['level'] ?? 1) ?></span><span class="badge badge-crime">Escape room</span><span class="badge"><?= e($r['status']) ?></span></div>
       <h3><a href="/escape/<?= e($slug) ?>"><?= e($r['title']) ?></a></h3><p><?= e($r['teaser']) ?></p>
       <p class="card-stats"><?= $r['minutes'] ?> min · <?= e($r['players']) ?> players · <?= $r['rooms'] ?> rooms · <?= $r['puzzles'] ?> puzzles</p></article>
   <?php endforeach; ?>
@@ -1570,7 +1570,7 @@ function escape_landing(string $slug): void {
     <nav class="crumbs crumbs-light"><a href="/escape">Escape rooms</a> › <?= e($r['title']) ?></nav>
     <h1><?= e($r['title']) ?></h1>
     <p class="gn-tagline"><?= e($r['tagline']) ?></p>
-    <ul class="gn-facts"><li>⏱ <?= $r['minutes'] ?> minutes</li><li>👥 <?= e($r['players']) ?> players</li><li>🚪 <?= $r['rooms'] ?> rooms</li><li>🔒 <?= $r['puzzles'] ?> puzzles</li></ul>
+    <ul class="gn-facts"><li>⭐ Level <?= (int)($r['level'] ?? 1) ?></li><li>⏱ <?= $r['minutes'] ?> minutes</li><li>👥 <?= e($r['players']) ?> players</li><li>🚪 <?= $r['rooms'] ?> rooms</li><li>🔒 <?= $r['puzzles'] ?> puzzles</li></ul>
     <p class="cta-row">
       <?php if (!$u): ?><a class="btn btn-big" href="/login?next=/escape/<?= e($slug) ?>/play">Sign in to play – it's free</a>
       <?php else: ?><a class="btn btn-big" href="/escape/<?= e($slug) ?>/play"><?= $run && !$run['finished_at'] ? 'Continue your escape' : 'Start the escape' ?></a><?php endif; ?>
