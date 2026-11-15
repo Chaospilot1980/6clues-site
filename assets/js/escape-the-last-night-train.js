@@ -118,14 +118,15 @@ const $ = id => document.getElementById(id);
 const say = t => { $('msg').textContent = t; };
 const flashBtn = id => { const b = $(id); b.classList.remove('ping'); void b.offsetWidth; b.classList.add('ping'); };
 const imgOk = {};
-Object.keys(ROOMS).forEach(r => { const im = new Image(); im.onload = () => { imgOk[r] = true; if (S.room === r) render(); }; im.src = IMG + r + '.jpg'; });
+const SCENE = { van: 'van-v2' }; const sceneFile = r => IMG + (SCENE[r] || r) + '.jpg';
+Object.keys(ROOMS).forEach(r => { const im = new Image(); im.onload = () => { imgOk[r] = true; if (S.room === r) render(); }; im.src = sceneFile(r); });
 
 const NAMES = { back: '← Back', down: '← Down', toDining: 'Corridor →', toVan: 'Van →', toEngine: 'Door to the tender', toStudy: 'Study door', toTower: 'Tower door', toOil: 'Oil store', toRadio: 'Radio hut' };
 const spotName = s => { const m = (s.art ? s.art() : '').match(/class="lbl[^"]*"[^>]*>([^<]+)</); return (m ? m[1] : NAMES[s.id] || s.id).replace(/&amp;/g, '&'); };
 function render() {
   const R = ROOMS[S.room];
   $('room').textContent = R.name;
-  const art = imgOk[S.room] ? `<image href="${IMG + S.room}.jpg" width="1600" height="900"/>` : R.bg();
+  const art = imgOk[S.room] ? `<image href="${sceneFile(S.room)}" width="1600" height="900"/>` : R.bg();
   $('stage').innerHTML = `<defs><radialGradient id="lamp"><stop offset="0" stop-color="#ffcf7a" stop-opacity=".22"/><stop offset="1" stop-color="#ffcf7a" stop-opacity="0"/></radialGradient></defs>${art}` +
     R.spots.map(s => `<g class="hs${imgOk[S.room] ? ' photo' : ''}" data-id="${s.id}" tabindex="0" role="button" aria-label="${s.id}">${imgOk[S.room] ? '': s.art()}${(() => { const [x, y, w, h] = imgOk[S.room] && s.photo ? s.photo : [s.x, s.y, s.w, s.h]; return `<rect class="hit" x="${x}" y="${y}" width="${w}" height="${h}" rx="10"/>`; })()}</g>`).join('');
   $('stage').querySelectorAll('.hs').forEach(g => {
