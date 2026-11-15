@@ -892,17 +892,19 @@ function cron_deploy(): void {
     if (!is_dir($data)) @mkdir($data, 0700, true);
     $lock = $data . '/deploy.lock';
     if (is_file($lock) && time() - filemtime($lock) < 120) { echo "busy\n"; return; }
-    touch($lock);
-    $get = function (string $u) {
+    $get = function (string $u, array $headers = []) {
         $ch = curl_init($u);
-        curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_FOLLOWLOCATION => true, CURLOPT_TIMEOUT => 60, CURLOPT_USERAGENT => 'sixclues-deploy']);
+        curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_FOLLOWLOCATION => true, CURLOPT_TIMEOUT => 60, CURLOPT_USERAGENT => 'sixclues-deploy', CURLOPT_HTTPHEADER => $headers]);
         $b = curl_exec($ch); $c = curl_getinfo($ch, CURLINFO_HTTP_CODE); curl_close($ch);
         return $c === 200 ? $b : null;
     };
-    $remote = trim((string)$get("https://raw.githubusercontent.com/$repo/main/VERSION?" . time()));
+    // The GitHub API is not CDN-cached like raw.githubusercontent.com, so a fresh push is seen at once.
+    $remote = trim((string)$get("https://api.github.com/repos/$repo/contents/VERSION?ref=main", ['Accept: application/vnd.github.raw']));
+    if ($remote === '') $remote = trim((string)$get("https://raw.githubusercontent.com/$repo/main/VERSION?" . time()));
     $local = trim((string)@file_get_contents(__DIR__ . '/VERSION'));
     if ($remote === '' ) { echo "could not read remote VERSION\n"; return; }
     if ($remote === $local && empty($_GET['force'])) { echo "up to date ($local)\n"; return; }
+    touch($lock);   // only lock while actually deploying
     $zip = $get("https://codeload.github.com/$repo/zip/refs/heads/main");
     if (!$zip) { echo "download failed\n"; return; }
     $tmp = $data . '/deploy-' . bin2hex(random_bytes(4));
