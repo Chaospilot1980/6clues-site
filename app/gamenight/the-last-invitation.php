@@ -111,7 +111,7 @@ return [
     <tr><td>22:51:38</td><td>VIKTOR</td><td>entry</td></tr><tr><td>22:51:41</td><td>ELIAS</td><td>pass</td></tr></table>
     <p class="log-head">K5 · CONSERVATORY</p>
     <table class="log"><tr><td>22:41:12</td><td>NORA</td><td>entry</td></tr><tr><td>22:47:36</td><td>MARA</td><td>pass out towards hall</td></tr></table>
-    <p class="note">System note: a card record proves that the card was used – not who was holding it. K5 records passes through the door between the hall and the conservatory, not activity inside the room.</p>'],
+    '],
   'P12' => ['kind' => 'log', 'title' => 'Smart lock / door status', 'meta' => 'Local lock log, study door D1', 'body' => '
     <table class="log"><tr><td>19:12:40</td><td>ALEXANDER – routine ‘Private work’ activated</td></tr><tr><td>22:30:55</td><td>door opened</td></tr>
     <tr><td>22:36:11</td><td>door closed</td></tr><tr><td>22:39:00</td><td>automatic lock activated by routine</td></tr>
@@ -122,7 +122,7 @@ return [
     <p>Mains supply interrupted at 22:43:17. Backup generator started at 22:50:21.</p>
     <p>The fault was caused by a neglected relay in the backup power control. No sign of sabotage or of anyone switching off the mains by hand.</p>
     <p>House manager Viktor had reported the relay fault internally on 11 October, but the repair was postponed.</p>
-    <p class="note">The power cut happened after the likely time of death and does not explain it.</p>'],
+    '],
   'P14' => ['kind' => 'messages', 'title' => 'Private messages, 17 October', 'body' => '
     <div class="chat"><p class="msg in"><span>22:18 · Alexander → Nora</span>I have the originals. 417 is not just a bookkeeping error. Come alone at 22:30.</p>
     <p class="msg out"><span>22:20 · Nora → Alexander</span>We\'ll talk. Let\'s avoid a scene in front of the others.</p>
@@ -137,12 +137,12 @@ return [
   'P16' => ['kind' => 'lab', 'title' => 'Forensic analysis of material', 'meta' => 'Laboratory report, 29 October', 'body' => '
     <p>The textile found under Alexander\'s nails is consistent with the dark blue fabric of Nora\'s jacket. On its own this is not a unique identification.</p>
     <p>The metal fragment is gold-coloured, with a particular alloy and groove profile that match the remaining cufflink on Nora\'s jacket.</p>
-    <p class="note">The report cannot say when the contact between Alexander and Nora\'s clothing took place, but the find is consistent with a physical struggle shortly before death.</p>'],
+    '],
   'P17' => ['kind' => 'audit', 'title' => 'Appendix 417 / accounting irregularity', 'meta' => 'Internal audit sheet – Voss & Vale Properties A/S', 'body' => '
     <dl class="rows"><dt>Invoice 417</dt><dd>‘Due diligence, Coast Project’</dd><dt>Payee</dt><dd>Helix Advisory</dd><dt>Amount</dt><dd><b>DKK 2,480,000</b></dd></dl>
     <p>Bank appendix: the receiving account is controlled by the company <b>Vale Invest Holding ApS</b>. Company register copy: Vale Invest Holding ApS is 100% owned by <b>Nora Vale</b>.</p>
     <p class="quote">Email draft from Alexander, 18:52: ‘This is misuse of company money. Tomorrow the auditor and the board get everything. Nora gets one last chance to explain tonight.’</p>
-    <p class="note">The internal investigation shows a serious conflict of interest. On its own this is not proof of murder.</p>'],
+    '],
   'P18' => ['kind' => 'note', 'title' => 'Note found on the desk', 'body' => '
     <p>On the back of the top sheet in the ORIGINALS folder: an unsent handwritten note in Alexander\'s distinctive writing.</p>
     <p class="handwriting">NV came 22.31. She says 417 was only temporary. The original shows otherwise. She wants it stopped. I have said no. I</p>
@@ -151,7 +151,7 @@ return [
   'P19' => ['kind' => 'interview', 'title' => 'Corrected statement: Mara Voss', 'meta' => 'Corrected on 30 October', 'body' => '
     <p>“I lied about staying in my room all evening. After the power cut I went to the library to fetch a letter about the will. At 22:47 I went through the conservatory because the hall was dark. I was afraid of being blamed for something if anyone saw me.”</p>
     <p>Lawyer Elias confirms that an unresolved letter about the will exists. The K5 record at 22:47 fits Mara\'s corrected route.</p>
-    <p class="note">This lie does not explain who was in the study between 22:30 and 22:36.</p>'],
+    '],
  ],
  'checkpoints' => [
   'A' => ['title' => 'The locked door', 'prompt' => 'The study was locked when Alexander was found. Does that prove he was alone when he died?',

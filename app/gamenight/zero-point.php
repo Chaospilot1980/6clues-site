@@ -7,7 +7,7 @@ return [
  'tagline' => 'A meteorite vanishes from a locked case. The alarm never made a sound.',
  'teaser' => 'The star exhibit of Nordhavn Science House, the meteorite STARFALL, is gone. The case was never broken – and the weight sensor swears it never moved.',
  'genre' => 'Heist',
- 'level' => 2,
+ 'level' => 3,
  'minutes' => [90, 150],
  'players' => [2, 6],
  'revision' => '1.0',
@@ -52,7 +52,7 @@ return [
     <p>At 21:09 the police receive an alarm from a locked display case at Nordhavn Science House. The museum’s star exhibit, the meteorite <b>STARFALL</b>, has disappeared. In the case lies an object that at first glance looks like the real meteorite.</p>
     <dl class="rows"><dt>Object</dt><dd>Meteorite STARFALL, on loan from a private collection</dd><dt>Weight</dt><dd>Exactly <b>1.840 kg</b></dd><dt>Insured for</dt><dd>3.8 million kroner</dd><dt>Museum closed</dt><dd>20:00</dd></dl>
     <p>Your task is to prove: Who removed the original? When did it happen? How was it done? And how did the meteorite leave the building?</p>
-    <p class="note">NOTE: The systems’ timestamps are not necessarily synchronised. Find out what each clock is based on before you build a timeline.</p>'],
+    '],
   'S-02' => ['kind' => 'plan', 'title' => 'Site plan', 'meta' => 'Simplified floor plan – not to scale', 'body' => '
     <ul class="plain"><li><b>North:</b> Public entrance → foyer → exhibition hall (display case <b>M-4</b>).</li>
     <li><b>West:</b> Exhibition hall → staff corridor → workshop (about 25 metres, about 1 minute).</li>
@@ -120,7 +120,7 @@ return [
   'B-05' => ['kind' => 'lab', 'title' => 'Laboratory sheet', 'meta' => 'Preliminary comparison, 23:18', 'body' => '
     <dl class="rows"><dt>Real STARFALL</dt><dd>1.840 kg; natural minerals and iron-nickel; uneven surface (latest catalogue check).</dd>
     <dt>Object from M-4</dt><dd>1.840 kg; resin with a steel core; a smooth metal surface underneath, faintly engraved <b>‘R7’</b>.</dd></dl>
-    <p class="note">Conclusion: the object found in the case at 21:29 is teaching copy REPLICA-R7. The weight sensor could not tell it from the original.</p>'],
+    '],
   'B-06' => ['kind' => 'log', 'title' => 'Tech room log', 'meta' => 'PLC and workstation', 'body' => '
     ' . gn_t([['20:26:12', 'LOGIN · Leo / L-17'], ['20:27:01', 'Ventilation profile opened'], ['20:28:50', 'Session set to idle'], ['20:40:33', 'SESSION RESUMED · Leo / L-17'], ['20:41:05', 'LOGOUT']], ['Time', 'Event']) . '
     <p>The system does not log whether anyone is physically in the tech room while a session is idle.</p>
@@ -146,15 +146,15 @@ return [
   'C-04' => ['kind' => 'log', 'title' => 'Alarm log: digital test', 'meta' => 'Documentation from the security supplier', 'body' => '
     ' . gn_t([['21:07:58', 'TEST CHANNEL · ARMAN-SH · CASE TAMPER simulation'], ['21:08:01', 'TEST DELIVERY · delivered to central monitoring'], ['21:09:02', 'CALL INITIATED · Felix Holm']], ['Time', 'Event']) . '
     <p>Arman had a signed test permit from the museum’s operations manager. The test could send a ‘tamper’ event, but could not change the case’s physical lock log or the weight sensor’s baseline.</p>
-    <p class="note">The supplier’s technician has confirmed that the alarm at 21:07 was a simulation – not the time of the theft.</p>'],
+    <p class="note">The supplier’s technician has confirmed that the alarm at 21:07 was a simulation.</p>'],
   'C-05' => ['kind' => 'report', 'title' => 'Storage box 14', 'meta' => 'Customer card and delivery record', 'body' => '
     <p>The storage company’s card says: box 14 was rented the same week by a company registered as <b>‘LS Teknikservice’</b>. Contact person: <b>Leo Strand</b>.</p>
     ' . gn_t([['21:08:42', 'CityCycle Express delivers a parcel to night box 14']], ['Time', 'Event']) . '
-    <p class="note">Nobody has opened box 14 since. The storage company has locked it for the police, but it has not been seized yet – so on its own this does not prove what the parcel contained.</p>'],
+    <p class="note">Nobody has opened box 14 since. The storage company has locked it for the police, but it has not been seized yet.</p>'],
   'C-06' => ['kind' => 'messages', 'title' => 'Financial background', 'meta' => 'Extract of messages handed over voluntarily', 'body' => '
     <div class="chat"><p class="msg in"><span>15 October · private lender → Leo</span>180,000 by Monday at the latest. No more excuses.</p>
     <p class="msg out"><span>17 October, 18:12 · Leo’s note to himself</span>Case – pickup – box 14 – cash on delivery</p></div>
-    <p class="note">None of the messages mention the meteorite directly. They show a possible money motive and a planned transport, but are not proof of a theft on their own.</p>'],
+    '],
   'C-07' => ['kind' => 'note', 'aid' => true, 'title' => 'Accusation form', 'meta' => 'Fill in before you reveal the solution', 'body' => '
     <div class="aid"><ol><li>Who removed STARFALL?</li><li>In which time window – ideally at what minute – did it happen?</li><li>How were the alarm and weight systems fooled?</li><li>How did the meteorite get out of the museum?</li><li>Name at least four independent pieces of evidence that support your explanation.</li><li>Which suspicious details were red herrings – and why?</li></ol></div>
     <p>When everyone agrees, enter your accusation with the online helper. This document does not reveal the solution.</p>'],

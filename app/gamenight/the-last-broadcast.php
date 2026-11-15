@@ -63,18 +63,18 @@ return [
   'S-05' => ['kind' => 'calendar', 'title' => 'Vera’s calendar', 'meta' => 'Latest entries', 'body' => '
     <p class="cal-day">Thursday 21 May</p>
     <table class="cal"><tr><td>07:00</td><td>Morning shift (studio 1)</td></tr><tr><td>07:30</td><td><b>Meeting N.</b></td></tr></table>
-    <p class="note">‘N.’ could be her colleague Nora – but it could also be a place or someone else.</p>'],
+    '],
   'S-06' => ['kind' => 'log', 'title' => 'Phone records', 'meta' => 'Vera’s mobile', 'body' => '
     ' . gn_t([['23:12', 'Last contact with the network, at the station'], ['23:16', 'Phone goes offline']], ['Time', 'Event']) . '
     <p class="note">No calls from any unknown person. The phone has not been found.</p>'],
   'S-07' => ['kind' => 'note', 'title' => 'Letter from Kasper Berg', 'meta' => 'Director, Lindholm Foundation · 18 May', 'body' => '
     <p class="quote">Your programme on 13 May contained serious untruths about the Lindholm Foundation. I demand a correction on air. Our annual report is public and speaks for itself. – Kasper Berg</p>
-    <p class="note">The letter is sharp, but contains no concrete threat.</p>'],
+    '],
   'B-01' => ['kind' => 'log', 'title' => 'Playout system log', 'meta' => 'Scheduling and playback', 'body' => '
     ' . gn_t([['20 May · 22:42', 'File <b>VERAS_NOTE_FINAL.wav</b> scheduled for 21 May, 00:17 · user <b>VSKOV</b>'], ['20 May · 23:29–23:58', 'Night playlist loaded · user SKRUSE · no changes to scheduled items'], ['21 May · 00:17', 'VERAS_NOTE_FINAL.wav played automatically · no manual start']], ['Time', 'Event']) . ''],
   'B-02' => ['kind' => 'lab', 'title' => 'Sound file metadata', 'meta' => 'VERAS_NOTE_FINAL.wav', 'body' => '
     <dl class="rows"><dt>Recorded</dt><dd>Edit suite 2, 20 May, 18:14</dd><dt>Last edited</dt><dd>20 May, 22:39</dd><dt>Profile</dt><dd>VSKOV</dd></dl>
-    <p class="note">The background jingle is the station’s standard sound. It is no clue to where Vera was at midnight – it was mixed in during editing.</p>'],
+    '],
   'B-03' => ['kind' => 'report', 'title' => 'The editing project', 'meta' => 'Edit suite 2', 'body' => '
     <p>The session holds two versions, both made on Vera’s own profile:</p>
     <ul class="plain"><li><b>NOTE_DRAFT:</b> “If I go quiet…”</li><li><b>NOTE_FINAL:</b> “If I don’t come back…”</li></ul>'],
@@ -92,7 +92,7 @@ return [
     <p class="note">Same date, same amount – different text.</p>'],
   'C-01' => ['kind' => 'audit', 'title' => 'The auditor’s paper copy', 'meta' => 'Original auditor’s list', 'body' => '
     <p>The list shows <b>1.4 million kr.</b> transferred to Brask Holding ApS, a company owned by a member of the foundation’s board.</p>
-    <p class="note">This is a possible conflict of interest – not, on its own, final proof of a crime.</p>'],
+    '],
   'C-02' => ['kind' => 'log', 'title' => 'Archive server change log', 'meta' => 'Lindholm Foundation website', 'body' => '
     ' . gn_t([['19 May · 15:32', 'Web version of annual report 2025 replaced', 'User: Brightline Communications (external)', 'Approved by: <b>Kasper Berg</b>']], ['Time', 'Change', 'User', 'Approval']) . '
     <p class="note">The change removed the words “Brask Holding ApS (related party)”. It happened six days after Vera’s first programme and one day before her last.</p>'],
@@ -103,7 +103,7 @@ return [
   'C-05' => ['kind' => 'photo', 'img' => ['file' => 'the-last-broadcast/kiosk.jpg', 'caption' => 'Receipt photo, ferry terminal kiosk, 00:21', 'prompt' => 'Grainy night-time photo inside a small ferry terminal kiosk under harsh fluorescent light, a woman in a dark jacket with a small wheeled suitcase standing at the counter, her face turned away and half hidden by her collar, coffee machine and rack of snacks, a ferry visible through the window, documentary snapshot style, no readable text'], 'title' => 'Photo from the ferry kiosk', 'meta' => '21 May, 00:21', 'body' => '
     {{IMG}}
     <p>A receipt photo shows a woman in a dark jacket with a small suitcase. Her face is partly hidden. The receipt shows booking code <b>N-730</b>.</p>
-    <p class="note">A later statement from Nora confirms that the traveller was Vera.</p>'],
+    '],
   'C-06' => ['kind' => 'note', 'title' => 'Vera’s written statement', 'meta' => 'Sent through her lawyer, 22 May', 'body' => '
     <p class="quote">I travelled of my own free will to document a story without pressure. I planned the late broadcast myself, but the wording was careless and caused needless fear. Nobody kidnapped me. I am safe.</p>'],
   'C-07' => ['kind' => 'interview', 'title' => 'Statements: Anton and Selma', 'meta' => '21 May', 'body' => '

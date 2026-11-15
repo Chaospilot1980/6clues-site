@@ -22,3 +22,8 @@
 - death-at-the-chess-congress – done – no bold; no "clock ran without a move" note; Leopold's quote no longer points at the diary.
 
 All 3 batches done (18 cases; the-counterfeit-christmas left as live daily case).
+
+## Game Night (level 2/3)
+- Removed conclusion and "this is not proof" notes from the-blue-folder (3), the-last-broadcast (5), the-last-invitation (5), the-other-name (2), under-the-floorboards (6), zero-point (3), plus trimmed hints in the-white-silence and zero-point. Factual notes kept.
+- zero-point and under-the-floorboards raised to level 3 (now 6 level-3 cases: false-signal, the-last-broadcast, the-last-invitation, the-other-name, under-the-floorboards, zero-point).
+- php tools/gn_check.php: all 14 OK.

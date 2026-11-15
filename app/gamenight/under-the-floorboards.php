@@ -7,7 +7,7 @@ return [
  'tagline' => 'An old letter turns up just as the family home is about to be sold.',
  'teaser' => 'Three siblings clearing their late mother’s house find a tin box under the floor – and discover that the family’s orchard was sold while none of them were there.',
  'genre' => 'Forgery',
- 'level' => 2,
+ 'level' => 3,
  'minutes' => [100, 150],
  'players' => [2, 6],
  'revision' => '1.0',
@@ -58,10 +58,10 @@ return [
     {{IMG}}
     <p>Ruth, a girl with plaits and an older woman in front of the house. On the back:</p>
     <p class="handwriting">Eva, 12 – the summer we brought her home</p>
-    <p class="note">The photo shows a close bond. It proves neither adoption nor a blood relationship.</p>'],
+    '],
   'S-04' => ['kind' => 'report', 'title' => 'Baptism certificate', 'meta' => 'Found in the tin box', 'body' => '
     <dl class="rows"><dt>Name</dt><dd>Eva Lund</dd><dt>Born</dt><dd>1967</dd><dt>Parents</dt><dd>Two other named birth parents – <b>not Ruth</b></dd></dl>
-    <p class="note">So what did Ruth mean by “my child too”?</p>'],
+    '],
   'S-05' => ['kind' => 'report', 'title' => 'Minutes of the family meeting', 'meta' => '1 May', 'body' => '
     <p>Present: Klara, Mads and Ida (Ida by video).</p>
     <ul class="plain"><li>The main house on plot 14a is to be sold.</li><li>We will look into whether the orchard, plot 14b, can be kept separate.</li></ul>
@@ -82,7 +82,7 @@ return [
     <p class="note">Ida: “My phone was switched off on the plane. I never signed anything about the orchard.”</p>'],
   'B-03' => ['kind' => 'log', 'title' => 'Digital signing audit', 'meta' => 'Signing provider’s audit trail', 'body' => '
     ' . gn_t([['10:14', 'Klara Vester', 'Browser <b>BR-772</b>', '192.168.8.14'], ['10:15', 'Mads Vester', 'Browser <b>BR-772</b>', '192.168.8.14'], ['10:17', 'Ida Vester', 'Browser <b>BR-772</b>', '192.168.8.14']], ['Time', 'Signer', 'Device', 'Local IP']) . '
-    <p class="note">A signature isn’t automatically invalid because it was made on one computer – but this audit does not show three independent devices.</p>'],
+    '],
   'B-04' => ['kind' => 'list', 'title' => 'Peter’s office equipment', 'meta' => 'Asmussen Property · IT list', 'body' => '
     <dl class="rows"><dt>Office PC</dt><dd>Browser ID <b>BR-772</b></dd><dt>User account</dt><dd>PTASMUSSEN</dd><dt>Office network</dt><dd>192.168.8.0–255</dd></dl>
     <p class="note">The PC is in Peter’s private office.</p>'],
@@ -108,15 +108,15 @@ return [
     <p class="quote">If 14b is to go with 14a, the supplementary power of attorney must be in place now. BR-772 can do all three signatures from my office. They won’t notice before registration.</p>'],
   'C-05' => ['kind' => 'report', 'title' => 'The lawyer’s note', 'meta' => 'Lawyer for the estate', 'body' => '
     <p>The material raises serious questions about whether the supplementary power of attorney is genuine, about a conflict of interest and about the settlement.</p>
-    <p class="note">Whether it is legally invalid must be decided in the proper way. Your job is to identify the grounds for suspicion, not to act as a court.</p>'],
+    '],
   'C-06' => ['kind' => 'calendar', 'title' => 'The siblings’ calendars', 'meta' => '29 May', 'body' => '
     <table class="cal"><tr><td>10:00–10:40</td><td><b>Klara:</b> dentist in Stege (receipt 10:42)</td></tr>
     <tr><td>10:15</td><td><b>Mads:</b> delivering goods to a customer in Nykobing (signed delivery note)</td></tr>
     <tr><td>10:10–13:22</td><td><b>Ida:</b> on the plane from Madrid</td></tr></table>
-    <p class="note">None of these alone is final proof of identity – but together with BR-772 they point strongly away from the siblings.</p>'],
+    '],
   'C-07' => ['kind' => 'note', 'title' => 'Letter about the orchard', 'meta' => 'Ruth, 2004', 'body' => '
     <p class="handwriting">14b was the place Eva always went when she was sad. Keep it if you can, whoever’s name is on the deeds.</p>
-    <p class="note">The letter expresses a wish, not a legal instruction.</p>'],
+    '],
  ],
  'checkpoints' => [
   'A' => ['title' => 'Two plots', 'prompt' => 'The orchard was sold “on behalf of the heirs”. But what had the heirs actually allowed?',

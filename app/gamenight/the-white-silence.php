@@ -129,7 +129,7 @@ return [
     "kind" => 'lab',
     "title" => 'Evidence bag comparison',
     "meta" => 'Recovery analysis · 16 March',
-    "body" => '<p>The NP-02 sample and crumbs of the replacement feed contain the same unusual additive. The unopened original LOT F-17 sacks do not.</p><p class="note">The analysis cannot say where the additive came from. The replacement sack F171-R is the common link.</p>',
+    "body" => '<p>The NP-02 sample and crumbs of the replacement feed contain the same unusual additive. The unopened original LOT F-17 sacks do not.</p><p class="note">The analysis cannot say where the additive came from.</p>',
    ],
    "E12" => [
     "kind" => 'interview',

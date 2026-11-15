@@ -54,7 +54,7 @@ return [
     <p class="note">The rival’s file has the same diagrams as NordVektor’s internal design document.</p>'],
   'A02' => ['kind' => 'lab', 'title' => 'The file’s fingerprint', 'meta' => 'Checksum comparison', 'body' => '
     ' . gn_t([['Leaked PDF (shown by Helion)', '<b>8D42</b>', 'identical figures, different page numbers, one extra footnote'], ['NordVektor’s latest approved engineering PDF', '<b>4AC1</b>', '–']], ['File', 'Fingerprint', 'Note']) . '
-    <p class="note">Two files with different fingerprints are not the same file, even if the drawings look alike.</p>'],
+    '],
   'A03' => ['kind' => 'calendar', 'title' => 'Nadia’s timeline', 'meta' => 'Wednesday 16 September', 'body' => '
     <table class="cal"><tr><td>20:48</td><td>Nadia leaves the building (door log).</td></tr><tr><td>20:57</td><td>Bus card swiped at Sondergade.</td></tr>
     <tr><td>21:04–21:31</td><td>Video call with her sister from her private tablet.</td></tr></table>
@@ -86,7 +86,7 @@ return [
     <p class="msg in"><span>Rikke Falck</span>My responsibility.</p></div>'],
   'B06' => ['kind' => 'report', 'title' => 'Cloud provider account overview', 'body' => '
     <p>The external IP used at 21:13 belongs to NordVektor’s own <b>test sandbox</b>, set up in <b>Rikke’s department</b>.</p>
-    <p class="note">It is not evidence that Nadia was physically anywhere.</p>'],
+    '],
   'B07' => ['kind' => 'report', 'title' => 'Print service receipt', 'meta' => 'CopyPoint', 'body' => '
     <dl class="rows"><dt>16 Sept, 20:06</dt><dd>A 17-page file placed in the upload queue</dd><dt>Customer</dt><dd><b>RFalck Consulting</b></dd><dt>Collection code</dt><dd>K7</dd><dt>Paid</dt><dd>Private card ending 6208</dd></dl>'],
   'C01' => ['kind' => 'audit', 'title' => 'Rikke’s payment overview', 'body' => '
@@ -110,7 +110,7 @@ return [
     <p class="note">NordVektor’s register holds no declaration from Rikke.</p>'],
   'C07' => ['kind' => 'note', 'title' => 'Nadia’s private note', 'body' => '
     <p>Nadia had complained about the compliance process before, so she had a possible motive to hurt Rikke. But she had no access to the 17-page version.</p>
-    <p class="note">A suspicion is not the same as a documented leak.</p>'],
+    '],
  ],
  'checkpoints' => [
   'A' => ['title' => 'The obvious suspect', 'prompt' => 'The download came from Nadia’s account. Does that mean Nadia did it?',

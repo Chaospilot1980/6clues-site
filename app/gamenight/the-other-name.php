@@ -56,7 +56,7 @@ return [
   'S-02' => ['kind' => 'medical', 'title' => 'Emergency department notes', 'meta' => 'Sundby Hospital · 3 March', 'body' => '
     <p>Mild concussion and a small injury at the hairline. The cause cannot be determined – a fall on the icy quay cannot be ruled out.</p>
     <p>The patient cannot remember her name or address. She reads, counts and talks about her childhood without difficulty, but struggles to recall the last few months.</p>
-    <p class="note">The doctor stresses: memory loss proves neither a lie nor a crime.</p>'],
+    '],
   'S-03' => ['kind' => 'report', 'title' => 'Bus ticket – route 71', 'body' => '
     <dl class="rows"><dt>Bought</dt><dd>2 March, 21:18, at the terminal in <b>Linde</b></dd><dt>Departure</dt><dd>21:40 towards Sundby (the slow route, not the direct evening bus to the ferry)</dd><dt>Ticket no.</dt><dd>…8821</dd></dl>
     <p class="note">Linde is 70 km from Sundby. The bus arrives in Sundby at 23:55.</p>'],
@@ -103,7 +103,7 @@ return [
   'C-01' => ['kind' => 'report', 'title' => 'Recordings on the USB stick', 'meta' => 'Police summary – contents not reproduced', 'body' => '
     <p>Three sound files dated 21, 24 and 27 February.</p>
     <ul class="plain"><li><b>21 Feb:</b> A man threatens to take Elias away from his mother.</li><li><b>24 Feb:</b> Anna asks him to stay away from her.</li><li><b>27 Feb:</b> Anna says clearly that she is seeking protection.</li></ul>
-    <p class="note">The material documents her fear. It is not a verdict on anyone.</p>'],
+    '],
   'C-02' => ['kind' => 'report', 'title' => 'Where is the yellow gate?', 'meta' => 'Address check', 'body' => '
     <p>The yellow gate stands at Havblik’s <b>former premises</b> in Linde – not at Martin’s home. The council’s old photo of the building shows identical gate fittings.</p>
     <p class="note">The photo was taken on a visiting day at the crisis centre on 1 March, two days before Anna was found in Sundby.</p>'],
