@@ -22,29 +22,7 @@ Evidence photo in document A01 – caption: “Screenshot of the livestream, 20:
 
 > Screenshot-style still of a concert livestream: a singer on a colourful stage, and in the lower right corner a neat donation overlay box with a square QR-code-like pattern and a heart icon, slight broadcast compression artefacts, no readable text, no logos Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
-## 009 · The Last Broadcast (`the-last-broadcast/`)
-
-### `the-last-broadcast/kiosk.jpg`
-Evidence photo in document C-05 – caption: “Receipt photo, ferry terminal kiosk, 00:21” · 1600 × 1200 px (4:3)
-
-> Grainy night-time photo inside a small ferry terminal kiosk under harsh fluorescent light, a woman in a dark jacket with a small wheeled suitcase standing at the counter, her face turned away and half hidden by her collar, coffee machine and rack of snacks, a ferry visible through the window, documentary snapshot style, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ## 010 · Under the Floorboards (`under-the-floorboards/`)
-
-### `under-the-floorboards/cover.jpg`
-Case cover on the site and the printed front page · 1600 × 1200 px (4:3)
-
-> Cinematic illustration inside an old Danish country farmhouse with whitewashed walls, late summer afternoon light through a small window, two wide wooden floorboards lifted to reveal a dented old tin box with faded paint, an envelope and a curled black-and-white photograph peeking out, an apple orchard visible through the window, warm amber and dusty green palette, nostalgic mystery mood, no people, no readable text, 4:3 Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `under-the-floorboards/tin-box.jpg`
-Evidence photo in document S-02 – caption: “The tin box under the floor” · 1600 × 1200 px (4:3)
-
-> Close-up photo of a dented vintage tin biscuit box with faded floral paint lying between lifted wooden floorboards, lid half open showing a folded yellowed letter, an old certificate and a small black-and-white photo, dust in the light, warm natural light, realistic, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `under-the-floorboards/photo-1979.jpg`
-Evidence photo in document S-03 – caption: “Photo from 1979, found in the tin box” · 1600 × 1200 px (4:3)
-
-> Faded 1970s colour snapshot with rounded corners and a white border: a young woman in a summer dress and an older woman in an apron standing in front of a whitewashed thatched farmhouse, a girl with long plaits seen from behind running towards them, apple trees, warm washed-out Kodachrome tones, slight blur, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `under-the-floorboards/people/jens-asmussen.jpg`
 Portrait of Jens Asmussen – Peter’s brother; majority owner behind the buyer · 1024 × 1024 px (1:1)
@@ -76,4 +54,4 @@ Evidence photo in document E11 – caption: “East stairwell, 05:26” · 1600 
 > Grainy CCTV still of a red-painted station stairwell in Kolkata at dawn, a woman hurrying down the stairs and a man in a pale blue shirt following a few steps behind, faces not visible, security-camera look, no readable text Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ---
-Status: 86 of 97 images delivered.
+Status: 90 of 97 images delivered.
