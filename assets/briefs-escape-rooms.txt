@@ -47,3 +47,15 @@ Ocean hall at night, a huge whale skeleton hanging across the top. Left: a shelf
 
 ## after-hours-at-the-museum/office.jpg
 Curator's office at night, 1958, green-shaded lamp. Left wall: shelves of tall leather-bound registers. Centre: a desk with a black rotary telephone, papers and a pipe. Right: a heavy green safe with three keyholes in a row and a large dial. Exit bottom left.
+
+## the-alchemists-attic/attic.jpg
+Alchemist's laboratory in a timber attic of Prague Castle, 1610, an hour before dawn, candlelight, glass alembics and brass instruments everywhere. Far left: a wooden ladder up to a hatch in the sloping roof. Left top: a scrap of paper nailed to a roof beam. Left-centre lower: a small washstand with a basin and a silver hand mirror. Centre top: a large parchment chart of alchemical symbols on the wall. Centre bottom floor: a wooden trapdoor in the floorboards. Right-centre lower: a writing desk with an inkpot and papers. Far right: a heavy carved wooden door.
+
+## the-alchemists-attic/library.jpg
+Small Renaissance library in Prague, 1610, candlelight. Left top: a framed oil portrait of a long-chinned emperor with a brass plate. Left-centre lower: a large terrestrial globe on a wooden stand with a brass meridian ring. Centre: tall shelves of leather books. Right-centre: a wooden lectern with two unrolled parchment horoscopes. Far right lower: an open ledger on a small table. Exit bottom left.
+
+## the-alchemists-attic/cellar.jpg
+Vaulted brick cellar with an alchemist's furnace, 1610. Left: a wooden bin of black charcoal. Centre: a tall domed brick athanor furnace with a small iron fire door and a row of five planetary symbols carved above it. Right-centre: a brass apothecary's balance scale on a stand. Far right: four glass flasks (black, white, yellow, red liquids) beside a stone basin. Stairs up at bottom left.
+
+## the-alchemists-attic/roof.jpg
+Rooftop observatory platform above Prague at night, stars and church spires below. Left-centre: a large brass astrological wheel with three concentric rings and zodiac signs. Right-centre: an iron-bound wooden chest with four square sockets on its lid. Hatch down at bottom left.
