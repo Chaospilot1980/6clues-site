@@ -105,6 +105,7 @@ function migrate(PDO $pdo): void {
     game_migrate($pdo, $id, $engine);
     gn_migrate($pdo, $id, $engine);
     escape_migrate($pdo, $id, $engine);
+    $pdo->exec("CREATE TABLE IF NOT EXISTS remember_tokens (id $id, user_id INT NOT NULL, selector VARCHAR(24) NOT NULL UNIQUE, token_hash CHAR(64) NOT NULL, expires_at DATETIME NOT NULL)$engine");
     $pdo->exec("CREATE TABLE IF NOT EXISTS leaderboard (
         user_id INT NOT NULL PRIMARY KEY,
         alias VARCHAR(40) NOT NULL,
@@ -142,6 +143,7 @@ function current_user(): ?array {
     static $u = false;
     if ($u !== false) return $u;
     $u = null;
+    if (empty($_SESSION['uid'])) remember_restore();
     if (!empty($_SESSION['uid'])) {
         $st = db()->prepare('SELECT * FROM users WHERE id = ?');
         $st->execute([$_SESSION['uid']]);
@@ -187,6 +189,41 @@ function login_user(array $p): void {
     session_regenerate_id(true);
     $_SESSION['uid'] = (int)$id;
     merge_guest_plays((int)$id);
+    $want = $_POST['remember'] ?? ($_SESSION['remember_pref'] ?? '1');
+    if ($want === '1') remember_issue((int)$id);
+}
+
+// ---------- "keep me signed in" (30 days, survives server-side session cleanup) ----------
+const REMEMBER_DAYS = 30;
+function remember_cookie(string $v, int $exp): void {
+    $secure = (($_SERVER['HTTPS'] ?? '') === 'on') || (($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '') === 'https');
+    setcookie('sx_remember', $v, ['expires' => $exp, 'path' => '/', 'secure' => $secure, 'httponly' => true, 'samesite' => 'Lax']);
+}
+function remember_issue(int $uid): void {
+    $sel = bin2hex(random_bytes(9)); $tok = bin2hex(random_bytes(24)); $exp = time() + REMEMBER_DAYS * 86400;
+    $pdo = db();
+    $pdo->prepare('DELETE FROM remember_tokens WHERE expires_at < ?')->execute([now()]);
+    $pdo->prepare('INSERT INTO remember_tokens (user_id, selector, token_hash, expires_at) VALUES (?,?,?,?)')->execute([$uid, $sel, hash('sha256', $tok), gmdate('Y-m-d H:i:s', $exp)]);
+    remember_cookie($sel . ':' . $tok, $exp);
+}
+function remember_restore(): void {
+    $c = (string)($_COOKIE['sx_remember'] ?? '');
+    if (!preg_match('/^([a-f0-9]{18}):([a-f0-9]{48})$/', $c, $m)) return;
+    $pdo = db();
+    $st = $pdo->prepare('SELECT * FROM remember_tokens WHERE selector = ? AND expires_at >= ?');
+    $st->execute([$m[1], now()]);
+    $row = $st->fetch();
+    if (!$row || !hash_equals($row['token_hash'], hash('sha256', $m[2]))) { remember_cookie('', time() - 3600); return; }
+    // one-time token: rotate on use
+    $pdo->prepare('DELETE FROM remember_tokens WHERE id = ?')->execute([$row['id']]);
+    session_regenerate_id(true);
+    $_SESSION['uid'] = (int)$row['user_id'];
+    remember_issue((int)$row['user_id']);
+}
+function remember_clear(): void {
+    $c = (string)($_COOKIE['sx_remember'] ?? '');
+    if (preg_match('/^([a-f0-9]{18}):/', $c, $m)) db()->prepare('DELETE FROM remember_tokens WHERE selector = ?')->execute([$m[1]]);
+    remember_cookie('', time() - 3600);
 }
 
 /** Verifies a Google Identity Services ID token with Google's tokeninfo endpoint. */

@@ -522,16 +522,18 @@ function google_button(string $next): void {
     $cid = (string)cfg('google_client_id');
     ?>
 <div class="login-box">
+<label class="check remember"><input type="checkbox" id="remember-me" checked> This is a private computer – keep me signed in for 30 days</label>
+<script>function rememberVal(){var c=document.getElementById('remember-me');return c&&c.checked?'1':'0';}</script>
 <?php if ($cid): ?>
-<form id="g-form" method="post" action="/auth/google"><?= csrf_field() ?><input type="hidden" name="credential" id="g-credential"><input type="hidden" name="next" value="<?= e($next) ?>"></form>
+<form id="g-form" method="post" action="/auth/google"><?= csrf_field() ?><input type="hidden" name="credential" id="g-credential"><input type="hidden" name="remember" id="g-remember" value="1"><input type="hidden" name="next" value="<?= e($next) ?>"></form>
 <div id="g_id_onload" data-client_id="<?= e($cid) ?>" data-callback="onGoogleSignIn" data-auto_prompt="false"></div>
 <div class="g_id_signin" data-type="standard" data-size="large" data-theme="filled_black" data-text="continue_with" data-shape="rectangular"></div>
-<script>function onGoogleSignIn(r){document.getElementById('g-credential').value=r.credential;document.getElementById('g-form').submit();}</script>
+<script>function onGoogleSignIn(r){document.getElementById('g-credential').value=r.credential;document.getElementById('g-remember').value=rememberVal();document.getElementById('g-form').submit();}</script>
 <script src="https://accounts.google.com/gsi/client" async></script>
 <p class="or"><span>or use your email</span></p>
 <?php endif; ?>
-<form method="post" action="/auth/email" class="email-login">
-  <?= csrf_field() ?><input type="hidden" name="next" value="<?= e($next) ?>">
+<form method="post" action="/auth/email" class="email-login" onsubmit="this.remember.value=rememberVal()">
+  <?= csrf_field() ?><input type="hidden" name="next" value="<?= e($next) ?>"><input type="hidden" name="remember" value="1">
   <label>Your name <input name="name" autocomplete="name" required maxlength="80"></label>
   <label>Email <input type="email" name="email" autocomplete="email" required maxlength="190"></label>
   <label class="check"><input type="checkbox" name="newsletter" value="1"> Email me when a new mystery is released (about once a month).</label>
@@ -556,6 +558,7 @@ function auth_email(): void {
     $last = $_SESSION['last_link'] ?? 0;
     if (time() - $last < 30) { flash('We just sent you a link – please check your inbox (and spam folder).'); redirect('/login?next=' . urlencode($next)); }
     $_SESSION['last_link'] = time();
+    $_SESSION['remember_pref'] = (($_POST['remember'] ?? '0') === '1') ? '1' : '0';
     $ok = send_login_link($email, $name, !empty($_POST['newsletter']), $next);
     page_start(['title' => 'Check your email', 'noindex' => true, 'path' => '/auth/email']);
     echo '<section class="wrap narrow"><h1>Check your email</h1>';
@@ -597,7 +600,7 @@ function auth_dev(): void {
 }
 
 function logout(): void {
-    if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') { csrf_check(); $_SESSION = []; session_regenerate_id(true); }
+    if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') { csrf_check(); remember_clear(); $_SESSION = []; session_regenerate_id(true); }
     redirect('/');
 }
 
