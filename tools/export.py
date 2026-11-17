@@ -6,6 +6,7 @@ The script validates every mystery and refuses to write the file if anything is 
 import glob, importlib.util, json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from lib import slugify, poster  # noqa: E402
 
@@ -126,7 +127,8 @@ def validate(ms):
 
 
 LAUNCH = "2026-11-15"   # Daily case #1
-LIBRARY_SIZE = 40       # the first 40 cases form the free library (30 at launch + 10 hard level 3 cases added 15 Nov); later cases are daily cases
+LIBRARY_SIZE = 40       # the first 40 cases form the free library (30 at launch + 10 hard level 3 cases added 15 Nov)
+RESERVE = 60            # keep this many upcoming daily cases in stock; every case beyond that goes straight into the library once it has a cover image
 
 
 def schedule(ms):
@@ -146,7 +148,8 @@ def schedule(ms):
         library += 1
     day = max(datetime.date.fromisoformat(LAUNCH), datetime.date.today() + datetime.timedelta(days=1))
     last_l12 = 2
-    while pool:
+    upcoming = sum(1 for v in sched.values() if v.get("daily") and v["daily"] > today)
+    while pool and upcoming < RESERVE:
         d = day.isoformat()
         day += datetime.timedelta(days=1)
         if d in used:
@@ -158,6 +161,11 @@ def schedule(ms):
         if pick["level"] in (1, 2):
             last_l12 = pick["level"]
         sched[pick["slug"]] = {"daily": d, "public": d}
+        upcoming += 1
+    # Reserve is full: extra cases join the library as soon as their cover exists; until then they stay hidden (not saved).
+    for m in pool:
+        if os.path.isfile(os.path.join(ROOT, "assets", "img", "m", m["slug"], "cover.jpg")):
+            sched[m["slug"]] = {"daily": None, "public": today}
     with open(path, "w") as f:
         json.dump(dict(sorted(sched.items(), key=lambda kv: (kv[1]["daily"] or "", kv[1]["public"]))), f, indent=1)
     return sched
@@ -181,7 +189,7 @@ def export(ms, target):
             "slug": m["slug"], "level": m["level"], "crime": m["crime"].title(), "who": m["who"],
             "title": m["title_plain"], "teaser": m["teaser"], "intro": m["intro"], "intro_text": strip(m["intro"]),
             "added": m.get("added", ""),
-            "daily": sched[m["slug"]]["daily"], "public": sched[m["slug"]]["public"],
+            "daily": sched.get(m["slug"], {}).get("daily"), "public": sched.get(m["slug"], {}).get("public", "9999-12-31"),
             # alphabetical, so the position in the answer list never hints at the culprit
             "suspects": sorted([{"name": c["name"], "role": c["role"]} for c in m["clues"]], key=lambda x: x["name"].lower()),
             "clues": [{"name": c["name"], "role": c["role"], "quote": c["quote"], "label": c["label"],
@@ -245,3 +253,4 @@ if __name__ == "__main__":
     except Exception as ex:
         print("Portrait list not updated:", ex)
     print(f"Daily cases scheduled until {max(dailies) if dailies else '-'} ({ahead} days ahead of today)")
+    print(f"Daily reserve target: {RESERVE} upcoming cases")
