@@ -5,7 +5,7 @@
 function page_start(array $meta): void {
     $site = cfg('site_name');
     $title = isset($meta['title']) ? $meta['title'] . ' – ' . $site : $site . ' – ' . cfg('tagline');
-    $desc = $meta['description'] ?? 'Free printable murder mystery games. Hang six clues around your home, party or office, follow the evidence and scan the code to name the culprit.';
+    $desc = $meta['description'] ?? 'Free murder mystery games and detective puzzles: crack a daily whodunit online, print six clues for a mystery party, or play an online escape room.';
     $canon = url($meta['path'] ?? '/');
     $user = current_user();
     $ga = (string)cfg('ga4_id', '');
@@ -48,7 +48,7 @@ window.GA4_ID = <?= json_encode($ga) ?>;
   <div class="wrap header-row">
     <a class="logo" href="/"><span class="logo-mark" aria-hidden="true">6</span> <?= e($site) ?></a>
     <nav aria-label="Main">
-      <a href="/#mysteries">Mysteries</a>
+      <a href="/mysteries">Mysteries</a>
       <a href="/game-night">Game Night</a>
       <a href="/escape">Escape rooms</a>
       <a href="/rankings">Rankings</a>

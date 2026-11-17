@@ -15,6 +15,7 @@ if (!empty($_GET['src'])) $_SESSION['source'] = substr(preg_replace('/[^a-z0-9_\
 
 $routes = [
     '#^/$#'                                   => 'home',
+    '#^/mysteries$#'                          => 'library',
     '#^/mysteries/([a-z0-9\-]+)$#'            => 'show',
     '#^/mysteries/([a-z0-9\-]+)/play$#'       => 'play',
     '#^/daily$#'                              => 'daily_redirect',
@@ -76,8 +77,10 @@ function home(): void {
     $u = current_user();
     $prog = $u ? user_progress((int)$u['id']) : [];
     $site = cfg('site_name');
-    page_start(['path' => '/', 'jsonld' => [
-        ['@context' => 'https://schema.org', '@type' => 'WebSite', 'name' => $site, 'url' => url('/')],
+    page_start(['path' => '/', 'title' => 'Free murder mystery games & daily whodunit puzzles',
+        'description' => 'Free murder mystery games and detective puzzles. Crack a new whodunit every day online, print six clues for a mystery party, play family game nights or a free online escape room.',
+        'jsonld' => [
+        ['@context' => 'https://schema.org', '@type' => 'WebSite', 'name' => $site, 'url' => url('/'), 'description' => 'Free murder mystery games, daily detective puzzles, printable mystery party games and online escape rooms.'],
         ['@context' => 'https://schema.org', '@type' => 'ItemList', 'name' => 'Murder mystery games',
          'itemListElement' => array_map(fn($m, $i) => ['@type' => 'ListItem', 'position' => $i + 1, 'url' => url('/mysteries/' . $m['slug']), 'name' => $m['title']], mysteries(), array_keys(mysteries()))],
     ]]);
@@ -179,8 +182,8 @@ function show(string $slug): void {
     $prog = $u ? user_progress((int)$u['id']) : [];
     $p = $prog[$slug] ?? null;
     page_start([
-        'title' => $m['title'] . ' – free printable mystery game',
-        'description' => $m['teaser'] . ' A free level ' . $m['level'] . ' ' . strtolower($m['crime']) . ' mystery with six printable clue posters.',
+        'title' => $m['title'] . ' – free murder mystery game (play online or print)',
+        'description' => $m['teaser'] . ' A free level ' . $m['level'] . ' ' . strtolower($m['crime']) . ' whodunit: play it online clue by clue or print the six clue posters for a mystery party.',
         'path' => '/mysteries/' . $slug, 'og_type' => 'article',
         'og_image' => mystery_cover_url($slug) ? '/assets/img/m/' . $slug . '/cover.jpg' : null,
         'jsonld' => [
@@ -805,8 +808,9 @@ function privacy(): void {
 function sitemap(): void {
     header('Content-Type: application/xml; charset=utf-8');
     echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n" . '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
-    $urls = ['/', '/game-night', '/rankings', '/privacy'];
+    $urls = ['/', '/mysteries', '/game-night', '/escape', '/rankings', '/privacy'];
     foreach (gn_slugs() as $g) $urls[] = '/game-night/' . $g;
+    foreach (array_keys(ESCAPE_ROOMS) as $s) $urls[] = '/escape/' . $s;
     foreach (mysteries() as $m) { $urls[] = '/mysteries/' . $m['slug']; $urls[] = '/mysteries/' . $m['slug'] . '/play'; }
     foreach ($urls as $u) echo '  <url><loc>' . e(url($u)) . '</loc></url>' . "\n";
     echo '</urlset>';
@@ -1184,7 +1188,7 @@ function gn_index(): void {
     $lvl = (int)($_GET['level'] ?? 0);
     $shown = $lvl ? array_values(array_filter($cases, fn($c) => (int)$c['level'] === $lvl)) : $cases;
     $feat = gn_case('the-last-invitation') ?: $cases[0];
-    page_start(['title' => 'Game Night – free printable mystery games for 2–6 players', 'path' => '/game-night',
+    page_start(['title' => 'Game Night – free printable murder mystery party games for 2–6 players', 'path' => '/game-night',
         'description' => 'Full evening cases for your table: print the case file, open the sealed envelopes and crack the mystery together. Free – easy, medium and hard cases for 2–6 detectives.']);
     ?>
 <section class="gn-hero">
@@ -1537,7 +1541,9 @@ function gn_play(string $slug): void {
 // ===================== ESCAPE ROOMS =====================
 
 function escape_index(): void {
-    page_start(['title' => 'Escape rooms – free online escape games', 'path' => '/escape',
+    page_start(['title' => 'Free online escape rooms – play in your browser', 'path' => '/escape',
+        'jsonld' => [['@context' => 'https://schema.org', '@type' => 'ItemList', 'name' => 'Free online escape rooms',
+            'itemListElement' => array_values(array_map(fn($s, $k) => ['@type' => 'ListItem', 'position' => $k + 1, 'url' => url('/escape/' . $s), 'name' => ESCAPE_ROOMS[$s]['title']], array_keys(ESCAPE_ROOMS), array_keys(array_keys(ESCAPE_ROOMS))))]],
         'description' => 'Free point-and-click escape rooms in your browser: explore, collect clues, crack the locks and get out before the clock runs out.']);
     ?>
 <section class="gn-hero">
@@ -1566,7 +1572,9 @@ function escape_landing(string $slug): void {
     $u = current_user();
     $run = $u ? escape_run((int)$u['id'], $slug) : null;
     $board = escape_board($slug);
-    page_start(['title' => $r['title'] . ' – free online escape room', 'path' => '/escape/' . $slug, 'description' => $r['teaser']]);
+    page_start(['title' => $r['title'] . ' – free online escape room (level ' . (int)($r['level'] ?? 1) . ')', 'path' => '/escape/' . $slug, 'description' => $r['teaser'] . ' A free ' . $r['minutes'] . '-minute online escape room for ' . $r['players'] . ' players – play in your browser.',
+        'og_image' => is_file(__DIR__ . '/assets/img/escape/' . $slug . '/og.jpg') ? '/assets/img/escape/' . $slug . '/og.jpg' : null,
+        'jsonld' => [['@context' => 'https://schema.org', '@type' => 'Game', 'name' => $r['title'], 'description' => $r['teaser'], 'url' => url('/escape/' . $slug), 'genre' => 'Escape room', 'isAccessibleForFree' => true, 'inLanguage' => 'en', 'publisher' => ['@type' => 'Organization', 'name' => cfg('site_name')]]]]);
     ?>
 <section class="gn-hero">
   <div class="wrap">
@@ -1652,4 +1660,27 @@ function escape_play(string $slug): void {
 <script src="/assets/js/escape-<?= e($slug) ?>.js?v=11"></script>
 </body></html>
 <?php
+}
+
+
+// ===================== LIBRARY (/mysteries) =====================
+function library(): void {
+    $u = current_user();
+    $prog = $u ? user_progress((int)$u['id']) : [];
+    $all = mysteries();
+    page_start(['title' => 'Free murder mystery games – the case library', 'path' => '/mysteries',
+        'description' => count($all) . ' free murder mystery games and detective puzzles. Play each whodunit online clue by clue, or print the six clue posters for a mystery party at home, school or the office.',
+        'jsonld' => [['@context' => 'https://schema.org', '@type' => 'ItemList', 'name' => 'Free murder mystery games',
+            'itemListElement' => array_map(fn($m, $k) => ['@type' => 'ListItem', 'position' => $k + 1, 'url' => url('/mysteries/' . $m['slug']), 'name' => $m['title']], $all, array_keys($all))]]]);
+    ?>
+<section class="wrap">
+  <h1>Free murder mystery games</h1>
+  <p class="lead">Every case is a complete whodunit: six clues, a handful of suspects and one culprit. Play online clue by clue – the fewer clues you need, the more points you score – or print the six clue posters and turn your living room, classroom or office into a crime scene.</p>
+  <p>Easy cases (level 1) take 5–10 minutes; level 3 “Mastermind” cases hide the truth across four or more documents. New cases arrive as the <a href="/daily">daily mystery</a>, and there are longer <a href="/game-night">Game Night</a> cases for 2–6 players and free <a href="/escape">online escape rooms</a>.</p>
+  <?php filter_bar((bool)$u); ?>
+  <div class="grid" data-grid><?php foreach ($all as $m) echo mystery_card($m, $prog); ?></div>
+  <p class="empty" data-empty hidden>No cases match – try another search or filter.</p>
+</section>
+<?php
+    page_end();
 }
