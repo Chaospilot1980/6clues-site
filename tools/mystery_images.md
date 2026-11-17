@@ -65,124 +65,16 @@ Setting: On a storm-bound island, lighthouse keeper Ewan MacLeod has been found 
 ### `the-lighthouse-keeper/photo-cam-047.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CAM_047” at 23:35, from “Hamish's infrared trail camera – cliff burrows” in the detective mystery “The Lighthouse Keeper”: Hamish again, checking the screen. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Scarlet Duchess (library – on the site now)
-
-Setting: On the night before the Riverside Classic Car Show, Gordon Hale's red 1962 convertible, the ‘Scarlet Duchess’, was driven out of the exhibition hall.
-
-### `the-scarlet-duchess/diana-frost.jpg`
-> Portrait of Diana Frost, Rival collector, a character in the detective mystery “The Scarlet Duchess”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-scarlet-duchess/jason-reed.jpg`
-> Portrait of Jason Reed, Valet, a character in the detective mystery “The Scarlet Duchess”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-scarlet-duchess/mia-chen.jpg`
-> Portrait of Mia Chen, Show photographer, a character in the detective mystery “The Scarlet Duchess”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-scarlet-duchess/pete-lowe.jpg`
-> Portrait of Pete Lowe, Night guard, a character in the detective mystery “The Scarlet Duchess”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-scarlet-duchess/sam-ortiz.jpg`
-> Portrait of Sam Ortiz, Show mechanic, a character in the detective mystery “The Scarlet Duchess”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## The Phantom of Willow Park (library – on the site now)
-
-Setting: For two weeks, someone in a long grey raincoat and a rubber gorilla mask has jumped out of the bushes in Willow Park, scaring joggers.
-
-### `the-phantom-of-willow-park/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Phantom of Willow Park” (nuisance): For two weeks, someone in a long grey raincoat and a rubber gorilla mask has jumped out of the bushes in Willow Park, scaring joggers. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-phantom-of-willow-park/carla-diaz.jpg`
-> Portrait of Carla Diaz, Bootcamp instructor, a character in the detective mystery “The Phantom of Willow Park”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-phantom-of-willow-park/fiona-webb.jpg`
-> Portrait of Fiona Webb, Dog walker and bootcamp regular, a character in the detective mystery “The Phantom of Willow Park”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-phantom-of-willow-park/hugo-lambert.jpg`
-> Portrait of Hugo Lambert, Park keeper, a character in the detective mystery “The Phantom of Willow Park”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-phantom-of-willow-park/neville-barnes.jpg`
-> Portrait of Neville Barnes, Neighbour on Elm Row, a character in the detective mystery “The Phantom of Willow Park”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-phantom-of-willow-park/ray-doyle.jpg`
-> Portrait of Ray Doyle, Costume shop owner, a character in the detective mystery “The Phantom of Willow Park”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-phantom-of-willow-park/tessa-kim.jpg`
-> Portrait of Tessa Kim, Jogger, a character in the detective mystery “The Phantom of Willow Park”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## The Midnight Hack (library – on the site now)
-
-Setting: At Brightloop, a small app company in Copenhagen, someone logged into CEO Nadia Berg's account one November night and copied the code for the new app to a USB stick.
-
-### `the-midnight-hack/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Midnight Hack” (hacking): At Brightloop, a small app company in Copenhagen, someone logged into CEO Nadia Berg's account one November night and copied the code for the new app to a USB stick. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-midnight-hack/felix-moreau.jpg`
-> Portrait of Felix Moreau, Junior developer, a character in the detective mystery “The Midnight Hack”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-midnight-hack/ingrid-holm.jpg`
-> Portrait of Ingrid Holm, Office manager, a character in the detective mystery “The Midnight Hack”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-midnight-hack/lara-quint.jpg`
-> Portrait of Lara Quint, Cleaner, a character in the detective mystery “The Midnight Hack”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-midnight-hack/marcus-vale.jpg`
-> Portrait of Marcus Vale, Founder of rival Nimbus Apps, a character in the detective mystery “The Midnight Hack”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-midnight-hack/nadia-berg.jpg`
-> Portrait of Nadia Berg, CEO, a character in the detective mystery “The Midnight Hack”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-midnight-hack/toby-shaw.jpg`
-> Portrait of Toby Shaw, IT admin, a character in the detective mystery “The Midnight Hack”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## The Smuggler's Tide (library – on the site now)
 
 Setting: In the fishing village of Porthcove, customs found 120 fake designer watches hidden in lobster pots in Smugglers' Cove.
 
-### `the-smugglers-tide/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Smuggler's Tide” (smuggling): In the fishing village of Porthcove, customs found 120 fake designer watches hidden in lobster pots in Smugglers' Cove. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-smugglers-tide/alice-trevor.jpg`
-> Portrait of Alice Trevor, Fisherman, boat ‘Sea Wren’, a character in the detective mystery “The Smuggler's Tide”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-smugglers-tide/beth-lowry.jpg`
-> Portrait of Beth Lowry, Lighthouse keeper, a character in the detective mystery “The Smuggler's Tide”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-smugglers-tide/dan-hocking.jpg`
-> Portrait of Dan Hocking, Fisherman, boat ‘Morwenna’, a character in the detective mystery “The Smuggler's Tide”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-smugglers-tide/gary-rowe.jpg`
 > Portrait of Gary Rowe, Pub landlord, a character in the detective mystery “The Smuggler's Tide”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-smugglers-tide/joe-penhale.jpg`
-> Portrait of Joe Penhale, Fisherman, boat ‘Kittiwake’, a character in the detective mystery “The Smuggler's Tide”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-smugglers-tide/ruth-kane.jpg`
-> Portrait of Ruth Kane, Customs officer, a character in the detective mystery “The Smuggler's Tide”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## Fire at Hollow Mill (library – on the site now)
 
 Setting: At two in the morning, Hollow Mill – a protected old watermill used as artists' studios – went up in flames.
-
-### `fire-at-hollow-mill/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Fire at Hollow Mill” (arson): At two in the morning, Hollow Mill – a protected old watermill used as artists' studios – went up in flames. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `fire-at-hollow-mill/hannah-ruiz.jpg`
-> Portrait of Hannah Ruiz, Fire investigator, a character in the detective mystery “Fire at Hollow Mill”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `fire-at-hollow-mill/lydia-marsh.jpg`
-> Portrait of Lydia Marsh, Architect, a character in the detective mystery “Fire at Hollow Mill”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `fire-at-hollow-mill/ollie-grant.jpg`
-> Portrait of Ollie Grant, Neighbouring farmer, a character in the detective mystery “Fire at Hollow Mill”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `fire-at-hollow-mill/rosa-fenn.jpg`
-> Portrait of Rosa Fenn, Artist who rented a studio, a character in the detective mystery “Fire at Hollow Mill”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `fire-at-hollow-mill/simon-ashby.jpg`
-> Portrait of Simon Ashby, Property developer, a character in the detective mystery “Fire at Hollow Mill”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `fire-at-hollow-mill/victor-crane.jpg`
-> Portrait of Victor Crane, Owner of the mill, a character in the detective mystery “Fire at Hollow Mill”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `fire-at-hollow-mill/photo-img-088.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_088” at 01:58, from “Charity gala – photographer's list” in the detective mystery “Fire at Hollow Mill”: Simon Ashby on stage, running the auction. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -193,80 +85,9 @@ Setting: At two in the morning, Hollow Mill – a protected old watermill used a
 ### `fire-at-hollow-mill/photo-img-101.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_101” at 02:15, from “Charity gala – photographer's list” in the detective mystery “Fire at Hollow Mill”: Simon Ashby and Rosa Fenn with the mayor. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Ransom of Captain Biscuit (library – on the site now)
-
-Setting: Captain Biscuit, the talking parrot who stars in the Seaview Theatre's summer show, was taken from his cage on Saturday night.
-
-### `the-ransom-of-captain-biscuit/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Ransom of Captain Biscuit” (kidnapping): Captain Biscuit, the talking parrot who stars in the Seaview Theatre's summer show, was taken from his cage on Saturday night. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-ransom-of-captain-biscuit/hugh-pembroke.jpg`
-> Portrait of Hugh Pembroke, Pet shop owner, a character in the detective mystery “The Ransom of Captain Biscuit”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ransom-of-captain-biscuit/ivan-petrov.jpg`
-> Portrait of Ivan Petrov, Stage manager, a character in the detective mystery “The Ransom of Captain Biscuit”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ransom-of-captain-biscuit/june-hart.jpg`
-> Portrait of June Hart, Newsagent, a character in the detective mystery “The Ransom of Captain Biscuit”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ransom-of-captain-biscuit/maggie-doyle.jpg`
-> Portrait of Maggie Doyle, Theatre owner, a character in the detective mystery “The Ransom of Captain Biscuit”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ransom-of-captain-biscuit/nell-archer.jpg`
-> Portrait of Nell Archer, Theatre cleaner, a character in the detective mystery “The Ransom of Captain Biscuit”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ransom-of-captain-biscuit/ricky-sands.jpg`
-> Portrait of Ricky Sands, Magician, a character in the detective mystery “The Ransom of Captain Biscuit”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## The Great Pumpkin Smash (library – on the site now)
-
-Setting: At Little Brook Allotments, the night before the Giant Vegetable Show, someone smashed Bert Mills's giant pumpkin – the favourite to win.
-
-### `the-great-pumpkin-smash/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Great Pumpkin Smash” (vandalism): At Little Brook Allotments, the night before the Giant Vegetable Show, someone smashed Bert Mills's giant pumpkin – the favourite to win. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-great-pumpkin-smash/bert-mills.jpg`
-> Portrait of Bert Mills, Owner of the giant pumpkin, a character in the detective mystery “The Great Pumpkin Smash”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-great-pumpkin-smash/colin-fenwick.jpg`
-> Portrait of Colin Fenwick, Farm shop owner, a character in the detective mystery “The Great Pumpkin Smash”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-great-pumpkin-smash/doreen-platt.jpg`
-> Portrait of Doreen Platt, Rival grower, Plot 4, a character in the detective mystery “The Great Pumpkin Smash”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-great-pumpkin-smash/rita-moss.jpg`
-> Portrait of Rita Moss, Bingo caller, a character in the detective mystery “The Great Pumpkin Smash”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-great-pumpkin-smash/sunil-rao.jpg`
-> Portrait of Sunil Rao, Plot 8, Bert's neighbour, a character in the detective mystery “The Great Pumpkin Smash”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-great-pumpkin-smash/wayne-platt.jpg`
-> Portrait of Wayne Platt, Doreen's son, a character in the detective mystery “The Great Pumpkin Smash”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## The Quiz Night Cheat (library – on the site now)
 
 Setting: At the Fox & Fiddle's Friday quiz, someone peeked at the quizmaster's answers during the break.
-
-### `the-quiz-night-cheat/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Quiz Night Cheat” (cheating): At the Fox & Fiddle's Friday quiz, someone peeked at the quizmaster's answers during the break. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-quiz-night-cheat/alf-bellamy.jpg`
-> Portrait of Alf Bellamy, Captain, Brainstormers, a character in the detective mystery “The Quiz Night Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-quiz-night-cheat/dev-malik.jpg`
-> Portrait of Dev Malik, Barman, a character in the detective mystery “The Quiz Night Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-quiz-night-cheat/gwen-price.jpg`
-> Portrait of Gwen Price, Quizmaster, a character in the detective mystery “The Quiz Night Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-quiz-night-cheat/jo-kemp.jpg`
-> Portrait of Jo Kemp, Brainstormers, a character in the detective mystery “The Quiz Night Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-quiz-night-cheat/meena-shah.jpg`
-> Portrait of Meena Shah, Quizzy Rascals, a character in the detective mystery “The Quiz Night Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-quiz-night-cheat/tom-pike.jpg`
-> Portrait of Tom Pike, Captain, Quizzy Rascals, a character in the detective mystery “The Quiz Night Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-quiz-night-cheat/photo-img-501.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_501” at 20:49, from “Jo's phone – quiz break” in the detective mystery “The Quiz Night Cheat”: Alf throws a bullseye. Behind him: Tom at the far end of the bar, by the folder. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -277,55 +98,9 @@ Setting: At the Fox & Fiddle's Friday quiz, someone peeked at the quizmaster's a
 ### `the-quiz-night-cheat/photo-img-507.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_507” at 20:58, from “Jo's phone – quiz break” in the detective mystery “The Quiz Night Cheat”: Alf and Jo shake hands – game over. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Purple Fountain (library – on the site now)
-
-Setting: On the morning of Oakbridge's 500th birthday parade, the fountain in Market Square was bright purple and full of bubbles.
-
-### `the-purple-fountain/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Purple Fountain” (prank): On the morning of Oakbridge's 500th birthday parade, the fountain in Market Square was bright purple and full of bubbles. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-purple-fountain/fred-gill.jpg`
-> Portrait of Fred Gill, Street sweeper, a character in the detective mystery “The Purple Fountain”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-purple-fountain/gus-whitlow.jpg`
-> Portrait of Gus Whitlow, The mayor's election rival, a character in the detective mystery “The Purple Fountain”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-purple-fountain/lenny-drake.jpg`
-> Portrait of Lenny Drake, Bakery apprentice, a character in the detective mystery “The Purple Fountain”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-purple-fountain/mo-ahmed.jpg`
-> Portrait of Mo Ahmed, Street artist, a character in the detective mystery “The Purple Fountain”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-purple-fountain/pc-jess-shaw.jpg`
-> Portrait of PC Jess Shaw, Night patrol officer, a character in the detective mystery “The Purple Fountain”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-purple-fountain/rose-drake.jpg`
-> Portrait of Rose Drake, Bakery owner, a character in the detective mystery “The Purple Fountain”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Death on the Night Train (library – on the site now)
 
 Setting: On the overnight sleeper train Northern Star, toy maker Leonard Crisp was found dead in his compartment in the morning.
-
-### `death-on-the-night-train/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death on the Night Train” (murder): On the overnight sleeper train Northern Star, toy maker Leonard Crisp was found dead in his compartment in the morning. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `death-on-the-night-train/desmond-vance.jpg`
-> Portrait of Desmond Vance, Rival toy maker, carriage A, a character in the detective mystery “Death on the Night Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-night-train/ella-moon.jpg`
-> Portrait of Ella Moon, Musician in the dining car, a character in the detective mystery “Death on the Night Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-night-train/harold-finch.jpg`
-> Portrait of Harold Finch, Train guard, a character in the detective mystery “Death on the Night Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-night-train/joan-pell.jpg`
-> Portrait of Joan Pell, Leonard's secretary, a character in the detective mystery “Death on the Night Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-night-train/marco-silva.jpg`
-> Portrait of Marco Silva, Sleeper car steward, a character in the detective mystery “Death on the Night Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-night-train/rupert-crisp.jpg`
-> Portrait of Rupert Crisp, Victim's nephew, a character in the detective mystery “Death on the Night Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `death-on-the-night-train/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM_1” at 23:47, from “Glenford station – platform camera” in the detective mystery “Death on the Night Train”: Joan Pell steps off carriage B with her suitcase. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -349,27 +124,6 @@ Setting: On the overnight sleeper train Northern Star, toy maker Leonard Crisp w
 
 Setting: At the Fernwood Mushroom Festival, food critic Basil Thorne was judging the stew contest when one spoonful made him ill.
 
-### `the-bitter-spoon/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Bitter Spoon” (poisoning): At the Fernwood Mushroom Festival, food critic Basil Thorne was judging the stew contest when one spoonful made him ill. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-bitter-spoon/bart-ellis.jpg`
-> Portrait of Bart Ellis, Festival organiser, a character in the detective mystery “The Bitter Spoon”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-bitter-spoon/hilda-grove.jpg`
-> Portrait of Hilda Grove, Stall 1 – wild garlic broth, a character in the detective mystery “The Bitter Spoon”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-bitter-spoon/lucy-fairweather.jpg`
-> Portrait of Lucy Fairweather, Judge's assistant, a character in the detective mystery “The Bitter Spoon”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-bitter-spoon/martha-quill.jpg`
-> Portrait of Martha Quill, Stall 3 – porcini soup, a character in the detective mystery “The Bitter Spoon”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-bitter-spoon/owen-tate.jpg`
-> Portrait of Owen Tate, Stall 2 – chanterelle stew, a character in the detective mystery “The Bitter Spoon”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-bitter-spoon/pip-adair.jpg`
-> Portrait of Pip Adair, Stall 4 – forest pie, a character in the detective mystery “The Bitter Spoon”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-bitter-spoon/photo-img-610.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_610” at 14:02, from “Festival photographer” in the detective mystery “The Bitter Spoon”: Basil tastes Pip's pie at stall 4, under the rain cover. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
@@ -379,80 +133,15 @@ Setting: At the Fernwood Mushroom Festival, food critic Basil Thorne was judging
 ### `the-bitter-spoon/photo-img-624.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_624” at 14:22, from “Festival photographer” in the detective mystery “The Bitter Spoon”: Basil, very pale, is helped away from the stalls by Lucy. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Stolen Scent (library – on the site now)
-
-Setting: At the perfume house Maison Lune, someone opened the lab safe and photographed the secret formula for the new scent Nuit Bleue.
-
-### `the-stolen-scent/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Stolen Scent” (espionage): At the perfume house Maison Lune, someone opened the lab safe and photographed the secret formula for the new scent Nuit Bleue. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-stolen-scent/ana-vidal.jpg`
-> Portrait of Ana Vidal, Cleaner, a character in the detective mystery “The Stolen Scent”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-stolen-scent/bruno-kask.jpg`
-> Portrait of Bruno Kask, Night guard, a character in the detective mystery “The Stolen Scent”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-stolen-scent/celine-ardent.jpg`
-> Portrait of Céline Ardent, Head perfumer, a character in the detective mystery “The Stolen Scent”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-stolen-scent/hugo-fabre.jpg`
-> Portrait of Hugo Fabre, Sales director, a character in the detective mystery “The Stolen Scent”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-stolen-scent/ravi-joshi.jpg`
-> Portrait of Ravi Joshi, Chemist, a character in the detective mystery “The Stolen Scent”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-stolen-scent/theo-blanc.jpg`
-> Portrait of Theo Blanc, Apprentice perfumer, a character in the detective mystery “The Stolen Scent”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## The Glasshouse Blackmail (library – on the site now)
-
-Setting: At Kingsley Botanical Gardens, director Dr Ophelia Rand won the orchid show.
-
-### `the-glasshouse-blackmail/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Glasshouse Blackmail” (blackmail): At Kingsley Botanical Gardens, director Dr Ophelia Rand won the orchid show. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-glasshouse-blackmail/dr-ophelia-rand.jpg`
-> Portrait of Dr Ophelia Rand, Director of the gardens, a character in the detective mystery “The Glasshouse Blackmail”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-glasshouse-blackmail/josh-weller.jpg`
-> Portrait of Josh Weller, Delivery driver, a character in the detective mystery “The Glasshouse Blackmail”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-glasshouse-blackmail/ken-ashdown.jpg`
-> Portrait of Ken Ashdown, Head gardener, a character in the detective mystery “The Glasshouse Blackmail”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-glasshouse-blackmail/mabel-fry.jpg`
-> Portrait of Mabel Fry, Volunteer guide, a character in the detective mystery “The Glasshouse Blackmail”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-glasshouse-blackmail/priya-nand.jpg`
-> Portrait of Priya Nand, Orchid Society judge, a character in the detective mystery “The Glasshouse Blackmail”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-glasshouse-blackmail/sid-okoro.jpg`
-> Portrait of Sid Okoro, Café manager, a character in the detective mystery “The Glasshouse Blackmail”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## The Lantern Girl Swap (library – on the site now)
 
 Setting: At Hartwell's auction house, ‘The Lantern Girl’ by the painter Anna Brekke sold for £800,000.
 
-### `the-lantern-girl-swap/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Lantern Girl Swap” (art forgery): At Hartwell's auction house, ‘The Lantern Girl’ by the painter Anna Brekke sold for £800,000. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-lantern-girl-swap/clara-hartwell.jpg`
 > Portrait of Clara Hartwell, Owner of the auction house, a character in the detective mystery “The Lantern Girl Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
-### `the-lantern-girl-swap/freya-lund.jpg`
-> Portrait of Freya Lund, Art expert, a character in the detective mystery “The Lantern Girl Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-lantern-girl-swap/gideon-pryce.jpg`
-> Portrait of Gideon Pryce, Painter of copies, a character in the detective mystery “The Lantern Girl Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-lantern-girl-swap/julian-hartwell.jpg`
 > Portrait of Julian Hartwell, Head of shipping, Clara's brother, a character in the detective mystery “The Lantern Girl Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-lantern-girl-swap/matteo-russo.jpg`
-> Portrait of Matteo Russo, Restorer, a character in the detective mystery “The Lantern Girl Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-lantern-girl-swap/nina-holt.jpg`
-> Portrait of Nina Holt, Restorer's assistant, a character in the detective mystery “The Lantern Girl Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-lantern-girl-swap/photo-img-210.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_210” at 22:10, from “Charity gala, Town Hall (20 min from Hartwell's) – 7 Nov” in the detective mystery “The Lantern Girl Swap”: Julian Hartwell takes his coat and leaves early. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -1775,4 +1464,4 @@ Setting: On league night at Starlight Lanes, owner Stanley Pratt was found dead 
 > Portrait of Tess Archer, League scorer, a character in the detective mystery “Death at the Bowling Alley”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ---
-Status: 109 of 617 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 202 of 617 images delivered (one cover and six portraits per case, plus evidence photos).
