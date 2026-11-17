@@ -35,3 +35,15 @@ Wooden radio hut on a cliff, storm outside. Centre-left: an early wireless set o
 
 ## the-lighthouse-at-gull-rock/lamp.jpg
 Lighthouse lamp room at night, glass gallery all round, storm outside. Centre: a big Fresnel lens made of four square glass panels. Left: brass clockwork for the rotating shutter. Right: the paraffin burner with its glass chimney. Stairs down at bottom left.
+
+## after-hours-at-the-museum/hall.jpg
+Great hall of a Victorian natural history museum in London at night, 1958, terracotta arches, moonlight and a few dim lamps. Far left top: an open arched doorway into a dark gallery. Bottom-left corner: a small wooden rack of printed leaflets. Left-centre lower: a tall wooden cabinet of shallow specimen drawers. Centre: a glass-fronted mineral cabinet with crystals. Right half, large: an Iguanodon dinosaur skeleton on a low plinth. Far right, middle: a small framed information panel on a stand. Bottom left: stone steps down to another hall. Bottom right: a plain wooden staff door.
+
+## after-hours-at-the-museum/sky.jpg
+Meteorite gallery under a planetarium dome at night: the dark dome fills the top with faint stars. Left: a stone plinth with a dark pitted meteorite and a small label. Centre: a brass star projector on a pedestal. Centre-right: a framed star chart on the wall. Right: a tall glass display case with a brass star emblem. Exit bottom right.
+
+## after-hours-at-the-museum/sea.jpg
+Ocean hall at night, a huge whale skeleton hanging across the top. Left: a shelf with four glass specimen jars. Centre-left: a glass case with a ship's compass and a horseshoe magnet. Centre-right: a coral reef diorama tank with brightly coloured fish. Right: a tall glass display case with a brass shell emblem. Exit bottom left.
+
+## after-hours-at-the-museum/office.jpg
+Curator's office at night, 1958, green-shaded lamp. Left wall: shelves of tall leather-bound registers. Centre: a desk with a black rotary telephone, papers and a pipe. Right: a heavy green safe with three keyholes in a row and a large dial. Exit bottom left.

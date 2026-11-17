@@ -810,7 +810,7 @@ function sitemap(): void {
     echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n" . '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
     $urls = ['/', '/mysteries', '/game-night', '/escape', '/rankings', '/privacy'];
     foreach (gn_slugs() as $g) $urls[] = '/game-night/' . $g;
-    foreach (array_keys(ESCAPE_ROOMS) as $s) $urls[] = '/escape/' . $s;
+    foreach (ESCAPE_ROOMS as $s => $r) if (empty($r['draft'])) $urls[] = '/escape/' . $s;
     foreach (mysteries() as $m) { $urls[] = '/mysteries/' . $m['slug']; $urls[] = '/mysteries/' . $m['slug'] . '/play'; }
     foreach ($urls as $u) echo '  <url><loc>' . e(url($u)) . '</loc></url>' . "\n";
     echo '</urlset>';
@@ -1543,7 +1543,7 @@ function gn_play(string $slug): void {
 function escape_index(): void {
     page_start(['title' => 'Free online escape rooms – play in your browser', 'path' => '/escape',
         'jsonld' => [['@context' => 'https://schema.org', '@type' => 'ItemList', 'name' => 'Free online escape rooms',
-            'itemListElement' => array_values(array_map(fn($s, $k) => ['@type' => 'ListItem', 'position' => $k + 1, 'url' => url('/escape/' . $s), 'name' => ESCAPE_ROOMS[$s]['title']], array_keys(ESCAPE_ROOMS), array_keys(array_keys(ESCAPE_ROOMS))))]],
+            'itemListElement' => array_values(array_map(fn($s, $k) => ['@type' => 'ListItem', 'position' => $k + 1, 'url' => url('/escape/' . $s), 'name' => escape_rooms()[$s]['title']], array_keys(escape_rooms()), array_keys(array_keys(escape_rooms()))))]],
         'description' => 'Free point-and-click escape rooms in your browser: explore, collect clues, crack the locks and get out before the clock runs out.']);
     ?>
 <section class="gn-hero">
@@ -1555,7 +1555,7 @@ function escape_index(): void {
 </section>
 <section class="wrap">
   <div class="grid">
-  <?php foreach (ESCAPE_ROOMS as $slug => $r): ?>
+  <?php foreach (escape_rooms() as $slug => $r): ?>
     <article class="card"><div class="card-top"><span class="badge">Level <?= (int)($r['level'] ?? 1) ?></span><span class="badge badge-crime">Escape room</span><span class="badge"><?= e($r['status']) ?></span></div>
       <h3><a href="/escape/<?= e($slug) ?>"><?= e($r['title']) ?></a></h3><p><?= e($r['teaser']) ?></p>
       <p class="card-stats"><?= $r['minutes'] ?> min · <?= e($r['players']) ?> players · <?= $r['rooms'] ?> rooms · <?= $r['puzzles'] ?> puzzles</p></article>
@@ -1657,7 +1657,8 @@ function escape_play(string $slug): void {
 </head><body>
 <div id="escape" data-slug="<?= e($slug) ?>" data-csrf="<?= e(csrf_token()) ?>" data-name="<?= e(first_name((string)$u['name'])) ?>"></div>
 <script>window.ESCAPE_STATE = <?= json_encode($state, JSON_HEX_TAG | JSON_HEX_AMP) ?>;</script>
-<script src="/assets/js/escape-<?= e($slug) ?>.js?v=11"></script>
+<script src="/assets/js/escape-engine.js?v=1"></script>
+<script src="/assets/js/escape-<?= e($slug) ?>.js?v=12"></script>
 </body></html>
 <?php
 }

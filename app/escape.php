@@ -22,10 +22,18 @@ const ESCAPE_ROOMS = [
         'teaser' => 'Cornwall, 15 November 1912. The keeper has vanished, the light is out and the steamer Marigold passes the reef at 02:00. Not everything written in this cottage is true.',
         'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'Prototype', 'level' => 2,
     ],
+    'after-hours-at-the-museum' => [
+        'title' => 'After Hours at the Museum',
+        'tagline' => 'Locked in with the dinosaurs. The meteorite is a fake.',
+        'teaser' => 'London, November 1958. You hid in the museum at closing time to prove the famous Kensington meteorite has been swapped for a fake. At 23:00 the thief comes back for the real one.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;
 
-function escape_room(string $slug): ?array { return ESCAPE_ROOMS[$slug] ?? null; }
+/* Draft rooms (no artwork yet) are only visible to admins. */
+function escape_rooms(): array { return array_filter(ESCAPE_ROOMS, fn($r) => empty($r['draft']) || is_admin()); }
+function escape_room(string $slug): ?array { return escape_rooms()[$slug] ?? null; }
 
 function escape_migrate(PDO $pdo, string $id, string $engine): void {
     $pdo->exec("CREATE TABLE IF NOT EXISTS escape_runs (
