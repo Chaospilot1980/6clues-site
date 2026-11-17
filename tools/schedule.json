@@ -282,5 +282,29 @@
  "death-at-the-bowling-alley": {
   "daily": "2026-12-15",
   "public": "2026-12-15"
+ },
+ "the-bookshop-burglary": {
+  "daily": "2026-12-16",
+  "public": "2026-12-16"
+ },
+ "the-vintage-rally-trophy": {
+  "daily": "2026-12-17",
+  "public": "2026-12-17"
+ },
+ "the-chilli-cook-off-sabotage": {
+  "daily": "2026-12-18",
+  "public": "2026-12-18"
+ },
+ "death-at-the-vineyard": {
+  "daily": "2026-12-19",
+  "public": "2026-12-19"
+ },
+ "the-opera-house-tiara": {
+  "daily": "2026-12-20",
+  "public": "2026-12-20"
+ },
+ "the-lisbon-laptop": {
+  "daily": "2026-12-21",
+  "public": "2026-12-21"
  }
 }
