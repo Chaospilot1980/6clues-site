@@ -34,6 +34,12 @@ const ESCAPE_ROOMS = [
         'teaser' => 'Prague Castle, 1610. A poison recipe in your master’s name, a chest only the four elements can open – and one hour before the guards come for the apprentice.',
         'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2, 'engine' => true,
     ],
+    'the-sealed-tomb' => [
+        'title' => 'The Sealed Tomb',
+        'tagline' => 'Someone rolled the stone back. Your lamp has an hour of oil.',
+        'teaser' => 'Valley of the Kings, November 1922. A rival expedition has sealed you inside a newly opened tomb. Somewhere, the workmen of three thousand years ago left another way out.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;
 

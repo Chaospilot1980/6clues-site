@@ -59,3 +59,15 @@ Vaulted brick cellar with an alchemist's furnace, 1610. Left: a wooden bin of bl
 
 ## the-alchemists-attic/roof.jpg
 Rooftop observatory platform above Prague at night, stars and church spires below. Left-centre: a large brass astrological wheel with three concentric rings and zodiac signs. Right-centre: an iron-bound wooden chest with four square sockets on its lid. Hatch down at bottom left.
+
+## the-sealed-tomb/corridor.jpg
+Descending rock-cut corridor of an ancient Egyptian tomb, Valley of the Kings, 1922, lit by a single oil lamp, painted walls faded. Top-left: the entrance at the top of the slope, blocked by a rolled stone slab. Left-bottom: a leather camera bag on the floor. Centre-left top: a small blackboard on an easel with chalk marks. Centre-bottom: a heap of limestone rubble with a tool handle sticking out. Right: a modern iron-bar gate with a padlock across a dark doorway further down.
+
+## the-sealed-tomb/ante.jpg
+Ancient Egyptian antechamber, 1922 excavation, lamp light. Left top: a painted wall with four figures (human, baboon, jackal and falcon heads). Centre: a gilded wooden chest with four canopic jars beside it. Centre top: a notebook and loose papers on a crate. Right-centre lower: woven workmen's baskets. Far right: a plastered sealed doorway with an oval cartouche painted on it. Exit bottom left.
+
+## the-sealed-tomb/burial.jpg
+Ancient Egyptian burial chamber, 1922, deep shadows, lamp light. Top: a dark vaulted ceiling (paint barely visible). Centre: a large granite sarcophagus with its lid slightly ajar. Right: a painted fresco of jackal-headed Anubis weighing a heart against a feather on golden scales. Left: a low dark doorway. Exit bottom left.
+
+## the-sealed-tomb/treasury.jpg
+Ancient Egyptian tomb treasury piled with gold, 1922, lamp light. Left: a tall pair of golden scales with a feather on one pan. Centre: heaps of gold treasure, alabaster jars and a gilded chariot wheel. Right: a black statue of the jackal Anubis lying on a gilded shrine. Exit bottom right.
