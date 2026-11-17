@@ -26,13 +26,13 @@ const ESCAPE_ROOMS = [
         'title' => 'After Hours at the Museum',
         'tagline' => 'Locked in with the dinosaurs. The meteorite is a fake.',
         'teaser' => 'London, November 1958. You hid in the museum at closing time to prove the famous Kensington meteorite has been swapped for a fake. At 23:00 the thief comes back for the real one.',
-        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2, 'engine' => true,
     ],
     'the-alchemists-attic' => [
         'title' => 'The Alchemist’s Attic',
         'tagline' => 'The emperor was poisoned. Your master is in chains. Dawn is coming.',
         'teaser' => 'Prague Castle, 1610. A poison recipe in your master’s name, a chest only the four elements can open – and one hour before the guards come for the apprentice.',
-        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2, 'engine' => true,
     ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;

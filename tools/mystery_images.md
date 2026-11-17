@@ -491,12 +491,6 @@ Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £2
 ### `the-counterfeit-christmas/leon-kraus.jpg`
 > Portrait of Leon Kraus, Grotto elf (bells on his shoes), a character in the detective mystery “The Counterfeit Christmas”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
-### `the-counterfeit-christmas/mira-kade.jpg`
-> Portrait of Mira Kade, Paper stall owner, a character in the detective mystery “The Counterfeit Christmas”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-counterfeit-christmas/pia-sorensen.jpg`
-> Portrait of Pia Sorensen, Primary school teacher, a character in the detective mystery “The Counterfeit Christmas”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-counterfeit-christmas/photo-img-401.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_401” at 17:10, from “Market photographer – Saturday” in the detective mystery “The Counterfeit Christmas”: Bjorn leads the carols on stage. Mira at her stall behind the crowd. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
@@ -1437,4 +1431,4 @@ Setting: On league night at Starlight Lanes, owner Stanley Pratt was found dead 
 > Portrait of Tess Archer, League scorer, a character in the detective mystery “Death at the Bowling Alley”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ---
-Status: 211 of 617 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 213 of 617 images delivered (one cover and six portraits per case, plus evidence photos).
