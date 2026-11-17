@@ -162,21 +162,6 @@ Setting: At the circus winter quarters, an old farm outside town, owner Augustus
 ### `death-at-the-winter-circus/dr-amira-hale.jpg`
 > Portrait of Dr Amira Hale, Circus vet, a character in the detective mystery “Death at the Winter Circus”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
-### `death-at-the-winter-circus/lena-volkova.jpg`
-> Portrait of Lena Volkova, Trapeze artist, a character in the detective mystery “Death at the Winter Circus”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-winter-circus/ned-parfitt.jpg`
-> Portrait of Ned Parfitt, ‘Bobo’ the clown, a character in the detective mystery “Death at the Winter Circus”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-winter-circus/rosa-bell.jpg`
-> Portrait of Rosa Bell, Augustus's daughter, a character in the detective mystery “Death at the Winter Circus”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-winter-circus/silas-crowe.jpg`
-> Portrait of Silas Crowe, Business partner, horse trainer, a character in the detective mystery “Death at the Winter Circus”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-winter-circus/tomas-grill.jpg`
-> Portrait of Tomas Grill, Night watchman, a character in the detective mystery “Death at the Winter Circus”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `death-at-the-winter-circus/photo-img-301.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_301” at 20:15, from “Children's hospital, in town (25 min away)” in the detective mystery “Death at the Winter Circus”: Bobo juggles for Ward 3. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
@@ -502,18 +487,6 @@ Setting: At the Drayford Model Railway Show in the old Corn Exchange, organiser 
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
-
-### `the-counterfeit-christmas/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Counterfeit Christmas” (counterfeit): At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-counterfeit-christmas/bjorn-lindqvist.jpg`
-> Portrait of Bjorn Lindqvist, Father Christmas, early shift, a character in the detective mystery “The Counterfeit Christmas”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-counterfeit-christmas/dmitri-novak.jpg`
-> Portrait of Dmitri Novak, Father Christmas, late shift, a character in the detective mystery “The Counterfeit Christmas”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-counterfeit-christmas/greta-holm.jpg`
-> Portrait of Greta Holm, Market manager, a character in the detective mystery “The Counterfeit Christmas”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-counterfeit-christmas/leon-kraus.jpg`
 > Portrait of Leon Kraus, Grotto elf (bells on his shoes), a character in the detective mystery “The Counterfeit Christmas”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1464,4 +1437,4 @@ Setting: On league night at Starlight Lanes, owner Stanley Pratt was found dead 
 > Portrait of Tess Archer, League scorer, a character in the detective mystery “Death at the Bowling Alley”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ---
-Status: 202 of 617 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 211 of 617 images delivered (one cover and six portraits per case, plus evidence photos).
