@@ -44,7 +44,7 @@ const ESCAPE_ROOMS = [
         'title' => 'The Polar Night',
         'tagline' => 'No sun for weeks. No power. One plane, at one o’clock.',
         'teaser' => 'Svalbard, January 1958. The station chief went out to check the aerial and never came back – then the lights died. The last plane of the winter flies over at 01:00.',
-        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2, 'engine' => true,
     ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;

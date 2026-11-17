@@ -275,46 +275,9 @@ Setting: Tea-room owner Marguerite Lowell paid £40,000 for ‘Morning at Saltby
 ### `the-last-canvas/photo-img-03.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_03” at Back, from “Close-up photos of the painting” in the detective mystery “The Last Canvas”: Under the frame edge: a faint printed stamp on the canvas. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## Death at the Summit Station (daily case 2026-11-19)
-
-Setting: Ludovic Brenner, owner of the Summit Restaurant, was found dead in his office at the top of the mountain.
-
-### `death-at-the-summit-station/inga-dahlberg.jpg`
-> Portrait of Inga Dahlberg, Owner of the valley restaurant, a character in the detective mystery “Death at the Summit Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-summit-station/margit-solberg.jpg`
-> Portrait of Margit Solberg, Head chef, a character in the detective mystery “Death at the Summit Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-summit-station/solveig-haug.jpg`
-> Portrait of Solveig Haug, Waitress, a character in the detective mystery “Death at the Summit Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-summit-station/torvald-eide.jpg`
-> Portrait of Torvald Eide, Cable car operator, a character in the detective mystery “Death at the Summit Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## The Fete Raffle Money (daily case 2026-11-20)
 
 Setting: At the Little Ashby summer fete, raffle tickets were £1 each.
-
-### `the-fete-raffle-money/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Fete Raffle Money” (theft): At the Little Ashby summer fete, raffle tickets were £1 each. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-fete-raffle-money/archie-prowse.jpg`
-> Portrait of Archie Prowse, Treasurer, a character in the detective mystery “The Fete Raffle Money”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-fete-raffle-money/constance-ugwu.jpg`
-> Portrait of Constance Ugwu, Fete organiser, a character in the detective mystery “The Fete Raffle Money”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-fete-raffle-money/fergus-lathom.jpg`
-> Portrait of Fergus Lathom, Mayor, drew the winning ticket, a character in the detective mystery “The Fete Raffle Money”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-fete-raffle-money/jem-okafor.jpg`
-> Portrait of Jem Okafor, Scout leader, a character in the detective mystery “The Fete Raffle Money”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-fete-raffle-money/kitty-merriman.jpg`
-> Portrait of Kitty Merriman, Ticket seller, a character in the detective mystery “The Fete Raffle Money”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-fete-raffle-money/priti-dewan.jpg`
-> Portrait of Priti Dewan, Vet nurse, a character in the detective mystery “The Fete Raffle Money”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-fete-raffle-money/photo-img-310.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_310” at 13:05, from “Jem's photos – fete day” in the detective mystery “The Fete Raffle Money”: Archie by the bouncy castle, tearing off pink tickets for a queue. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -329,27 +292,6 @@ Setting: At the Little Ashby summer fete, raffle tickets were £1 each.
 
 Setting: At the Hill Street Soapbox Derby, the brakes on favourite cart Red Rocket failed at the first bend.
 
-### `the-soapbox-sabotage/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Soapbox Sabotage” (sabotage): At the Hill Street Soapbox Derby, the brakes on favourite cart Red Rocket failed at the first bend. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-soapbox-sabotage/dorcas-ilett.jpg`
-> Portrait of Dorcas Ilett, Race secretary, a character in the detective mystery “The Soapbox Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-soapbox-sabotage/gareth-wynne.jpg`
-> Portrait of Gareth Wynne, Driver of Green Goblin, a character in the detective mystery “The Soapbox Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-soapbox-sabotage/hattie-gold.jpg`
-> Portrait of Hattie Gold, Course marshal, a character in the detective mystery “The Soapbox Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-soapbox-sabotage/lionel-kaye.jpg`
-> Portrait of Lionel Kaye, Paddock steward, a character in the detective mystery “The Soapbox Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-soapbox-sabotage/ottoline-brisk.jpg`
-> Portrait of Ottoline Brisk, Driver of Red Rocket, a character in the detective mystery “The Soapbox Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-soapbox-sabotage/vikram-sethi.jpg`
-> Portrait of Vikram Sethi, Red Rocket's mechanic, a character in the detective mystery “The Soapbox Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-soapbox-sabotage/photo-img-701.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_701” at 08:05, from “Hattie's photos – race morning” in the detective mystery “The Soapbox Sabotage”: Green Goblin doing a sneaky practice run on the closed course – Gareth driving. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
@@ -362,18 +304,6 @@ Setting: At the Hill Street Soapbox Derby, the brakes on favourite cart Red Rock
 ## Death at the Dig (daily case 2026-11-22)
 
 Setting: At the Hollowmere excavation, Professor Cornelius Abernathy was found dead in the finds tent in the morning.
-
-### `death-at-the-dig/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Dig” (murder): At the Hollowmere excavation, Professor Cornelius Abernathy was found dead in the finds tent in the morning. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `death-at-the-dig/ambrose-kettering.jpg`
-> Portrait of Ambrose Kettering, Farmer who owns the land, a character in the detective mystery “Death at the Dig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-dig/dr-felicity-haverstock.jpg`
-> Portrait of Dr Felicity Haverstock, Deputy director, found the Hoard, a character in the detective mystery “Death at the Dig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-dig/mags-dunleavy.jpg`
-> Portrait of Mags Dunleavy, Camp cook, a character in the detective mystery “Death at the Dig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `death-at-the-dig/rhiannon-owusu.jpg`
 > Portrait of Rhiannon Owusu, Student archaeologist, a character in the detective mystery “Death at the Dig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1281,4 +1211,4 @@ Setting: At a robotics conference in Lisbon, the prototype laptop of speaker Dr 
 > Candid snapshot as taken with that camera – “IMG_4458” at 15:48, from “Diego's phone – photo times” in the detective mystery “The Lisbon Laptop”: Belém Tower in the sunshine. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 314 of 668 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 336 of 668 images delivered (one cover and six portraits per case, plus evidence photos).
