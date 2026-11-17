@@ -40,6 +40,12 @@ const ESCAPE_ROOMS = [
         'teaser' => 'Valley of the Kings, November 1922. A rival expedition has sealed you inside a newly opened tomb. Somewhere, the workmen of three thousand years ago left another way out.',
         'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2, 'engine' => true,
     ],
+    'the-polar-night' => [
+        'title' => 'The Polar Night',
+        'tagline' => 'No sun for weeks. No power. One plane, at one o’clock.',
+        'teaser' => 'Svalbard, January 1958. The station chief went out to check the aerial and never came back – then the lights died. The last plane of the winter flies over at 01:00.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;
 

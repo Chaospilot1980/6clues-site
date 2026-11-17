@@ -71,3 +71,15 @@ Ancient Egyptian burial chamber, 1922, deep shadows, lamp light. Top: a dark vau
 
 ## the-sealed-tomb/treasury.jpg
 Ancient Egyptian tomb treasury piled with gold, 1922, lamp light. Left: a tall pair of golden scales with a feather on one pan. Centre: heaps of gold treasure, alabaster jars and a gilded chariot wheel. Right: a black statue of the jackal Anubis lying on a gilded shrine. Exit bottom right.
+
+## the-polar-night/hut.jpg
+Inside a small wooden Arctic weather-station hut, Svalbard 1958, polar night, lit only by the glow of a cast-iron stove. Far left: the stove with a kettle on top. Left-centre top: a small window thickly iced over on the inside. Centre top: a framed photo of a man with a husky on the wall. Right-centre lower: a wooden desk with a drawer. Right top: a wall thermometer. Far right bottom: a red jerrycan by the door. Bottom left and bottom right: doorways.
+
+## the-polar-night/radio.jpg
+Radio room of a 1958 Arctic weather station, wooden walls, a single dim bulb. Left lower: an open logbook on a shelf. Centre: a big valve radio transmitter with dials and a Morse key on the desk. Right top: a printed card pinned to the wall. Exit bottom right.
+
+## the-polar-night/shed.jpg
+Generator shed of an Arctic station, frost on every surface, torchlight. Left top: a printed manual pinned to the wall. Centre: a large diesel generator with a pull cord and a fuel tank. Right lower: a red metal toolbox on the floor. Exit bottom left.
+
+## the-polar-night/tower.jpg
+Outside an Arctic weather station at night in a snowstorm, aurora faint in the sky. Left: a tall wind vane on a pole. Left-centre: a cup anemometer on a pole. Centre-right: a white louvred thermometer screen on legs. Right: a tall radio aerial mast with a wire hanging loose. Snow-covered ground, the lit hut far bottom left.
