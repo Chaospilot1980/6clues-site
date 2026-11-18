@@ -1391,6 +1391,112 @@ Setting: At the Crystal Ice Arena, coach Viktor Hale was found dead in the ice p
 ### `murder-at-the-skating-gala/lara-quinn.jpg`
 > Portrait of Lara Quinn, Skater, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
+## The Snow Globe Swap (library – on the site now)
+
+Setting: At the Fairhaven Town Museum, curator Agnes Ward discovered that the star of the Christmas display – a Victorian snow globe worth £12,000 – had been replaced with a gift-shop copy.
+
+### `the-snow-globe-swap/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Snow Globe Swap” (theft): At the Fairhaven Town Museum, curator Agnes Ward discovered that the star of the Christmas display – a Victorian snow globe worth £12,000 – had been replaced with a gift-shop copy. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-snow-globe-swap/agnes-ward.jpg`
+> Portrait of Agnes Ward, Curator, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snow-globe-swap/dr-leon-abbott.jpg`
+> Portrait of Dr Leon Abbott, Antiques dealer, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snow-globe-swap/joan-price.jpg`
+> Portrait of Joan Price, Front desk, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snow-globe-swap/mina-lowe.jpg`
+> Portrait of Mina Lowe, Gift shop manager, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snow-globe-swap/ollie-shaw.jpg`
+> Portrait of Ollie Shaw, Visitor, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snow-globe-swap/rob-kelly.jpg`
+> Portrait of Rob Kelly, Volunteer guide, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snow-globe-swap/photo-img-5512.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_5512” at Wed 16:20, from “Ollie's phone” in the detective mystery “The Snow Globe Swap”: The Christmas display with its case open. A man in a red 'GUIDE' lanyard holds a snow globe; a gift-shop bag sits at his feet. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Chalet Safe Robbery (library – on the site now)
+
+Setting: At Chalet Edelweiss in the Alps, the safe in the main bedroom was emptied of €8,000 and a diamond watch while the guests were out skiing.
+
+### `the-chalet-safe-robbery/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Chalet Safe Robbery” (theft): At Chalet Edelweiss in the Alps, the safe in the main bedroom was emptied of €8,000 and a diamond watch while the guests were out skiing. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-chalet-safe-robbery/herr-paul-gruber.jpg`
+> Portrait of Herr Paul Gruber, Village shopkeeper, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-chalet-safe-robbery/lena-brandt.jpg`
+> Portrait of Lena Brandt, Chalet host, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-chalet-safe-robbery/marta-novak.jpg`
+> Portrait of Marta Novak, Cleaner, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-chalet-safe-robbery/mr-james-rhodes.jpg`
+> Portrait of Mr James Rhodes, Guest, owner of the watch, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-chalet-safe-robbery/sophie-rhodes.jpg`
+> Portrait of Sophie Rhodes, James's daughter, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-chalet-safe-robbery/tomas-weiss.jpg`
+> Portrait of Tomas Weiss, Chalet chef, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death on the Sleeper Train (library – on the site now)
+
+Setting: On the Highland Night Sleeper, publisher Edmund Crane was found dead in cabin 12 when the attendant brought his morning tea.
+
+### `death-on-the-sleeper-train/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death on the Sleeper Train” (murder): On the Highland Night Sleeper, publisher Edmund Crane was found dead in cabin 12 when the attendant brought his morning tea. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-on-the-sleeper-train/dr-ian-moss.jpg`
+> Portrait of Dr Ian Moss, Passenger, cabin 11, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-sleeper-train/ds-callum-reid.jpg`
+> Portrait of DS Callum Reid, Transport police, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-sleeper-train/fiona-marsh.jpg`
+> Portrait of Fiona Marsh, Author, cabin 14, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-sleeper-train/gordon-fyfe.jpg`
+> Portrait of Gordon Fyfe, Train attendant, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-sleeper-train/kirsty-allan.jpg`
+> Portrait of Kirsty Allan, Passenger, cabin 10, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-sleeper-train/rachel-crane.jpg`
+> Portrait of Rachel Crane, Edmund's wife, cabin 15, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder on the Cable Car (library – on the site now)
+
+Setting: At the Alpenkrone ski resort, owner Anton Weber was found dead in cabin 23 of the cable car when it arrived at the summit.
+
+### `murder-on-the-cable-car/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder on the Cable Car” (murder): At the Alpenkrone ski resort, owner Anton Weber was found dead in cabin 23 of the cable car when it arrived at the summit. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-on-the-cable-car/felix-moser.jpg`
+> Portrait of Felix Moser, Lift operator, middle station, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-on-the-cable-car/inspector-eva-lang.jpg`
+> Portrait of Inspector Eva Lang, Police, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-on-the-cable-car/kurt-brenner.jpg`
+> Portrait of Kurt Brenner, Ski school director, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-on-the-cable-car/max-huber.jpg`
+> Portrait of Max Huber, Ski hire shop, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-on-the-cable-car/nina-fuchs.jpg`
+> Portrait of Nina Fuchs, Ski instructor, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-on-the-cable-car/ursula-weber.jpg`
+> Portrait of Ursula Weber, Anton's sister, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-on-the-cable-car/photo-img-7711.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_7711” at 18:20, from “Ski hire shop photos” in the detective mystery “Murder on the Cable Car”: Staff locker 1 labelled 'K. BRENNER – DIRECTOR'. Inside: one ski pole with a broken basket and a dark stain on the grip. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -2791,4 +2897,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1222 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1252 images delivered (one cover and six portraits per case, plus evidence photos).
