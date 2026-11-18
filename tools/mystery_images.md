@@ -236,6 +236,62 @@ Setting: At the Drayford Model Railway Show in the old Corn Exchange, organiser 
 ### `death-at-the-model-railway-show/photo-photo-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “PHOTO_3” at 14:36, from “Club photographer – Saturday” in the detective mystery “Death at the Model Railway Show”: The Major and Ivor still at ‘Pennine Viaduct’. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Missing Mascot Costume (library – on the site now)
+
+Setting: At Elmwood Primary, Bertie the Badger – the giant mascot costume that cheers the team on every sports day – disappeared from the PE store the day before the big match against Hilltop School.
+
+### `the-missing-mascot-costume/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Missing Mascot Costume” (theft): At Elmwood Primary, Bertie the Badger – the giant mascot costume that cheers the team on every sports day – disappeared from the PE store the day before the big match against Hilltop School. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-missing-mascot-costume/miss-leah-ford.jpg`
+> Portrait of Miss Leah Ford, Elmwood teaching assistant, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-mascot-costume/mr-dan-hale.jpg`
+> Portrait of Mr Dan Hale, Elmwood PE teacher, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-mascot-costume/mr-kyle-banks.jpg`
+> Portrait of Mr Kyle Banks, Hilltop School PE teacher, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-mascot-costume/mrs-joan-pell.jpg`
+> Portrait of Mrs Joan Pell, School secretary, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-mascot-costume/mrs-ruth-okoro.jpg`
+> Portrait of Mrs Ruth Okoro, Head teacher, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-mascot-costume/stan-price.jpg`
+> Portrait of Stan Price, Caretaker, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Camera Fair Leica (library – on the site now)
+
+Setting: At the Northbridge Camera Fair, a 1933 Leica worth £15,000 disappeared from dealer Frank Wiley's stand while everyone was watching the raffle draw.
+
+### `the-camera-fair-leica/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Camera Fair Leica” (theft): At the Northbridge Camera Fair, a 1933 Leica worth £15,000 disappeared from dealer Frank Wiley's stand while everyone was watching the raffle draw. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-camera-fair-leica/asha-kumar.jpg`
+> Portrait of Asha Kumar, Fair organiser, a character in the detective mystery “The Camera Fair Leica”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-camera-fair-leica/frank-wiley.jpg`
+> Portrait of Frank Wiley, Camera dealer, a character in the detective mystery “The Camera Fair Leica”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-camera-fair-leica/gordon-bell.jpg`
+> Portrait of Gordon Bell, Collector, a character in the detective mystery “The Camera Fair Leica”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-camera-fair-leica/len-fox.jpg`
+> Portrait of Len Fox, Security guard, a character in the detective mystery “The Camera Fair Leica”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-camera-fair-leica/rosa-hill.jpg`
+> Portrait of Rosa Hill, Raffle helper, a character in the detective mystery “The Camera Fair Leica”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-camera-fair-leica/tim-rhodes.jpg`
+> Portrait of Tim Rhodes, Photo technician, a character in the detective mystery “The Camera Fair Leica”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-camera-fair-leica/photo-cam-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-2” at 15:06, from “Car park camera” in the detective mystery “The Camera Fair Leica”: G. Bell puts a small padded camera bag into the boot of his car. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-camera-fair-leica/photo-cam-2-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-2” at 15:09, from “Car park camera” in the detective mystery “The Camera Fair Leica”: G. Bell walks back into the fair. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -1576,5 +1632,64 @@ Setting: At Bean & Ember, champion roaster Nadia Brook collapsed during a privat
 ### `death-at-the-coffee-roastery/photo-cam-1-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM-1” at 10:09, from “Corridor camera” in the detective mystery “Death at the Coffee Roastery”: The same person leaves and walks to the stairs up to the office. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## Death at the Sheepdog Trials (daily case 2027-01-16)
+
+Setting: At the Glen Lyon Sheepdog Trials, senior judge Hamish Reid was found dead in the judges' caravan on the afternoon of the open final.
+
+### `death-at-the-sheepdog-trials/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Sheepdog Trials” (murder): At the Glen Lyon Sheepdog Trials, senior judge Hamish Reid was found dead in the judges' caravan on the afternoon of the open final. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-sheepdog-trials/alasdair-munro.jpg`
+> Portrait of Alasdair Munro, Shepherd, a character in the detective mystery “Death at the Sheepdog Trials”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-sheepdog-trials/dr-iain-lewis.jpg`
+> Portrait of Dr Iain Lewis, Vet on duty, a character in the detective mystery “Death at the Sheepdog Trials”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-sheepdog-trials/ewan-kerr.jpg`
+> Portrait of Ewan Kerr, Shepherd, a character in the detective mystery “Death at the Sheepdog Trials”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-sheepdog-trials/morag-lennox.jpg`
+> Portrait of Morag Lennox, Commentator, a character in the detective mystery “Death at the Sheepdog Trials”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-sheepdog-trials/sgt-fiona-gray.jpg`
+> Portrait of Sgt Fiona Gray, Police, a character in the detective mystery “Death at the Sheepdog Trials”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-sheepdog-trials/shona-grant.jpg`
+> Portrait of Shona Grant, Co-judge, a character in the detective mystery “Death at the Sheepdog Trials”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-sheepdog-trials/photo-img-0412.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_0412” at 14:12, from “Shona's phone” in the detective mystery “Death at the Sheepdog Trials”: View from the judges' box: Ewan Kerr and his black-and-white dog Fly at the pen. Far left: a red quad bike parked right beside the judges' caravan, its back box labelled 'MUNRO'. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Murder at the Fencing Club (daily case 2027-01-17)
+
+Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in the armoury during Tuesday club night, struck with a heavy trophy.
+
+### `murder-at-the-fencing-club/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Fencing Club” (murder): At the Riverside Fencing Club, head coach Viktor Lenz was found dead in the armoury during Tuesday club night, struck with a heavy trophy. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-fencing-club/clara-duval.jpg`
+> Portrait of Clara Duval, Club fencer, a character in the detective mystery “Murder at the Fencing Club”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-fencing-club/ds-paul-okafor.jpg`
+> Portrait of DS Paul Okafor, Police, a character in the detective mystery “Murder at the Fencing Club”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-fencing-club/jo-moss.jpg`
+> Portrait of Jo Moss, Club fencer, a character in the detective mystery “Murder at the Fencing Club”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-fencing-club/lily-shaw.jpg`
+> Portrait of Lily Shaw, Receptionist, a character in the detective mystery “Murder at the Fencing Club”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-fencing-club/nina-ortiz.jpg`
+> Portrait of Nina Ortiz, Club fencer, a character in the detective mystery “Murder at the Fencing Club”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-fencing-club/pete-vance.jpg`
+> Portrait of Pete Vance, Armourer, a character in the detective mystery “Murder at the Fencing Club”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-fencing-club/photo-cam-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-3” at 19:14, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval, in club tracksuit, no fencing kit, walks towards the armoury. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `murder-at-the-fencing-club/photo-cam-3-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ---
-Status: 446 of 876 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 909 images delivered (one cover and six portraits per case, plus evidence photos).
