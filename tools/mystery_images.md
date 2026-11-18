@@ -1294,5 +1294,73 @@ Setting: At Coast FM, station manager Clive Rowntree was found dead in the recor
 ### `murder-at-the-radio-station/photo-cam-cp-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CAM_CP” at 03:05, from “Car park camera – Coast FM” in the detective mystery “Murder at the Radio Station”: Tom wakes, looks at the building and drives off. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Wedding Gift Box (daily case 2026-12-25)
+
+Setting: At Ashby Barn, the white card box holding the wedding guests' gifts – about £3,000 – disappeared from the gift table during the speeches at Lily and Sam's reception.
+
+### `the-wedding-gift-box/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Wedding Gift Box” (theft): At Ashby Barn, the white card box holding the wedding guests' gifts – about £3,000 – disappeared from the gift table during the speeches at Lily and Sam's reception. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-wedding-gift-box/amy-marsh.jpg`
+> Portrait of Amy Marsh, Bride's sister, a character in the detective mystery “The Wedding Gift Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-wedding-gift-box/dean-hollis.jpg`
+> Portrait of Dean Hollis, Groom's cousin, a character in the detective mystery “The Wedding Gift Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-wedding-gift-box/laszlo-varga.jpg`
+> Portrait of Laszlo Varga, Barn manager, a character in the detective mystery “The Wedding Gift Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-wedding-gift-box/mia-chen.jpg`
+> Portrait of Mia Chen, Wedding photographer, a character in the detective mystery “The Wedding Gift Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-wedding-gift-box/pat-hollis.jpg`
+> Portrait of Pat Hollis, Groom's aunt, a character in the detective mystery “The Wedding Gift Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-wedding-gift-box/rob-kerr.jpg`
+> Portrait of Rob Kerr, Best man, a character in the detective mystery “The Wedding Gift Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-wedding-gift-box/photo-img-3301.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “IMG_3301” at 13:30, from “Mia's camera – reception” in the detective mystery “The Wedding Gift Box”: The gift table: flowers, parcels and the white card box. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-wedding-gift-box/photo-img-3318.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “IMG_3318” at 13:40, from “Mia's camera – reception” in the detective mystery “The Wedding Gift Box”: Rob, the best man, bending over the gift table. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-wedding-gift-box/photo-img-3342.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “IMG_3342” at 13:58, from “Mia's camera – reception” in the detective mystery “The Wedding Gift Box”: The gift table without the box. At the side door, the back of a man in a grey suit. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Death at the Ski Lodge (daily case 2026-12-26)
+
+Setting: In the Norwegian resort of Fjellstua, lodge owner Henrik Aas was found dead in the ski-wax room at the top station of the Summit chairlift.
+
+### `death-at-the-ski-lodge/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Ski Lodge” (murder): In the Norwegian resort of Fjellstua, lodge owner Henrik Aas was found dead in the ski-wax room at the top station of the Summit chairlift. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-ski-lodge/anders-fog.jpg`
+> Portrait of Anders Fog, Ski patrol, a character in the detective mystery “Death at the Ski Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-ski-lodge/ingrid-moe.jpg`
+> Portrait of Ingrid Moe, Lodge manager, a character in the detective mystery “Death at the Ski Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-ski-lodge/kari-lund.jpg`
+> Portrait of Kari Lund, Top-station lift operator, a character in the detective mystery “Death at the Ski Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-ski-lodge/mette-rask.jpg`
+> Portrait of Mette Rask, Guest, photographer, a character in the detective mystery “Death at the Ski Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-ski-lodge/ola-dahl.jpg`
+> Portrait of Ola Dahl, Owner of a rival lodge, a character in the detective mystery “Death at the Ski Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-ski-lodge/sven-berg.jpg`
+> Portrait of Sven Berg, Ski instructor, a character in the detective mystery “Death at the Ski Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-ski-lodge/photo-dsc-0611.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “DSC_0611” at 14:16, from “Mette's camera – top station” in the detective mystery “Death at the Ski Lodge”: Empty chairs swinging into the top station. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `death-at-the-ski-lodge/photo-dsc-0619.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “DSC_0619” at 14:24, from “Mette's camera – top station” in the detective mystery “Death at the Ski Lodge”: A woman in a red Fjellstua jacket, a folder under her arm, going into the wax room. Face turned away. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `death-at-the-ski-lodge/photo-dsc-0627.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “DSC_0627” at 14:38, from “Mette's camera – top station” in the detective mystery “Death at the Ski Lodge”: The wax-room door, shut. Nobody in sight. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ---
-Status: 336 of 692 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 336 of 712 images delivered (one cover and six portraits per case, plus evidence photos).
