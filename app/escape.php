@@ -8,19 +8,19 @@ const ESCAPE_ROOMS = [
         'title' => 'The Clockmaker’s Last Hour',
         'tagline' => 'One hour until midnight. Find the heart of the house.',
         'teaser' => 'Copenhagen, New Year’s Eve 1931. A master clockmaker has died, and his will hides his workshop behind ten riddles. You have until the great clock strikes twelve.',
-        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 10, 'status' => 'Prototype', 'level' => 1,
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 10, 'status' => 'New', 'level' => 1,
     ],
     'the-last-night-train' => [
         'title' => 'The Last Night Train',
         'tagline' => 'A courier vanishes on the Orient Express. One hour to the frontier.',
         'teaser' => 'Simplon-Orient-Express, 1934. The courier you were sent to meet has vanished from compartment 7, leaving a briefcase with three dials. At 06:00 the customs men board. Harder: three trails at once, and decoys along the way.',
-        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'Prototype', 'level' => 2,
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2,
     ],
     'the-lighthouse-at-gull-rock' => [
         'title' => 'The Lighthouse at Gull Rock',
         'tagline' => 'A storm, a dark tower, a ship due at the reef at two.',
         'teaser' => 'Cornwall, 15 November 1912. The keeper has vanished, the light is out and the steamer Marigold passes the reef at 02:00. Not everything written in this cottage is true.',
-        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'Prototype', 'level' => 2,
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 13, 'status' => 'New', 'level' => 2,
     ],
     'after-hours-at-the-museum' => [
         'title' => 'After Hours at the Museum',
@@ -102,3 +102,13 @@ function escape_board(string $slug, int $limit = 10): array {
     return $st->fetchAll();
 }
 function escape_clock(int $ms): string { $s = intdiv($ms, 1000); return sprintf('%d:%02d', intdiv($s, 60), $s % 60); }
+
+/** Cover picture for an escape room: its most striking scene (falls back to the first scene file). */
+function escape_cover(string $slug): ?string {
+    $pick = ['the-clockmakers-last-hour' => 'tower', 'the-last-night-train' => 'compartment', 'the-lighthouse-at-gull-rock' => 'lamp',
+             'after-hours-at-the-museum' => 'hall', 'the-alchemists-attic' => 'attic', 'the-sealed-tomb' => 'burial', 'the-polar-night' => 'hut',
+             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour'];
+    $dir = dirname(__DIR__) . '/assets/img/escape/' . $slug . '/';
+    $f = isset($pick[$slug]) && is_file($dir . $pick[$slug] . '.jpg') ? $pick[$slug] . '.jpg' : (basename((string)(glob($dir . '*.jpg')[0] ?? '')) ?: null);
+    return $f ? '/assets/img/escape/' . $slug . '/' . $f : null;
+}

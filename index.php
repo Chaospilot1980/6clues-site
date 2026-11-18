@@ -1661,7 +1661,7 @@ function escape_index(): void {
             'itemListElement' => array_values(array_map(fn($s, $k) => ['@type' => 'ListItem', 'position' => $k + 1, 'url' => url('/escape/' . $s), 'name' => escape_rooms()[$s]['title']], array_keys(escape_rooms()), array_keys(array_keys(escape_rooms()))))]],
         'description' => 'Free online escape rooms: point-and-click escape games you play in your browser at home – no download, no sign-up. Search the rooms, crack the locks and escape before time runs out.']);
     ?>
-<section class="gn-hero">
+<section class="gn-hero esc-hero" style="background-image:linear-gradient(90deg,rgba(20,17,14,.92) 0%,rgba(20,17,14,.7) 50%,rgba(20,17,14,.2) 100%),url('<?= e(escape_cover('the-sealed-tomb') ?? '') ?>')">
   <div class="wrap">
     <p class="kicker">Sixty minutes. Can you get out?</p>
     <h1>Free online escape rooms</h1>
@@ -1671,7 +1671,7 @@ function escape_index(): void {
 <section class="wrap">
   <div class="grid">
   <?php foreach (escape_rooms() as $slug => $r): ?>
-    <article class="card"><div class="card-top"><span class="badge">Level <?= (int)($r['level'] ?? 1) ?></span><span class="badge badge-crime">Escape room</span><span class="badge"><?= e($r['status']) ?></span></div>
+    <?php $cv = escape_cover($slug); ?><article class="card<?= $cv ? ' has-cover' : '' ?>"><?php if ($cv): ?><a class="card-cover" href="/escape/<?= e($slug) ?>" tabindex="-1" aria-hidden="true"><img src="<?= e($cv) ?>" alt="" loading="lazy"></a><?php endif; ?><div class="card-top"><span class="badge">Level <?= (int)($r['level'] ?? 1) ?></span><span class="badge badge-crime">Escape room</span><span class="badge"><?= e($r['status']) ?></span></div>
       <h3><a href="/escape/<?= e($slug) ?>"><?= e($r['title']) ?></a></h3><p><?= e($r['teaser']) ?></p>
       <p class="card-stats"><?= $r['minutes'] ?> min · <?= e($r['players']) ?> players · <?= $r['rooms'] ?> rooms · <?= $r['puzzles'] ?> puzzles</p></article>
   <?php endforeach; ?>
@@ -1696,10 +1696,11 @@ function escape_landing(string $slug): void {
     $run = $u ? escape_run((int)$u['id'], $slug) : null;
     $board = escape_board($slug);
     page_start(['title' => $r['title'] . ' – free online escape room (level ' . (int)($r['level'] ?? 1) . ')', 'path' => '/escape/' . $slug, 'description' => $r['teaser'] . ' A free ' . $r['minutes'] . '-minute online escape room for ' . $r['players'] . ' players – play in your browser.',
-        'og_image' => is_file(__DIR__ . '/assets/img/escape/' . $slug . '/og.jpg') ? '/assets/img/escape/' . $slug . '/og.jpg' : null,
+        'og_image' => is_file(__DIR__ . '/assets/img/escape/' . $slug . '/og.jpg') ? '/assets/img/escape/' . $slug . '/og.jpg' : escape_cover($slug),
         'jsonld' => [['@context' => 'https://schema.org', '@type' => 'Game', 'name' => $r['title'], 'description' => $r['teaser'], 'url' => url('/escape/' . $slug), 'genre' => 'Escape room', 'isAccessibleForFree' => true, 'inLanguage' => 'en', 'publisher' => ['@type' => 'Organization', 'name' => cfg('site_name')]]]]);
     ?>
-<section class="gn-hero">
+<?php $cv = escape_cover($slug); ?>
+<section class="gn-hero esc-hero"<?= $cv ? ' style="background-image:linear-gradient(90deg,rgba(20,17,14,.92) 0%,rgba(20,17,14,.75) 45%,rgba(20,17,14,.25) 100%),url(\'' . e($cv) . '\')"' : '' ?>>
   <div class="wrap">
     <nav class="crumbs crumbs-light"><a href="/escape">Escape rooms</a> › <?= e($r['title']) ?></nav>
     <h1><?= e($r['title']) ?></h1>
@@ -1709,12 +1710,12 @@ function escape_landing(string $slug): void {
       <?php if (!$u): ?><a class="btn btn-big" href="/login?next=/escape/<?= e($slug) ?>/play">Sign in to play – it's free</a>
       <?php else: ?><a class="btn btn-big" href="/escape/<?= e($slug) ?>/play"><?= $run && !$run['finished_at'] ? 'Continue your escape' : 'Start the escape' ?></a><?php endif; ?>
     </p>
-    <p class="small" style="color:#E6D6A8">Prototype: the pictures are placeholders while the real illustrations are being made.</p>
   </div>
 </section>
 <section class="wrap narrow case">
   <h2>The story</h2>
-  <p><?= e($r['teaser']) ?> The landlord lets you into the attic workshop, smirks, and locks the door behind you: “One hour. Then the bailiff seals it all.”</p>
+  <p><?= e($r['teaser']) ?></p>
+  <?php if ($cv): ?><img class="esc-shot" src="<?= e($cv) ?>" alt="<?= e($r['title']) ?> – the first room" loading="lazy"><?php endif; ?>
   <h2>How to play</h2>
   <ul>
     <li>Click things in the room to look closer. Pick up what you find – it goes into your inventory at the bottom.</li>
