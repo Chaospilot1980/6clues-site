@@ -2563,6 +2563,109 @@ Setting: At Kingfisher Safari Lodge, owner Alistair Burke was found dead by the 
 ### `murder-at-the-safari-lodge/photo-trap3-2114.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “TRAP3_2114” at 21:14, from “Camera trap 3 – waterhole” in the detective mystery “Murder at the Safari Lodge”: Infrared: a man in a ranger's khaki uniform with a wide-brimmed hat, holding a big spotlight torch, walking towards the hide. Name badge glinting: 'JAKE'. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## Death in the Courthouse (library – on the site now)
+
+Setting: At Crown Court, Ashbury, star witness Terry Doyle was found dead in the witness waiting room minutes before he was due to give evidence in a big fraud trial.
+
+### `death-in-the-courthouse/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death in the Courthouse” (murder): At Crown Court, Ashbury, star witness Terry Doyle was found dead in the witness waiting room minutes before he was due to give evidence in a big fraud trial. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-in-the-courthouse/asha-mills.jpg`
+> Portrait of Asha Mills, Court security, a character in the detective mystery “Death in the Courthouse”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-courthouse/ben-price.jpg`
+> Portrait of Ben Price, Court usher, a character in the detective mystery “Death in the Courthouse”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-courthouse/di-rosa-quinn.jpg`
+> Portrait of DI Rosa Quinn, Police, a character in the detective mystery “Death in the Courthouse”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-courthouse/kate-wells.jpg`
+> Portrait of Kate Wells, Juror, a character in the detective mystery “Death in the Courthouse”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-courthouse/mr-gerald-moss.jpg`
+> Portrait of Mr Gerald Moss, Defendant, a character in the detective mystery “Death in the Courthouse”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-courthouse/ms-victoria-lane.jpg`
+> Portrait of Ms Victoria Lane, Defence lawyer, a character in the detective mystery “Death in the Courthouse”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder at the Winter Regatta (library – on the site now)
+
+Setting: At the Fenmouth Sailing Club Winter Regatta, Commodore Hugh Brennan was found dead on the committee boat, struck with a flag pole.
+
+### `murder-at-the-winter-regatta/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Winter Regatta” (murder): At the Fenmouth Sailing Club Winter Regatta, Commodore Hugh Brennan was found dead on the committee boat, struck with a flag pole. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-winter-regatta/ds-kate-ellis.jpg`
+> Portrait of DS Kate Ellis, Police, a character in the detective mystery “Murder at the Winter Regatta”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-winter-regatta/mick-grey.jpg`
+> Portrait of Mick Grey, Club bosun, a character in the detective mystery “Murder at the Winter Regatta”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-winter-regatta/paul-webb.jpg`
+> Portrait of Paul Webb, Shore race officer, a character in the detective mystery “Murder at the Winter Regatta”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-winter-regatta/rachel-brennan.jpg`
+> Portrait of Rachel Brennan, Commodore's daughter, sailor, a character in the detective mystery “Murder at the Winter Regatta”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-winter-regatta/sue-adams.jpg`
+> Portrait of Sue Adams, Sailor, a character in the detective mystery “Murder at the Winter Regatta”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-winter-regatta/tim-hall.jpg`
+> Portrait of Tim Hall, Sailor, a character in the detective mystery “Murder at the Winter Regatta”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death on the Night Ward (library – on the site now)
+
+Setting: At St Hilda's Hospital, businessman Arthur Graves was recovering well from an operation when he died in the night.
+
+### `death-on-the-night-ward/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death on the Night Ward” (murder): At St Hilda's Hospital, businessman Arthur Graves was recovering well from an operation when he died in the night. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-on-the-night-ward/celia-graves.jpg`
+> Portrait of Celia Graves, Arthur's daughter, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-night-ward/dave-okafor.jpg`
+> Portrait of Dave Okafor, Night porter, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-night-ward/dr-maya-singh.jpg`
+> Portrait of Dr Maya Singh, Ward doctor, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-night-ward/lily-tan.jpg`
+> Portrait of Lily Tan, Riverside Hotel, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-night-ward/owen-ford.jpg`
+> Portrait of Owen Ford, Night nurse, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-night-ward/sam-lee.jpg`
+> Portrait of Sam Lee, Equipment technician, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder at the Embassy Ball (library – on the site now)
+
+Setting: At the Embassy of Valoria in London, aide Lukas Varga was found dead in the library during the New Year ball, struck with a heavy crystal paperweight.
+
+### `murder-at-the-embassy-ball/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Embassy Ball” (murder): At the Embassy of Valoria in London, aide Lukas Varga was found dead in the library during the New Year ball, struck with a heavy crystal paperweight. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-embassy-ball/count-rafael-orsini.jpg`
+> Portrait of Count Rafael Orsini, Guest, businessman, a character in the detective mystery “Murder at the Embassy Ball”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-embassy-ball/inspector-james-holt.jpg`
+> Portrait of Inspector James Holt, Police, a character in the detective mystery “Murder at the Embassy Ball”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-embassy-ball/madame-elena-kova.jpg`
+> Portrait of Madame Elena Kova, Ambassador's wife, a character in the detective mystery “Murder at the Embassy Ball”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-embassy-ball/mr-robert-lowe.jpg`
+> Portrait of Mr Robert Lowe, Guest, journalist, a character in the detective mystery “Murder at the Embassy Ball”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-embassy-ball/nina-bose.jpg`
+> Portrait of Nina Bose, Cloakroom, a character in the detective mystery “Murder at the Embassy Ball”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-embassy-ball/simon-reece.jpg`
+> Portrait of Simon Reece, Embassy butler, a character in the detective mystery “Murder at the Embassy Ball”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-embassy-ball/photo-img-501.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_501” at 22:15, from “Smoking room photo” in the detective mystery “Murder at the Embassy Ball”: Robert Lowe and three guests playing cards in the smoking room. Robert is clean-shaven and wearing silver cufflinks. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -3963,4 +4066,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1554 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1583 images delivered (one cover and six portraits per case, plus evidence photos).
