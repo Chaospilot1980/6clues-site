@@ -51,6 +51,7 @@ $routes = [
     '#^/admin/growth$#'                       => 'admin_growth',
     '#^/admin/outreach$#'                     => 'admin_outreach',
     '#^/admin/smtp$#'                         => 'admin_smtp',
+    '#^/cron/smtp-test$#'                     => 'cron_smtp_test',
     '#^/event$#'                              => 'event_endpoint',
     '#^/privacy$#'                            => 'privacy',
     '#^/sitemap\.xml$#'                       => 'sitemap',
@@ -866,6 +867,19 @@ function admin_smtp(): void {
     if ($msg) echo '<p class="lead">' . e($msg) . '</p>';
     echo '<form method="post"><input type="hidden" name="csrf" value="' . e(csrf_token()) . '"><label>Mailbox (login)<br><input name="user" value="mail@6clues.com" style="width:100%"></label><label>Mailbox password<br><input type="password" name="pass" autocomplete="new-password" style="width:100%"></label><p><button class="btn">Save and send test mail</button></p></form></section>';
     page_end();
+}
+
+/** Diagnostic: sends a test mail to the first admin address (max once per 2 minutes) and reports the result. Shows the login name, never the password. */
+function cron_smtp_test(): void {
+    header('Content-Type: text/plain; charset=utf-8');
+    $stamp = dirname(__DIR__) . '/data/smtp-test.stamp';
+    if (is_file($stamp) && time() - filemtime($stamp) < 120) { echo "wait\n"; return; }
+    @touch($stamp);
+    $c = smtp_conf();
+    echo 'login: ' . ($c ? $c['user'] . ' (password length ' . strlen($c['pass']) . ', ends with space: ' . (preg_match('/\s$/', $c['pass']) ? 'yes' : 'no') . ')' : 'none') . "\n";
+    $to = ((array)cfg('admin_emails', []))[0] ?? '';
+    $ok = smtp_send($to, 'Six Clues SMTP test', "If you can read this, 6clues.com can send mail.\n\n– Six Clues", [(string)cfg('contact_email'), 'Six Clues']);
+    echo $ok ? "sent OK\n" : 'failed: ' . ($GLOBALS['smtp_error'] ?? '?') . "\n";
 }
 
 /** Link-building outreach: admin-only. POST JSON {to, subject, body} sends one personal mail from hello@6clues.com; GET lists the log. */
