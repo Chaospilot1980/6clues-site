@@ -154,6 +154,36 @@ const ESCAPE_ROOMS = [
         'teaser' => 'Shipwrecked on a tiny tropical island, you have one hour before the daily ship sails past. Trade with a cheeky monkey, open the parrot door and build a signal fire that shines for miles. A family room for first-timers.',
         'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 6, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
     ],
+    'the-venetian-masquerade' => [
+        'title' => 'The Venetian Masquerade',
+        'tagline' => 'At midnight the masks come off – and the guards come for you.',
+        'teaser' => 'Venice, Carnival 1756. A masked guest snatched the Doge’s sealed letter from your hands, and now you are the suspect. Unmask the spy, crack the cipher and escape by gondola before midnight. Harder: crossed-out music and a ballroom full of masks.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 7, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
+    'the-berlin-safehouse' => [
+        'title' => 'The Berlin Safehouse',
+        'tagline' => 'A wall is going up tonight. At dawn the last way out closes.',
+        'teaser' => 'East Berlin, 13 August 1961. Soldiers are building a wall through the city and your contact never came. Find the microfilm, develop it, forge your papers and reach the tunnel before dawn. Harder: test broadcasts and the wrong records.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 6, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
+    'the-jaguar-temple' => [
+        'title' => 'The Jaguar Temple',
+        'tagline' => 'The door shut behind you. The river floods at sunset.',
+        'teaser' => 'Yucatán, 1925. Your mentor vanished searching for the lost Jaguar Temple – and its stone door has just sealed behind you. Read Maya numbers, turn the great calendar and wake the jaguar before the river floods. Harder: looters left false signs.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 6, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
+    'the-castle-under-siege' => [
+        'title' => 'The Castle Under Siege',
+        'tagline' => 'A traitor opens the gate at midnight. Light the beacon first.',
+        'teaser' => 'Castle Ravenmoor, 1450. An army camps below the walls and one of the four knights plans to open the gate at midnight. Read the heraldry, open the first lord’s tomb, light the beacon and name the traitor. Harder: four knights, one boar.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 6, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
+    'the-midnight-bank-job' => [
+        'title' => 'The Midnight Bank Job',
+        'tagline' => 'A gang is tunnelling into the vault. The alarm is dead.',
+        'teaser' => 'New York, 1935. You are the night watchman, the phone is cut, the alarm fuse is gone – and someone is digging into the vault. Lock the time lock, fix the alarm and call the police before the gang breaks through. Harder: there is an inside man.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 7, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;
 
@@ -197,7 +227,7 @@ function escape_clock(int $ms): string { $s = intdiv($ms, 1000); return sprintf(
 function escape_cover(string $slug): ?string {
     $pick = ['the-clockmakers-last-hour' => 'tower', 'the-last-night-train' => 'compartment', 'the-lighthouse-at-gull-rock' => 'lamp',
              'after-hours-at-the-museum' => 'hall', 'the-alchemists-attic' => 'attic', 'the-sealed-tomb' => 'burial', 'the-polar-night' => 'hut',
-             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour', 'santas-locked-workshop' => 'workshop', 'the-pirates-cove' => 'grotto', 'countdown-on-the-space-station' => 'cockpit', 'the-enchanted-library' => 'tower', 'the-dinosaur-dig' => 'pit', 'the-speakeasy-raid' => 'bar', 'the-last-dive' => 'control', 'the-inventors-laboratory' => 'workshop', 'the-sheriffs-jail' => 'office', 'christmas-eve-at-holly-manor' => 'drawing', 'the-candy-factory' => 'floor', 'the-zoo-after-dark' => 'pool', 'the-snowmans-secret' => 'square', 'the-detective-academy' => 'evidence', 'the-castaway-island' => 'beach'];
+             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour', 'santas-locked-workshop' => 'workshop', 'the-pirates-cove' => 'grotto', 'countdown-on-the-space-station' => 'cockpit', 'the-enchanted-library' => 'tower', 'the-dinosaur-dig' => 'pit', 'the-speakeasy-raid' => 'bar', 'the-last-dive' => 'control', 'the-inventors-laboratory' => 'workshop', 'the-sheriffs-jail' => 'office', 'christmas-eve-at-holly-manor' => 'drawing', 'the-candy-factory' => 'floor', 'the-zoo-after-dark' => 'pool', 'the-snowmans-secret' => 'square', 'the-detective-academy' => 'evidence', 'the-castaway-island' => 'beach', 'the-venetian-masquerade' => 'ballroom', 'the-berlin-safehouse' => 'flat', 'the-jaguar-temple' => 'throne', 'the-castle-under-siege' => 'tower', 'the-midnight-bank-job' => 'vault'];
     $dir = dirname(__DIR__) . '/assets/img/escape/' . $slug . '/';
     $f = isset($pick[$slug]) && is_file($dir . $pick[$slug] . '.jpg') ? $pick[$slug] . '.jpg' : (basename((string)(glob($dir . '*.jpg')[0] ?? '')) ?: null);
     return $f ? '/assets/img/escape/' . $slug . '/' . $f : null;
