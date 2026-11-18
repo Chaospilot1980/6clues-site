@@ -1818,6 +1818,109 @@ Setting: At the old Regal Picture Palace, owner Victor Ames was found dead in th
 ### `murder-at-the-picture-palace/rita-cole.jpg`
 > Portrait of Rita Cole, Box office, a character in the detective mystery “Murder at the Picture Palace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
+## The Ice Hockey Trophy Theft (library – on the site now)
+
+Setting: At the Northfield Ice Arena, the silver league trophy was taken from its locked glass cabinet in the lobby during the Christmas derby against the Harbour Hawks.
+
+### `the-ice-hockey-trophy-theft/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Ice Hockey Trophy Theft” (theft): At the Northfield Ice Arena, the silver league trophy was taken from its locked glass cabinet in the lobby during the Christmas derby against the Harbour Hawks. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-ice-hockey-trophy-theft/jess-doran.jpg`
+> Portrait of Jess Doran, Ice technician, a character in the detective mystery “The Ice Hockey Trophy Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-hockey-trophy-theft/kerry-lowe.jpg`
+> Portrait of Kerry Lowe, Northfield player, a character in the detective mystery “The Ice Hockey Trophy Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-hockey-trophy-theft/mr-gordon-fisk.jpg`
+> Portrait of Mr Gordon Fisk, Club chairman, a character in the detective mystery “The Ice Hockey Trophy Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-hockey-trophy-theft/officer-dee-marsh.jpg`
+> Portrait of Officer Dee Marsh, Police, a character in the detective mystery “The Ice Hockey Trophy Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-hockey-trophy-theft/sam-hart.jpg`
+> Portrait of Sam Hart, Harbour Hawks kit manager, a character in the detective mystery “The Ice Hockey Trophy Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-hockey-trophy-theft/tony-webb.jpg`
+> Portrait of Tony Webb, Lobby steward, a character in the detective mystery “The Ice Hockey Trophy Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-hockey-trophy-theft/photo-img-884.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_884” at 21:40, from “Police photo” in the detective mystery “The Ice Hockey Trophy Theft”: Away changing room: a large Hawks kit bag labelled 'KIT MANAGER – S. HART', unzipped, showing the silver trophy wrapped in towels. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Gallery Forgery Swap (library – on the site now)
+
+Setting: At the Harbour Light Gallery, the painting 'Storm off Fowey' (valued at £40,000) was sent for insurance checks.
+
+### `the-gallery-forgery-swap/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Gallery Forgery Swap” (fraud): At the Harbour Light Gallery, the painting 'Storm off Fowey' (valued at £40,000) was sent for insurance checks. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-gallery-forgery-swap/alan-pryce.jpg`
+> Portrait of Alan Pryce, Picture restorer, a character in the detective mystery “The Gallery Forgery Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-gallery-forgery-swap/clive-barr.jpg`
+> Portrait of Clive Barr, Private collector, a character in the detective mystery “The Gallery Forgery Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-gallery-forgery-swap/dr-ruth-fenn.jpg`
+> Portrait of Dr Ruth Fenn, Art expert, a character in the detective mystery “The Gallery Forgery Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-gallery-forgery-swap/joe-sutton.jpg`
+> Portrait of Joe Sutton, Gallery assistant, a character in the detective mystery “The Gallery Forgery Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-gallery-forgery-swap/mrs-edie-kemp.jpg`
+> Portrait of Mrs Edie Kemp, Art supply shop owner, a character in the detective mystery “The Gallery Forgery Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-gallery-forgery-swap/nina-holt.jpg`
+> Portrait of Nina Holt, Gallery owner, a character in the detective mystery “The Gallery Forgery Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death at the Mountain Hut (library – on the site now)
+
+Setting: At the Rifugio Stella, 2,800 metres up, mountain guide Paolo Neri was found dead in the snow behind the hut's woodshed.
+
+### `death-at-the-mountain-hut/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Mountain Hut” (murder): At the Rifugio Stella, 2,800 metres up, mountain guide Paolo Neri was found dead in the snow behind the hut's woodshed. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-mountain-hut/anna-rossi.jpg`
+> Portrait of Anna Rossi, Climber, a character in the detective mystery “Death at the Mountain Hut”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-mountain-hut/dr-lia-conti.jpg`
+> Portrait of Dr Lia Conti, Mountain rescue doctor, a character in the detective mystery “Death at the Mountain Hut”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-mountain-hut/elsa-brandt.jpg`
+> Portrait of Elsa Brandt, Climber, a character in the detective mystery “Death at the Mountain Hut”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-mountain-hut/karl-weiss.jpg`
+> Portrait of Karl Weiss, Climber, a character in the detective mystery “Death at the Mountain Hut”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-mountain-hut/marco-bassi.jpg`
+> Portrait of Marco Bassi, Hut warden, a character in the detective mystery “Death at the Mountain Hut”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-mountain-hut/tom-hale.jpg`
+> Portrait of Tom Hale, Climber, a character in the detective mystery “Death at the Mountain Hut”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder at the Tea Estate (library – on the site now)
+
+Setting: At the Glenmara Tea Estate in the hills, owner Charles Ashworth died at the annual tea tasting after drinking from cup number 5.
+
+### `murder-at-the-tea-estate/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Tea Estate” (murder): At the Glenmara Tea Estate in the hills, owner Charles Ashworth died at the annual tea tasting after drinking from cup number 5. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-tea-estate/dr-ken-bose.jpg`
+> Portrait of Dr Ken Bose, Estate doctor, a character in the detective mystery “Murder at the Tea Estate”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-tea-estate/henry-ashworth.jpg`
+> Portrait of Henry Ashworth, Charles's son, a character in the detective mystery “Murder at the Tea Estate”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-tea-estate/inspector-priya-das.jpg`
+> Portrait of Inspector Priya Das, Police, a character in the detective mystery “Murder at the Tea Estate”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-tea-estate/mrs-edith-ashworth.jpg`
+> Portrait of Mrs Edith Ashworth, Charles's wife, a character in the detective mystery “Murder at the Tea Estate”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-tea-estate/rajan-pillai.jpg`
+> Portrait of Rajan Pillai, Head taster, a character in the detective mystery “Murder at the Tea Estate”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-tea-estate/sita-menon.jpg`
+> Portrait of Sita Menon, Kitchen assistant, a character in the detective mystery “Murder at the Tea Estate”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -3218,4 +3321,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1343 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1372 images delivered (one cover and six portraits per case, plus evidence photos).
