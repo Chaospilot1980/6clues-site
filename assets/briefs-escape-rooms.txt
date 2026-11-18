@@ -83,3 +83,15 @@ Generator shed of an Arctic station, frost on every surface, torchlight. Left to
 
 ## the-polar-night/tower.jpg
 Outside an Arctic weather station at night in a snowstorm, aurora faint in the sky. Left: a tall wind vane on a pole. Left-centre: a cup anemometer on a pole. Centre-right: a white louvred thermometer screen on legs. Right: a tall radio aerial mast with a wire hanging loose. Snow-covered ground, the lit hut far bottom left.
+
+## the-last-airship/lounge.jpg
+Passenger lounge of a giant 1936 airship at night, art-deco, aluminium furniture, long slanting promenade windows showing the dark sea far below. Left: a white aluminium baby grand piano with sheet music. Left-centre lower: a padded piano bench. Centre top: the promenade windows. Right: a framed passenger list on the wall. Exits bottom left (corridor) and bottom right (stairs down).
+
+## the-last-airship/radio.jpg
+Cramped radio room of a 1936 airship, dim lamp. Left: a telegram form stuck on a spike on the wall. Centre-left lower: a brass cipher wheel on the desk. Centre-right: a tall tool cupboard. Right: a big wireless set with dials. Exit bottom right.
+
+## the-last-airship/gondola.jpg
+Control car (gondola) of a 1936 airship at night, windows all round, dark sea below. Left top: a round altimeter dial. Left-centre top: a compass binnacle with a small card beside it. Centre: a large spoked elevator wheel (helm). Right: a heavy metal floor hatch with a winch. Exit bottom left.
+
+## the-last-airship/hold.jpg
+Cargo hold inside the hull of a 1936 airship, huge curved aluminium girders, dim. Left: a metal panel with eight round ballast valves, one with a red light. Centre top: a large pulley with steel cables. Right: wooden mail crates, one stencilled. Ladder down at bottom left.
