@@ -4,63 +4,68 @@ from lib import *  # evidence helpers
 STD = "Find all 6 clues, compare the statements and the evidence, and work out who did it."
 ADDED = "2026-11-18"
 
-# ---------------------------------------------------------------- MARATHON (L2)
-marathon = {
- "slug": "the-marathon-shortcut", "level": 2, "crime": "FRAUD", "who": "cheat", "added": ADDED,
- "caseno": "CASE NO. 131", "title_html": "THE MARATHON<br>SHORTCUT", "title_plain": "The Marathon Shortcut",
- "teaser": "An amateur wins the city marathon in a record time – and the timing chips say something impossible happened between 25 and 30 kilometres.",
- "intro": "At the <b>Riverside City Marathon</b>, a surprise winner set a course record in the women's race. The runner-up has lodged a complaint: someone took a shortcut. " + STD,
+# ---------------------------------------------------------------- ICE RINK (L2)
+rink = {
+ "slug": "the-ice-rink-sabotage", "level": 2, "crime": "SABOTAGE", "who": "saboteur", "added": ADDED,
+ "caseno": "CASE NO. 131", "title_html": "THE ICE RINK<br>SABOTAGE", "title_plain": "The Ice Rink Sabotage",
+ "teaser": "The favourite's skate blade snaps loose mid-routine. Someone loosened the screws – and one rival swears she was in the stands all along.",
+ "intro": "At the <b>Northern Figure Skating Championships</b>, favourite Lena Novak fell when the blade came off her right skate. Two of its four screws had been loosened. " + STD,
  "clues": [
-  {"name": "Paula Kerr", "role": "Race referee", "label": "COMPLAINT",
-   "quote": "The runner-up says she never saw the winner pass her. We have timing mats every five kilometres, so the chips will tell us who ran the whole course.",
-   "evidence": ev_rows("Official complaint", [
-       ("From", "Joanna Wilde, 2nd place"),
-       ("Claim", "“The winner was behind me at 20 km and I was never overtaken.”"),
-       ("Course", "Out along the river to 25 km, back through the park to 30 km"),
-       ("Short cut", "The footbridge links 25 km and 30 km directly: 600 m instead of 5 km"),
+  {"name": "Lena Novak", "role": "Skater", "label": "INCIDENT REPORT",
+   "quote": "I checked my skates myself at four o'clock – every screw tight, as always. Then I left them in my locker and went to warm up off the ice.",
+   "evidence": ev_rows("Incident report", [
+       ("Fall", "18:42, during the free skate"),
+       ("Damage", "Two blade screws loosened by several turns"),
+       ("Skates", "In locker 6, changing room B, from 16:00 to 18:20"),
+       ("Locker", "Not locked – changing room B is for competitors only"),
      ])},
-  {"name": "Danny Holt", "role": "Timing manager", "label": "WINNER'S SPLITS",
-   "quote": "The chip data are clean – no faults on any mat. I've pulled the splits for the top three women.",
-   "evidence": ev_table("Chip splits – women's race", ["Runner", "20 km", "25 km", "30 km", "Finish"], [
-       ("Rachel Moss", "1:12:40", "1:31:05", "1:33:58", "2:22:10"),
-       ("Joanna Wilde", "1:12:31", "1:30:50", "1:48:55", "2:37:30"),
-       ("Kate Ferris", "1:14:02", "1:32:44", "1:51:10", "2:40:02"),
-     ], mono_cols=(1, 2, 3, 4))},
-  {"name": "Rachel Moss", "role": "Winner", "label": "RACHEL'S STATEMENT",
-   "quote": "I just felt amazing after 25 km – I had a gel, found a second wind and flew. I've trained for two years for this. Joanna is a bad loser.",
-   "evidence": ev_rows("Rachel Moss – race record", [
-       ("Best marathon before", "3:05:12 (last spring)"),
-       ("This race", "2:22:10 – course record"),
-       ("Prize", "£5,000 and a sponsored place at Boston"),
+  {"name": "Bianca Rossi", "role": "Rival skater", "label": "BIANCA'S STATEMENT",
+   "quote": "I was in the stands watching the pairs from five until six. I never went into changing room B. Lena and I don't get on, but I'd never do something like that.",
+   "evidence": ev_rows("Championship standings before the free skate", [
+       ("1", "L. Novak – 74.20"),
+       ("2", "B. Rossi – 71.85"),
+       ("3", "M. Sato – 70.10"),
+       ("Prize", "Place on the national team for the Europeans"),
      ])},
-  {"name": "Kate Ferris", "role": "Third place", "label": "MARSHAL'S PHOTO",
-   "quote": "I ran my own race – I didn't see anyone go over the bridge. But I did hear a marshal shouting at somebody near the park.",
-   "evidence": ev_photos("Marshal photo, footbridge", [
-       ("IMG_0451", "1:31:40 race time", "A runner in a yellow vest crossing the footbridge towards the park. The marshal is waving her back."),
-     ])},
-  {"name": "Sam Ortiz", "role": "Kit sponsor", "label": "VEST LIST",
-   "quote": "We supplied coloured vests to the top seeds so the TV cameras could pick them out. Every colour was different.",
-   "evidence": ev_table("Seeded vests – women", ["Runner", "Vest"], [
-       ("Joanna Wilde", "Blue"),
-       ("Kate Ferris", "Green"),
-       ("Rachel Moss", "Yellow"),
-       ("Ama Boateng (dropped out at 12 km)", "Red"),
-     ])},
-  {"name": "Joanna Wilde", "role": "Runner-up", "label": "TV GRAPHICS",
-   "quote": "I've been running for fifteen years. I know when somebody passes me – and nobody did.",
-   "evidence": ev_rows("TV leaderboard at 27 km", [
-       ("1", "J. Wilde (blue)"),
-       ("2", "K. Ferris (green)"),
-       ("Note", "No yellow vest seen on the river section after 25 km"),
+  {"name": "Joe Pike", "role": "Ice technician", "label": "ICE SCHEDULE",
+   "quote": "The rink was closed for resurfacing between five and six – the pairs final was moved to tomorrow because the ice machine broke down.",
+   "evidence": ev_table("Arena schedule – Saturday (as changed)", ["Time", "Event"], [
+       ("16:00", "Junior men"),
+       ("17:00–18:00", "Rink closed – ice resurfacing; stands empty"),
+       ("17:00", "Pairs final – POSTPONED to Sunday"),
+       ("18:30", "Ladies' free skate"),
+     ], mono_cols=(0,))},
+  {"name": "Mika Sato", "role": "Skater", "label": "PHYSIO LOG",
+   "quote": "I was with the physio from five until nearly six – my ankle has been bad all season. Then I warmed up in the gym.",
+   "evidence": ev_table("Physio room – Saturday", ["Time", "Patient"], [
+       ("16:30", "J. Kerr"),
+       ("17:00", "M. Sato"),
+       ("17:50", "M. Sato leaves"),
+       ("18:00", "L. Novak"),
+     ], mono_cols=(0,))},
+  {"name": "Ruth Hale", "role": "Changing room steward", "label": "STEWARD'S NOTES",
+   "quote": "I sat by the door of room B. I can't watch the lockers, but I saw who came and went. And I found a little hex key on the floor afterwards.",
+   "evidence": ev_table("Changing room B door", ["Time", "Who"], [
+       ("16:05", "L. Novak out"),
+       ("17:20", "B. Rossi in"),
+       ("17:31", "B. Rossi out"),
+       ("18:20", "L. Novak in"),
+     ], mono_cols=(0,))},
+  {"name": "Greg Novak", "role": "Lena's coach and father", "label": "HEX KEY",
+   "quote": "That hex key isn't ours. Lena's blades take a 4 mm key and ours lives in my bag. Whoever did this brought their own.",
+   "evidence": ev_rows("Hex key found in room B", [
+       ("Size", "4 mm"),
+       ("Marking", "Engraved “B.R.”"),
+       ("Found", "Under the bench by locker 6, 18:50"),
      ])},
  ],
- "solution": {"killer": "Rachel Moss",
-   "motive": "A course record brought £5,000 and a sponsored place at Boston (clue 3) – far beyond her previous best of 3:05.",
-   "proof": ["Rachel ran 25 km to 30 km in 2 minutes 53 seconds (clue 2) – faster than any human can run 5 km. The footbridge links the two mats in just 600 m (clue 1).",
-             "The marshal photographed a yellow-vested runner crossing the footbridge at 1:31:40 race time (clue 4), just after Rachel's 25 km split. Yellow was Rachel's vest (clue 5), and the TV saw no yellow vest on the river section (clue 6)."],
-   "cleared": ["<b>Joanna</b> and <b>Kate</b> have normal 25–30 km splits of about 18 minutes (clue 2).",
-               "<b>Ama</b>, the only other seed, dropped out at 12 km (clue 5).",
-               "<b>Paula</b>, <b>Danny</b> and <b>Sam</b> are officials and a sponsor, not runners."]},
+ "solution": {"killer": "Bianca Rossi",
+   "motive": "Bianca was second, 2.35 points behind Lena, with a national-team place at stake (clue 2).",
+   "proof": ["Bianca says she watched the pairs from the stands from five to six (clue 2). But the rink was closed for resurfacing, the stands were empty and the pairs final had been postponed (clue 3). Her alibi is invented.",
+             "The steward saw her go into changing room B at 17:20 and leave at 17:31 (clue 5), and a 4 mm hex key engraved “B.R.” was found under the bench by Lena's locker (clue 6)."],
+   "cleared": ["<b>Mika</b> was with the physio from 17:00 to 17:50 (clue 4).",
+               "<b>Greg</b> keeps his own key in his bag (clue 6), and <b>Joe</b> was resurfacing the ice (clue 3).",
+               "<b>Ruth</b> was at the door, and <b>Lena</b> checked her skates at four (clue 1)."]},
 }
 
 # ---------------------------------------------------------------- ORCHID (L3)
@@ -129,4 +134,4 @@ orchid = {
                "<b>Mrs Doyle</b> was in the kitchen, where Gerald came for a towel (clue 4)."]},
 }
 
-MYSTERIES = [marathon, orchid]
+MYSTERIES = [rink, orchid]

@@ -305,15 +305,6 @@ Setting: At the Hill Street Soapbox Derby, the brakes on favourite cart Red Rock
 
 Setting: At the Hollowmere excavation, Professor Cornelius Abernathy was found dead in the finds tent in the morning.
 
-### `death-at-the-dig/rhiannon-owusu.jpg`
-> Portrait of Rhiannon Owusu, Student archaeologist, a character in the detective mystery “Death at the Dig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-dig/tobias-wren.jpg`
-> Portrait of Tobias Wren, Student archaeologist, a character in the detective mystery “Death at the Dig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-dig/win-lockhart.jpg`
-> Portrait of Win Lockhart, Metal detectorist camping by the lake, a character in the detective mystery “Death at the Dig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `death-at-the-dig/photo-img-401.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_401” at 22:35, from “Village hall talk – 2 miles from the dig” in the detective mystery “Death at the Dig”: Felicity shows slides of the Hoard. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
@@ -336,27 +327,6 @@ Setting: At the Hollowmere excavation, Professor Cornelius Abernathy was found d
 
 Setting: Retired teacher Philippa Greaves got a bill for a £1,200 telescope she never ordered.
 
-### `the-borrowed-name/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Borrowed Name” (identity theft): Retired teacher Philippa Greaves got a bill for a £1,200 telescope she never ordered. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-borrowed-name/clive-dunmore.jpg`
-> Portrait of Clive Dunmore, Neighbour, a character in the detective mystery “The Borrowed Name”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-borrowed-name/crispin-greaves.jpg`
-> Portrait of Crispin Greaves, Philippa's nephew, keen stargazer, a character in the detective mystery “The Borrowed Name”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-borrowed-name/damaris-oyelaran.jpg`
-> Portrait of Damaris Oyelaran, Philippa's lodger, a character in the detective mystery “The Borrowed Name”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-borrowed-name/philippa-greaves.jpg`
-> Portrait of Philippa Greaves, Retired teacher, a character in the detective mystery “The Borrowed Name”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-borrowed-name/tamsin-pryor.jpg`
-> Portrait of Tamsin Pryor, Courier driver, a character in the detective mystery “The Borrowed Name”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-borrowed-name/yusuf-demir.jpg`
-> Portrait of Yusuf Demir, Owner of Hob Lane Stores, a character in the detective mystery “The Borrowed Name”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-borrowed-name/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CAM_1” at 18:25, from “Clive's doorbell camera – 6 May” in the detective mystery “The Borrowed Name”: Damaris cycles off in a green raincoat and helmet. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
@@ -370,27 +340,6 @@ Setting: Retired teacher Philippa Greaves got a bill for a £1,200 telescope she
 
 Setting: While Ottilie Fairbrother was at choir practice, someone let themselves into her narrowboat Dragonfly and stole her grandfather's gold pocket watch.
 
-### `the-houseboat-break-in/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Houseboat Break-In” (burglary): While Ottilie Fairbrother was at choir practice, someone let themselves into her narrowboat Dragonfly and stole her grandfather's gold pocket watch. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-houseboat-break-in/bram-kessler.jpg`
-> Portrait of Bram Kessler, Boatyard owner, a character in the detective mystery “The Houseboat Break-In”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-houseboat-break-in/dilys-tranter.jpg`
-> Portrait of Dilys Tranter, Ottilie's friend from choir, a character in the detective mystery “The Houseboat Break-In”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-houseboat-break-in/hector-ruddle.jpg`
-> Portrait of Hector Ruddle, Lock-keeper, a character in the detective mystery “The Houseboat Break-In”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-houseboat-break-in/lorcan-fitch.jpg`
-> Portrait of Lorcan Fitch, Boatyard apprentice, a character in the detective mystery “The Houseboat Break-In”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-houseboat-break-in/ottilie-fairbrother.jpg`
-> Portrait of Ottilie Fairbrother, Owner of the Dragonfly, a character in the detective mystery “The Houseboat Break-In”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-houseboat-break-in/saul-abara.jpg`
-> Portrait of Saul Abara, Neighbour, narrowboat Kingfisher, a character in the detective mystery “The Houseboat Break-In”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-houseboat-break-in/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CAM_1” at 19:42, from “Swing bridge camera – the only path to the moorings” in the detective mystery “The Houseboat Break-In”: A cyclist in an orange Kessler's Boatyard jacket rides towards the moorings. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
@@ -400,55 +349,9 @@ Setting: While Ottilie Fairbrother was at choir practice, someone let themselves
 ### `the-houseboat-break-in/photo-cam-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CAM_3” at 21:28, from “Swing bridge camera – the only path to the moorings” in the detective mystery “The Houseboat Break-In”: Ottilie walks home from choir. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Syndicate Ticket (daily case 2026-11-25)
-
-Setting: For six years the drivers at Northgate Bus Depot have played the same lottery numbers every week.
-
-### `the-syndicate-ticket/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Syndicate Ticket” (fraud): For six years the drivers at Northgate Bus Depot have played the same lottery numbers every week. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-syndicate-ticket/bernadette-quayle.jpg`
-> Portrait of Bernadette Quayle, Driver, social club treasurer, a character in the detective mystery “The Syndicate Ticket”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-syndicate-ticket/clifford-hume.jpg`
-> Portrait of Clifford Hume, Driver, syndicate member, a character in the detective mystery “The Syndicate Ticket”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-syndicate-ticket/dorian-pask.jpg`
-> Portrait of Dorian Pask, Claimed the prize, a character in the detective mystery “The Syndicate Ticket”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-syndicate-ticket/lalita-sen.jpg`
-> Portrait of Lalita Sen, Newsagent, a character in the detective mystery “The Syndicate Ticket”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-syndicate-ticket/maxine-ofori.jpg`
-> Portrait of Maxine Ofori, Syndicate organiser, a character in the detective mystery “The Syndicate Ticket”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-syndicate-ticket/wes-barlow.jpg`
-> Portrait of Wes Barlow, Driver, syndicate member, a character in the detective mystery “The Syndicate Ticket”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## The Giant Marrow Mystery (daily case 2026-11-26)
 
 Setting: At the Netherby Allotment Show, someone slashed Big Bertha, the favourite giant marrow, during the night before the judging.
-
-### `the-giant-marrow-mystery/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Giant Marrow Mystery” (sabotage): At the Netherby Allotment Show, someone slashed Big Bertha, the favourite giant marrow, during the night before the judging. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-giant-marrow-mystery/agnes-bell.jpg`
-> Portrait of Agnes Bell, Grower, quiz team, a character in the detective mystery “The Giant Marrow Mystery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-giant-marrow-mystery/cyril-ashdown.jpg`
-> Portrait of Cyril Ashdown, Rival grower, a character in the detective mystery “The Giant Marrow Mystery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-giant-marrow-mystery/mabel-thornbury.jpg`
-> Portrait of Mabel Thornbury, Grower of Big Bertha, a character in the detective mystery “The Giant Marrow Mystery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-giant-marrow-mystery/ned-huxley.jpg`
-> Portrait of Ned Huxley, Show steward, a character in the detective mystery “The Giant Marrow Mystery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-giant-marrow-mystery/priya-sandhu.jpg`
-> Portrait of Priya Sandhu, Quizmaster, a character in the detective mystery “The Giant Marrow Mystery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-giant-marrow-mystery/wendell-price.jpg`
-> Portrait of Wendell Price, Outdoor shop owner, a character in the detective mystery “The Giant Marrow Mystery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-giant-marrow-mystery/photo-img-501.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_501” at 19:30, from “Priya's photos – the Plough” in the detective mystery “The Giant Marrow Mystery”: Cyril hangs his orange waterproof on the coat hook. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -462,21 +365,6 @@ Setting: At the Netherby Allotment Show, someone slashed Big Bertha, the favouri
 ## The Hijacked Scoreboard (daily case 2026-11-27)
 
 Setting: During the penalty shootout of the Fenwick Ice Cup final, the arena scoreboard was hacked.
-
-### `the-hijacked-scoreboard/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Hijacked Scoreboard” (hacking): During the penalty shootout of the Fenwick Ice Cup final, the arena scoreboard was hacked. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-hijacked-scoreboard/brenda-hale.jpg`
-> Portrait of Brenda Hale, Coach, Fenwick Falcons, a character in the detective mystery “The Hijacked Scoreboard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-hijacked-scoreboard/desmond-oduya.jpg`
-> Portrait of Desmond Oduya, Coach, Rovers, a character in the detective mystery “The Hijacked Scoreboard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-hijacked-scoreboard/marco-kellerman.jpg`
-> Portrait of Marco Kellerman, Press officer, Rovers, a character in the detective mystery “The Hijacked Scoreboard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-hijacked-scoreboard/mia-kowalski.jpg`
-> Portrait of Mia Kowalski, Falcons social media, a character in the detective mystery “The Hijacked Scoreboard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-hijacked-scoreboard/nell-ashworth.jpg`
 > Portrait of Nell Ashworth, Arena IT technician, a character in the detective mystery “The Hijacked Scoreboard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1620,5 +1508,55 @@ Setting: In the village of Little Brockwell, all twelve hives of beekeeper Ruth 
 ### `the-poisoned-beehives/tom-ashby.jpg`
 > Portrait of Tom Ashby, Ruth's nephew, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
+## The Ice Rink Sabotage (daily case 2027-01-05)
+
+Setting: At the Northern Figure Skating Championships, favourite Lena Novak fell when the blade came off her right skate.
+
+### `the-ice-rink-sabotage/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Ice Rink Sabotage” (sabotage): At the Northern Figure Skating Championships, favourite Lena Novak fell when the blade came off her right skate. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-ice-rink-sabotage/bianca-rossi.jpg`
+> Portrait of Bianca Rossi, Rival skater, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-rink-sabotage/greg-novak.jpg`
+> Portrait of Greg Novak, Lena's coach and father, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-rink-sabotage/joe-pike.jpg`
+> Portrait of Joe Pike, Ice technician, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-rink-sabotage/lena-novak.jpg`
+> Portrait of Lena Novak, Skater, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-rink-sabotage/mika-sato.jpg`
+> Portrait of Mika Sato, Skater, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-rink-sabotage/ruth-hale.jpg`
+> Portrait of Ruth Hale, Changing room steward, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Orchid House Murder (daily case 2027-01-06)
+
+Setting: At Thornfield Manor, orchid collector Sir Roland Hythe was found dead in his heated glasshouse on the night of a small dinner party.
+
+### `the-orchid-house-murder/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Orchid House Murder” (murder): At Thornfield Manor, orchid collector Sir Roland Hythe was found dead in his heated glasshouse on the night of a small dinner party. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-orchid-house-murder/dr-eva-marsh.jpg`
+> Portrait of Dr Eva Marsh, Police surgeon, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-orchid-house-murder/felicity-crane.jpg`
+> Portrait of Felicity Crane, Rival collector, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-orchid-house-murder/gerald-pryce.jpg`
+> Portrait of Gerald Pryce, Business partner, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-orchid-house-murder/hugo-hythe.jpg`
+> Portrait of Hugo Hythe, Nephew, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-orchid-house-murder/mrs-agnes-doyle.jpg`
+> Portrait of Mrs Agnes Doyle, Housekeeper, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-orchid-house-murder/simon-ward.jpg`
+> Portrait of Simon Ward, Butler, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
 ---
-Status: 336 of 786 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 372 of 800 images delivered (one cover and six portraits per case, plus evidence photos).
