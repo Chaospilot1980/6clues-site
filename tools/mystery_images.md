@@ -2348,6 +2348,112 @@ Setting: At London Winter Fashion Week, designer Margot Vell was found dead in t
 ### `murder-at-the-fashion-show/photo-press-19-31.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “PRESS_19:31” at 19:31, from “Press photos” in the detective mystery “Murder at the Fashion Show”: Front row: Paul Vell on his phone. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## Death in the Hedge Maze (library – on the site now)
+
+Setting: At Ashcombe Hall, Sir Rupert Vane was found dead at the centre of his famous hedge maze during the winter lantern trail.
+
+### `death-in-the-hedge-maze/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death in the Hedge Maze” (murder): At Ashcombe Hall, Sir Rupert Vane was found dead at the centre of his famous hedge maze during the winter lantern trail. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-in-the-hedge-maze/cecily-vane.jpg`
+> Portrait of Cecily Vane, Sir Rupert's daughter, a character in the detective mystery “Death in the Hedge Maze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-hedge-maze/ds-holly-ward.jpg`
+> Portrait of DS Holly Ward, Police, a character in the detective mystery “Death in the Hedge Maze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-hedge-maze/josh-hart.jpg`
+> Portrait of Josh Hart, Mulled wine helper, a character in the detective mystery “Death in the Hedge Maze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-hedge-maze/mr-george-ellis.jpg`
+> Portrait of Mr George Ellis, Guest, a character in the detective mystery “Death in the Hedge Maze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-hedge-maze/mrs-pam-hood.jpg`
+> Portrait of Mrs Pam Hood, Lantern hire, a character in the detective mystery “Death in the Hedge Maze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-hedge-maze/ned-barlow.jpg`
+> Portrait of Ned Barlow, Head gardener, a character in the detective mystery “Death in the Hedge Maze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder in the Airport Lounge (library – on the site now)
+
+Setting: In the Skyline First Lounge at Heathfield Airport, tech founder Martin Kale collapsed and died after drinking an espresso.
+
+### `murder-in-the-airport-lounge/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder in the Airport Lounge” (murder): In the Skyline First Lounge at Heathfield Airport, tech founder Martin Kale collapsed and died after drinking an espresso. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-in-the-airport-lounge/andy-grant.jpg`
+> Portrait of Andy Grant, Martin's assistant, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-in-the-airport-lounge/di-sara-kemp.jpg`
+> Portrait of DI Sara Kemp, Police, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-in-the-airport-lounge/jade-moss.jpg`
+> Portrait of Jade Moss, Lounge cleaner, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-in-the-airport-lounge/lena-park.jpg`
+> Portrait of Lena Park, Lounge barista, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-in-the-airport-lounge/olivia-shaw.jpg`
+> Portrait of Olivia Shaw, Co-founder, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-in-the-airport-lounge/tom-bell.jpg`
+> Portrait of Tom Bell, Gate agent, gate 22, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-in-the-airport-lounge/photo-img-102.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_102” at 15:00, from “Police photo” in the detective mystery “Murder in the Airport Lounge”: Empty 5 ml glass vial in a napkin, coral lipstick mark. From the bin beside table 6 – O. Shaw's table. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Death Aboard the Yacht (library – on the site now)
+
+Setting: Aboard the yacht Aurora, anchored off Monaco, shipping tycoon Stavros Leandros went overboard on a calm night.
+
+### `death-aboard-the-yacht/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death Aboard the Yacht” (murder): Aboard the yacht Aurora, anchored off Monaco, shipping tycoon Stavros Leandros went overboard on a calm night. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-aboard-the-yacht/capitaine-luc-marin.jpg`
+> Portrait of Capitaine Luc Marin, Harbour police, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-aboard-the-yacht/marc-lebrun.jpg`
+> Portrait of Marc Lebrun, Casino doorman, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-aboard-the-yacht/mate-erik-holm.jpg`
+> Portrait of Mate Erik Holm, First mate, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-aboard-the-yacht/mrs-helena-leandros.jpg`
+> Portrait of Mrs Helena Leandros, Stavros's wife, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-aboard-the-yacht/nikos-leandros.jpg`
+> Portrait of Nikos Leandros, Stavros's son, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-aboard-the-yacht/rosa-diaz.jpg`
+> Portrait of Rosa Diaz, Stewardess, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-aboard-the-yacht/photo-img-331.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_331” at 07:10, from “Rosa's phone” in the detective mystery “Death Aboard the Yacht”: Inside the tender: a wet towel with the monogram 'NL', and a pair of soaked deck shoes. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Murder in the Bank Vault (library – on the site now)
+
+Setting: At Whitmore Private Bank, manager Desmond Clarke was found dead inside the vault on Christmas Eve morning.
+
+### `murder-in-the-bank-vault/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder in the Bank Vault” (murder): At Whitmore Private Bank, manager Desmond Clarke was found dead inside the vault on Christmas Eve morning. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-in-the-bank-vault/di-grace-hill.jpg`
+> Portrait of DI Grace Hill, Police, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-in-the-bank-vault/julia-frost.jpg`
+> Portrait of Julia Frost, Deputy manager, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-in-the-bank-vault/kevin-moss.jpg`
+> Portrait of Kevin Moss, Security guard, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-in-the-bank-vault/mr-arthur-penn.jpg`
+> Portrait of Mr Arthur Penn, Customer, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-in-the-bank-vault/paula-reyes.jpg`
+> Portrait of Paula Reyes, Cashier, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-in-the-bank-vault/tom-gale.jpg`
+> Portrait of Tom Gale, IT technician, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -3748,4 +3854,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1493 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1523 images delivered (one cover and six portraits per case, plus evidence photos).
