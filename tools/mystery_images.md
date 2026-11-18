@@ -737,6 +737,124 @@ Setting: At Port Solent Marina, yacht broker Julian Cross was found dead in the 
 ### `murder-at-the-marina/photo-img-4421.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_4421” at 18:16, from “Lily's phone” in the detective mystery “Murder at the Marina”: A man in a navy blazer with the yacht club badge jumps from Serenity's stern onto the pontoon, carrying a briefcase. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Funfair Goldfish (library – on the site now)
+
+Setting: At the Shoreham Summer Funfair, all twelve prize goldfish vanished from the hook-a-duck stall overnight.
+
+### `the-funfair-goldfish/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Funfair Goldfish” (theft): At the Shoreham Summer Funfair, all twelve prize goldfish vanished from the hook-a-duck stall overnight. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-funfair-goldfish/jo-lake.jpg`
+> Portrait of Jo Lake, Ghost-train operator, a character in the detective mystery “The Funfair Goldfish”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-funfair-goldfish/mo-diaz.jpg`
+> Portrait of Mo Diaz, Candyfloss seller, a character in the detective mystery “The Funfair Goldfish”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-funfair-goldfish/nick-hart.jpg`
+> Portrait of Nick Hart, Dodgems operator, a character in the detective mystery “The Funfair Goldfish”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-funfair-goldfish/pat-rowe.jpg`
+> Portrait of Pat Rowe, Night security, a character in the detective mystery “The Funfair Goldfish”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-funfair-goldfish/rosie-cole.jpg`
+> Portrait of Rosie Cole, Hook-a-duck stall owner, a character in the detective mystery “The Funfair Goldfish”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-funfair-goldfish/sal-grant.jpg`
+> Portrait of Sal Grant, Fairground manager, a character in the detective mystery “The Funfair Goldfish”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Ruined Wedding Dress (library – on the site now)
+
+Setting: At the Hollin Hall Hotel, bride-to-be Amy Fenwick found her wedding dress soaked in red wine on the morning of her wedding.
+
+### `the-ruined-wedding-dress/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Ruined Wedding Dress” (sabotage): At the Hollin Hall Hotel, bride-to-be Amy Fenwick found her wedding dress soaked in red wine on the morning of her wedding. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-ruined-wedding-dress/amy-fenwick.jpg`
+> Portrait of Amy Fenwick, Bride, a character in the detective mystery “The Ruined Wedding Dress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ruined-wedding-dress/aunt-sue.jpg`
+> Portrait of Aunt Sue, Groom's aunt, a character in the detective mystery “The Ruined Wedding Dress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ruined-wedding-dress/ben-ross.jpg`
+> Portrait of Ben Ross, Night porter, a character in the detective mystery “The Ruined Wedding Dress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ruined-wedding-dress/gail-price.jpg`
+> Portrait of Gail Price, Hotel receptionist, a character in the detective mystery “The Ruined Wedding Dress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ruined-wedding-dress/jade-holt.jpg`
+> Portrait of Jade Holt, Bridesmaid, a character in the detective mystery “The Ruined Wedding Dress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ruined-wedding-dress/kirsty-fenwick.jpg`
+> Portrait of Kirsty Fenwick, Bride's sister, a character in the detective mystery “The Ruined Wedding Dress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ruined-wedding-dress/photo-img-501.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_501” at 23:15, from “Jade's phone” in the detective mystery “The Ruined Wedding Dress”: Hen party in the bar: Amy, Kirsty, Jade and Aunt Sue cutting a cake. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-ruined-wedding-dress/photo-img-514.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_514” at 23:35, from “Jade's phone” in the detective mystery “The Ruined Wedding Dress”: Hen party dancing: Amy, Jade and Aunt Sue. Kirsty is not in the room. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-ruined-wedding-dress/photo-img-522.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_522” at 23:50, from “Jade's phone” in the detective mystery “The Ruined Wedding Dress”: Kirsty back, with a red wine stain on her white sleeve. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Death on the Ghost Walk (library – on the site now)
+
+Setting: In the old city of York, ghost-walk guide Edgar Penn was found dead in Mad Alice Lane during his 'Midnight Spirits' tour.
+
+### `death-on-the-ghost-walk/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death on the Ghost Walk” (murder): In the old city of York, ghost-walk guide Edgar Penn was found dead in Mad Alice Lane during his 'Midnight Spirits' tour. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-on-the-ghost-walk/di-rachel-stone.jpg`
+> Portrait of DI Rachel Stone, Police, a character in the detective mystery “Death on the Ghost Walk”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-ghost-walk/father-paul.jpg`
+> Portrait of Father Paul, Priest at St Helen's, a character in the detective mystery “Death on the Ghost Walk”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-ghost-walk/hugo-lind.jpg`
+> Portrait of Hugo Lind, Tourist on Crake's tour, a character in the detective mystery “Death on the Ghost Walk”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-ghost-walk/martha-lee.jpg`
+> Portrait of Martha Lee, Penn's assistant, a character in the detective mystery “Death on the Ghost Walk”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-ghost-walk/nell-fry.jpg`
+> Portrait of Nell Fry, Penn's ex-wife, a character in the detective mystery “Death on the Ghost Walk”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-ghost-walk/simon-crake.jpg`
+> Portrait of Simon Crake, Rival ghost-walk guide, a character in the detective mystery “Death on the Ghost Walk”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-ghost-walk/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-1” at 21:29, from “St Helen's church camera” in the detective mystery “Death on the Ghost Walk”: A man in a long black cape and top hat – Crake's tour costume – hurries towards Mad Alice Lane. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `death-on-the-ghost-walk/photo-cam-1-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-1” at 21:34, from “St Helen's church camera” in the detective mystery “Death on the Ghost Walk”: The same man hurries back towards the Shambles. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Murder at the Cricket Pavilion (library – on the site now)
+
+Setting: At Upper Wyfold Cricket Club, treasurer Gerald Banks was found dead in the pavilion office during the final of the village cup.
+
+### `murder-at-the-cricket-pavilion/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Cricket Pavilion” (murder): At Upper Wyfold Cricket Club, treasurer Gerald Banks was found dead in the pavilion office during the final of the village cup. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-cricket-pavilion/ds-lucy-hart.jpg`
+> Portrait of DS Lucy Hart, Police, a character in the detective mystery “Murder at the Cricket Pavilion”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-cricket-pavilion/edie-clark.jpg`
+> Portrait of Edie Clark, Club scorer, a character in the detective mystery “Murder at the Cricket Pavilion”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-cricket-pavilion/jack-moss.jpg`
+> Portrait of Jack Moss, Batsman, a character in the detective mystery “Murder at the Cricket Pavilion”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-cricket-pavilion/rupert-hale.jpg`
+> Portrait of Rupert Hale, Club captain, a character in the detective mystery “Murder at the Cricket Pavilion”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-cricket-pavilion/ted-grimes.jpg`
+> Portrait of Ted Grimes, Groundsman, a character in the detective mystery “Murder at the Cricket Pavilion”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-cricket-pavilion/vera-banks.jpg`
+> Portrait of Vera Banks, Gerald's widow, a character in the detective mystery “Murder at the Cricket Pavilion”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-cricket-pavilion/photo-img-330.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_330” at 15:40, from “Club photographer” in the detective mystery “Murder at the Cricket Pavilion”: Tea tent during the rain: Jack Moss, Edie Clark and the visiting team. Rupert Hale is not there. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -2137,4 +2255,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1036 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1070 images delivered (one cover and six portraits per case, plus evidence photos).
