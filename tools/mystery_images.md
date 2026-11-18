@@ -1288,6 +1288,109 @@ Setting: At the Riverside Frost Fair, organiser Hugh Mercer was found dead behin
 ### `murder-at-the-frost-fair/photo-img-9920.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_9920” at 20:00, from “Clara's phone” in the detective mystery “Murder at the Frost Fair”: Clara and three friends on the ice rink, fireworks overhead – rink clock reads 20:00. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Gingerbread House Wrecker (library – on the site now)
+
+Setting: At the Fernley Christmas Bake Show, Nora Bell's tall gingerbread house was found crushed on its table half an hour before the judges arrived.
+
+### `the-gingerbread-house-wrecker/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Gingerbread House Wrecker” (sabotage): At the Fernley Christmas Bake Show, Nora Bell's tall gingerbread house was found crushed on its table half an hour before the judges arrived. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-gingerbread-house-wrecker/arthur-moss.jpg`
+> Portrait of Arthur Moss, Baker, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-gingerbread-house-wrecker/gail-turner.jpg`
+> Portrait of Gail Turner, Rival baker, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-gingerbread-house-wrecker/mr-ken-shaw.jpg`
+> Portrait of Mr Ken Shaw, Raffle organiser, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-gingerbread-house-wrecker/mrs-ruth-okafor.jpg`
+> Portrait of Mrs Ruth Okafor, Head judge, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-gingerbread-house-wrecker/nora-bell.jpg`
+> Portrait of Nora Bell, Baker, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-gingerbread-house-wrecker/poppy-lane.jpg`
+> Portrait of Poppy Lane, Bake show helper, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Toy Shop Till Fraud (library – on the site now)
+
+Setting: At Pickle & Pip Toys, owner Martha Pickle noticed that the till is £200–£300 short almost every day in December.
+
+### `the-toy-shop-till-fraud/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Toy Shop Till Fraud” (fraud): At Pickle & Pip Toys, owner Martha Pickle noticed that the till is £200–£300 short almost every day in December. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-toy-shop-till-fraud/amy-kerr.jpg`
+> Portrait of Amy Kerr, Shop assistant, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-toy-shop-till-fraud/ivy-pickle.jpg`
+> Portrait of Ivy Pickle, Martha's sister, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-toy-shop-till-fraud/joe-bloom.jpg`
+> Portrait of Joe Bloom, Weekend assistant, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-toy-shop-till-fraud/leo-grant.jpg`
+> Portrait of Leo Grant, Shop assistant, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-toy-shop-till-fraud/martha-pickle.jpg`
+> Portrait of Martha Pickle, Shop owner, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-toy-shop-till-fraud/sam-ruiz.jpg`
+> Portrait of Sam Ruiz, Till engineer, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death in the Bell Tower (library – on the site now)
+
+Setting: At St Aldhelm's Church, tower captain Walter Penrose fell through the trapdoor of the bell chamber during practice for the New Year peal.
+
+### `death-in-the-bell-tower/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death in the Bell Tower” (murder): At St Aldhelm's Church, tower captain Walter Penrose fell through the trapdoor of the bell chamber during practice for the New Year peal. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-in-the-bell-tower/ds-holly-grey.jpg`
+> Portrait of DS Holly Grey, Police, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-bell-tower/eileen-shaw.jpg`
+> Portrait of Eileen Shaw, Conductor, bell 1, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-bell-tower/jean-penrose.jpg`
+> Portrait of Jean Penrose, Walter's wife, bell 2, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-bell-tower/martin-hale.jpg`
+> Portrait of Martin Hale, Ringer, bell 4, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-bell-tower/rev-alan-moss.jpg`
+> Portrait of Rev. Alan Moss, Vicar, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-bell-tower/tom-akers.jpg`
+> Portrait of Tom Akers, Ringer, bell 6, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-bell-tower/photo-img-3301.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_3301” at 19:45, from “Choir member's phone (outside church)” in the detective mystery “Death in the Bell Tower”: Through the ringing room window: five ringers at their ropes, Jean Penrose at bell 2. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Murder at the Skating Gala (library – on the site now)
+
+Setting: At the Crystal Ice Arena, coach Viktor Hale was found dead in the ice plant room during the winter skating gala, struck with a heavy wrench.
+
+### `murder-at-the-skating-gala/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Skating Gala” (murder): At the Crystal Ice Arena, coach Viktor Hale was found dead in the ice plant room during the winter skating gala, struck with a heavy wrench. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-skating-gala/ben-ortiz.jpg`
+> Portrait of Ben Ortiz, Sound technician, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-skating-gala/dave-pike.jpg`
+> Portrait of Dave Pike, Security guard, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-skating-gala/di-ruth-kemp.jpg`
+> Portrait of DI Ruth Kemp, Police, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-skating-gala/ellie-hart.jpg`
+> Portrait of Ellie Hart, Skater, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-skating-gala/kim-lowe.jpg`
+> Portrait of Kim Lowe, Skater, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-skating-gala/lara-quinn.jpg`
+> Portrait of Lara Quinn, Skater, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -2688,4 +2791,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1193 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1222 images delivered (one cover and six portraits per case, plus evidence photos).
