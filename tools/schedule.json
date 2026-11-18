@@ -378,5 +378,17 @@
  "death-at-the-auction-house": {
   "daily": "2027-01-08",
   "public": "2027-01-08"
+ },
+ "the-school-fair-tombola": {
+  "daily": "2027-01-09",
+  "public": "2027-01-09"
+ },
+ "the-library-first-edition": {
+  "daily": "2027-01-10",
+  "public": "2027-01-10"
+ },
+ "the-snowman-contest": {
+  "daily": "2027-01-11",
+  "public": "2027-01-11"
  }
 }

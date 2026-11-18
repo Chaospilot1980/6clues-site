@@ -882,105 +882,9 @@ Setting: At the Hartley Vintage Car Rally, the silver-gilt Golden Piston trophy 
 ### `the-vintage-rally-trophy/photo-img-214.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “IMG_214” at 14:15, from “Nina's camera – showground” in the detective mystery “The Vintage Rally Trophy”: The judges posing in their tent. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Chilli Cook-Off Sabotage (daily case 2026-12-18)
-
-Setting: At the Riverside Street Food Festival, someone tipped a bag of salt into Rosa Méndez's prize-winning chilli while she fetched water, just before the judging.
-
-### `the-chilli-cook-off-sabotage/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Chilli Cook-Off Sabotage” (sabotage): At the Riverside Street Food Festival, someone tipped a bag of salt into Rosa Méndez's prize-winning chilli while she fetched water, just before the judging. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-chilli-cook-off-sabotage/al-brodie.jpg`
-> Portrait of Al Brodie, Al's Smokehouse, pitch 7, a character in the detective mystery “The Chilli Cook-Off Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-chilli-cook-off-sabotage/jenny-kwan.jpg`
-> Portrait of Jenny Kwan, Head judge, a character in the detective mystery “The Chilli Cook-Off Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-chilli-cook-off-sabotage/kit-doyle.jpg`
-> Portrait of Kit Doyle, Steward, a character in the detective mystery “The Chilli Cook-Off Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-chilli-cook-off-sabotage/lena-fisk.jpg`
-> Portrait of Lena Fisk, Rosa's assistant, a character in the detective mystery “The Chilli Cook-Off Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-chilli-cook-off-sabotage/omar-haddad.jpg`
-> Portrait of Omar Haddad, Festival MC, a character in the detective mystery “The Chilli Cook-Off Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-chilli-cook-off-sabotage/paddy-shaw.jpg`
-> Portrait of Paddy Shaw, Bread stall, pitch 1, a character in the detective mystery “The Chilli Cook-Off Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## Death at the Vineyard (daily case 2026-12-19)
-
-Setting: At Hollins Hill Vineyard, owner Alistair Crewe was found dead in the fermentation cellar on the night of the harvest supper.
-
-### `death-at-the-vineyard/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Vineyard” (murder): At Hollins Hill Vineyard, owner Alistair Crewe was found dead in the fermentation cellar on the night of the harvest supper. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `death-at-the-vineyard/bertie-crewe.jpg`
-> Portrait of Bertie Crewe, Alistair's son, DJ, a character in the detective mystery “Death at the Vineyard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-vineyard/celia-marsh.jpg`
-> Portrait of Celia Marsh, Wine critic, guest, a character in the detective mystery “Death at the Vineyard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-vineyard/fiona-crewe.jpg`
-> Portrait of Fiona Crewe, Alistair's wife, a character in the detective mystery “Death at the Vineyard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-vineyard/mags-o-neill.jpg`
-> Portrait of Mags O'Neill, Caterer, a character in the detective mystery “Death at the Vineyard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-vineyard/owen-pike.jpg`
-> Portrait of Owen Pike, Cellar hand, a character in the detective mystery “Death at the Vineyard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-vineyard/raj-malhotra.jpg`
-> Portrait of Raj Malhotra, Winemaker, a character in the detective mystery “Death at the Vineyard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## The Opera House Tiara (daily case 2026-12-20)
-
-Setting: At the Royal Calder Opera House, a diamond tiara worn in La Traviata was stolen from the star dressing room during the second act.
-
-### `the-opera-house-tiara/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Opera House Tiara” (theft): At the Royal Calder Opera House, a diamond tiara worn in La Traviata was stolen from the star dressing room during the second act. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-opera-house-tiara/clara-venn.jpg`
-> Portrait of Clara Venn, Understudy, a character in the detective mystery “The Opera House Tiara”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-opera-house-tiara/elena-rossi.jpg`
-> Portrait of Elena Rossi, Soprano, a character in the detective mystery “The Opera House Tiara”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-opera-house-tiara/lord-ashcombe.jpg`
-> Portrait of Lord Ashcombe, Patron, Box A, a character in the detective mystery “The Opera House Tiara”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-opera-house-tiara/peg-holloway.jpg`
-> Portrait of Peg Holloway, Dresser, a character in the detective mystery “The Opera House Tiara”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-opera-house-tiara/sid-kemp.jpg`
-> Portrait of Sid Kemp, Usher, box corridor, a character in the detective mystery “The Opera House Tiara”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-opera-house-tiara/tom-ruiz.jpg`
-> Portrait of Tom Ruiz, Stage manager, a character in the detective mystery “The Opera House Tiara”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## The Lisbon Laptop (daily case 2026-12-21)
 
 Setting: At a robotics conference in Lisbon, the prototype laptop of speaker Dr Erik Vang was stolen from his hotel room, 512, shortly before his big talk.
-
-### `the-lisbon-laptop/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Lisbon Laptop” (theft): At a robotics conference in Lisbon, the prototype laptop of speaker Dr Erik Vang was stolen from his hotel room, 512, shortly before his big talk. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-lisbon-laptop/aoife-brennan.jpg`
-> Portrait of Aoife Brennan, Conference organiser, a character in the detective mystery “The Lisbon Laptop”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-lisbon-laptop/carla-sousa.jpg`
-> Portrait of Carla Sousa, Room attendant, a character in the detective mystery “The Lisbon Laptop”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-lisbon-laptop/diego-marin.jpg`
-> Portrait of Diego Marín, Engineer, rival company, a character in the detective mystery “The Lisbon Laptop”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-lisbon-laptop/lars-holm.jpg`
-> Portrait of Lars Holm, Rival speaker, a character in the detective mystery “The Lisbon Laptop”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-lisbon-laptop/nadia-haddad.jpg`
-> Portrait of Nadia Haddad, Technology journalist, a character in the detective mystery “The Lisbon Laptop”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-lisbon-laptop/tom-whitby.jpg`
-> Portrait of Tom Whitby, Erik's assistant, a character in the detective mystery “The Lisbon Laptop”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-lisbon-laptop/photo-img-4410.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_4410” at 10:07, from “Diego's phone – photo times” in the detective mystery “The Lisbon Laptop”: The conference registration desk, Hotel Atlântico. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -994,12 +898,6 @@ Setting: At a robotics conference in Lisbon, the prototype laptop of speaker Dr 
 ## The Ferris Wheel Robbery (daily case 2026-12-22)
 
 Setting: On Brightsea Pier, the evening's cash box was taken from the big-wheel ticket booth on a busy Friday night.
-
-### `the-ferris-wheel-robbery/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Ferris Wheel Robbery” (theft): On Brightsea Pier, the evening's cash box was taken from the big-wheel ticket booth on a busy Friday night. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-ferris-wheel-robbery/dawn-pike.jpg`
-> Portrait of Dawn Pike, Pier security, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-ferris-wheel-robbery/gina-fry.jpg`
 > Portrait of Gina Fry, Candyfloss stall, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1510,5 +1408,92 @@ Setting: At Ferris & Gold auctioneers, senior valuer Martin Gold was found dead 
 ### `death-at-the-auction-house/photo-cam-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM-3” at 14:47, from “Saleroom camera” in the detective mystery “Death at the Auction House”: J. Reid coming up from the basement, sleeves pushed up. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The School Fair Tombola (daily case 2027-01-09)
+
+Setting: At the Elmwood Primary Christmas Fair, the tombola's top prize, a £300 games console, vanished from its box under the tombola table during the afternoon.
+
+### `the-school-fair-tombola/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The School Fair Tombola” (theft): At the Elmwood Primary Christmas Fair, the tombola's top prize, a £300 games console, vanished from its box under the tombola table during the afternoon. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-school-fair-tombola/kerry-lamb.jpg`
+> Portrait of Kerry Lamb, Parent helper, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-school-fair-tombola/mr-owen-dale.jpg`
+> Portrait of Mr Owen Dale, Tombola helper, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-school-fair-tombola/mr-tim-ford.jpg`
+> Portrait of Mr Tim Ford, Caretaker, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-school-fair-tombola/mrs-jenny-clarke.jpg`
+> Portrait of Mrs Jenny Clarke, Fair organiser, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-school-fair-tombola/raj-patel.jpg`
+> Portrait of Raj Patel, Parent, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-school-fair-tombola/sandra-hughes.jpg`
+> Portrait of Sandra Hughes, Parent helper, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-school-fair-tombola/photo-img-330.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_330” at 14:28, from “Raj's phone” in the detective mystery “The School Fair Tombola”: Raj's son next to the tombola table. Mr Dale holds up the console. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-school-fair-tombola/photo-img-335.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_335” at 14:41, from “Raj's phone” in the detective mystery “The School Fair Tombola”: Raj's son with a tombola prize. Behind the table: Sandra Hughes, bending down to the box under the table. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Library First Edition (daily case 2027-01-10)
+
+Setting: At Kingsford Library, a signed first edition worth £4,000 has gone from the locked Local History cabinet.
+
+### `the-library-first-edition/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Library First Edition” (theft): At Kingsford Library, a signed first edition worth £4,000 has gone from the locked Local History cabinet. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-library-first-edition/jack-bright.jpg`
+> Portrait of Jack Bright, Cleaner, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-library-first-edition/mr-colin-nash.jpg`
+> Portrait of Mr Colin Nash, Deputy librarian, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-library-first-edition/mr-lee-shaw.jpg`
+> Portrait of Mr Lee Shaw, Bookseller, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-library-first-edition/mrs-ada-lowe.jpg`
+> Portrait of Mrs Ada Lowe, Head librarian, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-library-first-edition/mrs-pat-moore.jpg`
+> Portrait of Mrs Pat Moore, Library friend, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-library-first-edition/rosa-vega.jpg`
+> Portrait of Rosa Vega, Archive volunteer, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Snowman Contest (daily case 2027-01-11)
+
+Setting: In the village of Fernley, the snowman contest is judged at nine on Sunday morning.
+
+### `the-snowman-contest/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Snowman Contest” (vandalism): In the village of Fernley, the snowman contest is judged at nine on Sunday morning. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-snowman-contest/ben-hart.jpg`
+> Portrait of Ben Hart, Farmer, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snowman-contest/gus-rowley.jpg`
+> Portrait of Gus Rowley, Rival builder, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snowman-contest/jill-rowley.jpg`
+> Portrait of Jill Rowley, Gus's wife, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snowman-contest/molly-grant.jpg`
+> Portrait of Molly Grant, Snow-owl builder, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snowman-contest/nina-patel.jpg`
+> Portrait of Nina Patel, Neighbour, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snowman-contest/warden-pete.jpg`
+> Portrait of Warden Pete, Village green warden, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snowman-contest/photo-cam.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “CAM” at 02:05, from “Rowleys' doorbell camera” in the detective mystery “The Snowman Contest”: A man in a big coat and wellies leaving the Rowleys' back gate towards the green. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-snowman-contest/photo-cam-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “CAM” at 02:20, from “Rowleys' doorbell camera” in the detective mystery “The Snowman Contest”: The same man coming back in, brushing snow off his sleeves. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ---
-Status: 405 of 817 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 435 of 842 images delivered (one cover and six portraits per case, plus evidence photos).
