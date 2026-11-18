@@ -854,7 +854,7 @@ function admin_smtp(): void {
     if ($_SERVER["REQUEST_METHOD"] === "POST") { csrf_check();
         if (($_POST['pass'] ?? '') !== '') {
             @mkdir(dirname($f), 0700, true);
-            file_put_contents($f, json_encode(['host' => 'websmtp.simply.com', 'port' => 587, 'user' => (string)cfg('contact_email'), 'pass' => (string)$_POST['pass']]));
+            file_put_contents($f, json_encode(['host' => 'websmtp.simply.com', 'port' => 587, 'user' => trim((string)($_POST['user'] ?? '')) ?: 'mail@6clues.com', 'pass' => (string)$_POST['pass']]));
             @chmod($f, 0600);
         }
         $u = current_user();
@@ -864,7 +864,7 @@ function admin_smtp(): void {
     page_start(['title' => 'Mail settings', 'noindex' => true, 'path' => '/admin/smtp']);
     echo '<section class="wrap narrow"><h1>Mail settings</h1><p>Mail is sent through websmtp.simply.com as <b>' . e(cfg('contact_email')) . '</b>. Status: ' . (smtp_conf() ? 'password saved' : '<b>no password yet</b>') . '.</p>';
     if ($msg) echo '<p class="lead">' . e($msg) . '</p>';
-    echo '<form method="post"><input type="hidden" name="csrf" value="' . e(csrf_token()) . '"><label>Mailbox password for ' . e(cfg('contact_email')) . '<br><input type="password" name="pass" autocomplete="new-password" style="width:100%"></label><p><button class="btn">Save and send test mail</button></p></form></section>';
+    echo '<form method="post"><input type="hidden" name="csrf" value="' . e(csrf_token()) . '"><label>Mailbox (login)<br><input name="user" value="mail@6clues.com" style="width:100%"></label><label>Mailbox password<br><input type="password" name="pass" autocomplete="new-password" style="width:100%"></label><p><button class="btn">Save and send test mail</button></p></form></section>';
     page_end();
 }
 
