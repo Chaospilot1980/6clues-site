@@ -1527,5 +1527,98 @@ Setting: On the Hollow Vale Steam Railway, volunteer signalman Harold Brock was 
 ### `death-in-the-signal-box/photo-img-5520.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_5520” at 14:25, from “Platform photo by Mira Shah” in the detective mystery “Death in the Signal Box”: Engine 3 at the platform, steam up. On the footplate: the fireman alone, shovel in hand. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## Murder at the Planetarium (daily case 2027-01-02)
+
+Setting: At the Northgate Planetarium, director Prof.
+
+### `murder-at-the-planetarium/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Planetarium” (murder): At the Northgate Planetarium, director Prof. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-planetarium/bryn-owens.jpg`
+> Portrait of Bryn Owens, Trustee, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-planetarium/dr-hana-ito.jpg`
+> Portrait of Dr Hana Ito, Presenter, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-planetarium/kieran-doyle.jpg`
+> Portrait of Kieran Doyle, Projectionist, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-planetarium/lily-carter.jpg`
+> Portrait of Lily Carter, Visitor, row F, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-planetarium/sgt-paula-grey.jpg`
+> Portrait of Sgt Paula Grey, Police, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-planetarium/sophie-marr.jpg`
+> Portrait of Sophie Marr, Café manager, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-planetarium/photo-cam-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-2” at 19:34, from “Café camera” in the detective mystery “Murder at the Planetarium”: K. Doyle enters the café, sits alone near the door. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `murder-at-the-planetarium/photo-cam-2-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-2” at 19:50, from “Café camera” in the detective mystery “Murder at the Planetarium”: K. Doyle still at the table. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Surf School Drowning (daily case 2027-01-03)
+
+Setting: In Penhallow Bay, surf-school owner Jake Rowan was found drowned on the rocks at the north end of the beach after an evening paddle.
+
+### `the-surf-school-drowning/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Surf School Drowning” (murder): In Penhallow Bay, surf-school owner Jake Rowan was found drowned on the rocks at the north end of the beach after an evening paddle. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-surf-school-drowning/ben-hosking.jpg`
+> Portrait of Ben Hosking, Harbour master, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-surf-school-drowning/dan-price.jpg`
+> Portrait of Dan Price, Instructor, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-surf-school-drowning/elsie-trevan.jpg`
+> Portrait of Elsie Trevan, Dog walker, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-surf-school-drowning/mo-jansen.jpg`
+> Portrait of Mo Jansen, Beach bar owner, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-surf-school-drowning/nina-cole.jpg`
+> Portrait of Nina Cole, Business partner, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-surf-school-drowning/pc-morgan-tate.jpg`
+> Portrait of PC Morgan Tate, Police, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-surf-school-drowning/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-1” at 19:30, from “Hut camera” in the detective mystery “The Surf School Drowning”: D. Price leaves with his board bag. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-surf-school-drowning/photo-cam-1-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-1” at 19:38, from “Hut camera” in the detective mystery “The Surf School Drowning”: N. Cole leaves the hut and walks north along the beach. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-surf-school-drowning/photo-cam-1-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-1” at 20:14, from “Hut camera” in the detective mystery “The Surf School Drowning”: N. Cole returns, wet to the knees, and locks up. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-surf-school-drowning/photo-ph-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “PH-3” at 07:00, from “Police photo, Sunday 07:00” in the detective mystery “The Surf School Drowning”: Rocks at the north end: at low water they can be reached on foot over the sand. At high water they are cut off. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Poisoned Beehives (daily case 2027-01-04)
+
+Setting: In the village of Little Brockwell, all twelve hives of beekeeper Ruth Ashby died overnight – two days before the county honey show she has won four years running.
+
+### `the-poisoned-beehives/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Poisoned Beehives” (sabotage): In the village of Little Brockwell, all twelve hives of beekeeper Ruth Ashby died overnight – two days before the county honey show she has won four years running. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-poisoned-beehives/carol-finch.jpg`
+> Portrait of Carol Finch, Rival beekeeper, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-poisoned-beehives/dr-anil-shah.jpg`
+> Portrait of Dr Anil Shah, Show judge, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-poisoned-beehives/gwen-pryor.jpg`
+> Portrait of Gwen Pryor, Landlady, The Plough, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-poisoned-beehives/ruth-ashby.jpg`
+> Portrait of Ruth Ashby, Beekeeper, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-poisoned-beehives/sid-morley.jpg`
+> Portrait of Sid Morley, Gardener, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-poisoned-beehives/tom-ashby.jpg`
+> Portrait of Tom Ashby, Ruth's nephew, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
 ---
-Status: 336 of 759 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 336 of 786 images delivered (one cover and six portraits per case, plus evidence photos).

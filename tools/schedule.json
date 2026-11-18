@@ -350,5 +350,17 @@
  "death-in-the-signal-box": {
   "daily": "2027-01-01",
   "public": "2027-01-01"
+ },
+ "murder-at-the-planetarium": {
+  "daily": "2027-01-02",
+  "public": "2027-01-02"
+ },
+ "the-surf-school-drowning": {
+  "daily": "2027-01-03",
+  "public": "2027-01-03"
+ },
+ "the-poisoned-beehives": {
+  "daily": "2027-01-04",
+  "public": "2027-01-04"
  }
 }
