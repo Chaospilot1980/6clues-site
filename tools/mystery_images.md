@@ -895,46 +895,9 @@ Setting: At a robotics conference in Lisbon, the prototype laptop of speaker Dr 
 ### `the-lisbon-laptop/photo-img-4458.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_4458” at 15:48, from “Diego's phone – photo times” in the detective mystery “The Lisbon Laptop”: Belém Tower in the sunshine. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Ferris Wheel Robbery (daily case 2026-12-22)
-
-Setting: On Brightsea Pier, the evening's cash box was taken from the big-wheel ticket booth on a busy Friday night.
-
-### `the-ferris-wheel-robbery/gina-fry.jpg`
-> Portrait of Gina Fry, Candyfloss stall, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ferris-wheel-robbery/kev-odu.jpg`
-> Portrait of Kev Odu, Arcade manager, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ferris-wheel-robbery/lenny-watts.jpg`
-> Portrait of Lenny Watts, Sacked ride attendant, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ferris-wheel-robbery/marco-bellini.jpg`
-> Portrait of Marco Bellini, Big-wheel operator, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ferris-wheel-robbery/sue-petty.jpg`
-> Portrait of Sue Petty, Ticket cashier, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Death at the Antiques Fair (daily case 2026-12-23)
 
 Setting: At the Harrowgate Antiques Fair, dealer Augustus Pell was found dead in the back room of his stall, number 41, on a busy Sunday afternoon.
-
-### `death-at-the-antiques-fair/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Antiques Fair” (murder): At the Harrowgate Antiques Fair, dealer Augustus Pell was found dead in the back room of his stall, number 41, on a busy Sunday afternoon. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `death-at-the-antiques-fair/basil-crane.jpg`
-> Portrait of Basil Crane, Rival dealer and auctioneer, a character in the detective mystery “Death at the Antiques Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-antiques-fair/edie-pell.jpg`
-> Portrait of Edie Pell, Augustus's daughter, a character in the detective mystery “Death at the Antiques Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-antiques-fair/frank-doyle.jpg`
-> Portrait of Frank Doyle, Fair porter, a character in the detective mystery “Death at the Antiques Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-antiques-fair/joy-lam.jpg`
-> Portrait of Joy Lam, Fair organiser, a character in the detective mystery “Death at the Antiques Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-antiques-fair/marian-thorne.jpg`
-> Portrait of Marian Thorne, Collector, a character in the detective mystery “Death at the Antiques Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `death-at-the-antiques-fair/ray-stubbs.jpg`
 > Portrait of Ray Stubbs, Dealer, stall 12, a character in the detective mystery “Death at the Antiques Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1495,5 +1458,123 @@ Setting: In the village of Fernley, the snowman contest is judged at nine on Sun
 ### `the-snowman-contest/photo-cam-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CAM” at 02:20, from “Rowleys' doorbell camera” in the detective mystery “The Snowman Contest”: The same man coming back in, brushing snow off his sleeves. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Pet Show Rosette (daily case 2027-01-12)
+
+Setting: At the Hollybrook Village Pet Show, champion rabbit Biscuit was found with green dye all over her white fur just before the 'Best in Show' judging.
+
+### `the-pet-show-rosette/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Pet Show Rosette” (sabotage): At the Hollybrook Village Pet Show, champion rabbit Biscuit was found with green dye all over her white fur just before the 'Best in Show' judging. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-pet-show-rosette/ellie-moss.jpg`
+> Portrait of Ellie Moss, Biscuit's owner, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pet-show-rosette/gary-pike.jpg`
+> Portrait of Gary Pike, Rival rabbit owner, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pet-show-rosette/kayla-brown.jpg`
+> Portrait of Kayla Brown, Rabbit tent helper, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pet-show-rosette/mr-tom-reed.jpg`
+> Portrait of Mr Tom Reed, Show secretary, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pet-show-rosette/mrs-june-hart.jpg`
+> Portrait of Mrs June Hart, Cake tent organiser, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pet-show-rosette/sam-lee.jpg`
+> Portrait of Sam Lee, Cake stall, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Pantomime Takings (daily case 2027-01-13)
+
+Setting: At the Little Dorrit Theatre, £3,400 in ticket money disappeared from the box-office safe during the interval of the Saturday matinee of “Cinderella”.
+
+### `the-pantomime-takings/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Pantomime Takings” (theft): At the Little Dorrit Theatre, £3,400 in ticket money disappeared from the box-office safe during the interval of the Saturday matinee of “Cinderella”. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-pantomime-takings/barry-stokes.jpg`
+> Portrait of Barry Stokes, The Dame, a character in the detective mystery “The Pantomime Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pantomime-takings/dan-marsh.jpg`
+> Portrait of Dan Marsh, Buttons, a character in the detective mystery “The Pantomime Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pantomime-takings/fiona-crane.jpg`
+> Portrait of Fiona Crane, Theatre manager, a character in the detective mystery “The Pantomime Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pantomime-takings/holly-grant.jpg`
+> Portrait of Holly Grant, Cinderella, a character in the detective mystery “The Pantomime Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pantomime-takings/lily-okoye.jpg`
+> Portrait of Lily Okoye, Dresser, a character in the detective mystery “The Pantomime Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pantomime-takings/ravi-sen.jpg`
+> Portrait of Ravi Sen, Stage manager, a character in the detective mystery “The Pantomime Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pantomime-takings/photo-post.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “POST” at 15:19, from “Theatre social media” in the detective mystery “The Pantomime Takings”: Buttons and the Ugly Sisters signing autographs in the foyer. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-pantomime-takings/photo-cam-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-2” at 15:18, from “Corridor camera” in the detective mystery “The Pantomime Takings”: A figure in a long frilly apron and a huge curly wig walks into the office. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-pantomime-takings/photo-cam-2-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-2” at 15:21, from “Corridor camera” in the detective mystery “The Pantomime Takings”: Same figure leaves, holding something under the apron. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Death at the Canal Lock (daily case 2027-01-14)
+
+Setting: On the Ashby Canal, retired engineer Victor Hale was found drowned in Burbage Lock after his narrowboat came through on a winter evening.
+
+### `death-at-the-canal-lock/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Canal Lock” (murder): On the Ashby Canal, retired engineer Victor Hale was found drowned in Burbage Lock after his narrowboat came through on a winter evening. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-canal-lock/colin-hale.jpg`
+> Portrait of Colin Hale, Victim's son, a character in the detective mystery “Death at the Canal Lock”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-canal-lock/gail-price.jpg`
+> Portrait of Gail Price, Boater on 'Wren', a character in the detective mystery “Death at the Canal Lock”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-canal-lock/marina-shaw.jpg`
+> Portrait of Marina Shaw, Victim's partner in a boatyard, a character in the detective mystery “Death at the Canal Lock”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-canal-lock/ned-foster.jpg`
+> Portrait of Ned Foster, Walker, a character in the detective mystery “Death at the Canal Lock”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-canal-lock/pat-doyle.jpg`
+> Portrait of Pat Doyle, Lock-keeper, a character in the detective mystery “Death at the Canal Lock”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-canal-lock/pc-ruth-ambler.jpg`
+> Portrait of PC Ruth Ambler, Police, a character in the detective mystery “Death at the Canal Lock”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-canal-lock/photo-img-9012.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_9012” at 16:59, from “Ned's phone” in the detective mystery “Death at the Canal Lock”: Burbage Lock in the dark: a man in a yellow jacket on the bottom beam, windlass in hand. Below the lock: narrowboat 'Kestrel', unlit. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Death at the Coffee Roastery (daily case 2027-01-15)
+
+Setting: At Bean & Ember, champion roaster Nadia Brook collapsed during a private cupping of her new competition blend and died in hospital.
+
+### `death-at-the-coffee-roastery/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Coffee Roastery” (murder): At Bean & Ember, champion roaster Nadia Brook collapsed during a private cupping of her new competition blend and died in hospital. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-coffee-roastery/anya-kim.jpg`
+> Portrait of Anya Kim, Business partner, a character in the detective mystery “Death at the Coffee Roastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-coffee-roastery/dr-simon-reeve.jpg`
+> Portrait of Dr Simon Reeve, Toxicologist, a character in the detective mystery “Death at the Coffee Roastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-coffee-roastery/leo-grant.jpg`
+> Portrait of Leo Grant, Head barista, a character in the detective mystery “Death at the Coffee Roastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-coffee-roastery/mia-ortiz.jpg`
+> Portrait of Mia Ortiz, Junior roaster, a character in the detective mystery “Death at the Coffee Roastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-coffee-roastery/rosie-lane.jpg`
+> Portrait of Rosie Lane, Cleaner, a character in the detective mystery “Death at the Coffee Roastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-coffee-roastery/tom-fisher.jpg`
+> Portrait of Tom Fisher, Rival roaster, a character in the detective mystery “Death at the Coffee Roastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-coffee-roastery/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-1” at 10:07, from “Corridor camera” in the detective mystery “Death at the Coffee Roastery”: A person in a black apron with a gold 'B&E' logo enters the cupping room. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `death-at-the-coffee-roastery/photo-cam-1-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-1” at 10:09, from “Corridor camera” in the detective mystery “Death at the Coffee Roastery”: The same person leaves and walks to the stairs up to the office. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ---
-Status: 435 of 842 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 876 images delivered (one cover and six portraits per case, plus evidence photos).

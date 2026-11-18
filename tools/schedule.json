@@ -390,5 +390,21 @@
  "the-snowman-contest": {
   "daily": "2027-01-11",
   "public": "2027-01-11"
+ },
+ "the-pet-show-rosette": {
+  "daily": "2027-01-12",
+  "public": "2027-01-12"
+ },
+ "the-pantomime-takings": {
+  "daily": "2027-01-13",
+  "public": "2027-01-13"
+ },
+ "death-at-the-canal-lock": {
+  "daily": "2027-01-14",
+  "public": "2027-01-14"
+ },
+ "death-at-the-coffee-roastery": {
+  "daily": "2027-01-15",
+  "public": "2027-01-15"
  }
 }
