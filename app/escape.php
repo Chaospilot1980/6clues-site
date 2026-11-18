@@ -94,6 +94,36 @@ const ESCAPE_ROOMS = [
         'teaser' => 'The badlands, high summer. The professor has gone to town and a sandstorm is rolling in. Dig up the fossils, get the radio working and find the jeep key before the storm hits. A family room for first-timers.',
         'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 7, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
     ],
+    'the-speakeasy-raid' => [
+        'title' => 'The Speakeasy Raid',
+        'tagline' => 'The Feds raid at one. The real ledger is still hidden.',
+        'teaser' => 'Chicago, February 1927. You are an undercover reporter at the Blue Parrot, the speakeasy where the mayor’s men drink for free. Find the boss’s real ledger and get out through the tunnel before the police storm in. Harder: decoy menus and a fake account book.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 10, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
+    'the-last-dive' => [
+        'title' => 'The Last Dive',
+        'tagline' => 'A hundred metres down. One hour of air.',
+        'teaser' => 'North Atlantic, October 1962. A gas leak has knocked out the crew of HMS Narwhal and the submarine lies on the seabed, slowly flooding. Seal the leak, restore the power and blow the right ballast tanks. Harder: old orders and crossed-out diagrams.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 9, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
+    'the-inventors-laboratory' => [
+        'title' => 'The Inventor’s Laboratory',
+        'tagline' => 'At midnight the thieves come. The door needs lightning.',
+        'teaser' => 'London, New Year’s Eve 1895. Professor Thornbury’s rival is coming for her great invention at midnight – and the door only opens when lightning drives the gears. Rebuild her machine in time. Harder: wrong cards, wrong lights, wrong order.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 8, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
+    'the-sheriffs-jail' => [
+        'title' => 'The Sheriff’s Jail',
+        'tagline' => 'Framed for a bank robbery. The judge arrives at noon.',
+        'teaser' => 'Copper Creek, Arizona, 1881. You woke up in jail for a robbery you didn’t commit, and the hanging judge rides in at noon. Escape the cell, find the real robber and the stolen gold, and ride for the marshal. Harder: three wanted posters, one robber.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 7, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
+    'christmas-eve-at-holly-manor' => [
+        'title' => 'Christmas Eve at Holly Manor',
+        'tagline' => 'The diamond star is gone. The thief leaves at midnight.',
+        'teaser' => 'Yorkshire, Christmas Eve 1923. The lights went out at nine, and the family’s diamond brooch vanished from the top of the tree. Find the star, unmask the lying guest and open the locked front door before the midnight sleigh. Harder: one guest’s story doesn’t add up.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 7, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;
 
@@ -137,7 +167,7 @@ function escape_clock(int $ms): string { $s = intdiv($ms, 1000); return sprintf(
 function escape_cover(string $slug): ?string {
     $pick = ['the-clockmakers-last-hour' => 'tower', 'the-last-night-train' => 'compartment', 'the-lighthouse-at-gull-rock' => 'lamp',
              'after-hours-at-the-museum' => 'hall', 'the-alchemists-attic' => 'attic', 'the-sealed-tomb' => 'burial', 'the-polar-night' => 'hut',
-             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour', 'santas-locked-workshop' => 'workshop', 'the-pirates-cove' => 'grotto', 'countdown-on-the-space-station' => 'cockpit', 'the-enchanted-library' => 'tower', 'the-dinosaur-dig' => 'pit'];
+             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour', 'santas-locked-workshop' => 'workshop', 'the-pirates-cove' => 'grotto', 'countdown-on-the-space-station' => 'cockpit', 'the-enchanted-library' => 'tower', 'the-dinosaur-dig' => 'pit', 'the-speakeasy-raid' => 'bar', 'the-last-dive' => 'control', 'the-inventors-laboratory' => 'workshop', 'the-sheriffs-jail' => 'office', 'christmas-eve-at-holly-manor' => 'drawing'];
     $dir = dirname(__DIR__) . '/assets/img/escape/' . $slug . '/';
     $f = isset($pick[$slug]) && is_file($dir . $pick[$slug] . '.jpg') ? $pick[$slug] . '.jpg' : (basename((string)(glob($dir . '*.jpg')[0] ?? '')) ?: null);
     return $f ? '/assets/img/escape/' . $slug . '/' . $f : null;
