@@ -884,7 +884,8 @@ function cron_smtp_test(): void {
 
 /** Link-building outreach: admin-only. POST JSON {to, subject, body} sends one personal mail from hello@6clues.com; GET lists the log. */
 function admin_outreach(): void {
-    if (!is_admin()) { not_found(); return; }
+    $key = (string)($_SERVER['HTTP_X_OUTREACH_KEY'] ?? '');
+    if (!is_admin() && !($key !== '' && hash_equals('6111ebe92422a8684a252eae378ca7e92e5ce3a7dac3caa1b0efd5e81e5e1c2c', hash('sha256', $key)))) { not_found(); return; }
     header('Content-Type: application/json; charset=utf-8');
     $log = dirname(__DIR__) . '/data/outreach.log';
     if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
