@@ -107,3 +107,12 @@ Teleprinter room in a 1943 hut: centre, a heavy teleprinter machine with a paper
 
 ## the-codebreakers-hut/library.jpg
 Library of an English country mansion at night, 1943, firelight. Left: a writing desk with a handwritten note. Centre: a big carved stone fireplace with Roman numerals cut above it. Right-centre top: a large oil portrait of an old lord in a gilt frame. Far right lower: a chess board on a small table mid-game. Exit bottom left.
+
+## the-seance/parlour.jpg
+Victorian séance parlour in a Belgravia mansion, Halloween 1888, a single low oil lamp, heavy red velvet curtains. Left top: a large gilt-framed portrait of a stern old lord with a black mourning ribbon. Centre: a round séance table with a crystal ball on a cushion. Right: a tall black curtained "spirit cabinet" with a padlock. Exits bottom left (study door) and bottom right (front door).
+
+## the-seance/study.jpg
+A Victorian gentleman's study at night, dark green walls, lamp light. Left top: a framed sepia photograph with a ghostly figure in it. Centre-left lower: a writing desk with a drawer tied with a black ribbon. Centre-right: a small side table with legal papers. Right: a narrow wooden door to an attic stair. Exit bottom right.
+
+## the-seance/attic.jpg
+A cluttered Victorian attic under sloping beams, candlelight. Left: an old phonograph with a brass horn and a rack of wax cylinders. Centre: a magic lantern projector beside a wooden box of glass slides. Right: a small door to a servants' stair with three carved tarot-card panels. Stairs down at bottom left.
