@@ -8,7 +8,13 @@ const GN_HINT_COST = 1;
 
 function gn_slugs(): array {
     $out = [];
-    foreach (glob(__DIR__ . '/gamenight/*.php') as $f) if (!str_ends_with($f, '.solution.php')) $out[] = basename($f, '.php');
+    foreach (glob(__DIR__ . '/gamenight/*.php') as $f) {
+        if (str_ends_with($f, '.solution.php')) continue;
+        $slug = basename($f, '.php');
+        // New cases stay hidden from visitors until their cover image exists (admins always see them).
+        if ($slug !== 'false-signal' && !is_file(dirname(__DIR__) . '/assets/img/gn/' . $slug . '/cover.jpg') && !(function_exists('is_admin') && is_admin())) continue;
+        $out[] = $slug;
+    }
     sort($out);
     return $out;
 }
