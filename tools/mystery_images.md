@@ -1179,6 +1179,115 @@ Setting: At Hartley's Bakery, which makes two million mince pies every December,
 ### `murder-at-the-mince-pie-factory/steve-rourke.jpg`
 > Portrait of Steve Rourke, Night-shift supervisor, Line 2, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
+## The Snowman Contest Sabotage (library – on the site now)
+
+Setting: In the village of Elmbury, the Hill family's giant snowman was the favourite to win the winter snowman contest.
+
+### `the-snowman-contest-sabotage/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Snowman Contest Sabotage” (sabotage): In the village of Elmbury, the Hill family's giant snowman was the favourite to win the winter snowman contest. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-snowman-contest-sabotage/miss-lily-patel.jpg`
+> Portrait of Miss Lily Patel, Contest entrant, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snowman-contest-sabotage/mr-colin-barr.jpg`
+> Portrait of Mr Colin Barr, Rival snowman builder, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snowman-contest-sabotage/mr-raj-patel.jpg`
+> Portrait of Mr Raj Patel, Contest judge, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snowman-contest-sabotage/mrs-gwen-ash.jpg`
+> Portrait of Mrs Gwen Ash, Neighbour, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snowman-contest-sabotage/mrs-jenny-hill.jpg`
+> Portrait of Mrs Jenny Hill, Snowman builder, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snowman-contest-sabotage/sam-hill.jpg`
+> Portrait of Sam Hill, Jenny's son, aged 10, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-snowman-contest-sabotage/photo-img-0451.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_0451” at 07:20, from “Sam's tablet” in the detective mystery “The Snowman Contest Sabotage”: Boot prints leading from the green to No. 4 – Colin Barr's house. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-snowman-contest-sabotage/photo-img-0452.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_0452” at 07:21, from “Sam's tablet” in the detective mystery “The Snowman Contest Sabotage”: A pair of wet size-9 boots with a star-pattern sole on Colin's step, next to a snowy shovel. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Advent Calendar Thief (library – on the site now)
+
+Setting: At Marlow & Finch Jewellers, the shop window holds a giant advent calendar with a real gold coin behind each door.
+
+### `the-advent-calendar-thief/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Advent Calendar Thief” (theft): At Marlow & Finch Jewellers, the shop window holds a giant advent calendar with a real gold coin behind each door. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-advent-calendar-thief/ben-quinn.jpg`
+> Portrait of Ben Quinn, Security engineer, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-advent-calendar-thief/dora-cole.jpg`
+> Portrait of Dora Cole, Cleaner, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-advent-calendar-thief/marcus-finch.jpg`
+> Portrait of Marcus Finch, Owen's nephew, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-advent-calendar-thief/mr-owen-finch.jpg`
+> Portrait of Mr Owen Finch, Jeweller, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-advent-calendar-thief/rita-shah.jpg`
+> Portrait of Rita Shah, Pawnbroker, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-advent-calendar-thief/tess-marlow.jpg`
+> Portrait of Tess Marlow, Shop assistant, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death at the Tram Depot (library – on the site now)
+
+Setting: At the Northgate Tram Depot, night manager Frank Doyle was found dead in the inspection pit under tram 14.
+
+### `death-at-the-tram-depot/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Tram Depot” (murder): At the Northgate Tram Depot, night manager Frank Doyle was found dead in the inspection pit under tram 14. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-tram-depot/dev-malik.jpg`
+> Portrait of Dev Malik, Track cleaner, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-tram-depot/ds-amy-ward.jpg`
+> Portrait of DS Amy Ward, Police, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-tram-depot/gary-price.jpg`
+> Portrait of Gary Price, Tram driver, route 3, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-tram-depot/nell-hughes.jpg`
+> Portrait of Nell Hughes, Radio controller, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-tram-depot/rosa-grant.jpg`
+> Portrait of Rosa Grant, Uniform store, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-tram-depot/tom-byrne.jpg`
+> Portrait of Tom Byrne, Tram driver, route 5, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder at the Frost Fair (library – on the site now)
+
+Setting: At the Riverside Frost Fair, organiser Hugh Mercer was found dead behind the mulled wine stall during the fireworks.
+
+### `murder-at-the-frost-fair/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Frost Fair” (murder): At the Riverside Frost Fair, organiser Hugh Mercer was found dead behind the mulled wine stall during the fireworks. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-frost-fair/clara-mercer.jpg`
+> Portrait of Clara Mercer, Hugh's daughter, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-frost-fair/di-kate-marsh.jpg`
+> Portrait of DI Kate Marsh, Police, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-frost-fair/eddie-lamb.jpg`
+> Portrait of Eddie Lamb, Fireworks technician, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-frost-fair/jill-rowe.jpg`
+> Portrait of Jill Rowe, Mulled wine stall holder, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-frost-fair/paul-rowe.jpg`
+> Portrait of Paul Rowe, Jill's husband, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-frost-fair/simon-fry.jpg`
+> Portrait of Simon Fry, Chestnut seller, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-frost-fair/photo-img-9920.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_9920” at 20:00, from “Clara's phone” in the detective mystery “Murder at the Frost Fair”: Clara and three friends on the ice rink, fireworks overhead – rink clock reads 20:00. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -2579,4 +2688,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1162 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1193 images delivered (one cover and six portraits per case, plus evidence photos).
