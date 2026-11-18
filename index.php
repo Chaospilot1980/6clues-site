@@ -172,7 +172,7 @@ function home(): void {
 <?php endif; ?>
 
 <?= faq_block([
-  ['Are the murder mystery games really free?', 'Yes. Every daily mystery, every case in the <a href="/mysteries">library</a>, every <a href="/game-night">Game Night</a> case file and every <a href="/escape">online escape room</a> is free to play. You don\'t even need an account to start.'],
+  ['Are the murder mystery games really free?', 'Yes. Every daily mystery, every case in the <a href="/mysteries">library</a>, every <a href="/game-night">Game Night</a> case file and every <a href="/escape">online escape room</a> is free to play. You don\'t need an account for the mysteries; the escape rooms just ask for a free sign-in to save your progress.'],
   ['How does a Six Clues mystery work?', 'Each case has six clues – a witness, a statement and a piece of evidence on each. Compare times, alibis and details, then name the culprit. Play online clue by clue, or print the six clue posters for a murder mystery party.'],
   ['Can I print the murder mystery games?', 'Yes. Every case has a printable version with clue posters and a solution sheet, and the Game Night cases come as full printable cold case files with sealed envelopes.'],
   ['Are the mysteries suitable for kids and families?', 'Level 1 cases are family-friendly detective puzzles for ages 8 and up. Level 2 and 3 are trickier whodunits for teens and adults.'],
@@ -1659,13 +1659,13 @@ function escape_index(): void {
     page_start(['title' => 'Free Online Escape Rooms – Play in Your Browser', 'path' => '/escape',
         'jsonld' => [['@context' => 'https://schema.org', '@type' => 'ItemList', 'name' => 'Free online escape rooms',
             'itemListElement' => array_values(array_map(fn($s, $k) => ['@type' => 'ListItem', 'position' => $k + 1, 'url' => url('/escape/' . $s), 'name' => escape_rooms()[$s]['title']], array_keys(escape_rooms()), array_keys(array_keys(escape_rooms()))))]],
-        'description' => 'Free online escape rooms: point-and-click escape games you play in your browser at home – no download, no sign-up. Search the rooms, crack the locks and escape before time runs out.']);
+        'description' => 'Free online escape rooms: point-and-click escape games you play in your browser at home – nothing to download. Search the rooms, crack the locks and escape before time runs out.']);
     ?>
 <section class="gn-hero esc-hero" style="background-image:linear-gradient(90deg,rgba(20,17,14,.92) 0%,rgba(20,17,14,.7) 50%,rgba(20,17,14,.2) 100%),url('<?= e(escape_cover('the-sealed-tomb') ?? '') ?>')">
   <div class="wrap">
     <p class="kicker">Sixty minutes. Can you get out?</p>
     <h1>Free online escape rooms</h1>
-    <p class="lead">Point-and-click escape games you play in your browser – an escape room at home, alone or together around one screen. No download and no sign-up: search the rooms, combine what you find, crack the locks and beat the clock.</p>
+    <p class="lead">Point-and-click escape games you play in your browser – an escape room at home, alone or together around one screen. Nothing to download – just a free sign-in to save your progress. Search the rooms, combine what you find, crack the locks and beat the clock.</p>
   </div>
 </section>
 <section class="wrap">
@@ -1680,8 +1680,8 @@ function escape_index(): void {
 <?php
 ?>
 <?= faq_block([
-  ['Are these online escape rooms free?', 'Yes, every escape room on Six Clues is free to play in your browser. There is nothing to download and you don\'t need an account.'],
-  ['How long does an online escape room take?', 'Most rooms are designed for about 60 minutes. You can pause and come back later – your progress is saved in the browser.'],
+  ['Are these online escape rooms free?', 'Yes, every escape room on Six Clues is free to play in your browser. There is nothing to download – you only sign in (free, with Google or your email) so your progress and time are saved.'],
+  ['How long does an online escape room take?', 'Most rooms are designed for about 60 minutes. You can pause and come back later – your progress is saved to your free account.'],
   ['Can I play an escape room at home with friends?', 'Yes. Gather around one screen – a laptop, tablet or TV – and solve the puzzles together. They work on phones too.'],
   ['What if we get stuck?', 'Every room has hints. Use as many as you like – but the fewer you use, the better your time.'],
 ]) ?>
