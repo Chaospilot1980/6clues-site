@@ -1921,6 +1921,109 @@ Setting: At the Glenmara Tea Estate in the hills, owner Charles Ashworth died at
 ### `murder-at-the-tea-estate/sita-menon.jpg`
 > Portrait of Sita Menon, Kitchen assistant, a character in the detective mystery “Murder at the Tea Estate”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
+## The Prize Pumpkin Poisoning (library – on the site now)
+
+Setting: At the Lowfield County Show, Bert Gibbs's giant pumpkin was on course to break the county record.
+
+### `the-prize-pumpkin-poisoning/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Prize Pumpkin Poisoning” (sabotage): At the Lowfield County Show, Bert Gibbs's giant pumpkin was on course to break the county record. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-prize-pumpkin-poisoning/bert-gibbs.jpg`
+> Portrait of Bert Gibbs, Pumpkin grower, a character in the detective mystery “The Prize Pumpkin Poisoning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-prize-pumpkin-poisoning/dr-ana-ruiz.jpg`
+> Portrait of Dr Ana Ruiz, Plant scientist, a character in the detective mystery “The Prize Pumpkin Poisoning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-prize-pumpkin-poisoning/gwen-moss.jpg`
+> Portrait of Gwen Moss, Night steward, a character in the detective mystery “The Prize Pumpkin Poisoning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-prize-pumpkin-poisoning/jim-moss.jpg`
+> Portrait of Jim Moss, Farmer, Gwen's husband, a character in the detective mystery “The Prize Pumpkin Poisoning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-prize-pumpkin-poisoning/mrs-pat-crane.jpg`
+> Portrait of Mrs Pat Crane, Farm shop owner, a character in the detective mystery “The Prize Pumpkin Poisoning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-prize-pumpkin-poisoning/vince-hardy.jpg`
+> Portrait of Vince Hardy, Rival grower, a character in the detective mystery “The Prize Pumpkin Poisoning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Charity Shop Necklace (library – on the site now)
+
+Setting: At the Hope Lane Charity Shop, a donated necklace was valued at £4,500 by a visiting jeweller.
+
+### `the-charity-shop-necklace/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Charity Shop Necklace” (theft): At the Hope Lane Charity Shop, a donated necklace was valued at £4,500 by a visiting jeweller. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-charity-shop-necklace/bea-holt.jpg`
+> Portrait of Bea Holt, Volunteer, a character in the detective mystery “The Charity Shop Necklace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-charity-shop-necklace/kevin-shaw.jpg`
+> Portrait of Kevin Shaw, Volunteer, a character in the detective mystery “The Charity Shop Necklace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-charity-shop-necklace/mr-dennis-wren.jpg`
+> Portrait of Mr Dennis Wren, Auction house clerk, a character in the detective mystery “The Charity Shop Necklace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-charity-shop-necklace/mrs-lily-grant.jpg`
+> Portrait of Mrs Lily Grant, Donor, a character in the detective mystery “The Charity Shop Necklace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-charity-shop-necklace/mrs-sue-price.jpg`
+> Portrait of Mrs Sue Price, Shop manager, a character in the detective mystery “The Charity Shop Necklace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-charity-shop-necklace/raj-ali.jpg`
+> Portrait of Raj Ali, Volunteer, a character in the detective mystery “The Charity Shop Necklace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death at the Monastery (library – on the site now)
+
+Setting: At St Columba's Monastery, Brother Anselm, who restored the old books, was found dead in the library at dawn.
+
+### `death-at-the-monastery/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Monastery” (murder): At St Columba's Monastery, Brother Anselm, who restored the old books, was found dead in the library at dawn. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-monastery/abbot-gregory.jpg`
+> Portrait of Abbot Gregory, Head of the monastery, a character in the detective mystery “Death at the Monastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-monastery/brother-felix.jpg`
+> Portrait of Brother Felix, Monk, librarian's assistant, a character in the detective mystery “Death at the Monastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-monastery/brother-martin.jpg`
+> Portrait of Brother Martin, Monk, bell ringer, a character in the detective mystery “Death at the Monastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-monastery/brother-thomas.jpg`
+> Portrait of Brother Thomas, Monk, infirmarian, a character in the detective mystery “Death at the Monastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-monastery/dr-hannah-reed.jpg`
+> Portrait of Dr Hannah Reed, Pathologist, a character in the detective mystery “Death at the Monastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-monastery/sister-clare.jpg`
+> Portrait of Sister Clare, Visiting nun, guest house, a character in the detective mystery “Death at the Monastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder Aboard the Museum Submarine (library – on the site now)
+
+Setting: At the Portwell Naval Museum, curator Dr Simon Lake was found dead in the torpedo room of the old submarine HMS Thresher after a late-night ghost tour.
+
+### `murder-aboard-the-museum-submarine/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder Aboard the Museum Submarine” (murder): At the Portwell Naval Museum, curator Dr Simon Lake was found dead in the torpedo room of the old submarine HMS Thresher after a late-night ghost tour. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-aboard-the-museum-submarine/ava-kent.jpg`
+> Portrait of Ava Kent, Tour guide, a character in the detective mystery “Murder Aboard the Museum Submarine”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-aboard-the-museum-submarine/dan-fry.jpg`
+> Portrait of Dan Fry, Security, a character in the detective mystery “Murder Aboard the Museum Submarine”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-aboard-the-museum-submarine/di-ben-okoro.jpg`
+> Portrait of DI Ben Okoro, Police, a character in the detective mystery “Murder Aboard the Museum Submarine”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-aboard-the-museum-submarine/gary-hood.jpg`
+> Portrait of Gary Hood, Museum shop, a character in the detective mystery “Murder Aboard the Museum Submarine”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-aboard-the-museum-submarine/prof-iris-bell.jpg`
+> Portrait of Prof. Iris Bell, Museum trustee, a character in the detective mystery “Murder Aboard the Museum Submarine”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-aboard-the-museum-submarine/rosie-parks.jpg`
+> Portrait of Rosie Parks, Visitor, a character in the detective mystery “Murder Aboard the Museum Submarine”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-aboard-the-museum-submarine/photo-img-4501.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_4501” at 22:15, from “Rosie's phone” in the detective mystery “Murder Aboard the Museum Submarine”: Visitors climbing out of the hatch; the guide in a red tour jacket waving from below with a torch. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -3321,4 +3424,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1372 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1401 images delivered (one cover and six portraits per case, plus evidence photos).
