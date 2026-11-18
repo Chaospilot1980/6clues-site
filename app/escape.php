@@ -124,6 +124,36 @@ const ESCAPE_ROOMS = [
         'teaser' => 'Yorkshire, Christmas Eve 1923. The lights went out at nine, and the family’s diamond brooch vanished from the top of the tree. Find the star, unmask the lying guest and open the locked front door before the midnight sleigh. Harder: one guest’s story doesn’t add up.',
         'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 7, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
     ],
+    'the-candy-factory' => [
+        'title' => 'The Candy Factory',
+        'tagline' => 'The gates open in an hour. The recipe is locked away.',
+        'teaser' => 'Fizzwhistle’s Sweet Factory, opening day. The owner has vanished and the secret Rainbow Chew recipe is locked in his office. Dig through a sugar mountain, mix the syrups and crack the gumball safe. A family room for first-timers.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 6, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
+    'the-zoo-after-dark' => [
+        'title' => 'The Zoo After Dark',
+        'tagline' => 'Locked in the zoo at night. The alarm goes on in an hour.',
+        'teaser' => 'You stayed too long at the penguin pool and the City Zoo has closed behind you. Feed the penguins, brave the dark reptile house and find the keeper’s keycard before the night alarm comes on. A family room for first-timers.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 6, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
+    'the-snowmans-secret' => [
+        'title' => 'The Snowman’s Secret',
+        'tagline' => 'The village lights go on at six. The golden key is missing.',
+        'teaser' => 'Little Frostwick, Christmas Eve. The golden key for the village Christmas lights has gone missing, and the whole village gathers at six. Give the snowman his nose back and follow the clues. A short, gentle room for families.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 5, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
+    'the-detective-academy' => [
+        'title' => 'The Detective Academy',
+        'tagline' => 'Final exam: find out who stole the Golden Badge.',
+        'teaser' => 'Exam day at the Detective Academy, and the Golden Badge has been stolen from its case. Use your magnifying glass, read the evidence and name the thief to pass. A family room for first-timers and young detectives.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 6, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
+    'the-castaway-island' => [
+        'title' => 'The Castaway Island',
+        'tagline' => 'A ship passes once a day. Light the signal fire.',
+        'teaser' => 'Shipwrecked on a tiny tropical island, you have one hour before the daily ship sails past. Trade with a cheeky monkey, open the parrot door and build a signal fire that shines for miles. A family room for first-timers.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 6, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;
 
@@ -167,7 +197,7 @@ function escape_clock(int $ms): string { $s = intdiv($ms, 1000); return sprintf(
 function escape_cover(string $slug): ?string {
     $pick = ['the-clockmakers-last-hour' => 'tower', 'the-last-night-train' => 'compartment', 'the-lighthouse-at-gull-rock' => 'lamp',
              'after-hours-at-the-museum' => 'hall', 'the-alchemists-attic' => 'attic', 'the-sealed-tomb' => 'burial', 'the-polar-night' => 'hut',
-             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour', 'santas-locked-workshop' => 'workshop', 'the-pirates-cove' => 'grotto', 'countdown-on-the-space-station' => 'cockpit', 'the-enchanted-library' => 'tower', 'the-dinosaur-dig' => 'pit', 'the-speakeasy-raid' => 'bar', 'the-last-dive' => 'control', 'the-inventors-laboratory' => 'workshop', 'the-sheriffs-jail' => 'office', 'christmas-eve-at-holly-manor' => 'drawing'];
+             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour', 'santas-locked-workshop' => 'workshop', 'the-pirates-cove' => 'grotto', 'countdown-on-the-space-station' => 'cockpit', 'the-enchanted-library' => 'tower', 'the-dinosaur-dig' => 'pit', 'the-speakeasy-raid' => 'bar', 'the-last-dive' => 'control', 'the-inventors-laboratory' => 'workshop', 'the-sheriffs-jail' => 'office', 'christmas-eve-at-holly-manor' => 'drawing', 'the-candy-factory' => 'floor', 'the-zoo-after-dark' => 'pool', 'the-snowmans-secret' => 'square', 'the-detective-academy' => 'evidence', 'the-castaway-island' => 'beach'];
     $dir = dirname(__DIR__) . '/assets/img/escape/' . $slug . '/';
     $f = isset($pick[$slug]) && is_file($dir . $pick[$slug] . '.jpg') ? $pick[$slug] . '.jpg' : (basename((string)(glob($dir . '*.jpg')[0] ?? '')) ?: null);
     return $f ? '/assets/img/escape/' . $slug . '/' . $f : null;
