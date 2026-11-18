@@ -65,7 +65,7 @@ medals = {
 market = {
  "slug": "the-farmers-market-scales", "level": 2, "crime": "FRAUD", "who": "cheat", "added": ADDED,
  "caseno": "CASE NO. 155", "title_html": "THE FARMERS'<br>MARKET SCALES", "title_plain": "The Farmers' Market Scales",
- "teaser": "Shoppers at a farmers' market are paying for honey they never got. Someone has been fiddling the scales – and the trading standards officer has a sweet tooth for evidence.",
+ "teaser": "Shoppers at a farmers' market are paying for honey they never got. Someone has fiddled the scales – and the numbers on the scales book tell on them.",
  "intro": "At the <b>Ashcombe Farmers' Market</b>, a customer complained that a 'one-pound' jar of honey weighed only 380 grams. Trading standards found that one stall's scales had been tampered with. " + STD,
  "clues": [
   {"name": "Officer Dev Patel", "role": "Trading standards officer", "label": "INSPECTION REPORT",
