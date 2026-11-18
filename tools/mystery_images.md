@@ -625,6 +625,118 @@ Setting: At the Blackmoor Hall Hotel, famous for its ghost, TV presenter Rex Har
 ### `murder-at-the-haunted-hotel/photo-cam-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM-3” at 02:47, from “Staircase camera 3 – night vision” in the detective mystery “Murder at the Haunted Hotel”: A pale figure in a long white sheet at the top of the stairs, beside Rex. Beneath the sheet: a pair of bright gold trainers. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Pancake Race Cheat (library – on the site now)
+
+Setting: In Little Fenwick, runners in the Shrove Tuesday pancake race must flip their pancake three times on the way.
+
+### `the-pancake-race-cheat/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Pancake Race Cheat” (cheating): In Little Fenwick, runners in the Shrove Tuesday pancake race must flip their pancake three times on the way. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-pancake-race-cheat/gloria-pratt.jpg`
+> Portrait of Gloria Pratt, Winner, a character in the detective mystery “The Pancake Race Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pancake-race-cheat/mrs-june-cole.jpg`
+> Portrait of Mrs June Cole, WI pancake cook, a character in the detective mystery “The Pancake Race Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pancake-race-cheat/peggy-lane.jpg`
+> Portrait of Peggy Lane, Runner-up, a character in the detective mystery “The Pancake Race Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pancake-race-cheat/rev-alan-moss.jpg`
+> Portrait of Rev. Alan Moss, Race judge, a character in the detective mystery “The Pancake Race Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pancake-race-cheat/sid-park.jpg`
+> Portrait of Sid Park, Shopkeeper, a character in the detective mystery “The Pancake Race Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pancake-race-cheat/tom-kerr.jpg`
+> Portrait of Tom Kerr, Runner, a character in the detective mystery “The Pancake Race Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pancake-race-cheat/photo-img-101.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_101” at Flag 2, from “Photo by Peggy's husband” in the detective mystery “The Pancake Race Cheat”: Gloria 'flipping': the pan is tipped upside down, and the pancake is still stuck flat to it. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Winning Betting Slip (library – on the site now)
+
+Setting: In the Red Lion pub, pensioner Arthur Bell's betting slip – a 100-to-1 winner worth £8,000 – was stolen from his table while he went to the bar.
+
+### `the-winning-betting-slip/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Winning Betting Slip” (theft): In the Red Lion pub, pensioner Arthur Bell's betting slip – a 100-to-1 winner worth £8,000 – was stolen from his table while he went to the bar. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-winning-betting-slip/arthur-bell.jpg`
+> Portrait of Arthur Bell, Pensioner, a character in the detective mystery “The Winning Betting Slip”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-winning-betting-slip/dave-ryder.jpg`
+> Portrait of Dave Ryder, Pub regular, a character in the detective mystery “The Winning Betting Slip”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-winning-betting-slip/jill-hart.jpg`
+> Portrait of Jill Hart, Barmaid, a character in the detective mystery “The Winning Betting Slip”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-winning-betting-slip/les-grant.jpg`
+> Portrait of Les Grant, Darts player, a character in the detective mystery “The Winning Betting Slip”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-winning-betting-slip/mo-akhtar.jpg`
+> Portrait of Mo Akhtar, Bookmaker's clerk, a character in the detective mystery “The Winning Betting Slip”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-winning-betting-slip/mrs-rose-dean.jpg`
+> Portrait of Mrs Rose Dean, Landlady, a character in the detective mystery “The Winning Betting Slip”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-winning-betting-slip/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-1” at 15:20, from “Bookmaker's counter camera” in the detective mystery “The Winning Betting Slip”: Slip BK-40719 paid out – £8,080 in cash. Customer: man in a red darts shirt with 'RYDER' on the back. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Death at the Wind Farm (library – on the site now)
+
+Setting: At the Carrig Moor wind farm, maintenance engineer Fiona Doyle was found dead at the foot of the ladder inside turbine T7.
+
+### `death-at-the-wind-farm/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Wind Farm” (murder): At the Carrig Moor wind farm, maintenance engineer Fiona Doyle was found dead at the foot of the ladder inside turbine T7. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-wind-farm/aoife-nolan.jpg`
+> Portrait of Aoife Nolan, Control-room operator, a character in the detective mystery “Death at the Wind Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-wind-farm/conor-fahy.jpg`
+> Portrait of Conor Fahy, Apprentice, a character in the detective mystery “Death at the Wind Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-wind-farm/di-sean-walsh.jpg`
+> Portrait of DI Seán Walsh, Police, a character in the detective mystery “Death at the Wind Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-wind-farm/niamh-byrne.jpg`
+> Portrait of Niamh Byrne, Site manager, a character in the detective mystery “Death at the Wind Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-wind-farm/paddy-quinn.jpg`
+> Portrait of Paddy Quinn, Farmer, landowner, a character in the detective mystery “Death at the Wind Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-wind-farm/rory-burke.jpg`
+> Portrait of Rory Burke, Senior engineer, a character in the detective mystery “Death at the Wind Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-wind-farm/photo-img-2210.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_2210” at 12:25, from “Paddy's phone” in the detective mystery “Death at the Wind Farm”: White pick-up at the foot of turbine T7, door marked 'CARRIG MOOR – R. BURKE'. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Murder at the Marina (library – on the site now)
+
+Setting: At Port Solent Marina, yacht broker Julian Cross was found dead in the saloon of the motor yacht 'Serenity' on a Sunday evening.
+
+### `murder-at-the-marina/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Marina” (murder): At Port Solent Marina, yacht broker Julian Cross was found dead in the saloon of the motor yacht 'Serenity' on a Sunday evening. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-marina/ds-kim-lowe.jpg`
+> Portrait of DS Kim Lowe, Police, a character in the detective mystery “Murder at the Marina”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-marina/lily-grey.jpg`
+> Portrait of Lily Grey, Neighbour on berth C15, a character in the detective mystery “Murder at the Marina”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-marina/mel-archer.jpg`
+> Portrait of Mel Archer, Yacht club barman, a character in the detective mystery “Murder at the Marina”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-marina/sam-ford.jpg`
+> Portrait of Sam Ford, Marina hand, a character in the detective mystery “Murder at the Marina”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-marina/tom-reyes.jpg`
+> Portrait of Tom Reyes, Buyer's surveyor, a character in the detective mystery “Murder at the Marina”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-marina/victor-hale.jpg`
+> Portrait of Victor Hale, Serenity's owner, a character in the detective mystery “Murder at the Marina”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-marina/photo-img-4421.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_4421” at 18:16, from “Lily's phone” in the detective mystery “Murder at the Marina”: A man in a navy blazer with the yacht club badge jumps from Serenity's stern onto the pontoon, carrying a briefcase. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -2025,4 +2137,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1004 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1036 images delivered (one cover and six portraits per case, plus evidence photos).
