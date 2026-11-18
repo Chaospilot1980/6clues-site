@@ -362,65 +362,9 @@ Setting: At the Netherby Allotment Show, someone slashed Big Bertha, the favouri
 ### `the-giant-marrow-mystery/photo-img-514.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_514” at 22:30, from “Priya's photos – the Plough” in the detective mystery “The Giant Marrow Mystery”: Agnes and Ned. Cyril's chair is empty – and so is the coat hook. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Hijacked Scoreboard (daily case 2026-11-27)
-
-Setting: During the penalty shootout of the Fenwick Ice Cup final, the arena scoreboard was hacked.
-
-### `the-hijacked-scoreboard/nell-ashworth.jpg`
-> Portrait of Nell Ashworth, Arena IT technician, a character in the detective mystery “The Hijacked Scoreboard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-hijacked-scoreboard/theo-grant.jpg`
-> Portrait of Theo Grant, Scoreboard operator, a character in the detective mystery “The Hijacked Scoreboard”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## The Boathouse Blaze (daily case 2026-11-28)
-
-Setting: In the night after a committee meeting, fire swept through the Kingsmere Rowing Club boathouse.
-
-### `the-boathouse-blaze/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Boathouse Blaze” (arson): In the night after a committee meeting, fire swept through the Kingsmere Rowing Club boathouse. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-boathouse-blaze/clive-marchetti.jpg`
-> Portrait of Clive Marchetti, Club treasurer, a character in the detective mystery “The Boathouse Blaze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-boathouse-blaze/felicity-rowe.jpg`
-> Portrait of Felicity Rowe, Club secretary, a character in the detective mystery “The Boathouse Blaze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-boathouse-blaze/harriet-doyle.jpg`
-> Portrait of Harriet Doyle, Club captain, a character in the detective mystery “The Boathouse Blaze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-boathouse-blaze/josh-pemberton.jpg`
-> Portrait of Josh Pemberton, Junior rower, a character in the detective mystery “The Boathouse Blaze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-boathouse-blaze/norah-vance.jpg`
-> Portrait of Norah Vance, Property developer, a character in the detective mystery “The Boathouse Blaze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-boathouse-blaze/silas-webb.jpg`
-> Portrait of Silas Webb, Groundsman, a character in the detective mystery “The Boathouse Blaze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## The Ghost Train Takings (daily case 2026-11-29)
 
 Setting: On the busiest night of Merriweather's Travelling Funfair, Saturday's takings vanished from the locked ghost-train ticket booth.
-
-### `the-ghost-train-takings/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Ghost Train Takings” (theft): On the busiest night of Merriweather's Travelling Funfair, Saturday's takings vanished from the locked ghost-train ticket booth. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-ghost-train-takings/fenella-rook.jpg`
-> Portrait of Fenella Rook, Fortune teller, a character in the detective mystery “The Ghost Train Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ghost-train-takings/glenn-harrow.jpg`
-> Portrait of Glenn Harrow, Security guard, a character in the detective mystery “The Ghost Train Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ghost-train-takings/maud-merriweather.jpg`
-> Portrait of Maud Merriweather, Fair owner, a character in the detective mystery “The Ghost Train Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ghost-train-takings/pip-lacey.jpg`
-> Portrait of Pip Lacey, Ghost-train cashier, a character in the detective mystery “The Ghost Train Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ghost-train-takings/rex-tallow.jpg`
-> Portrait of Rex Tallow, Dodgems operator, a character in the detective mystery “The Ghost Train Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ghost-train-takings/ziggy-moon.jpg`
-> Portrait of Ziggy Moon, The ghost train's ghoul, a character in the detective mystery “The Ghost Train Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-ghost-train-takings/photo-img-330.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_330” at 21:22, from “A visitor's photos – Saturday night” in the detective mystery “The Ghost Train Takings”: The coconut shy: Pip knocks down a coconut and cheers. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -434,15 +378,6 @@ Setting: On the busiest night of Merriweather's Travelling Funfair, Saturday's t
 ## The Midnight Bagpiper (daily case 2026-11-30)
 
 Setting: In the sleepy village of Little Drumley, a mystery piper has woken everyone at two in the morning for three nights in a row.
-
-### `the-midnight-bagpiper/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Midnight Bagpiper” (nuisance): In the sleepy village of Little Drumley, a mystery piper has woken everyone at two in the morning for three nights in a row. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-midnight-bagpiper/angus-kilbride.jpg`
-> Portrait of Angus Kilbride, Bagpipe teacher, a character in the detective mystery “The Midnight Bagpiper”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-midnight-bagpiper/dora-penhallow.jpg`
-> Portrait of Dora Penhallow, Village shopkeeper, a character in the detective mystery “The Midnight Bagpiper”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-midnight-bagpiper/gita-osei.jpg`
 > Portrait of Gita Osei, Delivery driver, a character in the detective mystery “The Midnight Bagpiper”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -925,27 +860,6 @@ Setting: On league night at Starlight Lanes, owner Stanley Pratt was found dead 
 
 Setting: At Pageturners, a little village bookshop, a signed first edition of The Gannet's Cry worth £4,000 was taken from its glass case during a Saturday afternoon reading.
 
-### `the-bookshop-burglary/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Bookshop Burglary” (theft): At Pageturners, a little village bookshop, a signed first edition of The Gannet's Cry worth £4,000 was taken from its glass case during a Saturday afternoon reading. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-bookshop-burglary/bella-ruiz.jpg`
-> Portrait of Bella Ruiz, Owner of the café next door, a character in the detective mystery “The Bookshop Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-bookshop-burglary/dev-patel.jpg`
-> Portrait of Dev Patel, Delivery driver, a character in the detective mystery “The Bookshop Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-bookshop-burglary/gerald-finch.jpg`
-> Portrait of Gerald Finch, Book collector, a character in the detective mystery “The Bookshop Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-bookshop-burglary/henrietta-lowe.jpg`
-> Portrait of Henrietta Lowe, Author, a character in the detective mystery “The Bookshop Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-bookshop-burglary/rosalind-pike.jpg`
-> Portrait of Rosalind Pike, Bookshop owner, a character in the detective mystery “The Bookshop Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-bookshop-burglary/toby-marsh.jpg`
-> Portrait of Toby Marsh, Shop assistant, a character in the detective mystery “The Bookshop Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-bookshop-burglary/photo-photo-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “PHOTO 1” at 15:05, from “Shop's photos of the reading” in the detective mystery “The Bookshop Burglary”: Henrietta reading on the stage, Rosalind sitting beside her. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
@@ -958,27 +872,6 @@ Setting: At Pageturners, a little village bookshop, a signed first edition of Th
 ## The Vintage Rally Trophy (daily case 2026-12-17)
 
 Setting: At the Hartley Vintage Car Rally, the silver-gilt Golden Piston trophy was taken from the prize marquee at the showground while the cars were out on the route.
-
-### `the-vintage-rally-trophy/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Vintage Rally Trophy” (theft): At the Hartley Vintage Car Rally, the silver-gilt Golden Piston trophy was taken from the prize marquee at the showground while the cars were out on the route. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-vintage-rally-trophy/hugh-barnet.jpg`
-> Portrait of Hugh Barnet, Marquee steward, a character in the detective mystery “The Vintage Rally Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-vintage-rally-trophy/ivy-sutton.jpg`
-> Portrait of Ivy Sutton, Driver, car 12, a character in the detective mystery “The Vintage Rally Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-vintage-rally-trophy/margot-pell.jpg`
-> Portrait of Margot Pell, Rally organiser, a character in the detective mystery “The Vintage Rally Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-vintage-rally-trophy/nina-osei.jpg`
-> Portrait of Nina Osei, Rally photographer, a character in the detective mystery “The Vintage Rally Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-vintage-rally-trophy/rex-calloway.jpg`
-> Portrait of Rex Calloway, Driver, car 7, a character in the detective mystery “The Vintage Rally Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-vintage-rally-trophy/wally-briggs.jpg`
-> Portrait of Wally Briggs, Marshal, Kestrel Inn, a character in the detective mystery “The Vintage Rally Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-vintage-rally-trophy/photo-img-201.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “IMG_201” at 13:50, from “Nina's camera – showground” in the detective mystery “The Vintage Rally Trophy”: Empty start line, the last cars long gone. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -1558,5 +1451,64 @@ Setting: At Thornfield Manor, orchid collector Sir Roland Hythe was found dead i
 ### `the-orchid-house-murder/simon-ward.jpg`
 > Portrait of Simon Ward, Butler, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
+## The Caravan Park Jewels (daily case 2027-01-07)
+
+Setting: At Sandpiper Bay Holiday Park, Mrs Iris Bell's jewellery roll – her late husband's gifts, worth £9,000 – was taken from caravan 14 during Friday's talent show.
+
+### `the-caravan-park-jewels/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Caravan Park Jewels” (theft): At Sandpiper Bay Holiday Park, Mrs Iris Bell's jewellery roll – her late husband's gifts, worth £9,000 – was taken from caravan 14 during Friday's talent show. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-caravan-park-jewels/barry-cole.jpg`
+> Portrait of Barry Cole, Neighbour, caravan 15, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-caravan-park-jewels/donna-pike.jpg`
+> Portrait of Donna Pike, Entertainments host, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-caravan-park-jewels/iris-bell.jpg`
+> Portrait of Iris Bell, Holidaymaker, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-caravan-park-jewels/kev-shaw.jpg`
+> Portrait of Kev Shaw, Reception, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-caravan-park-jewels/mick-dunn.jpg`
+> Portrait of Mick Dunn, Magician, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-caravan-park-jewels/tasha-moore.jpg`
+> Portrait of Tasha Moore, Caravan 16, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-caravan-park-jewels/photo-img-7731.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_7731” at 20:34, from “Tasha's phone” in the detective mystery “The Caravan Park Jewels”: Sunset over the dunes. Bottom left: a man in a Hawaiian shirt opening the door of caravan 14. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Death at the Auction House (daily case 2027-01-08)
+
+Setting: At Ferris & Gold auctioneers, senior valuer Martin Gold was found dead in the basement strongroom during the Thursday sale of fine silver.
+
+### `death-at-the-auction-house/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Auction House” (murder): At Ferris & Gold auctioneers, senior valuer Martin Gold was found dead in the basement strongroom during the Thursday sale of fine silver. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-auction-house/ade-okoro.jpg`
+> Portrait of Ade Okoro, Porter, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-auction-house/clive-ferris.jpg`
+> Portrait of Clive Ferris, Partner, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-auction-house/di-helen-shaw.jpg`
+> Portrait of DI Helen Shaw, Police, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-auction-house/josh-reid.jpg`
+> Portrait of Josh Reid, Porter, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-auction-house/priya-lam.jpg`
+> Portrait of Priya Lam, Cataloguer, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-auction-house/sarah-wren.jpg`
+> Portrait of Sarah Wren, Porter, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-auction-house/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-1” at 14:30–15:00, from “Saleroom camera” in the detective mystery “Death at the Auction House”: C. Ferris on the rostrum throughout, gavel in hand. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `death-at-the-auction-house/photo-cam-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-3” at 14:47, from “Saleroom camera” in the detective mystery “Death at the Auction House”: J. Reid coming up from the basement, sleeves pushed up. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ---
-Status: 372 of 800 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 405 of 817 images delivered (one cover and six portraits per case, plus evidence photos).
