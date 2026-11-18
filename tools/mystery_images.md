@@ -2024,6 +2024,112 @@ Setting: At the Portwell Naval Museum, curator Dr Simon Lake was found dead in t
 ### `murder-aboard-the-museum-submarine/photo-img-4501.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_4501” at 22:15, from “Rosie's phone” in the detective mystery “Murder Aboard the Museum Submarine”: Visitors climbing out of the hatch; the guide in a red tour jacket waving from below with a torch. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Newspaper Scoop Leak (library – on the site now)
+
+Setting: At the Westbury Gazette, editor Moira Kerr's big story about the town council was posted by the rival Westbury Echo one hour before the Gazette went to print.
+
+### `the-newspaper-scoop-leak/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Newspaper Scoop Leak” (sabotage): At the Westbury Gazette, editor Moira Kerr's big story about the town council was posted by the rival Westbury Echo one hour before the Gazette went to print. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-newspaper-scoop-leak/alex-fry.jpg`
+> Portrait of Alex Fry, Night editor, a character in the detective mystery “The Newspaper Scoop Leak”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-newspaper-scoop-leak/ian-doyle.jpg`
+> Portrait of Ian Doyle, Sports editor, a character in the detective mystery “The Newspaper Scoop Leak”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-newspaper-scoop-leak/leon-ward.jpg`
+> Portrait of Leon Ward, Photographer, a character in the detective mystery “The Newspaper Scoop Leak”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-newspaper-scoop-leak/moira-kerr.jpg`
+> Portrait of Moira Kerr, Editor, a character in the detective mystery “The Newspaper Scoop Leak”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-newspaper-scoop-leak/sid-mallon.jpg`
+> Portrait of Sid Mallon, IT manager, a character in the detective mystery “The Newspaper Scoop Leak”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-newspaper-scoop-leak/tess-brook.jpg`
+> Portrait of Tess Brook, Subeditor, a character in the detective mystery “The Newspaper Scoop Leak”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Racehorse Doping (library – on the site now)
+
+Setting: At Kempfield Racecourse, the favourite, Silver Comet, finished last in the Boxing Day Chase.
+
+### `the-racehorse-doping/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Racehorse Doping” (sabotage): At Kempfield Racecourse, the favourite, Silver Comet, finished last in the Boxing Day Chase. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-racehorse-doping/dr-fiona-hart.jpg`
+> Portrait of Dr Fiona Hart, Racecourse vet, a character in the detective mystery “The Racehorse Doping”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-racehorse-doping/gail-hunt.jpg`
+> Portrait of Gail Hunt, Feed store manager, a character in the detective mystery “The Racehorse Doping”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-racehorse-doping/jake-turner.jpg`
+> Portrait of Jake Turner, Stable lad, a character in the detective mystery “The Racehorse Doping”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-racehorse-doping/mags-pell.jpg`
+> Portrait of Mags Pell, Head groom, a character in the detective mystery “The Racehorse Doping”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-racehorse-doping/owen-price.jpg`
+> Portrait of Owen Price, Jockey, a character in the detective mystery “The Racehorse Doping”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-racehorse-doping/rory-blythe.jpg`
+> Portrait of Rory Blythe, Owner of a rival horse, a character in the detective mystery “The Racehorse Doping”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-racehorse-doping/photo-img-330.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_330” at 15:00, from “Feed store photos” in the detective mystery “The Racehorse Doping”: Paper carrot bag in Silver Comet's box, white powder in the bottom, and a green work glove with 'J.T.' written on the cuff. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Death at the Space Camp (library – on the site now)
+
+Setting: At the Polaris Space Training Camp, director Dr Hugo Brandt was found dead inside the training centrifuge after it had been run at dangerous speed with the safety lock removed.
+
+### `death-at-the-space-camp/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Space Camp” (murder): At the Polaris Space Training Camp, director Dr Hugo Brandt was found dead inside the training centrifuge after it had been run at dangerous speed with the safety lock removed. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-space-camp/cadet-mia-ross.jpg`
+> Portrait of Cadet Mia Ross, Trainee, aged 16, a character in the detective mystery “Death at the Space Camp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-space-camp/di-nora-pike.jpg`
+> Portrait of DI Nora Pike, Police, a character in the detective mystery “Death at the Space Camp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-space-camp/dr-ellen-wu.jpg`
+> Portrait of Dr Ellen Wu, Camp doctor, a character in the detective mystery “Death at the Space Camp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-space-camp/kai-moreno.jpg`
+> Portrait of Kai Moreno, Senior trainer, a character in the detective mystery “Death at the Space Camp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-space-camp/sam-okafor.jpg`
+> Portrait of Sam Okafor, IT and security, a character in the detective mystery “Death at the Space Camp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-space-camp/tara-lin.jpg`
+> Portrait of Tara Lin, Planetarium technician, a character in the detective mystery “Death at the Space Camp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder at the New Year Concert (library – on the site now)
+
+Setting: At the Royal Albion Hall, conductor Sir Julian Frost was found dead in his dressing room during the New Year's Eve concert.
+
+### `murder-at-the-new-year-concert/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the New Year Concert” (murder): At the Royal Albion Hall, conductor Sir Julian Frost was found dead in his dressing room during the New Year's Eve concert. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-new-year-concert/clara-novak.jpg`
+> Portrait of Clara Novak, First flute, a character in the detective mystery “Murder at the New Year Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-new-year-concert/ds-alice-vane.jpg`
+> Portrait of DS Alice Vane, Police, a character in the detective mystery “Murder at the New Year Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-new-year-concert/felix-gray.jpg`
+> Portrait of Felix Gray, Orchestra librarian, a character in the detective mystery “Murder at the New Year Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-new-year-concert/mo-akhtar.jpg`
+> Portrait of Mo Akhtar, Stage manager, a character in the detective mystery “Murder at the New Year Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-new-year-concert/peter-lang.jpg`
+> Portrait of Peter Lang, First violin, leader, a character in the detective mystery “Murder at the New Year Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-new-year-concert/ruth-hale.jpg`
+> Portrait of Ruth Hale, Second flute, a character in the detective mystery “Murder at the New Year Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-new-year-concert/photo-img-7742.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_7742” at 21:20, from “Audience member's photo (no flash)” in the detective mystery “Murder at the New Year Concert”: Woodwind section during the Night Waltz: the first flute chair empty, flute resting on the seat. Second flute Ruth Hale in her chair, red hairband. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -3424,4 +3530,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1401 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1431 images delivered (one cover and six portraits per case, plus evidence photos).
