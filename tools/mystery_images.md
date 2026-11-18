@@ -1497,6 +1497,115 @@ Setting: At the Alpenkrone ski resort, owner Anton Weber was found dead in cabin
 ### `murder-on-the-cable-car/photo-img-7711.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_7711” at 18:20, from “Ski hire shop photos” in the detective mystery “Murder on the Cable Car”: Staff locker 1 labelled 'K. BRENNER – DIRECTOR'. Inside: one ski pole with a broken basket and a dark stain on the grip. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Charity Fun Run Cheat (library – on the site now)
+
+Setting: At the Bridgeford Santa Fun Run, 300 runners in Santa suits raced 10 km for charity.
+
+### `the-charity-fun-run-cheat/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Charity Fun Run Cheat” (fraud): At the Bridgeford Santa Fun Run, 300 runners in Santa suits raced 10 km for charity. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-charity-fun-run-cheat/asha-rai.jpg`
+> Portrait of Asha Rai, Second-place runner, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-charity-fun-run-cheat/bev-shah.jpg`
+> Portrait of Bev Shah, Bus driver, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-charity-fun-run-cheat/craig-dunn.jpg`
+> Portrait of Craig Dunn, Winning runner, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-charity-fun-run-cheat/helen-price.jpg`
+> Portrait of Helen Price, Race organiser, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-charity-fun-run-cheat/ray-lowe.jpg`
+> Portrait of Ray Lowe, Timing engineer, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-charity-fun-run-cheat/will-ford.jpg`
+> Portrait of Will Ford, Third-place runner, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-charity-fun-run-cheat/photo-img-2201.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_2201” at 10:12, from “Race photographer” in the detective mystery “The Charity Fun Run Cheat”: CP1 to CP2 stretch: Asha Rai (bib 54) leading. No other runner in sight. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `the-charity-fun-run-cheat/photo-img-2207.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_2207” at 10:25, from “Race photographer” in the detective mystery “The Charity Fun Run Cheat”: Riverside bus stop: a Santa with bib 117 stepping off a route 6 bus. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Aquarium Pearl Theft (library – on the site now)
+
+Setting: At the Seacliff Aquarium, the famous Black Moon pearl was displayed inside a treasure chest in the shipwreck tank.
+
+### `the-aquarium-pearl-theft/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Aquarium Pearl Theft” (theft): At the Seacliff Aquarium, the famous Black Moon pearl was displayed inside a treasure chest in the shipwreck tank. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-aquarium-pearl-theft/ben-clay.jpg`
+> Portrait of Ben Clay, Cleaner, a character in the detective mystery “The Aquarium Pearl Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-aquarium-pearl-theft/dr-ann-moore.jpg`
+> Portrait of Dr Ann Moore, Aquarium director, a character in the detective mystery “The Aquarium Pearl Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-aquarium-pearl-theft/jake-marsh.jpg`
+> Portrait of Jake Marsh, Aquarist, a character in the detective mystery “The Aquarium Pearl Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-aquarium-pearl-theft/olive-kerr.jpg`
+> Portrait of Olive Kerr, Keeper, a character in the detective mystery “The Aquarium Pearl Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-aquarium-pearl-theft/omar-haddad.jpg`
+> Portrait of Omar Haddad, Security, a character in the detective mystery “The Aquarium Pearl Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-aquarium-pearl-theft/pia-lund.jpg`
+> Portrait of Pia Lund, Show presenter, a character in the detective mystery “The Aquarium Pearl Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-aquarium-pearl-theft/photo-img-6090.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_6090” at 15:32, from “Ben's phone” in the detective mystery “The Aquarium Pearl Theft”: Staff locker 6 open: a dripping wetsuit and a small velvet pouch on the shelf. Name tag on the locker: J. MARSH. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Death in the Cheese Caves (library – on the site now)
+
+Setting: At the Gorge Cheese Caves, master cheese maker Harold Pike was found dead in the deepest chamber, struck with a heavy cheese iron.
+
+### `death-in-the-cheese-caves/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death in the Cheese Caves” (murder): At the Gorge Cheese Caves, master cheese maker Harold Pike was found dead in the deepest chamber, struck with a heavy cheese iron. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-in-the-cheese-caves/dai-evans.jpg`
+> Portrait of Dai Evans, Cave maintenance, a character in the detective mystery “Death in the Cheese Caves”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-cheese-caves/ds-rhiannon-bell.jpg`
+> Portrait of DS Rhiannon Bell, Police, a character in the detective mystery “Death in the Cheese Caves”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-cheese-caves/gareth-lloyd.jpg`
+> Portrait of Gareth Lloyd, Tour visitor, a character in the detective mystery “Death in the Cheese Caves”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-cheese-caves/kate-pike.jpg`
+> Portrait of Kate Pike, Harold's daughter, a character in the detective mystery “Death in the Cheese Caves”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-cheese-caves/simon-pike.jpg`
+> Portrait of Simon Pike, Harold's son, a character in the detective mystery “Death in the Cheese Caves”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-cheese-caves/tilly-moss.jpg`
+> Portrait of Tilly Moss, Tour shop manager, a character in the detective mystery “Death in the Cheese Caves”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder at the Recording Studio (library – on the site now)
+
+Setting: At Echo Lane Studios, producer Miles Garner was found dead in the tape store while the band Glass Harbour recorded their Christmas single.
+
+### `murder-at-the-recording-studio/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Recording Studio” (murder): At Echo Lane Studios, producer Miles Garner was found dead in the tape store while the band Glass Harbour recorded their Christmas single. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-recording-studio/di-grace-obi.jpg`
+> Portrait of DI Grace Obi, Police, a character in the detective mystery “Murder at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-recording-studio/jas-kaur.jpg`
+> Portrait of Jas Kaur, Sound engineer, a character in the detective mystery “Murder at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-recording-studio/lou-hart.jpg`
+> Portrait of Lou Hart, Singer, a character in the detective mystery “Murder at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-recording-studio/nell-fox.jpg`
+> Portrait of Nell Fox, Studio manager, a character in the detective mystery “Murder at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-recording-studio/rory-blake.jpg`
+> Portrait of Rory Blake, Guitarist, a character in the detective mystery “Murder at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-recording-studio/theo-grant.jpg`
+> Portrait of Theo Grant, Drummer, a character in the detective mystery “Murder at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -2897,4 +3006,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1252 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1283 images delivered (one cover and six portraits per case, plus evidence photos).
