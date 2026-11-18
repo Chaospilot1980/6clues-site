@@ -64,6 +64,36 @@ const ESCAPE_ROOMS = [
         'teaser' => 'Belgravia, Halloween 1888. A famous medium will make Lady Ashworth’s dead husband speak – and at midnight she signs away everything. You have been locked in the parlour for asking questions.',
         'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 12, 'status' => 'New', 'level' => 2, 'engine' => true,
     ],
+    'santas-locked-workshop' => [
+        'title' => 'Santa’s Locked Workshop',
+        'tagline' => 'The sleigh leaves at seven. You are locked in.',
+        'teaser' => 'The North Pole, Christmas Eve. Santa has a cold, the elves are at the party, and the newest elf is locked in the workshop. Find the key, the map and the bells before the sleigh is late. A family room for first-timers.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 9, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
+    'the-pirates-cove' => [
+        'title' => 'The Pirate’s Cove',
+        'tagline' => 'The tide is coming in. The treasure is somewhere in the dark.',
+        'teaser' => 'Cornwall, 1721. You followed an old map into a smugglers’ cave and the tide has cut you off. Find Captain Blackwater’s treasure and his rowing boat before the cave floods. A family room for first-timers.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 10, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
+    'countdown-on-the-space-station' => [
+        'title' => 'Countdown on the Space Station',
+        'tagline' => 'The last capsule leaves in one hour. The power is out.',
+        'teaser' => 'Star Station Lyra, 2049. A meteor storm has cut the power and the crew have gone home without you. Get the lights back, find the navigation chip and fly the last capsule home. A family room for first-timers.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 9, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
+    'the-enchanted-library' => [
+        'title' => 'The Enchanted Library',
+        'tagline' => 'When the last candle goes out, you stay for a hundred years.',
+        'teaser' => 'A rainy afternoon in the old town library – and the door has vanished behind you. Talking owls, back-to-front writing and a magic circle: find the spell that takes you home. A family room for first-timers.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 8, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
+    'the-dinosaur-dig' => [
+        'title' => 'The Dinosaur Dig',
+        'tagline' => 'A sandstorm is coming. The jeep key is locked away.',
+        'teaser' => 'The badlands, high summer. The professor has gone to town and a sandstorm is rolling in. Dig up the fossils, get the radio working and find the jeep key before the storm hits. A family room for first-timers.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 7, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;
 
@@ -107,7 +137,7 @@ function escape_clock(int $ms): string { $s = intdiv($ms, 1000); return sprintf(
 function escape_cover(string $slug): ?string {
     $pick = ['the-clockmakers-last-hour' => 'tower', 'the-last-night-train' => 'compartment', 'the-lighthouse-at-gull-rock' => 'lamp',
              'after-hours-at-the-museum' => 'hall', 'the-alchemists-attic' => 'attic', 'the-sealed-tomb' => 'burial', 'the-polar-night' => 'hut',
-             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour'];
+             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour', 'santas-locked-workshop' => 'workshop', 'the-pirates-cove' => 'grotto', 'countdown-on-the-space-station' => 'cockpit', 'the-enchanted-library' => 'tower', 'the-dinosaur-dig' => 'pit'];
     $dir = dirname(__DIR__) . '/assets/img/escape/' . $slug . '/';
     $f = isset($pick[$slug]) && is_file($dir . $pick[$slug] . '.jpg') ? $pick[$slug] . '.jpg' : (basename((string)(glob($dir . '*.jpg')[0] ?? '')) ?: null);
     return $f ? '/assets/img/escape/' . $slug . '/' . $f : null;
