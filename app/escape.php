@@ -52,6 +52,12 @@ const ESCAPE_ROOMS = [
         'teaser' => 'Over the North Atlantic, May 1936. The giant airship Valkyrie is drifting off course with her ballast draining away. One passenger aboard is not who he says.',
         'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 12, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
     ],
+    'the-codebreakers-hut' => [
+        'title' => 'The Codebreakers’ Hut',
+        'tagline' => 'A convoy at sea, a mole in the hut and one hour until six.',
+        'teaser' => 'Buckinghamshire, May 1943. The Commander ran out into the night with an intercept and never came back. Somebody has sabotaged the machines – and a convoy is sailing into a trap.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 12, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;
 

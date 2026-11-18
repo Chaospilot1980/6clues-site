@@ -95,3 +95,15 @@ Control car (gondola) of a 1936 airship at night, windows all round, dark sea be
 
 ## the-last-airship/hold.jpg
 Cargo hold inside the hull of a 1936 airship, huge curved aluminium girders, dim. Left: a metal panel with eight round ballast valves, one with a red light. Centre top: a large pulley with steel cables. Right: wooden mail crates, one stencilled. Ladder down at bottom left.
+
+## the-codebreakers-hut/hut.jpg
+Inside a wartime wooden codebreakers' hut, England 1943, 5 a.m., one green-shaded desk lamp, blackout blinds. Left lower: a desk with a half-finished newspaper crossword and a mug. Left-centre: a tall grey metal filing cabinet with a combination bar. Centre top: a wall calendar for May 1943. Right-centre: a naval officer's greatcoat on a hook. Far right: a wooden door to the next room. Bottom left and bottom centre: doorways.
+
+## the-codebreakers-hut/machine.jpg
+Machine room of a 1943 codebreaking hut: centre, a black typewriter-like cipher machine with three lettered wheels on top; right-centre, a wire tray of paper intercept slips; right top, a duty roster pinned to the wall. Bare bulb, wooden walls. Exit bottom left.
+
+## the-codebreakers-hut/tele.jpg
+Teleprinter room in a 1943 hut: centre, a heavy teleprinter machine with a paper roll; right, a typist's desk with drawers; left lower, a metal waste-paper bin. Blackout blinds, dim lamp. Exit bottom right.
+
+## the-codebreakers-hut/library.jpg
+Library of an English country mansion at night, 1943, firelight. Left: a writing desk with a handwritten note. Centre: a big carved stone fireplace with Roman numerals cut above it. Right-centre top: a large oil portrait of an old lord in a gilt frame. Far right lower: a chess board on a small table mid-game. Exit bottom left.
