@@ -1474,5 +1474,58 @@ Setting: At the Easthaven Chess Congress, organiser Lionel Gray was found dead i
 ### `murder-at-the-chess-congress/viktor-hale.jpg`
 > Portrait of Viktor Hale, Player, board 3, a character in the detective mystery “Murder at the Chess Congress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
+## The Harbour Office Safe (daily case 2026-12-31)
+
+Setting: In the little fishing port of Polcarrow, a year's mooring fees – £6,400 – were taken from the harbour office safe early on a January morning.
+
+### `the-harbour-office-safe/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Harbour Office Safe” (theft): In the little fishing port of Polcarrow, a year's mooring fees – £6,400 – were taken from the harbour office safe early on a January morning. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-harbour-office-safe/davey-hocking.jpg`
+> Portrait of Davey Hocking, Fisherman, former deputy, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-harbour-office-safe/jenna-penrose.jpg`
+> Portrait of Jenna Penrose, Deputy harbour master, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-harbour-office-safe/kit-rowe.jpg`
+> Portrait of Kit Rowe, Harbour café owner, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-harbour-office-safe/lowenna-kemp.jpg`
+> Portrait of Lowenna Kemp, Lifeboat mechanic, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-harbour-office-safe/morwen-tregear.jpg`
+> Portrait of Morwen Tregear, Harbour master, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-harbour-office-safe/ned-pascoe.jpg`
+> Portrait of Ned Pascoe, Fish merchant, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death in the Signal Box (daily case 2027-01-01)
+
+Setting: On the Hollow Vale Steam Railway, volunteer signalman Harold Brock was found dead in Hollow Lane signal box during a busy Sunday timetable.
+
+### `death-in-the-signal-box/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death in the Signal Box” (murder): On the Hollow Vale Steam Railway, volunteer signalman Harold Brock was found dead in Hollow Lane signal box during a busy Sunday timetable. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-in-the-signal-box/colin-hart.jpg`
+> Portrait of Colin Hart, Guard, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-signal-box/edna-ross.jpg`
+> Portrait of Edna Ross, Tea-room volunteer, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-signal-box/gordon-pike.jpg`
+> Portrait of Gordon Pike, Station master, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-signal-box/lucy-bright.jpg`
+> Portrait of Lucy Bright, Fireman, engine 3, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-signal-box/mira-shah.jpg`
+> Portrait of Mira Shah, Railway photographer, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-signal-box/tom-ames.jpg`
+> Portrait of Tom Ames, Driver, engine 3, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-signal-box/photo-img-5520.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_5520” at 14:25, from “Platform photo by Mira Shah” in the detective mystery “Death in the Signal Box”: Engine 3 at the platform, steam up. On the footplate: the fireman alone, shovel in hand. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ---
-Status: 336 of 744 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 336 of 759 images delivered (one cover and six portraits per case, plus evidence photos).
