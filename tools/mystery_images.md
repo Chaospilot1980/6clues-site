@@ -1210,5 +1210,89 @@ Setting: At a robotics conference in Lisbon, the prototype laptop of speaker Dr 
 ### `the-lisbon-laptop/photo-img-4458.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_4458” at 15:48, from “Diego's phone – photo times” in the detective mystery “The Lisbon Laptop”: Belém Tower in the sunshine. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Ferris Wheel Robbery (daily case 2026-12-22)
+
+Setting: On Brightsea Pier, the evening's cash box was taken from the big-wheel ticket booth on a busy Friday night.
+
+### `the-ferris-wheel-robbery/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Ferris Wheel Robbery” (theft): On Brightsea Pier, the evening's cash box was taken from the big-wheel ticket booth on a busy Friday night. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-ferris-wheel-robbery/dawn-pike.jpg`
+> Portrait of Dawn Pike, Pier security, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ferris-wheel-robbery/gina-fry.jpg`
+> Portrait of Gina Fry, Candyfloss stall, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ferris-wheel-robbery/kev-odu.jpg`
+> Portrait of Kev Odu, Arcade manager, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ferris-wheel-robbery/lenny-watts.jpg`
+> Portrait of Lenny Watts, Sacked ride attendant, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ferris-wheel-robbery/marco-bellini.jpg`
+> Portrait of Marco Bellini, Big-wheel operator, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ferris-wheel-robbery/sue-petty.jpg`
+> Portrait of Sue Petty, Ticket cashier, a character in the detective mystery “The Ferris Wheel Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death at the Antiques Fair (daily case 2026-12-23)
+
+Setting: At the Harrowgate Antiques Fair, dealer Augustus Pell was found dead in the back room of his stall, number 41, on a busy Sunday afternoon.
+
+### `death-at-the-antiques-fair/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Antiques Fair” (murder): At the Harrowgate Antiques Fair, dealer Augustus Pell was found dead in the back room of his stall, number 41, on a busy Sunday afternoon. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-antiques-fair/basil-crane.jpg`
+> Portrait of Basil Crane, Rival dealer and auctioneer, a character in the detective mystery “Death at the Antiques Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-antiques-fair/edie-pell.jpg`
+> Portrait of Edie Pell, Augustus's daughter, a character in the detective mystery “Death at the Antiques Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-antiques-fair/frank-doyle.jpg`
+> Portrait of Frank Doyle, Fair porter, a character in the detective mystery “Death at the Antiques Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-antiques-fair/joy-lam.jpg`
+> Portrait of Joy Lam, Fair organiser, a character in the detective mystery “Death at the Antiques Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-antiques-fair/marian-thorne.jpg`
+> Portrait of Marian Thorne, Collector, a character in the detective mystery “Death at the Antiques Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-antiques-fair/ray-stubbs.jpg`
+> Portrait of Ray Stubbs, Dealer, stall 12, a character in the detective mystery “Death at the Antiques Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder at the Radio Station (daily case 2026-12-24)
+
+Setting: At Coast FM, station manager Clive Rowntree was found dead in the record library in the middle of the overnight show.
+
+### `murder-at-the-radio-station/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Radio Station” (murder): At Coast FM, station manager Clive Rowntree was found dead in the record library in the middle of the overnight show. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-radio-station/ana-ruiz.jpg`
+> Portrait of Ana Ruiz, Cleaner, a character in the detective mystery “Murder at the Radio Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-radio-station/bob-lyle.jpg`
+> Portrait of Bob Lyle, Night security, a character in the detective mystery “Murder at the Radio Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-radio-station/jo-mbeki.jpg`
+> Portrait of Jo Mbeki, Newsreader, a character in the detective mystery “Murder at the Radio Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-radio-station/nadia-fox.jpg`
+> Portrait of Nadia Fox, Night DJ, a character in the detective mystery “Murder at the Radio Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-radio-station/priya-shah.jpg`
+> Portrait of Priya Shah, Broadcast engineer, a character in the detective mystery “Murder at the Radio Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-radio-station/tom-eke.jpg`
+> Portrait of Tom Eke, Producer, a character in the detective mystery “Murder at the Radio Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-radio-station/photo-cam-cp.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “CAM_CP” at 01:50, from “Car park camera – Coast FM” in the detective mystery “Murder at the Radio Station”: Tom Eke's car parks in the far corner. He stays in the driver's seat. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `murder-at-the-radio-station/photo-cam-cp-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “CAM_CP” at 02:15, from “Car park camera – Coast FM” in the detective mystery “Murder at the Radio Station”: Tom still in the car, head back, apparently asleep. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `murder-at-the-radio-station/photo-cam-cp-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “CAM_CP” at 03:05, from “Car park camera – Coast FM” in the detective mystery “Murder at the Radio Station”: Tom wakes, looks at the building and drives off. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ---
-Status: 336 of 668 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 336 of 692 images delivered (one cover and six portraits per case, plus evidence photos).

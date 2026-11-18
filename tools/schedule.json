@@ -306,5 +306,17 @@
  "the-lisbon-laptop": {
   "daily": "2026-12-21",
   "public": "2026-12-21"
+ },
+ "the-ferris-wheel-robbery": {
+  "daily": "2026-12-22",
+  "public": "2026-12-22"
+ },
+ "death-at-the-antiques-fair": {
+  "daily": "2026-12-23",
+  "public": "2026-12-23"
+ },
+ "murder-at-the-radio-station": {
+  "daily": "2026-12-24",
+  "public": "2026-12-24"
  }
 }
