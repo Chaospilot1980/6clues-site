@@ -49,6 +49,7 @@ $routes = [
     '#^/review/([a-z0-9\-]+)$#'              => 'review',
     '#^/admin/reviews$#'                      => 'admin_reviews',
     '#^/admin/growth$#'                       => 'admin_growth',
+    '#^/admin/outreach$#'                     => 'admin_outreach',
     '#^/event$#'                              => 'event_endpoint',
     '#^/privacy$#'                            => 'privacy',
     '#^/sitemap\.xml$#'                       => 'sitemap',
@@ -843,6 +844,27 @@ function christmas_page(): void {
 ], 'Christmas murder mystery – questions') ?>
 <?php
     page_end();
+}
+
+/** Link-building outreach: admin-only. POST JSON {to, subject, body} sends one personal mail from hello@6clues.com; GET lists the log. */
+function admin_outreach(): void {
+    if (!is_admin()) { not_found(); return; }
+    header('Content-Type: application/json; charset=utf-8');
+    $log = dirname(__DIR__) . '/data/outreach.log';
+    if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+        echo json_encode(['log' => is_file($log) ? array_map('json_decode', file($log, FILE_IGNORE_NEW_LINES)) : []], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+        return;
+    }
+    $in = json_decode((string)file_get_contents('php://input'), true) ?: [];
+    $to = trim((string)($in['to'] ?? '')); $subject = trim((string)($in['subject'] ?? '')); $body = trim((string)($in['body'] ?? ''));
+    if (!filter_var($to, FILTER_VALIDATE_EMAIL) || $subject === '' || $body === '' || preg_match('/[\r\n]/', $to . $subject)) { http_response_code(400); echo '{"ok":false,"error":"bad input"}'; return; }
+    if (is_file($log) && str_contains((string)file_get_contents($log), '"to":"' . $to . '"')) { http_response_code(409); echo '{"ok":false,"error":"already contacted"}'; return; }
+    $from = (string)cfg('contact_email');
+    $headers = "From: Dennis, Six Clues <$from>\r\nReply-To: $from\r\nContent-Type: text/plain; charset=UTF-8\r\nMIME-Version: 1.0\r\n";
+    $ok = mail($to, '=?UTF-8?B?' . base64_encode($subject) . '?=', str_replace("\n", "\r\n", str_replace("\r\n", "\n", $body)), $headers, '-f' . $from);
+    @mkdir(dirname($log), 0755, true);
+    file_put_contents($log, json_encode(['at' => gmdate('c'), 'to' => $to, 'subject' => $subject, 'ok' => $ok], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . "\n", FILE_APPEND);
+    echo json_encode(['ok' => $ok]);
 }
 
 /** FAQ block with FAQPage structured data. $qa = [[question, answer-html], ...] */
