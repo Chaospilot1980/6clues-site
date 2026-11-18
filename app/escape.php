@@ -50,19 +50,19 @@ const ESCAPE_ROOMS = [
         'title' => 'The Last Airship',
         'tagline' => 'The navigator is gone, the crew is locked in, and the ship is turning in the dark.',
         'teaser' => 'Over the North Atlantic, May 1936. The giant airship Valkyrie is drifting off course with her ballast draining away. One passenger aboard is not who he says.',
-        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 12, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 12, 'status' => 'New', 'level' => 2, 'engine' => true,
     ],
     'the-codebreakers-hut' => [
         'title' => 'The Codebreakers’ Hut',
         'tagline' => 'A convoy at sea, a mole in the hut and one hour until six.',
         'teaser' => 'Buckinghamshire, May 1943. The Commander ran out into the night with an intercept and never came back. Somebody has sabotaged the machines – and a convoy is sailing into a trap.',
-        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 12, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 12, 'status' => 'New', 'level' => 2, 'engine' => true,
     ],
     'the-seance' => [
         'title' => 'The Séance',
         'tagline' => 'At midnight the spirits will ask for a fortune. You know it’s a trick.',
         'teaser' => 'Belgravia, Halloween 1888. A famous medium will make Lady Ashworth’s dead husband speak – and at midnight she signs away everything. You have been locked in the parlour for asking questions.',
-        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 12, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 12, 'status' => 'New', 'level' => 2, 'engine' => true,
     ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;
