@@ -1718,6 +1718,106 @@ Setting: At Maison Delacroix in Paris, master perfumer Camille Delacroix collaps
 ### `murder-at-the-perfume-house/photo-img-318.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_318” at 20:50, from “Party photographer” in the detective mystery “Murder at the Perfume House”: Bruno at the front door with the mayor. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Pottery Kiln Sabotage (library – on the site now)
+
+Setting: At the Saltmarsh Pottery Studio, Iris Penn's thirty vases for her first exhibition all cracked in the kiln overnight.
+
+### `the-pottery-kiln-sabotage/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Pottery Kiln Sabotage” (sabotage): At the Saltmarsh Pottery Studio, Iris Penn's thirty vases for her first exhibition all cracked in the kiln overnight. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-pottery-kiln-sabotage/anya-fox.jpg`
+> Portrait of Anya Fox, Studio member, a character in the detective mystery “The Pottery Kiln Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pottery-kiln-sabotage/derek-holt.jpg`
+> Portrait of Derek Holt, Studio member, a character in the detective mystery “The Pottery Kiln Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pottery-kiln-sabotage/iris-penn.jpg`
+> Portrait of Iris Penn, Potter, a character in the detective mystery “The Pottery Kiln Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pottery-kiln-sabotage/kim-sato.jpg`
+> Portrait of Kim Sato, Studio manager, a character in the detective mystery “The Pottery Kiln Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pottery-kiln-sabotage/lou-grant.jpg`
+> Portrait of Lou Grant, Studio member, a character in the detective mystery “The Pottery Kiln Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-pottery-kiln-sabotage/mr-ted-fowler.jpg`
+> Portrait of Mr Ted Fowler, Neighbour, café owner, a character in the detective mystery “The Pottery Kiln Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Vet Clinic Drug Theft (library – on the site now)
+
+Setting: At Brookside Vets, head vet Dr Amira Saleh noticed that boxes of expensive animal medicine were vanishing from the locked drug cupboard every week.
+
+### `the-vet-clinic-drug-theft/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Vet Clinic Drug Theft” (theft): At Brookside Vets, head vet Dr Amira Saleh noticed that boxes of expensive animal medicine were vanishing from the locked drug cupboard every week. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-vet-clinic-drug-theft/dan-hollis.jpg`
+> Portrait of Dan Hollis, Online seller, a character in the detective mystery “The Vet Clinic Drug Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-vet-clinic-drug-theft/dr-amira-saleh.jpg`
+> Portrait of Dr Amira Saleh, Head vet, a character in the detective mystery “The Vet Clinic Drug Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-vet-clinic-drug-theft/gina-lane.jpg`
+> Portrait of Gina Lane, Veterinary nurse, a character in the detective mystery “The Vet Clinic Drug Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-vet-clinic-drug-theft/pete-ray.jpg`
+> Portrait of Pete Ray, Veterinary nurse, a character in the detective mystery “The Vet Clinic Drug Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-vet-clinic-drug-theft/rosa-kemp.jpg`
+> Portrait of Rosa Kemp, Receptionist, a character in the detective mystery “The Vet Clinic Drug Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-vet-clinic-drug-theft/sid-moran.jpg`
+> Portrait of Sid Moran, Practice manager, a character in the detective mystery “The Vet Clinic Drug Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death on the Carousel (library – on the site now)
+
+Setting: At the Winter Wonderfair on the seafront, owner Reg Fairweather was found dead on his antique carousel after closing time, struck with a heavy brass starting handle.
+
+### `death-on-the-carousel/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death on the Carousel” (murder): At the Winter Wonderfair on the seafront, owner Reg Fairweather was found dead on his antique carousel after closing time, struck with a heavy brass starting handle. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-on-the-carousel/beth-fairweather.jpg`
+> Portrait of Beth Fairweather, Reg's daughter, a character in the detective mystery “Death on the Carousel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-carousel/dot-hughes.jpg`
+> Portrait of Dot Hughes, Organ keeper, a character in the detective mystery “Death on the Carousel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-carousel/ds-pat-morgan.jpg`
+> Portrait of DS Pat Morgan, Police, a character in the detective mystery “Death on the Carousel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-carousel/kyle-brennan.jpg`
+> Portrait of Kyle Brennan, Dodgems attendant, a character in the detective mystery “Death on the Carousel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-carousel/lenny-fairweather.jpg`
+> Portrait of Lenny Fairweather, Reg's nephew, a character in the detective mystery “Death on the Carousel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-carousel/marge-tilly.jpg`
+> Portrait of Marge Tilly, Toffee-apple stall, a character in the detective mystery “Death on the Carousel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder at the Picture Palace (library – on the site now)
+
+Setting: At the old Regal Picture Palace, owner Victor Ames was found dead in the projection booth during a sold-out Christmas screening.
+
+### `murder-at-the-picture-palace/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Picture Palace” (murder): At the old Regal Picture Palace, owner Victor Ames was found dead in the projection booth during a sold-out Christmas screening. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-picture-palace/di-sunita-bose.jpg`
+> Portrait of DI Sunita Bose, Police, a character in the detective mystery “Murder at the Picture Palace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-picture-palace/gemma-ames.jpg`
+> Portrait of Gemma Ames, Victor's wife, a character in the detective mystery “Murder at the Picture Palace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-picture-palace/liam-ward.jpg`
+> Portrait of Liam Ward, Usher, a character in the detective mystery “Murder at the Picture Palace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-picture-palace/martin-reid.jpg`
+> Portrait of Martin Reid, Projectionist's assistant, a character in the detective mystery “Murder at the Picture Palace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-picture-palace/noah-ames.jpg`
+> Portrait of Noah Ames, Victor's son, a character in the detective mystery “Murder at the Picture Palace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-picture-palace/rita-cole.jpg`
+> Portrait of Rita Cole, Box office, a character in the detective mystery “Murder at the Picture Palace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -3118,4 +3218,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1315 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1343 images delivered (one cover and six portraits per case, plus evidence photos).
