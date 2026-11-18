@@ -855,6 +855,115 @@ Setting: At Upper Wyfold Cricket Club, treasurer Gerald Banks was found dead in 
 ### `murder-at-the-cricket-pavilion/photo-img-330.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_330” at 15:40, from “Club photographer” in the detective mystery “Murder at the Cricket Pavilion”: Tea tent during the rain: Jack Moss, Edie Clark and the visiting team. Rupert Hale is not there. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Easter Egg Hunt (library – on the site now)
+
+Setting: In Brambleford, the star prize of the Easter egg hunt – a giant golden chocolate egg – vanished from the vicarage kitchen on Saturday evening.
+
+### `the-easter-egg-hunt/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Easter Egg Hunt” (theft): In Brambleford, the star prize of the Easter egg hunt – a giant golden chocolate egg – vanished from the vicarage kitchen on Saturday evening. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-easter-egg-hunt/barney-hale.jpg`
+> Portrait of Barney Hale, Easter Bunny volunteer, a character in the detective mystery “The Easter Egg Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-easter-egg-hunt/gemma-lyle.jpg`
+> Portrait of Gemma Lyle, Hunt organiser, a character in the detective mystery “The Easter Egg Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-easter-egg-hunt/mr-ken-rhodes.jpg`
+> Portrait of Mr Ken Rhodes, Neighbour, a character in the detective mystery “The Easter Egg Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-easter-egg-hunt/mrs-edna-pike.jpg`
+> Portrait of Mrs Edna Pike, Church warden, a character in the detective mystery “The Easter Egg Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-easter-egg-hunt/rev-clare-webb.jpg`
+> Portrait of Rev. Clare Webb, Vicar, a character in the detective mystery “The Easter Egg Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-easter-egg-hunt/tilly-moss.jpg`
+> Portrait of Tilly Moss, Village shopkeeper, a character in the detective mystery “The Easter Egg Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Vanishing Vinyl (library – on the site now)
+
+Setting: At Groove Records, a signed first pressing of a famous 1960s album, worth £12,000, vanished from its locked display case during a busy in-store gig.
+
+### `the-vanishing-vinyl/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Vanishing Vinyl” (theft): At Groove Records, a signed first pressing of a famous 1960s album, worth £12,000, vanished from its locked display case during a busy in-store gig. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-vanishing-vinyl/della-king.jpg`
+> Portrait of Della King, Shop owner, a character in the detective mystery “The Vanishing Vinyl”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-vanishing-vinyl/ivy-jones.jpg`
+> Portrait of Ivy Jones, Shop assistant, a character in the detective mystery “The Vanishing Vinyl”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-vanishing-vinyl/kofi-mensah.jpg`
+> Portrait of Kofi Mensah, Sound engineer, a character in the detective mystery “The Vanishing Vinyl”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-vanishing-vinyl/maya-king.jpg`
+> Portrait of Maya King, Della's daughter, ticket desk, a character in the detective mystery “The Vanishing Vinyl”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-vanishing-vinyl/rich-stone.jpg`
+> Portrait of Rich Stone, Band's guitarist, a character in the detective mystery “The Vanishing Vinyl”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-vanishing-vinyl/sean-cole.jpg`
+> Portrait of Sean Cole, Collector, a character in the detective mystery “The Vanishing Vinyl”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death in the Sauna (library – on the site now)
+
+Setting: At the Nordlys Spa Hotel in Bergen, tech investor Henrik Vold was found dead in the private sauna.
+
+### `death-in-the-sauna/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death in the Sauna” (murder): At the Nordlys Spa Hotel in Bergen, tech investor Henrik Vold was found dead in the private sauna. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-in-the-sauna/anna-strand.jpg`
+> Portrait of Anna Strand, Housekeeper, a character in the detective mystery “Death in the Sauna”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-sauna/erik-dahl.jpg`
+> Portrait of Erik Dahl, Spa attendant, a character in the detective mystery “Death in the Sauna”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-sauna/insp-kari-berg.jpg`
+> Portrait of Insp. Kari Berg, Police, a character in the detective mystery “Death in the Sauna”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-sauna/lars-moen.jpg`
+> Portrait of Lars Moen, Henrik's assistant, a character in the detective mystery “Death in the Sauna”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-sauna/mona-lie.jpg`
+> Portrait of Mona Lie, Business partner, a character in the detective mystery “Death in the Sauna”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-in-the-sauna/siri-holm.jpg`
+> Portrait of Siri Holm, Bar manager, a character in the detective mystery “Death in the Sauna”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder at the Model Village (library – on the site now)
+
+Setting: At Bayview Model Village, owner Cyril Moss was found dead behind the miniature church, struck on the head, shortly after closing time.
+
+### `murder-at-the-model-village/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Model Village” (murder): At Bayview Model Village, owner Cyril Moss was found dead behind the miniature church, struck on the head, shortly after closing time. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-model-village/dennis-kerr.jpg`
+> Portrait of Dennis Kerr, Model railway engineer, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-model-village/ds-joanna-price.jpg`
+> Portrait of DS Joanna Price, Police, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-model-village/gary-lomas.jpg`
+> Portrait of Gary Lomas, Gardener, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-model-village/owen-tate.jpg`
+> Portrait of Owen Tate, Security firm operator, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-model-village/pearl-jones.jpg`
+> Portrait of Pearl Jones, Café manager, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-model-village/rita-moss.jpg`
+> Portrait of Rita Moss, Cyril's daughter, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-model-village/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-1” at 17:10, from “Café camera” in the detective mystery “Murder at the Model Village”: A man in blue overalls with an oily rag in his pocket walks towards the miniature church. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `murder-at-the-model-village/photo-cam-1-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-1” at 17:12, from “Café camera” in the detective mystery “Murder at the Model Village”: In the corner of the frame: Pearl Jones behind the café counter, cashing up. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `murder-at-the-model-village/photo-cam-1-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-1” at 17:14, from “Café camera” in the detective mystery “Murder at the Model Village”: The same man hurries back towards the railway shed. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -2255,4 +2364,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1070 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1101 images delivered (one cover and six portraits per case, plus evidence photos).
