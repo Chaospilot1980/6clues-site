@@ -1076,6 +1076,109 @@ Setting: At Penhallow Stone Quarry, manager Grace Tremayne was found at the foot
 ### `death-at-the-quarry/photo-cam-r-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM-R” at 11:56, from “Digger reversing camera” in the detective mystery “Death at the Quarry”: The same man hurries back down, carrying a white hard hat. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Nativity Play Star (library – on the site now)
+
+Setting: At St Mary's Primary, the big golden star that hangs over the stable in the Christmas nativity play disappeared from the school hall just before the show.
+
+### `the-nativity-play-star/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Nativity Play Star” (theft): At St Mary's Primary, the big golden star that hangs over the stable in the Christmas nativity play disappeared from the school hall just before the show. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-nativity-play-star/miss-ruby-fox.jpg`
+> Portrait of Miss Ruby Fox, Car park helper, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-nativity-play-star/mr-dave-penn.jpg`
+> Portrait of Mr Dave Penn, Parent volunteer, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-nativity-play-star/mr-joe-clarke.jpg`
+> Portrait of Mr Joe Clarke, Caretaker, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-nativity-play-star/mr-tom-lee.jpg`
+> Portrait of Mr Tom Lee, Lighting volunteer, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-nativity-play-star/mrs-asha-rao.jpg`
+> Portrait of Mrs Asha Rao, Head teacher, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-nativity-play-star/mrs-helen-archer.jpg`
+> Portrait of Mrs Helen Archer, Play director, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-nativity-play-star/photo-img-7001.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_7001” at Sat 08:10, from “Mrs Rao's phone” in the detective mystery “The Nativity Play Star”: The village Christmas tree with the school's golden star on top. A ladder marked 'PENN PLUMBING' leans against it. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Christmas Hamper Swindle (library – on the site now)
+
+Setting: In the town of Holbrook, fifty families paid £60 each into a community Christmas hamper scheme.
+
+### `the-christmas-hamper-swindle/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Christmas Hamper Swindle” (fraud): In the town of Holbrook, fifty families paid £60 each into a community Christmas hamper scheme. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-christmas-hamper-swindle/joan-webb.jpg`
+> Portrait of Joan Webb, Scheme customer, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-christmas-hamper-swindle/kay-moss.jpg`
+> Portrait of Kay Moss, Traders' Club chair, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-christmas-hamper-swindle/mike-foley.jpg`
+> Portrait of Mike Foley, Car dealer, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-christmas-hamper-swindle/priya-nair.jpg`
+> Portrait of Priya Nair, Delicatessen owner, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-christmas-hamper-swindle/rob-hale.jpg`
+> Portrait of Rob Hale, Scheme treasurer, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-christmas-hamper-swindle/sid-grant.jpg`
+> Portrait of Sid Grant, Van driver, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death at the Carol Concert (library – on the site now)
+
+Setting: At St Barnabas' Church, choirmaster Lionel Ashe was found dead in the vestry during the Christmas carol concert, struck with a heavy brass candlestick.
+
+### `death-at-the-carol-concert/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Carol Concert” (murder): At St Barnabas' Church, choirmaster Lionel Ashe was found dead in the vestry during the Christmas carol concert, struck with a heavy brass candlestick. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-carol-concert/alfie-shaw.jpg`
+> Portrait of Alfie Shaw, Organist, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-carol-concert/celia-grant.jpg`
+> Portrait of Celia Grant, Soprano soloist, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-carol-concert/ds-martin-cole.jpg`
+> Portrait of DS Martin Cole, Police, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-carol-concert/mark-dyer.jpg`
+> Portrait of Mark Dyer, Tenor, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-carol-concert/mrs-nora-lee.jpg`
+> Portrait of Mrs Nora Lee, Choir wardrobe mistress, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-carol-concert/rev-gareth-price.jpg`
+> Portrait of Rev. Gareth Price, Vicar, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder at the Mince Pie Factory (library – on the site now)
+
+Setting: At Hartley's Bakery, which makes two million mince pies every December, owner George Hartley was found dead in the walk-in cold store during the night shift.
+
+### `murder-at-the-mince-pie-factory/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Mince Pie Factory” (murder): At Hartley's Bakery, which makes two million mince pies every December, owner George Hartley was found dead in the walk-in cold store during the night shift. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-mince-pie-factory/bina-patel.jpg`
+> Portrait of Bina Patel, Line 2 operator, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-mince-pie-factory/di-lena-brooks.jpg`
+> Portrait of DI Lena Brooks, Police, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-mince-pie-factory/joe-hartley.jpg`
+> Portrait of Joe Hartley, George's son, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-mince-pie-factory/kev-holt.jpg`
+> Portrait of Kev Holt, Oven operator, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-mince-pie-factory/mags-ellis.jpg`
+> Portrait of Mags Ellis, Hygiene manager, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-mince-pie-factory/steve-rourke.jpg`
+> Portrait of Steve Rourke, Night-shift supervisor, Line 2, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -2476,4 +2579,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1133 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1162 images delivered (one cover and six portraits per case, plus evidence photos).
