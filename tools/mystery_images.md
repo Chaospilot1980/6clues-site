@@ -2236,6 +2236,118 @@ Setting: At the Redbridge City Archive, archivist Dr Ruth Okoye was found dead i
 ### `murder-in-the-city-archive/photo-img-52.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_52” at 18:30, from “Police photos” in the detective mystery “Murder in the City Archive”: A grey 'RCA' pencil taken from Lord Harrington's jacket pocket. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Missing Christmas Parcels (library – on the site now)
+
+Setting: In Little Haddon, twelve families reported Christmas parcels marked 'delivered' that never arrived.
+
+### `the-missing-christmas-parcels/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Missing Christmas Parcels” (theft): In Little Haddon, twelve families reported Christmas parcels marked 'delivered' that never arrived. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-missing-christmas-parcels/darren-cole.jpg`
+> Portrait of Darren Cole, Delivery driver, Round 7, a character in the detective mystery “The Missing Christmas Parcels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-christmas-parcels/kerry-ward.jpg`
+> Portrait of Kerry Ward, Depot manager, a character in the detective mystery “The Missing Christmas Parcels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-christmas-parcels/mr-omar-ali.jpg`
+> Portrait of Mr Omar Ali, Village resident, a character in the detective mystery “The Missing Christmas Parcels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-christmas-parcels/mrs-jan-booth.jpg`
+> Portrait of Mrs Jan Booth, Village resident, a character in the detective mystery “The Missing Christmas Parcels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-christmas-parcels/pc-hannah-grey.jpg`
+> Portrait of PC Hannah Grey, Police, a character in the detective mystery “The Missing Christmas Parcels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-christmas-parcels/steve-morris.jpg`
+> Portrait of Steve Morris, Delivery driver, Round 6, a character in the detective mystery “The Missing Christmas Parcels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-christmas-parcels/photo-clip-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “CLIP_1” at 4 Dec 10:30–11:15, from “Doorbell camera – No. 9” in the detective mystery “The Missing Christmas Parcels”: Empty doorstep. No van, no driver, no parcel. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Ballet Shoe Sabotage (library – on the site now)
+
+Setting: At the Northern City Ballet, lead dancer Sofia Reyes fell during the opening night of The Nutcracker when the ribbon on her pointe shoe snapped.
+
+### `the-ballet-shoe-sabotage/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Ballet Shoe Sabotage” (sabotage): At the Northern City Ballet, lead dancer Sofia Reyes fell during the opening night of The Nutcracker when the ribbon on her pointe shoe snapped. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-ballet-shoe-sabotage/ana-lowe.jpg`
+> Portrait of Ana Lowe, Dancer, a character in the detective mystery “The Ballet Shoe Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ballet-shoe-sabotage/bella-grant.jpg`
+> Portrait of Bella Grant, Understudy, a character in the detective mystery “The Ballet Shoe Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ballet-shoe-sabotage/meg-hollis.jpg`
+> Portrait of Meg Hollis, Wardrobe mistress, a character in the detective mystery “The Ballet Shoe Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ballet-shoe-sabotage/mr-leo-park.jpg`
+> Portrait of Mr Leo Park, Ballet master, a character in the detective mystery “The Ballet Shoe Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ballet-shoe-sabotage/sofia-reyes.jpg`
+> Portrait of Sofia Reyes, Lead dancer, a character in the detective mystery “The Ballet Shoe Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ballet-shoe-sabotage/tom-fry.jpg`
+> Portrait of Tom Fry, Stage door keeper, a character in the detective mystery “The Ballet Shoe Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death at the Lighthouse Hotel (library – on the site now)
+
+Setting: At the Lighthouse Hotel on Skerra Point, owner Neil Burke fell from the lantern gallery on a stormy night.
+
+### `death-at-the-lighthouse-hotel/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Lighthouse Hotel” (murder): At the Lighthouse Hotel on Skerra Point, owner Neil Burke fell from the lantern gallery on a stormy night. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-lighthouse-hotel/dougie-ross.jpg`
+> Portrait of Dougie Ross, Night porter, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-lighthouse-hotel/ds-morag-allan.jpg`
+> Portrait of DS Morag Allan, Police, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-lighthouse-hotel/ellen-burke.jpg`
+> Portrait of Ellen Burke, Neil's sister, co-owner, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-lighthouse-hotel/mr-kit-lowry.jpg`
+> Portrait of Mr Kit Lowry, Guest, photographer, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-lighthouse-hotel/mrs-jean-craig.jpg`
+> Portrait of Mrs Jean Craig, Cook, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-lighthouse-hotel/sam-duffy.jpg`
+> Portrait of Sam Duffy, Handyman, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-lighthouse-hotel/photo-dsc-2214.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “DSC_2214” at 22:14 (30-second exposure), from “Kit's camera” in the detective mystery “Death at the Lighthouse Hotel”: The lighthouse at night, beam sweeping. On the gallery, lit by the beam: two figures – one in a dark jumper, one in a long yellow oilskin coat with the hood up. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Murder at the Fashion Show (library – on the site now)
+
+Setting: At London Winter Fashion Week, designer Margot Vell was found dead in the backstage fitting room during her own show, strangled with a silk scarf from the collection.
+
+### `murder-at-the-fashion-show/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Fashion Show” (murder): At London Winter Fashion Week, designer Margot Vell was found dead in the backstage fitting room during her own show, strangled with a silk scarf from the collection. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-fashion-show/bea-morley.jpg`
+> Portrait of Bea Morley, Dresser, a character in the detective mystery “Murder at the Fashion Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-fashion-show/di-rachel-shaw.jpg`
+> Portrait of DI Rachel Shaw, Police, a character in the detective mystery “Murder at the Fashion Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-fashion-show/kira-dahl.jpg`
+> Portrait of Kira Dahl, Model, a character in the detective mystery “Murder at the Fashion Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-fashion-show/luca-ferri.jpg`
+> Portrait of Luca Ferri, Show producer, a character in the detective mystery “Murder at the Fashion Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-fashion-show/nina-holt.jpg`
+> Portrait of Nina Holt, Model, a character in the detective mystery “Murder at the Fashion Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-fashion-show/paul-vell.jpg`
+> Portrait of Paul Vell, Margot's husband, a character in the detective mystery “Murder at the Fashion Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-fashion-show/photo-press-19-22.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “PRESS_19:22” at 19:22, from “Press photos” in the detective mystery “Murder at the Fashion Show”: Front row: Paul Vell clapping. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `murder-at-the-fashion-show/photo-press-19-31.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “PRESS_19:31” at 19:31, from “Press photos” in the detective mystery “Murder at the Fashion Show”: Front row: Paul Vell on his phone. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -3636,4 +3748,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1461 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1493 images delivered (one cover and six portraits per case, plus evidence photos).
