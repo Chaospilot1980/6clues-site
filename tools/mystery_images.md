@@ -292,6 +292,124 @@ Setting: At the Northbridge Camera Fair, a 1933 Leica worth £15,000 disappeared
 ### `the-camera-fair-leica/photo-cam-2-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM-2” at 15:09, from “Car park camera” in the detective mystery “The Camera Fair Leica”: G. Bell walks back into the fair. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Scarecrow Festival (library – on the site now)
+
+Setting: In the village of Little Haddow, the scarecrow trail is judged on Sunday morning.
+
+### `the-scarecrow-festival/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Scarecrow Festival” (vandalism): In the village of Little Haddow, the scarecrow trail is judged on Sunday morning. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-scarecrow-festival/bella-croft.jpg`
+> Portrait of Bella Croft, Baker, Fred's maker, a character in the detective mystery “The Scarecrow Festival”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-scarecrow-festival/hal-morgan.jpg`
+> Portrait of Hal Morgan, Bike shop owner, a character in the detective mystery “The Scarecrow Festival”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-scarecrow-festival/jenny-tate.jpg`
+> Portrait of Jenny Tate, Pub landlady, a character in the detective mystery “The Scarecrow Festival”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-scarecrow-festival/mr-owen-shaw.jpg`
+> Portrait of Mr Owen Shaw, Committee chair, a character in the detective mystery “The Scarecrow Festival”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-scarecrow-festival/pip-lowe.jpg`
+> Portrait of Pip Lowe, Night-shift nurse, a character in the detective mystery “The Scarecrow Festival”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-scarecrow-festival/roger-pinn.jpg`
+> Portrait of Roger Pinn, Rival scarecrow maker, a character in the detective mystery “The Scarecrow Festival”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Cycle Race Sabotage (library – on the site now)
+
+Setting: At the Dales Classic amateur cycle race, favourite Tessa Hart crashed on the first descent when her front brake cable snapped.
+
+### `the-cycle-race-sabotage/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Cycle Race Sabotage” (sabotage): At the Dales Classic amateur cycle race, favourite Tessa Hart crashed on the first descent when her front brake cable snapped. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-cycle-race-sabotage/gus-ward.jpg`
+> Portrait of Gus Ward, Sign-on marshal, a character in the detective mystery “The Cycle Race Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-cycle-race-sabotage/mia-lund.jpg`
+> Portrait of Mia Lund, Rival cyclist, a character in the detective mystery “The Cycle Race Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-cycle-race-sabotage/olly-price.jpg`
+> Portrait of Olly Price, Photographer, a character in the detective mystery “The Cycle Race Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-cycle-race-sabotage/ray-kaye.jpg`
+> Portrait of Ray Kaye, Team mechanic, a character in the detective mystery “The Cycle Race Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-cycle-race-sabotage/sara-lund.jpg`
+> Portrait of Sara Lund, Mia's sister, a character in the detective mystery “The Cycle Race Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-cycle-race-sabotage/tessa-hart.jpg`
+> Portrait of Tessa Hart, Cyclist, a character in the detective mystery “The Cycle Race Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-cycle-race-sabotage/photo-dsc-2201.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “DSC_2201” at 08:25, from “Olly's camera” in the detective mystery “The Cycle Race Sabotage”: Tessa Hart on rollers outside the Hart Racing tent. Behind her, the tent flap is open – someone in a blue Lund Cycling jacket is inside, bent over a bike. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Death at the Truffle Hunt (library – on the site now)
+
+Setting: In the hills above Alba, truffle dealer Marco Bellini was found dead in the Bosco Nero oak wood during a guided truffle hunt for wealthy guests.
+
+### `death-at-the-truffle-hunt/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Truffle Hunt” (murder): In the hills above Alba, truffle dealer Marco Bellini was found dead in the Bosco Nero oak wood during a guided truffle hunt for wealthy guests. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-truffle-hunt/anna-ricci.jpg`
+> Portrait of Anna Ricci, Truffle hunter, a character in the detective mystery “Death at the Truffle Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-truffle-hunt/elena-bassi.jpg`
+> Portrait of Elena Bassi, Hunt organiser, a character in the detective mystery “Death at the Truffle Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-truffle-hunt/giulia-neri.jpg`
+> Portrait of Giulia Neri, Truffle hunter, a character in the detective mystery “Death at the Truffle Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-truffle-hunt/ispettore-lucia-ferri.jpg`
+> Portrait of Ispettore Lucia Ferri, Police, a character in the detective mystery “Death at the Truffle Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-truffle-hunt/mr-james-holt.jpg`
+> Portrait of Mr James Holt, Guest, a character in the detective mystery “Death at the Truffle Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-truffle-hunt/paolo-conti.jpg`
+> Portrait of Paolo Conti, Truffle hunter, a character in the detective mystery “Death at the Truffle Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-truffle-hunt/photo-img-7701.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_7701” at 10:24, from “James Holt's phone” in the detective mystery “Death at the Truffle Hunt”: The clearing: a white dog (Bianca) tied to an oak, nobody with her. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `death-at-the-truffle-hunt/photo-img-7712.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_7712” at 10:41, from “James Holt's phone” in the detective mystery “Death at the Truffle Hunt”: Southern slope: Giulia Neri and her dog Tartufo digging with the guests. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Murder on the Film Set (library – on the site now)
+
+Setting: On the set of the period drama “The Winter Palace”, director Simon Vale was found dead in his trailer during a break in filming.
+
+### `murder-on-the-film-set/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder on the Film Set” (murder): On the set of the period drama “The Winter Palace”, director Simon Vale was found dead in his trailer during a break in filming. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-on-the-film-set/di-grace-obi.jpg`
+> Portrait of DI Grace Obi, Police, a character in the detective mystery “Murder on the Film Set”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-on-the-film-set/kit-baron.jpg`
+> Portrait of Kit Baron, Producer, a character in the detective mystery “Murder on the Film Set”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-on-the-film-set/lena-frost.jpg`
+> Portrait of Lena Frost, Lead actress, a character in the detective mystery “Murder on the Film Set”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-on-the-film-set/max-cole.jpg`
+> Portrait of Max Cole, Clapper loader, a character in the detective mystery “Murder on the Film Set”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-on-the-film-set/ruby-shah.jpg`
+> Portrait of Ruby Shah, Continuity supervisor, a character in the detective mystery “Murder on the Film Set”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-on-the-film-set/tom-reed.jpg`
+> Portrait of Tom Reed, Runner, a character in the detective mystery “Murder on the Film Set”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-on-the-film-set/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “CAM-1” at 14:07, from “Trailer park camera” in the detective mystery “Murder on the Film Set”: A woman in a long gold ballgown crosses the muddy trailer park to the director's trailer. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `murder-on-the-film-set/photo-cam-1-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “CAM-1” at 14:10, from “Trailer park camera” in the detective mystery “Murder on the Film Set”: The same woman goes into the trailer next door. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `murder-on-the-film-set/photo-cam-1-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “CAM-1” at 14:15, from “Trailer park camera” in the detective mystery “Murder on the Film Set”: Through the production office window: K. Baron on the phone. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -1692,4 +1810,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 909 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 943 images delivered (one cover and six portraits per case, plus evidence photos).
