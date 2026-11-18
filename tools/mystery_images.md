@@ -2454,6 +2454,115 @@ Setting: At Whitmore Private Bank, manager Desmond Clarke was found dead inside 
 ### `murder-in-the-bank-vault/tom-gale.jpg`
 > Portrait of Tom Gale, IT technician, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
+## Death at the Polar Station (library – on the site now)
+
+Setting: At Halvorsen Research Station in Antarctica, glaciologist Dr Pieter Smit was found frozen outside the station.
+
+### `death-at-the-polar-station/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Polar Station” (murder): At Halvorsen Research Station in Antarctica, glaciologist Dr Pieter Smit was found frozen outside the station. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-polar-station/dr-hugo-brandt.jpg`
+> Portrait of Dr Hugo Brandt, Fellow scientist, a character in the detective mystery “Death at the Polar Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-polar-station/dr-lucy-fenn.jpg`
+> Portrait of Dr Lucy Fenn, Station doctor, a character in the detective mystery “Death at the Polar Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-polar-station/ingrid-dahl.jpg`
+> Portrait of Ingrid Dahl, Station leader, a character in the detective mystery “Death at the Polar Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-polar-station/joe-park.jpg`
+> Portrait of Joe Park, Communications, a character in the detective mystery “Death at the Polar Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-polar-station/kim-larsen.jpg`
+> Portrait of Kim Larsen, Lab technician, a character in the detective mystery “Death at the Polar Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-polar-station/sam-osei.jpg`
+> Portrait of Sam Osei, Mechanic, a character in the detective mystery “Death at the Polar Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-polar-station/photo-img-14.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_14” at 07:30, from “Joe's photo” in the detective mystery “Death at the Polar Station”: Lab sample freezer, behind Core 16: a radio battery labelled 'R-4 – SMIT'. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Murder at the Pharaoh Exhibition (library – on the site now)
+
+Setting: At the Kingsgate Museum, Egyptologist Dr Leonard Wise was found dead inside the replica tomb on the opening night of 'Gold of the Pharaohs'.
+
+### `murder-at-the-pharaoh-exhibition/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Pharaoh Exhibition” (murder): At the Kingsgate Museum, Egyptologist Dr Leonard Wise was found dead inside the replica tomb on the opening night of 'Gold of the Pharaohs'. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-pharaoh-exhibition/di-neha-joshi.jpg`
+> Portrait of DI Neha Joshi, Police, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-pharaoh-exhibition/jenny-cole.jpg`
+> Portrait of Jenny Cole, Journalist, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-pharaoh-exhibition/mo-rahim.jpg`
+> Portrait of Mo Rahim, Cleaner, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-pharaoh-exhibition/mr-peter-lowe.jpg`
+> Portrait of Mr Peter Lowe, Guest, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-pharaoh-exhibition/prof-diane-marsh.jpg`
+> Portrait of Prof. Diane Marsh, Rival Egyptologist, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-pharaoh-exhibition/rob-hayes.jpg`
+> Portrait of Rob Hayes, Audio guide manager, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-pharaoh-exhibition/photo-img-88.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “IMG_88” at 21:30, from “Mo's photo” in the detective mystery “Murder at the Pharaoh Exhibition”: Golden sand footprints from the tomb exit to the ladies' cloakroom. Inside: a pair of black heels with sand in the soles, a name tag 'D. MARSH' on the coat hook above them. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Death on the Santa Steam Train (library – on the site now)
+
+Setting: On the Moorvale Steam Railway's Santa Special, chairman Clive Hargreaves was found dead in the guard's van, struck with a coal shovel.
+
+### `death-on-the-santa-steam-train/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death on the Santa Steam Train” (murder): On the Moorvale Steam Railway's Santa Special, chairman Clive Hargreaves was found dead in the guard's van, struck with a coal shovel. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-on-the-santa-steam-train/barry-pike.jpg`
+> Portrait of Barry Pike, Volunteer playing Santa, a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-santa-steam-train/ds-ian-booth.jpg`
+> Portrait of DS Ian Booth, Transport police, a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-santa-steam-train/fred-wilde.jpg`
+> Portrait of Fred Wilde, Fireman (stoker), a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-santa-steam-train/megan-ross.jpg`
+> Portrait of Megan Ross, Volunteer elf, a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-santa-steam-train/mrs-lorna-kay.jpg`
+> Portrait of Mrs Lorna Kay, Passenger, a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-on-the-santa-steam-train/pat-ellis.jpg`
+> Portrait of Pat Ellis, Wardrobe, a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder at the Safari Lodge (library – on the site now)
+
+Setting: At Kingfisher Safari Lodge, owner Alistair Burke was found dead by the waterhole, struck with a heavy torch.
+
+### `murder-at-the-safari-lodge/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Safari Lodge” (murder): At Kingfisher Safari Lodge, owner Alistair Burke was found dead by the waterhole, struck with a heavy torch. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-safari-lodge/clara-holt.jpg`
+> Portrait of Clara Holt, Guest on night drive, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-safari-lodge/dr-sam-ade.jpg`
+> Portrait of Dr Sam Ade, Wildlife vet, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-safari-lodge/inspector-grace-ndlovu.jpg`
+> Portrait of Inspector Grace Ndlovu, Police, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-safari-lodge/jake-mbeki.jpg`
+> Portrait of Jake Mbeki, Head ranger, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-safari-lodge/mrs-fiona-burke.jpg`
+> Portrait of Mrs Fiona Burke, Alistair's wife, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-safari-lodge/thandi-khumalo.jpg`
+> Portrait of Thandi Khumalo, Ranger, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-safari-lodge/photo-trap3-2114.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “TRAP3_2114” at 21:14, from “Camera trap 3 – waterhole” in the detective mystery “Murder at the Safari Lodge”: Infrared: a man in a ranger's khaki uniform with a wide-brimmed hat, holding a big spotlight torch, walking towards the hide. Name badge glinting: 'JAKE'. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -3854,4 +3963,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 1523 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1554 images delivered (one cover and six portraits per case, plus evidence photos).
