@@ -20,6 +20,7 @@ $routes = [
     '#^/mysteries/([a-z0-9\-]+)/play$#'       => 'play',
     '#^/daily$#'                              => 'daily_redirect',
     '#^/game-night$#'                         => 'gn_index',
+    '#^/christmas-murder-mystery$#'           => 'christmas_page',
     '#^/escape$#'                             => 'escape_index',
     '#^/escape/([a-z0-9\-]+)$#'               => 'escape_landing',
     '#^/escape/([a-z0-9\-]+)/play$#'          => 'escape_play',
@@ -77,8 +78,8 @@ function home(): void {
     $u = current_user();
     $prog = $u ? user_progress((int)$u['id']) : [];
     $site = cfg('site_name');
-    page_start(['path' => '/', 'title' => 'Free murder mystery games & daily whodunit puzzles',
-        'description' => 'Free murder mystery games and detective puzzles. Crack a new whodunit every day online, print six clues for a mystery party, play family game nights or a free online escape room.',
+    page_start(['path' => '/', 'title' => 'Free Murder Mystery Games & Daily Detective Puzzles',
+        'description' => 'Free murder mystery games and detective puzzles for adults and families. Solve a new whodunit every day online, print a murder mystery party game, or play a free online escape room.',
         'jsonld' => [
         ['@context' => 'https://schema.org', '@type' => 'WebSite', 'name' => $site, 'url' => url('/'), 'description' => 'Free murder mystery games, daily detective puzzles, printable mystery party games and online escape rooms.'],
         ['@context' => 'https://schema.org', '@type' => 'ItemList', 'name' => 'Murder mystery games',
@@ -89,8 +90,8 @@ function home(): void {
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="kicker">Your daily mystery · free to play</p>
-      <h1>6 clues. 1 culprit.<br>Can you crack the case?</h1>
+      <p class="kicker">6 clues. 1 culprit. Can you crack the case?</p>
+      <h1>Free murder mystery games &amp; daily detective puzzles</h1>
       <p class="lead">A new detective case every day. Open the clues one by one, and accuse the culprit as soon as you're sure – the fewer clues you need, the higher you score. Then challenge your friends to beat you.</p>
       <?php if ($d): ?>
         <p class="cta-row"><a class="btn btn-big" href="/mysteries/<?= e($d['slug']) ?>/play" data-ga-click="daily_cta" data-ga-mystery="<?= e($d['slug']) ?>"><?= $dp && $dp['answered_at'] ? 'See your result' : ($dp ? 'Continue the case' : ($isD ? 'Play today\'s mystery' : 'Play today\'s featured case')) ?></a></p>
@@ -167,6 +168,13 @@ function home(): void {
 <section class="wrap"><h2>What detectives say</h2><?= render_reviews($rv) ?></section>
 <?php endif; ?>
 
+<?= faq_block([
+  ['Are the murder mystery games really free?', 'Yes. Every daily mystery, every case in the <a href="/mysteries">library</a>, every <a href="/game-night">Game Night</a> case file and every <a href="/escape">online escape room</a> is free to play. You don\'t even need an account to start.'],
+  ['How does a Six Clues mystery work?', 'Each case has six clues – a witness, a statement and a piece of evidence on each. Compare times, alibis and details, then name the culprit. Play online clue by clue, or print the six clue posters for a murder mystery party.'],
+  ['Can I print the murder mystery games?', 'Yes. Every case has a printable version with clue posters and a solution sheet, and the Game Night cases come as full printable cold case files with sealed envelopes.'],
+  ['Are the mysteries suitable for kids and families?', 'Level 1 cases are family-friendly detective puzzles for ages 8 and up. Level 2 and 3 are trickier whodunits for teens and adults.'],
+  ['Is there a new mystery every day?', 'Yes – a new daily mystery appears every day. Solve it with as few clues as you can and compare your score with friends.'],
+]) ?>
 <section class="wrap newsletter-box">
   <h2>A new case every day</h2>
   <p>Sign in once with Google or your email to save your progress. Tick the box when you submit an answer, and we'll email you about new mysteries now and then.</p>
@@ -805,10 +813,50 @@ function privacy(): void {
     page_end();
 }
 
+function christmas_page(): void {
+    $u = current_user();
+    $prog = $u ? user_progress((int)$u['id']) : [];
+    $re = '/christmas|santa|snow|winter|festive|frost|mince|carol/i';
+    $ms = array_values(array_filter(mysteries(), fn($m) => preg_match($re, $m['title'] . ' ' . $m['teaser'])));
+    $gns = array_values(array_filter(array_map('gn_case', gn_slugs()), fn($c) => $c && preg_match($re, $c['title'] . ' ' . $c['teaser'])));
+    page_start(['title' => 'Free Christmas Murder Mystery Games (Printable)', 'path' => '/christmas-murder-mystery',
+        'description' => 'Free Christmas murder mystery games for your holiday party: printable festive whodunits, a Christmas game night case file and online detective puzzles for families and adults.']);
+    ?>
+<section class="gn-hero">
+  <div class="wrap">
+    <p class="kicker">Holiday whodunits · free</p>
+    <h1>Free Christmas murder mystery games</h1>
+    <p class="lead">Looking for a Christmas murder mystery game for the family, the office party or a festive game night? These free whodunits are set at Christmas markets, snowy villages and winter fairs. Print the clues and hide them under the tree, or play online on the sofa.</p>
+  </div>
+</section>
+<?php if ($gns): ?>
+<section class="wrap"><h2>Christmas game night case files</h2><p>Full printable cold case files with sealed envelopes – for 2–8 players.</p><div class="grid"><?php foreach ($gns as $c) echo gn_card($c, $u); ?></div></section>
+<?php endif; ?>
+<section class="wrap"><h2>Festive mysteries to play online or print</h2><p>Each case has six clues and one culprit. Level 1 cases are family-friendly; level 3 will fool the grown-ups.</p>
+  <div class="grid"><?php foreach ($ms as $m) echo mystery_card($m, $prog); ?></div>
+  <p>Want more? Browse all <a href="/mysteries">free murder mystery games</a>, the <a href="/game-night">Game Night case files</a> or our <a href="/escape">free online escape rooms</a>.</p>
+</section>
+<?= faq_block([
+  ['How do I host a Christmas murder mystery party?', 'Pick a case, print the clues and hide them around the room or under the tree. Your guests find the clues, compare the alibis and vote on the culprit – then reveal the solution. It takes 15 minutes to set up.'],
+  ['Are these Christmas murder mysteries suitable for kids?', 'The level 1 cases are family-friendly detective puzzles with no gore – great for children from about 8. Level 2 and 3 cases are aimed at teens and adults.'],
+  ['Are they really free?', 'Yes – every case, printable and online, is free. No download or sign-up needed.'],
+], 'Christmas murder mystery – questions') ?>
+<?php
+    page_end();
+}
+
+/** FAQ block with FAQPage structured data. $qa = [[question, answer-html], ...] */
+function faq_block(array $qa, string $heading = 'Questions & answers'): string {
+    $ld = ['@context' => 'https://schema.org', '@type' => 'FAQPage', 'mainEntity' => array_map(fn($x) => ['@type' => 'Question', 'name' => $x[0], 'acceptedAnswer' => ['@type' => 'Answer', 'text' => strip_tags($x[1])]], $qa)];
+    $h = '<section class="wrap faq"><h2>' . e($heading) . '</h2>';
+    foreach ($qa as $x) $h .= '<details><summary>' . e($x[0]) . '</summary><p>' . $x[1] . '</p></details>';
+    return $h . '<script type="application/ld+json">' . json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . '</script></section>';
+}
+
 function sitemap(): void {
     header('Content-Type: application/xml; charset=utf-8');
     echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n" . '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
-    $urls = ['/', '/mysteries', '/game-night', '/escape', '/rankings', '/privacy'];
+    $urls = ['/', '/mysteries', '/game-night', '/escape', '/christmas-murder-mystery', '/rankings', '/privacy'];
     foreach (gn_slugs() as $g) $urls[] = '/game-night/' . $g;
     foreach (ESCAPE_ROOMS as $s => $r) if (empty($r['draft'])) $urls[] = '/escape/' . $s;
     foreach (mysteries() as $m) { $urls[] = '/mysteries/' . $m['slug']; $urls[] = '/mysteries/' . $m['slug'] . '/play'; }
@@ -1188,15 +1236,15 @@ function gn_index(): void {
     $lvl = (int)($_GET['level'] ?? 0);
     $shown = $lvl ? array_values(array_filter($cases, fn($c) => (int)$c['level'] === $lvl)) : $cases;
     $feat = gn_case('the-last-invitation') ?: $cases[0];
-    page_start(['title' => 'Game Night – free printable murder mystery party games for 2–6 players', 'path' => '/game-night',
-        'description' => 'Full evening cases for your table: print the case file, open the sealed envelopes and crack the mystery together. Free – easy, medium and hard cases for 2–6 detectives.']);
+    page_start(['title' => 'Free Printable Murder Mystery Games for Game Night', 'path' => '/game-night',
+        'description' => 'Free printable murder mystery games for game night: print a cold case file, open the sealed envelopes and solve it together. Easy to hard cases for 2–6 players, adults and families.']);
     ?>
 <section class="gn-hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="kicker">Game Night · free</p>
-      <h1>One evening. One table. One case to crack together.</h1>
-      <p class="lead">Game Night cases are bigger than our daily mysteries: a full case file with police reports, interviews, logs and lab results, plus sealed envelopes you open as the evidence builds up. Print it, pour the drinks, and solve it as a team.</p>
+      <p class="kicker">Game Night · one evening, one table, one case</p>
+      <h1>Free printable murder mystery games for game night</h1>
+      <p class="lead">Each Game Night case is a complete cold case file – police reports, interviews, logs and lab results – plus sealed envelopes you open as the evidence builds up. Print it at home, pour the drinks and solve the murder mystery as a team. Perfect for a murder mystery party, date night or family game night – or try our <a href="/christmas-murder-mystery">Christmas murder mysteries</a>.</p>
       <ul class="gn-facts"><li>⏱ 90–150 minutes</li><li>👥 2–6 detectives</li><li>🖨 Print at home</li><li>✉️ Sealed envelopes</li></ul>
       <p class="cta-row"><a class="btn btn-big" href="#cases">Choose a case</a></p>
     </div>
@@ -1229,6 +1277,15 @@ function gn_index(): void {
   </ol>
   <p class="small muted">All names, companies and events in Game Night cases are fictional.</p>
 </section>
+<?php
+?>
+<?= faq_block([
+  ['Are the printable murder mystery games free?', 'Yes. Every Game Night case file is free to print and play – no sign-up needed to read the case, and the online answer check is free too.'],
+  ['How many players do I need?', 'Most cases work for 2–6 players. Work as one team, or split the documents between you and argue it out.'],
+  ['How long does a Game Night case take?', 'Plan 60–150 minutes depending on the level. Level 1 is a relaxed first game night; level 3 cases are layered cold case files for experienced detectives.'],
+  ['How do the sealed envelopes work?', 'You start with the first folder. When your table can answer a checkpoint question, you open the next envelope with new evidence – just like a real investigation.'],
+  ['Can we play a murder mystery party with these?', 'Yes – print the case file, set the table, and let your guests be the detectives. It\'s a murder mystery party where everyone investigates instead of acting.'],
+]) ?>
 <?php
     page_end();
 }
@@ -1541,16 +1598,16 @@ function gn_play(string $slug): void {
 // ===================== ESCAPE ROOMS =====================
 
 function escape_index(): void {
-    page_start(['title' => 'Free online escape rooms – play in your browser', 'path' => '/escape',
+    page_start(['title' => 'Free Online Escape Rooms – Play in Your Browser', 'path' => '/escape',
         'jsonld' => [['@context' => 'https://schema.org', '@type' => 'ItemList', 'name' => 'Free online escape rooms',
             'itemListElement' => array_values(array_map(fn($s, $k) => ['@type' => 'ListItem', 'position' => $k + 1, 'url' => url('/escape/' . $s), 'name' => escape_rooms()[$s]['title']], array_keys(escape_rooms()), array_keys(array_keys(escape_rooms()))))]],
-        'description' => 'Free point-and-click escape rooms in your browser: explore, collect clues, crack the locks and get out before the clock runs out.']);
+        'description' => 'Free online escape rooms: point-and-click escape games you play in your browser at home – no download, no sign-up. Search the rooms, crack the locks and escape before time runs out.']);
     ?>
 <section class="gn-hero">
   <div class="wrap">
-    <p class="kicker">Escape rooms · free · new</p>
-    <h1>Sixty minutes. Three rooms. Can you get out?</h1>
-    <p class="lead">Point-and-click escape rooms you play in the browser, alone or together around one screen. Search the rooms, combine what you find, crack the locks – and beat the clock.</p>
+    <p class="kicker">Sixty minutes. Can you get out?</p>
+    <h1>Free online escape rooms</h1>
+    <p class="lead">Point-and-click escape games you play in your browser – an escape room at home, alone or together around one screen. No download and no sign-up: search the rooms, combine what you find, crack the locks and beat the clock.</p>
   </div>
 </section>
 <section class="wrap">
@@ -1562,6 +1619,14 @@ function escape_index(): void {
   <?php endforeach; ?>
   </div>
 </section>
+<?php
+?>
+<?= faq_block([
+  ['Are these online escape rooms free?', 'Yes, every escape room on Six Clues is free to play in your browser. There is nothing to download and you don\'t need an account.'],
+  ['How long does an online escape room take?', 'Most rooms are designed for about 60 minutes. You can pause and come back later – your progress is saved in the browser.'],
+  ['Can I play an escape room at home with friends?', 'Yes. Gather around one screen – a laptop, tablet or TV – and solve the puzzles together. They work on phones too.'],
+  ['What if we get stuck?', 'Every room has hints. Use as many as you like – but the fewer you use, the better your time.'],
+]) ?>
 <?php
     page_end();
 }
@@ -1669,7 +1734,7 @@ function library(): void {
     $u = current_user();
     $prog = $u ? user_progress((int)$u['id']) : [];
     $all = mysteries();
-    page_start(['title' => 'Free murder mystery games – the case library', 'path' => '/mysteries',
+    page_start(['title' => 'Free Whodunit Puzzles – Murder Mystery Case Library', 'path' => '/mysteries',
         'description' => count($all) . ' free murder mystery games and detective puzzles. Play each whodunit online clue by clue, or print the six clue posters for a mystery party at home, school or the office.',
         'jsonld' => [['@context' => 'https://schema.org', '@type' => 'ItemList', 'name' => 'Free murder mystery games',
             'itemListElement' => array_map(fn($m, $k) => ['@type' => 'ListItem', 'position' => $k + 1, 'url' => url('/mysteries/' . $m['slug']), 'name' => $m['title']], $all, array_keys($all))]]]);
