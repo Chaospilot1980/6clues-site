@@ -862,7 +862,7 @@ function admin_smtp(): void {
         $msg = $ok ? 'Saved – test mail sent to ' . $u['email'] . '.' : 'Saved, but sending failed: ' . ($GLOBALS['smtp_error'] ?? '?');
     }
     page_start(['title' => 'Mail settings', 'noindex' => true, 'path' => '/admin/smtp']);
-    echo '<section class="wrap narrow"><h1>Mail settings</h1><p>Mail is sent through websmtp.simply.com as <b>' . e(cfg('contact_email')) . '</b>. Status: ' . (smtp_conf() ? 'password saved' : '<b>no password yet</b>') . '.</p>';
+    echo '<section class="wrap narrow"><h1>Mail settings</h1><p>Mail is sent through websmtp.simply.com as <b>' . e(cfg('contact_email')) . '</b>. Status: ' . (($sc = smtp_conf()) ? 'password saved for login <b>' . e($sc['user']) . '</b>' : '<b>no password yet</b>') . '. Leave the password empty to just send a new test.</p>';
     if ($msg) echo '<p class="lead">' . e($msg) . '</p>';
     echo '<form method="post"><input type="hidden" name="csrf" value="' . e(csrf_token()) . '"><label>Mailbox (login)<br><input name="user" value="mail@6clues.com" style="width:100%"></label><label>Mailbox password<br><input type="password" name="pass" autocomplete="new-password" style="width:100%"></label><p><button class="btn">Save and send test mail</button></p></form></section>';
     page_end();
