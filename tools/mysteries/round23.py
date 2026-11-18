@@ -188,7 +188,7 @@ brewery = {
 haunted = {
  "slug": "murder-at-the-haunted-hotel", "level": 3, "crime": "MURDER", "who": "killer", "added": ADDED,
  "caseno": "CASE NO. 157", "title_html": "MURDER AT THE<br>HAUNTED HOTEL", "title_plain": "Murder at the Haunted Hotel",
- "teaser": "A ghost-hunting TV host dies during a live overnight broadcast. The 'ghost' on camera wore very real shoes – and the night-vision footage has a timestamp problem.",
+ "teaser": "A ghost-hunting TV host dies during a live overnight show. The 'ghost' on camera wore very real shoes – and one alibi was never live at all.",
  "intro": "At the <b>Blackmoor Hall Hotel</b>, famous for its ghost, TV presenter Rex Harlow was found dead on the main staircase during his live overnight show 'Spirit Hunters'. " + STD,
  "clues": [
   {"name": "DS Neil Ford", "role": "Police", "label": "POLICE REPORT",

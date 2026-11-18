@@ -519,6 +519,112 @@ Setting: At Summit Climbing Centre, owner Will Hartley was found dead at the foo
 ### `death-at-the-climbing-wall/sophie-hartley.jpg`
 > Portrait of Sophie Hartley, Will's wife, a character in the detective mystery “Death at the Climbing Wall”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
+## The Sports Day Medals (library – on the site now)
+
+Setting: At the Oakfield Village Sports Day, a box of 30 gold medals disappeared from the prize tent during the egg-and-spoon race.
+
+### `the-sports-day-medals/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Sports Day Medals” (theft): At the Oakfield Village Sports Day, a box of 30 gold medals disappeared from the prize tent during the egg-and-spoon race. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-sports-day-medals/gran-ivy-bell.jpg`
+> Portrait of Gran Ivy Bell, Spectator, a character in the detective mystery “The Sports Day Medals”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-sports-day-medals/lucy-watts.jpg`
+> Portrait of Lucy Watts, Jam stall holder, a character in the detective mystery “The Sports Day Medals”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-sports-day-medals/mr-barry-hope.jpg`
+> Portrait of Mr Barry Hope, Medal maker, a character in the detective mystery “The Sports Day Medals”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-sports-day-medals/mr-sam-grant.jpg`
+> Portrait of Mr Sam Grant, Egg-and-spoon starter, a character in the detective mystery “The Sports Day Medals”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-sports-day-medals/mr-tom-fry.jpg`
+> Portrait of Mr Tom Fry, Hat stall holder, a character in the detective mystery “The Sports Day Medals”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-sports-day-medals/mrs-kate-doyle.jpg`
+> Portrait of Mrs Kate Doyle, Organiser, a character in the detective mystery “The Sports Day Medals”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-sports-day-medals/photo-pic-33.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “PIC_33” at 14:08, from “Ivy's camera” in the detective mystery “The Sports Day Medals”: Grandson running with his egg. Behind him, a man without a hat comes out of the back of the prize tent carrying a box under his arm. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Farmers' Market Scales (library – on the site now)
+
+Setting: At the Ashcombe Farmers' Market, a customer complained that a 'one-pound' jar of honey weighed only 380 grams.
+
+### `the-farmers-market-scales/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Farmers' Market Scales” (fraud): At the Ashcombe Farmers' Market, a customer complained that a 'one-pound' jar of honey weighed only 380 grams. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-farmers-market-scales/aisha-khan.jpg`
+> Portrait of Aisha Khan, Spice seller, a character in the detective mystery “The Farmers' Market Scales”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-farmers-market-scales/bryn-lee.jpg`
+> Portrait of Bryn Lee, Cheese seller, a character in the detective mystery “The Farmers' Market Scales”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-farmers-market-scales/frank-moor.jpg`
+> Portrait of Frank Moor, Market manager, a character in the detective mystery “The Farmers' Market Scales”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-farmers-market-scales/holly-burns.jpg`
+> Portrait of Holly Burns, Honey seller, a character in the detective mystery “The Farmers' Market Scales”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-farmers-market-scales/mrs-joy-elms.jpg`
+> Portrait of Mrs Joy Elms, Shopper, a character in the detective mystery “The Farmers' Market Scales”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-farmers-market-scales/officer-dev-patel.jpg`
+> Portrait of Officer Dev Patel, Trading standards officer, a character in the detective mystery “The Farmers' Market Scales”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death at the Brewery (library – on the site now)
+
+Setting: At Old Mill Brewery, master brewer Douglas Reid was found dead in the sealed fermenting room.
+
+### `death-at-the-brewery/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Brewery” (murder): At Old Mill Brewery, master brewer Douglas Reid was found dead in the sealed fermenting room. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-brewery/callum-reid.jpg`
+> Portrait of Callum Reid, Douglas's nephew, assistant brewer, a character in the detective mystery “Death at the Brewery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-brewery/di-helen-marsh.jpg`
+> Portrait of DI Helen Marsh, Police, a character in the detective mystery “Death at the Brewery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-brewery/gus-fraser.jpg`
+> Portrait of Gus Fraser, Delivery driver, a character in the detective mystery “Death at the Brewery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-brewery/mairi-shaw.jpg`
+> Portrait of Mairi Shaw, Brewery manager, a character in the detective mystery “Death at the Brewery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-brewery/ollie-brandt.jpg`
+> Portrait of Ollie Brandt, Gym receptionist, a character in the detective mystery “Death at the Brewery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-brewery/rhona-kerr.jpg`
+> Portrait of Rhona Kerr, Cleaner, a character in the detective mystery “Death at the Brewery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Murder at the Haunted Hotel (library – on the site now)
+
+Setting: At the Blackmoor Hall Hotel, famous for its ghost, TV presenter Rex Harlow was found dead on the main staircase during his live overnight show 'Spirit Hunters'.
+
+### `murder-at-the-haunted-hotel/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Haunted Hotel” (murder): At the Blackmoor Hall Hotel, famous for its ghost, TV presenter Rex Harlow was found dead on the main staircase during his live overnight show 'Spirit Hunters'. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-haunted-hotel/bella-rhys.jpg`
+> Portrait of Bella Rhys, Producer, a character in the detective mystery “Murder at the Haunted Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-haunted-hotel/carla-vance.jpg`
+> Portrait of Carla Vance, Co-presenter, a character in the detective mystery “Murder at the Haunted Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-haunted-hotel/dan-pryce.jpg`
+> Portrait of Dan Pryce, Camera operator, a character in the detective mystery “Murder at the Haunted Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-haunted-hotel/ds-neil-ford.jpg`
+> Portrait of DS Neil Ford, Police, a character in the detective mystery “Murder at the Haunted Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-haunted-hotel/kai-lund.jpg`
+> Portrait of Kai Lund, Runner, a character in the detective mystery “Murder at the Haunted Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-haunted-hotel/olive-grey.jpg`
+> Portrait of Olive Grey, Hotel owner, a character in the detective mystery “Murder at the Haunted Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-haunted-hotel/photo-cam-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-3” at 02:47, from “Staircase camera 3 – night vision” in the detective mystery “Murder at the Haunted Hotel”: A pale figure in a long white sheet at the top of the stairs, beside Rex. Beneath the sheet: a pair of bright gold trainers. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -1919,4 +2025,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 974 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1004 images delivered (one cover and six portraits per case, plus evidence photos).
