@@ -410,6 +410,115 @@ Setting: On the set of the period drama “The Winter Palace”, director Simon 
 ### `murder-on-the-film-set/photo-cam-1-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CAM-1” at 14:15, from “Trailer park camera” in the detective mystery “Murder on the Film Set”: Through the production office window: K. Baron on the phone. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## The Dog Show Trophy (library – on the site now)
+
+Setting: At the Meadowford Village Dog Show, the silver Best in Show cup disappeared from the prize table in the marquee half an hour before the final judging.
+
+### `the-dog-show-trophy/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Dog Show Trophy” (theft): At the Meadowford Village Dog Show, the silver Best in Show cup disappeared from the prize table in the marquee half an hour before the final judging. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-dog-show-trophy/ben-ford.jpg`
+> Portrait of Ben Ford, Car park attendant, a character in the detective mystery “The Dog Show Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-dog-show-trophy/colin-rudd.jpg`
+> Portrait of Colin Rudd, Exhibitor, a character in the detective mystery “The Dog Show Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-dog-show-trophy/jo-lane.jpg`
+> Portrait of Jo Lane, Exhibitor, a character in the detective mystery “The Dog Show Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-dog-show-trophy/mr-neil-shah.jpg`
+> Portrait of Mr Neil Shah, Judge, a character in the detective mystery “The Dog Show Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-dog-show-trophy/mrs-pam-hughes.jpg`
+> Portrait of Mrs Pam Hughes, Show secretary, a character in the detective mystery “The Dog Show Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-dog-show-trophy/sue-barker.jpg`
+> Portrait of Sue Barker, Ring steward, a character in the detective mystery “The Dog Show Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Ice-Cream Van Takings (library – on the site now)
+
+Setting: On Saltby seafront, ice-cream seller Gino Russo's bank-holiday takings – £1,840 in a cash bag – disappeared from his van while he was helping at a rescue on the beach.
+
+### `the-ice-cream-van-takings/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Ice-Cream Van Takings” (theft): On Saltby seafront, ice-cream seller Gino Russo's bank-holiday takings – £1,840 in a cash bag – disappeared from his van while he was helping at a rescue on the beach. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-ice-cream-van-takings/eli-watts.jpg`
+> Portrait of Eli Watts, Harbour master, a character in the detective mystery “The Ice-Cream Van Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-cream-van-takings/gino-russo.jpg`
+> Portrait of Gino Russo, Ice-cream seller, a character in the detective mystery “The Ice-Cream Van Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-cream-van-takings/kelly-moss.jpg`
+> Portrait of Kelly Moss, Gino's assistant, a character in the detective mystery “The Ice-Cream Van Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-cream-van-takings/marco-russo.jpg`
+> Portrait of Marco Russo, Gino's cousin, a character in the detective mystery “The Ice-Cream Van Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-cream-van-takings/paul-grant.jpg`
+> Portrait of Paul Grant, Deckchair attendant, a character in the detective mystery “The Ice-Cream Van Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-ice-cream-van-takings/rita-dunn.jpg`
+> Portrait of Rita Dunn, Fish-and-chip shop owner, a character in the detective mystery “The Ice-Cream Van Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death at the Lido (library – on the site now)
+
+Setting: At the Brockley Art Deco Lido, owner Raymond Pike was found drowned in the deep end at 06:45, fifteen minutes before the early swimmers arrived.
+
+### `death-at-the-lido/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Lido” (murder): At the Brockley Art Deco Lido, owner Raymond Pike was found drowned in the deep end at 06:45, fifteen minutes before the early swimmers arrived. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-lido/donna-shaw.jpg`
+> Portrait of Donna Shaw, Pool technician, a character in the detective mystery “Death at the Lido”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-lido/ds-amina-yusuf.jpg`
+> Portrait of DS Amina Yusuf, Police, a character in the detective mystery “Death at the Lido”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-lido/gary-pike.jpg`
+> Portrait of Gary Pike, Raymond's son, manager, a character in the detective mystery “Death at the Lido”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-lido/nora-pike.jpg`
+> Portrait of Nora Pike, Raymond's ex-wife, a character in the detective mystery “Death at the Lido”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-lido/sam-lee.jpg`
+> Portrait of Sam Lee, Lifeguard, a character in the detective mystery “Death at the Lido”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-lido/theo-grant.jpg`
+> Portrait of Theo Grant, Bakery delivery driver, a character in the detective mystery “Death at the Lido”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-lido/photo-cam-5.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-5” at 06:06, from “Plant room door camera” in the detective mystery “Death at the Lido”: D. Shaw enters the plant room. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `death-at-the-lido/photo-cam-5-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-5” at 06:09, from “Plant room door camera” in the detective mystery “Death at the Lido”: D. Shaw leaves the plant room, towards the pool, in her technician's overalls. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `death-at-the-lido/photo-cam-5-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “CAM-5” at 06:16, from “Plant room door camera” in the detective mystery “Death at the Lido”: D. Shaw comes back into the plant room. Her overalls are soaked from the chest down. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Death at the Climbing Wall (library – on the site now)
+
+Setting: At Summit Climbing Centre, owner Will Hartley was found dead at the foot of the 15-metre lead wall after the gym had closed for the night.
+
+### `death-at-the-climbing-wall/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Climbing Wall” (murder): At Summit Climbing Centre, owner Will Hartley was found dead at the foot of the 15-metre lead wall after the gym had closed for the night. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-climbing-wall/ana-silva.jpg`
+> Portrait of Ana Silva, Cleaner, a character in the detective mystery “Death at the Climbing Wall”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-climbing-wall/di-mark-osei.jpg`
+> Portrait of DI Mark Osei, Police, a character in the detective mystery “Death at the Climbing Wall”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-climbing-wall/josh-hartley.jpg`
+> Portrait of Josh Hartley, Will's brother, co-owner, a character in the detective mystery “Death at the Climbing Wall”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-climbing-wall/kira-brand.jpg`
+> Portrait of Kira Brand, Route setter, a character in the detective mystery “Death at the Climbing Wall”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-climbing-wall/leo-marsh.jpg`
+> Portrait of Leo Marsh, Bookkeeper, a character in the detective mystery “Death at the Climbing Wall”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-climbing-wall/sophie-hartley.jpg`
+> Portrait of Sophie Hartley, Will's wife, a character in the detective mystery “Death at the Climbing Wall”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -1810,4 +1919,4 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 446 of 943 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 974 images delivered (one cover and six portraits per case, plus evidence photos).
