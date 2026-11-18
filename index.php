@@ -50,6 +50,7 @@ $routes = [
     '#^/admin/reviews$#'                      => 'admin_reviews',
     '#^/admin/growth$#'                       => 'admin_growth',
     '#^/admin/outreach$#'                     => 'admin_outreach',
+    '#^/admin/smtp$#'                         => 'admin_smtp',
     '#^/event$#'                              => 'event_endpoint',
     '#^/privacy$#'                            => 'privacy',
     '#^/sitemap\.xml$#'                       => 'sitemap',
@@ -846,6 +847,27 @@ function christmas_page(): void {
     page_end();
 }
 
+/** Admin: store the SMTP mailbox password (typed by the site owner) outside the web root, and send a test mail. */
+function admin_smtp(): void {
+    if (!is_admin()) { not_found(); return; }
+    $f = dirname(__DIR__) . '/data/smtp.json'; $msg = '';
+    if ($_SERVER["REQUEST_METHOD"] === "POST") { csrf_check();
+        if (($_POST['pass'] ?? '') !== '') {
+            @mkdir(dirname($f), 0700, true);
+            file_put_contents($f, json_encode(['host' => 'websmtp.simply.com', 'port' => 587, 'user' => (string)cfg('contact_email'), 'pass' => (string)$_POST['pass']]));
+            @chmod($f, 0600);
+        }
+        $u = current_user();
+        $ok = smtp_send($u['email'], 'Six Clues SMTP test', "If you can read this, 6clues.com can send mail.\n\n– Six Clues", [(string)cfg('contact_email'), 'Six Clues']);
+        $msg = $ok ? 'Saved – test mail sent to ' . $u['email'] . '.' : 'Saved, but sending failed: ' . ($GLOBALS['smtp_error'] ?? '?');
+    }
+    page_start(['title' => 'Mail settings', 'noindex' => true, 'path' => '/admin/smtp']);
+    echo '<section class="wrap narrow"><h1>Mail settings</h1><p>Mail is sent through websmtp.simply.com as <b>' . e(cfg('contact_email')) . '</b>. Status: ' . (smtp_conf() ? 'password saved' : '<b>no password yet</b>') . '.</p>';
+    if ($msg) echo '<p class="lead">' . e($msg) . '</p>';
+    echo '<form method="post"><input type="hidden" name="csrf" value="' . e(csrf_token()) . '"><label>Mailbox password for ' . e(cfg('contact_email')) . '<br><input type="password" name="pass" autocomplete="new-password" style="width:100%"></label><p><button class="btn">Save and send test mail</button></p></form></section>';
+    page_end();
+}
+
 /** Link-building outreach: admin-only. POST JSON {to, subject, body} sends one personal mail from hello@6clues.com; GET lists the log. */
 function admin_outreach(): void {
     if (!is_admin()) { not_found(); return; }
@@ -860,11 +882,10 @@ function admin_outreach(): void {
     if (!filter_var($to, FILTER_VALIDATE_EMAIL) || $subject === '' || $body === '' || preg_match('/[\r\n]/', $to . $subject)) { http_response_code(400); echo '{"ok":false,"error":"bad input"}'; return; }
     if (is_file($log) && str_contains((string)file_get_contents($log), '"to":"' . $to . '"')) { http_response_code(409); echo '{"ok":false,"error":"already contacted"}'; return; }
     $from = (string)cfg('contact_email');
-    $headers = "From: Dennis, Six Clues <$from>\r\nReply-To: $from\r\nContent-Type: text/plain; charset=UTF-8\r\nMIME-Version: 1.0\r\n";
-    $ok = mail($to, '=?UTF-8?B?' . base64_encode($subject) . '?=', str_replace("\n", "\r\n", str_replace("\r\n", "\n", $body)), $headers, '-f' . $from);
+    $ok = smtp_send($to, $subject, $body, [$from, 'Dennis, Six Clues'], ["Reply-To: $from"]);
     @mkdir(dirname($log), 0755, true);
     file_put_contents($log, json_encode(['at' => gmdate('c'), 'to' => $to, 'subject' => $subject, 'ok' => $ok], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . "\n", FILE_APPEND);
-    echo json_encode(['ok' => $ok]);
+    echo json_encode(['ok' => $ok, 'error' => $ok ? null : ($GLOBALS['smtp_error'] ?? null)]);
 }
 
 /** FAQ block with FAQPage structured data. $qa = [[question, answer-html], ...] */

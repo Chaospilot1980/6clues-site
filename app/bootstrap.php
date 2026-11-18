@@ -8,6 +8,7 @@ if (!is_file($cfgFile)) {
 }
 $CFG = require $cfgFile;
 
+require_once __DIR__ . '/smtp.php';
 function cfg(string $k, $default = null) { global $CFG; return $CFG[$k] ?? $default; }
 function e($s): string { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
 function url(string $path = '/'): string { return rtrim((string)cfg('base_url'), '/') . $path; }
@@ -274,8 +275,7 @@ function send_login_link(string $email, string $name, bool $newsletter, string $
     $site = (string)cfg('site_name');
     $from = (string)cfg('contact_email');
     $body = "Hi " . ($name ?: 'detective') . ",\r\n\r\nClick the link below to sign in to $site. It works for one hour.\r\n\r\n$link\r\n\r\nIf you didn't ask for this, just ignore this email.\r\n\r\n– $site";
-    $headers = "From: $site <$from>\r\nReply-To: $from\r\nContent-Type: text/plain; charset=UTF-8\r\n";
-    return mail($email, "Your sign-in link for $site", $body, $headers, '-f' . $from);
+    return smtp_send($email, "Your sign-in link for $site", $body, [$from, $site], ["Reply-To: $from"]);
 }
 
 function app_secret(): string {
@@ -295,9 +295,7 @@ function send_newsletter_mail(array $user, string $subject, string $body): bool 
     $text = str_replace('{name}', $user['name'] ?: 'detective', $body);
     $unsub = unsub_url((int)$user['id']);
     $text .= "\r\n\r\n--\r\nYou get this email because you asked to hear about new mysteries on $site.\r\nUnsubscribe with one click: $unsub\r\n";
-    $headers = "From: $site <$from>\r\nReply-To: $from\r\nContent-Type: text/plain; charset=UTF-8\r\n"
-             . "List-Unsubscribe: <$unsub>\r\nList-Unsubscribe-Post: List-Unsubscribe=One-Click\r\n";
-    return mail($user['email'], $subject, $text, $headers, '-f' . $from);
+    return smtp_send($user['email'], $subject, $text, [$from, $site], ["Reply-To: $from", "List-Unsubscribe: <$unsub>", "List-Unsubscribe-Post: List-Unsubscribe=One-Click"]);
 }
 
 /** Approved reviews with first name, newest first. */
