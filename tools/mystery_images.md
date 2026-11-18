@@ -1362,5 +1362,117 @@ Setting: In the Norwegian resort of Fjellstua, lodge owner Henrik Aas was found 
 ### `death-at-the-ski-lodge/photo-dsc-0627.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “DSC_0627” at 14:38, from “Mette's camera – top station” in the detective mystery “Death at the Ski Lodge”: The wax-room door, shut. Nobody in sight. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
+## Death at the Glassworks (daily case 2026-12-27)
+
+Setting: At Lyle Glassworks, master glassblower Owen Lyle was found dead in the annealing room on a weekday afternoon, while a tour group watched the furnace next door.
+
+### `death-at-the-glassworks/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Glassworks” (murder): At Lyle Glassworks, master glassblower Owen Lyle was found dead in the annealing room on a weekday afternoon, while a tour group watched the furnace next door. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-glassworks/bea-kim.jpg`
+> Portrait of Bea Kim, Showroom assistant, a character in the detective mystery “Death at the Glassworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-glassworks/jack-price.jpg`
+> Portrait of Jack Price, Apprentice, a character in the detective mystery “Death at the Glassworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-glassworks/jenny-price.jpg`
+> Portrait of Jenny Price, Designer (no relation to Jack), a character in the detective mystery “Death at the Glassworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-glassworks/mags-lyle.jpg`
+> Portrait of Mags Lyle, Owen's wife, a character in the detective mystery “Death at the Glassworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-glassworks/rhys-owen.jpg`
+> Portrait of Rhys Owen, Rival glassblower, a character in the detective mystery “Death at the Glassworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-glassworks/tom-hart.jpg`
+> Portrait of Tom Hart, Tour photographer, a character in the detective mystery “Death at the Glassworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-glassworks/photo-img-7702.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “IMG_7702” at 14:20, from “Tom's camera – afternoon tour” in the detective mystery “Death at the Glassworks”: Twelve visitors gathered round the main furnace. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `death-at-the-glassworks/photo-img-7709.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “IMG_7709” at 14:35, from “Tom's camera – afternoon tour” in the detective mystery “Death at the Glassworks”: The apprentice, Jack Price, gathering a glowing blob of glass at the furnace. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+### `death-at-the-glassworks/photo-img-7716.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Grainy black-and-white security-camera still with a wide-angle lens – “IMG_7716” at 14:50, from “Tom's camera – afternoon tour” in the detective mystery “Death at the Glassworks”: The tour group in the gift shop. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Cup Final Tickets (daily case 2026-12-28)
+
+Setting: At Northbridge Rovers FC, forty tickets for the county cup final – block K, seats 101 to 140 – were stolen from the ticket-office safe overnight.
+
+### `the-cup-final-tickets/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Cup Final Tickets” (theft): At Northbridge Rovers FC, forty tickets for the county cup final – block K, seats 101 to 140 – were stolen from the ticket-office safe overnight. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-cup-final-tickets/dale-morgan.jpg`
+> Portrait of Dale Morgan, Club steward, a character in the detective mystery “The Cup Final Tickets”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-cup-final-tickets/gaz-hill.jpg`
+> Portrait of Gaz Hill, Ticket reseller, a character in the detective mystery “The Cup Final Tickets”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-cup-final-tickets/joan-pike.jpg`
+> Portrait of Joan Pike, Ticket-office clerk, a character in the detective mystery “The Cup Final Tickets”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-cup-final-tickets/mo-kaur.jpg`
+> Portrait of Mo Kaur, Cleaner, a character in the detective mystery “The Cup Final Tickets”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-cup-final-tickets/priya-sood.jpg`
+> Portrait of Priya Sood, Club secretary, a character in the detective mystery “The Cup Final Tickets”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-cup-final-tickets/steve-lam.jpg`
+> Portrait of Steve Lam, Head of security, a character in the detective mystery “The Cup Final Tickets”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Bowls Club Burglary (daily case 2026-12-29)
+
+Setting: At Kingsbury Bowls Club, the silver cups were stolen from the pavilion trophy cabinet on a Saturday afternoon while most members were at an away match.
+
+### `the-bowls-club-burglary/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Bowls Club Burglary” (burglary): At Kingsbury Bowls Club, the silver cups were stolen from the pavilion trophy cabinet on a Saturday afternoon while most members were at an away match. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-bowls-club-burglary/doreen-hale.jpg`
+> Portrait of Doreen Hale, Club captain, a character in the detective mystery “The Bowls Club Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-bowls-club-burglary/iris-bell.jpg`
+> Portrait of Iris Bell, Bar steward, a character in the detective mystery “The Bowls Club Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-bowls-club-burglary/ken-wu.jpg`
+> Portrait of Ken Wu, Groundsman, a character in the detective mystery “The Bowls Club Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-bowls-club-burglary/neil-pratt.jpg`
+> Portrait of Neil Pratt, Club treasurer, a character in the detective mystery “The Bowls Club Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-bowls-club-burglary/pam-shaw.jpg`
+> Portrait of Pam Shaw, Club member, a character in the detective mystery “The Bowls Club Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-bowls-club-burglary/tony-marsh.jpg`
+> Portrait of Tony Marsh, Club member, a character in the detective mystery “The Bowls Club Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-bowls-club-burglary/photo-print.jpg`  (evidence photo, 1024 × 768 px, 4:3)
+> Candid snapshot as taken with that camera – “PRINT” at –, from “Neil's printed photo” in the detective mystery “The Bowls Club Burglary”: Saltby beach in bright sunshine, deckchairs out, the pier clock showing ten past three. No date on the print. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## Murder at the Chess Congress (daily case 2026-12-30)
+
+Setting: At the Easthaven Chess Congress, organiser Lionel Gray was found dead in the analysis room in the middle of round five.
+
+### `murder-at-the-chess-congress/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Murder at the Chess Congress” (murder): At the Easthaven Chess Congress, organiser Lionel Gray was found dead in the analysis room in the middle of round five. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `murder-at-the-chess-congress/ana-silva.jpg`
+> Portrait of Ana Silva, Player, board 3, a character in the detective mystery “Murder at the Chess Congress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-chess-congress/dmitri-petrov.jpg`
+> Portrait of Dmitri Petrov, Player, board 1, a character in the detective mystery “Murder at the Chess Congress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-chess-congress/hans-weber.jpg`
+> Portrait of Hans Weber, Chief arbiter, a character in the detective mystery “Murder at the Chess Congress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-chess-congress/kemi-ade.jpg`
+> Portrait of Kemi Ade, Bookstall holder and player, a character in the detective mystery “Murder at the Chess Congress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-chess-congress/ruth-gray.jpg`
+> Portrait of Ruth Gray, Lionel's wife, player on board 2, a character in the detective mystery “Murder at the Chess Congress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `murder-at-the-chess-congress/viktor-hale.jpg`
+> Portrait of Viktor Hale, Player, board 3, a character in the detective mystery “Murder at the Chess Congress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
 ---
-Status: 336 of 712 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 336 of 744 images delivered (one cover and six portraits per case, plus evidence photos).

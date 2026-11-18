@@ -326,5 +326,21 @@
  "death-at-the-ski-lodge": {
   "daily": "2026-12-26",
   "public": "2026-12-26"
+ },
+ "death-at-the-glassworks": {
+  "daily": "2026-12-27",
+  "public": "2026-12-27"
+ },
+ "the-cup-final-tickets": {
+  "daily": "2026-12-28",
+  "public": "2026-12-28"
+ },
+ "the-bowls-club-burglary": {
+  "daily": "2026-12-29",
+  "public": "2026-12-29"
+ },
+ "murder-at-the-chess-congress": {
+  "daily": "2026-12-30",
+  "public": "2026-12-30"
  }
 }
