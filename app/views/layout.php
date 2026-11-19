@@ -13,6 +13,7 @@ function page_start(array $meta): void {
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="p:domain_verify" content="e2e799d4d1fc84686cae668635784dde">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?= e($title) ?></title>
 <meta name="description" content="<?= e($desc) ?>">
