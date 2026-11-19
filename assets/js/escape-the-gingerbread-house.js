@@ -5,7 +5,7 @@ const ginger = c => `<rect width="1600" height="900" fill="${c}"/>${Array.from({
 const COLS = ['Red', 'White', 'Green', 'Gold'];
 
 return {
-  start: 'kitchen', v: 1,
+  start: 'kitchen', v: 2,
   items: {
     bag: ['🧁', 'Empty piping bag', 'A cloth piping bag. Empty.'],
     icing: ['🍬', 'Tube of icing', 'A big tube of thick white icing – the glue of every gingerbread house.'],
@@ -17,25 +17,25 @@ return {
       name: 'The gingerbread kitchen',
       bg: () => ginger('#a0602a'),
       spots: [
-        { id: 'window', x: 80, y: 100, w: 380, h: 320, art: () => `<rect x="100" y="120" width="340" height="240" fill="#cfe4f4" stroke="#fff" stroke-width="14"/>${[['#d33', 3], ['#3a3', 5], ['#ec3', 8]].map(([c, n], k) => Array.from({ length: n }, (_, i) => `<circle cx="${115 + i * 40}" cy="${135 + k * 100}" r="13" fill="${c}"/>`).join('')).join('')}${L(270, 410, 'Window with gumdrops')}`,
+        { id: 'window', photo: [140, 0, 325, 285], x: 80, y: 100, w: 380, h: 320, art: () => `<rect x="100" y="120" width="340" height="240" fill="#cfe4f4" stroke="#fff" stroke-width="14"/>${[['#d33', 3], ['#3a3', 5], ['#ec3', 8]].map(([c, n], k) => Array.from({ length: n }, (_, i) => `<circle cx="${115 + i * 40}" cy="${135 + k * 100}" r="13" fill="${c}"/>`).join('')).join('')}${L(270, 410, 'Window with gumdrops')}`,
           act: () => { E.note('window', 'Gumdrops on the window frame: 3 red, 5 green, 8 yellow.'); E.say('The window frame is decorated with gumdrops: 3 red, 5 green and 8 yellow.'); } },
-        { id: 'cupboard', x: 520, y: 340, w: 360, h: 300, art: () => `<rect x="540" y="360" width="320" height="260" fill="#7a4a1a" stroke="#fff" stroke-width="8"/>${L(700, 650, F().cupboard ? 'Candy cupboard (open)' : 'Candy cupboard (3 numbers)')}`, act: () => openCupboard() },
-        { id: 'door', x: 1000, y: 120, w: 460, h: 520, art: () => `<path d="M1060 640 V260 Q1230 120 1400 260 V640z" fill="#e05090"/><circle cx="1230" cy="300" r="70" fill="none" stroke="#2a8a3a" stroke-width="22"/>${L(1230, 680, F().wreath ? 'Candy door – a keyhole!' : 'Candy door with a wreath')}`,
+        { id: 'cupboard', photo: [700, 595, 200, 95], x: 520, y: 340, w: 360, h: 300, art: () => `<rect x="540" y="360" width="320" height="260" fill="#7a4a1a" stroke="#fff" stroke-width="8"/>${L(700, 650, F().cupboard ? 'Candy cupboard (open)' : 'Candy cupboard (3 numbers)')}`, act: () => openCupboard() },
+        { id: 'door', photo: [1240, 130, 330, 710], x: 1000, y: 120, w: 460, h: 520, art: () => `<path d="M1060 640 V260 Q1230 120 1400 260 V640z" fill="#e05090"/><circle cx="1230" cy="300" r="70" fill="none" stroke="#2a8a3a" stroke-width="22"/>${L(1230, 680, F().wreath ? 'Candy door – a keyhole!' : 'Candy door with a wreath')}`,
           act: () => F().wreath ? E.say('A little pink keyhole has appeared under the wreath.') : openWreath(),
           use: { sugarKey: () => { if (!F().wreath) { E.say('There’s no keyhole anywhere! Maybe the wreath is part of the lock.'); return true; } E.take('sugarKey'); E.win(); return true; } } },
-        { id: 'toParlour', x: 20, y: 740, w: 340, h: 130, art: () => E.exit('← Candy parlour'), act: () => E.go('parlour') },
+        { id: 'toParlour', photo: [0, 270, 330, 530], x: 20, y: 740, w: 340, h: 130, art: () => E.exit('← Candy parlour'), act: () => E.go('parlour') },
       ],
     },
     parlour: {
       name: 'The candy parlour',
       bg: () => ginger('#c07a3a'),
       spots: [
-        { id: 'back', x: 1220, y: 740, w: 360, h: 130, art: () => E.exit('Kitchen →', 1240), act: () => E.go('kitchen') },
-        { id: 'painting', x: 80, y: 100, w: 360, h: 300, art: () => `<rect x="100" y="120" width="320" height="240" fill="#f4e4c4" stroke="#c9a24a" stroke-width="12"/><circle cx="260" cy="240" r="70" fill="none" stroke="#2a8a3a" stroke-width="20"/>${L(260, 400, 'Painting of a wreath')}`,
+        { id: 'back', photo: [1280, 270, 320, 480], x: 1220, y: 740, w: 360, h: 130, art: () => E.exit('Kitchen →', 1240), act: () => E.go('kitchen') },
+        { id: 'painting', photo: [80, 30, 320, 310], x: 80, y: 100, w: 360, h: 300, art: () => `<rect x="100" y="120" width="320" height="240" fill="#f4e4c4" stroke="#c9a24a" stroke-width="12"/><circle cx="260" cy="240" r="70" fill="none" stroke="#2a8a3a" stroke-width="20"/>${L(260, 400, 'Painting of a wreath')}`,
           act: () => { E.note('painting', 'Painting “Grandma Ginny’s front-door wreath”: a white candy at the top, a red candy on the left, a green candy on the right.'); E.say('A painting called “Grandma Ginny’s front-door wreath”: a white candy at the top, a red one on the left and a green one on the right.'); } },
-        { id: 'jar', x: 520, y: 380, w: 300, h: 260, art: () => `<rect x="560" y="420" width="220" height="200" rx="40" fill="#cfe4f4" opacity=".7"/>${L(670, 650, 'Candy cane jar')}`,
+        { id: 'jar', photo: [560, 410, 180, 255], x: 520, y: 380, w: 300, h: 260, art: () => `<rect x="560" y="420" width="220" height="200" rx="40" fill="#cfe4f4" opacity=".7"/>${L(670, 650, 'Candy cane jar')}`,
           act: () => { if (F().icing) return E.say('Just candy canes now. Very stripy.'); F().icing = 1; E.give('icing'); E.say('Under the candy canes you find a big tube of white icing!'); } },
-        { id: 'stairs', x: 900, y: 120, w: 560, h: 520, art: () => `${[0, 1, 2, 3, 4].map(i => `<rect x="${940 + i * 90}" y="${560 - i * 90}" width="100" height="40" fill="#a0602a" ${!F().stairs && i === 2 ? 'opacity=".2"' : ''}/>`).join('')}${L(1180, 640, F().stairs ? 'Stairs to the attic' : 'Stairs – one step broken')}`,
+        { id: 'stairs', photo: [800, 130, 400, 620], x: 900, y: 120, w: 560, h: 520, art: () => `${[0, 1, 2, 3, 4].map(i => `<rect x="${940 + i * 90}" y="${560 - i * 90}" width="100" height="40" fill="#a0602a" ${!F().stairs && i === 2 ? 'opacity=".2"' : ''}/>`).join('')}${L(1180, 640, F().stairs ? 'Stairs to the attic' : 'Stairs – one step broken')}`,
           act: () => F().stairs ? E.go('attic') : E.say('The gingerbread stairs go up to the attic – but the middle step has snapped in two. You’d need something to stick it back together.'),
           use: { icing: () => { E.say('The tube is too thick to squeeze neatly. You need something to pipe it with.'); return true; }, fullBag: () => { F().stairs = 1; E.take('fullBag'); E.say('Squish, squish – you pipe a thick line of icing and press the step back together. It holds!'); return true; } } },
       ],
@@ -44,10 +44,10 @@ return {
       name: 'The attic',
       bg: () => `<rect width="1600" height="900" fill="#5a3418"/><path d="M0 0 L800 -100 L1600 0 V120 H0z" fill="#3a2010"/><rect y="640" width="1600" height="260" fill="#3a2010"/><ellipse cx="800" cy="0" rx="520" ry="300" fill="url(#lamp)"/>`,
       spots: [
-        { id: 'back', x: 20, y: 740, w: 340, h: 130, art: () => E.exit('← Down the stairs'), act: () => E.go('parlour') },
-        { id: 'cookies', x: 120, y: 200, w: 600, h: 300, art: () => `<rect x="140" y="420" width="560" height="20" fill="#3a2010"/>${[[60, 'R', 20], [80, 'G', 40], [120, 'S', 70], [100, 'U', 55], [70, 'A', 30]].map(([s, c, r], i) => `<circle cx="${210 + i * 110}" cy="${420 - r}" r="${r}" fill="#c07a3a"/><text x="${210 + i * 110}" y="${428 - r}" font-size="${r}" text-anchor="middle" fill="#fff">${c}</text>`).join('')}${L(420, 490, 'Shelf of letter cookies')}`,
-          act: () => { E.note('cookies', 'Letter cookies on the shelf: a tiny R, a middle-sized G, the biggest S, a big U and a small A.'); E.say('Five round cookies with icing letters: a tiny R, a middle-sized G, the biggest one is S, a big U and a small A.'); } },
-        { id: 'chest', x: 820, y: 380, w: 520, h: 260, art: () => `<rect x="860" y="440" width="440" height="180" fill="#e05090" stroke="#fff" stroke-width="8"/>${L(1080, 650, F().chest ? 'Candy chest (open)' : 'Candy chest (5 letters)')}`, act: () => openChest() },
+        { id: 'back', photo: [0, 505, 495, 395], x: 20, y: 740, w: 340, h: 130, art: () => E.exit('← Down the stairs'), act: () => E.go('parlour') },
+        { id: 'cookies', photo: [213, 185, 480, 165], keep: 1, x: 120, y: 200, w: 600, h: 300, art: () => `${[[289, 267, 76, 'S'], [424, 289, 53, 'U'], [527, 303, 44, 'G'], [600, 313, 33, 'A'], [659, 323, 24, 'R']].map(([x, y, r, c]) => `<circle cx="${x}" cy="${y}" r="${r}" fill="#c98a4a" stroke="#fff3e0" stroke-width="${r / 9}"/><text x="${x}" y="${y + r * .38}" font-size="${r * 1.1}" text-anchor="middle" fill="#fff3e0" font-family="Georgia,serif" font-weight="bold">${c}</text>`).join('')}`,
+          act: () => { E.note('cookies', 'Letter cookies on the shelf, from biggest to tiniest: S, U, G, A, R.'); E.say('Five round cookies in a row, each with an icing letter – S, U, G, A, R – from the biggest to the tiniest.'); } },
+        { id: 'chest', photo: [813, 373, 600, 400], x: 820, y: 380, w: 520, h: 260, art: () => `<rect x="860" y="440" width="440" height="180" fill="#e05090" stroke="#fff" stroke-width="8"/>${L(1080, 650, F().chest ? 'Candy chest (open)' : 'Candy chest (5 letters)')}`, act: () => openChest() },
       ],
     },
   },

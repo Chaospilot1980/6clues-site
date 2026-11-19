@@ -240,9 +240,6 @@ Setting: At the Drayford Model Railway Show in the old Corn Exchange, organiser 
 
 Setting: At the Northbridge Camera Fair, a 1933 Leica worth £15,000 disappeared from dealer Frank Wiley's stand while everyone was watching the raffle draw.
 
-### `the-camera-fair-leica/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Camera Fair Leica” (theft): At the Northbridge Camera Fair, a 1933 Leica worth £15,000 disappeared from dealer Frank Wiley's stand while everyone was watching the raffle draw. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-camera-fair-leica/asha-kumar.jpg`
 > Portrait of Asha Kumar, Fair organiser, a character in the detective mystery “The Camera Fair Leica”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -271,9 +268,6 @@ Setting: At the Northbridge Camera Fair, a 1933 Leica worth £15,000 disappeared
 
 Setting: In the village of Little Haddow, the scarecrow trail is judged on Sunday morning.
 
-### `the-scarecrow-festival/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Scarecrow Festival” (vandalism): In the village of Little Haddow, the scarecrow trail is judged on Sunday morning. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-scarecrow-festival/bella-croft.jpg`
 > Portrait of Bella Croft, Baker, Fred's maker, a character in the detective mystery “The Scarecrow Festival”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -295,9 +289,6 @@ Setting: In the village of Little Haddow, the scarecrow trail is judged on Sunda
 ## The Cycle Race Sabotage (library – on the site now)
 
 Setting: At the Dales Classic amateur cycle race, favourite Tessa Hart crashed on the first descent when her front brake cable snapped.
-
-### `the-cycle-race-sabotage/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Cycle Race Sabotage” (sabotage): At the Dales Classic amateur cycle race, favourite Tessa Hart crashed on the first descent when her front brake cable snapped. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-cycle-race-sabotage/gus-ward.jpg`
 > Portrait of Gus Ward, Sign-on marshal, a character in the detective mystery “The Cycle Race Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -323,9 +314,6 @@ Setting: At the Dales Classic amateur cycle race, favourite Tessa Hart crashed o
 ## Death at the Truffle Hunt (library – on the site now)
 
 Setting: In the hills above Alba, truffle dealer Marco Bellini was found dead in the Bosco Nero oak wood during a guided truffle hunt for wealthy guests.
-
-### `death-at-the-truffle-hunt/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Truffle Hunt” (murder): In the hills above Alba, truffle dealer Marco Bellini was found dead in the Bosco Nero oak wood during a guided truffle hunt for wealthy guests. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `death-at-the-truffle-hunt/anna-ricci.jpg`
 > Portrait of Anna Ricci, Truffle hunter, a character in the detective mystery “Death at the Truffle Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -354,9 +342,6 @@ Setting: In the hills above Alba, truffle dealer Marco Bellini was found dead in
 ## Murder on the Film Set (library – on the site now)
 
 Setting: On the set of the period drama “The Winter Palace”, director Simon Vale was found dead in his trailer during a break in filming.
-
-### `murder-on-the-film-set/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder on the Film Set” (murder): On the set of the period drama “The Winter Palace”, director Simon Vale was found dead in his trailer during a break in filming. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `murder-on-the-film-set/di-grace-obi.jpg`
 > Portrait of DI Grace Obi, Police, a character in the detective mystery “Murder on the Film Set”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -389,9 +374,6 @@ Setting: On the set of the period drama “The Winter Palace”, director Simon 
 
 Setting: At the Meadowford Village Dog Show, the silver Best in Show cup disappeared from the prize table in the marquee half an hour before the final judging.
 
-### `the-dog-show-trophy/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Dog Show Trophy” (theft): At the Meadowford Village Dog Show, the silver Best in Show cup disappeared from the prize table in the marquee half an hour before the final judging. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-dog-show-trophy/ben-ford.jpg`
 > Portrait of Ben Ford, Car park attendant, a character in the detective mystery “The Dog Show Trophy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -414,9 +396,6 @@ Setting: At the Meadowford Village Dog Show, the silver Best in Show cup disappe
 
 Setting: On Saltby seafront, ice-cream seller Gino Russo's bank-holiday takings – £1,840 in a cash bag – disappeared from his van while he was helping at a rescue on the beach.
 
-### `the-ice-cream-van-takings/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Ice-Cream Van Takings” (theft): On Saltby seafront, ice-cream seller Gino Russo's bank-holiday takings – £1,840 in a cash bag – disappeared from his van while he was helping at a rescue on the beach. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-ice-cream-van-takings/eli-watts.jpg`
 > Portrait of Eli Watts, Harbour master, a character in the detective mystery “The Ice-Cream Van Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -438,9 +417,6 @@ Setting: On Saltby seafront, ice-cream seller Gino Russo's bank-holiday takings 
 ## Death at the Lido (library – on the site now)
 
 Setting: At the Brockley Art Deco Lido, owner Raymond Pike was found drowned in the deep end at 06:45, fifteen minutes before the early swimmers arrived.
-
-### `death-at-the-lido/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Lido” (murder): At the Brockley Art Deco Lido, owner Raymond Pike was found drowned in the deep end at 06:45, fifteen minutes before the early swimmers arrived. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `death-at-the-lido/donna-shaw.jpg`
 > Portrait of Donna Shaw, Pool technician, a character in the detective mystery “Death at the Lido”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -473,9 +449,6 @@ Setting: At the Brockley Art Deco Lido, owner Raymond Pike was found drowned in 
 
 Setting: At Summit Climbing Centre, owner Will Hartley was found dead at the foot of the 15-metre lead wall after the gym had closed for the night.
 
-### `death-at-the-climbing-wall/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Climbing Wall” (murder): At Summit Climbing Centre, owner Will Hartley was found dead at the foot of the 15-metre lead wall after the gym had closed for the night. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `death-at-the-climbing-wall/ana-silva.jpg`
 > Portrait of Ana Silva, Cleaner, a character in the detective mystery “Death at the Climbing Wall”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -497,9 +470,6 @@ Setting: At Summit Climbing Centre, owner Will Hartley was found dead at the foo
 ## The Sports Day Medals (library – on the site now)
 
 Setting: At the Oakfield Village Sports Day, a box of 30 gold medals disappeared from the prize tent during the egg-and-spoon race.
-
-### `the-sports-day-medals/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Sports Day Medals” (theft): At the Oakfield Village Sports Day, a box of 30 gold medals disappeared from the prize tent during the egg-and-spoon race. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-sports-day-medals/gran-ivy-bell.jpg`
 > Portrait of Gran Ivy Bell, Spectator, a character in the detective mystery “The Sports Day Medals”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -526,9 +496,6 @@ Setting: At the Oakfield Village Sports Day, a box of 30 gold medals disappeared
 
 Setting: At the Ashcombe Farmers' Market, a customer complained that a 'one-pound' jar of honey weighed only 380 grams.
 
-### `the-farmers-market-scales/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Farmers' Market Scales” (fraud): At the Ashcombe Farmers' Market, a customer complained that a 'one-pound' jar of honey weighed only 380 grams. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-farmers-market-scales/aisha-khan.jpg`
 > Portrait of Aisha Khan, Spice seller, a character in the detective mystery “The Farmers' Market Scales”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -551,9 +518,6 @@ Setting: At the Ashcombe Farmers' Market, a customer complained that a 'one-poun
 
 Setting: At Old Mill Brewery, master brewer Douglas Reid was found dead in the sealed fermenting room.
 
-### `death-at-the-brewery/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Brewery” (murder): At Old Mill Brewery, master brewer Douglas Reid was found dead in the sealed fermenting room. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `death-at-the-brewery/callum-reid.jpg`
 > Portrait of Callum Reid, Douglas's nephew, assistant brewer, a character in the detective mystery “Death at the Brewery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -575,9 +539,6 @@ Setting: At Old Mill Brewery, master brewer Douglas Reid was found dead in the s
 ## Murder at the Haunted Hotel (library – on the site now)
 
 Setting: At the Blackmoor Hall Hotel, famous for its ghost, TV presenter Rex Harlow was found dead on the main staircase during his live overnight show 'Spirit Hunters'.
-
-### `murder-at-the-haunted-hotel/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder at the Haunted Hotel” (murder): At the Blackmoor Hall Hotel, famous for its ghost, TV presenter Rex Harlow was found dead on the main staircase during his live overnight show 'Spirit Hunters'. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `murder-at-the-haunted-hotel/bella-rhys.jpg`
 > Portrait of Bella Rhys, Producer, a character in the detective mystery “Murder at the Haunted Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -604,9 +565,6 @@ Setting: At the Blackmoor Hall Hotel, famous for its ghost, TV presenter Rex Har
 
 Setting: In Little Fenwick, runners in the Shrove Tuesday pancake race must flip their pancake three times on the way.
 
-### `the-pancake-race-cheat/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Pancake Race Cheat” (cheating): In Little Fenwick, runners in the Shrove Tuesday pancake race must flip their pancake three times on the way. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-pancake-race-cheat/gloria-pratt.jpg`
 > Portrait of Gloria Pratt, Winner, a character in the detective mystery “The Pancake Race Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -631,9 +589,6 @@ Setting: In Little Fenwick, runners in the Shrove Tuesday pancake race must flip
 ## The Winning Betting Slip (library – on the site now)
 
 Setting: In the Red Lion pub, pensioner Arthur Bell's betting slip – a 100-to-1 winner worth £8,000 – was stolen from his table while he went to the bar.
-
-### `the-winning-betting-slip/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Winning Betting Slip” (theft): In the Red Lion pub, pensioner Arthur Bell's betting slip – a 100-to-1 winner worth £8,000 – was stolen from his table while he went to the bar. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-winning-betting-slip/arthur-bell.jpg`
 > Portrait of Arthur Bell, Pensioner, a character in the detective mystery “The Winning Betting Slip”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -660,9 +615,6 @@ Setting: In the Red Lion pub, pensioner Arthur Bell's betting slip – a 100-to-
 
 Setting: At the Carrig Moor wind farm, maintenance engineer Fiona Doyle was found dead at the foot of the ladder inside turbine T7.
 
-### `death-at-the-wind-farm/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Wind Farm” (murder): At the Carrig Moor wind farm, maintenance engineer Fiona Doyle was found dead at the foot of the ladder inside turbine T7. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `death-at-the-wind-farm/aoife-nolan.jpg`
 > Portrait of Aoife Nolan, Control-room operator, a character in the detective mystery “Death at the Wind Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -687,9 +639,6 @@ Setting: At the Carrig Moor wind farm, maintenance engineer Fiona Doyle was foun
 ## Murder at the Marina (library – on the site now)
 
 Setting: At Port Solent Marina, yacht broker Julian Cross was found dead in the saloon of the motor yacht 'Serenity' on a Sunday evening.
-
-### `murder-at-the-marina/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder at the Marina” (murder): At Port Solent Marina, yacht broker Julian Cross was found dead in the saloon of the motor yacht 'Serenity' on a Sunday evening. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `murder-at-the-marina/ds-kim-lowe.jpg`
 > Portrait of DS Kim Lowe, Police, a character in the detective mystery “Murder at the Marina”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -716,9 +665,6 @@ Setting: At Port Solent Marina, yacht broker Julian Cross was found dead in the 
 
 Setting: At the Shoreham Summer Funfair, all twelve prize goldfish vanished from the hook-a-duck stall overnight.
 
-### `the-funfair-goldfish/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Funfair Goldfish” (theft): At the Shoreham Summer Funfair, all twelve prize goldfish vanished from the hook-a-duck stall overnight. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-funfair-goldfish/jo-lake.jpg`
 > Portrait of Jo Lake, Ghost-train operator, a character in the detective mystery “The Funfair Goldfish”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -740,9 +686,6 @@ Setting: At the Shoreham Summer Funfair, all twelve prize goldfish vanished from
 ## The Ruined Wedding Dress (library – on the site now)
 
 Setting: At the Hollin Hall Hotel, bride-to-be Amy Fenwick found her wedding dress soaked in red wine on the morning of her wedding.
-
-### `the-ruined-wedding-dress/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Ruined Wedding Dress” (sabotage): At the Hollin Hall Hotel, bride-to-be Amy Fenwick found her wedding dress soaked in red wine on the morning of her wedding. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-ruined-wedding-dress/amy-fenwick.jpg`
 > Portrait of Amy Fenwick, Bride, a character in the detective mystery “The Ruined Wedding Dress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -775,9 +718,6 @@ Setting: At the Hollin Hall Hotel, bride-to-be Amy Fenwick found her wedding dre
 
 Setting: In the old city of York, ghost-walk guide Edgar Penn was found dead in Mad Alice Lane during his 'Midnight Spirits' tour.
 
-### `death-on-the-ghost-walk/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death on the Ghost Walk” (murder): In the old city of York, ghost-walk guide Edgar Penn was found dead in Mad Alice Lane during his 'Midnight Spirits' tour. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `death-on-the-ghost-walk/di-rachel-stone.jpg`
 > Portrait of DI Rachel Stone, Police, a character in the detective mystery “Death on the Ghost Walk”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -806,9 +746,6 @@ Setting: In the old city of York, ghost-walk guide Edgar Penn was found dead in 
 
 Setting: At Upper Wyfold Cricket Club, treasurer Gerald Banks was found dead in the pavilion office during the final of the village cup.
 
-### `murder-at-the-cricket-pavilion/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder at the Cricket Pavilion” (murder): At Upper Wyfold Cricket Club, treasurer Gerald Banks was found dead in the pavilion office during the final of the village cup. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `murder-at-the-cricket-pavilion/ds-lucy-hart.jpg`
 > Portrait of DS Lucy Hart, Police, a character in the detective mystery “Murder at the Cricket Pavilion”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -834,9 +771,6 @@ Setting: At Upper Wyfold Cricket Club, treasurer Gerald Banks was found dead in 
 
 Setting: In Brambleford, the star prize of the Easter egg hunt – a giant golden chocolate egg – vanished from the vicarage kitchen on Saturday evening.
 
-### `the-easter-egg-hunt/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Easter Egg Hunt” (theft): In Brambleford, the star prize of the Easter egg hunt – a giant golden chocolate egg – vanished from the vicarage kitchen on Saturday evening. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-easter-egg-hunt/barney-hale.jpg`
 > Portrait of Barney Hale, Easter Bunny volunteer, a character in the detective mystery “The Easter Egg Hunt”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -858,9 +792,6 @@ Setting: In Brambleford, the star prize of the Easter egg hunt – a giant golde
 ## The Vanishing Vinyl (library – on the site now)
 
 Setting: At Groove Records, a signed first pressing of a famous 1960s album, worth £12,000, vanished from its locked display case during a busy in-store gig.
-
-### `the-vanishing-vinyl/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Vanishing Vinyl” (theft): At Groove Records, a signed first pressing of a famous 1960s album, worth £12,000, vanished from its locked display case during a busy in-store gig. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-vanishing-vinyl/della-king.jpg`
 > Portrait of Della King, Shop owner, a character in the detective mystery “The Vanishing Vinyl”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -884,9 +815,6 @@ Setting: At Groove Records, a signed first pressing of a famous 1960s album, wor
 
 Setting: At the Nordlys Spa Hotel in Bergen, tech investor Henrik Vold was found dead in the private sauna.
 
-### `death-in-the-sauna/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death in the Sauna” (murder): At the Nordlys Spa Hotel in Bergen, tech investor Henrik Vold was found dead in the private sauna. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `death-in-the-sauna/anna-strand.jpg`
 > Portrait of Anna Strand, Housekeeper, a character in the detective mystery “Death in the Sauna”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -908,9 +836,6 @@ Setting: At the Nordlys Spa Hotel in Bergen, tech investor Henrik Vold was found
 ## Murder at the Model Village (library – on the site now)
 
 Setting: At Bayview Model Village, owner Cyril Moss was found dead behind the miniature church, struck on the head, shortly after closing time.
-
-### `murder-at-the-model-village/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder at the Model Village” (murder): At Bayview Model Village, owner Cyril Moss was found dead behind the miniature church, struck on the head, shortly after closing time. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `murder-at-the-model-village/dennis-kerr.jpg`
 > Portrait of Dennis Kerr, Model railway engineer, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -943,9 +868,6 @@ Setting: At Bayview Model Village, owner Cyril Moss was found dead behind the mi
 
 Setting: At Willowbank School, Biscuit the class guinea pig was missing from her cage on Monday morning.
 
-### `the-missing-guinea-pig/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Missing Guinea Pig” (theft): At Willowbank School, Biscuit the class guinea pig was missing from her cage on Monday morning. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-missing-guinea-pig/miss-hannah-price.jpg`
 > Portrait of Miss Hannah Price, Class teacher, a character in the detective mystery “The Missing Guinea Pig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -967,9 +889,6 @@ Setting: At Willowbank School, Biscuit the class guinea pig was missing from her
 ## The Allotment Tomato Thief (library – on the site now)
 
 Setting: At Meadow Lane Allotments, Bill Turner's rare 'Black Krim' tomatoes were picked in the night.
-
-### `the-allotment-tomato-thief/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Allotment Tomato Thief” (theft): At Meadow Lane Allotments, Bill Turner's rare 'Black Krim' tomatoes were picked in the night. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-allotment-tomato-thief/bill-turner.jpg`
 > Portrait of Bill Turner, Allotment holder, a character in the detective mystery “The Allotment Tomato Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -999,9 +918,6 @@ Setting: At Meadow Lane Allotments, Bill Turner's rare 'Black Krim' tomatoes wer
 
 Setting: On the Glenmore estate in the Highlands, property developer Malcolm Shaw was shot dead in the birch woods during a guided deer stalk.
 
-### `death-at-the-hunting-lodge/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Hunting Lodge” (murder): On the Glenmore estate in the Highlands, property developer Malcolm Shaw was shot dead in the birch woods during a guided deer stalk. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `death-at-the-hunting-lodge/dr-iain-munro.jpg`
 > Portrait of Dr Iain Munro, Forensic scientist, a character in the detective mystery “Death at the Hunting Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -1023,9 +939,6 @@ Setting: On the Glenmore estate in the Highlands, property developer Malcolm Sha
 ## Death at the Quarry (library – on the site now)
 
 Setting: At Penhallow Stone Quarry, manager Grace Tremayne was found at the foot of the north face on a blasting day.
-
-### `death-at-the-quarry/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Quarry” (murder): At Penhallow Stone Quarry, manager Grace Tremayne was found at the foot of the north face on a blasting day. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `death-at-the-quarry/bryn-teague.jpg`
 > Portrait of Bryn Teague, Shot-firer, a character in the detective mystery “Death at the Quarry”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1055,9 +968,6 @@ Setting: At Penhallow Stone Quarry, manager Grace Tremayne was found at the foot
 
 Setting: At St Mary's Primary, the big golden star that hangs over the stable in the Christmas nativity play disappeared from the school hall just before the show.
 
-### `the-nativity-play-star/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Nativity Play Star” (theft): At St Mary's Primary, the big golden star that hangs over the stable in the Christmas nativity play disappeared from the school hall just before the show. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-nativity-play-star/miss-ruby-fox.jpg`
 > Portrait of Miss Ruby Fox, Car park helper, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -1083,9 +993,6 @@ Setting: At St Mary's Primary, the big golden star that hangs over the stable in
 
 Setting: In the town of Holbrook, fifty families paid £60 each into a community Christmas hamper scheme.
 
-### `the-christmas-hamper-swindle/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Christmas Hamper Swindle” (fraud): In the town of Holbrook, fifty families paid £60 each into a community Christmas hamper scheme. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-christmas-hamper-swindle/joan-webb.jpg`
 > Portrait of Joan Webb, Scheme customer, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -1107,9 +1014,6 @@ Setting: In the town of Holbrook, fifty families paid £60 each into a community
 ## Death at the Carol Concert (library – on the site now)
 
 Setting: At St Barnabas' Church, choirmaster Lionel Ashe was found dead in the vestry during the Christmas carol concert, struck with a heavy brass candlestick.
-
-### `death-at-the-carol-concert/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Carol Concert” (murder): At St Barnabas' Church, choirmaster Lionel Ashe was found dead in the vestry during the Christmas carol concert, struck with a heavy brass candlestick. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `death-at-the-carol-concert/alfie-shaw.jpg`
 > Portrait of Alfie Shaw, Organist, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1133,9 +1037,6 @@ Setting: At St Barnabas' Church, choirmaster Lionel Ashe was found dead in the v
 
 Setting: At Hartley's Bakery, which makes two million mince pies every December, owner George Hartley was found dead in the walk-in cold store during the night shift.
 
-### `murder-at-the-mince-pie-factory/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder at the Mince Pie Factory” (murder): At Hartley's Bakery, which makes two million mince pies every December, owner George Hartley was found dead in the walk-in cold store during the night shift. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `murder-at-the-mince-pie-factory/bina-patel.jpg`
 > Portrait of Bina Patel, Line 2 operator, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -1157,9 +1058,6 @@ Setting: At Hartley's Bakery, which makes two million mince pies every December,
 ## The Snowman Contest Sabotage (library – on the site now)
 
 Setting: In the village of Elmbury, the Hill family's giant snowman was the favourite to win the winter snowman contest.
-
-### `the-snowman-contest-sabotage/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Snowman Contest Sabotage” (sabotage): In the village of Elmbury, the Hill family's giant snowman was the favourite to win the winter snowman contest. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-snowman-contest-sabotage/miss-lily-patel.jpg`
 > Portrait of Miss Lily Patel, Contest entrant, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1189,9 +1087,6 @@ Setting: In the village of Elmbury, the Hill family's giant snowman was the favo
 
 Setting: At Marlow & Finch Jewellers, the shop window holds a giant advent calendar with a real gold coin behind each door.
 
-### `the-advent-calendar-thief/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Advent Calendar Thief” (theft): At Marlow & Finch Jewellers, the shop window holds a giant advent calendar with a real gold coin behind each door. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-advent-calendar-thief/ben-quinn.jpg`
 > Portrait of Ben Quinn, Security engineer, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -1214,9 +1109,6 @@ Setting: At Marlow & Finch Jewellers, the shop window holds a giant advent calen
 
 Setting: At the Northgate Tram Depot, night manager Frank Doyle was found dead in the inspection pit under tram 14.
 
-### `death-at-the-tram-depot/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Tram Depot” (murder): At the Northgate Tram Depot, night manager Frank Doyle was found dead in the inspection pit under tram 14. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `death-at-the-tram-depot/dev-malik.jpg`
 > Portrait of Dev Malik, Track cleaner, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -1238,9 +1130,6 @@ Setting: At the Northgate Tram Depot, night manager Frank Doyle was found dead i
 ## Murder at the Frost Fair (library – on the site now)
 
 Setting: At the Riverside Frost Fair, organiser Hugh Mercer was found dead behind the mulled wine stall during the fireworks.
-
-### `murder-at-the-frost-fair/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder at the Frost Fair” (murder): At the Riverside Frost Fair, organiser Hugh Mercer was found dead behind the mulled wine stall during the fireworks. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `murder-at-the-frost-fair/clara-mercer.jpg`
 > Portrait of Clara Mercer, Hugh's daughter, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -2806,81 +2695,6 @@ Setting: At Maison Leclerc, master chocolatier Henri Leclerc died after tasting 
 ### `murder-at-the-chocolatier/sophie-leclerc.jpg`
 > Portrait of Sophie Leclerc, Henri's daughter, pastry chef, a character in the detective mystery “Murder at the Chocolatier”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
-## The Black Friday Teddy (library – on the site now)
-
-Setting: At Pip's Toy Shop, a queue formed all night for the one-and-only Golden Teddy, on sale for Black Friday.
-
-### `the-black-friday-teddy/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Black Friday Teddy” (theft): At Pip's Toy Shop, a queue formed all night for the one-and-only Golden Teddy, on sale for Black Friday. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-black-friday-teddy/lily-shaw.jpg`
-> Portrait of Lily Shaw, Shop assistant, a character in the detective mystery “The Black Friday Teddy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-black-friday-teddy/mia-clark.jpg`
-> Portrait of Mia Clark, First in the queue, a character in the detective mystery “The Black Friday Teddy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-black-friday-teddy/mr-dev-shah.jpg`
-> Portrait of Mr Dev Shah, Shopping centre guard, a character in the detective mystery “The Black Friday Teddy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-black-friday-teddy/mrs-pippa-grant.jpg`
-> Portrait of Mrs Pippa Grant, Shop owner, a character in the detective mystery “The Black Friday Teddy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-black-friday-teddy/owen-price.jpg`
-> Portrait of Owen Price, Window dresser, a character in the detective mystery “The Black Friday Teddy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-black-friday-teddy/sam-ford.jpg`
-> Portrait of Sam Ford, Shop assistant, a character in the detective mystery “The Black Friday Teddy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## The Doorbuster Deception (library – on the site now)
-
-Setting: At Brightway Electronics, the Black Friday doorbuster was ten big TVs at half price, on sale online from exactly 00:00.
-
-### `the-doorbuster-deception/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Doorbuster Deception” (fraud): At Brightway Electronics, the Black Friday doorbuster was ten big TVs at half price, on sale online from exactly 00:00. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-doorbuster-deception/bill-carter.jpg`
-> Portrait of Bill Carter, Night cleaner, a character in the detective mystery “The Doorbuster Deception”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-doorbuster-deception/grace-lin.jpg`
-> Portrait of Grace Lin, Store manager, a character in the detective mystery “The Doorbuster Deception”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-doorbuster-deception/kevin-marsh.jpg`
-> Portrait of Kevin Marsh, Deputy manager, a character in the detective mystery “The Doorbuster Deception”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-doorbuster-deception/nina-ross.jpg`
-> Portrait of Nina Ross, Landlord, Mill Lane, a character in the detective mystery “The Doorbuster Deception”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-doorbuster-deception/paul-day.jpg`
-> Portrait of Paul Day, Sales assistant, a character in the detective mystery “The Doorbuster Deception”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-doorbuster-deception/tara-webb.jpg`
-> Portrait of Tara Webb, Web admin, a character in the detective mystery “The Doorbuster Deception”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## Death at the Midnight Sale (library – on the site now)
-
-Setting: At Harrow & Vane, the grand old department store, owner Edmund Vane planned to announce the sale of the store at the stroke of midnight on Black Friday.
-
-### `death-at-the-midnight-sale/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Midnight Sale” (murder): At Harrow & Vane, the grand old department store, owner Edmund Vane planned to announce the sale of the store at the stroke of midnight on Black Friday. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `death-at-the-midnight-sale/clara-vane.jpg`
-> Portrait of Clara Vane, Edmund's daughter, buyer, a character in the detective mystery “Death at the Midnight Sale”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-midnight-sale/dr-ann-hollis.jpg`
-> Portrait of Dr Ann Hollis, Police surgeon, a character in the detective mystery “Death at the Midnight Sale”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-midnight-sale/george-ellison.jpg`
-> Portrait of George Ellison, Edmund's lawyer, a character in the detective mystery “Death at the Midnight Sale”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-midnight-sale/jonah-reed.jpg`
-> Portrait of Jonah Reed, Security guard, a character in the detective mystery “Death at the Midnight Sale”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-midnight-sale/martin-pike.jpg`
-> Portrait of Martin Pike, Floor manager, 4th floor, a character in the detective mystery “Death at the Midnight Sale”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-midnight-sale/rachel-doyle.jpg`
-> Portrait of Rachel Doyle, Personal assistant, a character in the detective mystery “Death at the Midnight Sale”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -3551,9 +3365,6 @@ Setting: At the Harrowgate Antiques Fair, dealer Augustus Pell was found dead in
 
 Setting: At Coast FM, station manager Clive Rowntree was found dead in the record library in the middle of the overnight show.
 
-### `murder-at-the-radio-station/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder at the Radio Station” (murder): At Coast FM, station manager Clive Rowntree was found dead in the record library in the middle of the overnight show. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `murder-at-the-radio-station/ana-ruiz.jpg`
 > Portrait of Ana Ruiz, Cleaner, a character in the detective mystery “Murder at the Radio Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -3584,9 +3395,6 @@ Setting: At Coast FM, station manager Clive Rowntree was found dead in the recor
 ## The Wedding Gift Box (daily case 2026-12-25)
 
 Setting: At Ashby Barn, the white card box holding the wedding guests' gifts – about £3,000 – disappeared from the gift table during the speeches at Lily and Sam's reception.
-
-### `the-wedding-gift-box/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Wedding Gift Box” (theft): At Ashby Barn, the white card box holding the wedding guests' gifts – about £3,000 – disappeared from the gift table during the speeches at Lily and Sam's reception. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-wedding-gift-box/amy-marsh.jpg`
 > Portrait of Amy Marsh, Bride's sister, a character in the detective mystery “The Wedding Gift Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -3619,9 +3427,6 @@ Setting: At Ashby Barn, the white card box holding the wedding guests' gifts –
 
 Setting: In the Norwegian resort of Fjellstua, lodge owner Henrik Aas was found dead in the ski-wax room at the top station of the Summit chairlift.
 
-### `death-at-the-ski-lodge/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Ski Lodge” (murder): In the Norwegian resort of Fjellstua, lodge owner Henrik Aas was found dead in the ski-wax room at the top station of the Summit chairlift. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `death-at-the-ski-lodge/anders-fog.jpg`
 > Portrait of Anders Fog, Ski patrol, a character in the detective mystery “Death at the Ski Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -3652,9 +3457,6 @@ Setting: In the Norwegian resort of Fjellstua, lodge owner Henrik Aas was found 
 ## Death at the Glassworks (daily case 2026-12-27)
 
 Setting: At Lyle Glassworks, master glassblower Owen Lyle was found dead in the annealing room on a weekday afternoon, while a tour group watched the furnace next door.
-
-### `death-at-the-glassworks/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Glassworks” (murder): At Lyle Glassworks, master glassblower Owen Lyle was found dead in the annealing room on a weekday afternoon, while a tour group watched the furnace next door. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `death-at-the-glassworks/bea-kim.jpg`
 > Portrait of Bea Kim, Showroom assistant, a character in the detective mystery “Death at the Glassworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -3687,9 +3489,6 @@ Setting: At Lyle Glassworks, master glassblower Owen Lyle was found dead in the 
 
 Setting: At Northbridge Rovers FC, forty tickets for the county cup final – block K, seats 101 to 140 – were stolen from the ticket-office safe overnight.
 
-### `the-cup-final-tickets/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Cup Final Tickets” (theft): At Northbridge Rovers FC, forty tickets for the county cup final – block K, seats 101 to 140 – were stolen from the ticket-office safe overnight. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-cup-final-tickets/dale-morgan.jpg`
 > Portrait of Dale Morgan, Club steward, a character in the detective mystery “The Cup Final Tickets”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -3711,9 +3510,6 @@ Setting: At Northbridge Rovers FC, forty tickets for the county cup final – bl
 ## The Bowls Club Burglary (daily case 2026-12-29)
 
 Setting: At Kingsbury Bowls Club, the silver cups were stolen from the pavilion trophy cabinet on a Saturday afternoon while most members were at an away match.
-
-### `the-bowls-club-burglary/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Bowls Club Burglary” (burglary): At Kingsbury Bowls Club, the silver cups were stolen from the pavilion trophy cabinet on a Saturday afternoon while most members were at an away match. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-bowls-club-burglary/doreen-hale.jpg`
 > Portrait of Doreen Hale, Club captain, a character in the detective mystery “The Bowls Club Burglary”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -3740,9 +3536,6 @@ Setting: At Kingsbury Bowls Club, the silver cups were stolen from the pavilion 
 
 Setting: At the Easthaven Chess Congress, organiser Lionel Gray was found dead in the analysis room in the middle of round five.
 
-### `murder-at-the-chess-congress/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder at the Chess Congress” (murder): At the Easthaven Chess Congress, organiser Lionel Gray was found dead in the analysis room in the middle of round five. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `murder-at-the-chess-congress/ana-silva.jpg`
 > Portrait of Ana Silva, Player, board 3, a character in the detective mystery “Murder at the Chess Congress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -3765,9 +3558,6 @@ Setting: At the Easthaven Chess Congress, organiser Lionel Gray was found dead i
 
 Setting: In the little fishing port of Polcarrow, a year's mooring fees – £6,400 – were taken from the harbour office safe early on a January morning.
 
-### `the-harbour-office-safe/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Harbour Office Safe” (theft): In the little fishing port of Polcarrow, a year's mooring fees – £6,400 – were taken from the harbour office safe early on a January morning. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-harbour-office-safe/davey-hocking.jpg`
 > Portrait of Davey Hocking, Fisherman, former deputy, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -3789,9 +3579,6 @@ Setting: In the little fishing port of Polcarrow, a year's mooring fees – £6,
 ## Death in the Signal Box (daily case 2027-01-01)
 
 Setting: On the Hollow Vale Steam Railway, volunteer signalman Harold Brock was found dead in Hollow Lane signal box during a busy Sunday timetable.
-
-### `death-in-the-signal-box/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death in the Signal Box” (murder): On the Hollow Vale Steam Railway, volunteer signalman Harold Brock was found dead in Hollow Lane signal box during a busy Sunday timetable. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `death-in-the-signal-box/colin-hart.jpg`
 > Portrait of Colin Hart, Guard, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -3817,9 +3604,6 @@ Setting: On the Hollow Vale Steam Railway, volunteer signalman Harold Brock was 
 ## Murder at the Planetarium (daily case 2027-01-02)
 
 Setting: At the Northgate Planetarium, director Prof.
-
-### `murder-at-the-planetarium/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder at the Planetarium” (murder): At the Northgate Planetarium, director Prof. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `murder-at-the-planetarium/bryn-owens.jpg`
 > Portrait of Bryn Owens, Trustee, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -3848,9 +3632,6 @@ Setting: At the Northgate Planetarium, director Prof.
 ## The Surf School Drowning (daily case 2027-01-03)
 
 Setting: In Penhallow Bay, surf-school owner Jake Rowan was found drowned on the rocks at the north end of the beach after an evening paddle.
-
-### `the-surf-school-drowning/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Surf School Drowning” (murder): In Penhallow Bay, surf-school owner Jake Rowan was found drowned on the rocks at the north end of the beach after an evening paddle. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-surf-school-drowning/ben-hosking.jpg`
 > Portrait of Ben Hosking, Harbour master, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -3886,9 +3667,6 @@ Setting: In Penhallow Bay, surf-school owner Jake Rowan was found drowned on the
 
 Setting: In the village of Little Brockwell, all twelve hives of beekeeper Ruth Ashby died overnight – two days before the county honey show she has won four years running.
 
-### `the-poisoned-beehives/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Poisoned Beehives” (sabotage): In the village of Little Brockwell, all twelve hives of beekeeper Ruth Ashby died overnight – two days before the county honey show she has won four years running. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-poisoned-beehives/carol-finch.jpg`
 > Portrait of Carol Finch, Rival beekeeper, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -3910,9 +3688,6 @@ Setting: In the village of Little Brockwell, all twelve hives of beekeeper Ruth 
 ## The Ice Rink Sabotage (daily case 2027-01-05)
 
 Setting: At the Northern Figure Skating Championships, favourite Lena Novak fell when the blade came off her right skate.
-
-### `the-ice-rink-sabotage/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Ice Rink Sabotage” (sabotage): At the Northern Figure Skating Championships, favourite Lena Novak fell when the blade came off her right skate. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-ice-rink-sabotage/bianca-rossi.jpg`
 > Portrait of Bianca Rossi, Rival skater, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -3936,9 +3711,6 @@ Setting: At the Northern Figure Skating Championships, favourite Lena Novak fell
 
 Setting: At Thornfield Manor, orchid collector Sir Roland Hythe was found dead in his heated glasshouse on the night of a small dinner party.
 
-### `the-orchid-house-murder/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Orchid House Murder” (murder): At Thornfield Manor, orchid collector Sir Roland Hythe was found dead in his heated glasshouse on the night of a small dinner party. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-orchid-house-murder/dr-eva-marsh.jpg`
 > Portrait of Dr Eva Marsh, Police surgeon, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -3960,9 +3732,6 @@ Setting: At Thornfield Manor, orchid collector Sir Roland Hythe was found dead i
 ## The Caravan Park Jewels (daily case 2027-01-07)
 
 Setting: At Sandpiper Bay Holiday Park, Mrs Iris Bell's jewellery roll – her late husband's gifts, worth £9,000 – was taken from caravan 14 during Friday's talent show.
-
-### `the-caravan-park-jewels/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Caravan Park Jewels” (theft): At Sandpiper Bay Holiday Park, Mrs Iris Bell's jewellery roll – her late husband's gifts, worth £9,000 – was taken from caravan 14 during Friday's talent show. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-caravan-park-jewels/barry-cole.jpg`
 > Portrait of Barry Cole, Neighbour, caravan 15, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -3988,9 +3757,6 @@ Setting: At Sandpiper Bay Holiday Park, Mrs Iris Bell's jewellery roll – her l
 ## Death at the Auction House (daily case 2027-01-08)
 
 Setting: At Ferris & Gold auctioneers, senior valuer Martin Gold was found dead in the basement strongroom during the Thursday sale of fine silver.
-
-### `death-at-the-auction-house/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Auction House” (murder): At Ferris & Gold auctioneers, senior valuer Martin Gold was found dead in the basement strongroom during the Thursday sale of fine silver. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `death-at-the-auction-house/ade-okoro.jpg`
 > Portrait of Ade Okoro, Porter, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -4020,9 +3786,6 @@ Setting: At Ferris & Gold auctioneers, senior valuer Martin Gold was found dead 
 
 Setting: At the Elmwood Primary Christmas Fair, the tombola's top prize, a £300 games console, vanished from its box under the tombola table during the afternoon.
 
-### `the-school-fair-tombola/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The School Fair Tombola” (theft): At the Elmwood Primary Christmas Fair, the tombola's top prize, a £300 games console, vanished from its box under the tombola table during the afternoon. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-school-fair-tombola/kerry-lamb.jpg`
 > Portrait of Kerry Lamb, Parent helper, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -4051,9 +3814,6 @@ Setting: At the Elmwood Primary Christmas Fair, the tombola's top prize, a £300
 
 Setting: At Kingsford Library, a signed first edition worth £4,000 has gone from the locked Local History cabinet.
 
-### `the-library-first-edition/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Library First Edition” (theft): At Kingsford Library, a signed first edition worth £4,000 has gone from the locked Local History cabinet. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-library-first-edition/jack-bright.jpg`
 > Portrait of Jack Bright, Cleaner, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -4075,9 +3835,6 @@ Setting: At Kingsford Library, a signed first edition worth £4,000 has gone fro
 ## The Snowman Contest (daily case 2027-01-11)
 
 Setting: In the village of Fernley, the snowman contest is judged at nine on Sunday morning.
-
-### `the-snowman-contest/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Snowman Contest” (vandalism): In the village of Fernley, the snowman contest is judged at nine on Sunday morning. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-snowman-contest/ben-hart.jpg`
 > Portrait of Ben Hart, Farmer, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -4107,9 +3864,6 @@ Setting: In the village of Fernley, the snowman contest is judged at nine on Sun
 
 Setting: At the Hollybrook Village Pet Show, champion rabbit Biscuit was found with green dye all over her white fur just before the 'Best in Show' judging.
 
-### `the-pet-show-rosette/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Pet Show Rosette” (sabotage): At the Hollybrook Village Pet Show, champion rabbit Biscuit was found with green dye all over her white fur just before the 'Best in Show' judging. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-pet-show-rosette/ellie-moss.jpg`
 > Portrait of Ellie Moss, Biscuit's owner, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -4131,9 +3885,6 @@ Setting: At the Hollybrook Village Pet Show, champion rabbit Biscuit was found w
 ## The Pantomime Takings (daily case 2027-01-13)
 
 Setting: At the Little Dorrit Theatre, £3,400 in ticket money disappeared from the box-office safe during the interval of the Saturday matinee of “Cinderella”.
-
-### `the-pantomime-takings/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Pantomime Takings” (theft): At the Little Dorrit Theatre, £3,400 in ticket money disappeared from the box-office safe during the interval of the Saturday matinee of “Cinderella”. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-pantomime-takings/barry-stokes.jpg`
 > Portrait of Barry Stokes, The Dame, a character in the detective mystery “The Pantomime Takings”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -4166,9 +3917,6 @@ Setting: At the Little Dorrit Theatre, £3,400 in ticket money disappeared from 
 
 Setting: On the Ashby Canal, retired engineer Victor Hale was found drowned in Burbage Lock after his narrowboat came through on a winter evening.
 
-### `death-at-the-canal-lock/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Canal Lock” (murder): On the Ashby Canal, retired engineer Victor Hale was found drowned in Burbage Lock after his narrowboat came through on a winter evening. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `death-at-the-canal-lock/colin-hale.jpg`
 > Portrait of Colin Hale, Victim's son, a character in the detective mystery “Death at the Canal Lock”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -4193,9 +3941,6 @@ Setting: On the Ashby Canal, retired engineer Victor Hale was found drowned in B
 ## Death at the Coffee Roastery (daily case 2027-01-15)
 
 Setting: At Bean & Ember, champion roaster Nadia Brook collapsed during a private cupping of her new competition blend and died in hospital.
-
-### `death-at-the-coffee-roastery/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Coffee Roastery” (murder): At Bean & Ember, champion roaster Nadia Brook collapsed during a private cupping of her new competition blend and died in hospital. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `death-at-the-coffee-roastery/anya-kim.jpg`
 > Portrait of Anya Kim, Business partner, a character in the detective mystery “Death at the Coffee Roastery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -4225,9 +3970,6 @@ Setting: At Bean & Ember, champion roaster Nadia Brook collapsed during a privat
 
 Setting: At the Glen Lyon Sheepdog Trials, senior judge Hamish Reid was found dead in the judges' caravan on the afternoon of the open final.
 
-### `death-at-the-sheepdog-trials/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death at the Sheepdog Trials” (murder): At the Glen Lyon Sheepdog Trials, senior judge Hamish Reid was found dead in the judges' caravan on the afternoon of the open final. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `death-at-the-sheepdog-trials/alasdair-munro.jpg`
 > Portrait of Alasdair Munro, Shepherd, a character in the detective mystery “Death at the Sheepdog Trials”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -4252,9 +3994,6 @@ Setting: At the Glen Lyon Sheepdog Trials, senior judge Hamish Reid was found de
 ## Murder at the Fencing Club (daily case 2027-01-17)
 
 Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in the armoury during Tuesday club night, struck with a heavy trophy.
-
-### `murder-at-the-fencing-club/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder at the Fencing Club” (murder): At the Riverside Fencing Club, head coach Viktor Lenz was found dead in the armoury during Tuesday club night, struck with a heavy trophy. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `murder-at-the-fencing-club/clara-duval.jpg`
 > Portrait of Clara Duval, Club fencer, a character in the detective mystery “Murder at the Fencing Club”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -4284,9 +4023,6 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 
 Setting: At Elmwood Primary, Bertie the Badger – the giant mascot costume that cheers the team on every sports day – disappeared from the PE store the day before the big match against Hilltop School.
 
-### `the-missing-mascot-costume/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Missing Mascot Costume” (theft): At Elmwood Primary, Bertie the Badger – the giant mascot costume that cheers the team on every sports day – disappeared from the PE store the day before the big match against Hilltop School. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-missing-mascot-costume/miss-leah-ford.jpg`
 > Portrait of Miss Leah Ford, Elmwood teaching assistant, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -4306,4 +4042,4 @@ Setting: At Elmwood Primary, Bertie the Badger – the giant mascot costume that
 > Portrait of Stan Price, Caretaker, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ---
-Status: 446 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 530 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
