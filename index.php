@@ -22,7 +22,7 @@ $routes = [
     '#^/daily$#'                              => 'daily_redirect',
     '#^/game-night$#'                         => 'gn_index',
     '#^/christmas-murder-mystery$#'           => 'christmas_page',
-    '#^/(free-escape-rooms-for-kids|classroom-escape-room|christmas-escape-room|murder-mystery-for-kids|whodunit-puzzles-for-adults|printable-murder-mystery-games)$#' => 'landing_page',
+    '#^/(free-escape-rooms-for-kids|classroom-escape-room|christmas-escape-room|murder-mystery-for-kids|whodunit-puzzles-for-adults|printable-murder-mystery-games|how-to-host-a-murder-mystery-party)$#' => 'landing_page',
     '#^/escape$#'                             => 'escape_index',
     '#^/escape/([a-z0-9\-]+)$#'               => 'escape_landing',
     '#^/escape/([a-z0-9\-]+)/play$#'          => 'escape_play',
@@ -1309,7 +1309,7 @@ function gn_index(): void {
     <div>
       <p class="kicker">Game Night · one evening, one table, one case</p>
       <h1>Free printable murder mystery games for game night</h1>
-      <p class="lead">Each Game Night case is a complete cold case file – police reports, interviews, logs and lab results – plus sealed envelopes you open as the evidence builds up. Print it at home, pour the drinks and solve the murder mystery as a team. Perfect for a murder mystery party, date night or family game night – or try our <a href="/christmas-murder-mystery">Christmas murder mysteries</a>.</p>
+      <p class="lead">Each Game Night case is a complete cold case file – police reports, interviews, logs and lab results – plus sealed envelopes you open as the evidence builds up. Print it at home, pour the drinks and solve the murder mystery as a team. Perfect for a <a href="/how-to-host-a-murder-mystery-party">murder mystery party</a>, date night or family game night – or try our <a href="/christmas-murder-mystery">Christmas murder mysteries</a>.</p>
       <ul class="gn-facts"><li>⏱ 90–150 minutes</li><li>👥 2–6 detectives</li><li>🖨 Print at home</li><li>✉️ Sealed envelopes</li></ul>
       <p class="cta-row"><a class="btn btn-big" href="#cases">Choose a case</a></p>
     </div>

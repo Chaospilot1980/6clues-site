@@ -118,6 +118,31 @@ function landings(): array {
                 ['How many players?', 'Short cases work for 1–6 players. Game Night case files are designed for 2–8.'],
             ],
         ],
+        'how-to-host-a-murder-mystery-party' => [
+            'title' => 'How to Host a Murder Mystery Party (Free Printable Game Inside)',
+            'h1' => 'How to host a murder mystery party',
+            'kicker' => 'Party guide · free printable games',
+            'description' => 'How to host a murder mystery party at home in 6 easy steps: pick a case, print it, set the scene and solve it together. Includes free printable murder mystery games.',
+            'lead' => 'You don’t need actors, costumes or a big budget. All you need is a printer, a table, a few friends and a good case. Here is how to host a murder mystery party in an evening – with free printable games to start from.',
+            'sections' => fn() => [
+                ['The 6 steps', 'From invitation to “It was the butler!”', '<ol class="howto">'
+                    . '<li><b>Pick a case for your group.</b> Easy cases suit families and first-timers; hard cases suit puzzle lovers. Game Night case files work for 2–8 players.</li>'
+                    . '<li><b>Print it the day before.</b> Print the case file and put each envelope’s pages in a real envelope. Write the envelope number on the front and seal it.</li>'
+                    . '<li><b>Set the scene.</b> Dim the lights, put on some quiet jazz or a crackling-fire video, and lay the case file in the middle of the table. A themed drink or snack helps a lot.</li>'
+                    . '<li><b>Read the briefing aloud.</b> The host reads the opening page so everyone starts with the same facts. Then hand out the documents and let people split them up.</li>'
+                    . '<li><b>Open envelopes as the evidence builds up.</b> Only open the next envelope when the group has a theory. Arguing about the timeline is half the fun.</li>'
+                    . '<li><b>Make the accusation.</b> Everyone writes down a name, a motive and the clue that proves it – then open the solution together.</li>'
+                    . '</ol>'],
+                ['Free printable murder mystery games to start with', 'Full cold case files with sealed envelopes.', $gnGrid(fn($c) => true)],
+                ['Short on time?', 'These short whodunits take 15–30 minutes – a great warm-up or a party for kids.', $mysGrid(array_slice($mys(fn($m) => (int)$m['level'] <= 2), 0, 6))],
+            ],
+            'faq' => [
+                ['How many people do I need for a murder mystery party?', 'Two is enough, but 4–6 is the sweet spot: enough people to split up the documents and argue about the suspects.'],
+                ['How long does a murder mystery party take?', 'Plan 1½–2½ hours for a Game Night case file, including food and the big reveal.'],
+                ['Do guests have to dress up or act?', 'No. With our case files everyone plays the detectives together – no scripts or roles to learn. Dressing up is a fun extra, not a must.'],
+                ['Can I host one for kids?', 'Yes – choose an easy case, or one of the level 1 mysteries for kids: thefts and pranks, nothing scary.'],
+            ],
+        ],
     ];
 }
 
