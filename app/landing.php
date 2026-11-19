@@ -188,7 +188,7 @@ function pin_box(string $name, string $path, string $desc): string {
 /** Seasonal hub: every season with live content, ordered so the current/next season comes first. */
 function seasons(): array {
     return [
-        'black-friday' => ['Black Friday', '11-15', '11-30', '/black-friday-murder-mystery', '/black-friday|doorbuster|midnight sale|locked in the mall/i',
+        'black-friday' => ['Black Friday', '11-15', '11-30', '/black-friday-murder-mystery', '/black.friday|doorbuster|midnight sale|locked in the mall/i',
             'Bargain-hunting gone wrong: stolen deals, fake orders and a midnight sale that ends in murder.'],
         'christmas' => ['Christmas', '11-15', '12-26', '/christmas-murder-mystery', CHRISTMAS_RE,
             'Festive whodunits and Christmas escape rooms – from Santa’s workshop to a stolen star on Christmas Eve.'],
