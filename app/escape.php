@@ -208,6 +208,12 @@ const ESCAPE_ROOMS = [
         'teaser' => 'Victorian London, Christmas Eve: open old Mr Grimble’s safe and get the clerks’ wages home before midnight. A free online escape room.',
         'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 7, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
     ],
+    'locked-in-the-mall' => [
+        'title' => 'Locked In the Mall',
+        'tagline' => 'Black Friday night: the shutters are down and you are still inside.',
+        'teaser' => 'Shopped too long on Black Friday? Get out of the locked mall before the cleaners arrive – a free family escape room to play online.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 5, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;
 
@@ -251,7 +257,7 @@ function escape_clock(int $ms): string { $s = intdiv($ms, 1000); return sprintf(
 function escape_cover(string $slug): ?string {
     $pick = ['the-clockmakers-last-hour' => 'tower', 'the-last-night-train' => 'compartment', 'the-lighthouse-at-gull-rock' => 'lamp',
              'after-hours-at-the-museum' => 'hall', 'the-alchemists-attic' => 'attic', 'the-sealed-tomb' => 'burial', 'the-polar-night' => 'hut',
-             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour', 'santas-locked-workshop' => 'workshop', 'the-pirates-cove' => 'grotto', 'countdown-on-the-space-station' => 'cockpit', 'the-enchanted-library' => 'tower', 'the-dinosaur-dig' => 'pit', 'the-speakeasy-raid' => 'bar', 'the-last-dive' => 'control', 'the-inventors-laboratory' => 'workshop', 'the-sheriffs-jail' => 'office', 'christmas-eve-at-holly-manor' => 'drawing', 'the-candy-factory' => 'floor', 'the-zoo-after-dark' => 'pool', 'the-snowmans-secret' => 'square', 'the-detective-academy' => 'evidence', 'the-castaway-island' => 'beach', 'the-venetian-masquerade' => 'ballroom', 'the-berlin-safehouse' => 'flat', 'the-jaguar-temple' => 'throne', 'the-castle-under-siege' => 'tower', 'the-midnight-bank-job' => 'vault', 'the-north-pole-post-office' => 'sorting', 'the-gingerbread-house' => 'kitchen', 'the-christmas-market-heist' => 'square', 'the-misers-christmas-eve' => 'office'];
+             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour', 'santas-locked-workshop' => 'workshop', 'the-pirates-cove' => 'grotto', 'countdown-on-the-space-station' => 'cockpit', 'the-enchanted-library' => 'tower', 'the-dinosaur-dig' => 'pit', 'the-speakeasy-raid' => 'bar', 'the-last-dive' => 'control', 'the-inventors-laboratory' => 'workshop', 'the-sheriffs-jail' => 'office', 'christmas-eve-at-holly-manor' => 'drawing', 'the-candy-factory' => 'floor', 'the-zoo-after-dark' => 'pool', 'the-snowmans-secret' => 'square', 'the-detective-academy' => 'evidence', 'the-castaway-island' => 'beach', 'the-venetian-masquerade' => 'ballroom', 'the-berlin-safehouse' => 'flat', 'the-jaguar-temple' => 'throne', 'the-castle-under-siege' => 'tower', 'the-midnight-bank-job' => 'vault', 'the-north-pole-post-office' => 'sorting', 'the-gingerbread-house' => 'kitchen', 'the-christmas-market-heist' => 'square', 'the-misers-christmas-eve' => 'office', 'locked-in-the-mall' => 'atrium'];
     $dir = dirname(__DIR__) . '/assets/img/escape/' . $slug . '/';
     $f = isset($pick[$slug]) && is_file($dir . $pick[$slug] . '.jpg') ? $pick[$slug] . '.jpg' : (basename((string)(glob($dir . '*.jpg')[0] ?? '')) ?: null);
     return $f ? '/assets/img/escape/' . $slug . '/' . $f : null;

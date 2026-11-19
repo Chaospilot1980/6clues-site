@@ -143,6 +143,21 @@ function landings(): array {
                 ['Can I host one for kids?', 'Yes – choose an easy case, or one of the level 1 mysteries for kids: thefts and pranks, nothing scary.'],
             ],
         ],
+        'black-friday-murder-mystery' => [
+            'title' => 'Black Friday Murder Mystery & Escape Room – Free',
+            'h1' => 'Black Friday mysteries and escape rooms',
+            'kicker' => 'Black Friday · free',
+            'description' => 'Free Black Friday murder mystery games and a Black Friday escape room: stolen deals, fake orders and a midnight sale that ends in murder. Play online or print.',
+            'lead' => 'The best Black Friday deal is free: a stolen teddy, ten vanished half-price TVs and a murder at the midnight sale – plus an escape room where you’re locked inside the mall after closing.',
+            'sections' => fn() => [
+                ['Black Friday escape room', 'Locked in after closing – find a way out.', $escGrid($esc(fn($r, $s) => (bool)preg_match(seasons()['black-friday'][4], $r['title'] . ' ' . $s)))],
+                ['Black Friday mysteries', 'From family-friendly to fiendish.', $mysGrid($mys(fn($m) => (bool)preg_match(seasons()['black-friday'][4], $m['title'] . ' ' . $m['teaser'])))],
+            ],
+            'faq' => [
+                ['Is this really free on Black Friday?', 'Yes – and every other day. No sign-up needed for the mysteries.'],
+                ['Is it suitable for kids?', 'The Black Friday Teddy and Locked In the Mall are level 1 and made for families. Death at the Midnight Sale is a level 3 murder for adults.'],
+            ],
+        ],
     ];
 }
 
@@ -168,4 +183,63 @@ function pin_box(string $name, string $path, string $desc): string {
     if (!is_file(dirname(__DIR__) . $f)) return '';
     $href = 'https://www.pinterest.com/pin/create/button/?url=' . rawurlencode(url($path)) . '&media=' . rawurlencode(url($f)) . '&description=' . rawurlencode($desc);
     return '<section class="wrap pinbox"><a href="' . e($href) . '" target="_blank" rel="noopener"><img src="' . e($f) . '" alt="' . e($desc) . '" width="200" height="300" loading="lazy"></a><div><h2>Save it for later</h2><p>Planning a game night, a party or a rainy afternoon? Save this to Pinterest so you can find it again.</p><p><a class="btn btn-ghost" href="' . e($href) . '" target="_blank" rel="noopener">Save to Pinterest</a></p></div></section>';
+}
+
+/** Seasonal hub: every season with live content, ordered so the current/next season comes first. */
+function seasons(): array {
+    return [
+        'black-friday' => ['Black Friday', '11-15', '11-30', '/black-friday-murder-mystery', '/black-friday|doorbuster|midnight sale|locked in the mall/i',
+            'Bargain-hunting gone wrong: stolen deals, fake orders and a midnight sale that ends in murder.'],
+        'christmas' => ['Christmas', '11-15', '12-26', '/christmas-murder-mystery', CHRISTMAS_RE,
+            'Festive whodunits and Christmas escape rooms – from Santa’s workshop to a stolen star on Christmas Eve.'],
+        'new-year' => ['New Year’s Eve', '12-20', '01-05', null, '/new year/i',
+            'Count down to midnight with a puzzle – perfect for a New Year’s Eve party.'],
+        'valentine' => ['Valentine’s Day', '01-25', '02-15', null, '/valentine|wedding|love letter/i',
+            'Love letters, wedding dramas and broken hearts – mysteries for date night.'],
+        'easter' => ['Easter', '03-10', '04-25', null, '/easter/i',
+            'Egg hunts with a twist – Easter mysteries for the whole family.'],
+        'halloween' => ['Halloween', '10-01', '11-01', null, '/halloween|haunted|ghost|pumpkin|séance|seance|witch/i',
+            'Spooky (but never gory) mysteries and escape rooms for Halloween night.'],
+    ];
+}
+
+function season_content(string $re): array {
+    $esc = array_filter(escape_rooms(), fn($r, $s) => preg_match($re, $r['title'] . ' ' . $r['teaser'] . ' ' . $s), ARRAY_FILTER_USE_BOTH);
+    $mys = array_values(array_filter(mysteries(), fn($m) => preg_match($re, $m['title'] . ' ' . $m['teaser'])));
+    $gns = array_values(array_filter(array_map('gn_case', gn_slugs()), fn($c) => $c && preg_match($re, $c['title'] . ' ' . $c['teaser'])));
+    return [$esc, $mys, $gns];
+}
+
+/** Days until the season starts (0 if it is on now). */
+function season_distance(string $from, string $to): int {
+    $md = date('m-d'); $on = $from <= $to ? ($md >= $from && $md <= $to) : ($md >= $from || $md <= $to);
+    if ($on) return 0;
+    $start = strtotime(date('Y') . '-' . $from); if ($start < time()) $start = strtotime((date('Y') + 1) . '-' . $from);
+    return (int)ceil(($start - time()) / 86400);
+}
+
+function seasonal_page(): void {
+    $u = current_user(); $prog = $u ? user_progress((int)$u['id']) : [];
+    $list = [];
+    foreach (seasons() as $k => $s) { [$esc, $mys, $gns] = season_content($s[4]); if ($esc || $mys || $gns) $list[$k] = [$s, $esc, $mys, $gns, season_distance($s[1], $s[2])]; }
+    uasort($list, fn($a, $b) => $a[4] <=> $b[4]);
+    page_start(['title' => 'Seasonal Mystery Games – Christmas, Black Friday, Halloween & More', 'path' => '/seasonal',
+        'description' => 'Free seasonal murder mystery games and escape rooms: Christmas, Black Friday, New Year’s Eve, Valentine’s Day, Easter and Halloween. Play online or print.']);
+    echo '<section class="gn-hero"><div class="wrap"><p class="kicker">Seasonal · free</p><h1>Seasonal mysteries & escape rooms</h1><p class="lead">A puzzle for every party of the year. Here you’ll find our holiday specials – the season that’s on right now comes first.</p>';
+    echo '<p>' . implode(' · ', array_map(fn($k) => '<a href="#' . $k . '">' . e(seasons()[$k][0]) . '</a>', array_keys($list))) . '</p></div></section>';
+    foreach ($list as $k => [$s, $esc, $mys, $gns, $d]) {
+        $badge = $d === 0 ? '<span class="badge">On now</span> ' : ($d <= 45 ? '<span class="badge">In ' . $d . ' days</span> ' : '');
+        echo '<section class="wrap" id="' . $k . '"><h2>' . $badge . e($s[0]) . '</h2><p>' . e($s[5]) . ($s[3] ? ' <a href="' . e($s[3]) . '">See all ' . e($s[0]) . ' games →</a>' : '') . '</p>';
+        $cards = '';
+        foreach (array_slice($esc, 0, 6, true) as $slug => $r) $cards .= escape_card($slug, $r);
+        foreach ($gns as $c) $cards .= gn_card($c, $u);
+        foreach (array_slice($mys, 0, max(3, 9 - count($esc))) as $m) $cards .= mystery_card($m, $prog);
+        echo '<div class="grid">' . $cards . '</div></section>';
+    }
+    echo faq_block([
+        ['Are the seasonal games free?', 'Yes – every mystery and escape room on Six Clues is free to play online or print.'],
+        ['Which seasonal games work for kids?', 'Look for level 1: those are family-friendly, with thefts and pranks instead of anything scary.'],
+        ['Do you add new seasonal games?', 'Yes – new holiday mysteries and escape rooms appear before each season.'],
+    ], 'Seasonal games – questions');
+    page_end();
 }

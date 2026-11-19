@@ -22,7 +22,8 @@ $routes = [
     '#^/daily$#'                              => 'daily_redirect',
     '#^/game-night$#'                         => 'gn_index',
     '#^/christmas-murder-mystery$#'           => 'christmas_page',
-    '#^/(free-escape-rooms-for-kids|classroom-escape-room|christmas-escape-room|murder-mystery-for-kids|whodunit-puzzles-for-adults|printable-murder-mystery-games|how-to-host-a-murder-mystery-party)$#' => 'landing_page',
+    '#^/(free-escape-rooms-for-kids|classroom-escape-room|christmas-escape-room|murder-mystery-for-kids|whodunit-puzzles-for-adults|printable-murder-mystery-games|how-to-host-a-murder-mystery-party|black-friday-murder-mystery)$#' => 'landing_page',
+    '#^/seasonal$#' => 'seasonal_page',
     '#^/escape$#'                             => 'escape_index',
     '#^/escape/([a-z0-9\-]+)$#'               => 'escape_landing',
     '#^/escape/([a-z0-9\-]+)/play$#'          => 'escape_play',
@@ -920,7 +921,7 @@ function faq_block(array $qa, string $heading = 'Questions & answers'): string {
 function sitemap(): void {
     header('Content-Type: application/xml; charset=utf-8');
     echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n" . '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
-    $urls = ['/', '/mysteries', '/game-night', '/escape', '/christmas-murder-mystery', '/rankings', '/privacy'];
+    $urls = ['/', '/mysteries', '/game-night', '/escape', '/seasonal', '/christmas-murder-mystery', '/rankings', '/privacy'];
     foreach (array_keys(landings()) as $l) $urls[] = '/' . $l;
     foreach (gn_slugs() as $g) $urls[] = '/game-night/' . $g;
     foreach (ESCAPE_ROOMS as $s => $r) if (empty($r['draft'])) $urls[] = '/escape/' . $s;

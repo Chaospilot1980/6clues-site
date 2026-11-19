@@ -2806,6 +2806,81 @@ Setting: At Maison Leclerc, master chocolatier Henri Leclerc died after tasting 
 ### `murder-at-the-chocolatier/sophie-leclerc.jpg`
 > Portrait of Sophie Leclerc, Henri's daughter, pastry chef, a character in the detective mystery “Murder at the Chocolatier”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
+## The Black Friday Teddy (library – on the site now)
+
+Setting: At Pip's Toy Shop, a queue formed all night for the one-and-only Golden Teddy, on sale for Black Friday.
+
+### `the-black-friday-teddy/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Black Friday Teddy” (theft): At Pip's Toy Shop, a queue formed all night for the one-and-only Golden Teddy, on sale for Black Friday. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-black-friday-teddy/lily-shaw.jpg`
+> Portrait of Lily Shaw, Shop assistant, a character in the detective mystery “The Black Friday Teddy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-black-friday-teddy/mia-clark.jpg`
+> Portrait of Mia Clark, First in the queue, a character in the detective mystery “The Black Friday Teddy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-black-friday-teddy/mr-dev-shah.jpg`
+> Portrait of Mr Dev Shah, Shopping centre guard, a character in the detective mystery “The Black Friday Teddy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-black-friday-teddy/mrs-pippa-grant.jpg`
+> Portrait of Mrs Pippa Grant, Shop owner, a character in the detective mystery “The Black Friday Teddy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-black-friday-teddy/owen-price.jpg`
+> Portrait of Owen Price, Window dresser, a character in the detective mystery “The Black Friday Teddy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-black-friday-teddy/sam-ford.jpg`
+> Portrait of Sam Ford, Shop assistant, a character in the detective mystery “The Black Friday Teddy”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## The Doorbuster Deception (library – on the site now)
+
+Setting: At Brightway Electronics, the Black Friday doorbuster was ten big TVs at half price, on sale online from exactly 00:00.
+
+### `the-doorbuster-deception/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Doorbuster Deception” (fraud): At Brightway Electronics, the Black Friday doorbuster was ten big TVs at half price, on sale online from exactly 00:00. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-doorbuster-deception/bill-carter.jpg`
+> Portrait of Bill Carter, Night cleaner, a character in the detective mystery “The Doorbuster Deception”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-doorbuster-deception/grace-lin.jpg`
+> Portrait of Grace Lin, Store manager, a character in the detective mystery “The Doorbuster Deception”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-doorbuster-deception/kevin-marsh.jpg`
+> Portrait of Kevin Marsh, Deputy manager, a character in the detective mystery “The Doorbuster Deception”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-doorbuster-deception/nina-ross.jpg`
+> Portrait of Nina Ross, Landlord, Mill Lane, a character in the detective mystery “The Doorbuster Deception”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-doorbuster-deception/paul-day.jpg`
+> Portrait of Paul Day, Sales assistant, a character in the detective mystery “The Doorbuster Deception”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-doorbuster-deception/tara-webb.jpg`
+> Portrait of Tara Webb, Web admin, a character in the detective mystery “The Doorbuster Deception”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+## Death at the Midnight Sale (library – on the site now)
+
+Setting: At Harrow & Vane, the grand old department store, owner Edmund Vane planned to announce the sale of the store at the stroke of midnight on Black Friday.
+
+### `death-at-the-midnight-sale/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “Death at the Midnight Sale” (murder): At Harrow & Vane, the grand old department store, owner Edmund Vane planned to announce the sale of the store at the stroke of midnight on Black Friday. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `death-at-the-midnight-sale/clara-vane.jpg`
+> Portrait of Clara Vane, Edmund's daughter, buyer, a character in the detective mystery “Death at the Midnight Sale”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-midnight-sale/dr-ann-hollis.jpg`
+> Portrait of Dr Ann Hollis, Police surgeon, a character in the detective mystery “Death at the Midnight Sale”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-midnight-sale/george-ellison.jpg`
+> Portrait of George Ellison, Edmund's lawyer, a character in the detective mystery “Death at the Midnight Sale”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-midnight-sale/jonah-reed.jpg`
+> Portrait of Jonah Reed, Security guard, a character in the detective mystery “Death at the Midnight Sale”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-midnight-sale/martin-pike.jpg`
+> Portrait of Martin Pike, Floor manager, 4th floor, a character in the detective mystery “Death at the Midnight Sale”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `death-at-the-midnight-sale/rachel-doyle.jpg`
+> Portrait of Rachel Doyle, Personal assistant, a character in the detective mystery “Death at the Midnight Sale”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
 Setting: At the Lindenfeld Christmas Market, four stalls were paid with fake £20 notes on Saturday evening – and every time by ‘Father Christmas’.
@@ -4231,4 +4306,4 @@ Setting: At Elmwood Primary, Bertie the Badger – the giant mascot costume that
 > Portrait of Stan Price, Caretaker, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ---
-Status: 446 of 1630 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 446 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
