@@ -5,7 +5,7 @@
  * drafts and cases without art stay hidden, exactly as on the main pages.
  */
 
-const CHRISTMAS_RE = '/christmas|santa|snow|winter|festive|frost|mince|carol|sleigh|holly/i';
+const CHRISTMAS_RE = '/christmas|santa|snow|winter|festive|frost|mince|carol|sleigh|holly|gingerbread|north pole/i';
 
 function escape_card(string $slug, array $r): string {
     $cv = escape_cover($slug);

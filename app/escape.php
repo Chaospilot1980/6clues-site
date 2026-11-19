@@ -184,6 +184,30 @@ const ESCAPE_ROOMS = [
         'teaser' => 'New York, 1935. You are the night watchman, the phone is cut, the alarm fuse is gone – and someone is digging into the vault. Lock the time lock, fix the alarm and call the police before the gang breaks through. Harder: there is an inside man.',
         'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 7, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
     ],
+    'the-north-pole-post-office' => [
+        'title' => 'The North Pole Post Office',
+        'tagline' => 'A lost letter, a golden stamp and a sleigh that leaves at midnight.',
+        'teaser' => 'Find a lost letter to Santa, get it stamped and onto the sleigh before midnight – a free Christmas escape room for families.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 6, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
+    'the-gingerbread-house' => [
+        'title' => 'The Gingerbread House',
+        'tagline' => 'Locked inside a life-size gingerbread house – and the judges come at noon.',
+        'teaser' => 'Trapped inside Grandma Ginny’s giant gingerbread house: mend the stairs, crack the cookie code and find the sugar key. Free family escape room.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 7, 'status' => 'New', 'level' => 1, 'engine' => true, 'draft' => true,
+    ],
+    'the-christmas-market-heist' => [
+        'title' => 'The Christmas Market Heist',
+        'tagline' => 'Someone stole the golden star off the market tree. One stallholder is lying.',
+        'teaser' => 'The golden star is gone from the Christmas market tree. Check the alibis, crack the carousel and find the thief before the lights go on.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 4, 'puzzles' => 5, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
+    'the-misers-christmas-eve' => [
+        'title' => 'The Miser’s Christmas Eve',
+        'tagline' => 'London, 1843. The clerks’ Christmas wages are locked in a miser’s safe.',
+        'teaser' => 'Victorian London, Christmas Eve: open old Mr Grimble’s safe and get the clerks’ wages home before midnight. A free online escape room.',
+        'minutes' => 60, 'players' => '1–4', 'rooms' => 3, 'puzzles' => 7, 'status' => 'New', 'level' => 2, 'engine' => true, 'draft' => true,
+    ],
 ];
 const ESCAPE_LIMIT_MS = 3600000;
 
@@ -227,7 +251,7 @@ function escape_clock(int $ms): string { $s = intdiv($ms, 1000); return sprintf(
 function escape_cover(string $slug): ?string {
     $pick = ['the-clockmakers-last-hour' => 'tower', 'the-last-night-train' => 'compartment', 'the-lighthouse-at-gull-rock' => 'lamp',
              'after-hours-at-the-museum' => 'hall', 'the-alchemists-attic' => 'attic', 'the-sealed-tomb' => 'burial', 'the-polar-night' => 'hut',
-             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour', 'santas-locked-workshop' => 'workshop', 'the-pirates-cove' => 'grotto', 'countdown-on-the-space-station' => 'cockpit', 'the-enchanted-library' => 'tower', 'the-dinosaur-dig' => 'pit', 'the-speakeasy-raid' => 'bar', 'the-last-dive' => 'control', 'the-inventors-laboratory' => 'workshop', 'the-sheriffs-jail' => 'office', 'christmas-eve-at-holly-manor' => 'drawing', 'the-candy-factory' => 'floor', 'the-zoo-after-dark' => 'pool', 'the-snowmans-secret' => 'square', 'the-detective-academy' => 'evidence', 'the-castaway-island' => 'beach', 'the-venetian-masquerade' => 'ballroom', 'the-berlin-safehouse' => 'flat', 'the-jaguar-temple' => 'throne', 'the-castle-under-siege' => 'tower', 'the-midnight-bank-job' => 'vault'];
+             'the-last-airship' => 'lounge', 'the-codebreakers-hut' => 'hut', 'the-seance' => 'parlour', 'santas-locked-workshop' => 'workshop', 'the-pirates-cove' => 'grotto', 'countdown-on-the-space-station' => 'cockpit', 'the-enchanted-library' => 'tower', 'the-dinosaur-dig' => 'pit', 'the-speakeasy-raid' => 'bar', 'the-last-dive' => 'control', 'the-inventors-laboratory' => 'workshop', 'the-sheriffs-jail' => 'office', 'christmas-eve-at-holly-manor' => 'drawing', 'the-candy-factory' => 'floor', 'the-zoo-after-dark' => 'pool', 'the-snowmans-secret' => 'square', 'the-detective-academy' => 'evidence', 'the-castaway-island' => 'beach', 'the-venetian-masquerade' => 'ballroom', 'the-berlin-safehouse' => 'flat', 'the-jaguar-temple' => 'throne', 'the-castle-under-siege' => 'tower', 'the-midnight-bank-job' => 'vault', 'the-north-pole-post-office' => 'sorting', 'the-gingerbread-house' => 'kitchen', 'the-christmas-market-heist' => 'square', 'the-misers-christmas-eve' => 'office'];
     $dir = dirname(__DIR__) . '/assets/img/escape/' . $slug . '/';
     $f = isset($pick[$slug]) && is_file($dir . $pick[$slug] . '.jpg') ? $pick[$slug] . '.jpg' : (basename((string)(glob($dir . '*.jpg')[0] ?? '')) ?: null);
     return $f ? '/assets/img/escape/' . $slug . '/' . $f : null;
