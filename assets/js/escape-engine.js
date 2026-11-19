@@ -92,7 +92,7 @@ function render() {
   const art = ph ? `<image href="${IMG + S.room}.jpg?v=${G.v || 1}" width="1600" height="900"/>` : R.bg();
   $('stage').innerHTML = `<defs><radialGradient id="lamp"><stop offset="0" stop-color="#ffcf7a" stop-opacity=".22"/><stop offset="1" stop-color="#ffcf7a" stop-opacity="0"/></radialGradient></defs>${art}` +
     R.spots.filter(s => !s.hide || !s.hide()).map(s => { const [x, y, w, h] = ph && s.photo ? s.photo : [s.x, s.y, s.w, s.h];
-      return `<g class="hs${ph ? ' photo' : ''}" data-id="${s.id}" tabindex="0" role="button" aria-label="${s.id}">${ph ? '' : s.art()}<rect class="hit" x="${x}" y="${y}" width="${w}" height="${h}" rx="10"/></g>`; }).join('');
+      return `<g class="hs${ph ? ' photo' : ''}" data-id="${s.id}" tabindex="0" role="button" aria-label="${s.id}">${ph && !s.keep ? '' : s.art()}<rect class="hit" x="${x}" y="${y}" width="${w}" height="${h}" rx="10"/></g>`; }).join('');
   $('stage').querySelectorAll('.hs').forEach(g => {
     const fire = () => clickSpot(R.spots.find(s => s.id === g.dataset.id));
     g.addEventListener('click', fire); g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fire(); } });
