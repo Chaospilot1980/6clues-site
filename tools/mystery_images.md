@@ -1156,9 +1156,6 @@ Setting: At the Riverside Frost Fair, organiser Hugh Mercer was found dead behin
 
 Setting: At the Fernley Christmas Bake Show, Nora Bell's tall gingerbread house was found crushed on its table half an hour before the judges arrived.
 
-### `the-gingerbread-house-wrecker/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Gingerbread House Wrecker” (sabotage): At the Fernley Christmas Bake Show, Nora Bell's tall gingerbread house was found crushed on its table half an hour before the judges arrived. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-gingerbread-house-wrecker/arthur-moss.jpg`
 > Portrait of Arthur Moss, Baker, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -1181,9 +1178,6 @@ Setting: At the Fernley Christmas Bake Show, Nora Bell's tall gingerbread house 
 
 Setting: At Pickle & Pip Toys, owner Martha Pickle noticed that the till is £200–£300 short almost every day in December.
 
-### `the-toy-shop-till-fraud/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Toy Shop Till Fraud” (fraud): At Pickle & Pip Toys, owner Martha Pickle noticed that the till is £200–£300 short almost every day in December. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-toy-shop-till-fraud/amy-kerr.jpg`
 > Portrait of Amy Kerr, Shop assistant, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -1205,9 +1199,6 @@ Setting: At Pickle & Pip Toys, owner Martha Pickle noticed that the till is £20
 ## Death in the Bell Tower (library – on the site now)
 
 Setting: At St Aldhelm's Church, tower captain Walter Penrose fell through the trapdoor of the bell chamber during practice for the New Year peal.
-
-### `death-in-the-bell-tower/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death in the Bell Tower” (murder): At St Aldhelm's Church, tower captain Walter Penrose fell through the trapdoor of the bell chamber during practice for the New Year peal. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `death-in-the-bell-tower/ds-holly-grey.jpg`
 > Portrait of DS Holly Grey, Police, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1234,9 +1225,6 @@ Setting: At St Aldhelm's Church, tower captain Walter Penrose fell through the t
 
 Setting: At the Crystal Ice Arena, coach Viktor Hale was found dead in the ice plant room during the winter skating gala, struck with a heavy wrench.
 
-### `murder-at-the-skating-gala/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder at the Skating Gala” (murder): At the Crystal Ice Arena, coach Viktor Hale was found dead in the ice plant room during the winter skating gala, struck with a heavy wrench. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `murder-at-the-skating-gala/ben-ortiz.jpg`
 > Portrait of Ben Ortiz, Sound technician, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -1258,9 +1246,6 @@ Setting: At the Crystal Ice Arena, coach Viktor Hale was found dead in the ice p
 ## The Snow Globe Swap (library – on the site now)
 
 Setting: At the Fairhaven Town Museum, curator Agnes Ward discovered that the star of the Christmas display – a Victorian snow globe worth £12,000 – had been replaced with a gift-shop copy.
-
-### `the-snow-globe-swap/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Snow Globe Swap” (theft): At the Fairhaven Town Museum, curator Agnes Ward discovered that the star of the Christmas display – a Victorian snow globe worth £12,000 – had been replaced with a gift-shop copy. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-snow-globe-swap/agnes-ward.jpg`
 > Portrait of Agnes Ward, Curator, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1287,9 +1272,6 @@ Setting: At the Fairhaven Town Museum, curator Agnes Ward discovered that the st
 
 Setting: At Chalet Edelweiss in the Alps, the safe in the main bedroom was emptied of €8,000 and a diamond watch while the guests were out skiing.
 
-### `the-chalet-safe-robbery/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Chalet Safe Robbery” (theft): At Chalet Edelweiss in the Alps, the safe in the main bedroom was emptied of €8,000 and a diamond watch while the guests were out skiing. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `the-chalet-safe-robbery/herr-paul-gruber.jpg`
 > Portrait of Herr Paul Gruber, Village shopkeeper, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -1312,9 +1294,6 @@ Setting: At Chalet Edelweiss in the Alps, the safe in the main bedroom was empti
 
 Setting: On the Highland Night Sleeper, publisher Edmund Crane was found dead in cabin 12 when the attendant brought his morning tea.
 
-### `death-on-the-sleeper-train/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Death on the Sleeper Train” (murder): On the Highland Night Sleeper, publisher Edmund Crane was found dead in cabin 12 when the attendant brought his morning tea. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
 ### `death-on-the-sleeper-train/dr-ian-moss.jpg`
 > Portrait of Dr Ian Moss, Passenger, cabin 11, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -1336,9 +1315,6 @@ Setting: On the Highland Night Sleeper, publisher Edmund Crane was found dead in
 ## Murder on the Cable Car (library – on the site now)
 
 Setting: At the Alpenkrone ski resort, owner Anton Weber was found dead in cabin 23 of the cable car when it arrived at the summit.
-
-### `murder-on-the-cable-car/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “Murder on the Cable Car” (murder): At the Alpenkrone ski resort, owner Anton Weber was found dead in cabin 23 of the cable car when it arrived at the summit. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `murder-on-the-cable-car/felix-moser.jpg`
 > Portrait of Felix Moser, Lift operator, middle station, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1364,9 +1340,6 @@ Setting: At the Alpenkrone ski resort, owner Anton Weber was found dead in cabin
 ## The Charity Fun Run Cheat (library – on the site now)
 
 Setting: At the Bridgeford Santa Fun Run, 300 runners in Santa suits raced 10 km for charity.
-
-### `the-charity-fun-run-cheat/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Charity Fun Run Cheat” (fraud): At the Bridgeford Santa Fun Run, 300 runners in Santa suits raced 10 km for charity. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
 
 ### `the-charity-fun-run-cheat/asha-rai.jpg`
 > Portrait of Asha Rai, Second-place runner, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -4042,4 +4015,4 @@ Setting: At Elmwood Primary, Bertie the Badger – the giant mascot costume that
 > Portrait of Stan Price, Caretaker, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ---
-Status: 530 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 539 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
