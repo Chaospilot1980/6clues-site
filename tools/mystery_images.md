@@ -236,31 +236,6 @@ Setting: At the Drayford Model Railway Show in the old Corn Exchange, organiser 
 ### `death-at-the-model-railway-show/photo-photo-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “PHOTO_3” at 14:36, from “Club photographer – Saturday” in the detective mystery “Death at the Model Railway Show”: The Major and Ivor still at ‘Pennine Viaduct’. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Missing Mascot Costume (library – on the site now)
-
-Setting: At Elmwood Primary, Bertie the Badger – the giant mascot costume that cheers the team on every sports day – disappeared from the PE store the day before the big match against Hilltop School.
-
-### `the-missing-mascot-costume/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
-> Cinematic scene illustration for the detective mystery “The Missing Mascot Costume” (theft): At Elmwood Primary, Bertie the Badger – the giant mascot costume that cheers the team on every sports day – disappeared from the PE store the day before the big match against Hilltop School. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
-
-### `the-missing-mascot-costume/miss-leah-ford.jpg`
-> Portrait of Miss Leah Ford, Elmwood teaching assistant, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-mascot-costume/mr-dan-hale.jpg`
-> Portrait of Mr Dan Hale, Elmwood PE teacher, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-mascot-costume/mr-kyle-banks.jpg`
-> Portrait of Mr Kyle Banks, Hilltop School PE teacher, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-mascot-costume/mrs-joan-pell.jpg`
-> Portrait of Mrs Joan Pell, School secretary, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-mascot-costume/mrs-ruth-okoro.jpg`
-> Portrait of Mrs Ruth Okoro, Head teacher, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-mascot-costume/stan-price.jpg`
-> Portrait of Stan Price, Caretaker, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## The Camera Fair Leica (library – on the site now)
 
 Setting: At the Northbridge Camera Fair, a 1933 Leica worth £15,000 disappeared from dealer Frank Wiley's stand while everyone was watching the raffle draw.
@@ -4229,6 +4204,31 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 
 ### `murder-at-the-fencing-club/photo-cam-3-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM-3” at 19:22, from “Corridor camera” in the detective mystery “Murder at the Fencing Club”: C. Duval walks back towards the changing rooms. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
+
+## The Missing Mascot Costume (daily case 2027-01-18)
+
+Setting: At Elmwood Primary, Bertie the Badger – the giant mascot costume that cheers the team on every sports day – disappeared from the PE store the day before the big match against Hilltop School.
+
+### `the-missing-mascot-costume/cover.jpg`  (case cover, 1600 × 1200 px, 4:3)
+> Cinematic scene illustration for the detective mystery “The Missing Mascot Costume” (theft): At Elmwood Primary, Bertie the Badger – the giant mascot costume that cheers the team on every sports day – disappeared from the PE store the day before the big match against Hilltop School. Show the place and the mood, no people in focus, no text, 4:3. Style: cinematic, slightly grainy editorial photo-illustration with a film-noir mood; muted palette of ink black, warm paper cream and one deep red accent; fictional, no recognisable real people, no brand logos, no readable text or numbers.
+
+### `the-missing-mascot-costume/miss-leah-ford.jpg`
+> Portrait of Miss Leah Ford, Elmwood teaching assistant, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-mascot-costume/mr-dan-hale.jpg`
+> Portrait of Mr Dan Hale, Elmwood PE teacher, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-mascot-costume/mr-kyle-banks.jpg`
+> Portrait of Mr Kyle Banks, Hilltop School PE teacher, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-mascot-costume/mrs-joan-pell.jpg`
+> Portrait of Mrs Joan Pell, School secretary, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-mascot-costume/mrs-ruth-okoro.jpg`
+> Portrait of Mrs Ruth Okoro, Head teacher, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
+
+### `the-missing-mascot-costume/stan-price.jpg`
+> Portrait of Stan Price, Caretaker, a character in the detective mystery “The Missing Mascot Costume”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ---
 Status: 446 of 1630 images delivered (one cover and six portraits per case, plus evidence photos).
