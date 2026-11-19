@@ -4,6 +4,7 @@ require __DIR__ . '/app/bootstrap.php';
 require __DIR__ . '/app/game.php';
 require __DIR__ . '/app/gamenight.php';
 require __DIR__ . '/app/escape.php';
+require __DIR__ . '/app/landing.php';
 require __DIR__ . '/app/views/layout.php';
 
 $path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
@@ -21,6 +22,7 @@ $routes = [
     '#^/daily$#'                              => 'daily_redirect',
     '#^/game-night$#'                         => 'gn_index',
     '#^/christmas-murder-mystery$#'           => 'christmas_page',
+    '#^/(free-escape-rooms-for-kids|classroom-escape-room|christmas-escape-room|murder-mystery-for-kids|whodunit-puzzles-for-adults|printable-murder-mystery-games)$#' => 'landing_page',
     '#^/escape$#'                             => 'escape_index',
     '#^/escape/([a-z0-9\-]+)$#'               => 'escape_landing',
     '#^/escape/([a-z0-9\-]+)/play$#'          => 'escape_play',
@@ -832,6 +834,9 @@ function christmas_page(): void {
     <p class="lead">Looking for a Christmas murder mystery game for the family, the office party or a festive game night? These free whodunits are set at Christmas markets, snowy villages and winter fairs. Print the clues and hide them under the tree, or play online on the sofa.</p>
   </div>
 </section>
+<?php $xr = array_filter(escape_rooms(), fn($r, $s) => preg_match(CHRISTMAS_RE, $r['title'] . ' ' . $r['teaser'] . ' ' . $s), ARRAY_FILTER_USE_BOTH); if ($xr): ?>
+<section class="wrap"><h2>Christmas escape rooms</h2><p>Play online – from Santa’s workshop to a stolen star on Christmas Eve. More on our <a href="/christmas-escape-room">Christmas escape room</a> page.</p><div class="grid"><?php foreach ($xr as $s => $r) echo escape_card($s, $r); ?></div></section>
+<?php endif; ?>
 <?php if ($gns): ?>
 <section class="wrap"><h2>Christmas game night case files</h2><p>Full printable cold case files with sealed envelopes – for 2–8 players.</p><div class="grid"><?php foreach ($gns as $c) echo gn_card($c, $u); ?></div></section>
 <?php endif; ?>
@@ -915,6 +920,7 @@ function sitemap(): void {
     header('Content-Type: application/xml; charset=utf-8');
     echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n" . '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
     $urls = ['/', '/mysteries', '/game-night', '/escape', '/christmas-murder-mystery', '/rankings', '/privacy'];
+    foreach (array_keys(landings()) as $l) $urls[] = '/' . $l;
     foreach (gn_slugs() as $g) $urls[] = '/game-night/' . $g;
     foreach (ESCAPE_ROOMS as $s => $r) if (empty($r['draft'])) $urls[] = '/escape/' . $s;
     foreach (mysteries() as $m) { $urls[] = '/mysteries/' . $m['slug']; $urls[] = '/mysteries/' . $m['slug'] . '/play'; }
@@ -1669,6 +1675,7 @@ function escape_index(): void {
   </div>
 </section>
 <section class="wrap">
+  <p>Browse: <a href="/free-escape-rooms-for-kids">escape rooms for kids</a> · <a href="/christmas-escape-room">Christmas escape rooms</a> · <a href="/classroom-escape-room">for the classroom</a></p>
   <div class="grid">
   <?php foreach (escape_rooms() as $slug => $r): ?>
     <?php $cv = escape_cover($slug); ?><article class="card<?= $cv ? ' has-cover' : '' ?>"><?php if ($cv): ?><a class="card-cover" href="/escape/<?= e($slug) ?>" tabindex="-1" aria-hidden="true"><img src="<?= e($cv) ?>" alt="" loading="lazy"></a><?php endif; ?><div class="card-top"><span class="badge">Level <?= (int)($r['level'] ?? 1) ?></span><span class="badge badge-crime">Escape room</span><span class="badge"><?= e($r['status']) ?></span></div>
@@ -1781,7 +1788,7 @@ function escape_play(string $slug): void {
 </head><body>
 <div id="escape" data-slug="<?= e($slug) ?>" data-csrf="<?= e(csrf_token()) ?>" data-name="<?= e(first_name((string)$u['name'])) ?>"></div>
 <script>window.ESCAPE_STATE = <?= json_encode($state, JSON_HEX_TAG | JSON_HEX_AMP) ?>;</script>
-<script src="/assets/js/escape-engine.js?v=1"></script>
+<script src="/assets/js/escape-engine.js?v=2"></script>
 <script src="/assets/js/escape-<?= e($slug) ?>.js?v=14"></script>
 </body></html>
 <?php

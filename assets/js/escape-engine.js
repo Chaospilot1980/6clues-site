@@ -180,8 +180,16 @@ function win() {
   const c = $('cover');
   c.innerHTML = `<div class="pausebox win"><p class="kicker">${G.win[0]}</p><h2>You escaped, ${NAME}!</h2><p>${G.win[1]}</p>
     <p class="big">${S.over ? 'Overtime' : fmt(t) + ' used'}</p><p>${S.hintCount ? S.hintCount + ' hint' + (S.hintCount > 1 ? 's' : '') + ' (time added)' : 'No hints – impressive.'}</p>
-    <p><a class="btn btn-big" href="/escape/${SLUG}">See the leaderboard</a></p><p class="small"><a href="/escape">More escape rooms</a> · <a href="/">Back to Six Clues</a></p></div>`;
+    <p><button class="btn btn-big" id="shareEsc">Challenge a friend</button> <a class="btn btn-ghost" href="/escape/${SLUG}">See the leaderboard</a></p><p class="small"><a href="/escape">More escape rooms</a> · <a href="/">Back to Six Clues</a></p></div>`;
   c.hidden = false;
+  const url = location.origin + '/escape/' + SLUG + '?src=share', title = document.title.split(' – ')[0];
+  const text = `I escaped “${title}” in ${S.over ? 'overtime' : fmt(t)} with ${S.hintCount} hint${S.hintCount === 1 ? '' : 's'} 🔓 Can you beat me?`;
+  $('shareEsc').addEventListener('click', () => {
+    try { const f = new FormData(); f.append('t', 'challenge_shared'); f.append('r', 'esc-' + SLUG); navigator.sendBeacon('/event', f); } catch (e) {}
+    if (navigator.share) navigator.share({ title: 'Six Clues escape room', text, url }).catch(() => {});
+    else if (navigator.clipboard) navigator.clipboard.writeText(text + ' ' + url).then(() => { $('shareEsc').textContent = 'Copied – paste it to a friend!'; });
+    else prompt('Copy this:', text + ' ' + url);
+  });
 }
 function intro() {
   const c = $('cover'), resume = S.started;

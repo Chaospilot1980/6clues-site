@@ -1,0 +1,137 @@
+<?php
+/**
+ * Keyword landing pages: each collects the live games that fit one search intent
+ * (kids, classroom, Christmas, adults, printable…). Only live content is listed –
+ * drafts and cases without art stay hidden, exactly as on the main pages.
+ */
+
+const CHRISTMAS_RE = '/christmas|santa|snow|winter|festive|frost|mince|carol|sleigh|holly/i';
+
+function escape_card(string $slug, array $r): string {
+    $cv = escape_cover($slug);
+    return '<article class="card' . ($cv ? ' has-cover' : '') . '">'
+        . ($cv ? '<a class="card-cover" href="/escape/' . e($slug) . '" tabindex="-1" aria-hidden="true"><img src="' . e($cv) . '" alt="" loading="lazy"></a>' : '')
+        . '<div class="card-top"><span class="badge">Level ' . (int)($r['level'] ?? 1) . '</span><span class="badge badge-crime">Escape room</span></div>'
+        . '<h3><a href="/escape/' . e($slug) . '">' . e($r['title']) . '</a></h3><p>' . e($r['teaser']) . '</p>'
+        . '<p class="card-stats">' . (int)$r['minutes'] . ' min · ' . e($r['players']) . ' players · ' . (int)$r['rooms'] . ' rooms</p></article>';
+}
+
+/** slug => [title, h1, kicker, description, lead html, sections (callable returning html), faq] */
+function landings(): array {
+    $esc = fn(callable $f) => array_filter(escape_rooms(), fn($r, $s) => $f($r, $s), ARRAY_FILTER_USE_BOTH);
+    $mys = fn(callable $f) => array_values(array_filter(mysteries(), $f));
+    $escGrid = fn(array $rooms) => $rooms ? '<div class="grid">' . implode('', array_map(fn($s) => escape_card($s, $rooms[$s]), array_keys($rooms))) . '</div>' : '';
+    $mysGrid = function (array $ms) { $u = current_user(); $prog = $u ? user_progress((int)$u['id']) : []; return $ms ? '<div class="grid">' . implode('', array_map(fn($m) => mystery_card($m, $prog), $ms)) . '</div>' : ''; };
+    $gnGrid = function (callable $f) { $u = current_user(); $c = array_values(array_filter(array_map('gn_case', gn_slugs()), fn($c) => $c && $f($c))); return $c ? '<div class="grid">' . implode('', array_map(fn($x) => gn_card($x, $u), $c)) . '</div>' : ''; };
+    $isXmas = fn(string $t) => (bool)preg_match(CHRISTMAS_RE, $t);
+
+    return [
+        'free-escape-rooms-for-kids' => [
+            'title' => 'Free Online Escape Rooms for Kids – Play in Your Browser',
+            'h1' => 'Free online escape rooms for kids',
+            'kicker' => 'Family escape games · free',
+            'description' => 'Free online escape rooms for kids and families: friendly point-and-click puzzles with pirates, dinosaurs, space stations and Santa’s workshop. Nothing to download.',
+            'lead' => 'Gentle escape games for children from about 7, and for families playing together around one screen. No scary stuff – just pirates, dinosaurs, robots, reindeer and a lot of clever locks. Every room has hints, so nobody gets stuck for long.',
+            'sections' => fn() => [
+                ['Escape rooms for kids', 'Level 1 rooms – short, friendly and full of hints.', $escGrid($esc(fn($r) => (int)($r['level'] ?? 1) === 1))],
+                ['Ready for more?', 'Older kids can try the level 1 detective cases: six clues, one culprit.', $mysGrid(array_slice($mys(fn($m) => (int)$m['level'] === 1), 0, 6))],
+            ],
+            'faq' => [
+                ['What age are these escape rooms for?', 'The level 1 rooms work well from about age 7 with a grown-up, and from 9–10 on their own. Reading is needed, so younger children enjoy them most as a family.'],
+                ['Are they really free?', 'Yes. Every escape room is free to play in the browser. A free sign-in saves progress so you can stop and come back.'],
+                ['Can we play on a tablet?', 'Yes – the rooms work on tablets, phones, laptops and on a TV screen.'],
+            ],
+        ],
+        'classroom-escape-room' => [
+            'title' => 'Free Classroom Escape Rooms & Detective Games for Students',
+            'h1' => 'Free classroom escape rooms and detective games',
+            'kicker' => 'For teachers · free',
+            'description' => 'Free digital escape rooms and printable detective mysteries for the classroom. Logic, reading and teamwork – play on the board or print the clues. No sign-up for mysteries.',
+            'lead' => 'Looking for a free escape room or detective activity for your class? Put a room on the interactive whiteboard and let the class vote on every move, or print a mystery case and let teams work through the six clues. Great for the last lesson before a holiday, reading practice and logical reasoning.',
+            'sections' => fn() => [
+                ['Escape rooms for the whiteboard', 'Short level 1 rooms – about 30–45 minutes as a class.', $escGrid($esc(fn($r) => (int)($r['level'] ?? 1) === 1))],
+                ['Printable detective cases', 'Each case is one page per clue: print a set per team. Level 1 is ideal for ages 9–12.', $mysGrid(array_slice($mys(fn($m) => (int)$m['level'] === 1), 0, 9))],
+            ],
+            'faq' => [
+                ['How do I run an escape room with a whole class?', 'Show the room on the board. Split the class into teams that each research one part of the room, then vote on what to try. One pupil “drives” the mouse.'],
+                ['Do pupils need accounts?', 'No. Printable mysteries need nothing at all. For escape rooms, the teacher can sign in once (free) on the classroom computer.'],
+                ['Which subjects do they fit?', 'Reading comprehension, logic and maths reasoning, and history – several rooms are set in the past, from a medieval castle to 1920s Chicago.'],
+            ],
+        ],
+        'christmas-escape-room' => [
+            'title' => 'Free Christmas Escape Rooms – Play Online for Free',
+            'h1' => 'Free Christmas escape rooms',
+            'kicker' => 'Holiday escape games · free',
+            'description' => 'Free online Christmas escape rooms: help Santa’s sleigh take off, switch on the village lights and find the stolen star on Christmas Eve. Play in your browser.',
+            'lead' => 'Festive escape games for the whole family: a locked toy workshop at the North Pole, a snowy village that needs its Christmas lights, and a country house on Christmas Eve where the diamond star has been stolen from the tree.',
+            'sections' => fn() => [
+                ['Christmas escape rooms', 'From family-friendly to tricky.', $escGrid($esc(fn($r, $s) => $isXmas($r['title'] . ' ' . $r['teaser'] . ' ' . $s)))],
+                ['Christmas murder mysteries', 'Printable festive whodunits – see all on our <a href="/christmas-murder-mystery">Christmas murder mystery</a> page.', $mysGrid(array_slice($mys(fn($m) => $isXmas($m['title'] . ' ' . $m['teaser'])), 0, 9))],
+            ],
+            'faq' => [
+                ['Are the Christmas escape rooms free?', 'Yes, all of them. Play in the browser – no download.'],
+                ['Are they suitable for kids?', 'Santa’s Locked Workshop and The Snowman’s Secret are level 1 and made for families. Christmas Eve at Holly Manor is level 2 – better for teens and adults.'],
+            ],
+        ],
+        'murder-mystery-for-kids' => [
+            'title' => 'Murder Mystery Games for Kids – Free Printable Detective Puzzles',
+            'h1' => 'Detective mystery games for kids',
+            'kicker' => 'Kids’ whodunits · free',
+            'description' => 'Free detective mystery games for kids: family-friendly whodunits with stolen cakes, missing pets and sabotaged snowmen. Print the clues or play online.',
+            'lead' => 'No gore, no fear – just proper detective work. These level 1 cases are about stolen trophies, sabotaged snowmen and missing guinea pigs. Each case has six clues and one culprit: read the statements, spot the lie and name the guilty one.',
+            'sections' => fn() => [
+                ['Family-friendly mysteries', 'Level 1 cases – great from about age 8.', $mysGrid($mys(fn($m) => (int)$m['level'] === 1))],
+                ['Detective escape room', 'Can your young detective pass the final exam?', $escGrid($esc(fn($r, $s) => $s === 'the-detective-academy'))],
+            ],
+            'faq' => [
+                ['What age is a kids’ murder mystery for?', 'Our level 1 cases are written for ages 8 and up – the “crimes” are thefts and pranks, never anything scary.'],
+                ['Can I print them for a party?', 'Yes. Every case has a print version: hide the six clue cards around the room and let the kids hunt for them.'],
+            ],
+        ],
+        'whodunit-puzzles-for-adults' => [
+            'title' => 'Hard Whodunit Puzzles for Adults – Free Murder Mysteries',
+            'h1' => 'Hard whodunit puzzles for adults',
+            'kicker' => 'Mastermind cases · free',
+            'description' => 'Hard, fair-play whodunit puzzles for adults: timelines, alibis and evidence that only fits one suspect. Free murder mysteries to solve online or print.',
+            'lead' => 'For readers who always guess the killer by chapter three. These level 3 cases are built like proper fair-play mysteries: every alibi can be checked against a log, a receipt or a timetable – and exactly one suspect’s story falls apart.',
+            'sections' => fn() => [
+                ['Mastermind cases', 'Level 3 – timelines, decoys and one lie.', $mysGrid($mys(fn($m) => (int)$m['level'] === 3))],
+                ['Hard escape rooms', 'Level 2 rooms with false trails.', $escGrid($esc(fn($r) => (int)($r['level'] ?? 1) >= 2))],
+            ],
+            'faq' => [
+                ['Are the puzzles fair?', 'Yes. Every solution follows from the six clues alone – no hidden information and no trick endings.'],
+                ['How long does a level 3 case take?', 'Usually 15–30 minutes. Check the timelines carefully – the lie is always in the details.'],
+            ],
+        ],
+        'printable-murder-mystery-games' => [
+            'title' => 'Free Printable Murder Mystery Games (PDF-Ready Clues)',
+            'h1' => 'Free printable murder mystery games',
+            'kicker' => 'Print & play · free',
+            'description' => 'Free printable murder mystery games: full case files with sealed envelopes for game night, plus 200 short whodunits you can print clue by clue.',
+            'lead' => 'Everything on Six Clues can be printed. Game Night case files are complete printable murder mystery games for 2–8 players with sealed envelopes. The short cases print one page per clue – perfect for a party, a classroom or a rainy afternoon.',
+            'sections' => fn() => [
+                ['Game Night case files', 'Full printable cases with envelopes, for 2–8 players.', $gnGrid(fn($c) => true)],
+                ['Short printable cases', 'Six clues each – the newest ones first.', $mysGrid(array_slice(array_reverse(mysteries()), 0, 12))],
+            ],
+            'faq' => [
+                ['How do I print a case?', 'Open any case and choose “Print”. Your browser can save it as a PDF too.'],
+                ['How many players?', 'Short cases work for 1–6 players. Game Night case files are designed for 2–8.'],
+            ],
+        ],
+    ];
+}
+
+function landing_page(string $slug): void {
+    $L = landings()[$slug] ?? null;
+    if (!$L) { not_found(); return; }
+    page_start(['title' => $L['title'], 'path' => '/' . $slug, 'description' => $L['description']]);
+    echo '<section class="gn-hero"><div class="wrap"><p class="kicker">' . e($L['kicker']) . '</p><h1>' . e($L['h1']) . '</h1><p class="lead">' . e($L['lead']) . '</p></div></section>';
+    foreach (($L['sections'])() as [$h, $intro, $html]) {
+        if ($html === '') continue;
+        echo '<section class="wrap"><h2>' . e($h) . '</h2><p>' . $intro . '</p>' . $html . '</section>';
+    }
+    $others = array_diff(array_keys(landings()), [$slug]);
+    echo '<section class="wrap"><p>More free games: ' . implode(' · ', array_map(fn($s) => '<a href="/' . e($s) . '">' . e(landings()[$s]['h1']) . '</a>', $others)) . ' · <a href="/christmas-murder-mystery">Christmas murder mysteries</a> · <a href="/escape">all escape rooms</a> · <a href="/mysteries">all mysteries</a></p></section>';
+    echo faq_block($L['faq'], $L['h1'] . ' – questions');
+    page_end();
+}
