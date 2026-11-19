@@ -132,6 +132,15 @@ function landing_page(string $slug): void {
     }
     $others = array_diff(array_keys(landings()), [$slug]);
     echo '<section class="wrap"><p>More free games: ' . implode(' · ', array_map(fn($s) => '<a href="/' . e($s) . '">' . e(landings()[$s]['h1']) . '</a>', $others)) . ' · <a href="/christmas-murder-mystery">Christmas murder mysteries</a> · <a href="/escape">all escape rooms</a> · <a href="/mysteries">all mysteries</a></p></section>';
+    echo pin_box('page-' . $slug, '/' . $slug, $L['description']);
     echo faq_block($L['faq'], $L['h1'] . ' – questions');
     page_end();
+}
+
+/** Pinterest-friendly tall image + save button (only if the pin image exists). */
+function pin_box(string $name, string $path, string $desc): string {
+    $f = '/assets/img/pins/' . $name . '.jpg';
+    if (!is_file(dirname(__DIR__) . $f)) return '';
+    $href = 'https://www.pinterest.com/pin/create/button/?url=' . rawurlencode(url($path)) . '&media=' . rawurlencode(url($f)) . '&description=' . rawurlencode($desc);
+    return '<section class="wrap pinbox"><a href="' . e($href) . '" target="_blank" rel="noopener"><img src="' . e($f) . '" alt="' . e($desc) . '" width="200" height="300" loading="lazy"></a><div><h2>Save it for later</h2><p>Planning a game night, a party or a rainy afternoon? Save this to Pinterest so you can find it again.</p><p><a class="btn btn-ghost" href="' . e($href) . '" target="_blank" rel="noopener">Save to Pinterest</a></p></div></section>';
 }

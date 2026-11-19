@@ -849,6 +849,7 @@ function christmas_page(): void {
   ['Are these Christmas murder mysteries suitable for kids?', 'The level 1 cases are family-friendly detective puzzles with no gore – great for children from about 8. Level 2 and 3 cases are aimed at teens and adults.'],
   ['Are they really free?', 'Yes – every case, printable and online, is free. No download or sign-up needed.'],
 ], 'Christmas murder mystery – questions') ?>
+<?= pin_box('page-christmas-murder-mystery', '/christmas-murder-mystery', 'Free Christmas murder mystery games – printable whodunits and Christmas escape rooms.') ?>
 <?php
     page_end();
 }
@@ -1402,6 +1403,7 @@ function gn_landing(string $slug): void {
   <?php else: ?><p>No table has cracked this case yet. Will yours be the first?</p><?php endif; ?>
   <p class="small muted">All names, companies and events in this game are fictional.</p>
 </section>
+<?= pin_box('gn-' . $slug, '/game-night/' . $slug, 'Free printable murder mystery game: ' . $c['title'] . ' – a complete case file for game night.') ?>
 <?php
     page_end();
 }
@@ -1737,6 +1739,7 @@ function escape_landing(string $slug): void {
   </tbody></table></div>
   <?php else: ?><p>Nobody has escaped yet. Will you be the first?</p><?php endif; ?>
 </section>
+<?= pin_box('esc-' . $slug, '/escape/' . $slug, 'Free online escape room: ' . $r['title'] . ' – play in your browser.') ?>
 <?php
     page_end();
 }
