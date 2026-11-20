@@ -3214,62 +3214,9 @@ Setting: At Kingsbury Bowls Club, the silver cups were stolen from the pavilion 
 ### `the-bowls-club-burglary/photo-print.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “PRINT” at –, from “Neil's printed photo” in the detective mystery “The Bowls Club Burglary”: Saltby beach in bright sunshine, deckchairs out, the pier clock showing ten past three. No date on the print. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## Murder at the Chess Congress (daily case 2026-12-30)
-
-Setting: At the Easthaven Chess Congress, organiser Lionel Gray was found dead in the analysis room in the middle of round five.
-
-### `murder-at-the-chess-congress/kemi-ade.jpg`
-> Portrait of Kemi Ade, Bookstall holder and player, a character in the detective mystery “Murder at the Chess Congress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-chess-congress/ruth-gray.jpg`
-> Portrait of Ruth Gray, Lionel's wife, player on board 2, a character in the detective mystery “Murder at the Chess Congress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-chess-congress/viktor-hale.jpg`
-> Portrait of Viktor Hale, Player, board 3, a character in the detective mystery “Murder at the Chess Congress”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## The Harbour Office Safe (daily case 2026-12-31)
-
-Setting: In the little fishing port of Polcarrow, a year's mooring fees – £6,400 – were taken from the harbour office safe early on a January morning.
-
-### `the-harbour-office-safe/davey-hocking.jpg`
-> Portrait of Davey Hocking, Fisherman, former deputy, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-harbour-office-safe/jenna-penrose.jpg`
-> Portrait of Jenna Penrose, Deputy harbour master, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-harbour-office-safe/kit-rowe.jpg`
-> Portrait of Kit Rowe, Harbour café owner, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-harbour-office-safe/lowenna-kemp.jpg`
-> Portrait of Lowenna Kemp, Lifeboat mechanic, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-harbour-office-safe/morwen-tregear.jpg`
-> Portrait of Morwen Tregear, Harbour master, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-harbour-office-safe/ned-pascoe.jpg`
-> Portrait of Ned Pascoe, Fish merchant, a character in the detective mystery “The Harbour Office Safe”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Death in the Signal Box (daily case 2027-01-01)
 
 Setting: On the Hollow Vale Steam Railway, volunteer signalman Harold Brock was found dead in Hollow Lane signal box during a busy Sunday timetable.
-
-### `death-in-the-signal-box/colin-hart.jpg`
-> Portrait of Colin Hart, Guard, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-signal-box/edna-ross.jpg`
-> Portrait of Edna Ross, Tea-room volunteer, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-signal-box/gordon-pike.jpg`
-> Portrait of Gordon Pike, Station master, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-signal-box/lucy-bright.jpg`
-> Portrait of Lucy Bright, Fireman, engine 3, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-signal-box/mira-shah.jpg`
-> Portrait of Mira Shah, Railway photographer, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-signal-box/tom-ames.jpg`
-> Portrait of Tom Ames, Driver, engine 3, a character in the detective mystery “Death in the Signal Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `death-in-the-signal-box/photo-img-5520.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_5520” at 14:25, from “Platform photo by Mira Shah” in the detective mystery “Death in the Signal Box”: Engine 3 at the platform, steam up. On the footplate: the fireman alone, shovel in hand. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -3277,24 +3224,6 @@ Setting: On the Hollow Vale Steam Railway, volunteer signalman Harold Brock was 
 ## Murder at the Planetarium (daily case 2027-01-02)
 
 Setting: At the Northgate Planetarium, director Prof.
-
-### `murder-at-the-planetarium/bryn-owens.jpg`
-> Portrait of Bryn Owens, Trustee, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-planetarium/dr-hana-ito.jpg`
-> Portrait of Dr Hana Ito, Presenter, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-planetarium/kieran-doyle.jpg`
-> Portrait of Kieran Doyle, Projectionist, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-planetarium/lily-carter.jpg`
-> Portrait of Lily Carter, Visitor, row F, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-planetarium/sgt-paula-grey.jpg`
-> Portrait of Sgt Paula Grey, Police, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-planetarium/sophie-marr.jpg`
-> Portrait of Sophie Marr, Café manager, a character in the detective mystery “Murder at the Planetarium”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `murder-at-the-planetarium/photo-cam-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM-2” at 19:34, from “Café camera” in the detective mystery “Murder at the Planetarium”: K. Doyle enters the café, sits alone near the door. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -3305,24 +3234,6 @@ Setting: At the Northgate Planetarium, director Prof.
 ## The Surf School Drowning (daily case 2027-01-03)
 
 Setting: In Penhallow Bay, surf-school owner Jake Rowan was found drowned on the rocks at the north end of the beach after an evening paddle.
-
-### `the-surf-school-drowning/ben-hosking.jpg`
-> Portrait of Ben Hosking, Harbour master, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-surf-school-drowning/dan-price.jpg`
-> Portrait of Dan Price, Instructor, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-surf-school-drowning/elsie-trevan.jpg`
-> Portrait of Elsie Trevan, Dog walker, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-surf-school-drowning/mo-jansen.jpg`
-> Portrait of Mo Jansen, Beach bar owner, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-surf-school-drowning/nina-cole.jpg`
-> Portrait of Nina Cole, Business partner, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-surf-school-drowning/pc-morgan-tate.jpg`
-> Portrait of PC Morgan Tate, Police, a character in the detective mystery “The Surf School Drowning”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-surf-school-drowning/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM-1” at 19:30, from “Hut camera” in the detective mystery “The Surf School Drowning”: D. Price leaves with his board bag. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -3336,93 +3247,9 @@ Setting: In Penhallow Bay, surf-school owner Jake Rowan was found drowned on the
 ### `the-surf-school-drowning/photo-ph-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “PH-3” at 07:00, from “Police photo, Sunday 07:00” in the detective mystery “The Surf School Drowning”: Rocks at the north end: at low water they can be reached on foot over the sand. At high water they are cut off. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Poisoned Beehives (daily case 2027-01-04)
-
-Setting: In the village of Little Brockwell, all twelve hives of beekeeper Ruth Ashby died overnight – two days before the county honey show she has won four years running.
-
-### `the-poisoned-beehives/carol-finch.jpg`
-> Portrait of Carol Finch, Rival beekeeper, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-poisoned-beehives/dr-anil-shah.jpg`
-> Portrait of Dr Anil Shah, Show judge, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-poisoned-beehives/gwen-pryor.jpg`
-> Portrait of Gwen Pryor, Landlady, The Plough, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-poisoned-beehives/ruth-ashby.jpg`
-> Portrait of Ruth Ashby, Beekeeper, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-poisoned-beehives/sid-morley.jpg`
-> Portrait of Sid Morley, Gardener, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-poisoned-beehives/tom-ashby.jpg`
-> Portrait of Tom Ashby, Ruth's nephew, a character in the detective mystery “The Poisoned Beehives”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## The Ice Rink Sabotage (daily case 2027-01-05)
-
-Setting: At the Northern Figure Skating Championships, favourite Lena Novak fell when the blade came off her right skate.
-
-### `the-ice-rink-sabotage/bianca-rossi.jpg`
-> Portrait of Bianca Rossi, Rival skater, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ice-rink-sabotage/greg-novak.jpg`
-> Portrait of Greg Novak, Lena's coach and father, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ice-rink-sabotage/joe-pike.jpg`
-> Portrait of Joe Pike, Ice technician, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ice-rink-sabotage/lena-novak.jpg`
-> Portrait of Lena Novak, Skater, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ice-rink-sabotage/mika-sato.jpg`
-> Portrait of Mika Sato, Skater, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ice-rink-sabotage/ruth-hale.jpg`
-> Portrait of Ruth Hale, Changing room steward, a character in the detective mystery “The Ice Rink Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## The Orchid House Murder (daily case 2027-01-06)
-
-Setting: At Thornfield Manor, orchid collector Sir Roland Hythe was found dead in his heated glasshouse on the night of a small dinner party.
-
-### `the-orchid-house-murder/dr-eva-marsh.jpg`
-> Portrait of Dr Eva Marsh, Police surgeon, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-orchid-house-murder/felicity-crane.jpg`
-> Portrait of Felicity Crane, Rival collector, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-orchid-house-murder/gerald-pryce.jpg`
-> Portrait of Gerald Pryce, Business partner, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-orchid-house-murder/hugo-hythe.jpg`
-> Portrait of Hugo Hythe, Nephew, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-orchid-house-murder/mrs-agnes-doyle.jpg`
-> Portrait of Mrs Agnes Doyle, Housekeeper, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-orchid-house-murder/simon-ward.jpg`
-> Portrait of Simon Ward, Butler, a character in the detective mystery “The Orchid House Murder”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## The Caravan Park Jewels (daily case 2027-01-07)
 
 Setting: At Sandpiper Bay Holiday Park, Mrs Iris Bell's jewellery roll – her late husband's gifts, worth £9,000 – was taken from caravan 14 during Friday's talent show.
-
-### `the-caravan-park-jewels/barry-cole.jpg`
-> Portrait of Barry Cole, Neighbour, caravan 15, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-caravan-park-jewels/donna-pike.jpg`
-> Portrait of Donna Pike, Entertainments host, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-caravan-park-jewels/iris-bell.jpg`
-> Portrait of Iris Bell, Holidaymaker, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-caravan-park-jewels/kev-shaw.jpg`
-> Portrait of Kev Shaw, Reception, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-caravan-park-jewels/mick-dunn.jpg`
-> Portrait of Mick Dunn, Magician, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-caravan-park-jewels/tasha-moore.jpg`
-> Portrait of Tasha Moore, Caravan 16, a character in the detective mystery “The Caravan Park Jewels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-caravan-park-jewels/photo-img-7731.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_7731” at 20:34, from “Tasha's phone” in the detective mystery “The Caravan Park Jewels”: Sunset over the dunes. Bottom left: a man in a Hawaiian shirt opening the door of caravan 14. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -3430,24 +3257,6 @@ Setting: At Sandpiper Bay Holiday Park, Mrs Iris Bell's jewellery roll – her l
 ## Death at the Auction House (daily case 2027-01-08)
 
 Setting: At Ferris & Gold auctioneers, senior valuer Martin Gold was found dead in the basement strongroom during the Thursday sale of fine silver.
-
-### `death-at-the-auction-house/ade-okoro.jpg`
-> Portrait of Ade Okoro, Porter, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-auction-house/clive-ferris.jpg`
-> Portrait of Clive Ferris, Partner, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-auction-house/di-helen-shaw.jpg`
-> Portrait of DI Helen Shaw, Police, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-auction-house/josh-reid.jpg`
-> Portrait of Josh Reid, Porter, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-auction-house/priya-lam.jpg`
-> Portrait of Priya Lam, Cataloguer, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-auction-house/sarah-wren.jpg`
-> Portrait of Sarah Wren, Porter, a character in the detective mystery “Death at the Auction House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `death-at-the-auction-house/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM-1” at 14:30–15:00, from “Saleroom camera” in the detective mystery “Death at the Auction House”: C. Ferris on the rostrum throughout, gavel in hand. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -3459,101 +3268,21 @@ Setting: At Ferris & Gold auctioneers, senior valuer Martin Gold was found dead 
 
 Setting: At the Elmwood Primary Christmas Fair, the tombola's top prize, a £300 games console, vanished from its box under the tombola table during the afternoon.
 
-### `the-school-fair-tombola/kerry-lamb.jpg`
-> Portrait of Kerry Lamb, Parent helper, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-school-fair-tombola/mr-owen-dale.jpg`
-> Portrait of Mr Owen Dale, Tombola helper, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-school-fair-tombola/mr-tim-ford.jpg`
-> Portrait of Mr Tim Ford, Caretaker, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-school-fair-tombola/mrs-jenny-clarke.jpg`
-> Portrait of Mrs Jenny Clarke, Fair organiser, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-school-fair-tombola/raj-patel.jpg`
-> Portrait of Raj Patel, Parent, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-school-fair-tombola/sandra-hughes.jpg`
-> Portrait of Sandra Hughes, Parent helper, a character in the detective mystery “The School Fair Tombola”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-school-fair-tombola/photo-img-330.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_330” at 14:28, from “Raj's phone” in the detective mystery “The School Fair Tombola”: Raj's son next to the tombola table. Mr Dale holds up the console. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ### `the-school-fair-tombola/photo-img-335.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_335” at 14:41, from “Raj's phone” in the detective mystery “The School Fair Tombola”: Raj's son with a tombola prize. Behind the table: Sandra Hughes, bending down to the box under the table. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Library First Edition (daily case 2027-01-10)
-
-Setting: At Kingsford Library, a signed first edition worth £4,000 has gone from the locked Local History cabinet.
-
-### `the-library-first-edition/jack-bright.jpg`
-> Portrait of Jack Bright, Cleaner, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-library-first-edition/mr-colin-nash.jpg`
-> Portrait of Mr Colin Nash, Deputy librarian, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-library-first-edition/mr-lee-shaw.jpg`
-> Portrait of Mr Lee Shaw, Bookseller, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-library-first-edition/mrs-ada-lowe.jpg`
-> Portrait of Mrs Ada Lowe, Head librarian, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-library-first-edition/mrs-pat-moore.jpg`
-> Portrait of Mrs Pat Moore, Library friend, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-library-first-edition/rosa-vega.jpg`
-> Portrait of Rosa Vega, Archive volunteer, a character in the detective mystery “The Library First Edition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## The Snowman Contest (daily case 2027-01-11)
 
 Setting: In the village of Fernley, the snowman contest is judged at nine on Sunday morning.
-
-### `the-snowman-contest/ben-hart.jpg`
-> Portrait of Ben Hart, Farmer, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snowman-contest/gus-rowley.jpg`
-> Portrait of Gus Rowley, Rival builder, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snowman-contest/jill-rowley.jpg`
-> Portrait of Jill Rowley, Gus's wife, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snowman-contest/molly-grant.jpg`
-> Portrait of Molly Grant, Snow-owl builder, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snowman-contest/nina-patel.jpg`
-> Portrait of Nina Patel, Neighbour, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snowman-contest/warden-pete.jpg`
-> Portrait of Warden Pete, Village green warden, a character in the detective mystery “The Snowman Contest”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-snowman-contest/photo-cam.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CAM” at 02:05, from “Rowleys' doorbell camera” in the detective mystery “The Snowman Contest”: A man in a big coat and wellies leaving the Rowleys' back gate towards the green. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ### `the-snowman-contest/photo-cam-2.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CAM” at 02:20, from “Rowleys' doorbell camera” in the detective mystery “The Snowman Contest”: The same man coming back in, brushing snow off his sleeves. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
-
-## The Pet Show Rosette (daily case 2027-01-12)
-
-Setting: At the Hollybrook Village Pet Show, champion rabbit Biscuit was found with green dye all over her white fur just before the 'Best in Show' judging.
-
-### `the-pet-show-rosette/ellie-moss.jpg`
-> Portrait of Ellie Moss, Biscuit's owner, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-pet-show-rosette/gary-pike.jpg`
-> Portrait of Gary Pike, Rival rabbit owner, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-pet-show-rosette/kayla-brown.jpg`
-> Portrait of Kayla Brown, Rabbit tent helper, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-pet-show-rosette/mr-tom-reed.jpg`
-> Portrait of Mr Tom Reed, Show secretary, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-pet-show-rosette/mrs-june-hart.jpg`
-> Portrait of Mrs June Hart, Cake tent organiser, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-pet-show-rosette/sam-lee.jpg`
-> Portrait of Sam Lee, Cake stall, a character in the detective mystery “The Pet Show Rosette”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## The Pantomime Takings (daily case 2027-01-13)
 
@@ -3740,4 +3469,4 @@ Setting: At the Seacliff Aquarium, the famous Black Moon pearl was displayed ins
 > Candid snapshot as taken with that camera – “IMG_6090” at 15:32, from “Ben's phone” in the detective mystery “The Aquarium Pearl Theft”: Staff locker 6 open: a dripping wetsuit and a small velvet pouch on the shelf. Name tag on the locker: J. MARSH. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 628 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 709 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
