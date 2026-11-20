@@ -233,7 +233,6 @@ function verify_google_token(string $jwt): ?array {
     curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 10]);
     $body = curl_exec($ch);
     $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    curl_close($ch);
     if ($code !== 200 || !$body) return null;
     $p = json_decode($body, true);
     if (!is_array($p)) return null;

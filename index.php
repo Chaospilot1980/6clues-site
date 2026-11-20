@@ -1021,7 +1021,7 @@ function cron_deploy(): void {
     $get = function (string $u, array $headers = []) {
         $ch = curl_init($u);
         curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_FOLLOWLOCATION => true, CURLOPT_TIMEOUT => 60, CURLOPT_USERAGENT => 'sixclues-deploy', CURLOPT_HTTPHEADER => $headers]);
-        $b = curl_exec($ch); $c = curl_getinfo($ch, CURLINFO_HTTP_CODE); curl_close($ch);
+        $b = curl_exec($ch); $c = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         return $c === 200 ? $b : null;
     };
     // The GitHub API is not CDN-cached like raw.githubusercontent.com, so a fresh push is seen at once.
