@@ -16,6 +16,7 @@ landings = {
   'whodunit-puzzles-for-adults': (R + '/assets/img/m/death-in-the-snow/cover.jpg', 'Mastermind cases', 'Hard Whodunit Puzzles for Adults'),
   'printable-murder-mystery-games': (R + '/assets/img/gn/overboard-at-midnight/cover.jpg', 'Print & play', 'Free Printable Murder Mystery Games'),
   'how-to-host-a-murder-mystery-party': (R + '/assets/img/gn/the-last-invitation/cover.jpg', 'Party guide', 'How to Host a Murder Mystery Party'),
+  'black-friday-murder-mystery': (R + '/assets/img/escape/locked-in-the-mall/atrium.jpg', 'Black Friday special', 'Black Friday Murder Mystery & Escape Room'),
   'detective-games-online': (R + '/assets/img/escape/the-detective-academy/evidence.jpg', 'Play free online', 'Free Detective Games Online'),
   'christmas-murder-mystery': (R + '/assets/img/m/death-at-the-winter-circus/cover.jpg', 'Holiday whodunits', 'Free Christmas Murder Mystery Games'),
 }
