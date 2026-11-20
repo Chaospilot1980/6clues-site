@@ -158,6 +158,25 @@ function landings(): array {
                 ['Is it suitable for kids?', 'The Black Friday Teddy and Locked In the Mall are level 1 and made for families. Death at the Midnight Sale is a level 3 murder for adults.'],
             ],
         ],
+        'detective-games-online' => [
+            'title' => 'Free Detective Games Online – Solve Mysteries in Your Browser',
+            'h1' => 'Free detective games online',
+            'kicker' => 'Detective games · free',
+            'description' => 'Free detective games to play online: whodunit mysteries with six clues, a daily case, point-and-click escape rooms and printable cold case files. No download needed.',
+            'lead' => 'Read the statements, check the evidence, catch the lie and name the culprit. Every Six Clues case is a short detective game you can play in your browser – from easy thefts for beginners to fiendish murders for seasoned sleuths. A new case comes out every day.',
+            'sections' => fn() => [
+                ['Start here: easy detective cases', 'Short and fair – perfect for your first case.', $mysGrid(array_slice($mys(fn($m) => (int)$m['level'] === 1), 0, 6))],
+                ['For experienced detectives', 'Harder cases with tighter alibis and more red herrings.', $mysGrid(array_slice($mys(fn($m) => (int)$m['level'] === 3), 0, 6))],
+                ['Point-and-click detective escape rooms', 'Search the room, find the clues, crack the locks.', $escGrid($esc(fn($r, $s) => (bool)preg_match('/detective|heist|bank|safehouse|codebreak|séance|seance|market|museum|train/i', $r['title'] . ' ' . $s)))],
+                ['Detective cases to print', 'Cold case files with sealed envelopes – for a game night at home.', $gnGrid(fn($c) => true)],
+            ],
+            'faq' => [
+                ['How does a Six Clues detective game work?', 'Each case has six clues: witness statements and evidence like receipts, logs and notes. One statement contradicts the evidence – find it, and you have your culprit.'],
+                ['Are the detective games free?', 'Yes. Every case and escape room is free in the browser. A free account saves your progress and streak.'],
+                ['Is there a daily detective game?', 'Yes – a new case unlocks every day, the same for everyone, so you can compare with friends.'],
+                ['Can I play on my phone?', 'Yes, the games work on phones, tablets and computers.'],
+            ],
+        ],
     ];
 }
 
