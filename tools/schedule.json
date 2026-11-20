@@ -355,6 +355,198 @@
   "daily": null,
   "public": "2026-11-19"
  },
+ "death-in-the-cheese-caves": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-recording-studio": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-honey-label-fraud": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-hotel-key-card-thief": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-at-the-rowing-club": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-perfume-house": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-pottery-kiln-sabotage": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-vet-clinic-drug-theft": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-on-the-carousel": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-picture-palace": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-ice-hockey-trophy-theft": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-gallery-forgery-swap": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-at-the-mountain-hut": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-tea-estate": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-prize-pumpkin-poisoning": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-charity-shop-necklace": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-at-the-monastery": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-aboard-the-museum-submarine": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-newspaper-scoop-leak": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-racehorse-doping": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-at-the-space-camp": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-new-year-concert": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-office-lottery-ticket": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-scout-camp-cash-box": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-at-the-castle-banquet": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-in-the-city-archive": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-missing-christmas-parcels": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "the-ballet-shoe-sabotage": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-at-the-lighthouse-hotel": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-fashion-show": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-in-the-hedge-maze": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-in-the-airport-lounge": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-aboard-the-yacht": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-in-the-bank-vault": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-at-the-polar-station": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-pharaoh-exhibition": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-on-the-santa-steam-train": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-safari-lodge": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-in-the-courthouse": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-winter-regatta": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-on-the-night-ward": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-embassy-ball": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-on-the-oil-rig": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-waxworks": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-at-the-toy-factory": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-lake-house": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "death-at-the-dam": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
+ "murder-at-the-chocolatier": {
+  "daily": null,
+  "public": "2026-11-20"
+ },
  "the-counterfeit-christmas": {
   "daily": "2026-11-15",
   "public": "2026-11-15"
@@ -614,5 +806,9 @@
  "the-missing-mascot-costume": {
   "daily": "2027-01-18",
   "public": "2027-01-18"
+ },
+ "the-aquarium-pearl-theft": {
+  "daily": "2027-01-19",
+  "public": "2027-01-19"
  }
 }
