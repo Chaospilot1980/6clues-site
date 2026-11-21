@@ -1012,30 +1012,60 @@ function unsubscribe(): void {
  */
 function cron_deploy(): void {
     header('Content-Type: text/plain; charset=utf-8');
-    @set_time_limit(120);
+    @set_time_limit(300);
     $repo = (string)cfg('deploy_repo', 'Chaospilot1980/6clues-site');
     $data = dirname(__DIR__) . '/data';
     if (!is_dir($data)) @mkdir($data, 0700, true);
     $lock = $data . '/deploy.lock';
     if (is_file($lock) && time() - filemtime($lock) < 120) { echo "busy\n"; return; }
-    $get = function (string $u, array $headers = []) {
+    $get = function (string $u, array $headers = [], int $timeout = 60) {
         $ch = curl_init($u);
-        curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_FOLLOWLOCATION => true, CURLOPT_TIMEOUT => 60, CURLOPT_USERAGENT => 'sixclues-deploy', CURLOPT_HTTPHEADER => $headers]);
+        curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_FOLLOWLOCATION => true, CURLOPT_TIMEOUT => $timeout, CURLOPT_USERAGENT => 'sixclues-deploy', CURLOPT_HTTPHEADER => $headers]);
         $b = curl_exec($ch); $c = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         return $c === 200 ? $b : null;
     };
-    // The GitHub API is not CDN-cached like raw.githubusercontent.com, so a fresh push is seen at once.
-    $remote = trim((string)$get("https://api.github.com/repos/$repo/contents/VERSION?ref=main", ['Accept: application/vnd.github.raw']));
-    if ($remote === '') $remote = trim((string)$get("https://raw.githubusercontent.com/$repo/main/VERSION?" . time()));
-    $local = trim((string)@file_get_contents(__DIR__ . '/VERSION'));
-    if ($remote === '' ) { echo "could not read remote VERSION\n"; return; }
-    if ($remote === $local && empty($_GET['force'])) { echo "up to date ($local)\n"; return; }
-    touch($lock);   // only lock while actually deploying
-    $zip = $get("https://codeload.github.com/$repo/zip/refs/heads/main");
+    // The GitHub API is not CDN-cached, so a fresh push is seen at once.
+    $sha = trim((string)$get("https://api.github.com/repos/$repo/commits/main", ['Accept: application/vnd.github.sha']));
+    $shaFile = $data . '/deployed_sha';
+    $old = trim((string)@file_get_contents($shaFile));
+    if (!preg_match('/^[0-9a-f]{40}$/', $sha)) { echo "could not read remote commit\n"; return; }
+    if ($sha === $old && empty($_GET['full'])) { echo "up to date (" . substr($sha, 0, 7) . ")\n"; return; }
+    touch($lock);
+    $write = function (string $rel, string $body) {
+        $dest = __DIR__ . '/' . $rel;
+        if (!is_dir(dirname($dest))) @mkdir(dirname($dest), 0755, true);
+        if ($rel === 'index.php') { return file_put_contents($dest . '.new', $body) !== false && rename($dest . '.new', $dest); }
+        return file_put_contents($dest, $body) !== false;
+    };
+    // Incremental: only the files changed since the last deployed commit.
+    if ($old !== '' && empty($_GET['full'])) {
+        $cmp = json_decode((string)$get("https://api.github.com/repos/$repo/compare/$old...$sha"), true);
+        $files = $cmp['files'] ?? null;
+        if (is_array($files) && count($files) < 300) {
+            $n = 0; $fail = 0; $last = null;
+            foreach ($files as $f) {
+                if (($f['status'] ?? '') === 'removed') continue;
+                $rel = (string)$f['filename'];
+                if (str_contains($rel, '..')) continue;
+                if ($rel === 'index.php') { $last = $rel; continue; }
+                $body = $get("https://raw.githubusercontent.com/$repo/$sha/" . implode('/', array_map('rawurlencode', explode('/', $rel))), [], 30);
+                if ($body === null) { $fail++; continue; }
+                $write($rel, $body) ? $n++ : $fail++;
+            }
+            if ($last) { $body = $get("https://raw.githubusercontent.com/$repo/$sha/index.php", [], 30); ($body !== null && $write('index.php', $body)) ? $n++ : $fail++; }
+            if ($fail === 0) file_put_contents($shaFile, $sha);
+            @unlink($lock);
+            if (function_exists('opcache_reset')) @opcache_reset();
+            echo ($fail ? "partial deploy" : "deployed") . " " . substr($sha, 0, 7) . " ($n files changed" . ($fail ? ", $fail failed – run again" : '') . ")\n";
+            return;
+        }
+    }
+    // Full deploy (first run, or too many changes): whole repo zip.
+    $zip = $get("https://codeload.github.com/$repo/zip/$sha", [], 240);
     if (!$zip) { echo "download failed\n"; return; }
     $tmp = $data . '/deploy-' . bin2hex(random_bytes(4));
     @mkdir($tmp, 0700, true);
-    file_put_contents("$tmp/site.zip", $zip);
+    file_put_contents("$tmp/site.zip", $zip); unset($zip);
     $za = new ZipArchive();
     if ($za->open("$tmp/site.zip") !== true) { echo "bad zip\n"; return; }
     $za->extractTo("$tmp/x"); $za->close();
@@ -1048,13 +1078,16 @@ function cron_deploy(): void {
         $dest = __DIR__ . '/' . $rel;
         if ($f->isDir()) { if (!is_dir($dest)) @mkdir($dest, 0755, true); continue; }
         if ($rel === 'index.php') continue; // replaced last
+        if (is_file($dest) && filesize($dest) === $f->getSize() && md5_file($dest) === md5_file($f->getPathname())) continue;
         if (@copy($f->getPathname(), $dest)) $n++;
     }
     copy("$src/index.php", __DIR__ . '/index.php.new') && rename(__DIR__ . '/index.php.new', __DIR__ . '/index.php') && $n++;
     $rm = function ($d) use (&$rm) { foreach (glob("$d/{,.}[!.,!..]*", GLOB_BRACE) ?: [] as $p) is_dir($p) ? $rm($p) : @unlink($p); @rmdir($d); };
     $rm($tmp);
+    file_put_contents($shaFile, $sha);
+    @unlink($lock);
     if (function_exists('opcache_reset')) @opcache_reset();
-    echo "deployed $remote ($n files)\n";
+    echo "deployed " . substr($sha, 0, 7) . " full ($n files changed)\n";
 }
 
 function review_form(int $uid, string $slug): void {
