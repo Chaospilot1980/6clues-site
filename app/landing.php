@@ -177,6 +177,24 @@ function landings(): array {
                 ['Can I play on my phone?', 'Yes, the games work on phones, tablets and computers.'],
             ],
         ],
+        'escape-room-at-home' => [
+            'title' => 'Escape Room at Home – Free Online & Printable Games',
+            'h1' => 'Escape room at home – free',
+            'kicker' => 'Play at home · free',
+            'description' => 'Do an escape room at home for free: 35 online escape rooms to play in your browser on a TV or laptop, plus printable mystery case files for the kitchen table. Hints included.',
+            'lead' => 'No booking, no travel, no cost. Put an online escape room on the TV, gather the family on the sofa and solve it together – or print a cold case file and spread the evidence across the kitchen table. Every game has built-in hints, so nobody gets stuck for long.',
+            'sections' => fn() => [
+                ['Escape rooms for the whole family', 'Easy rooms – great for kids and first-timers.', $escGrid($esc(fn($r, $s) => (int)$r['level'] === 1))],
+                ['Harder escape rooms for teens and adults', 'More rooms, trickier locks.', $escGrid($esc(fn($r, $s) => (int)$r['level'] >= 2))],
+                ['Printable mystery games for the table', 'Cold case files with sealed envelopes – print, play, solve.', $gnGrid(fn($c) => true)],
+            ],
+            'faq' => [
+                ['How do I do an escape room at home?', 'Open one of the online rooms on a laptop or put it on the TV, and solve it together. One person clicks, everyone else shouts ideas. A room takes 20–40 minutes.'],
+                ['Is it really free?', 'Yes – all escape rooms and mysteries on Six Clues are free, with no sign-up needed to play.'],
+                ['How many people can play?', 'Any number – it works for one player, a couple or a whole family around the TV. For bigger groups, a printable case file lets everyone hold a piece of evidence.'],
+                ['Are the escape rooms suitable for kids?', 'Level 1 rooms are made for families with children around 7 and up. Level 2 rooms suit teens and adults.'],
+            ],
+        ],
     ];
 }
 
