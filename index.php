@@ -22,7 +22,7 @@ $routes = [
     '#^/daily$#'                              => 'daily_redirect',
     '#^/game-night$#'                         => 'gn_index',
     '#^/christmas-murder-mystery$#'           => 'christmas_page',
-    '#^/(free-escape-rooms-for-kids|classroom-escape-room|christmas-escape-room|murder-mystery-for-kids|whodunit-puzzles-for-adults|printable-murder-mystery-games|how-to-host-a-murder-mystery-party|black-friday-murder-mystery|detective-games-online|escape-room-at-home)$#' => 'landing_page',
+    '#^/(free-escape-rooms-for-kids|classroom-escape-room|christmas-escape-room|murder-mystery-for-kids|whodunit-puzzles-for-adults|printable-murder-mystery-games|how-to-host-a-murder-mystery-party|black-friday-murder-mystery|detective-games-online|escape-room-at-home|new-years-eve-murder-mystery)$#' => 'landing_page',
     '#^/seasonal$#' => 'seasonal_page',
     '#^/escape$#'                             => 'escape_index',
     '#^/escape/([a-z0-9\-]+)$#'               => 'escape_landing',
@@ -1817,7 +1817,7 @@ function library(): void {
     $u = current_user();
     $prog = $u ? user_progress((int)$u['id']) : [];
     $all = mysteries();
-    page_start(['title' => 'Free Whodunit Puzzles – Murder Mystery Case Library', 'path' => '/mysteries',
+    page_start(['title' => 'Free Murder Mystery Games – Whodunit Puzzles to Play or Print', 'path' => '/mysteries',
         'description' => count($all) . ' free murder mystery games and detective puzzles. Play each whodunit online clue by clue, or print the six clue posters for a mystery party at home, school or the office.',
         'jsonld' => [['@context' => 'https://schema.org', '@type' => 'ItemList', 'name' => 'Free murder mystery games',
             'itemListElement' => array_map(fn($m, $k) => ['@type' => 'ListItem', 'position' => $k + 1, 'url' => url('/mysteries/' . $m['slug']), 'name' => $m['title']], $all, array_keys($all))]]]);

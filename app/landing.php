@@ -74,10 +74,10 @@ function landings(): array {
             ],
         ],
         'murder-mystery-for-kids' => [
-            'title' => 'Murder Mystery Games for Kids – Free Printable Detective Puzzles',
-            'h1' => 'Detective mystery games for kids',
+            'title' => 'Printable Mystery Games for Kids – Free Detective Puzzles',
+            'h1' => 'Printable mystery games for kids',
             'kicker' => 'Kids’ whodunits · free',
-            'description' => 'Free detective mystery games for kids: family-friendly whodunits with stolen cakes, missing pets and sabotaged snowmen. Print the clues or play online.',
+            'description' => 'Free printable mystery games for kids: family-friendly whodunits with stolen cakes, missing pets and sabotaged snowmen. Print the six clue cards or play online.',
             'lead' => 'No gore, no fear – just proper detective work. These level 1 cases are about stolen trophies, sabotaged snowmen and missing guinea pigs. Each case has six clues and one culprit: read the statements, spot the lie and name the guilty one.',
             'sections' => fn() => [
                 ['Family-friendly mysteries', 'Level 1 cases – great from about age 8.', $mysGrid($mys(fn($m) => (int)$m['level'] === 1))],
@@ -195,6 +195,23 @@ function landings(): array {
                 ['Are the escape rooms suitable for kids?', 'Level 1 rooms are made for families with children around 7 and up. Level 2 rooms suit teens and adults.'],
             ],
         ],
+        'new-years-eve-murder-mystery' => [
+            'title' => 'New Year’s Eve Murder Mystery & Escape Room – Free Party Games',
+            'h1' => 'New Year’s Eve murder mystery games',
+            'kicker' => 'New Year’s Eve · free',
+            'description' => 'Free New Year’s Eve murder mystery games and escape rooms: count down to midnight with a whodunit. Play online or print the clues for your NYE party.',
+            'lead' => 'Looking for something to do before the countdown? Solve a murder while the clock ticks towards midnight. These free mysteries and escape rooms fit a New Year’s Eve party perfectly – print the clues for the table, or put an escape room on the TV and race the clock together.',
+            'sections' => fn() => [
+                ['New Year mysteries', 'Midnight, fireworks and one guest with something to hide.', $mysGrid($mys(fn($m) => (bool)preg_match('/new year|midnight|countdown|fireworks|champagne|clock/i', $m['title'] . ' ' . $m['teaser'])))],
+                ['Race-the-clock escape rooms', 'Beat the timer before midnight strikes.', $escGrid($esc(fn($r, $s) => (bool)preg_match('/clock|midnight|countdown|last hour|night/i', $r['title'] . ' ' . $r['teaser'] . ' ' . $s)))],
+                ['Printable party games for the table', 'Cold case files with sealed envelopes – open one at each toast.', $gnGrid(fn($c) => true)],
+            ],
+            'faq' => [
+                ['How do I run a murder mystery on New Year’s Eve?', 'Print a case file, put the envelopes on the table and open one every half hour. Make the accusation just before midnight and reveal the culprit with the countdown.'],
+                ['Is it free?', 'Yes – all games on Six Clues are free to play online or print.'],
+                ['Does it work for a big party?', 'Yes. Split guests into teams of 3–5, give each team a copy of the evidence and see who names the culprit first.'],
+            ],
+        ],
     ];
 }
 
@@ -229,7 +246,7 @@ function seasons(): array {
             'Bargain-hunting gone wrong: stolen deals, fake orders and a midnight sale that ends in murder.'],
         'christmas' => ['Christmas', '11-15', '12-26', '/christmas-murder-mystery', CHRISTMAS_RE,
             'Festive whodunits and Christmas escape rooms – from Santa’s workshop to a stolen star on Christmas Eve.'],
-        'new-year' => ['New Year’s Eve', '12-20', '01-05', null, '/new year/i',
+        'new-year' => ['New Year’s Eve', '12-20', '01-05', '/new-years-eve-murder-mystery', '/new year/i',
             'Count down to midnight with a puzzle – perfect for a New Year’s Eve party.'],
         'valentine' => ['Valentine’s Day', '01-25', '02-15', null, '/valentine|wedding|love letter/i',
             'Love letters, wedding dramas and broken hearts – mysteries for date night.'],

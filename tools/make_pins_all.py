@@ -16,6 +16,7 @@ landings = {
   'whodunit-puzzles-for-adults': (R + '/assets/img/m/death-in-the-snow/cover.jpg', 'Mastermind cases', 'Hard Whodunit Puzzles for Adults'),
   'printable-murder-mystery-games': (R + '/assets/img/gn/overboard-at-midnight/cover.jpg', 'Print & play', 'Free Printable Murder Mystery Games'),
   'how-to-host-a-murder-mystery-party': (R + '/assets/img/gn/the-last-invitation/cover.jpg', 'Party guide', 'How to Host a Murder Mystery Party'),
+  'new-years-eve-murder-mystery': (R + '/assets/img/escape/the-clockmakers-last-hour/' + sorted(os.listdir(R + '/assets/img/escape/the-clockmakers-last-hour'))[0], 'New Year’s Eve · free', 'New Year’s Eve Murder Mystery'),
   'escape-room-at-home': (R + '/assets/img/escape/the-enchanted-library/hall.jpg', 'Free · play at home', 'Escape Room at Home'),
   'black-friday-murder-mystery': (R + '/assets/img/escape/locked-in-the-mall/atrium.jpg', 'Black Friday special', 'Black Friday Murder Mystery & Escape Room'),
   'detective-games-online': (R + '/assets/img/escape/the-detective-academy/evidence.jpg', 'Play free online', 'Free Detective Games Online'),
