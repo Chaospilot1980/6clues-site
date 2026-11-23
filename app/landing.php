@@ -66,8 +66,7 @@ function landings(): array {
             'lead' => 'A Christmas murder mystery for kids without the murder: these festive cases are about sabotaged snowmen, missing presents and stolen nativity stars. Six clues, one culprit – print the clue cards for a Christmas party, or solve them together on the sofa.',
             'sections' => fn() => [
                 ['Christmas mysteries for kids', 'Level 1 festive cases – thefts and pranks, nothing scary. Great from about age 8.', $mysGrid($mys(fn($m) => (int)$m['level'] === 1 && $isXmas($m['title'] . ' ' . $m['teaser'])))],
-                ['Christmas escape rooms for families', 'Short, friendly rooms with hints – play on a tablet or the TV.', $escGrid($esc(fn($r, $s) => (int)($r['level'] ?? 1) === 1 && $isXmas($r['title'] . ' ' . $r['teaser'] . ' ' . $s)))],
-                ['More for older kids and adults', 'See all <a href="/christmas-murder-mystery">Christmas murder mysteries</a> and <a href="/christmas-escape-room">Christmas escape rooms</a>.', ''],
+                ['Christmas escape rooms for families', 'Short, friendly rooms with hints – play on a tablet or the TV. Older kids and adults: see all <a href="/christmas-murder-mystery">Christmas murder mysteries</a> and <a href="/christmas-escape-room">Christmas escape rooms</a>.', $escGrid($esc(fn($r, $s) => (int)($r['level'] ?? 1) === 1 && $isXmas($r['title'] . ' ' . $r['teaser'] . ' ' . $s)))],
             ],
             'faq' => [
                 ['Is a Christmas murder mystery OK for kids?', 'Our kids’ cases have no murders at all – the “crimes” are things like a sabotaged snowman or a missing nativity star. They are written for ages 8 and up.'],
@@ -97,9 +96,8 @@ function landings(): array {
             'description' => 'Free printable mystery games for kids: family-friendly whodunits with stolen cakes, missing pets and sabotaged snowmen. Print the six clue cards or play online.',
             'lead' => 'No gore, no fear – just proper detective work. These level 1 cases are about stolen trophies, sabotaged snowmen and missing guinea pigs. Each case has six clues and one culprit: read the statements, spot the lie and name the guilty one.',
             'sections' => fn() => [
-                ['Family-friendly mysteries', 'Level 1 cases – great from about age 8.', $mysGrid($mys(fn($m) => (int)$m['level'] === 1))],
+                ['Family-friendly mysteries', 'Level 1 cases – great from about age 8. In December, try our <a href="/christmas-murder-mystery-for-kids">Christmas mystery games for kids</a>.', $mysGrid($mys(fn($m) => (int)$m['level'] === 1))],
                 ['Detective escape room', 'Can your young detective pass the final exam?', $escGrid($esc(fn($r, $s) => $s === 'the-detective-academy'))],
-                ['Christmas cases for kids', 'Festive mysteries for December – see our <a href="/christmas-murder-mystery-for-kids">Christmas mystery games for kids</a>.', ''],
             ],
             'faq' => [
                 ['What age is a kids’ murder mystery for?', 'Our level 1 cases are written for ages 8 and up – the “crimes” are thefts and pranks, never anything scary.'],
