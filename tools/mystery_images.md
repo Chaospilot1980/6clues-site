@@ -398,102 +398,12 @@ Setting: At Penhallow Stone Quarry, manager Grace Tremayne was found at the foot
 
 Setting: At St Mary's Primary, the big golden star that hangs over the stable in the Christmas nativity play disappeared from the school hall just before the show.
 
-### `the-nativity-play-star/mrs-asha-rao.jpg`
-> Portrait of Mrs Asha Rao, Head teacher, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-nativity-play-star/mrs-helen-archer.jpg`
-> Portrait of Mrs Helen Archer, Play director, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-nativity-play-star/photo-img-7001.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_7001” at Sat 08:10, from “Mrs Rao's phone” in the detective mystery “The Nativity Play Star”: The village Christmas tree with the school's golden star on top. A ladder marked 'PENN PLUMBING' leans against it. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
-
-## The Christmas Hamper Swindle (library – on the site now)
-
-Setting: In the town of Holbrook, fifty families paid £60 each into a community Christmas hamper scheme.
-
-### `the-christmas-hamper-swindle/joan-webb.jpg`
-> Portrait of Joan Webb, Scheme customer, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-christmas-hamper-swindle/kay-moss.jpg`
-> Portrait of Kay Moss, Traders' Club chair, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-christmas-hamper-swindle/mike-foley.jpg`
-> Portrait of Mike Foley, Car dealer, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-christmas-hamper-swindle/priya-nair.jpg`
-> Portrait of Priya Nair, Delicatessen owner, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-christmas-hamper-swindle/rob-hale.jpg`
-> Portrait of Rob Hale, Scheme treasurer, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-christmas-hamper-swindle/sid-grant.jpg`
-> Portrait of Sid Grant, Van driver, a character in the detective mystery “The Christmas Hamper Swindle”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## Death at the Carol Concert (library – on the site now)
-
-Setting: At St Barnabas' Church, choirmaster Lionel Ashe was found dead in the vestry during the Christmas carol concert, struck with a heavy brass candlestick.
-
-### `death-at-the-carol-concert/alfie-shaw.jpg`
-> Portrait of Alfie Shaw, Organist, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-carol-concert/celia-grant.jpg`
-> Portrait of Celia Grant, Soprano soloist, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-carol-concert/ds-martin-cole.jpg`
-> Portrait of DS Martin Cole, Police, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-carol-concert/mark-dyer.jpg`
-> Portrait of Mark Dyer, Tenor, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-carol-concert/mrs-nora-lee.jpg`
-> Portrait of Mrs Nora Lee, Choir wardrobe mistress, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-carol-concert/rev-gareth-price.jpg`
-> Portrait of Rev. Gareth Price, Vicar, a character in the detective mystery “Death at the Carol Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## Murder at the Mince Pie Factory (library – on the site now)
-
-Setting: At Hartley's Bakery, which makes two million mince pies every December, owner George Hartley was found dead in the walk-in cold store during the night shift.
-
-### `murder-at-the-mince-pie-factory/bina-patel.jpg`
-> Portrait of Bina Patel, Line 2 operator, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-mince-pie-factory/di-lena-brooks.jpg`
-> Portrait of DI Lena Brooks, Police, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-mince-pie-factory/joe-hartley.jpg`
-> Portrait of Joe Hartley, George's son, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-mince-pie-factory/kev-holt.jpg`
-> Portrait of Kev Holt, Oven operator, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-mince-pie-factory/mags-ellis.jpg`
-> Portrait of Mags Ellis, Hygiene manager, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-mince-pie-factory/steve-rourke.jpg`
-> Portrait of Steve Rourke, Night-shift supervisor, Line 2, a character in the detective mystery “Murder at the Mince Pie Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## The Snowman Contest Sabotage (library – on the site now)
 
 Setting: In the village of Elmbury, the Hill family's giant snowman was the favourite to win the winter snowman contest.
-
-### `the-snowman-contest-sabotage/miss-lily-patel.jpg`
-> Portrait of Miss Lily Patel, Contest entrant, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snowman-contest-sabotage/mr-colin-barr.jpg`
-> Portrait of Mr Colin Barr, Rival snowman builder, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snowman-contest-sabotage/mr-raj-patel.jpg`
-> Portrait of Mr Raj Patel, Contest judge, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snowman-contest-sabotage/mrs-gwen-ash.jpg`
-> Portrait of Mrs Gwen Ash, Neighbour, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snowman-contest-sabotage/mrs-jenny-hill.jpg`
-> Portrait of Mrs Jenny Hill, Snowman builder, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snowman-contest-sabotage/sam-hill.jpg`
-> Portrait of Sam Hill, Jenny's son, aged 10, a character in the detective mystery “The Snowman Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-snowman-contest-sabotage/photo-img-0451.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_0451” at 07:20, from “Sam's tablet” in the detective mystery “The Snowman Contest Sabotage”: Boot prints leading from the green to No. 4 – Colin Barr's house. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -501,256 +411,30 @@ Setting: In the village of Elmbury, the Hill family's giant snowman was the favo
 ### `the-snowman-contest-sabotage/photo-img-0452.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_0452” at 07:21, from “Sam's tablet” in the detective mystery “The Snowman Contest Sabotage”: A pair of wet size-9 boots with a star-pattern sole on Colin's step, next to a snowy shovel. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Advent Calendar Thief (library – on the site now)
-
-Setting: At Marlow & Finch Jewellers, the shop window holds a giant advent calendar with a real gold coin behind each door.
-
-### `the-advent-calendar-thief/ben-quinn.jpg`
-> Portrait of Ben Quinn, Security engineer, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-advent-calendar-thief/dora-cole.jpg`
-> Portrait of Dora Cole, Cleaner, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-advent-calendar-thief/marcus-finch.jpg`
-> Portrait of Marcus Finch, Owen's nephew, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-advent-calendar-thief/mr-owen-finch.jpg`
-> Portrait of Mr Owen Finch, Jeweller, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-advent-calendar-thief/rita-shah.jpg`
-> Portrait of Rita Shah, Pawnbroker, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-advent-calendar-thief/tess-marlow.jpg`
-> Portrait of Tess Marlow, Shop assistant, a character in the detective mystery “The Advent Calendar Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## Death at the Tram Depot (library – on the site now)
-
-Setting: At the Northgate Tram Depot, night manager Frank Doyle was found dead in the inspection pit under tram 14.
-
-### `death-at-the-tram-depot/dev-malik.jpg`
-> Portrait of Dev Malik, Track cleaner, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-tram-depot/ds-amy-ward.jpg`
-> Portrait of DS Amy Ward, Police, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-tram-depot/gary-price.jpg`
-> Portrait of Gary Price, Tram driver, route 3, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-tram-depot/nell-hughes.jpg`
-> Portrait of Nell Hughes, Radio controller, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-tram-depot/rosa-grant.jpg`
-> Portrait of Rosa Grant, Uniform store, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-tram-depot/tom-byrne.jpg`
-> Portrait of Tom Byrne, Tram driver, route 5, a character in the detective mystery “Death at the Tram Depot”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Murder at the Frost Fair (library – on the site now)
 
 Setting: At the Riverside Frost Fair, organiser Hugh Mercer was found dead behind the mulled wine stall during the fireworks.
 
-### `murder-at-the-frost-fair/clara-mercer.jpg`
-> Portrait of Clara Mercer, Hugh's daughter, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-frost-fair/di-kate-marsh.jpg`
-> Portrait of DI Kate Marsh, Police, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-frost-fair/eddie-lamb.jpg`
-> Portrait of Eddie Lamb, Fireworks technician, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-frost-fair/jill-rowe.jpg`
-> Portrait of Jill Rowe, Mulled wine stall holder, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-frost-fair/paul-rowe.jpg`
-> Portrait of Paul Rowe, Jill's husband, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-frost-fair/simon-fry.jpg`
-> Portrait of Simon Fry, Chestnut seller, a character in the detective mystery “Murder at the Frost Fair”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `murder-at-the-frost-fair/photo-img-9920.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_9920” at 20:00, from “Clara's phone” in the detective mystery “Murder at the Frost Fair”: Clara and three friends on the ice rink, fireworks overhead – rink clock reads 20:00. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
-
-## The Gingerbread House Wrecker (library – on the site now)
-
-Setting: At the Fernley Christmas Bake Show, Nora Bell's tall gingerbread house was found crushed on its table half an hour before the judges arrived.
-
-### `the-gingerbread-house-wrecker/arthur-moss.jpg`
-> Portrait of Arthur Moss, Baker, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-gingerbread-house-wrecker/gail-turner.jpg`
-> Portrait of Gail Turner, Rival baker, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-gingerbread-house-wrecker/mr-ken-shaw.jpg`
-> Portrait of Mr Ken Shaw, Raffle organiser, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-gingerbread-house-wrecker/mrs-ruth-okafor.jpg`
-> Portrait of Mrs Ruth Okafor, Head judge, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-gingerbread-house-wrecker/nora-bell.jpg`
-> Portrait of Nora Bell, Baker, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-gingerbread-house-wrecker/poppy-lane.jpg`
-> Portrait of Poppy Lane, Bake show helper, a character in the detective mystery “The Gingerbread House Wrecker”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## The Toy Shop Till Fraud (library – on the site now)
-
-Setting: At Pickle & Pip Toys, owner Martha Pickle noticed that the till is £200–£300 short almost every day in December.
-
-### `the-toy-shop-till-fraud/amy-kerr.jpg`
-> Portrait of Amy Kerr, Shop assistant, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-toy-shop-till-fraud/ivy-pickle.jpg`
-> Portrait of Ivy Pickle, Martha's sister, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-toy-shop-till-fraud/joe-bloom.jpg`
-> Portrait of Joe Bloom, Weekend assistant, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-toy-shop-till-fraud/leo-grant.jpg`
-> Portrait of Leo Grant, Shop assistant, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-toy-shop-till-fraud/martha-pickle.jpg`
-> Portrait of Martha Pickle, Shop owner, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-toy-shop-till-fraud/sam-ruiz.jpg`
-> Portrait of Sam Ruiz, Till engineer, a character in the detective mystery “The Toy Shop Till Fraud”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## Death in the Bell Tower (library – on the site now)
 
 Setting: At St Aldhelm's Church, tower captain Walter Penrose fell through the trapdoor of the bell chamber during practice for the New Year peal.
 
-### `death-in-the-bell-tower/ds-holly-grey.jpg`
-> Portrait of DS Holly Grey, Police, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-bell-tower/eileen-shaw.jpg`
-> Portrait of Eileen Shaw, Conductor, bell 1, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-bell-tower/jean-penrose.jpg`
-> Portrait of Jean Penrose, Walter's wife, bell 2, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-bell-tower/martin-hale.jpg`
-> Portrait of Martin Hale, Ringer, bell 4, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-bell-tower/rev-alan-moss.jpg`
-> Portrait of Rev. Alan Moss, Vicar, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-bell-tower/tom-akers.jpg`
-> Portrait of Tom Akers, Ringer, bell 6, a character in the detective mystery “Death in the Bell Tower”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `death-in-the-bell-tower/photo-img-3301.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_3301” at 19:45, from “Choir member's phone (outside church)” in the detective mystery “Death in the Bell Tower”: Through the ringing room window: five ringers at their ropes, Jean Penrose at bell 2. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
-
-## Murder at the Skating Gala (library – on the site now)
-
-Setting: At the Crystal Ice Arena, coach Viktor Hale was found dead in the ice plant room during the winter skating gala, struck with a heavy wrench.
-
-### `murder-at-the-skating-gala/ben-ortiz.jpg`
-> Portrait of Ben Ortiz, Sound technician, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-skating-gala/dave-pike.jpg`
-> Portrait of Dave Pike, Security guard, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-skating-gala/di-ruth-kemp.jpg`
-> Portrait of DI Ruth Kemp, Police, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-skating-gala/ellie-hart.jpg`
-> Portrait of Ellie Hart, Skater, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-skating-gala/kim-lowe.jpg`
-> Portrait of Kim Lowe, Skater, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-skating-gala/lara-quinn.jpg`
-> Portrait of Lara Quinn, Skater, a character in the detective mystery “Murder at the Skating Gala”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## The Snow Globe Swap (library – on the site now)
 
 Setting: At the Fairhaven Town Museum, curator Agnes Ward discovered that the star of the Christmas display – a Victorian snow globe worth £12,000 – had been replaced with a gift-shop copy.
 
-### `the-snow-globe-swap/agnes-ward.jpg`
-> Portrait of Agnes Ward, Curator, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snow-globe-swap/dr-leon-abbott.jpg`
-> Portrait of Dr Leon Abbott, Antiques dealer, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snow-globe-swap/joan-price.jpg`
-> Portrait of Joan Price, Front desk, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snow-globe-swap/mina-lowe.jpg`
-> Portrait of Mina Lowe, Gift shop manager, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snow-globe-swap/ollie-shaw.jpg`
-> Portrait of Ollie Shaw, Visitor, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-snow-globe-swap/rob-kelly.jpg`
-> Portrait of Rob Kelly, Volunteer guide, a character in the detective mystery “The Snow Globe Swap”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-snow-globe-swap/photo-img-5512.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_5512” at Wed 16:20, from “Ollie's phone” in the detective mystery “The Snow Globe Swap”: The Christmas display with its case open. A man in a red 'GUIDE' lanyard holds a snow globe; a gift-shop bag sits at his feet. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
-
-## The Chalet Safe Robbery (library – on the site now)
-
-Setting: At Chalet Edelweiss in the Alps, the safe in the main bedroom was emptied of €8,000 and a diamond watch while the guests were out skiing.
-
-### `the-chalet-safe-robbery/herr-paul-gruber.jpg`
-> Portrait of Herr Paul Gruber, Village shopkeeper, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-chalet-safe-robbery/lena-brandt.jpg`
-> Portrait of Lena Brandt, Chalet host, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-chalet-safe-robbery/marta-novak.jpg`
-> Portrait of Marta Novak, Cleaner, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-chalet-safe-robbery/mr-james-rhodes.jpg`
-> Portrait of Mr James Rhodes, Guest, owner of the watch, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-chalet-safe-robbery/sophie-rhodes.jpg`
-> Portrait of Sophie Rhodes, James's daughter, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-chalet-safe-robbery/tomas-weiss.jpg`
-> Portrait of Tomas Weiss, Chalet chef, a character in the detective mystery “The Chalet Safe Robbery”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## Death on the Sleeper Train (library – on the site now)
-
-Setting: On the Highland Night Sleeper, publisher Edmund Crane was found dead in cabin 12 when the attendant brought his morning tea.
-
-### `death-on-the-sleeper-train/dr-ian-moss.jpg`
-> Portrait of Dr Ian Moss, Passenger, cabin 11, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-sleeper-train/ds-callum-reid.jpg`
-> Portrait of DS Callum Reid, Transport police, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-sleeper-train/fiona-marsh.jpg`
-> Portrait of Fiona Marsh, Author, cabin 14, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-sleeper-train/gordon-fyfe.jpg`
-> Portrait of Gordon Fyfe, Train attendant, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-sleeper-train/kirsty-allan.jpg`
-> Portrait of Kirsty Allan, Passenger, cabin 10, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-sleeper-train/rachel-crane.jpg`
-> Portrait of Rachel Crane, Edmund's wife, cabin 15, a character in the detective mystery “Death on the Sleeper Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## Murder on the Cable Car (library – on the site now)
 
 Setting: At the Alpenkrone ski resort, owner Anton Weber was found dead in cabin 23 of the cable car when it arrived at the summit.
-
-### `murder-on-the-cable-car/felix-moser.jpg`
-> Portrait of Felix Moser, Lift operator, middle station, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-on-the-cable-car/inspector-eva-lang.jpg`
-> Portrait of Inspector Eva Lang, Police, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-on-the-cable-car/kurt-brenner.jpg`
-> Portrait of Kurt Brenner, Ski school director, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-on-the-cable-car/max-huber.jpg`
-> Portrait of Max Huber, Ski hire shop, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-on-the-cable-car/nina-fuchs.jpg`
-> Portrait of Nina Fuchs, Ski instructor, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-on-the-cable-car/ursula-weber.jpg`
-> Portrait of Ursula Weber, Anton's sister, a character in the detective mystery “Murder on the Cable Car”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `murder-on-the-cable-car/photo-img-7711.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_7711” at 18:20, from “Ski hire shop photos” in the detective mystery “Murder on the Cable Car”: Staff locker 1 labelled 'K. BRENNER – DIRECTOR'. Inside: one ski pole with a broken basket and a dark stain on the grip. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -759,70 +443,15 @@ Setting: At the Alpenkrone ski resort, owner Anton Weber was found dead in cabin
 
 Setting: At the Bridgeford Santa Fun Run, 300 runners in Santa suits raced 10 km for charity.
 
-### `the-charity-fun-run-cheat/asha-rai.jpg`
-> Portrait of Asha Rai, Second-place runner, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-charity-fun-run-cheat/bev-shah.jpg`
-> Portrait of Bev Shah, Bus driver, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-charity-fun-run-cheat/craig-dunn.jpg`
-> Portrait of Craig Dunn, Winning runner, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-charity-fun-run-cheat/helen-price.jpg`
-> Portrait of Helen Price, Race organiser, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-charity-fun-run-cheat/ray-lowe.jpg`
-> Portrait of Ray Lowe, Timing engineer, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-charity-fun-run-cheat/will-ford.jpg`
-> Portrait of Will Ford, Third-place runner, a character in the detective mystery “The Charity Fun Run Cheat”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-charity-fun-run-cheat/photo-img-2201.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_2201” at 10:12, from “Race photographer” in the detective mystery “The Charity Fun Run Cheat”: CP1 to CP2 stretch: Asha Rai (bib 54) leading. No other runner in sight. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ### `the-charity-fun-run-cheat/photo-img-2207.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_2207” at 10:25, from “Race photographer” in the detective mystery “The Charity Fun Run Cheat”: Riverside bus stop: a Santa with bib 117 stepping off a route 6 bus. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## Death in the Cheese Caves (library – on the site now)
-
-Setting: At the Gorge Cheese Caves, master cheese maker Harold Pike was found dead in the deepest chamber, struck with a heavy cheese iron.
-
-### `death-in-the-cheese-caves/dai-evans.jpg`
-> Portrait of Dai Evans, Cave maintenance, a character in the detective mystery “Death in the Cheese Caves”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-cheese-caves/ds-rhiannon-bell.jpg`
-> Portrait of DS Rhiannon Bell, Police, a character in the detective mystery “Death in the Cheese Caves”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-cheese-caves/gareth-lloyd.jpg`
-> Portrait of Gareth Lloyd, Tour visitor, a character in the detective mystery “Death in the Cheese Caves”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-cheese-caves/kate-pike.jpg`
-> Portrait of Kate Pike, Harold's daughter, a character in the detective mystery “Death in the Cheese Caves”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-cheese-caves/simon-pike.jpg`
-> Portrait of Simon Pike, Harold's son, a character in the detective mystery “Death in the Cheese Caves”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-cheese-caves/tilly-moss.jpg`
-> Portrait of Tilly Moss, Tour shop manager, a character in the detective mystery “Death in the Cheese Caves”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Murder at the Recording Studio (library – on the site now)
 
 Setting: At Echo Lane Studios, producer Miles Garner was found dead in the tape store while the band Glass Harbour recorded their Christmas single.
-
-### `murder-at-the-recording-studio/di-grace-obi.jpg`
-> Portrait of DI Grace Obi, Police, a character in the detective mystery “Murder at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-recording-studio/jas-kaur.jpg`
-> Portrait of Jas Kaur, Sound engineer, a character in the detective mystery “Murder at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-recording-studio/lou-hart.jpg`
-> Portrait of Lou Hart, Singer, a character in the detective mystery “Murder at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-recording-studio/nell-fox.jpg`
-> Portrait of Nell Fox, Studio manager, a character in the detective mystery “Murder at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-recording-studio/rory-blake.jpg`
-> Portrait of Rory Blake, Guitarist, a character in the detective mystery “Murder at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `murder-at-the-recording-studio/theo-grant.jpg`
 > Portrait of Theo Grant, Drummer, a character in the detective mystery “Murder at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -2753,26 +2382,8 @@ Setting: At the Riverside Fencing Club, head coach Viktor Lenz was found dead in
 
 Setting: At the Seacliff Aquarium, the famous Black Moon pearl was displayed inside a treasure chest in the shipwreck tank.
 
-### `the-aquarium-pearl-theft/ben-clay.jpg`
-> Portrait of Ben Clay, Cleaner, a character in the detective mystery “The Aquarium Pearl Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-aquarium-pearl-theft/dr-ann-moore.jpg`
-> Portrait of Dr Ann Moore, Aquarium director, a character in the detective mystery “The Aquarium Pearl Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-aquarium-pearl-theft/jake-marsh.jpg`
-> Portrait of Jake Marsh, Aquarist, a character in the detective mystery “The Aquarium Pearl Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-aquarium-pearl-theft/olive-kerr.jpg`
-> Portrait of Olive Kerr, Keeper, a character in the detective mystery “The Aquarium Pearl Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-aquarium-pearl-theft/omar-haddad.jpg`
-> Portrait of Omar Haddad, Security, a character in the detective mystery “The Aquarium Pearl Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-aquarium-pearl-theft/pia-lund.jpg`
-> Portrait of Pia Lund, Show presenter, a character in the detective mystery “The Aquarium Pearl Theft”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-aquarium-pearl-theft/photo-img-6090.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_6090” at 15:32, from “Ben's phone” in the detective mystery “The Aquarium Pearl Theft”: Staff locker 6 open: a dripping wetsuit and a small velvet pouch on the shelf. Name tag on the locker: J. MARSH. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 923 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 1038 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
