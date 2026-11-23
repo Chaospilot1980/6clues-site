@@ -361,43 +361,9 @@ Setting: At Upper Wyfold Cricket Club, treasurer Gerald Banks was found dead in 
 ### `murder-at-the-cricket-pavilion/photo-img-330.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_330” at 15:40, from “Club photographer” in the detective mystery “Murder at the Cricket Pavilion”: Tea tent during the rain: Jack Moss, Edie Clark and the visiting team. Rupert Hale is not there. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## Death in the Sauna (library – on the site now)
-
-Setting: At the Nordlys Spa Hotel in Bergen, tech investor Henrik Vold was found dead in the private sauna.
-
-### `death-in-the-sauna/insp-kari-berg.jpg`
-> Portrait of Insp. Kari Berg, Police, a character in the detective mystery “Death in the Sauna”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-sauna/lars-moen.jpg`
-> Portrait of Lars Moen, Henrik's assistant, a character in the detective mystery “Death in the Sauna”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-sauna/mona-lie.jpg`
-> Portrait of Mona Lie, Business partner, a character in the detective mystery “Death in the Sauna”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-sauna/siri-holm.jpg`
-> Portrait of Siri Holm, Bar manager, a character in the detective mystery “Death in the Sauna”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Murder at the Model Village (library – on the site now)
 
 Setting: At Bayview Model Village, owner Cyril Moss was found dead behind the miniature church, struck on the head, shortly after closing time.
-
-### `murder-at-the-model-village/dennis-kerr.jpg`
-> Portrait of Dennis Kerr, Model railway engineer, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-model-village/ds-joanna-price.jpg`
-> Portrait of DS Joanna Price, Police, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-model-village/gary-lomas.jpg`
-> Portrait of Gary Lomas, Gardener, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-model-village/owen-tate.jpg`
-> Portrait of Owen Tate, Security firm operator, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-model-village/pearl-jones.jpg`
-> Portrait of Pearl Jones, Café manager, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-model-village/rita-moss.jpg`
-> Portrait of Rita Moss, Cyril's daughter, a character in the detective mystery “Murder at the Model Village”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `murder-at-the-model-village/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM-1” at 17:10, from “Café camera” in the detective mystery “Murder at the Model Village”: A man in blue overalls with an oily rag in his pocket walks towards the miniature church. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -408,49 +374,9 @@ Setting: At Bayview Model Village, owner Cyril Moss was found dead behind the mi
 ### `murder-at-the-model-village/photo-cam-1-3.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM-1” at 17:14, from “Café camera” in the detective mystery “Murder at the Model Village”: The same man hurries back towards the railway shed. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## The Missing Guinea Pig (library – on the site now)
-
-Setting: At Willowbank School, Biscuit the class guinea pig was missing from her cage on Monday morning.
-
-### `the-missing-guinea-pig/miss-hannah-price.jpg`
-> Portrait of Miss Hannah Price, Class teacher, a character in the detective mystery “The Missing Guinea Pig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-guinea-pig/mr-gary-ward.jpg`
-> Portrait of Mr Gary Ward, Pet Club leader, a character in the detective mystery “The Missing Guinea Pig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-guinea-pig/mr-leo-fox.jpg`
-> Portrait of Mr Leo Fox, Pet shop owner, a character in the detective mystery “The Missing Guinea Pig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-guinea-pig/mr-sam-holt.jpg`
-> Portrait of Mr Sam Holt, Caretaker, a character in the detective mystery “The Missing Guinea Pig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-guinea-pig/mrs-pat-dean.jpg`
-> Portrait of Mrs Pat Dean, School office, a character in the detective mystery “The Missing Guinea Pig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-guinea-pig/mrs-rita-shah.jpg`
-> Portrait of Mrs Rita Shah, Head teacher, a character in the detective mystery “The Missing Guinea Pig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## The Allotment Tomato Thief (library – on the site now)
 
 Setting: At Meadow Lane Allotments, Bill Turner's rare 'Black Krim' tomatoes were picked in the night.
-
-### `the-allotment-tomato-thief/bill-turner.jpg`
-> Portrait of Bill Turner, Allotment holder, a character in the detective mystery “The Allotment Tomato Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-allotment-tomato-thief/doug-price.jpg`
-> Portrait of Doug Price, Site warden, a character in the detective mystery “The Allotment Tomato Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-allotment-tomato-thief/kamal-ahmed.jpg`
-> Portrait of Kamal Ahmed, Allotment holder, plot 2, a character in the detective mystery “The Allotment Tomato Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-allotment-tomato-thief/pam-hughes.jpg`
-> Portrait of Pam Hughes, Shop owner, a character in the detective mystery “The Allotment Tomato Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-allotment-tomato-thief/rose-tate.jpg`
-> Portrait of Rose Tate, Show judge, a character in the detective mystery “The Allotment Tomato Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-allotment-tomato-thief/sheila-bright.jpg`
-> Portrait of Sheila Bright, Allotment holder, plot 9, a character in the detective mystery “The Allotment Tomato Thief”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-allotment-tomato-thief/photo-wild-88.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “WILD_88” at Fri 21:47, from “Gate wildlife camera” in the detective mystery “The Allotment Tomato Thief”: A woman with a head torch and a wicker trug walks in through the gate. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -458,49 +384,9 @@ Setting: At Meadow Lane Allotments, Bill Turner's rare 'Black Krim' tomatoes wer
 ### `the-allotment-tomato-thief/photo-wild-89.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “WILD_89” at Fri 22:05, from “Gate wildlife camera” in the detective mystery “The Allotment Tomato Thief”: The same woman walks out; the trug is full of dark tomatoes. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## Death at the Hunting Lodge (library – on the site now)
-
-Setting: On the Glenmore estate in the Highlands, property developer Malcolm Shaw was shot dead in the birch woods during a guided deer stalk.
-
-### `death-at-the-hunting-lodge/dr-iain-munro.jpg`
-> Portrait of Dr Iain Munro, Forensic scientist, a character in the detective mystery “Death at the Hunting Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-hunting-lodge/duncan-lyle.jpg`
-> Portrait of Duncan Lyle, Malcolm's business partner, a character in the detective mystery “Death at the Hunting Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-hunting-lodge/fiona-shaw.jpg`
-> Portrait of Fiona Shaw, Malcolm's wife, a character in the detective mystery “Death at the Hunting Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-hunting-lodge/insp-alan-fraser.jpg`
-> Portrait of Insp. Alan Fraser, Police, a character in the detective mystery “Death at the Hunting Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-hunting-lodge/peggy-grant.jpg`
-> Portrait of Peggy Grant, Lodge cook, a character in the detective mystery “Death at the Hunting Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-hunting-lodge/ross-macleod.jpg`
-> Portrait of Ross MacLeod, Head stalker, a character in the detective mystery “Death at the Hunting Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Death at the Quarry (library – on the site now)
 
 Setting: At Penhallow Stone Quarry, manager Grace Tremayne was found at the foot of the north face on a blasting day.
-
-### `death-at-the-quarry/bryn-teague.jpg`
-> Portrait of Bryn Teague, Shot-firer, a character in the detective mystery “Death at the Quarry”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-quarry/ds-owen-pascoe.jpg`
-> Portrait of DS Owen Pascoe, Police, a character in the detective mystery “Death at the Quarry”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-quarry/jago-polglase.jpg`
-> Portrait of Jago Polglase, Lorry driver, a character in the detective mystery “Death at the Quarry”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-quarry/kitto-pearce.jpg`
-> Portrait of Kitto Pearce, Quarry owner, a character in the detective mystery “Death at the Quarry”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-quarry/morwenna-hicks.jpg`
-> Portrait of Morwenna Hicks, Weighbridge clerk, a character in the detective mystery “Death at the Quarry”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-quarry/tamsin-rowe.jpg`
-> Portrait of Tamsin Rowe, Digger driver, a character in the detective mystery “Death at the Quarry”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `death-at-the-quarry/photo-cam-r.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM-R” at 11:49, from “Digger reversing camera” in the detective mystery “Death at the Quarry”: A man in an orange high-vis jacket and no hard hat climbs the north track towards the top of the face. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -511,18 +397,6 @@ Setting: At Penhallow Stone Quarry, manager Grace Tremayne was found at the foot
 ## The Nativity Play Star (library – on the site now)
 
 Setting: At St Mary's Primary, the big golden star that hangs over the stable in the Christmas nativity play disappeared from the school hall just before the show.
-
-### `the-nativity-play-star/miss-ruby-fox.jpg`
-> Portrait of Miss Ruby Fox, Car park helper, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-nativity-play-star/mr-dave-penn.jpg`
-> Portrait of Mr Dave Penn, Parent volunteer, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-nativity-play-star/mr-joe-clarke.jpg`
-> Portrait of Mr Joe Clarke, Caretaker, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-nativity-play-star/mr-tom-lee.jpg`
-> Portrait of Mr Tom Lee, Lighting volunteer, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-nativity-play-star/mrs-asha-rao.jpg`
 > Portrait of Mrs Asha Rao, Head teacher, a character in the detective mystery “The Nativity Play Star”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -2901,4 +2775,4 @@ Setting: At the Seacliff Aquarium, the famous Black Moon pearl was displayed ins
 > Candid snapshot as taken with that camera – “IMG_6090” at 15:32, from “Ben's phone” in the detective mystery “The Aquarium Pearl Theft”: Staff locker 6 open: a dripping wetsuit and a small velvet pouch on the shelf. Name tag on the locker: J. MARSH. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 885 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 923 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
