@@ -54,6 +54,7 @@ $routes = [
     '#^/admin/reviews$#'                      => 'admin_reviews',
     '#^/admin/growth$#'                       => 'admin_growth',
     '#^/admin/outreach$#'                     => 'admin_outreach',
+    '#^/hook/scanditech-enquiry$#'            => 'hook_scanditech_enquiry',
     '#^/admin/smtp$#'                         => 'admin_smtp',
     '#^/cron/smtp-test$#'                     => 'cron_smtp_test',
     '#^/event$#'                              => 'event_endpoint',
@@ -957,6 +958,20 @@ function admin_outreach(): void {
     $ok = smtp_send($to, $subject, $body, [$from, 'Dennis, Six Clues'], ["Reply-To: $from"]);
     @mkdir(dirname($log), 0755, true);
     file_put_contents($log, json_encode(['at' => gmdate('c'), 'to' => $to, 'subject' => $subject, 'ok' => $ok], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . "\n", FILE_APPEND);
+    echo json_encode(['ok' => $ok, 'error' => $ok ? null : ($GLOBALS['smtp_error'] ?? null)]);
+}
+
+/** Relay for the scanditech.es contact form (its host cannot deliver mail() to Microsoft 365). Key hash only; key lives on scanditech server. */
+function hook_scanditech_enquiry(): void {
+    header('Content-Type: application/json; charset=utf-8');
+    $in = json_decode((string)file_get_contents('php://input'), true) ?: [];
+    if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST' || !hash_equals('d0a9ed72b12c6bb6082bbfaa13b4be01b2a04bc0a8ba20776be59d3f0c5a9027', hash('sha256', (string)($in['key'] ?? '')))) { http_response_code(404); echo '{"ok":false}'; return; }
+    $clean = fn($k, $n) => trim(mb_substr(str_replace(["\r", "\n"], ' ', (string)($in[$k] ?? '')), 0, $n));
+    $name = $clean('name', 120); $email = $clean('email', 190); $phone = $clean('phone', 40);
+    $msg = trim(mb_substr((string)($in['message'] ?? ''), 0, 5000));
+    if ($name === '' || !filter_var($email, FILTER_VALIDATE_EMAIL) || $msg === '') { http_response_code(400); echo '{"ok":false,"error":"bad input"}'; return; }
+    $body = "New enquiry from scanditech.es" . (($in['lang'] ?? '') === 'es' ? ' (Spanish page)' : '') . "\n\nName: $name\nEmail: $email\nPhone: " . ($phone ?: '-') . "\n\nAbout the project:\n$msg\n\nReply directly to this email to answer $name.\n";
+    $ok = smtp_send('dnh@scanditech.es', 'Website enquiry - ' . $name, $body, [(string)cfg('contact_email'), 'Scanditech website'], ["Reply-To: $name <$email>"]);
     echo json_encode(['ok' => $ok, 'error' => $ok ? null : ($GLOBALS['smtp_error'] ?? null)]);
 }
 
