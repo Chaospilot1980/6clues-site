@@ -9,7 +9,7 @@ TODAY = datetime.date.today().isoformat()
 WA = 'https://wa.me/4520903050'
 TEL = 'tel:+34608266620'
 MAIL = 'dnh@scanditech.es'
-CSSV = '5'
+CSSV = '6'
 e = html.escape
 
 # ---------------------------------------------------------------- data

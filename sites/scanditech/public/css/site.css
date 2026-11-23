@@ -252,7 +252,7 @@ p{text-wrap:pretty}
   .wa-float{display:block}
 }
 /* consent */
-.cc{position:fixed;left:20px;bottom:20px;z-index:60;max-width:420px;background:var(--graphite);color:var(--linen);padding:20px 22px;box-shadow:0 10px 30px rgba(0,0,0,.25);font-size:14px;line-height:1.6}
+.cc{position:fixed;right:20px;bottom:20px;z-index:60;max-width:420px;background:var(--graphite);color:var(--linen);padding:20px 22px;box-shadow:0 10px 30px rgba(0,0,0,.25);font-size:14px;line-height:1.6}
 .cc p{margin:0 0 14px}
 .cc div{display:flex;gap:10px}
 .cc button{font:inherit;font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:10px 18px;border:1px solid var(--linen);background:var(--linen);color:var(--graphite);cursor:pointer}
