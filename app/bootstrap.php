@@ -186,6 +186,7 @@ function login_user(array $p): void {
             ->execute([$p['sub'], $p['email'], $p['name'] ?? '', $p['picture'] ?? '', substr((string)($_SESSION['source'] ?? ''), 0, 100), now(), now()]);
         $id = $pdo->lastInsertId();
         $_SESSION['ga_event'] = 'sign_up';
+        $_SESSION['ask_newsletter'] = 1;
     }
     session_regenerate_id(true);
     $_SESSION['uid'] = (int)$id;

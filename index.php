@@ -42,6 +42,7 @@ $routes = [
     '#^/auth/verify$#'                        => 'auth_verify',
     '#^/logout$#'                             => 'logout',
     '#^/me$#'                                 => 'me',
+    '#^/welcome$#'                            => 'welcome_page',
     '#^/rankings$#'                           => 'rankings',
     '#^/me/leaderboard$#'                     => 'leaderboard_optin',
     '#^/admin$#'                              => 'admin',
@@ -553,7 +554,7 @@ function google_button(string $next): void {
   <?= csrf_field() ?><input type="hidden" name="next" value="<?= e($next) ?>"><input type="hidden" name="remember" value="1">
   <label>Your name <input name="name" autocomplete="name" required maxlength="80"></label>
   <label>Email <input type="email" name="email" autocomplete="email" required maxlength="190"></label>
-  <label class="check"><input type="checkbox" name="newsletter" value="1"> Email me when a new mystery is released (about once a month).</label>
+  <label class="check"><input type="checkbox" name="newsletter" value="1"> <span><b>Yes, email me new mysteries</b> – a free new case about once a month. Unsubscribe with one click.</span></label>
   <button class="btn">Send me a sign-in link</button>
   <p class="small muted">No password needed – we email you a link that signs you in.</p>
 </form>
@@ -593,8 +594,8 @@ function auth_verify(): void {
     if (!$row) { flash('That sign-in link has expired or was already used. Please request a new one.'); redirect('/login'); }
     db()->prepare('DELETE FROM login_tokens WHERE token_hash = ?')->execute([$row['token_hash']]);
     login_user(['sub' => 'email:' . strtolower($row['email']), 'email' => $row['email'], 'name' => $row['name']]);
-    if ((int)$row['newsletter']) db()->prepare('UPDATE users SET newsletter = 1, newsletter_at = COALESCE(newsletter_at, ?) WHERE id = ?')->execute([now(), $_SESSION['uid']]);
-    redirect(safe_next((string)$row['next_path']));
+    if ((int)$row['newsletter']) { db()->prepare('UPDATE users SET newsletter = 1, newsletter_at = COALESCE(newsletter_at, ?) WHERE id = ?')->execute([now(), $_SESSION['uid']]); unset($_SESSION['ask_newsletter']); }
+    redirect(after_login(safe_next((string)$row['next_path'])));
 }
 
 function auth_google(): void {
@@ -605,7 +606,7 @@ function auth_google(): void {
     $p = verify_google_token((string)($_POST['credential'] ?? ''));
     if (!$p) { flash('Google sign-in failed. Please try again.'); redirect('/login?next=' . urlencode($next)); }
     login_user($p);
-    redirect($next);
+    redirect(after_login($next));
 }
 
 function auth_dev(): void {
@@ -747,6 +748,44 @@ function me(): void {
     page_end();
 }
 
+/* Newly signed-up players get one clear yes/no question about the newsletter (consent must be an active choice under GDPR). */
+function after_login(string $next): string {
+    if (empty($_SESSION['ask_newsletter'])) return $next;
+    $u = current_user();
+    if (!$u || (int)$u['newsletter']) { unset($_SESSION['ask_newsletter']); return $next; }
+    return '/welcome?next=' . urlencode($next);
+}
+
+function welcome_page(): void {
+    $u = current_user();
+    $next = safe_next((string)($_GET['next'] ?? $_POST['next'] ?? '/me'));
+    if (!$u) redirect('/login');
+    if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
+        csrf_check();
+        unset($_SESSION['ask_newsletter']);
+        if (($_POST['choice'] ?? '') === 'yes') {
+            db()->prepare('UPDATE users SET newsletter = 1, newsletter_at = COALESCE(newsletter_at, ?) WHERE id = ?')->execute([now(), (int)$u['id']]);
+            $_SESSION['ga_event'] = 'newsletter_signup';
+            flash('Great – you will get the next new mystery by email.');
+        }
+        redirect($next);
+    }
+    page_start(['title' => 'Welcome, detective', 'noindex' => true, 'path' => '/welcome']);
+    ?>
+<section class="wrap narrow case" style="text-align:center">
+  <h1>Welcome, <?= e(explode(' ', trim($u['name'] ?: 'detective'))[0]) ?>!</h1>
+  <p class="lead">Want the next case delivered to your inbox? We send one free new mystery about once a month – nothing else.</p>
+  <form method="post" action="/welcome" style="display:flex;flex-direction:column;gap:12px;align-items:center;margin-top:28px">
+    <?= csrf_field() ?><input type="hidden" name="next" value="<?= e($next) ?>">
+    <button class="btn" name="choice" value="yes" style="min-width:280px">Yes, send me new mysteries</button>
+    <button class="btn btn-ghost" name="choice" value="no" style="min-width:280px">No thanks</button>
+  </form>
+  <p class="small muted" style="margin-top:18px">One-click unsubscribe in every email. See our <a href="/privacy">privacy policy</a>.</p>
+</section>
+<?php
+    page_end();
+}
+
 function admin(): void {
     if (!is_admin()) { not_found(); return; }
     $pdo = db();
@@ -758,6 +797,7 @@ function admin(): void {
     $by = []; foreach ($rows as $r) $by[$r['slug']] = $r;
     $att = []; foreach ($pdo->query('SELECT slug, COUNT(DISTINCT user_id) players FROM attempts GROUP BY slug')->fetchAll() as $r) $att[$r['slug']] = $r['players'];
     $src = $pdo->query("SELECT source, COUNT(*) n FROM users GROUP BY source ORDER BY n DESC")->fetchAll();
+    $recent = $pdo->query('SELECT name, email, source, newsletter, created_at, last_login_at, google_sub FROM users ORDER BY created_at DESC LIMIT 50')->fetchAll();
     page_start(['title' => 'Admin', 'noindex' => true, 'path' => '/admin']);
     ?>
 <section class="wrap case">
@@ -768,6 +808,16 @@ function admin(): void {
     <div><b><?= (int)$week->fetchColumn() ?></b><span>new players last 7 days</span></div>
   </div>
   <p><a class="btn" href="/admin/growth">Growth dashboard</a> <a class="btn" href="/admin/reviews">Reviews</a> <a class="btn" href="/admin/newsletter">Write newsletter</a> <a class="btn btn-ghost" href="/admin/subscribers.csv">Download subscribers (CSV)</a></p>
+  <h2>Latest sign-ups</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Signed up (UTC)</th><th>Name</th><th>Email</th><th>Via</th><th>Newsletter</th><th>Came from</th><th>Last login</th></tr></thead>
+    <tbody>
+    <?php foreach ($recent as $r): ?>
+      <tr><td><?= e(substr((string)$r['created_at'], 0, 16)) ?></td><td><?= e($r['name']) ?></td><td><?= e($r['email']) ?></td>
+      <td><?= str_starts_with((string)$r['google_sub'], 'email:') ? 'Email link' : 'Google' ?></td>
+      <td><?= (int)$r['newsletter'] ? 'Yes' : '–' ?></td><td><?= e($r['source'] ?: 'direct / search') ?></td><td><?= e(substr((string)$r['last_login_at'], 0, 16)) ?></td></tr>
+    <?php endforeach; ?>
+    </tbody></table></div>
   <h2>Mysteries</h2>
   <div class="table-wrap"><table>
     <thead><tr><th>Mystery</th><th>Level</th><th class="num">Players</th><th class="num">Solved</th><th class="num">Revealed</th><th class="num">Avg. tries</th></tr></thead>
