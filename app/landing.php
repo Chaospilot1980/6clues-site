@@ -58,11 +58,28 @@ function landings(): array {
                 ['Which subjects do they fit?', 'Reading comprehension, logic and maths reasoning, and history – several rooms are set in the past, from a medieval castle to 1920s Chicago.'],
             ],
         ],
+        'christmas-murder-mystery-for-kids' => [
+            'title' => 'Christmas Murder Mystery for Kids – Free Printable Detective Games',
+            'h1' => 'Christmas mystery games for kids',
+            'kicker' => 'Festive whodunits for kids · free',
+            'description' => 'Free Christmas mystery games for kids: who sabotaged the snowman, stole the nativity star or ate the gingerbread? Printable family-friendly whodunits and Christmas escape rooms.',
+            'lead' => 'A Christmas murder mystery for kids without the murder: these festive cases are about sabotaged snowmen, missing presents and stolen nativity stars. Six clues, one culprit – print the clue cards for a Christmas party, or solve them together on the sofa.',
+            'sections' => fn() => [
+                ['Christmas mysteries for kids', 'Level 1 festive cases – thefts and pranks, nothing scary. Great from about age 8.', $mysGrid($mys(fn($m) => (int)$m['level'] === 1 && $isXmas($m['title'] . ' ' . $m['teaser'])))],
+                ['Christmas escape rooms for families', 'Short, friendly rooms with hints – play on a tablet or the TV.', $escGrid($esc(fn($r, $s) => (int)($r['level'] ?? 1) === 1 && $isXmas($r['title'] . ' ' . $r['teaser'] . ' ' . $s)))],
+                ['More for older kids and adults', 'See all <a href="/christmas-murder-mystery">Christmas murder mysteries</a> and <a href="/christmas-escape-room">Christmas escape rooms</a>.', ''],
+            ],
+            'faq' => [
+                ['Is a Christmas murder mystery OK for kids?', 'Our kids’ cases have no murders at all – the “crimes” are things like a sabotaged snowman or a missing nativity star. They are written for ages 8 and up.'],
+                ['How do we play at a Christmas party?', 'Print a case, hide the six clue cards around the room and let the children hunt for them. When all six are found, they compare the clues and name the culprit.'],
+                ['Are they free?', 'Yes. Every mystery and escape room on Six Clues is free to play and print.'],
+            ],
+        ],
         'christmas-escape-room' => [
-            'title' => 'Free Christmas Escape Rooms – Play Online for Free',
+            'title' => 'Free Christmas Escape Rooms Online – Family Games, No Download',
             'h1' => 'Free Christmas escape rooms',
             'kicker' => 'Holiday escape games · free',
-            'description' => 'Free online Christmas escape rooms: help Santa’s sleigh take off, switch on the village lights and find the stolen star on Christmas Eve. Play in your browser.',
+            'description' => 'Play free Christmas escape rooms online: Santa’s locked workshop, a gingerbread house, a Christmas market heist and more. For kids, families and adults – no download.',
             'lead' => 'Festive escape games for the whole family: a locked toy workshop at the North Pole, a snowy village that needs its Christmas lights, and a country house on Christmas Eve where the diamond star has been stolen from the tree.',
             'sections' => fn() => [
                 ['Christmas escape rooms', 'From family-friendly to tricky.', $escGrid($esc(fn($r, $s) => $isXmas($r['title'] . ' ' . $r['teaser'] . ' ' . $s)))],
@@ -82,6 +99,7 @@ function landings(): array {
             'sections' => fn() => [
                 ['Family-friendly mysteries', 'Level 1 cases – great from about age 8.', $mysGrid($mys(fn($m) => (int)$m['level'] === 1))],
                 ['Detective escape room', 'Can your young detective pass the final exam?', $escGrid($esc(fn($r, $s) => $s === 'the-detective-academy'))],
+                ['Christmas cases for kids', 'Festive mysteries for December – see our <a href="/christmas-murder-mystery-for-kids">Christmas mystery games for kids</a>.', ''],
             ],
             'faq' => [
                 ['What age is a kids’ murder mystery for?', 'Our level 1 cases are written for ages 8 and up – the “crimes” are thefts and pranks, never anything scary.'],
@@ -104,10 +122,10 @@ function landings(): array {
             ],
         ],
         'printable-murder-mystery-games' => [
-            'title' => 'Free Printable Murder Mystery Games (PDF-Ready Clues)',
-            'h1' => 'Free printable murder mystery games',
+            'title' => 'Free Printable Murder Mystery & Detective Games (Print at Home)',
+            'h1' => 'Free printable murder mystery and detective games',
             'kicker' => 'Print & play · free',
-            'description' => 'Free printable murder mystery games: full case files with sealed envelopes for game night, plus 200 short whodunits you can print clue by clue.',
+            'description' => 'Free printable murder mystery and detective games: full case files with sealed envelopes for game night, plus 200 short whodunits you can print clue by clue.',
             'lead' => 'Everything on Six Clues can be printed. Game Night case files are complete printable murder mystery games for 2–8 players with sealed envelopes. The short cases print one page per clue – perfect for a party, a classroom or a rainy afternoon.',
             'sections' => fn() => [
                 ['Game Night case files', 'Full printable cases with envelopes, for 2–8 players.', $gnGrid(fn($c) => true)],

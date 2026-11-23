@@ -22,7 +22,7 @@ $routes = [
     '#^/daily$#'                              => 'daily_redirect',
     '#^/game-night$#'                         => 'gn_index',
     '#^/christmas-murder-mystery$#'           => 'christmas_page',
-    '#^/(free-escape-rooms-for-kids|classroom-escape-room|christmas-escape-room|murder-mystery-for-kids|whodunit-puzzles-for-adults|printable-murder-mystery-games|how-to-host-a-murder-mystery-party|black-friday-murder-mystery|detective-games-online|escape-room-at-home|new-years-eve-murder-mystery)$#' => 'landing_page',
+    '#^/(free-escape-rooms-for-kids|classroom-escape-room|christmas-escape-room|murder-mystery-for-kids|whodunit-puzzles-for-adults|printable-murder-mystery-games|how-to-host-a-murder-mystery-party|black-friday-murder-mystery|detective-games-online|escape-room-at-home|new-years-eve-murder-mystery|christmas-murder-mystery-for-kids)$#' => 'landing_page',
     '#^/seasonal$#' => 'seasonal_page',
     '#^/escape$#'                             => 'escape_index',
     '#^/escape/([a-z0-9\-]+)$#'               => 'escape_landing',
@@ -892,7 +892,7 @@ function christmas_page(): void {
 <?php if ($gns): ?>
 <section class="wrap"><h2>Christmas game night case files</h2><p>Full printable cold case files with sealed envelopes – for 2–8 players.</p><div class="grid"><?php foreach ($gns as $c) echo gn_card($c, $u); ?></div></section>
 <?php endif; ?>
-<section class="wrap"><h2>Festive mysteries to play online or print</h2><p>Each case has six clues and one culprit. Level 1 cases are family-friendly; level 3 will fool the grown-ups.</p>
+<section class="wrap"><h2>Festive mysteries to play online or print</h2><p>Each case has six clues and one culprit. Level 1 cases are family-friendly (see <a href="/christmas-murder-mystery-for-kids">Christmas mysteries for kids</a>); level 3 will fool the grown-ups.</p>
   <div class="grid"><?php foreach ($ms as $m) echo mystery_card($m, $prog); ?></div>
   <p>Want more? Browse all <a href="/mysteries">free murder mystery games</a>, the <a href="/game-night">Game Night case files</a> or our <a href="/escape">free online escape rooms</a>.</p>
 </section>
