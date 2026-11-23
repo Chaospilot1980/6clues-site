@@ -9,7 +9,7 @@ TODAY = datetime.date.today().isoformat()
 WA = 'https://wa.me/4520903050'
 TEL = 'tel:+34608266620'
 MAIL = 'dnh@scanditech.es'
-CSSV = '4'
+CSSV = '5'
 e = html.escape
 
 # ---------------------------------------------------------------- data
@@ -159,7 +159,8 @@ XB = [('Usable square metres', 'Closed, the cover is terrace. A pool that is out
       ('Architect-led detailing', 'Flush edge profiles and material choices intended to read as continuous terrace, not as pool equipment.')]
 XS = [('Concept', 'Motorised, load-bearing walkable cover'), ('Installed level', 'Flush with surrounding terrace'), ('Control', 'KNX bus · local keypad · app'),
       ('Safety', 'Hardware interlocks, edge detection'), ('Configurations', 'Rectangular pools first, bespoke to follow'), ('Status', 'Prototype · pilot sites 2026–27')]
-VALUES = [('Open systems only', "KNX and other open standards. Your house should not depend on one manufacturer's cloud, or on us being the only ones who can maintain it."),
+VALUES = [('Discreet by default', 'We never publish client names, addresses or photos of their homes, and we sign an NDA on request. Our clients value privacy; so do we.'),
+          ('Open systems only', "KNX and other open standards. Your house should not depend on one manufacturer's cloud, or on us being the only ones who can maintain it."),
           ('Documented, always', 'Every project leaves with as-built drawings and an ETS project file. If you ever replace us, the next engineer will thank you.'),
           ('Small on purpose', 'A handful of projects a year. Fewer clients, more attention, and a phone number that still works after handover.')]
 COMPANY = [('Legal name', 'Scandinavian Technical Solutions S.L.'), ('Trading as', 'Scanditech · www.scanditech.es'),
@@ -292,7 +293,7 @@ def page(path, title, desc, body, active='/', lang='en', ld=(), alternates=None,
     <div><h2>{T['site']}</h2><ul>{''.join(f'<li><a href="{u}">{n}</a></li>' for u, n in T['nav'])}</ul></div>
     <div><h2>{T['contact']}</h2><ul><li><a href="{TEL}">{T['call']} +34 608 266 620</a></li><li><a href="{WA}" rel="noopener">WhatsApp +45 20 90 30 50</a></li><li><a href="mailto:{MAIL}">{MAIL}</a></li><li><a href="https://www.xcover.eu" rel="noopener">xcover.eu</a></li></ul></div>
   </div>
-  <div class="wrap"><div class="base"><span>© {datetime.date.today().year} Scandinavian Technical Solutions S.L. · CIF B44771731 · EU VAT ESB44771731</span><span>{T["foot"]}</span></div></div>
+  <div class="wrap"><div class="base"><span>© {datetime.date.today().year} Scandinavian Technical Solutions S.L. · CIF B44771731 · EU VAT ESB44771731</span><span>{T["foot"]} · {"Discreción por defecto" if lang == "es" else "Discreet by default"}</span></div></div>
 </footer>
 <a class="wa-float" href="{WA}" rel="noopener">WhatsApp</a>
 {consent_html(lang)}
@@ -304,6 +305,28 @@ def page(path, title, desc, body, active='/', lang='en', ld=(), alternates=None,
     open(fn, 'w', encoding='utf-8').write(doc)
     return path
 
+
+
+DISC = {'en': {'eb': 'Discretion', 'h': 'Your home stays <em>yours.</em>', 'intro': 'Many of our clients would rather nobody knew what their house can do, or who lives in it. We treat that as a matter of honour, not a line in a policy.', 'items': [('No names, no addresses', 'We never publish who we work for or where. Not on our website, not on social media, not in conversation with other clients.'), ('No photos of your home', 'What we show is hardware and craft: boards, keypads, details. Never your house, your garden or your view.'), ('Confidentiality in writing', 'We are happy to sign a non-disclosure agreement before the first site visit.'), ('Your data stays in the house', 'The system runs locally. No cloud account in our name, and remote support only when you allow it.'), ('Documentation belongs to you', 'The ETS project, drawings and access codes are handed over to you, not held back.')], 'seal': 'Discreet by default'}, 'es': {'eb': 'Discreción', 'h': 'Su casa sigue siendo <em>suya.</em>', 'intro': 'Muchos de nuestros clientes prefieren que nadie sepa lo que su casa puede hacer, ni quién vive en ella. Para nosotros es una cuestión de honor, no una cláusula.', 'items': [('Sin nombres ni direcciones', 'Nunca publicamos para quién trabajamos ni dónde. Ni en la web, ni en redes sociales, ni en conversaciones con otros clientes.'), ('Sin fotos de su casa', 'Lo que mostramos es técnica y oficio: cuadros, pulsadores, detalles. Nunca su casa, su jardín ni sus vistas.'), ('Confidencialidad por escrito', 'Firmamos un acuerdo de confidencialidad antes de la primera visita, si lo desea.'), ('Sus datos se quedan en casa', 'El sistema funciona en local. Sin cuentas en la nube a nuestro nombre y con soporte remoto solo cuando usted lo autoriza.'), ('La documentación es suya', 'El proyecto ETS, los planos y los códigos de acceso se le entregan a usted.')], 'seal': 'Discreción por defecto'}}
+CRAFT = {'en': {'eb': 'The craft', 'h': 'Hardware up close. <em>Never your house.</em>', 'note': 'We show the work, not the homes: panels, boards and keypads from manufacturers we trust.', 'caps': ['Basalte · keypad', 'Tense · keypad', 'Hager · KNX board', 'Home Assistant · visualisation'], 'more': 'Why these components →', 'link': '/services/#technologies'}, 'es': {'eb': 'El oficio', 'h': 'La técnica de cerca. <em>Nunca su casa.</em>', 'note': 'Mostramos el trabajo, no las casas: pulsadores, cuadros y pantallas de fabricantes en los que confiamos.', 'caps': ['Basalte · pulsador', 'Tense · pulsador', 'Hager · cuadro KNX', 'Home Assistant · visualización'], 'more': 'Por qué estos componentes →', 'link': '/services/#technologies'}}
+
+def disc_html(lang, num):
+    d = DISC[lang]
+    items = ''.join(f'<li><div><b>{e(t)}</b><span>{e(b)}</span></div></li>' for t, b in d['items'])
+    return f"""<section class="sec dark" id="discretion"><div class="wrap disc">
+  <div><p class="eyebrow">{num} · {d['eb']}</p><h2>{d['h']}</h2><p class="intro">{e(d['intro'])}</p><span class="seal">{d['seal']}</span></div>
+  <ol>{items}</ol>
+</div></section>"""
+
+def craft_html(lang, num):
+    c = CRAFT[lang]
+    imgs = [('tech-basalte.jpg', c['caps'][0]), ('tech-tense.jpg', c['caps'][1]), ('tech-hager.jpg', c['caps'][2]), ('tech-homeassistant.jpg', c['caps'][3])]
+    figs = ''.join(f'<figure><img src="/images/{f}" alt="{e(cap)}" loading="lazy" width="800" height="600"><figcaption>{e(cap)}</figcaption></figure>' for f, cap in imgs)
+    doc = '<figure style="background:var(--graphite);display:flex;flex-direction:column;justify-content:flex-end;padding:22px"><span style="font-family:var(--serif);font-size:30px;line-height:1.1;color:var(--linen)">ETS + as-built</span><span style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass-l);margin-top:10px">' + ('Documented, always' if lang == 'en' else 'Siempre documentado') + '</span></figure>'
+    return f"""<section class="sec"><div class="wrap">
+  <div class="craft-note"><div><p class="eyebrow">{num} · {c['eb']}</p><h2 class="h2">{c['h']}</h2></div><p class="body">{e(c['note'])} <a href="{c['link']}" style="color:var(--brass-d)">{c['more']}</a></p></div>
+  <div class="craft">{figs}{doc}</div>
+</div></section>"""
 
 PAGES = []
 
@@ -318,10 +341,11 @@ home = f'''
 <section class="hero">
   <img src="/images/hero-villa.jpg" alt="Villa in Marbella at dusk with warm KNX-controlled lighting on the terrace and pool" width="1600" height="900" fetchpriority="high">
   <div class="wrap"><div class="in">
-    <p class="eyebrow">KNX smart home automation · Marbella · Costa del Sol</p>
+    <p class="eyebrow">KNX home automation · Marbella · Costa del Sol</p>
     <h1>A house that understands<br><em>how you live in it.</em></h1>
     <p class="sub">We design, program and maintain KNX systems for private villas and developments in Marbella — light, climate, shade, security and energy, held together as one calm system.</p>
-    <div class="btns"><a class="btn light" href="{WA}" rel="noopener">Talk to us on WhatsApp</a><a class="btn ghost-l" href="/services/">What we do</a></div>
+    <div class="btns"><a class="btn light" href="/contact/">Book a visit</a><a class="btn ghost-l" href="{WA}" rel="noopener">WhatsApp us</a></div>
+    <div class="trust"><span>Open KNX standard</span><span>Fully documented</span><span>Discreet by default</span></div>
   </div></div>
 </section>
 <div class="wrap"><div class="stats">
@@ -331,9 +355,9 @@ home = f'''
   <div><b>EN · SV · DA</b><span>Working languages</span></div>
 </div></div>
 <section class="sec"><div class="wrap split">
-  <p class="eyebrow">Our approach</p>
+  <p class="eyebrow">01 · Our approach</p>
   <div>
-    <h2 class="h2">Scandinavian engineering discipline, applied to Spanish houses.</h2>
+    <h2 class="h2">Scandinavian precision, <em>Mediterranean living.</em></h2>
     <div class="cols2">
       <p class="body">Automation goes wrong when it is sold as gadgets. We start from the plans and the way the house is actually used — where you walk in at night, which terrace takes the afternoon sun, how the pool and the guest wing are managed when nobody is here.</p>
       <p class="body">Then we build it on <a href="/services/knx-design-programming/" style="border-bottom:1px solid rgba(168,122,69,.4)">KNX</a>: an open, vendor-neutral standard with three decades of installed base behind it. Nothing depends on one manufacturer staying in business, and every project leaves our hands fully documented.</p>
@@ -341,20 +365,18 @@ home = f'''
   </div>
 </div></section>
 <section class="sec dark"><div class="wrap">
-  <div class="cap-top"><h2 class="h2 s">Smart home capabilities</h2><a href="/services/">All services →</a></div>
+  <p class="eyebrow">02 · Services</p>
+  <div class="cap-top"><h2 class="h2 s">Light, climate, shade. <em>One calm system.</em></h2><a href="/services/">All services →</a></div>
   {cap_grid()}
 </div></section>
-<div class="wrap"><div class="brands bb">
-  <p>Built on components<br>we trust</p>
-  <ul><li>Home Assistant</li><li>Hager</li><li>ABB</li><li>Tense</li><li>Basalte</li><li>KNX</li></ul>
-  <a class="x" href="/services/#technologies">Why these →</a>
-</div></div>
+{craft_html('en', '03')}
+{disc_html('en', '04')}
 <section class="sec"><div class="wrap x2">
   <div class="xbox"><span class="big">Xcover</span><dl>
     <div><dt>Surface</dt><dd>Walkable, load-bearing</dd></div><div><dt>Level</dt><dd>Flush with the terrace</dd></div>
     <div><dt>Control</dt><dd>KNX · keypad · app</dd></div><div><dt>Status</dt><dd style="color:var(--brass-l)">Prototype</dd></div></dl></div>
   <div>
-    <p class="eyebrow">In development · Our own product</p>
+    <p class="eyebrow">05 · Our own product · In development</p>
     <h2 class="h2" style="font-size:52px;line-height:1.06">Xcover</h2>
     <p class="lead" style="font-size:18px;margin-top:26px">A smart, walkable pool covering. Closed, it is terrace you can stand on — safe around children and pets, and it gives back the square metres the pool takes up for nine months of the year. Open, it disappears.</p>
     <p class="body muted" style="margin-top:20px">Designed to be driven from the same KNX system as the rest of the house.</p>
@@ -362,8 +384,10 @@ home = f'''
   </div>
 </div></section>
 <section class="sec sand"><div class="wrap">
+  <p class="eyebrow">06 · Process</p>
   <h2 class="h2 s" style="margin-bottom:60px">How a project runs</h2>
   <div class="steps">{''.join(f'<div><p class="num">{n}</p><h3>{t}</h3><p>{b}</p></div>' for n, t, b in PROCESS)}</div>
+  <div class="btns"><a class="btn dark" href="/contact/">Book a visit</a></div>
 </div></section>
 {faq_html(HOME_FAQ)}
 '''
@@ -472,7 +496,7 @@ about = f'''
   <p class="lead" style="margin-top:34px">Scandinavian Technical Solutions S.L. is a small, deliberately hands-on company on Avenida Ricardo Soriano. We take on a limited number of projects a year so that the person who designs your system is the person who commissions it — and the person who picks up the phone two years later.</p>
   <p class="body muted" style="margin-top:20px;max-width:640px">Northern European standards of documentation and follow-up, Spanish site reality, and no interest in selling you more hardware than the house needs.</p></div>
 </div></section>
-<section class="sec tight"><div class="wrap"><div class="cards">{''.join(f'<div><h3>{t}</h3><p>{b}</p></div>' for t, b in VALUES)}</div></div></section>
+<section class="sec tight"><div class="wrap"><div class="cards" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">{''.join(f'<div><h3>{t}</h3><p>{b}</p></div>' for t, b in VALUES)}</div></div></section>
 <section class="sec sand"><div class="wrap x2">
   <div><h2 class="h2 s" style="font-size:34px;margin-bottom:32px">Company details</h2>
   <dl class="rows">{''.join(f'<div><dt>{k}</dt><dd>{e(v)}</dd></div>' for k, v in COMPANY)}</dl></div>
@@ -506,6 +530,7 @@ contact = f'''
         <label><span>About the project</span><textarea name="message" rows="4" required></textarea></label>
         <label class="hp" aria-hidden="true"><span>Website</span><input type="text" name="website" tabindex="-1" autocomplete="off"></label>
         <button type="submit">Send enquiry</button>
+        <p style="font-size:13.5px;line-height:1.7;color:var(--mute);margin:0">Everything you send us is treated in confidence. We are happy to sign an NDA before the first visit.</p>
         <p style="font-size:13.5px;line-height:1.7;color:var(--mute);margin:0">Or email <a href="mailto:{MAIL}" style="color:var(--brass)">{MAIL}</a> directly.</p>
       </form>
     </div>
@@ -539,7 +564,8 @@ es_home = f"""
     <p class="eyebrow">Domótica KNX · Marbella · Costa del Sol</p>
     <h1>Domótica KNX para villas<br><em>en Marbella.</em></h1>
     <p class="sub">Integrador KNX en Marbella. Diseñamos, programamos y mantenemos instalaciones domóticas para villas y promociones: iluminación, climatización, persianas, seguridad y energía en un solo sistema.</p>
-    <div class="btns"><a class="btn light" href="{WA}" rel="noopener">Escríbanos por WhatsApp</a><a class="btn ghost-l" href="/es/servicios/">Servicios</a></div>
+    <div class="btns"><a class="btn light" href="/es/contacto/">Solicitar visita</a><a class="btn ghost-l" href="{WA}" rel="noopener">WhatsApp</a></div>
+    <div class="trust"><span>Estándar KNX abierto</span><span>Totalmente documentado</span><span>Discreción por defecto</span></div>
   </div></div>
 </section>
 <div class="wrap"><div class="stats">
@@ -549,9 +575,9 @@ es_home = f"""
   <div><b>ES · EN · SV · DA</b><span>Idiomas de trabajo</span></div>
 </div></div>
 <section class="sec"><div class="wrap split">
-  <p class="eyebrow">Nuestro enfoque</p>
+  <p class="eyebrow">01 · Nuestro enfoque</p>
   <div>
-    <h2 class="h2">Ingeniería escandinava aplicada a la vivienda española.</h2>
+    <h2 class="h2">Precisión escandinava, <em>vida mediterránea.</em></h2>
     <div class="cols2">
       <p class="body">La domótica sale mal cuando se vende como un conjunto de aparatos. Nosotros empezamos por los planos y por cómo se vive la casa: por dónde entra de noche, qué terraza recibe el sol de la tarde, cómo se gestionan la piscina y la zona de invitados cuando no hay nadie.</p>
       <p class="body">Después lo construimos sobre <a href="/es/servicios/programacion-knx/" style="border-bottom:1px solid rgba(168,122,69,.4)">KNX</a>, un estándar abierto con más de treinta años de instalaciones. Nada depende de que un fabricante siga existiendo, y cada proyecto se entrega totalmente documentado.</p>
@@ -559,15 +585,14 @@ es_home = f"""
   </div>
 </div></section>
 <section class="sec dark"><div class="wrap">
-  <div class="cap-top"><h2 class="h2 s">Soluciones de domótica y automatización</h2><a href="/es/servicios/">Todos los servicios →</a></div>
+  <p class="eyebrow">02 · Servicios</p>
+  <div class="cap-top"><h2 class="h2 s">Soluciones de domótica KNX. <em>Un solo sistema.</em></h2><a href="/es/servicios/">Todos los servicios →</a></div>
   {cap_grid_es()}
 </div></section>
-<div class="wrap"><div class="brands bb">
-  <p>Componentes<br>de confianza</p>
-  <ul><li>Home Assistant</li><li>Hager</li><li>ABB</li><li>Tense</li><li>Basalte</li><li>KNX</li></ul>
-  <a class="x" href="/services/#technologies">Por qué →</a>
-</div></div>
+{craft_html('es', '03')}
+{disc_html('es', '04')}
 <section class="sec sand"><div class="wrap">
+  <p class="eyebrow">05 · Proceso</p>
   <h2 class="h2 s" style="margin-bottom:60px">Cómo trabajamos</h2>
   <div class="steps">
     <div><p class="num">01</p><h3>Consulta</h3><p>Visita a la obra o llamada con sus planos. Le decimos qué merece la pena automatizar y qué no.</p></div>
@@ -575,6 +600,7 @@ es_home = f"""
     <div><p class="num">03</p><h3>Puesta en marcha</h3><p>Programación ETS, ajuste en obra de iluminación, persianas y clima, y explicación a la familia.</p></div>
     <div><p class="num">04</p><h3>Mantenimiento</h3><p>Documentación as-built, soporte remoto y cambios a medida que cambia la vida en la casa.</p></div>
   </div>
+  <div class="btns"><a class="btn dark" href="/es/contacto/">Solicitar visita</a></div>
 </div></section>
 {faq_html(ES_FAQ, 'Preguntas frecuentes sobre domótica KNX')}
 """
@@ -632,7 +658,7 @@ es_contact = contact.replace('Send a message, or just call. You will reach us, n
   .replace('>Direct<', '>Directo<').replace('Call or text', 'Llamar o SMS').replace('Mon–Fri', 'lun–vie') \
   .replace('Or write to us', 'O escríbanos').replace('Thank you — your enquiry has been sent. We usually reply within one working day.', 'Gracias, hemos recibido su consulta. Normalmente respondemos en un día laborable.') \
   .replace('<span>Name</span>', '<span>Nombre</span>').replace('<span>Phone</span>', '<span>Teléfono</span>').replace('About the project', 'Sobre el proyecto') \
-  .replace('Send enquiry', 'Enviar consulta').replace('Or email', 'O escriba a').replace('directly.', 'directamente.').replace('>Office<', '>Oficina<') \
+  .replace('Send enquiry', 'Enviar consulta').replace('Everything you send us is treated in confidence. We are happy to sign an NDA before the first visit.', 'Todo lo que nos envíe se trata con total confidencialidad. Firmamos un acuerdo de confidencialidad antes de la primera visita si lo desea.').replace('Or email', 'O escriba a').replace('directly.', 'directamente.').replace('>Office<', '>Oficina<') \
   .replace('Spain</address>', 'España</address>').replace('Open in Google Maps', 'Abrir en Google Maps').replace('name="website"', 'name="website"').replace('<form class="form" method="post" action="/enquiry.php">', '<form class="form" method="post" action="/enquiry.php"><input type="hidden" name="lang" value="es">')
 PAGES.append(page('/es/contacto/', 'Contacto – Domótica KNX en Marbella | Scanditech',
                   'Contacte con Scanditech, integrador KNX en Marbella: WhatsApp +45 20 90 30 50, teléfono +34 608 266 620 o formulario. Oficina en Avenida Ricardo Soriano.',
