@@ -9,7 +9,7 @@ TODAY = datetime.date.today().isoformat()
 WA = 'https://wa.me/4520903050'
 TEL = 'tel:+34608266620'
 MAIL = 'dnh@scanditech.es'
-CSSV = '3'
+CSSV = '4'
 e = html.escape
 
 # ---------------------------------------------------------------- data
@@ -186,7 +186,7 @@ NAV = [('/', 'Home'), ('/services/', 'Services'), ('/xcover/', 'Xcover'), ('/abo
 LANGS = [('en', '/'), ('es', '/es/'), ('da', '/da/'), ('sv', '/sv/')]
 
 from es_data import ES_SERVICES, ES_FAQ
-GA_ID = ''  # GA4 measurement id, e.g. G-XXXXXXX
+GA_ID = 'G-S3EFCCVQCF'  # GA4 property scanditech.es
 ES_SLUG = {d['en']: d['slug'] for d in ES_SERVICES}
 UI = {
  'en': dict(nav=NAV, skip='Skip to content', home='/', tag='Smart Building Automation · Marbella', menu='Menu', svc='Services', site='Site', contact='Contact',
