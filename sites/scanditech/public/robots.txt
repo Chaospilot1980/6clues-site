@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /enquiry.php
+Disallow: /deploy.php
+
+Sitemap: https://scanditech.es/sitemap.xml

@@ -1048,7 +1048,7 @@ function cron_deploy(): void {
     foreach ($tree['tree'] as $it) {
         if (($it['type'] ?? '') !== 'blob') continue;
         $rel = (string)$it['path'];
-        if (str_contains($rel, '..') || str_starts_with($rel, '.github/')) continue;
+        if (str_contains($rel, '..') || str_starts_with($rel, '.github/') || str_starts_with($rel, 'sites/')) continue;
         if ($rel === 'index.php') { $indexSha = $it['sha']; continue; }
         $dest = __DIR__ . '/' . $rel;
         if ($blobsha($dest) === $it['sha']) continue;
