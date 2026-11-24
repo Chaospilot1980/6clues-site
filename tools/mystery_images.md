@@ -666,9 +666,6 @@ Setting: At Kempfield Racecourse, the favourite, Silver Comet, finished last in 
 
 Setting: At the Polaris Space Training Camp, director Dr Hugo Brandt was found dead inside the training centrifuge after it had been run at dangerous speed with the safety lock removed.
 
-### `death-at-the-space-camp/cadet-mia-ross.jpg`
-> Portrait of Cadet Mia Ross, Trainee, aged 16, a character in the detective mystery “Death at the Space Camp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `death-at-the-space-camp/di-nora-pike.jpg`
 > Portrait of DI Nora Pike, Police, a character in the detective mystery “Death at the Space Camp”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -700,102 +697,12 @@ Setting: At the Royal Albion Hall, conductor Sir Julian Frost was found dead in 
 ### `murder-at-the-new-year-concert/mo-akhtar.jpg`
 > Portrait of Mo Akhtar, Stage manager, a character in the detective mystery “Murder at the New Year Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
-### `murder-at-the-new-year-concert/peter-lang.jpg`
-> Portrait of Peter Lang, First violin, leader, a character in the detective mystery “Murder at the New Year Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-new-year-concert/ruth-hale.jpg`
-> Portrait of Ruth Hale, Second flute, a character in the detective mystery “Murder at the New Year Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `murder-at-the-new-year-concert/photo-img-7742.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_7742” at 21:20, from “Audience member's photo (no flash)” in the detective mystery “Murder at the New Year Concert”: Woodwind section during the Night Waltz: the first flute chair empty, flute resting on the seat. Second flute Ruth Hale in her chair, red hairband. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
-
-## The Office Lottery Ticket (library – on the site now)
-
-Setting: At Penrose Insurance, eight colleagues pay £2 a week into a lottery syndicate.
-
-### `the-office-lottery-ticket/debbie-shaw.jpg`
-> Portrait of Debbie Shaw, Syndicate organiser, a character in the detective mystery “The Office Lottery Ticket”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-office-lottery-ticket/gary-mills.jpg`
-> Portrait of Gary Mills, Syndicate member, a character in the detective mystery “The Office Lottery Ticket”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-office-lottery-ticket/lisa-grant.jpg`
-> Portrait of Lisa Grant, Syndicate member, a character in the detective mystery “The Office Lottery Ticket”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-office-lottery-ticket/mr-arjun-patel.jpg`
-> Portrait of Mr Arjun Patel, Newsagent, a character in the detective mystery “The Office Lottery Ticket”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-office-lottery-ticket/nadia-cole.jpg`
-> Portrait of Nadia Cole, Syndicate member, a character in the detective mystery “The Office Lottery Ticket”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-office-lottery-ticket/tom-rees.jpg`
-> Portrait of Tom Rees, Bank fraud officer, a character in the detective mystery “The Office Lottery Ticket”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## The Scout Camp Cash Box (library – on the site now)
-
-Setting: At the Pinewood Scout Camp, £340 of tuck shop money vanished from the cash box in the leaders' tent on the last night.
-
-### `the-scout-camp-cash-box/craig-fenton.jpg`
-> Portrait of Craig Fenton, Assistant leader, a character in the detective mystery “The Scout Camp Cash Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-scout-camp-cash-box/jo-park.jpg`
-> Portrait of Jo Park, Assistant leader, a character in the detective mystery “The Scout Camp Cash Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-scout-camp-cash-box/mr-bob-clay.jpg`
-> Portrait of Mr Bob Clay, Campsite warden, a character in the detective mystery “The Scout Camp Cash Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-scout-camp-cash-box/mrs-hilary-doyle.jpg`
-> Portrait of Mrs Hilary Doyle, Camp leader, a character in the detective mystery “The Scout Camp Cash Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-scout-camp-cash-box/ravi-bhatt.jpg`
-> Portrait of Ravi Bhatt, Assistant leader, a character in the detective mystery “The Scout Camp Cash Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-scout-camp-cash-box/scout-ellie-ward.jpg`
-> Portrait of Scout Ellie Ward, Patrol leader, aged 14, a character in the detective mystery “The Scout Camp Cash Box”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## Death at the Castle Banquet (library – on the site now)
-
-Setting: At Castle Dunmorrow, Laird Angus Mackie collapsed at his Christmas medieval banquet just after the second toast.
-
-### `death-at-the-castle-banquet/di-fraser-moir.jpg`
-> Portrait of DI Fraser Moir, Police, a character in the detective mystery “Death at the Castle Banquet”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-castle-banquet/hamish-reid.jpg`
-> Portrait of Hamish Reid, Butler, a character in the detective mystery “Death at the Castle Banquet”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-castle-banquet/lady-fiona-mackie.jpg`
-> Portrait of Lady Fiona Mackie, Laird's niece, a character in the detective mystery “Death at the Castle Banquet”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-castle-banquet/mrs-moira-gunn.jpg`
-> Portrait of Mrs Moira Gunn, Guest, old friend, a character in the detective mystery “Death at the Castle Banquet”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-castle-banquet/rev-ian-small.jpg`
-> Portrait of Rev. Ian Small, Local minister, a character in the detective mystery “Death at the Castle Banquet”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-castle-banquet/rory-bell.jpg`
-> Portrait of Rory Bell, Lute player, a character in the detective mystery “Death at the Castle Banquet”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## Murder in the City Archive (library – on the site now)
 
 Setting: At the Redbridge City Archive, archivist Dr Ruth Okoye was found dead in the basement vault, crushed by a moving shelf.
-
-### `murder-in-the-city-archive/dr-alan-shore.jpg`
-> Portrait of Dr Alan Shore, Head archivist, a character in the detective mystery “Murder in the City Archive”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-city-archive/ds-kofi-mensah.jpg`
-> Portrait of DS Kofi Mensah, Police, a character in the detective mystery “Murder in the City Archive”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-city-archive/gemma-fox.jpg`
-> Portrait of Gemma Fox, Reading room supervisor, a character in the detective mystery “Murder in the City Archive”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-city-archive/kenny-dunn.jpg`
-> Portrait of Kenny Dunn, Caretaker, a character in the detective mystery “Murder in the City Archive”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-city-archive/lord-edward-harrington.jpg`
-> Portrait of Lord Edward Harrington, Archive visitor, a character in the detective mystery “Murder in the City Archive”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-city-archive/ms-priya-lowe.jpg`
-> Portrait of Ms Priya Lowe, Archive visitor, a character in the detective mystery “Murder in the City Archive”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `murder-in-the-city-archive/photo-img-51.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_51” at 18:10, from “Police photos” in the detective mystery “Murder in the City Archive”: Pot of grey pencils stamped 'RCA' by the vault door – one missing. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -807,55 +714,12 @@ Setting: At the Redbridge City Archive, archivist Dr Ruth Okoye was found dead i
 
 Setting: In Little Haddon, twelve families reported Christmas parcels marked 'delivered' that never arrived.
 
-### `the-missing-christmas-parcels/darren-cole.jpg`
-> Portrait of Darren Cole, Delivery driver, Round 7, a character in the detective mystery “The Missing Christmas Parcels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-christmas-parcels/kerry-ward.jpg`
-> Portrait of Kerry Ward, Depot manager, a character in the detective mystery “The Missing Christmas Parcels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-christmas-parcels/mr-omar-ali.jpg`
-> Portrait of Mr Omar Ali, Village resident, a character in the detective mystery “The Missing Christmas Parcels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-christmas-parcels/mrs-jan-booth.jpg`
-> Portrait of Mrs Jan Booth, Village resident, a character in the detective mystery “The Missing Christmas Parcels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-christmas-parcels/pc-hannah-grey.jpg`
-> Portrait of PC Hannah Grey, Police, a character in the detective mystery “The Missing Christmas Parcels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-missing-christmas-parcels/steve-morris.jpg`
-> Portrait of Steve Morris, Delivery driver, Round 6, a character in the detective mystery “The Missing Christmas Parcels”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-missing-christmas-parcels/photo-clip-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Grainy black-and-white security-camera still with a wide-angle lens – “CLIP_1” at 4 Dec 10:30–11:15, from “Doorbell camera – No. 9” in the detective mystery “The Missing Christmas Parcels”: Empty doorstep. No van, no driver, no parcel. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
-
-## The Ballet Shoe Sabotage (library – on the site now)
-
-Setting: At the Northern City Ballet, lead dancer Sofia Reyes fell during the opening night of The Nutcracker when the ribbon on her pointe shoe snapped.
-
-### `the-ballet-shoe-sabotage/ana-lowe.jpg`
-> Portrait of Ana Lowe, Dancer, a character in the detective mystery “The Ballet Shoe Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ballet-shoe-sabotage/bella-grant.jpg`
-> Portrait of Bella Grant, Understudy, a character in the detective mystery “The Ballet Shoe Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ballet-shoe-sabotage/meg-hollis.jpg`
-> Portrait of Meg Hollis, Wardrobe mistress, a character in the detective mystery “The Ballet Shoe Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ballet-shoe-sabotage/mr-leo-park.jpg`
-> Portrait of Mr Leo Park, Ballet master, a character in the detective mystery “The Ballet Shoe Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ballet-shoe-sabotage/sofia-reyes.jpg`
-> Portrait of Sofia Reyes, Lead dancer, a character in the detective mystery “The Ballet Shoe Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-ballet-shoe-sabotage/tom-fry.jpg`
-> Portrait of Tom Fry, Stage door keeper, a character in the detective mystery “The Ballet Shoe Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## Death at the Lighthouse Hotel (library – on the site now)
 
 Setting: At the Lighthouse Hotel on Skerra Point, owner Neil Burke fell from the lantern gallery on a stormy night.
-
-### `death-at-the-lighthouse-hotel/dougie-ross.jpg`
-> Portrait of Dougie Ross, Night porter, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `death-at-the-lighthouse-hotel/ds-morag-allan.jpg`
 > Portrait of DS Morag Allan, Police, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -2130,4 +1994,4 @@ Setting: At the Seacliff Aquarium, the famous Black Moon pearl was displayed ins
 > Candid snapshot as taken with that camera – “IMG_6090” at 15:32, from “Ben's phone” in the detective mystery “The Aquarium Pearl Theft”: Staff locker 6 open: a dripping wetsuit and a small velvet pouch on the shelf. Name tag on the locker: J. MARSH. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 1114 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 1154 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
