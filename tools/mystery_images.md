@@ -757,61 +757,12 @@ Setting: Aboard the yacht Aurora, anchored off Monaco, shipping tycoon Stavros L
 ### `death-aboard-the-yacht/mate-erik-holm.jpg`
 > Portrait of Mate Erik Holm, First mate, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
-### `death-aboard-the-yacht/mrs-helena-leandros.jpg`
-> Portrait of Mrs Helena Leandros, Stavros's wife, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-aboard-the-yacht/nikos-leandros.jpg`
-> Portrait of Nikos Leandros, Stavros's son, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-aboard-the-yacht/rosa-diaz.jpg`
-> Portrait of Rosa Diaz, Stewardess, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `death-aboard-the-yacht/photo-img-331.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_331” at 07:10, from “Rosa's phone” in the detective mystery “Death Aboard the Yacht”: Inside the tender: a wet towel with the monogram 'NL', and a pair of soaked deck shoes. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
-
-## Murder in the Bank Vault (library – on the site now)
-
-Setting: At Whitmore Private Bank, manager Desmond Clarke was found dead inside the vault on Christmas Eve morning.
-
-### `murder-in-the-bank-vault/di-grace-hill.jpg`
-> Portrait of DI Grace Hill, Police, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-bank-vault/julia-frost.jpg`
-> Portrait of Julia Frost, Deputy manager, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-bank-vault/kevin-moss.jpg`
-> Portrait of Kevin Moss, Security guard, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-bank-vault/mr-arthur-penn.jpg`
-> Portrait of Mr Arthur Penn, Customer, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-bank-vault/paula-reyes.jpg`
-> Portrait of Paula Reyes, Cashier, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-bank-vault/tom-gale.jpg`
-> Portrait of Tom Gale, IT technician, a character in the detective mystery “Murder in the Bank Vault”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## Death at the Polar Station (library – on the site now)
 
 Setting: At Halvorsen Research Station in Antarctica, glaciologist Dr Pieter Smit was found frozen outside the station.
-
-### `death-at-the-polar-station/dr-hugo-brandt.jpg`
-> Portrait of Dr Hugo Brandt, Fellow scientist, a character in the detective mystery “Death at the Polar Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-polar-station/dr-lucy-fenn.jpg`
-> Portrait of Dr Lucy Fenn, Station doctor, a character in the detective mystery “Death at the Polar Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-polar-station/ingrid-dahl.jpg`
-> Portrait of Ingrid Dahl, Station leader, a character in the detective mystery “Death at the Polar Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-polar-station/joe-park.jpg`
-> Portrait of Joe Park, Communications, a character in the detective mystery “Death at the Polar Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-polar-station/kim-larsen.jpg`
-> Portrait of Kim Larsen, Lab technician, a character in the detective mystery “Death at the Polar Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-polar-station/sam-osei.jpg`
-> Portrait of Sam Osei, Mechanic, a character in the detective mystery “Death at the Polar Station”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `death-at-the-polar-station/photo-img-14.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_14” at 07:30, from “Joe's photo” in the detective mystery “Death at the Polar Station”: Lab sample freezer, behind Core 16: a radio battery labelled 'R-4 – SMIT'. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -819,21 +770,6 @@ Setting: At Halvorsen Research Station in Antarctica, glaciologist Dr Pieter Smi
 ## Murder at the Pharaoh Exhibition (library – on the site now)
 
 Setting: At the Kingsgate Museum, Egyptologist Dr Leonard Wise was found dead inside the replica tomb on the opening night of 'Gold of the Pharaohs'.
-
-### `murder-at-the-pharaoh-exhibition/di-neha-joshi.jpg`
-> Portrait of DI Neha Joshi, Police, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-pharaoh-exhibition/jenny-cole.jpg`
-> Portrait of Jenny Cole, Journalist, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-pharaoh-exhibition/mo-rahim.jpg`
-> Portrait of Mo Rahim, Cleaner, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-pharaoh-exhibition/mr-peter-lowe.jpg`
-> Portrait of Mr Peter Lowe, Guest, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-pharaoh-exhibition/prof-diane-marsh.jpg`
-> Portrait of Prof. Diane Marsh, Rival Egyptologist, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `murder-at-the-pharaoh-exhibition/rob-hayes.jpg`
 > Portrait of Rob Hayes, Audio guide manager, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1924,4 +1860,4 @@ Setting: At the Seacliff Aquarium, the famous Black Moon pearl was displayed ins
 > Candid snapshot as taken with that camera – “IMG_6090” at 15:32, from “Ben's phone” in the detective mystery “The Aquarium Pearl Theft”: Staff locker 6 open: a dripping wetsuit and a small velvet pouch on the shelf. Name tag on the locker: J. MARSH. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 1176 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 1196 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
