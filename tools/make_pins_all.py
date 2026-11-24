@@ -16,6 +16,7 @@ landings = {
   'whodunit-puzzles-for-adults': (R + '/assets/img/m/death-in-the-snow/cover.jpg', 'Mastermind cases', 'Hard Whodunit Puzzles for Adults'),
   'printable-murder-mystery-games': (R + '/assets/img/gn/overboard-at-midnight/cover.jpg', 'Print & play', 'Free Printable Murder Mystery Games'),
   'how-to-host-a-murder-mystery-party': (R + '/assets/img/gn/the-last-invitation/cover.jpg', 'Party guide', 'How to Host a Murder Mystery Party'),
+  'murder-mystery-games-for-adults': (R + '/assets/img/m/death-on-the-night-train/cover.jpg', 'Hard whodunits · free', 'Murder Mystery Games for Adults'),
   'christmas-murder-mystery-for-kids': (R + '/assets/img/escape/the-snowmans-secret/' + sorted(os.listdir(R + '/assets/img/escape/the-snowmans-secret'))[0], 'Christmas for kids · free', 'Christmas Mystery Games for Kids'),
   'new-years-eve-murder-mystery': (R + '/assets/img/escape/the-clockmakers-last-hour/' + sorted(os.listdir(R + '/assets/img/escape/the-clockmakers-last-hour'))[0], 'New Year’s Eve · free', 'New Year’s Eve Murder Mystery'),
   'escape-room-at-home': (R + '/assets/img/escape/the-enchanted-library/hall.jpg', 'Free · play at home', 'Escape Room at Home'),

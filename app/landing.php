@@ -89,8 +89,25 @@ function landings(): array {
                 ['Are they suitable for kids?', 'Santa’s Locked Workshop and The Snowman’s Secret are level 1 and made for families. Christmas Eve at Holly Manor is level 2 – better for teens and adults.'],
             ],
         ],
+        'murder-mystery-games-for-adults' => [
+            'title' => 'Murder Mystery Games for Adults – Free, Hard Whodunits Online',
+            'h1' => 'Murder mystery games for adults',
+            'kicker' => 'Hard cases · free',
+            'description' => 'Free murder mystery games for adults: hard level 3 whodunits with alibis, timelines and red herrings. Play online or print the case files for a dinner party or game night.',
+            'lead' => 'These are the cases written to fool grown-ups: real murders, overlapping alibis, forged timelines and at least one red herring per case. Six clues, five suspects, one culprit – and no hints unless you ask. Play solo online, or print the case file for a dinner party.',
+            'sections' => fn() => [
+                ['Hardest murder mysteries (level 3)', 'Full murders with timelines, phone records and alibis to break. Best for experienced armchair detectives.', $mysGrid($mys(fn($m) => (int)$m['level'] === 3))],
+                ['Warm-up cases (level 2)', 'Trickier than they look – a good place to start a game night before the hard ones. For printed party versions, see our <a href="/printable-murder-mystery-games">printable murder mystery games</a> and <a href="/how-to-host-a-murder-mystery-party">how to host a murder mystery party</a>.', $mysGrid($mys(fn($m) => (int)$m['level'] === 2))],
+                ['Hard escape rooms', 'Point-and-click escape rooms for adults – codes, locks and a story to unravel. More in our <a href="/escape-room-at-home">escape room at home</a> collection.', $escGrid($esc(fn($r, $s) => (int)($r['level'] ?? 1) >= 3))],
+            ],
+            'faq' => [
+                ['Are these murder mystery games really for adults?', 'Yes. Level 3 cases involve real murders, false alibis and deliberate red herrings. They contain no graphic violence, but they are written to challenge adults rather than children.'],
+                ['Can we play as a group at a dinner party?', 'Yes. Print the case file, give each guest a suspect statement to read out, and let the table argue over the clues before revealing the solution.'],
+                ['Are they free?', 'Yes. Every mystery and escape room on Six Clues is free to play online and to print.'],
+            ],
+        ],
         'murder-mystery-for-kids' => [
-            'title' => 'Printable Mystery Games for Kids – Free Detective Puzzles',
+            'title' => 'Free Mystery Games for Kids – Printable & Online Detective Puzzles',
             'h1' => 'Printable mystery games for kids',
             'kicker' => 'Kids’ whodunits · free',
             'description' => 'Free printable mystery games for kids: family-friendly whodunits with stolen cakes, missing pets and sabotaged snowmen. Print the six clue cards or play online.',
@@ -120,13 +137,13 @@ function landings(): array {
             ],
         ],
         'printable-murder-mystery-games' => [
-            'title' => 'Free Printable Murder Mystery & Detective Games (Print at Home)',
+            'title' => 'Free Printable Murder Mystery & Detective Games (PDF-Ready)',
             'h1' => 'Free printable murder mystery and detective games',
             'kicker' => 'Print & play · free',
             'description' => 'Free printable murder mystery and detective games: full case files with sealed envelopes for game night, plus 200 short whodunits you can print clue by clue.',
             'lead' => 'Everything on Six Clues can be printed. Game Night case files are complete printable murder mystery games for 2–8 players with sealed envelopes. The short cases print one page per clue – perfect for a party, a classroom or a rainy afternoon.',
             'sections' => fn() => [
-                ['Game Night case files', 'Full printable cases with envelopes, for 2–8 players.', $gnGrid(fn($c) => true)],
+                ['Game Night case files', 'Full printable cases with envelopes, for 2–8 players. Want a real challenge? Try our <a href="/murder-mystery-games-for-adults">murder mystery games for adults</a>.', $gnGrid(fn($c) => true)],
                 ['Short printable cases', 'Six clues each – the newest ones first.', $mysGrid(array_slice(array_reverse(mysteries()), 0, 12))],
             ],
             'faq' => [
