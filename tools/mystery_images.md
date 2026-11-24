@@ -784,36 +784,9 @@ Setting: On the Moorvale Steam Railway's Santa Special, chairman Clive Hargreave
 ### `death-on-the-santa-steam-train/barry-pike.jpg`
 > Portrait of Barry Pike, Volunteer playing Santa, a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
-### `death-on-the-santa-steam-train/ds-ian-booth.jpg`
-> Portrait of DS Ian Booth, Transport police, a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-santa-steam-train/fred-wilde.jpg`
-> Portrait of Fred Wilde, Fireman (stoker), a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-santa-steam-train/megan-ross.jpg`
-> Portrait of Megan Ross, Volunteer elf, a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-santa-steam-train/mrs-lorna-kay.jpg`
-> Portrait of Mrs Lorna Kay, Passenger, a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-santa-steam-train/pat-ellis.jpg`
-> Portrait of Pat Ellis, Wardrobe, a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Murder at the Safari Lodge (library – on the site now)
 
 Setting: At Kingfisher Safari Lodge, owner Alistair Burke was found dead by the waterhole, struck with a heavy torch.
-
-### `murder-at-the-safari-lodge/clara-holt.jpg`
-> Portrait of Clara Holt, Guest on night drive, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-safari-lodge/dr-sam-ade.jpg`
-> Portrait of Dr Sam Ade, Wildlife vet, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-safari-lodge/inspector-grace-ndlovu.jpg`
-> Portrait of Inspector Grace Ndlovu, Police, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-safari-lodge/jake-mbeki.jpg`
-> Portrait of Jake Mbeki, Head ranger, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `murder-at-the-safari-lodge/mrs-fiona-burke.jpg`
 > Portrait of Mrs Fiona Burke, Alistair's wife, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1860,4 +1833,4 @@ Setting: At the Seacliff Aquarium, the famous Black Moon pearl was displayed ins
 > Candid snapshot as taken with that camera – “IMG_6090” at 15:32, from “Ben's phone” in the detective mystery “The Aquarium Pearl Theft”: Staff locker 6 open: a dripping wetsuit and a small velvet pouch on the shelf. Name tag on the locker: J. MARSH. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 1196 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 1205 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
