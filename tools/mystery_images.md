@@ -721,21 +721,6 @@ Setting: In Little Haddon, twelve families reported Christmas parcels marked 'de
 
 Setting: At the Lighthouse Hotel on Skerra Point, owner Neil Burke fell from the lantern gallery on a stormy night.
 
-### `death-at-the-lighthouse-hotel/ds-morag-allan.jpg`
-> Portrait of DS Morag Allan, Police, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-lighthouse-hotel/ellen-burke.jpg`
-> Portrait of Ellen Burke, Neil's sister, co-owner, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-lighthouse-hotel/mr-kit-lowry.jpg`
-> Portrait of Mr Kit Lowry, Guest, photographer, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-lighthouse-hotel/mrs-jean-craig.jpg`
-> Portrait of Mrs Jean Craig, Cook, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-lighthouse-hotel/sam-duffy.jpg`
-> Portrait of Sam Duffy, Handyman, a character in the detective mystery “Death at the Lighthouse Hotel”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `death-at-the-lighthouse-hotel/photo-dsc-2214.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “DSC_2214” at 22:14 (30-second exposure), from “Kit's camera” in the detective mystery “Death at the Lighthouse Hotel”: The lighthouse at night, beam sweeping. On the gallery, lit by the beam: two figures – one in a dark jumper, one in a long yellow oilskin coat with the hood up. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
@@ -743,70 +728,15 @@ Setting: At the Lighthouse Hotel on Skerra Point, owner Neil Burke fell from the
 
 Setting: At London Winter Fashion Week, designer Margot Vell was found dead in the backstage fitting room during her own show, strangled with a silk scarf from the collection.
 
-### `murder-at-the-fashion-show/bea-morley.jpg`
-> Portrait of Bea Morley, Dresser, a character in the detective mystery “Murder at the Fashion Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-fashion-show/di-rachel-shaw.jpg`
-> Portrait of DI Rachel Shaw, Police, a character in the detective mystery “Murder at the Fashion Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-fashion-show/kira-dahl.jpg`
-> Portrait of Kira Dahl, Model, a character in the detective mystery “Murder at the Fashion Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-fashion-show/luca-ferri.jpg`
-> Portrait of Luca Ferri, Show producer, a character in the detective mystery “Murder at the Fashion Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-fashion-show/nina-holt.jpg`
-> Portrait of Nina Holt, Model, a character in the detective mystery “Murder at the Fashion Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-fashion-show/paul-vell.jpg`
-> Portrait of Paul Vell, Margot's husband, a character in the detective mystery “Murder at the Fashion Show”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `murder-at-the-fashion-show/photo-press-19-22.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “PRESS_19:22” at 19:22, from “Press photos” in the detective mystery “Murder at the Fashion Show”: Front row: Paul Vell clapping. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ### `murder-at-the-fashion-show/photo-press-19-31.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “PRESS_19:31” at 19:31, from “Press photos” in the detective mystery “Murder at the Fashion Show”: Front row: Paul Vell on his phone. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## Death in the Hedge Maze (library – on the site now)
-
-Setting: At Ashcombe Hall, Sir Rupert Vane was found dead at the centre of his famous hedge maze during the winter lantern trail.
-
-### `death-in-the-hedge-maze/cecily-vane.jpg`
-> Portrait of Cecily Vane, Sir Rupert's daughter, a character in the detective mystery “Death in the Hedge Maze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-hedge-maze/ds-holly-ward.jpg`
-> Portrait of DS Holly Ward, Police, a character in the detective mystery “Death in the Hedge Maze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-hedge-maze/josh-hart.jpg`
-> Portrait of Josh Hart, Mulled wine helper, a character in the detective mystery “Death in the Hedge Maze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-hedge-maze/mr-george-ellis.jpg`
-> Portrait of Mr George Ellis, Guest, a character in the detective mystery “Death in the Hedge Maze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-hedge-maze/mrs-pam-hood.jpg`
-> Portrait of Mrs Pam Hood, Lantern hire, a character in the detective mystery “Death in the Hedge Maze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-hedge-maze/ned-barlow.jpg`
-> Portrait of Ned Barlow, Head gardener, a character in the detective mystery “Death in the Hedge Maze”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Murder in the Airport Lounge (library – on the site now)
 
 Setting: In the Skyline First Lounge at Heathfield Airport, tech founder Martin Kale collapsed and died after drinking an espresso.
-
-### `murder-in-the-airport-lounge/andy-grant.jpg`
-> Portrait of Andy Grant, Martin's assistant, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-airport-lounge/di-sara-kemp.jpg`
-> Portrait of DI Sara Kemp, Police, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-airport-lounge/jade-moss.jpg`
-> Portrait of Jade Moss, Lounge cleaner, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-airport-lounge/lena-park.jpg`
-> Portrait of Lena Park, Lounge barista, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-in-the-airport-lounge/olivia-shaw.jpg`
-> Portrait of Olivia Shaw, Co-founder, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `murder-in-the-airport-lounge/tom-bell.jpg`
 > Portrait of Tom Bell, Gate agent, gate 22, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1994,4 +1924,4 @@ Setting: At the Seacliff Aquarium, the famous Black Moon pearl was displayed ins
 > Candid snapshot as taken with that camera – “IMG_6090” at 15:32, from “Ben's phone” in the detective mystery “The Aquarium Pearl Theft”: Staff locker 6 open: a dripping wetsuit and a small velvet pouch on the shelf. Name tag on the locker: J. MARSH. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 1154 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 1176 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
