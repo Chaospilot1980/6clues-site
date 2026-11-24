@@ -553,9 +553,6 @@ Setting: At the Lowfield County Show, Bert Gibbs's giant pumpkin was on course t
 
 Setting: At the Hope Lane Charity Shop, a donated necklace was valued at £4,500 by a visiting jeweller.
 
-### `the-charity-shop-necklace/bea-holt.jpg`
-> Portrait of Bea Holt, Volunteer, a character in the detective mystery “The Charity Shop Necklace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-charity-shop-necklace/kevin-shaw.jpg`
 > Portrait of Kevin Shaw, Volunteer, a character in the detective mystery “The Charity Shop Necklace”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
@@ -2133,4 +2130,4 @@ Setting: At the Seacliff Aquarium, the famous Black Moon pearl was displayed ins
 > Candid snapshot as taken with that camera – “IMG_6090” at 15:32, from “Ben's phone” in the detective mystery “The Aquarium Pearl Theft”: Staff locker 6 open: a dripping wetsuit and a small velvet pouch on the shelf. Name tag on the locker: J. MARSH. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 1113 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 1114 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
