@@ -228,6 +228,23 @@ function landings(): array {
                 ['Are the escape rooms suitable for kids?', 'Level 1 rooms are made for families with children around 7 and up. Level 2 rooms suit teens and adults.'],
             ],
         ],
+        'murder-mystery-dinner-party' => [
+            'title' => 'Free Murder Mystery Dinner Party Games – Printable & Ready to Host',
+            'h1' => 'Murder mystery dinner party – free',
+            'kicker' => 'Dinner party · free',
+            'description' => 'Host a murder mystery dinner party for free: printable case files with sealed envelopes to open between courses, plus whodunit puzzles for 2–20 guests. No kit to buy.',
+            'lead' => 'No kit, no costumes required, no cost. Print a case file, put the sealed envelopes next to the plates and open one between each course. By dessert, everyone names the killer – and the last envelope reveals who got it right.',
+            'sections' => fn() => [
+                ['Printable case files for the dinner table', 'Each file has evidence for several courses and a sealed solution. Read <a href="/how-to-host-a-murder-mystery-party">how to host a murder mystery party</a> for a step-by-step plan.', $gnGrid(fn($c) => true)],
+                ['Whodunits to solve over coffee', 'Short cases the whole table can crack together on a phone or printed out. More in the <a href="/printable-murder-mystery-games">printable murder mystery games</a> collection.', $mysGrid(array_slice($mys(fn($m) => (int)$m['level'] >= 2), 0, 12))],
+            ],
+            'faq' => [
+                ['How does a murder mystery dinner party work?', 'Guests eat and play at the same time. Before each course, open the next envelope and read the new evidence aloud. Discuss over the food, and make the final accusation with dessert.'],
+                ['How many guests do I need?', 'Any number from 2. With more than 6 guests, split into teams that compete to name the culprit first.'],
+                ['Do I need to buy a kit?', 'No. Every case on Six Clues is free – print the pages at home, and you are ready.'],
+                ['Is it suitable for adults only?', 'The cases are family-friendly with no gore, so they work for adult dinner parties and family dinners alike. For harder puzzles, see <a href="/murder-mystery-games-for-adults">murder mystery games for adults</a>.'],
+            ],
+        ],
         'new-years-eve-murder-mystery' => [
             'title' => 'New Year’s Eve Murder Mystery & Escape Room – Free Party Games',
             'h1' => 'New Year’s Eve murder mystery games',

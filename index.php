@@ -22,7 +22,7 @@ $routes = [
     '#^/daily$#'                              => 'daily_redirect',
     '#^/game-night$#'                         => 'gn_index',
     '#^/christmas-murder-mystery$#'           => 'christmas_page',
-    '#^/(free-escape-rooms-for-kids|classroom-escape-room|christmas-escape-room|murder-mystery-for-kids|whodunit-puzzles-for-adults|printable-murder-mystery-games|how-to-host-a-murder-mystery-party|black-friday-murder-mystery|detective-games-online|escape-room-at-home|new-years-eve-murder-mystery|christmas-murder-mystery-for-kids|murder-mystery-games-for-adults)$#' => 'landing_page',
+    '#^/(free-escape-rooms-for-kids|classroom-escape-room|christmas-escape-room|murder-mystery-for-kids|whodunit-puzzles-for-adults|printable-murder-mystery-games|how-to-host-a-murder-mystery-party|black-friday-murder-mystery|detective-games-online|escape-room-at-home|new-years-eve-murder-mystery|christmas-murder-mystery-for-kids|murder-mystery-games-for-adults|murder-mystery-dinner-party)$#' => 'landing_page',
     '#^/seasonal$#' => 'seasonal_page',
     '#^/escape$#'                             => 'escape_index',
     '#^/escape/([a-z0-9\-]+)$#'               => 'escape_landing',
@@ -1743,10 +1743,10 @@ function gn_play(string $slug): void {
 // ===================== ESCAPE ROOMS =====================
 
 function escape_index(): void {
-    page_start(['title' => 'Free Online Escape Rooms – Play in Your Browser', 'path' => '/escape',
+    page_start(['title' => 'Free Online Escape Rooms – ' . count(escape_rooms()) . ' Escape Games to Play in Your Browser', 'path' => '/escape',
         'jsonld' => [['@context' => 'https://schema.org', '@type' => 'ItemList', 'name' => 'Free online escape rooms',
             'itemListElement' => array_values(array_map(fn($s, $k) => ['@type' => 'ListItem', 'position' => $k + 1, 'url' => url('/escape/' . $s), 'name' => escape_rooms()[$s]['title']], array_keys(escape_rooms()), array_keys(array_keys(escape_rooms()))))]],
-        'description' => 'Free online escape rooms: point-and-click escape games you play in your browser at home – nothing to download. Search the rooms, crack the locks and escape before time runs out.']);
+        'description' => 'Free online escape rooms: ' . count(escape_rooms()) . ' point-and-click escape games you play in your browser at home – no download, hints included, for kids, families and adults. Search the rooms, crack the locks and escape before time runs out.']);
     ?>
 <section class="gn-hero esc-hero" style="background-image:linear-gradient(90deg,rgba(20,17,14,.92) 0%,rgba(20,17,14,.7) 50%,rgba(20,17,14,.2) 100%),url('<?= e(escape_cover('the-sealed-tomb') ?? '') ?>')">
   <div class="wrap">
