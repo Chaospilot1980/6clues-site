@@ -391,7 +391,7 @@ home = f'''
 </div></section>
 {faq_html(HOME_FAQ)}
 '''
-PAGES.append(page('/', 'KNX Smart Home Automation in Marbella | Scanditech',
+PAGES.append(page('/', 'Home Automation & KNX Smart Home in Marbella | Scanditech',
                   'KNX smart home and villa automation in Marbella and the Costa del Sol. Lighting, climate, shading, security and energy — designed, programmed and documented by Scanditech.',
                   home, '/', ld=[faq_ld(HOME_FAQ), {"@type": "WebSite", "name": "Scanditech", "url": SITE + "/"}],
                   alternates=LANGS, preload='/images/hero-villa.jpg'))
@@ -409,7 +409,7 @@ services = f'''
 <section class="phead"><div class="wrap">
   <p class="eyebrow">Services</p>
   <h1>KNX home automation services — one system for the whole house.</h1>
-  <p class="lead">We work as the automation partner on new villas and renovations in Marbella and along the Costa del Sol, and as an independent consultant for architects, developers and other installers who need a second set of eyes on a KNX specification.</p>
+  <p class="lead">We work as the automation partner on new villas and renovations in Marbella and along the Costa del Sol, and as an independent consultant for architects, developers and other installers who need a second set of eyes on a KNX specification. Working in <a href="/areas/benahavis/" style="color:var(--brass-d)">Benahavís</a>? See our area page.</p>
 </div></section>
 <section><div class="wrap" style="padding-bottom:40px">{svc_list}</div></section>
 <section class="sec sand" id="technologies"><div class="wrap">
@@ -501,7 +501,7 @@ about = f'''
   <div><h2 class="h2 s" style="font-size:34px;margin-bottom:32px">Company details</h2>
   <dl class="rows">{''.join(f'<div><dt>{k}</dt><dd>{e(v)}</dd></div>' for k, v in COMPANY)}</dl></div>
   <div><h2 class="h2 s" style="font-size:34px;margin-bottom:32px">Where we work</h2>
-  <p class="body">Our office is in central Marbella. We work on villas and developments along the Costa del Sol — Marbella, Nueva Andalucía, the Golden Mile, Benahavís, La Zagaleta, Estepona, San Pedro de Alcántara, Sotogrande, Mijas, Fuengirola and Málaga.</p>
+  <p class="body">Our office is in central Marbella. We work on villas and developments along the Costa del Sol — Marbella, Nueva Andalucía, the Golden Mile, <a href="/areas/benahavis/" style="color:var(--brass-d)">Benahavís</a>, La Zagaleta, Estepona, San Pedro de Alcántara, Sotogrande, Mijas, Fuengirola and Málaga.</p>
   <p class="body" style="margin-top:18px">Many of our clients are from Scandinavia and Northern Europe and spend part of the year elsewhere. We speak English, Swedish and Danish with owners, and Spanish on site.</p>
   <div class="btns"><a class="btn dark" href="/contact/">Get in touch</a></div></div>
 </div></section>
@@ -614,7 +614,7 @@ es_svc = f"""
 <section class="phead"><div class="wrap">
   <p class="eyebrow">Servicios</p>
   <h1>Servicios de domótica KNX: un solo sistema para toda la casa.</h1>
-  <p class="lead">Somos el integrador KNX en obra nueva y reformas en Marbella y la Costa del Sol, y consultores independientes para arquitectos, promotores e instaladores que necesitan revisar un proyecto KNX.</p>
+  <p class="lead">Somos el integrador KNX en obra nueva y reformas en Marbella y la Costa del Sol, y consultores independientes para arquitectos, promotores e instaladores que necesitan revisar un proyecto KNX. Trabajamos en toda la costa, también en <a href="/es/zonas/benahavis/" style="color:var(--brass-d)">Benahavís</a>.</p>
 </div></section>
 <section><div class="wrap" style="padding-bottom:40px">{es_list}</div></section>
 <section class="sec"><div class="wrap"><div class="cta"><div><h2>Consultoría y auditoría de instalaciones</h2>
@@ -696,6 +696,64 @@ for lang, L in LANDING.items():
 <section class="sec dark"><div class="wrap"><div class="cap-top"><h2 class="h2 s">{L["svc"]}</h2><a href="/services/">{L["more"]} →</a></div>{cap_grid()}</div></section>
 '''
     PAGES.append(page(f'/{lang}/', L['title'], L['desc'], body, '', lang=lang, alternates=LANGS))
+
+# ---------------------------------------------------------------- area pages (EN /areas/<slug>/, ES /es/zonas/<slug>/)
+AREAS = [
+ dict(slug='benahavis', name='Benahavís',
+  en=dict(title='Home Automation in Benahavís – KNX Smart Villas | Scanditech',
+          desc='KNX home automation for villas in Benahavís, La Zagaleta, El Madroñal and Los Arqueros: lighting, climate, shading, security and remote access, from a Marbella-based engineer.',
+          h1='Home automation in Benahavís.',
+          lead='Benahavís is where many of the largest homes on the coast sit: hillside estates, several buildings on one plot, long distances between the gate, the main house and the pool house. That is exactly the kind of project where a well-designed KNX system pays for itself, and where a poorly documented one becomes a problem.',
+          blocks=[('Large plots, one system', 'Main house, guest house, staff quarters, gatehouse and garden lighting on one KNX installation, with sensible line and area topology so the system stays fast and easy to extend.'),
+                  ('Run from a distance', 'Many owners in La Zagaleta, El Madroñal and Los Arqueros are away for months at a time. Holiday mode, leak protection, presence simulation and secure remote access keep the house looked after.'),
+                  ('Climate on a hillside', 'Sun on one façade, wind on another. Room-by-room climate, automated shading and weather-station logic keep a large villa comfortable without wasting energy.'),
+                  ('Audits and takeovers', 'Bought a villa with an undocumented system? We audit, document and take over existing KNX installations, including ones where the original installer has disappeared.')],
+          also='Nearby we also work in Marbella, Nueva Andalucía, the Golden Mile, Estepona and Sotogrande.',
+          cta='Book a visit in Benahavís', faq=[
+            ('Do you work in La Zagaleta and El Madroñal?', 'Yes. We work on villas throughout Benahavís, including gated communities such as La Zagaleta, El Madroñal, Los Arqueros and Monte Mayor, and we coordinate access with security and estate management.'),
+            ('How far is Benahavís from your office?', 'Our office is in central Marbella, roughly 20–30 minutes away, so site visits and service calls are quick.'),
+            ('Can you work alongside our architect and builder?', 'Yes. On new builds and major renovations we join early, specify the KNX system with the architect and electrician, and then programme and commission it ourselves.'),
+            ('Is everything kept confidential?', 'Always. We do not publish client names, addresses or photos of your home, and we are happy to sign an NDA before the first visit.')]),
+  es=dict(title='Domótica en Benahavís – Villas KNX | Scanditech',
+          desc='Domótica KNX para villas en Benahavís, La Zagaleta, El Madroñal y Los Arqueros: iluminación, clima, persianas, seguridad y acceso remoto. Integrador KNX con oficina en Marbella.',
+          h1='Domótica en Benahavís.',
+          lead='En Benahavís están muchas de las viviendas más grandes de la costa: fincas en ladera, varios edificios en una misma parcela y largas distancias entre la entrada, la casa principal y la casa de la piscina. Es justo el tipo de proyecto en el que un buen sistema KNX se amortiza, y en el que uno mal documentado se convierte en un problema.',
+          blocks=[('Parcelas grandes, un solo sistema', 'Casa principal, casa de invitados, zona de servicio, garita y alumbrado de jardín en una sola instalación KNX, con una topología de líneas y áreas pensada para que el sistema sea rápido y fácil de ampliar.'),
+                  ('Control a distancia', 'Muchos propietarios de La Zagaleta, El Madroñal y Los Arqueros pasan meses fuera. Modo vacaciones, protección contra fugas, simulación de presencia y acceso remoto seguro mantienen la casa vigilada.'),
+                  ('Clima en ladera', 'Sol en una fachada y viento en otra. Clima por estancias, persianas automatizadas y lógica de estación meteorológica para que una villa grande sea confortable sin derrochar energía.'),
+                  ('Auditorías y traspasos', '¿Ha comprado una villa con un sistema sin documentar? Auditamos, documentamos y nos hacemos cargo de instalaciones KNX existentes, también cuando el instalador original ya no está.')],
+          also='Cerca también trabajamos en Marbella, Nueva Andalucía, la Milla de Oro, Estepona y Sotogrande.',
+          cta='Solicitar visita en Benahavís', faq=[
+            ('¿Trabajan en La Zagaleta y El Madroñal?', 'Sí. Trabajamos en villas de todo Benahavís, incluidas urbanizaciones cerradas como La Zagaleta, El Madroñal, Los Arqueros y Monte Mayor, y coordinamos el acceso con seguridad y la administración.'),
+            ('¿A qué distancia está Benahavís de su oficina?', 'Nuestra oficina está en el centro de Marbella, a unos 20–30 minutos, así que las visitas y el servicio técnico son rápidos.'),
+            ('¿Pueden trabajar con nuestro arquitecto y constructor?', 'Sí. En obra nueva y reformas integrales entramos pronto, definimos el sistema KNX con el arquitecto y el electricista, y luego lo programamos y ponemos en marcha nosotros.'),
+            ('¿Todo es confidencial?', 'Siempre. No publicamos nombres de clientes, direcciones ni fotos de su casa, y firmamos un acuerdo de confidencialidad antes de la primera visita si lo desea.')])),
+]
+for A in AREAS:
+    for lang in ('en', 'es'):
+        L = A[lang]
+        path = f'/areas/{A["slug"]}/' if lang == 'en' else f'/es/zonas/{A["slug"]}/'
+        alts = [('en', f'/areas/{A["slug"]}/'), ('es', f'/es/zonas/{A["slug"]}/')]
+        home, svc, contact_u = ('/', '/services/', '/contact/') if lang == 'en' else ('/es/', '/es/servicios/', '/es/contacto/')
+        lbl = ('Home', 'Areas') if lang == 'en' else ('Inicio', 'Zonas')
+        grid = cap_grid() if lang == 'en' else cap_grid_es()
+        body = f"""
+<section class="phead"><div class="wrap">
+  <p class="crumbs"><a href="{home}">{lbl[0]}</a> / {lbl[1]} / {e(A['name'])}</p>
+  <h1>{e(L['h1'])}</h1>
+  <p class="lead">{e(L['lead'])}</p>
+</div></section>
+<section class="sec tight"><div class="wrap"><div class="cards">{''.join(f'<div><h2 style="font-size:19px;font-weight:500;margin:0 0 12px">{e(t)}</h2><p>{e(b)}</p></div>' for t, b in L['blocks'])}</div>
+<div class="btns"><a class="btn dark" href="{contact_u}">{e(L['cta'])}</a><a class="btn ghost" href="{WA}" rel="noopener">WhatsApp</a></div></div></section>
+{disc_html(lang, '02')}
+<section class="sec"><div class="wrap"><div class="cap-top"><h2 class="h2 s">{'Services' if lang == 'en' else 'Servicios'}</h2><a href="{svc}">{'All services' if lang == 'en' else 'Todos los servicios'} →</a></div>{grid}
+<p class="body muted" style="margin-top:40px">{e(L['also'])}</p></div></section>
+{faq_html(L['faq'], 'Questions we are often asked' if lang == 'en' else 'Preguntas frecuentes')}
+"""
+        ld = [crumbs_ld([(home, lbl[0]), (path, A['name'])]), faq_ld(L['faq']),
+              {"@type": "Service", "name": L['h1'].rstrip('.'), "serviceType": "KNX home automation", "provider": {"@id": SITE + "/#business"},
+               "areaServed": {"@type": "Place", "name": A['name'] + ', Málaga, Spain'}, "url": SITE + path, "inLanguage": lang}]
+        PAGES.append(page(path, L['title'], L['desc'], body, svc, lang=lang, ld=ld, alternates=alts))
 
 # ---------------------------------------------------------------- 404, enquiry, robots, sitemap, htaccess
 page('/404.html', 'Page not found | Scanditech', 'The page you were looking for does not exist.',
