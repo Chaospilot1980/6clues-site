@@ -1,0 +1,21 @@
+# Scanditech – KNX home automation in Marbella (scanditech.es)
+
+> Scandinavian Technical Solutions S.L. (Scanditech) is a small KNX engineering practice in Marbella, Spain (Av. Ricardo Soriano 72, 29601 Marbella). It designs, programs (ETS), commissions and maintains KNX smart-home systems for villas and developments on the Costa del Sol: lighting control, climate/HVAC, shading and blinds, security and access, energy monitoring and pool automation. It also audits and takes over undocumented KNX installations. Languages: English, Spanish, Danish, Swedish. Known for discretion: no client names, addresses or photos of homes are published; NDA on request; systems run locally with remote access only with the owner's permission.
+
+## Areas served
+Marbella, Nueva Andalucía, the Golden Mile, Benahavís (La Zagaleta, El Madroñal, Los Arqueros), Estepona, San Pedro de Alcántara, Sotogrande, Mijas, Fuengirola, Málaga.
+
+## Key pages
+- [Home (EN)](https://scanditech.es/): KNX smart home automation in Marbella
+- [Inicio (ES)](https://scanditech.es/es/): domótica KNX en Marbella, integrador KNX
+- [Services](https://scanditech.es/services/)
+- [KNX Design & Programming](https://scanditech.es/services/knx-design-programming/): System architecture, ETS programming, commissioning and full documentation.
+- [Lighting Control](https://scanditech.es/services/lighting-control/): Scenes, dimming and tunable white that flatter the architecture instead of fighting it.
+- [Climate & HVAC](https://scanditech.es/services/climate-hvac-control/): Zone-by-zone heating, cooling and ventilation, coordinated with shading.
+- [Shading & Blinds](https://scanditech.es/services/shading-blinds/): Motorised blinds, awnings and pergolas driven by sun position and weather.
+- [Security & Access](https://scanditech.es/services/security-access/): Alarm, video door entry and access, integrated rather than bolted on.
+- [Energy Monitoring](https://scanditech.es/services/energy-monitoring/): Circuit-level metering, PV and battery visibility, and load management.
+- [Pool & Outdoor Automation](https://scanditech.es/services/pool-outdoor-automation/): Pumps, heating, lighting, irrigation and covers on the same system as the house.
+- [Benahavís (EN)](https://scanditech.es/areas/benahavis/) · [Benahavís (ES)](https://scanditech.es/es/zonas/benahavis/)
+- [About](https://scanditech.es/about/)
+- [Contact](https://scanditech.es/contact/): WhatsApp +45 20 90 30 50, phone +34 608 266 620, dnh@scanditech.es

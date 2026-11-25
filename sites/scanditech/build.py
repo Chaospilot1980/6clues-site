@@ -759,6 +759,22 @@ for A in AREAS:
 page('/404.html', 'Page not found | Scanditech', 'The page you were looking for does not exist.',
      '<section class="phead"><div class="wrap"><p class="eyebrow">404</p><h1>This page does not exist.</h1><p class="lead">It may have moved. Start from the <a href="/" style="color:var(--brass)">home page</a> or look at our <a href="/services/" style="color:var(--brass)">services</a>.</p></div></section>')
 
+llms = f"""# Scanditech – KNX home automation in Marbella (scanditech.es)
+
+> Scandinavian Technical Solutions S.L. (Scanditech) is a small KNX engineering practice in Marbella, Spain (Av. Ricardo Soriano 72, 29601 Marbella). It designs, programs (ETS), commissions and maintains KNX smart-home systems for villas and developments on the Costa del Sol: lighting control, climate/HVAC, shading and blinds, security and access, energy monitoring and pool automation. It also audits and takes over undocumented KNX installations. Languages: English, Spanish, Danish, Swedish. Known for discretion: no client names, addresses or photos of homes are published; NDA on request; systems run locally with remote access only with the owner's permission.
+
+## Areas served
+Marbella, Nueva Andalucía, the Golden Mile, Benahavís (La Zagaleta, El Madroñal, Los Arqueros), Estepona, San Pedro de Alcántara, Sotogrande, Mijas, Fuengirola, Málaga.
+
+## Key pages
+- [Home (EN)]({SITE}/): KNX smart home automation in Marbella
+- [Inicio (ES)]({SITE}/es/): domótica KNX en Marbella, integrador KNX
+- [Services]({SITE}/services/)
+""" + ''.join(f"- [{s['title']}]({SITE}/services/{s['slug']}/): {s['short']}\n" for s in SERVICES) + ''.join(f"- [{A['name']} (EN)]({SITE}/areas/{A['slug']}/) · [{A['name']} (ES)]({SITE}/es/zonas/{A['slug']}/)\n" for A in AREAS) + f"""- [About]({SITE}/about/)
+- [Contact]({SITE}/contact/): WhatsApp +45 20 90 30 50, phone +34 608 266 620, dnh@scanditech.es
+"""
+open(os.path.join(OUT, 'llms.txt'), 'w').write(llms)
+
 open(os.path.join(OUT, 'robots.txt'), 'w').write(f'User-agent: *\nAllow: /\nDisallow: /enquiry.php\nDisallow: /deploy.php\n\nSitemap: {SITE}/sitemap.xml\n')
 sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(
     f'  <url><loc>{SITE}{p}</loc><lastmod>{TODAY}</lastmod><priority>{"1.0" if p == "/" else "0.8" if p.count("/") <= 2 else "0.7"}</priority></url>\n' for p in PAGES) + '</urlset>\n'

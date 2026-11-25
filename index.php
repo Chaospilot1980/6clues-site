@@ -61,6 +61,7 @@ $routes = [
     '#^/privacy$#'                            => 'privacy',
     '#^/sitemap\.xml$#'                       => 'sitemap',
     '#^/robots\.txt$#'                        => 'robots',
+    '#^/llms\.txt$#'                          => 'llms_txt',
 ];
 foreach ($routes as $re => $fn) {
     if (preg_match($re, $path, $mm)) { $fn(...array_slice($mm, 1)); exit; }
@@ -993,6 +994,16 @@ function sitemap(): void {
     foreach (mysteries() as $m) { $urls[] = '/mysteries/' . $m['slug']; $urls[] = '/mysteries/' . $m['slug'] . '/play'; }
     foreach ($urls as $u) echo '  <url><loc>' . e(url($u)) . '</loc></url>' . "\n";
     echo '</urlset>';
+}
+
+function llms_txt(): void {
+    header('Content-Type: text/plain; charset=utf-8');
+    $n = count(mysteries()); $x = count(escape_rooms());
+    $o = "# Six Clues (6clues.com)\n\n> Free online detective mysteries and murder mystery games. {$n} whodunit cases to solve online or print as PDF, a new daily mystery, {$x} free online escape rooms in the browser, and printable murder mystery party / game-night kits. Free, no download, no app; family-friendly (no gore). For kids, families, classrooms, teens and adults.\n\n";
+    $o .= "## Key pages\n- [All mysteries](" . url('/mysteries') . "): free whodunit cases, levels 1–3, play online or print\n- [Daily mystery](" . url('/') . "): a new detective case every day\n- [Free online escape rooms](" . url('/escape') . "): point-and-click escape games in the browser, hints included\n- [Game nights](" . url('/game-night') . "): printable murder mystery party kits with sealed envelopes\n";
+    foreach (landings() as $slug => $l) $o .= "- [" . $l['h1'] . "](" . url('/' . $slug) . "): " . $l['description'] . "\n";
+    $o .= "\n## How a case works\nEach mystery has six numbered clues (evidence posters). Players open as few clues as possible, then name the culprit; the score is higher the fewer clues used. Every case is logically fair with exactly one culprit.\n\n## Contact\nhello@6clues.com\n";
+    echo $o;
 }
 
 function robots(): void {
