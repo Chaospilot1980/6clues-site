@@ -848,89 +848,16 @@ Setting: At St Hilda's Hospital, businessman Arthur Graves was recovering well f
 ### `death-on-the-night-ward/celia-graves.jpg`
 > Portrait of Celia Graves, Arthur's daughter, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
-### `death-on-the-night-ward/dave-okafor.jpg`
-> Portrait of Dave Okafor, Night porter, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-night-ward/dr-maya-singh.jpg`
-> Portrait of Dr Maya Singh, Ward doctor, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-night-ward/lily-tan.jpg`
-> Portrait of Lily Tan, Riverside Hotel, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-night-ward/owen-ford.jpg`
-> Portrait of Owen Ford, Night nurse, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-night-ward/sam-lee.jpg`
-> Portrait of Sam Lee, Equipment technician, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Murder at the Embassy Ball (library – on the site now)
 
 Setting: At the Embassy of Valoria in London, aide Lukas Varga was found dead in the library during the New Year ball, struck with a heavy crystal paperweight.
 
-### `murder-at-the-embassy-ball/count-rafael-orsini.jpg`
-> Portrait of Count Rafael Orsini, Guest, businessman, a character in the detective mystery “Murder at the Embassy Ball”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-embassy-ball/inspector-james-holt.jpg`
-> Portrait of Inspector James Holt, Police, a character in the detective mystery “Murder at the Embassy Ball”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-embassy-ball/madame-elena-kova.jpg`
-> Portrait of Madame Elena Kova, Ambassador's wife, a character in the detective mystery “Murder at the Embassy Ball”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-embassy-ball/mr-robert-lowe.jpg`
-> Portrait of Mr Robert Lowe, Guest, journalist, a character in the detective mystery “Murder at the Embassy Ball”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-embassy-ball/nina-bose.jpg`
-> Portrait of Nina Bose, Cloakroom, a character in the detective mystery “Murder at the Embassy Ball”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-embassy-ball/simon-reece.jpg`
-> Portrait of Simon Reece, Embassy butler, a character in the detective mystery “Murder at the Embassy Ball”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `murder-at-the-embassy-ball/photo-img-501.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_501” at 22:15, from “Smoking room photo” in the detective mystery “Murder at the Embassy Ball”: Robert Lowe and three guests playing cards in the smoking room. Robert is clean-shaven and wearing silver cufflinks. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
-
-## Death on the Oil Rig (library – on the site now)
-
-Setting: On the Brenna Alpha oil rig in the North Sea, safety inspector Callum Ross fell from the cellar deck into the sea during a storm.
-
-### `death-on-the-oil-rig/ali-hassan.jpg`
-> Portrait of Ali Hassan, Rig medic, a character in the detective mystery “Death on the Oil Rig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-oil-rig/di-fiona-strachan.jpg`
-> Portrait of DI Fiona Strachan, Police, a character in the detective mystery “Death on the Oil Rig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-oil-rig/dougie-watt.jpg`
-> Portrait of Dougie Watt, Roustabout, a character in the detective mystery “Death on the Oil Rig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-oil-rig/erin-hale.jpg`
-> Portrait of Erin Hale, Helicopter pilot, a character in the detective mystery “Death on the Oil Rig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-oil-rig/gordon-bain.jpg`
-> Portrait of Gordon Bain, Rig manager, a character in the detective mystery “Death on the Oil Rig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-oil-rig/shona-kerr.jpg`
-> Portrait of Shona Kerr, Night shift supervisor, a character in the detective mystery “Death on the Oil Rig”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## Murder at the Waxworks (library – on the site now)
 
 Setting: At Madame Fontaine's Waxworks, owner Felix Fontaine was found dead in the Hall of Villains after the unveiling of a new figure.
-
-### `murder-at-the-waxworks/ds-leo-grant.jpg`
-> Portrait of DS Leo Grant, Police, a character in the detective mystery “Murder at the Waxworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-waxworks/jo-ellis.jpg`
-> Portrait of Jo Ellis, Car park, a character in the detective mystery “Murder at the Waxworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-waxworks/margot-fontaine.jpg`
-> Portrait of Margot Fontaine, Felix's wife, sculptor, a character in the detective mystery “Murder at the Waxworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-waxworks/mr-ken-lowe.jpg`
-> Portrait of Mr Ken Lowe, Guest, a character in the detective mystery “Murder at the Waxworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-waxworks/rosie-dunn.jpg`
-> Portrait of Rosie Dunn, Wax artist, a character in the detective mystery “Murder at the Waxworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-waxworks/tom-pike.jpg`
-> Portrait of Tom Pike, Night guard, a character in the detective mystery “Murder at the Waxworks”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `murder-at-the-waxworks/photo-img-9001.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_9001” at 21:45, from “Ken's phone” in the detective mystery “Murder at the Waxworks”: Lady Macbeth on plinth 7 – in the green dress and red wig. Visible under the hem: modern black trainers with a white stripe. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -938,24 +865,6 @@ Setting: At Madame Fontaine's Waxworks, owner Felix Fontaine was found dead in t
 ## Death at the Toy Factory (library – on the site now)
 
 Setting: At Jolly Jack Toys, owner Jack Holloway was found dead under the teddy bear conveyor belt on the night shift before the big Christmas delivery.
-
-### `death-at-the-toy-factory/di-sam-rowe.jpg`
-> Portrait of DI Sam Rowe, Police, a character in the detective mystery “Death at the Toy Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-toy-factory/gail-fox.jpg`
-> Portrait of Gail Fox, Quality checker, a character in the detective mystery “Death at the Toy Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-toy-factory/lou-ames.jpg`
-> Portrait of Lou Ames, Night security, a character in the detective mystery “Death at the Toy Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-toy-factory/nick-dyer.jpg`
-> Portrait of Nick Dyer, Line 3 supervisor, a character in the detective mystery “Death at the Toy Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-toy-factory/penny-moss.jpg`
-> Portrait of Penny Moss, Line 2 worker, a character in the detective mystery “Death at the Toy Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-toy-factory/ray-collins.jpg`
-> Portrait of Ray Collins, Line 3 worker, a character in the detective mystery “Death at the Toy Factory”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `death-at-the-toy-factory/photo-cam4-2301.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM4_2301” at 23:01, from “Corridor camera” in the detective mystery “Death at the Toy Factory”: Man in a blue supervisor's tabard walking from line 2 to line 3, carrying a spanner. Grey stuffing on his sleeve. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -967,42 +876,12 @@ Setting: At Jolly Jack Toys, owner Jack Holloway was found dead under the teddy 
 
 Setting: At Loch Ellen House, crime author Dame Agnes Hale was found dead in her boathouse study across the frozen lake.
 
-### `murder-at-the-lake-house/dr-ruth-kerr.jpg`
-> Portrait of Dr Ruth Kerr, Guest, Agnes's friend, a character in the detective mystery “Murder at the Lake House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-lake-house/ds-moira-kane.jpg`
-> Portrait of DS Moira Kane, Police, a character in the detective mystery “Murder at the Lake House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-lake-house/hamish-lyle.jpg`
-> Portrait of Hamish Lyle, Gardener, a character in the detective mystery “Murder at the Lake House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-lake-house/mrs-jean-lyle.jpg`
-> Portrait of Mrs Jean Lyle, Housekeeper, a character in the detective mystery “Murder at the Lake House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-lake-house/nina-hale.jpg`
-> Portrait of Nina Hale, Oliver's sister, a character in the detective mystery “Murder at the Lake House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-lake-house/oliver-hale.jpg`
-> Portrait of Oliver Hale, Agnes's nephew, a character in the detective mystery “Murder at the Lake House”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `murder-at-the-lake-house/photo-img-402.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_402” at 21:41, from “Nina's phone” in the detective mystery “Murder at the Lake House”: Moonlit frozen lake: a skater halfway to the boathouse, long red-and-white striped scarf. The same scarf Oliver wore at dinner (photo 20:00). The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ## Death at the Dam (library – on the site now)
 
 Setting: At the Carrick Valley Dam, engineer Dr Mark Ellery was found dead deep in the inspection tunnel, struck with a heavy torch.
-
-### `death-at-the-dam/davey-shaw.jpg`
-> Portrait of Davey Shaw, Maintenance worker, a character in the detective mystery “Death at the Dam”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-dam/di-ann-price.jpg`
-> Portrait of DI Ann Price, Police, a character in the detective mystery “Death at the Dam”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-dam/gill-stewart.jpg`
-> Portrait of Gill Stewart, Visiting inspector, a character in the detective mystery “Death at the Dam”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-dam/liz-moffat.jpg`
-> Portrait of Liz Moffat, Control room operator, a character in the detective mystery “Death at the Dam”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `death-at-the-dam/rob-kinnear.jpg`
 > Portrait of Rob Kinnear, Dam manager, a character in the detective mystery “Death at the Dam”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1585,9 +1464,6 @@ Setting: At the Harrowdale Choir Festival, someone poured orange squash all over
 ### `the-choir-contest-sabotage/nell-barker.jpg`
 > Portrait of Nell Barker, Tea bar, backstage, a character in the detective mystery “The Choir Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
-### `the-choir-contest-sabotage/sam-pollard.jpg`
-> Portrait of Sam Pollard, Ravensby's coach driver, a character in the detective mystery “The Choir Contest Sabotage”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Death at the Bowling Alley (daily case 2026-12-15)
 
 Setting: On league night at Starlight Lanes, owner Stanley Pratt was found dead in his office behind the pin machines.
@@ -1833,4 +1709,4 @@ Setting: At the Seacliff Aquarium, the famous Black Moon pearl was displayed ins
 > Candid snapshot as taken with that camera – “IMG_6090” at 15:32, from “Ben's phone” in the detective mystery “The Aquarium Pearl Theft”: Staff locker 6 open: a dripping wetsuit and a small velvet pouch on the shelf. Name tag on the locker: J. MARSH. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 1205 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 1245 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
