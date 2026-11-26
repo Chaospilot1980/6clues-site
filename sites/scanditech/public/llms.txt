@@ -17,5 +17,6 @@ Marbella, Nueva Andalucía, the Golden Mile, Benahavís (La Zagaleta, El Madroñ
 - [Energy Monitoring](https://scanditech.es/services/energy-monitoring/): Circuit-level metering, PV and battery visibility, and load management.
 - [Pool & Outdoor Automation](https://scanditech.es/services/pool-outdoor-automation/): Pumps, heating, lighting, irrigation and covers on the same system as the house.
 - [Benahavís (EN)](https://scanditech.es/areas/benahavis/) · [Benahavís (ES)](https://scanditech.es/es/zonas/benahavis/)
+- [Estepona (EN)](https://scanditech.es/areas/estepona/) · [Estepona (ES)](https://scanditech.es/es/zonas/estepona/)
 - [About](https://scanditech.es/about/)
 - [Contact](https://scanditech.es/contact/): WhatsApp +45 20 90 30 50, phone +34 608 266 620, dnh@scanditech.es

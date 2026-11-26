@@ -409,7 +409,7 @@ services = f'''
 <section class="phead"><div class="wrap">
   <p class="eyebrow">Services</p>
   <h1>KNX home automation services — one system for the whole house.</h1>
-  <p class="lead">We work as the automation partner on new villas and renovations in Marbella and along the Costa del Sol, and as an independent consultant for architects, developers and other installers who need a second set of eyes on a KNX specification. Working in <a href="/areas/benahavis/" style="color:var(--brass-d)">Benahavís</a>? See our area page.</p>
+  <p class="lead">We work as the automation partner on new villas and renovations in Marbella and along the Costa del Sol, and as an independent consultant for architects, developers and other installers who need a second set of eyes on a KNX specification. Working in <a href="/areas/benahavis/" style="color:var(--brass-d)">Benahavís</a> or <a href="/areas/estepona/" style="color:var(--brass-d)">Estepona</a>? See our area pages.</p>
 </div></section>
 <section><div class="wrap" style="padding-bottom:40px">{svc_list}</div></section>
 <section class="sec sand" id="technologies"><div class="wrap">
@@ -501,7 +501,7 @@ about = f'''
   <div><h2 class="h2 s" style="font-size:34px;margin-bottom:32px">Company details</h2>
   <dl class="rows">{''.join(f'<div><dt>{k}</dt><dd>{e(v)}</dd></div>' for k, v in COMPANY)}</dl></div>
   <div><h2 class="h2 s" style="font-size:34px;margin-bottom:32px">Where we work</h2>
-  <p class="body">Our office is in central Marbella. We work on villas and developments along the Costa del Sol — Marbella, Nueva Andalucía, the Golden Mile, <a href="/areas/benahavis/" style="color:var(--brass-d)">Benahavís</a>, La Zagaleta, Estepona, San Pedro de Alcántara, Sotogrande, Mijas, Fuengirola and Málaga.</p>
+  <p class="body">Our office is in central Marbella. We work on villas and developments along the Costa del Sol — Marbella, Nueva Andalucía, the Golden Mile, <a href="/areas/benahavis/" style="color:var(--brass-d)">Benahavís</a>, La Zagaleta, <a href="/areas/estepona/" style="color:var(--brass-d)">Estepona</a>, San Pedro de Alcántara, Sotogrande, Mijas, Fuengirola and Málaga.</p>
   <p class="body" style="margin-top:18px">Many of our clients are from Scandinavia and Northern Europe and spend part of the year elsewhere. We speak English, Swedish and Danish with owners, and Spanish on site.</p>
   <div class="btns"><a class="btn dark" href="/contact/">Get in touch</a></div></div>
 </div></section>
@@ -604,7 +604,7 @@ es_home = f"""
 </div></section>
 {faq_html(ES_FAQ, 'Preguntas frecuentes sobre domótica KNX')}
 """
-PAGES.append(page('/es/', 'Domótica KNX en Marbella – Integrador KNX | Scanditech',
+PAGES.append(page('/es/', 'Domótica en Marbella – Instalador e integrador KNX | Scanditech',
                   'Domótica KNX en Marbella y la Costa del Sol. Integrador KNX: diseño, programación ETS y mantenimiento de instalaciones domóticas para villas. Iluminación, clima, persianas y seguridad.',
                   es_home, '/es/', lang='es', ld=[faq_ld(ES_FAQ)], alternates=ES_ALT_HOME, preload='/images/hero-villa.jpg'))
 
@@ -614,7 +614,7 @@ es_svc = f"""
 <section class="phead"><div class="wrap">
   <p class="eyebrow">Servicios</p>
   <h1>Servicios de domótica KNX: un solo sistema para toda la casa.</h1>
-  <p class="lead">Somos el integrador KNX en obra nueva y reformas en Marbella y la Costa del Sol, y consultores independientes para arquitectos, promotores e instaladores que necesitan revisar un proyecto KNX. Trabajamos en toda la costa, también en <a href="/es/zonas/benahavis/" style="color:var(--brass-d)">Benahavís</a>.</p>
+  <p class="lead">Somos el integrador KNX en obra nueva y reformas en Marbella y la Costa del Sol, y consultores independientes para arquitectos, promotores e instaladores que necesitan revisar un proyecto KNX. Trabajamos en toda la costa, también en <a href="/es/zonas/benahavis/" style="color:var(--brass-d)">Benahavís</a> y <a href="/es/zonas/estepona/" style="color:var(--brass-d)">Estepona</a>.</p>
 </div></section>
 <section><div class="wrap" style="padding-bottom:40px">{es_list}</div></section>
 <section class="sec"><div class="wrap"><div class="cta"><div><h2>Consultoría y auditoría de instalaciones</h2>
@@ -728,6 +728,35 @@ AREAS = [
             ('¿A qué distancia está Benahavís de su oficina?', 'Nuestra oficina está en el centro de Marbella, a unos 20–30 minutos, así que las visitas y el servicio técnico son rápidos.'),
             ('¿Pueden trabajar con nuestro arquitecto y constructor?', 'Sí. En obra nueva y reformas integrales entramos pronto, definimos el sistema KNX con el arquitecto y el electricista, y luego lo programamos y ponemos en marcha nosotros.'),
             ('¿Todo es confidencial?', 'Siempre. No publicamos nombres de clientes, direcciones ni fotos de su casa, y firmamos un acuerdo de confidencialidad antes de la primera visita si lo desea.')])),
+ dict(slug='estepona', name='Estepona',
+  en=dict(title='Home Automation in Estepona – KNX Smart Homes | Scanditech',
+          desc='KNX home automation in Estepona, the New Golden Mile and Casares: new-build villas and apartments with lighting, climate, shading, security and remote access, from a Marbella-based KNX engineer.',
+          h1='Home automation in Estepona.',
+          lead='Estepona and the New Golden Mile are where much of the coast is being built right now: new villas, frontline apartments and complete developments. The best moment to plan a KNX system is before the walls are closed – and the second best is when you take over a home whose system nobody has documented.',
+          blocks=[('New builds, planned properly', 'We join architects and electricians at drawing stage, specify the KNX system and cabling, and programme and commission it ourselves – so the house works the day you move in.'),
+                  ('Apartments and penthouses', 'Compact KNX systems for lighting scenes, climate per room, motorised blinds and a single calm keypad per room – designed to fit community rules and existing wiring.'),
+                  ('Sea-front climate', 'Salt air, strong sun and wind from the sea. Automated shading, weather-station logic and room-by-room climate keep a frontline home comfortable and efficient.'),
+                  ('Developer support', 'Independent KNX specification and quality checks for developers in Estepona who want a system that buyers can actually use and maintain.')],
+          also='Nearby we also work in Marbella, San Pedro de Alcántara, Benahavís, Casares and Sotogrande.',
+          cta='Book a visit in Estepona', faq=[
+            ('Do you work in Estepona and the New Golden Mile?', 'Yes. We work throughout Estepona, the New Golden Mile and Casares, on new builds, renovations and existing KNX systems.'),
+            ('Can KNX be added to a new-build apartment?', 'Usually yes. The earlier we are involved, the better – ideally before the electrical installation is finished – but compact systems can also be added to existing apartments.'),
+            ('Do you work for developers?', 'Yes. We specify KNX systems, review installers\' work and commission systems for small and mid-size developments.'),
+            ('Is everything kept confidential?', 'Always. We never publish client names, addresses or photos of your home, and we sign an NDA on request.')]),
+  es=dict(title='Domótica en Estepona – Viviendas KNX | Scanditech',
+          desc='Domótica KNX en Estepona, la Nueva Milla de Oro y Casares: villas y apartamentos de obra nueva con iluminación, clima, persianas, seguridad y acceso remoto. Integrador KNX con oficina en Marbella.',
+          h1='Domótica en Estepona.',
+          lead='En Estepona y la Nueva Milla de Oro se construye buena parte de la costa: villas nuevas, apartamentos en primera línea y promociones completas. El mejor momento para planificar un sistema KNX es antes de cerrar las paredes; el segundo mejor, cuando se hace cargo de una vivienda cuyo sistema nadie ha documentado.',
+          blocks=[('Obra nueva, bien planificada', 'Entramos con el arquitecto y el electricista en fase de proyecto, definimos el sistema KNX y el cableado, y lo programamos y ponemos en marcha nosotros, para que la casa funcione el día de la mudanza.'),
+                  ('Apartamentos y áticos', 'Sistemas KNX compactos para escenas de iluminación, clima por estancias, persianas motorizadas y un único pulsador elegante por estancia, adaptados a las normas de la comunidad.'),
+                  ('Clima en primera línea', 'Aire salino, sol intenso y viento del mar. Persianas automatizadas, estación meteorológica y clima por estancias para una vivienda confortable y eficiente.'),
+                  ('Apoyo a promotores', 'Especificación KNX independiente y control de calidad para promotores en Estepona que quieren un sistema que el comprador pueda usar y mantener.')],
+          also='Cerca también trabajamos en Marbella, San Pedro de Alcántara, Benahavís, Casares y Sotogrande.',
+          cta='Solicitar visita en Estepona', faq=[
+            ('¿Trabajan en Estepona y la Nueva Milla de Oro?', 'Sí. Trabajamos en todo Estepona, la Nueva Milla de Oro y Casares, en obra nueva, reformas y sistemas KNX existentes.'),
+            ('¿Se puede instalar KNX en un apartamento de obra nueva?', 'Normalmente sí. Cuanto antes entremos, mejor (idealmente antes de terminar la instalación eléctrica), pero también se pueden añadir sistemas compactos a apartamentos existentes.'),
+            ('¿Trabajan para promotores?', 'Sí. Especificamos sistemas KNX, revisamos el trabajo de instaladores y ponemos en marcha sistemas para promociones pequeñas y medianas.'),
+            ('¿Todo es confidencial?', 'Siempre. Nunca publicamos nombres de clientes, direcciones ni fotos de su casa, y firmamos un acuerdo de confidencialidad si lo desea.')])),
 ]
 for A in AREAS:
     for lang in ('en', 'es'):
