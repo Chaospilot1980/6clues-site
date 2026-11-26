@@ -1029,12 +1029,6 @@ Setting: On the busiest night of Merriweather's Travelling Funfair, Saturday's t
 
 Setting: In the sleepy village of Little Drumley, a mystery piper has woken everyone at two in the morning for three nights in a row.
 
-### `the-midnight-bagpiper/ivy-crump.jpg`
-> Portrait of Ivy Crump, Drama club costume keeper, a character in the detective mystery “The Midnight Bagpiper”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-midnight-bagpiper/rev-archie-bellweather.jpg`
-> Portrait of Rev. Archie Bellweather, Vicar, a character in the detective mystery “The Midnight Bagpiper”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-midnight-bagpiper/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM_1” at 02:04, from “Hector's cameras – Wednesday night” in the detective mystery “The Midnight Bagpiper”: The green: a piper in a kilt marches to the bandstand. At the vicarage window, the vicar shakes his fist. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
@@ -1047,24 +1041,6 @@ Setting: In the sleepy village of Little Drumley, a mystery piper has woken ever
 ## The Pompom Dognapping (daily case 2026-12-01)
 
 Setting: At the Ashcombe County Dog Show, the champion Pomeranian Princess Pompom vanished from her bench.
-
-### `the-pompom-dognapping/barney-clough.jpg`
-> Portrait of Barney Clough, Tea tent owner, a character in the detective mystery “The Pompom Dognapping”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-pompom-dognapping/celeste-varnay.jpg`
-> Portrait of Celeste Varnay, Owner of Bijou, a character in the detective mystery “The Pompom Dognapping”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-pompom-dognapping/dr-rupa-mehta.jpg`
-> Portrait of Dr Rupa Mehta, Show vet, a character in the detective mystery “The Pompom Dognapping”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-pompom-dognapping/duncan-frye.jpg`
-> Portrait of Duncan Frye, Dog walker, a character in the detective mystery “The Pompom Dognapping”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-pompom-dognapping/lady-hortensia-wragge.jpg`
-> Portrait of Lady Hortensia Wragge, Pompom's owner, a character in the detective mystery “The Pompom Dognapping”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-pompom-dognapping/pam-okafor.jpg`
-> Portrait of Pam Okafor, Chief ring steward, a character in the detective mystery “The Pompom Dognapping”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-pompom-dognapping/photo-img-120.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_120” at 13:52, from “Official show photos” in the detective mystery “The Pompom Dognapping”: Tea tent: Lady Hortensia buys tea and a scone. Barney serves. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -1079,24 +1055,6 @@ Setting: At the Ashcombe County Dog Show, the champion Pomeranian Princess Pompo
 
 Setting: At Brackwater Seaside Zoo, the little penguin Pebbles vanished from the penguin pool overnight.
 
-### `the-vanishing-penguin/bertie-finch.jpg`
-> Portrait of Bertie Finch, Junior keeper, a character in the detective mystery “The Vanishing Penguin”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-vanishing-penguin/dr-amara-quist.jpg`
-> Portrait of Dr Amara Quist, Head keeper, a character in the detective mystery “The Vanishing Penguin”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-vanishing-penguin/dr-nadia-lund.jpg`
-> Portrait of Dr Nadia Lund, Zoo vet, a character in the detective mystery “The Vanishing Penguin”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-vanishing-penguin/gustav-brandt.jpg`
-> Portrait of Gustav Brandt, Owner of a rival aquarium, a character in the detective mystery “The Vanishing Penguin”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-vanishing-penguin/owen-pratt.jpg`
-> Portrait of Owen Pratt, Night watchman, a character in the detective mystery “The Vanishing Penguin”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-vanishing-penguin/wilma-sprock.jpg`
-> Portrait of Wilma Sprock, Fish supplier, a character in the detective mystery “The Vanishing Penguin”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `the-vanishing-penguin/photo-img-01.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_01” at 18:14, from “Bertie's locking-up photos” in the detective mystery “The Vanishing Penguin”: The penguin pool: 12 penguins. Pebbles' yellow ring is easy to spot. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
@@ -1110,24 +1068,6 @@ Setting: At Brackwater Seaside Zoo, the little penguin Pebbles vanished from the
 
 Setting: During the evening show at the Tumbledown Puppet Theatre, owner Ottavio Fumagalli was found dead in the workshop behind the stage, struck with a wooden mallet.
 
-### `death-at-the-puppet-theatre/bastian-krull.jpg`
-> Portrait of Bastian Krull, Voice artist, a character in the detective mystery “Death at the Puppet Theatre”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-puppet-theatre/cosmo-reyes.jpg`
-> Portrait of Cosmo Reyes, Stage manager, a character in the detective mystery “Death at the Puppet Theatre”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-puppet-theatre/flora-dunn.jpg`
-> Portrait of Flora Dunn, Box office, a character in the detective mystery “Death at the Puppet Theatre”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-puppet-theatre/gus-halloran.jpg`
-> Portrait of Gus Halloran, Puppeteer, a character in the detective mystery “Death at the Puppet Theatre”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-puppet-theatre/leo-fumagalli.jpg`
-> Portrait of Leo Fumagalli, Ottavio's nephew, a character in the detective mystery “Death at the Puppet Theatre”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-puppet-theatre/lotte-brandvold.jpg`
-> Portrait of Lotte Brandvold, Puppeteer, a character in the detective mystery “Death at the Puppet Theatre”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `death-at-the-puppet-theatre/photo-img-801.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_801” at 18:40, from “A parent's photos – 18:30 show” in the detective mystery “Death at the Puppet Theatre”: Lotte and Gus on stage, working the big green dragon. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
@@ -1137,49 +1077,9 @@ Setting: During the evening show at the Tumbledown Puppet Theatre, owner Ottavio
 ### `death-at-the-puppet-theatre/photo-img-815.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_815” at 19:02, from “A parent's photos – 18:30 show” in the detective mystery “Death at the Puppet Theatre”: Lotte and Gus again. Beside the stage: the little voice booth, its lamp off and curtain open. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
-## Death at the Recording Studio (daily case 2026-12-04)
-
-Setting: At Echo Lane Studios, producer Max Delacourt was found dead in Studio B, struck on the head with a heavy microphone stand.
-
-### `death-at-the-recording-studio/devan-rhodes.jpg`
-> Portrait of Devan Rhodes, Sound engineer, a character in the detective mystery “Death at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-recording-studio/hilda-brook.jpg`
-> Portrait of Hilda Brook, Night cleaner, a character in the detective mystery “Death at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-recording-studio/kit-morrow.jpg`
-> Portrait of Kit Morrow, Drummer, The Lanterns, a character in the detective mystery “Death at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-recording-studio/lorna-fitch.jpg`
-> Portrait of Lorna Fitch, Band manager, a character in the detective mystery “Death at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-recording-studio/rory-blaze.jpg`
-> Portrait of Rory Blaze, Guitarist, The Lanterns, a character in the detective mystery “Death at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-recording-studio/selma-quinn.jpg`
-> Portrait of Selma Quinn, Singer, The Lanterns, a character in the detective mystery “Death at the Recording Studio”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Death on the Lavender Farm (daily case 2026-12-05)
 
 Setting: At the harvest festival on Larkfield Lavender Farm, owner Ambrose Larkfield was found dead in the distillery shed while the guests watched the fireworks.
-
-### `death-on-the-lavender-farm/camille-duret.jpg`
-> Portrait of Camille Duret, Perfume company buyer, a character in the detective mystery “Death on the Lavender Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-lavender-farm/dr-wilf-penrose.jpg`
-> Portrait of Dr Wilf Penrose, Village doctor, a character in the detective mystery “Death on the Lavender Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-lavender-farm/esther-moss.jpg`
-> Portrait of Esther Moss, Farm manager, a character in the detective mystery “Death on the Lavender Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-lavender-farm/hugo-ashe.jpg`
-> Portrait of Hugo Ashe, Fireworks operator, a character in the detective mystery “Death on the Lavender Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-lavender-farm/rupert-larkfield.jpg`
-> Portrait of Rupert Larkfield, Ambrose's nephew, a character in the detective mystery “Death on the Lavender Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-on-the-lavender-farm/tamsin-reed.jpg`
-> Portrait of Tamsin Reed, Harvest worker, a character in the detective mystery “Death on the Lavender Farm”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `death-on-the-lavender-farm/photo-cam-1.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “CAM_1” at 21:53, from “Car park camera” in the detective mystery “Death on the Lavender Farm”: Rupert and Camille talk quietly beside her car. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
@@ -1202,12 +1102,6 @@ Setting: At the harvest festival on Larkfield Lavender Farm, owner Ambrose Larkf
 ## The Spa Hotel Blackmail (daily case 2026-12-06)
 
 Setting: At Hartmoor Hall Spa, TV fitness star Lavinia Sterling – famous for ‘No Sugar, No Excuses’ – found a blackmail note under her door.
-
-### `the-spa-hotel-blackmail/bella-fox.jpg`
-> Portrait of Bella Fox, Rival fitness star, a character in the detective mystery “The Spa Hotel Blackmail”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-spa-hotel-blackmail/greta-lind.jpg`
-> Portrait of Greta Lind, Spa manager, a character in the detective mystery “The Spa Hotel Blackmail”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-spa-hotel-blackmail/henri-dubois.jpg`
 > Portrait of Henri Dubois, Pastry chef, a character in the detective mystery “The Spa Hotel Blackmail”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1675,4 +1569,4 @@ Setting: At the Seacliff Aquarium, the famous Black Moon pearl was displayed ins
 > Candid snapshot as taken with that camera – “IMG_6090” at 15:32, from “Ben's phone” in the detective mystery “The Aquarium Pearl Theft”: Staff locker 6 open: a dripping wetsuit and a small velvet pouch on the shelf. Name tag on the locker: J. MARSH. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 1255 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 1289 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
