@@ -228,6 +228,23 @@ function landings(): array {
                 ['Are the escape rooms suitable for kids?', 'Level 1 rooms are made for families with children around 7 and up. Level 2 rooms suit teens and adults.'],
             ],
         ],
+        'office-murder-mystery-party' => [
+            'title' => 'Free Office Murder Mystery Party Games – Team Building Whodunits',
+            'h1' => 'Office murder mystery party – free',
+            'kicker' => 'Office party · team building',
+            'description' => 'Free murder mystery games for the office Christmas party or team building: printable case files, team-vs-team whodunits and online escape rooms. 4–40 colleagues, no kit to buy.',
+            'lead' => 'Split the office into teams, hand each team the same case file and see who names the culprit first. No costumes, no actors, no budget – just evidence, alibis and a lot of arguing over the coffee machine.',
+            'sections' => fn() => [
+                ['Printable case files for the office party', 'Each file has sealed envelopes to open round by round, so it works during a Christmas lunch or an after-work event. Tips in <a href="/how-to-host-a-murder-mystery-party">how to host a murder mystery party</a>.', $gnGrid(fn($c) => true)],
+                ['Team-vs-team whodunits (20–30 minutes)', 'Short cases for teams of 3–6. Everyone opens the same clues; the team that needs the fewest clues to name the culprit wins. Harder ones in <a href="/murder-mystery-games-for-adults">murder mystery games for adults</a>.', $mysGrid(array_slice($mys(fn($m) => (int)$m['level'] >= 2), 0, 12))],
+            ],
+            'faq' => [
+                ['How do we play a murder mystery at the office?', 'Split into teams of 3–6, give each team the same case, and set a timer. Teams read the evidence, argue, and submit one accusation. Fewest clues used wins.'],
+                ['How many people can play?', 'Anything from 4 to 40 or more – just add teams. Every team plays the same case at the same time.'],
+                ['Is it free for companies?', 'Yes. Every case on Six Clues is free to print and play, including at work.'],
+                ['Is it suitable for colleagues?', 'Yes – the cases are family-friendly with no gore, so they work for mixed teams and office Christmas parties.'],
+            ],
+        ],
         'murder-mystery-dinner-party' => [
             'title' => 'Free Murder Mystery Dinner Party Games – Printable & Ready to Host',
             'h1' => 'Murder mystery dinner party – free',
@@ -240,7 +257,7 @@ function landings(): array {
             ],
             'faq' => [
                 ['How does a murder mystery dinner party work?', 'Guests eat and play at the same time. Before each course, open the next envelope and read the new evidence aloud. Discuss over the food, and make the final accusation with dessert.'],
-                ['How many guests do I need?', 'Any number from 2. With more than 6 guests, split into teams that compete to name the culprit first.'],
+                ['How many guests do I need?', 'Any number from 2. With more than 6 guests, split into teams that compete to name the culprit first – the same format works for an <a href="/office-murder-mystery-party">office murder mystery party</a>.'],
                 ['Do I need to buy a kit?', 'No. Every case on Six Clues is free – print the pages at home, and you are ready.'],
                 ['Is it suitable for adults only?', 'The cases are family-friendly with no gore, so they work for adult dinner parties and family dinners alike. For harder puzzles, see <a href="/murder-mystery-games-for-adults">murder mystery games for adults</a>.'],
             ],
