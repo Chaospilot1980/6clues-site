@@ -883,36 +883,8 @@ Setting: At Loch Ellen House, crime author Dame Agnes Hale was found dead in her
 
 Setting: At the Carrick Valley Dam, engineer Dr Mark Ellery was found dead deep in the inspection tunnel, struck with a heavy torch.
 
-### `death-at-the-dam/rob-kinnear.jpg`
-> Portrait of Rob Kinnear, Dam manager, a character in the detective mystery “Death at the Dam”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-at-the-dam/tam-reid.jpg`
-> Portrait of Tam Reid, Security, a character in the detective mystery “Death at the Dam”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ### `death-at-the-dam/photo-img-77.jpg`  (evidence photo, 1024 × 768 px, 4:3)
 > Candid snapshot as taken with that camera – “IMG_77” at 14:45, from “Davey's phone” in the detective mystery “Death at the Dam”: Pair of work boots, size 11, caked in wet grey clay, outside the control room door. Name written inside: 'R.K.' The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
-
-## Murder at the Chocolatier (library – on the site now)
-
-Setting: At Maison Leclerc, master chocolatier Henri Leclerc died after tasting a truffle from the new Christmas collection.
-
-### `murder-at-the-chocolatier/amelie-roux.jpg`
-> Portrait of Amélie Roux, Shop assistant, a character in the detective mystery “Murder at the Chocolatier”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-chocolatier/dr-paul-martin.jpg`
-> Portrait of Dr Paul Martin, Pharmacist next door, a character in the detective mystery “Murder at the Chocolatier”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-chocolatier/inspector-claire-dubois.jpg`
-> Portrait of Inspector Claire Dubois, Police, a character in the detective mystery “Murder at the Chocolatier”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-chocolatier/luc-petit.jpg`
-> Portrait of Luc Petit, Delivery driver, a character in the detective mystery “Murder at the Chocolatier”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-chocolatier/marc-duval.jpg`
-> Portrait of Marc Duval, Head chocolatier, a character in the detective mystery “Murder at the Chocolatier”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-chocolatier/sophie-leclerc.jpg`
-> Portrait of Sophie Leclerc, Henri's daughter, pastry chef, a character in the detective mystery “Murder at the Chocolatier”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ## The Counterfeit Christmas (daily case 2026-11-15)
 
@@ -1056,12 +1028,6 @@ Setting: On the busiest night of Merriweather's Travelling Funfair, Saturday's t
 ## The Midnight Bagpiper (daily case 2026-11-30)
 
 Setting: In the sleepy village of Little Drumley, a mystery piper has woken everyone at two in the morning for three nights in a row.
-
-### `the-midnight-bagpiper/gita-osei.jpg`
-> Portrait of Gita Osei, Delivery driver, a character in the detective mystery “The Midnight Bagpiper”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `the-midnight-bagpiper/hector-lamb.jpg`
-> Portrait of Hector Lamb, Farmer, a character in the detective mystery “The Midnight Bagpiper”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `the-midnight-bagpiper/ivy-crump.jpg`
 > Portrait of Ivy Crump, Drama club costume keeper, a character in the detective mystery “The Midnight Bagpiper”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -1709,4 +1675,4 @@ Setting: At the Seacliff Aquarium, the famous Black Moon pearl was displayed ins
 > Candid snapshot as taken with that camera – “IMG_6090” at 15:32, from “Ben's phone” in the detective mystery “The Aquarium Pearl Theft”: Staff locker 6 open: a dripping wetsuit and a small velvet pouch on the shelf. Name tag on the locker: J. MARSH. The photo must show exactly this, because players use it as evidence. Style: realistic photograph, slightly faded and grainy like real evidence, natural light for the time of day, same muted noir palette as the rest of the site; fictional people, faces small or turned away, no readable text, numbers or logos.
 
 ---
-Status: 1245 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 1255 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
