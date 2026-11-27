@@ -34,7 +34,7 @@ SERVICES = [
        faq=[('Do you work with my electrician?', 'Yes. We usually deliver the design and programming while a local electrician does the cabling and board installation to our drawings. We can also recommend electricians we have worked with.'),
             ('Can you take over a KNX system someone else installed?', 'Yes. We audit the installation, recover the ETS project where possible, and document everything so the system can be maintained by anyone qualified.'),
             ('Is KNX only for new builds?', 'No. KNX works well in renovations, and wireless KNX RF or line-by-line upgrades make staged projects possible.')]),
-  dict(slug='lighting-control', title='Lighting Control', h1='Lighting control and scene design for Marbella villas',
+  dict(slug='lighting-control', title='Lighting Control', h1='Lighting control systems and scene design for Marbella villas',
        meta='KNX and DALI lighting control for villas in Marbella: dimming, tunable white, presence and astro control, and lighting scenes designed on site after dark.',
        short='Scenes, dimming and tunable white that flatter the architecture instead of fighting it.',
        long='Circuit planning with the electrician, dimming curves matched to the actual fittings, and scene design done on site after dark — because a lighting scene that was set in a spreadsheet always looks like it. DALI gateways where the fittings call for it.',
@@ -409,7 +409,7 @@ services = f'''
 <section class="phead"><div class="wrap">
   <p class="eyebrow">Services</p>
   <h1>KNX home automation services — one system for the whole house.</h1>
-  <p class="lead">We work as the automation partner on new villas and renovations in Marbella and along the Costa del Sol, and as an independent consultant for architects, developers and other installers who need a second set of eyes on a KNX specification. Working in <a href="/areas/benahavis/" style="color:var(--brass-d)">Benahavís</a> or <a href="/areas/estepona/" style="color:var(--brass-d)">Estepona</a>? See our area pages.</p>
+  <p class="lead">We work as the automation partner on new villas and renovations in Marbella and along the Costa del Sol, and as an independent consultant for architects, developers and other installers who need a second set of eyes on a KNX specification. Working in <a href="/areas/benahavis/" style="color:var(--brass-d)">Benahavís</a> , <a href="/areas/estepona/" style="color:var(--brass-d)">Estepona</a> or <a href="/areas/sotogrande/" style="color:var(--brass-d)">Sotogrande</a>? See our area pages.</p>
 </div></section>
 <section><div class="wrap" style="padding-bottom:40px">{svc_list}</div></section>
 <section class="sec sand" id="technologies"><div class="wrap">
@@ -501,7 +501,7 @@ about = f'''
   <div><h2 class="h2 s" style="font-size:34px;margin-bottom:32px">Company details</h2>
   <dl class="rows">{''.join(f'<div><dt>{k}</dt><dd>{e(v)}</dd></div>' for k, v in COMPANY)}</dl></div>
   <div><h2 class="h2 s" style="font-size:34px;margin-bottom:32px">Where we work</h2>
-  <p class="body">Our office is in central Marbella. We work on villas and developments along the Costa del Sol — Marbella, Nueva Andalucía, the Golden Mile, <a href="/areas/benahavis/" style="color:var(--brass-d)">Benahavís</a>, La Zagaleta, <a href="/areas/estepona/" style="color:var(--brass-d)">Estepona</a>, San Pedro de Alcántara, Sotogrande, Mijas, Fuengirola and Málaga.</p>
+  <p class="body">Our office is in central Marbella. We work on villas and developments along the Costa del Sol — Marbella, Nueva Andalucía, the Golden Mile, <a href="/areas/benahavis/" style="color:var(--brass-d)">Benahavís</a>, La Zagaleta, <a href="/areas/estepona/" style="color:var(--brass-d)">Estepona</a>, San Pedro de Alcántara, <a href="/areas/sotogrande/" style="color:var(--brass-d)">Sotogrande</a>, Mijas, Fuengirola and Málaga.</p>
   <p class="body" style="margin-top:18px">Many of our clients are from Scandinavia and Northern Europe and spend part of the year elsewhere. We speak English, Swedish and Danish with owners, and Spanish on site.</p>
   <div class="btns"><a class="btn dark" href="/contact/">Get in touch</a></div></div>
 </div></section>
@@ -614,7 +614,7 @@ es_svc = f"""
 <section class="phead"><div class="wrap">
   <p class="eyebrow">Servicios</p>
   <h1>Servicios de domótica KNX: un solo sistema para toda la casa.</h1>
-  <p class="lead">Somos el integrador KNX en obra nueva y reformas en Marbella y la Costa del Sol, y consultores independientes para arquitectos, promotores e instaladores que necesitan revisar un proyecto KNX. Trabajamos en toda la costa, también en <a href="/es/zonas/benahavis/" style="color:var(--brass-d)">Benahavís</a> y <a href="/es/zonas/estepona/" style="color:var(--brass-d)">Estepona</a>.</p>
+  <p class="lead">Somos el integrador KNX en obra nueva y reformas en Marbella y la Costa del Sol, y consultores independientes para arquitectos, promotores e instaladores que necesitan revisar un proyecto KNX. Trabajamos en toda la costa, también en <a href="/es/zonas/benahavis/" style="color:var(--brass-d)">Benahavís</a>, <a href="/es/zonas/estepona/" style="color:var(--brass-d)">Estepona</a> y <a href="/es/zonas/sotogrande/" style="color:var(--brass-d)">Sotogrande</a>.</p>
 </div></section>
 <section><div class="wrap" style="padding-bottom:40px">{es_list}</div></section>
 <section class="sec"><div class="wrap"><div class="cta"><div><h2>Consultoría y auditoría de instalaciones</h2>
@@ -756,6 +756,35 @@ AREAS = [
             ('¿Trabajan en Estepona y la Nueva Milla de Oro?', 'Sí. Trabajamos en todo Estepona, la Nueva Milla de Oro y Casares, en obra nueva, reformas y sistemas KNX existentes.'),
             ('¿Se puede instalar KNX en un apartamento de obra nueva?', 'Normalmente sí. Cuanto antes entremos, mejor (idealmente antes de terminar la instalación eléctrica), pero también se pueden añadir sistemas compactos a apartamentos existentes.'),
             ('¿Trabajan para promotores?', 'Sí. Especificamos sistemas KNX, revisamos el trabajo de instaladores y ponemos en marcha sistemas para promociones pequeñas y medianas.'),
+            ('¿Todo es confidencial?', 'Siempre. Nunca publicamos nombres de clientes, direcciones ni fotos de su casa, y firmamos un acuerdo de confidencialidad si lo desea.')])),
+ dict(slug='sotogrande', name='Sotogrande',
+  en=dict(title='Home Automation in Sotogrande – KNX Villas | Scanditech',
+          desc='KNX home automation in Sotogrande, La Reserva, Valderrama and the Marina: lighting, climate, shading, security and remote access for large villas and second homes, from a Marbella-based KNX engineer.',
+          h1='Home automation in Sotogrande.',
+          lead='Sotogrande is quieter than Marbella and the homes are often larger: wide plots, separate guest houses, staff quarters and owners who spend part of the year elsewhere. A KNX system here has to run for months on its own – and has to be documented well enough that the next technician understands it.',
+          blocks=[('Second homes that look after themselves', 'Holiday mode, leak protection, frost and humidity control, presence simulation and secure remote access – so the house is ready when you arrive and safe while you are away.'),
+                  ('Large plots, one system', 'Main house, guest house, staff quarters, gatehouse and garden on one KNX installation with a clean topology, so it stays fast and easy to extend.'),
+                  ('Golf, polo and sea views', 'Automated shading and lighting scenes that follow the sun, and climate that adapts to an open-plan house facing the course or the sea.'),
+                  ('Takeovers and audits', 'Many homes in Sotogrande have KNX systems installed years ago. We audit, document and take over existing installations, including undocumented ones.')],
+          also='Nearby we also work in Estepona, Casares, San Roque, Benahavís and Marbella.',
+          cta='Book a visit in Sotogrande', faq=[
+            ('Do you work in Sotogrande?', 'Yes. We work throughout Sotogrande – Sotogrande Alto, La Reserva, Valderrama, Almenara and the Marina – and the surrounding area.'),
+            ('Can you look after a house we only use part of the year?', 'Yes. We set up remote monitoring and alarms (with your permission) and can visit for service and seasonal checks.'),
+            ('Can you take over a KNX system another installer put in?', 'Yes. We audit the installation, recover or rebuild the ETS project and document everything before making changes.'),
+            ('Is everything kept confidential?', 'Always. We never publish client names, addresses or photos of your home, and we sign an NDA on request.')]),
+  es=dict(title='Domótica en Sotogrande – Villas KNX | Scanditech',
+          desc='Domótica KNX en Sotogrande, La Reserva, Valderrama y la Marina: iluminación, clima, persianas, seguridad y acceso remoto para villas y segundas residencias. Integrador KNX con oficina en Marbella.',
+          h1='Domótica en Sotogrande.',
+          lead='Sotogrande es más tranquilo que Marbella y las viviendas suelen ser más grandes: parcelas amplias, casas de invitados, zona de servicio y propietarios que pasan parte del año fuera. Aquí un sistema KNX tiene que funcionar solo durante meses y estar documentado para que el siguiente técnico lo entienda.',
+          blocks=[('Segundas residencias que se cuidan solas', 'Modo vacaciones, protección contra fugas, control de heladas y humedad, simulación de presencia y acceso remoto seguro, para que la casa esté lista cuando llegue y protegida mientras está fuera.'),
+                  ('Parcelas grandes, un solo sistema', 'Casa principal, casa de invitados, zona de servicio, garita y jardín en una sola instalación KNX con una topología limpia, rápida y fácil de ampliar.'),
+                  ('Golf, polo y vistas al mar', 'Persianas automatizadas y escenas de iluminación que siguen al sol, y un clima que se adapta a una casa abierta hacia el campo o el mar.'),
+                  ('Traspasos y auditorías', 'Muchas viviendas de Sotogrande tienen sistemas KNX instalados hace años. Auditamos, documentamos y nos hacemos cargo de instalaciones existentes, también sin documentar.')],
+          also='Cerca también trabajamos en Estepona, Casares, San Roque, Benahavís y Marbella.',
+          cta='Solicitar visita en Sotogrande', faq=[
+            ('¿Trabajan en Sotogrande?', 'Sí. Trabajamos en todo Sotogrande (Sotogrande Alto, La Reserva, Valderrama, Almenara y la Marina) y alrededores.'),
+            ('¿Pueden ocuparse de una casa que solo usamos parte del año?', 'Sí. Configuramos supervisión remota y alarmas (con su permiso) y podemos hacer visitas de mantenimiento y revisiones de temporada.'),
+            ('¿Pueden hacerse cargo de un sistema KNX de otro instalador?', 'Sí. Auditamos la instalación, recuperamos o reconstruimos el proyecto ETS y lo documentamos todo antes de hacer cambios.'),
             ('¿Todo es confidencial?', 'Siempre. Nunca publicamos nombres de clientes, direcciones ni fotos de su casa, y firmamos un acuerdo de confidencialidad si lo desea.')])),
 ]
 for A in AREAS:
