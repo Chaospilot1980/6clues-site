@@ -228,6 +228,24 @@ function landings(): array {
                 ['Are the escape rooms suitable for kids?', 'Level 1 rooms are made for families with children around 7 and up. Level 2 rooms suit teens and adults.'],
             ],
         ],
+        'murder-mystery-for-teens' => [
+            'title' => 'Free Murder Mystery Games for Teens – Online & Printable Whodunits',
+            'h1' => 'Murder mystery games for teens – free',
+            'kicker' => 'Teens · 12–17 · free',
+            'description' => 'Free murder mystery games for teenagers: whodunit cases to solve online or print, online escape rooms and party kits for sleepovers and birthdays. No gore, no download.',
+            'lead' => 'Too old for treasure hunts, too young for gory crime shows? These cases are real logic puzzles: read the statements, compare the alibis, spot the lie and name the culprit – alone, with friends at a sleepover, or as a team race at a birthday party.',
+            'sections' => fn() => [
+                ['Whodunits for teens (medium)', 'Proper mysteries with suspects, alibis and a twist – solvable in 15–20 minutes. Younger players can start with <a href="/murder-mystery-for-kids">murder mysteries for kids</a>.', $mysGrid(array_slice($mys(fn($m) => (int)$m['level'] === 2), 0, 12))],
+                ['Hard cases for sharp minds', 'For teens who want a real challenge – and a chance to beat the adults. More in <a href="/murder-mystery-games-for-adults">murder mystery games for adults</a>.', $mysGrid(array_slice($mys(fn($m) => (int)$m['level'] === 3), 0, 8))],
+                ['Party kits for sleepovers and birthdays', 'Printable case files with sealed envelopes, so a group can play together. Tips in <a href="/how-to-host-a-murder-mystery-party">how to host a murder mystery party</a>.', $gnGrid(fn($c) => true)],
+            ],
+            'faq' => [
+                ['Are these murder mysteries suitable for teenagers?', 'Yes. The cases are family-friendly with no gore or graphic violence – the fun is in the logic, not in the crime scene.'],
+                ['What age are they for?', 'Most teens from about 12 can solve the medium cases; the hard cases suit strong puzzlers from 14 and adults.'],
+                ['Can a group of teens play together?', 'Yes. Share one screen or print the case, or split into teams and race to name the culprit with the fewest clues.'],
+                ['Is it free?', 'Yes – every case, escape room and party kit on Six Clues is free, with no download or app.'],
+            ],
+        ],
         'office-murder-mystery-party' => [
             'title' => 'Free Office Murder Mystery Party Games – Team Building Whodunits',
             'h1' => 'Office murder mystery party – free',

@@ -16,6 +16,7 @@ landings = {
   'whodunit-puzzles-for-adults': (R + '/assets/img/m/death-in-the-snow/cover.jpg', 'Mastermind cases', 'Hard Whodunit Puzzles for Adults'),
   'printable-murder-mystery-games': (R + '/assets/img/gn/overboard-at-midnight/cover.jpg', 'Print & play', 'Free Printable Murder Mystery Games'),
   'how-to-host-a-murder-mystery-party': (R + '/assets/img/gn/the-last-invitation/cover.jpg', 'Party guide', 'How to Host a Murder Mystery Party'),
+  'murder-mystery-for-teens': (R + '/assets/img/gn/the-burnt-showstopper/cover.jpg', 'Teens · free', 'Murder Mystery Games for Teens'),
   'office-murder-mystery-party': (R + '/assets/img/gn/the-burnt-showstopper/cover.jpg', 'Office party · free', 'Office Murder Mystery Party'),
   'murder-mystery-dinner-party': (R + '/assets/img/gn/the-burnt-showstopper/cover.jpg', 'Dinner party · free', 'Murder Mystery Dinner Party'),
   'murder-mystery-games-for-adults': (R + '/assets/img/m/death-on-the-night-train/cover.jpg', 'Hard whodunits · free', 'Murder Mystery Games for Adults'),
