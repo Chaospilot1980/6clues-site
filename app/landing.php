@@ -16,10 +16,23 @@ function escape_card(string $slug, array $r): string {
         . '<p class="card-stats">' . (int)$r['minutes'] . ' min · ' . e($r['players']) . ' players · ' . (int)$r['rooms'] . ' rooms</p></article>';
 }
 
+/** Plays per mystery slug (all time), cached per request – used to show the most-played cases first. */
+function mystery_play_counts(): array {
+    static $c = null;
+    if ($c !== null) return $c;
+    $c = [];
+    try { foreach (db()->query('SELECT slug, COUNT(*) n FROM plays GROUP BY slug')->fetchAll() as $r) $c[$r['slug']] = (int)$r['n']; } catch (Throwable $e) {}
+    return $c;
+}
+
 /** slug => [title, h1, kicker, description, lead html, sections (callable returning html), faq] */
 function landings(): array {
     $esc = fn(callable $f) => array_filter(escape_rooms(), fn($r, $s) => $f($r, $s), ARRAY_FILTER_USE_BOTH);
-    $mys = fn(callable $f) => array_values(array_filter(mysteries(), $f));
+    $mys = function (callable $f) {
+        $list = array_values(array_filter(mysteries(), $f)); $pc = mystery_play_counts(); $ix = array_flip(array_column($list, 'slug'));
+        usort($list, fn($a, $b) => [($pc[$b['slug']] ?? 0), -$ix[$b['slug']]] <=> [($pc[$a['slug']] ?? 0), -$ix[$a['slug']]]);
+        return $list;
+    };
     $escGrid = fn(array $rooms) => $rooms ? '<div class="grid">' . implode('', array_map(fn($s) => escape_card($s, $rooms[$s]), array_keys($rooms))) . '</div>' : '';
     $mysGrid = function (array $ms) { $u = current_user(); $prog = $u ? user_progress((int)$u['id']) : []; return $ms ? '<div class="grid">' . implode('', array_map(fn($m) => mystery_card($m, $prog), $ms)) . '</div>' : ''; };
     $gnGrid = function (callable $f) { $u = current_user(); $c = array_values(array_filter(array_map('gn_case', gn_slugs()), fn($c) => $c && $f($c))); return $c ? '<div class="grid">' . implode('', array_map(fn($x) => gn_card($x, $u), $c)) . '</div>' : ''; };
