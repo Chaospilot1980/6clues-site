@@ -108,59 +108,9 @@ Setting: At the Royal Albion Hall, conductor Sir Julian Frost was found dead in 
 ### `murder-at-the-new-year-concert/mo-akhtar.jpg`
 > Portrait of Mo Akhtar, Stage manager, a character in the detective mystery “Murder at the New Year Concert”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
-## Murder in the Airport Lounge (library – on the site now)
-
-Setting: In the Skyline First Lounge at Heathfield Airport, tech founder Martin Kale collapsed and died after drinking an espresso.
-
-### `murder-in-the-airport-lounge/tom-bell.jpg`
-> Portrait of Tom Bell, Gate agent, gate 22, a character in the detective mystery “Murder in the Airport Lounge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## Death Aboard the Yacht (library – on the site now)
-
-Setting: Aboard the yacht Aurora, anchored off Monaco, shipping tycoon Stavros Leandros went overboard on a calm night.
-
-### `death-aboard-the-yacht/capitaine-luc-marin.jpg`
-> Portrait of Capitaine Luc Marin, Harbour police, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-aboard-the-yacht/marc-lebrun.jpg`
-> Portrait of Marc Lebrun, Casino doorman, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-aboard-the-yacht/mate-erik-holm.jpg`
-> Portrait of Mate Erik Holm, First mate, a character in the detective mystery “Death Aboard the Yacht”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## Murder at the Pharaoh Exhibition (library – on the site now)
-
-Setting: At the Kingsgate Museum, Egyptologist Dr Leonard Wise was found dead inside the replica tomb on the opening night of 'Gold of the Pharaohs'.
-
-### `murder-at-the-pharaoh-exhibition/rob-hayes.jpg`
-> Portrait of Rob Hayes, Audio guide manager, a character in the detective mystery “Murder at the Pharaoh Exhibition”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## Death on the Santa Steam Train (library – on the site now)
-
-Setting: On the Moorvale Steam Railway's Santa Special, chairman Clive Hargreaves was found dead in the guard's van, struck with a coal shovel.
-
-### `death-on-the-santa-steam-train/barry-pike.jpg`
-> Portrait of Barry Pike, Volunteer playing Santa, a character in the detective mystery “Death on the Santa Steam Train”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-## Murder at the Safari Lodge (library – on the site now)
-
-Setting: At Kingfisher Safari Lodge, owner Alistair Burke was found dead by the waterhole, struck with a heavy torch.
-
-### `murder-at-the-safari-lodge/mrs-fiona-burke.jpg`
-> Portrait of Mrs Fiona Burke, Alistair's wife, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `murder-at-the-safari-lodge/thandi-khumalo.jpg`
-> Portrait of Thandi Khumalo, Ranger, a character in the detective mystery “Murder at the Safari Lodge”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
 ## Death in the Courthouse (library – on the site now)
 
 Setting: At Crown Court, Ashbury, star witness Terry Doyle was found dead in the witness waiting room minutes before he was due to give evidence in a big fraud trial.
-
-### `death-in-the-courthouse/asha-mills.jpg`
-> Portrait of Asha Mills, Court security, a character in the detective mystery “Death in the Courthouse”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
-
-### `death-in-the-courthouse/ben-price.jpg`
-> Portrait of Ben Price, Court usher, a character in the detective mystery “Death in the Courthouse”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ### `death-in-the-courthouse/di-rosa-quinn.jpg`
 > Portrait of DI Rosa Quinn, Police, a character in the detective mystery “Death in the Courthouse”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
@@ -204,4 +154,4 @@ Setting: At St Hilda's Hospital, businessman Arthur Graves was recovering well f
 > Portrait of Celia Graves, Arthur's daughter, a character in the detective mystery “Death on the Night Ward”. Age, look and clothing should fit the role and the setting. Style: head-and-shoulders portrait in a painterly graphic-novel noir style, muted palette of ink black, warm paper cream and one deep red accent, plain warm-grey background, soft side light, looking slightly past the camera; fictional person, no text.
 
 ---
-Status: 1604 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
+Status: 1614 of 1651 images delivered (one cover and six portraits per case, plus evidence photos).
