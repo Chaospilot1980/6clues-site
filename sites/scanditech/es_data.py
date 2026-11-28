@@ -71,5 +71,8 @@ ES_FAQ = [
   ('¿Qué diferencia hay entre domótica KNX y otros sistemas?', 'KNX es cableado, estable y abierto: cualquier integrador certificado puede mantenerlo. Muchos sistemas inalámbricos o propietarios dependen de un fabricante o de su nube.'),
   ('¿Trabajan fuera de Marbella?', 'Sí. Desde Marbella trabajamos en toda la Costa del Sol: Estepona, Benahavís, Nueva Andalucía, San Pedro de Alcántara, Sotogrande, Fuengirola y Málaga.'),
   ('¿Cuánto cuesta una instalación domótica KNX?', 'Depende del tamaño de la vivienda y de lo que quiera controlar. Tras la consulta entregamos un alcance cerrado y un listado de cargas que su electricista puede presupuestar.'),
+  ('¿Qué incluye un proyecto de domótica en Marbella?', 'Normalmente iluminación y escenas, climatización por estancias, persianas y toldos motorizados, seguridad y videoportero, control de piscina y acceso remoto seguro, todo en un único sistema KNX con pulsadores elegantes y app. Diseñamos, programamos (ETS) y ponemos en marcha el sistema, y entregamos la documentación completa.'),
+  ('¿Se puede instalar domótica en una villa ya construida?', 'Sí. En viviendas existentes combinamos KNX cableado donde se puede abrir y componentes KNX RF o de carril DIN en el cuadro eléctrico, para minimizar obras. Primero revisamos la instalación y le proponemos lo que tiene sentido.'),
+  ('¿Cuánto tarda una instalación domótica KNX?', 'Una vivienda existente suele llevar de 2 a 6 semanas según el alcance; en obra nueva entramos en fase de proyecto y programamos el sistema cuando termina la instalación eléctrica.'),
   ('¿En qué idiomas trabajan?', 'Español en obra con electricistas y constructores; inglés, sueco y danés con los propietarios.'),
 ]
