@@ -205,10 +205,10 @@ function landings(): array {
             ],
         ],
         'detective-games-online' => [
-            'title' => 'Free Detective Games Online – Solve Mysteries in Your Browser',
-            'h1' => 'Free detective games online',
+            'title' => 'Free Detective & Mystery Games Online – Solve Cases in Your Browser',
+            'h1' => 'Free detective and mystery games online',
             'kicker' => 'Detective games · free',
-            'description' => 'Free detective games to play online: whodunit mysteries with six clues, a daily case, point-and-click escape rooms and printable cold case files. No download needed.',
+            'description' => 'Free online mystery and detective games: whodunit cases with six clues, a daily case, point-and-click escape rooms and printable cold case files. No download needed.',
             'lead' => 'Read the statements, check the evidence, catch the lie and name the culprit. Every Six Clues case is a short detective game you can play in your browser – from easy thefts for beginners to fiendish murders for seasoned sleuths. A new case comes out every day.',
             'sections' => fn() => [
                 ['Start here: easy detective cases', 'Short and fair – perfect for your first case.', $mysGrid(array_slice($mys(fn($m) => (int)$m['level'] === 1), 0, 6))],
